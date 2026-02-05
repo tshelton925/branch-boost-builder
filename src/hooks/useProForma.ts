@@ -6,6 +6,7 @@ export function useProForma() {
   const [inputs, setInputs] = useState<ProFormaInputs>(DEFAULT_INPUTS);
   const [currentScenarioId, setCurrentScenarioId] = useState<string | null>(null);
   const [currentScenarioName, setCurrentScenarioName] = useState<string>('');
+  const [isDirty, setIsDirty] = useState(false);
 
   const outputs: ProFormaOutputs = useMemo(() => {
     return calculateOutputs(inputs);
@@ -16,12 +17,18 @@ export function useProForma() {
     value: ProFormaInputs[K]
   ) => {
     setInputs(prev => ({ ...prev, [key]: value }));
+    setIsDirty(true);
+  }, []);
+
+  const markClean = useCallback(() => {
+    setIsDirty(false);
   }, []);
 
   const resetInputs = useCallback(() => {
     setInputs(DEFAULT_INPUTS);
     setCurrentScenarioId(null);
     setCurrentScenarioName('');
+    setIsDirty(false);
   }, []);
 
   const loadScenarioData = useCallback((
@@ -32,6 +39,7 @@ export function useProForma() {
     setInputs(scenarioInputs);
     setCurrentScenarioId(id);
     setCurrentScenarioName(name);
+    setIsDirty(false);
   }, []);
 
   return {
@@ -45,5 +53,7 @@ export function useProForma() {
     currentScenarioName,
     setCurrentScenarioId,
     setCurrentScenarioName,
+    isDirty,
+    markClean,
   };
 }

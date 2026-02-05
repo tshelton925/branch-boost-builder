@@ -1,6 +1,17 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog';
+import { Button } from '@/components/ui/button';
 import { useAuth } from '@/hooks/useAuth';
 import { useProForma } from '@/hooks/useProForma';
 import { usePDFExport } from '@/hooks/usePDFExport';
@@ -29,16 +40,21 @@ export function Dashboard() {
     outputs,
     updateInput,
     loadScenarioData,
+    resetInputs,
     currentScenarioId,
     currentScenarioName,
     setCurrentScenarioId,
     setCurrentScenarioName,
+    isDirty,
+    markClean,
   } = useProForma();
 
   const [scenarioManagerOpen, setScenarioManagerOpen] = useState(false);
   const [scenarioManagerMode, setScenarioManagerMode] = useState<'save' | 'load'>('save');
   const [compareOpen, setCompareOpen] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
+  const [showNewConfirm, setShowNewConfirm] = useState(false);
+
   useEffect(() => {
     if (!authLoading && !user) {
       navigate('/auth');
@@ -68,6 +84,31 @@ export function Dashboard() {
     setScenarioManagerOpen(true);
   };
 
+  const handleNew = () => {
+    if (isDirty) {
+      setShowNewConfirm(true);
+    } else {
+      resetInputs();
+      toast({ title: 'New scenario', description: 'Starting with a blank form.' });
+    }
+  };
+
+  const handleDiscardAndNew = () => {
+    setShowNewConfirm(false);
+    resetInputs();
+    toast({ title: 'New scenario', description: 'Previous changes discarded. Starting fresh.' });
+  };
+
+  const handleSaveAndNew = () => {
+    setShowNewConfirm(false);
+    setScenarioManagerMode('save');
+    setScenarioManagerOpen(true);
+    // After save succeeds, handleSaveSuccess will be called and we reset
+    setPendingNewAfterSave(true);
+  };
+
+  const [pendingNewAfterSave, setPendingNewAfterSave] = useState(false);
+
   const handleLoadScenario = (scenario: ProFormaScenario) => {
     loadScenarioData(scenario.inputs, scenario.id, scenario.name);
     toast({
@@ -79,6 +120,16 @@ export function Dashboard() {
   const handleSaveSuccess = (id: string, name: string) => {
     setCurrentScenarioId(id);
     setCurrentScenarioName(name);
+    markClean();
+
+    if (pendingNewAfterSave) {
+      setPendingNewAfterSave(false);
+      // Small delay so the user sees save confirmation before reset
+      setTimeout(() => {
+        resetInputs();
+        toast({ title: 'New scenario', description: 'Previous scenario saved. Starting fresh.' });
+      }, 300);
+    }
   };
 
   const handleExportPDF = () => {
@@ -110,11 +161,13 @@ export function Dashboard() {
         currentScenarioName={currentScenarioName}
         onSave={handleSave}
         onLoad={handleLoad}
+        onNew={handleNew}
         onSignOut={handleSignOut}
         onExportPDF={handleExportPDF}
         onCompare={handleCompare}
         onShare={handleShare}
         hasScenarioId={!!currentScenarioId}
+        isDirty={isDirty}
       />
 
       <main className="flex-1 container mx-auto px-4 py-6">
@@ -189,6 +242,27 @@ export function Dashboard() {
         scenarioId={currentScenarioId}
         scenarioName={currentScenarioName}
       />
+
+      {/* Unsaved changes confirmation dialog */}
+      <AlertDialog open={showNewConfirm} onOpenChange={setShowNewConfirm}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Start a New Scenario?</AlertDialogTitle>
+            <AlertDialogDescription>
+              You have unsaved changes. Would you like to save your current work first?
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter className="flex-col sm:flex-row gap-2">
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <Button variant="outline" onClick={handleDiscardAndNew}>
+              Discard & New
+            </Button>
+            <AlertDialogAction onClick={handleSaveAndNew}>
+              Save & New
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
     </div>
   );
 }
