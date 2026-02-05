@@ -94,6 +94,29 @@ export interface KPIData {
   prevTotalExpenses?: number;
 }
 
+export interface ShareLink {
+  id: string;
+  scenario_id: string;
+  user_id: string;
+  slug: string;
+  custom_title: string | null;
+  custom_message: string | null;
+  is_active: boolean;
+  visit_count: number;
+  last_visited_at: string | null;
+  expires_at: string | null;
+  created_at: string;
+}
+
+export interface ShareLinkEvent {
+  id: string;
+  share_link_id: string;
+  event_type: string;
+  visitor_ip: string | null;
+  user_agent: string | null;
+  created_at: string;
+}
+
 export const DEFAULT_INPUTS: ProFormaInputs = {
   launch_date: new Date().toISOString().split('T')[0],
   units_year1: 150,
