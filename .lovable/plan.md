@@ -1,164 +1,254 @@
 
 
-# Lending Heights Pro Forma Builder - Implementation Plan
+# Shareable Scenario Links - Implementation Plan
 
 ## Overview
-A comprehensive Pro Forma financial modeling application for mortgage branch managers, featuring 3-year P&L projections, recruiting analytics, scenario management, and professional reporting.
+
+This feature lets you generate custom share links for any saved scenario. Recipients can view a beautifully designed, read-only landing page -- no login required. Every link visit and interaction is tracked in your database so you can see engagement analytics.
 
 ---
 
-## Phase 1: Foundation & Database
+## How It Works
 
-### Database Setup
-- Create `scenarios` table with JSONB fields for flexible input/output storage
-- Enable Row Level Security with user-specific policies
-- Set up auto-updating timestamps via database trigger
-
-### Authentication
-- Create a clean, modern Auth page with Sign In / Sign Up tabs
-- Email/password authentication via Supabase
-- Protected routes that redirect unauthenticated users
-- Friendly onboarding experience
-
----
-
-## Phase 2: Core Application
-
-### Main Dashboard Layout
-- **Header**: "Lending Heights" branding with modern friendly styling, Load/Save/Sign Out buttons
-- **KPI Panel**: 8 key metrics displayed as visually appealing cards with year selector tabs
-- **Main Content Tabs**: Assumptions, Expenses, Analytics, P&L Statement
-- **Footer**: Clean copyright footer
-
-### KPI Dashboard (8 Metrics)
-1. Net Revenue - with trend indicators
-2. Net Income - color-coded green/red
-3. Profit Margin - performance-based coloring
-4. Revenue per LO - productivity insight
-5. Cost per Loan - efficiency metric
-6. Break-even Units - target guidance
-7. LO Productivity Score - monthly average
-8. Total Expenses - overview
-
-Each card includes:
-- Colorful icons with soft backgrounds
-- Helpful tooltips explaining the metric
-- Year-over-year trend arrows for Year 2/3
+```text
+You (logged in)                     Recipient (no login needed)
++---------------------+            +----------------------------+
+| Dashboard           |            | Public Landing Page        |
+|                     |            |                            |
+| [Share Scenario] ---|--link----->| Branded header             |
+|                     |            | KPI summary cards          |
+| Share Link Manager  |            | 3-year P&L table           |
+| - Copy link         |            | Visual charts              |
+| - View analytics    |            | "Powered by Lending Heights"|
+| - Deactivate link   |            +----------------------------+
++---------------------+                      |
+        ^                                    |
+        |        +------------------+        |
+        +--------| share_links DB   |<-------+
+                 | - visit count    |  (tracked)
+                 | - click events   |
+                 +------------------+
+```
 
 ---
 
-## Phase 3: Input Forms
+## What Gets Built
 
-### Assumptions Form
-- **Launch Date** picker
-- **Loan Volume Projections** (Year 1, 2, 3 inputs)
-- **Average Loan Size** with smart formatting
-- **Pricing & Compensation** (basis points inputs)
-- **Team Structure** (LOs, processors, assistants)
-- **Base Salaries** for all roles
+### 1. New Database Table: `share_links`
 
-### Expenses Form
-- **Marketing Expenses** section with add/edit/delete
-- **Other Expenses** section with frequency options (monthly, annual, per-loan)
-- Clean grid layout with inline editing
-- Pre-populated default expenses
+A dedicated table to store each share link along with its analytics and customization options.
 
----
+| Column | Type | Purpose |
+|---|---|---|
+| id | UUID | Primary key |
+| scenario_id | UUID | References the scenario being shared |
+| user_id | UUID | The owner who created the link |
+| slug | TEXT (unique) | The URL-friendly identifier (e.g., `q1-2025-projection-a3b2`) |
+| custom_title | TEXT | Optional custom title for the landing page |
+| custom_message | TEXT | Optional personalized message to the recipient |
+| is_active | BOOLEAN | Toggle to enable/disable the link |
+| visit_count | INTEGER | Total page views |
+| last_visited_at | TIMESTAMPTZ | When the link was last opened |
+| expires_at | TIMESTAMPTZ | Optional expiration date |
+| created_at | TIMESTAMPTZ | When the link was created |
 
-## Phase 4: Calculation Engine
+A separate analytics table tracks individual events:
 
-### Revenue Calculations (3-Year)
-- Loan Volume = Units × Average Loan Size
-- Gross Revenue from pricing BPS
-- LO Compensation deductions
-- Net Revenue calculation
+**Table: `share_link_events`**
 
-### Expense Calculations (3-Year)
-- Branch Manager base + 15% override
-- Team salaries (LOs, processors, assistants)
-- Processing fees ($795 first 25, $500 after)
-- Marketing & other expense aggregation
-- Total expenses and Net Income
+| Column | Type | Purpose |
+|---|---|---|
+| id | UUID | Primary key |
+| share_link_id | UUID | References the share link |
+| event_type | TEXT | Type of event (e.g., `visit`, `pdf_download`, `scroll_to_pl`) |
+| visitor_ip | TEXT | Anonymous visitor identifier |
+| user_agent | TEXT | Browser info |
+| created_at | TIMESTAMPTZ | When the event occurred |
 
----
+**Security:**
+- RLS on `share_links`: Only the owner can create, read, update, and delete their own links
+- RLS on `share_link_events`: Owner can read events for their links; public insert allowed (for tracking)
+- A public SELECT policy on `scenarios` will be added so that when `is_public = true`, the scenario data can be read by anyone (this leverages the existing `is_public` column)
 
-## Phase 5: Visual Analytics
+### 2. Backend Function: `track-share-visit`
 
-### Four Interactive Charts
-1. **Revenue vs Expense Trend** - Line chart showing 3-year trajectory
-2. **Expense Breakdown** - Donut pie chart by category
-3. **Net Income Waterfall** - Visual flow from gross revenue to profit
-4. **LO Productivity** - Bar chart with productivity metrics
+A backend function that handles public link visits securely:
+- Looks up the share link by slug
+- Validates the link is active and not expired
+- Increments the visit counter
+- Logs the visit event with metadata (browser, timestamp)
+- Returns the full scenario data (inputs + outputs) along with customization fields
+- No authentication required (public endpoint)
 
-All charts will have:
-- Smooth animations
-- Interactive tooltips
-- Modern color palette
-- Responsive sizing
+### 3. New Route: `/share/:slug`
 
----
+A new public route in the app router. This page does NOT require login.
 
-## Phase 6: P&L Statement
+**URL format:** `https://your-app.lovable.app/share/q1-2025-projection-a3b2`
 
-### Professional Financial Table
-- Full 3-year columnar display
-- Revenue section with subtotals
-- Itemized expense breakdown
-- Color-coded Net Income row
-- Clean, scannable formatting
+### 4. Public Landing Page Component
 
----
+A polished, read-only presentation page designed for recruiting conversations:
 
-## Phase 7: Scenario Management
+- **Branded header** with Lending Heights logo, custom title, and custom message
+- **KPI summary strip** showing the 4 most important metrics (Net Revenue, Net Income, Profit Margin, Revenue per LO)
+- **3-Year P&L table** (reuses the existing PLDisplay component in read-only mode)
+- **Visual charts** (Revenue vs Expense trend + Expense Breakdown)
+- **Footer** with "Powered by Lending Heights" branding and generation date
+- **Expired/inactive state** with a friendly message if the link is no longer valid
 
-### Save & Load System
-- Save scenarios with custom names and tags
-- Search/filter through saved scenarios
-- Quick-load from scenario cards
-- Delete with confirmation
-- Auto-save indicator
+### 5. Share Link Manager Dialog
 
----
+A new dialog accessible from the Dashboard header and from the Scenario Manager:
 
-## Phase 8: Extra Features
+**Creating a share link:**
+- Custom title field (defaults to scenario name)
+- Custom message field (optional, e.g., "Hey John, here's the branch projection we discussed")
+- Optional expiration date picker
+- Auto-generated slug based on scenario name + random suffix
+- "Generate Link" button
 
-### PDF Export
-- Generate professional PDF reports
-- Include KPIs, P&L, and charts
-- Branded header with scenario name
-- Ready for recruiting presentations
+**Managing existing links:**
+- List of all share links for the current scenario
+- Each shows: custom title, visit count, created date, active/inactive status
+- Copy link button (copies full URL to clipboard)
+- Toggle active/inactive
+- Delete link
+- View analytics (visit count, last visited)
 
-### Scenario Comparison
-- Side-by-side comparison of 2-3 scenarios
-- Highlight key differences
-- Visual comparison charts
-- Easy toggle between scenarios
+### 6. Share Button in Dashboard Header
 
----
+A new "Share" button added to the header next to the existing Export PDF button:
+- Only enabled when a scenario is saved (has an ID)
+- Opens the Share Link Manager dialog
+- Icon: lucide `Share2` or `Link`
 
-## Design Approach
+### 7. Share Button in Scenario Manager (Load Mode)
 
-### Modern & Friendly Aesthetic
-- Rounded corners and soft shadows
-- Welcoming color palette (blue/teal primary with warm accents)
-- Clear typography with good spacing
-- Subtle hover animations
-- Card-based UI with gentle depth
-- Mobile-responsive layouts
-
-### User Experience
-- Intuitive tab navigation
-- Helpful tooltips throughout
-- Loading states and success feedback
-- Error handling with friendly messages
-- Toast notifications for actions
+Each scenario card in the load dialog will get a small share icon button, allowing quick link generation from the scenario list.
 
 ---
 
-## Technology Stack
-- **Frontend**: React + TypeScript + Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Charts**: Recharts
-- **Backend**: Supabase (Auth + Database)
-- **PDF**: Client-side PDF generation
+## Technical Details
+
+### Database Migration
+
+```sql
+-- Share links table
+CREATE TABLE public.share_links (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  scenario_id UUID NOT NULL REFERENCES public.scenarios(id) ON DELETE CASCADE,
+  user_id UUID NOT NULL,
+  slug TEXT NOT NULL UNIQUE,
+  custom_title TEXT,
+  custom_message TEXT,
+  is_active BOOLEAN NOT NULL DEFAULT true,
+  visit_count INTEGER NOT NULL DEFAULT 0,
+  last_visited_at TIMESTAMPTZ,
+  expires_at TIMESTAMPTZ,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+-- Events tracking table
+CREATE TABLE public.share_link_events (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  share_link_id UUID NOT NULL REFERENCES public.share_links(id) ON DELETE CASCADE,
+  event_type TEXT NOT NULL DEFAULT 'visit',
+  visitor_ip TEXT,
+  user_agent TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+-- Enable RLS
+ALTER TABLE public.share_links ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.share_link_events ENABLE ROW LEVEL SECURITY;
+
+-- RLS: Owners manage their own share links
+CREATE POLICY "Users manage own share links" ON public.share_links
+  FOR ALL USING (auth.uid() = user_id) WITH CHECK (auth.uid() = user_id);
+
+-- RLS: Anyone can read active share links by slug (for public page)
+CREATE POLICY "Public can read active share links" ON public.share_links
+  FOR SELECT USING (is_active = true);
+
+-- RLS: Events - owner can read their link events
+CREATE POLICY "Owners read own link events" ON public.share_link_events
+  FOR SELECT USING (
+    EXISTS (
+      SELECT 1 FROM public.share_links
+      WHERE share_links.id = share_link_events.share_link_id
+      AND share_links.user_id = auth.uid()
+    )
+  );
+
+-- RLS: Allow public insert for tracking (anon users visiting)
+CREATE POLICY "Anyone can insert events" ON public.share_link_events
+  FOR INSERT WITH CHECK (true);
+
+-- Update scenarios RLS to allow public reads when is_public = true
+CREATE POLICY "Public can view public scenarios" ON public.scenarios
+  FOR SELECT USING (is_public = true);
+```
+
+### New Files
+
+| File | Purpose |
+|---|---|
+| `src/pages/SharedScenario.tsx` | The public landing page for shared links |
+| `src/components/ShareLinkManager.tsx` | Dialog for creating/managing share links |
+| `src/components/shared/SharedKPIStrip.tsx` | Compact KPI display for the public page |
+| `src/components/shared/SharedPLTable.tsx` | Read-only P&L table for public viewing |
+| `src/components/shared/SharedCharts.tsx` | Chart display for public viewing |
+| `src/lib/shareLinks.ts` | Storage functions for share link CRUD |
+| `supabase/functions/track-share-visit/index.ts` | Backend function for visit tracking |
+
+### Modified Files
+
+| File | Change |
+|---|---|
+| `src/App.tsx` | Add `/share/:slug` route |
+| `src/components/DashboardHeader.tsx` | Add Share button |
+| `src/components/Dashboard.tsx` | Wire up Share dialog |
+| `src/components/ScenarioManager.tsx` | Add share icon to scenario cards |
+| `src/lib/types.ts` | Add ShareLink type interface |
+
+### Edge Function: `track-share-visit`
+
+Handles the public visit flow:
+1. Receives the slug as a query parameter
+2. Looks up the share link (validates active + not expired)
+3. Fetches the associated scenario data (using service role to bypass RLS)
+4. Increments visit_count on the share link
+5. Inserts a new event record
+6. Returns scenario data + customization fields to the frontend
+
+This keeps the tracking secure and server-side, preventing visit count manipulation.
+
+### URL Slug Generation
+
+Slugs are generated from the scenario name with a random suffix for uniqueness:
+- "Q1 2025 Projection" becomes `q1-2025-projection-a3b2`
+- Users can optionally customize the slug before generating
+
+### Landing Page Responsive Design
+
+The shared landing page will follow the same modern/friendly aesthetic:
+- Full-width, mobile-responsive layout
+- No navigation or login prompts
+- Clean, presentation-ready design suitable for screen sharing
+- Print-friendly CSS for recipients who want to save as PDF
+
+---
+
+## Implementation Sequence
+
+1. **Database migration** - Create `share_links` and `share_link_events` tables with RLS policies, update scenarios RLS for public reads
+2. **Type definitions** - Add `ShareLink` and `ShareLinkEvent` interfaces to types
+3. **Backend function** - Build `track-share-visit` edge function for secure visit tracking
+4. **Storage layer** - Create `shareLinks.ts` with CRUD functions (create, list, toggle, delete)
+5. **Share Link Manager** - Build the dialog UI for creating and managing links
+6. **Dashboard integration** - Add Share button to header and wire up the dialog
+7. **Public landing page** - Build the `SharedScenario` page with KPIs, P&L, and charts
+8. **Routing** - Add the `/share/:slug` public route to App.tsx
+9. **Scenario Manager enhancement** - Add share icon to each scenario card in the load view
 
