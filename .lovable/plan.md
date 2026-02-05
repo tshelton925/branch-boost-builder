@@ -1,49 +1,73 @@
 
 
-# Add New Scenario / Multi-Scenario Workflow
+# Scenario Pipeline - Always-Visible Scenario Sidebar
 
-## The Problem
+## Overview
 
-Right now, the dashboard only tracks one active scenario. Once you load or save a scenario, the only way to start a fresh one is to manually change every input back to defaults. There is no "Add New" or "New Scenario" button, making it cumbersome to create multiple scenarios back-to-back.
+Instead of burying your saved scenarios behind a "Load" dialog, this feature adds a persistent **Scenario Pipeline** panel directly on the dashboard. All your saved scenarios are stacked vertically like a pipeline, each with a trash icon for quick cleanup. You can click any scenario to load it, and the currently active one is highlighted. This makes it dead simple to build up a library of scenarios and jump between them for comparison.
+
+---
 
 ## What Changes
 
-### 1. "New" Button in the Dashboard Header
+### 1. Scenario Pipeline Panel (New Component)
 
-A new "New" button (with a `FilePlus` icon) will be added to the header toolbar, placed to the left of the Save button. Clicking it will:
+A new collapsible sidebar/panel that lives on the left side of the dashboard, always visible. It shows:
 
-- Check if the current form has unsaved changes
-- If there are unsaved changes, show a confirmation dialog asking whether to save first or discard
-- Reset all inputs back to defaults (using the existing `resetInputs` function in `useProForma`)
-- Clear the current scenario ID and name so the subtitle returns to "Pro Forma Builder"
-- The form is now blank and ready for a brand-new scenario
+- A header with "Scenario Pipeline" title and a count badge (e.g., "5 scenarios")
+- A stacked list of all saved scenarios, ordered by most recently updated
+- Each scenario card shows:
+  - Scenario name (truncated if long)
+  - Last updated timestamp
+  - Tags (if any) as small badges
+  - A **trash icon** button on the right to delete inline (with confirmation)
+  - A subtle highlight/border when it is the currently loaded scenario
+- An **"+ Add New"** button at the top of the pipeline to quickly save the current form as a new scenario or start fresh
+- A search/filter input at the top for when the list gets long
+- The panel auto-refreshes after saving or deleting
 
-### 2. Unsaved Changes Detection
+### 2. Dashboard Layout Change
 
-To prevent accidental data loss, a simple dirty-state tracker will be added to `useProForma`:
+The current dashboard is a single-column layout. This will shift to a two-panel layout:
 
-- A new `isDirty` flag that becomes `true` whenever `updateInput` is called after the last save or load
-- Resets to `false` when a scenario is saved, loaded, or when "New" is confirmed
-- This flag controls whether the confirmation dialog appears when clicking "New"
+```text
++-------------------+----------------------------------------+
+| Scenario Pipeline |  KPI Panel                             |
+| (left sidebar)    |                                        |
+|                   |  Tabs: Assumptions | Expenses | ...    |
+| [+ Add New]       |                                        |
+| [Search...]       |  [Tab Content]                         |
+|                   |                                        |
+| > Scenario A  [x] |                                        |
+|   Scenario B  [x] |                                        |
+|   Scenario C  [x] |                                        |
+|   Scenario D  [x] |                                        |
+|                   |                                        |
++-------------------+----------------------------------------+
+```
 
-### 3. Confirmation Dialog
+- The pipeline panel takes roughly 280px on desktop
+- On mobile, it collapses into a slide-out drawer triggered by a button in the header
+- The main content area fills the remaining width
 
-When you click "New" and have unsaved changes, a friendly alert dialog will appear:
+### 3. Inline Delete with Confirmation
 
-- Title: "Start a New Scenario?"
-- Message: "You have unsaved changes. Would you like to save your current work first?"
-- Three options:
-  - **Save & New** -- saves the current scenario, then resets to a blank form
-  - **Discard & New** -- immediately resets without saving
-  - **Cancel** -- closes the dialog and stays on the current scenario
+Each scenario in the pipeline has a trash can icon. Clicking it shows a small inline confirmation (or a popover) asking "Delete this scenario?" with Confirm/Cancel -- no full-screen dialog needed. This keeps the interaction fast and focused.
 
-### 4. Active Scenario Indicator
+### 4. Active Scenario Highlighting
 
-A subtle visual indicator in the header subtitle area will show whether the current form is a new unsaved scenario or a loaded one:
+The currently loaded scenario gets a colored left border and a subtle background tint so you can always see which one is active at a glance. If the current form has unsaved changes, a small dot or "(edited)" label appears next to the active scenario name.
 
-- Loaded scenario: Shows the scenario name (already works)
-- New unsaved scenario: Shows "New Scenario (unsaved)" in a slightly different style
-- This provides clear feedback about what state you are in
+### 5. Quick Actions per Scenario
+
+Each scenario card in the pipeline will have hover actions:
+- **Click** the card to load it (replaces current form -- with unsaved-changes check)
+- **Trash icon** to delete
+- The existing Share and Compare features remain in the header toolbar
+
+### 6. Auto-Refresh on Save
+
+When you save a scenario (via the Save button or Save dialog), the pipeline automatically refreshes its list. If it was a new save, the new scenario appears at the top of the stack. If it was an update, the existing entry refreshes its timestamp.
 
 ---
 
@@ -51,46 +75,88 @@ A subtle visual indicator in the header subtitle area will show whether the curr
 
 | File | What Changes |
 |---|---|
-| `src/hooks/useProForma.ts` | Add `isDirty` state flag and reset logic |
-| `src/components/DashboardHeader.tsx` | Add "New" button with `FilePlus` icon, update subtitle to show unsaved state |
-| `src/components/Dashboard.tsx` | Add `handleNew` function, wire up unsaved-changes confirmation dialog, pass new props to header |
+| `src/components/ScenarioPipeline.tsx` | **New file** -- the stacked pipeline panel component |
+| `src/components/Dashboard.tsx` | Restructure layout to include the pipeline panel alongside main content; add state for pipeline refresh trigger; wire unsaved-changes check into pipeline click-to-load |
+| `src/components/DashboardHeader.tsx` | Add a mobile toggle button for the pipeline drawer; optionally simplify by removing the "Load" button (pipeline replaces it) |
+| `src/hooks/useScenarioPipeline.ts` | **New file** -- custom hook managing the scenario list state, loading, deleting, and refresh logic (extracted from ScenarioManager for reuse) |
 
-No new files are needed. No database changes required -- this is purely a frontend workflow improvement using existing save/load infrastructure.
+No database changes needed -- this uses the existing `scenarios` table and existing `loadScenarios` / `deleteScenario` storage functions.
 
 ---
 
 ## Technical Details
 
-### `useProForma.ts` Changes
+### New Hook: `useScenarioPipeline.ts`
 
-- Add `isDirty: boolean` state, initialized to `false`
-- Set `isDirty = true` inside `updateInput`
-- Set `isDirty = false` inside `resetInputs`, `loadScenarioData`, and expose a `markClean` function for after saves
-- Return `isDirty` and `markClean` from the hook
+Extracts the scenario-list logic into a reusable hook so both the pipeline and the existing ScenarioManager/Compare dialog can share it:
 
-### `DashboardHeader.tsx` Changes
+- `scenarios: ProFormaScenario[]` -- the loaded list
+- `loading: boolean` -- loading state
+- `refresh()` -- re-fetches from the database
+- `remove(id: string)` -- deletes a scenario and updates the local list
+- `searchQuery / setSearchQuery` -- for filtering
+- `filteredScenarios` -- computed filtered list
+- Auto-loads on mount and exposes a `refreshKey` counter that Dashboard can increment after saves
 
-- Add `onNew` callback prop and `isDirty` boolean prop
-- Render a new "New" button with `FilePlus` icon, placed before the Save button
-- Update the subtitle: when `currentScenarioName` is empty and `isDirty` is true, show "New Scenario (unsaved)"
+### New Component: `ScenarioPipeline.tsx`
 
-### `Dashboard.tsx` Changes
+Props:
+- `scenarios: ProFormaScenario[]` -- the scenario list
+- `loading: boolean`
+- `currentScenarioId: string | null` -- to highlight the active one
+- `isDirty: boolean` -- to show "(edited)" indicator
+- `onSelect: (scenario: ProFormaScenario) => void` -- click-to-load callback
+- `onDelete: (id: string) => void` -- delete callback
+- `onNew: () => void` -- add new callback
+- `searchQuery: string`
+- `onSearchChange: (q: string) => void`
 
-- Import `AlertDialog` components (already imported via ScenarioManager pattern)
-- Add `showNewConfirm` state to control the confirmation dialog
-- `handleNew` function:
-  - If `!isDirty`, call `resetInputs()` directly
-  - If `isDirty`, open the confirmation dialog
-- "Save & New" handler: triggers save flow, then resets on success
-- "Discard & New" handler: calls `resetInputs()` immediately
-- After a successful save in `handleSaveSuccess`, call `markClean()` to clear the dirty flag
-- Pass `onNew` and `isDirty` as new props to `DashboardHeader`
+Structure:
+- Header section with title, count badge, and "+ Add New" button
+- Search input with a search icon
+- Scrollable list of scenario cards using existing Card/Badge components
+- Each card: name, timestamp, tags, trash icon
+- Active card gets `border-l-4 border-primary bg-primary/5` styling
+- Delete uses a Popover confirmation (lightweight, no full dialog)
+- Empty state: "No scenarios yet. Save your first one!"
 
-### Button Placement (left to right)
+### Dashboard.tsx Layout Changes
+
+The main content area wraps in a flex layout:
 
 ```text
-[Share] [Compare] [Export PDF] [Load] [New] [Save] [Sign Out]
+<div className="flex gap-6">
+  <ScenarioPipeline ... />    <!-- 280px, shrink-0 -->
+  <div className="flex-1">   <!-- existing KPI + Tabs -->
+    ...
+  </div>
+</div>
 ```
 
-The "New" button uses `variant="outline"` to match the toolbar style, with a `FilePlus` icon and label that hides on small screens (matching the existing responsive pattern).
+On mobile (below `lg` breakpoint):
+- The pipeline hides by default
+- A toggle button in the header opens it as a `Sheet` (slide-out drawer from the left)
+- Uses the existing `Sheet` component from the UI library
+
+### Dashboard.tsx State Changes
+
+- Import and use `useScenarioPipeline` hook
+- Pass `refresh` trigger after `handleSaveSuccess`
+- Wire `onSelect` through the existing unsaved-changes check flow (same as `handleNew` pattern -- if dirty, confirm before switching)
+- Remove or keep the "Load" dialog button (the pipeline replaces its core function, but the dialog can remain as an alternative)
+
+### DashboardHeader.tsx Changes
+
+- Add a `onTogglePipeline` prop and a sidebar toggle icon button (visible only on mobile)
+- The "Load" button text can change to "Pipeline" or be removed entirely since the sidebar replaces it
+
+### Interaction Flow
+
+1. User opens the dashboard -- pipeline loads and shows all saved scenarios
+2. User fills out a form and clicks Save -- pipeline refreshes, new scenario appears at top
+3. User clicks "+ Add New" -- triggers the existing `handleNew` flow (with unsaved-changes check)
+4. User clicks a scenario card -- triggers load (with unsaved-changes check if dirty)
+5. User clicks the trash icon on a card -- popover confirmation appears, scenario deletes on confirm
+6. Active scenario is always highlighted with a colored border
+7. On mobile, user taps a hamburger/sidebar icon to slide the pipeline in
 
