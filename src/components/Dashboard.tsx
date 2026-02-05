@@ -13,6 +13,7 @@ import { PLDisplay } from '@/components/PLDisplay';
 import { AnalyticsDashboard } from '@/components/AnalyticsDashboard';
 import { ScenarioManager } from '@/components/ScenarioManager';
 import { ScenarioCompare } from '@/components/ScenarioCompare';
+import { ShareLinkManager } from '@/components/ShareLinkManager';
 import { ProFormaScenario } from '@/lib/types';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2, ClipboardList, Receipt, BarChart3, FileText } from 'lucide-react';
@@ -37,7 +38,7 @@ export function Dashboard() {
   const [scenarioManagerOpen, setScenarioManagerOpen] = useState(false);
   const [scenarioManagerMode, setScenarioManagerMode] = useState<'save' | 'load'>('save');
   const [compareOpen, setCompareOpen] = useState(false);
-
+  const [shareOpen, setShareOpen] = useState(false);
   useEffect(() => {
     if (!authLoading && !user) {
       navigate('/auth');
@@ -88,9 +89,8 @@ export function Dashboard() {
     });
   };
 
-  const handleCompare = () => {
-    setCompareOpen(true);
-  };
+  const handleCompare = () => setCompareOpen(true);
+  const handleShare = () => setShareOpen(true);
 
   if (authLoading) {
     return (
@@ -113,6 +113,8 @@ export function Dashboard() {
         onSignOut={handleSignOut}
         onExportPDF={handleExportPDF}
         onCompare={handleCompare}
+        onShare={handleShare}
+        hasScenarioId={!!currentScenarioId}
       />
 
       <main className="flex-1 container mx-auto px-4 py-6">
@@ -179,6 +181,13 @@ export function Dashboard() {
         onOpenChange={setCompareOpen}
         currentInputs={inputs}
         currentOutputs={outputs}
+      />
+
+      <ShareLinkManager
+        open={shareOpen}
+        onOpenChange={setShareOpen}
+        scenarioId={currentScenarioId}
+        scenarioName={currentScenarioName}
       />
     </div>
   );

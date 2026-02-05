@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Building2, Save, FolderOpen, LogOut, FileDown, GitCompare } from 'lucide-react';
+import { Building2, Save, FolderOpen, LogOut, FileDown, GitCompare, Share2 } from 'lucide-react';
 
 interface DashboardHeaderProps {
   currentScenarioName: string;
@@ -9,6 +8,8 @@ interface DashboardHeaderProps {
   onSignOut: () => void;
   onExportPDF: () => void;
   onCompare: () => void;
+  onShare: () => void;
+  hasScenarioId: boolean;
 }
 
 export function DashboardHeader({
@@ -18,6 +19,8 @@ export function DashboardHeader({
   onSignOut,
   onExportPDF,
   onCompare,
+  onShare,
+  hasScenarioId,
 }: DashboardHeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
@@ -36,6 +39,10 @@ export function DashboardHeader({
           </div>
 
           <div className="flex items-center gap-2">
+            <Button variant="outline" size="sm" onClick={onShare} disabled={!hasScenarioId}>
+              <Share2 className="h-4 w-4 mr-1" />
+              <span className="hidden sm:inline">Share</span>
+            </Button>
             <Button variant="outline" size="sm" onClick={onCompare}>
               <GitCompare className="h-4 w-4 mr-1" />
               <span className="hidden sm:inline">Compare</span>

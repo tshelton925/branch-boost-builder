@@ -53,6 +53,91 @@ export type Database = {
         }
         Relationships: []
       }
+      share_link_events: {
+        Row: {
+          created_at: string
+          event_type: string
+          id: string
+          share_link_id: string
+          user_agent: string | null
+          visitor_ip: string | null
+        }
+        Insert: {
+          created_at?: string
+          event_type?: string
+          id?: string
+          share_link_id: string
+          user_agent?: string | null
+          visitor_ip?: string | null
+        }
+        Update: {
+          created_at?: string
+          event_type?: string
+          id?: string
+          share_link_id?: string
+          user_agent?: string | null
+          visitor_ip?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "share_link_events_share_link_id_fkey"
+            columns: ["share_link_id"]
+            isOneToOne: false
+            referencedRelation: "share_links"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      share_links: {
+        Row: {
+          created_at: string
+          custom_message: string | null
+          custom_title: string | null
+          expires_at: string | null
+          id: string
+          is_active: boolean
+          last_visited_at: string | null
+          scenario_id: string
+          slug: string
+          user_id: string
+          visit_count: number
+        }
+        Insert: {
+          created_at?: string
+          custom_message?: string | null
+          custom_title?: string | null
+          expires_at?: string | null
+          id?: string
+          is_active?: boolean
+          last_visited_at?: string | null
+          scenario_id: string
+          slug: string
+          user_id: string
+          visit_count?: number
+        }
+        Update: {
+          created_at?: string
+          custom_message?: string | null
+          custom_title?: string | null
+          expires_at?: string | null
+          id?: string
+          is_active?: boolean
+          last_visited_at?: string | null
+          scenario_id?: string
+          slug?: string
+          user_id?: string
+          visit_count?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "share_links_scenario_id_fkey"
+            columns: ["scenario_id"]
+            isOneToOne: false
+            referencedRelation: "scenarios"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never
