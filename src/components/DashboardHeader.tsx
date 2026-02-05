@@ -1,10 +1,10 @@
+import { ReactNode } from 'react';
 import { Button } from '@/components/ui/button';
-import { Building2, Save, FolderOpen, LogOut, FileDown, GitCompare, Share2, FilePlus } from 'lucide-react';
+import { Building2, Save, LogOut, FileDown, GitCompare, Share2, FilePlus } from 'lucide-react';
 
 interface DashboardHeaderProps {
   currentScenarioName: string;
   onSave: () => void;
-  onLoad: () => void;
   onNew: () => void;
   onSignOut: () => void;
   onExportPDF: () => void;
@@ -12,12 +12,12 @@ interface DashboardHeaderProps {
   onShare: () => void;
   hasScenarioId: boolean;
   isDirty: boolean;
+  pipelineToggle?: ReactNode;
 }
 
 export function DashboardHeader({
   currentScenarioName,
   onSave,
-  onLoad,
   onNew,
   onSignOut,
   onExportPDF,
@@ -25,6 +25,7 @@ export function DashboardHeader({
   onShare,
   hasScenarioId,
   isDirty,
+  pipelineToggle,
 }: DashboardHeaderProps) {
   const subtitle = currentScenarioName
     ? currentScenarioName
@@ -37,6 +38,7 @@ export function DashboardHeader({
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
+            {pipelineToggle}
             <div className="p-2 bg-primary/10 rounded-xl">
               <Building2 className="h-6 w-6 text-primary" />
             </div>
@@ -60,10 +62,6 @@ export function DashboardHeader({
             <Button variant="outline" size="sm" onClick={onExportPDF}>
               <FileDown className="h-4 w-4 mr-1" />
               <span className="hidden sm:inline">Export PDF</span>
-            </Button>
-            <Button variant="outline" size="sm" onClick={onLoad}>
-              <FolderOpen className="h-4 w-4 mr-1" />
-              <span className="hidden sm:inline">Load</span>
             </Button>
             <Button variant="outline" size="sm" onClick={onNew}>
               <FilePlus className="h-4 w-4 mr-1" />
