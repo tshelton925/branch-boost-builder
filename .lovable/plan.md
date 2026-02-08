@@ -1,162 +1,65 @@
 
 
-# Scenario Pipeline - Always-Visible Scenario Sidebar
+# Suggested Enhancements for the Scenario Pipeline
 
-## Overview
-
-Instead of burying your saved scenarios behind a "Load" dialog, this feature adds a persistent **Scenario Pipeline** panel directly on the dashboard. All your saved scenarios are stacked vertically like a pipeline, each with a trash icon for quick cleanup. You can click any scenario to load it, and the currently active one is highlighted. This makes it dead simple to build up a library of scenarios and jump between them for comparison.
+These are additive improvements that enhance what you already have without changing the current design, flow, or architecture. Each one is independent -- you can pick and choose.
 
 ---
 
-## What Changes
+## 1. Duplicate Scenario Button
 
-### 1. Scenario Pipeline Panel (New Component)
+Add a small "copy" icon next to the trash icon on each pipeline card. Clicking it creates an instant copy of that scenario with the name "[Original Name] (Copy)" and loads it into the editor. This saves you from manually recreating similar scenarios -- just duplicate, tweak a few numbers, and save.
 
-A new collapsible sidebar/panel that lives on the left side of the dashboard, always visible. It shows:
-
-- A header with "Scenario Pipeline" title and a count badge (e.g., "5 scenarios")
-- A stacked list of all saved scenarios, ordered by most recently updated
-- Each scenario card shows:
-  - Scenario name (truncated if long)
-  - Last updated timestamp
-  - Tags (if any) as small badges
-  - A **trash icon** button on the right to delete inline (with confirmation)
-  - A subtle highlight/border when it is the currently loaded scenario
-- An **"+ Add New"** button at the top of the pipeline to quickly save the current form as a new scenario or start fresh
-- A search/filter input at the top for when the list gets long
-- The panel auto-refreshes after saving or deleting
-
-### 2. Dashboard Layout Change
-
-The current dashboard is a single-column layout. This will shift to a two-panel layout:
-
-```text
-+-------------------+----------------------------------------+
-| Scenario Pipeline |  KPI Panel                             |
-| (left sidebar)    |                                        |
-|                   |  Tabs: Assumptions | Expenses | ...    |
-| [+ Add New]       |                                        |
-| [Search...]       |  [Tab Content]                         |
-|                   |                                        |
-| > Scenario A  [x] |                                        |
-|   Scenario B  [x] |                                        |
-|   Scenario C  [x] |                                        |
-|   Scenario D  [x] |                                        |
-|                   |                                        |
-+-------------------+----------------------------------------+
-```
-
-- The pipeline panel takes roughly 280px on desktop
-- On mobile, it collapses into a slide-out drawer triggered by a button in the header
-- The main content area fills the remaining width
-
-### 3. Inline Delete with Confirmation
-
-Each scenario in the pipeline has a trash can icon. Clicking it shows a small inline confirmation (or a popover) asking "Delete this scenario?" with Confirm/Cancel -- no full-screen dialog needed. This keeps the interaction fast and focused.
-
-### 4. Active Scenario Highlighting
-
-The currently loaded scenario gets a colored left border and a subtle background tint so you can always see which one is active at a glance. If the current form has unsaved changes, a small dot or "(edited)" label appears next to the active scenario name.
-
-### 5. Quick Actions per Scenario
-
-Each scenario card in the pipeline will have hover actions:
-- **Click** the card to load it (replaces current form -- with unsaved-changes check)
-- **Trash icon** to delete
-- The existing Share and Compare features remain in the header toolbar
-
-### 6. Auto-Refresh on Save
-
-When you save a scenario (via the Save button or Save dialog), the pipeline automatically refreshes its list. If it was a new save, the new scenario appears at the top of the stack. If it was an update, the existing entry refreshes its timestamp.
+**What changes:** A new icon button on each pipeline card + a `duplicateScenario` function in the storage layer that inserts a copy with a new ID.
 
 ---
 
-## Files Modified
+## 2. Rename Scenario Inline
 
-| File | What Changes |
-|---|---|
-| `src/components/ScenarioPipeline.tsx` | **New file** -- the stacked pipeline panel component |
-| `src/components/Dashboard.tsx` | Restructure layout to include the pipeline panel alongside main content; add state for pipeline refresh trigger; wire unsaved-changes check into pipeline click-to-load |
-| `src/components/DashboardHeader.tsx` | Add a mobile toggle button for the pipeline drawer; optionally simplify by removing the "Load" button (pipeline replaces it) |
-| `src/hooks/useScenarioPipeline.ts` | **New file** -- custom hook managing the scenario list state, loading, deleting, and refresh logic (extracted from ScenarioManager for reuse) |
+Double-click a scenario name in the pipeline to edit it inline (turns into a text input, press Enter to save, Escape to cancel). Right now, renaming requires going through the Save dialog. This makes quick name corrections effortless.
 
-No database changes needed -- this uses the existing `scenarios` table and existing `loadScenarios` / `deleteScenario` storage functions.
+**What changes:** A small state toggle in the `ScenarioPipeline` component + an `updateScenarioName` function in storage.
 
 ---
 
-## Technical Details
+## 3. Sort Options for the Pipeline
 
-### New Hook: `useScenarioPipeline.ts`
+Add a small sort toggle (icon button) near the search bar that lets you sort by:
+- Most recently updated (default, current behavior)
+- Alphabetical (A-Z)
+- Oldest first
 
-Extracts the scenario-list logic into a reusable hook so both the pipeline and the existing ScenarioManager/Compare dialog can share it:
+This helps when your pipeline grows to 10+ scenarios and you want to find things differently than search.
 
-- `scenarios: ProFormaScenario[]` -- the loaded list
-- `loading: boolean` -- loading state
-- `refresh()` -- re-fetches from the database
-- `remove(id: string)` -- deletes a scenario and updates the local list
-- `searchQuery / setSearchQuery` -- for filtering
-- `filteredScenarios` -- computed filtered list
-- Auto-loads on mount and exposes a `refreshKey` counter that Dashboard can increment after saves
+**What changes:** A sort state + sort dropdown in the pipeline header, applied to the filtered list in `useScenarioPipeline`.
 
-### New Component: `ScenarioPipeline.tsx`
+---
 
-Props:
-- `scenarios: ProFormaScenario[]` -- the scenario list
-- `loading: boolean`
-- `currentScenarioId: string | null` -- to highlight the active one
-- `isDirty: boolean` -- to show "(edited)" indicator
-- `onSelect: (scenario: ProFormaScenario) => void` -- click-to-load callback
-- `onDelete: (id: string) => void` -- delete callback
-- `onNew: () => void` -- add new callback
-- `searchQuery: string`
-- `onSearchChange: (q: string) => void`
+## 4. Quick KPI Preview on Hover
 
-Structure:
-- Header section with title, count badge, and "+ Add New" button
-- Search input with a search icon
-- Scrollable list of scenario cards using existing Card/Badge components
-- Each card: name, timestamp, tags, trash icon
-- Active card gets `border-l-4 border-primary bg-primary/5` styling
-- Delete uses a Popover confirmation (lightweight, no full dialog)
-- Empty state: "No scenarios yet. Save your first one!"
+When you hover over a scenario card in the pipeline, show a small tooltip or popover with 3-4 key KPIs (Net Revenue, Net Income, Profit Margin, LO count) from that scenario's saved outputs. This lets you quickly scan scenarios without loading them.
 
-### Dashboard.tsx Layout Changes
+**What changes:** A `HoverCard` or `Tooltip` wrapping each pipeline card that reads from the scenario's stored `outputs` data.
 
-The main content area wraps in a flex layout:
+---
 
-```text
-<div className="flex gap-6">
-  <ScenarioPipeline ... />    <!-- 280px, shrink-0 -->
-  <div className="flex-1">   <!-- existing KPI + Tabs -->
-    ...
-  </div>
-</div>
-```
+## 5. Pipeline Collapse/Expand Toggle
 
-On mobile (below `lg` breakpoint):
-- The pipeline hides by default
-- A toggle button in the header opens it as a `Sheet` (slide-out drawer from the left)
-- Uses the existing `Sheet` component from the UI library
+Add a small chevron or collapse button at the top of the pipeline that shrinks it to just icons (about 48px wide) on desktop, giving you more room for the main editor. Click again to expand. The pipeline state persists via localStorage.
 
-### Dashboard.tsx State Changes
+**What changes:** A `collapsed` state in `Dashboard.tsx`, a narrower rendering mode in `ScenarioPipeline`, and localStorage persistence.
 
-- Import and use `useScenarioPipeline` hook
-- Pass `refresh` trigger after `handleSaveSuccess`
-- Wire `onSelect` through the existing unsaved-changes check flow (same as `handleNew` pattern -- if dirty, confirm before switching)
-- Remove or keep the "Load" dialog button (the pipeline replaces its core function, but the dialog can remain as an alternative)
+---
 
-### DashboardHeader.tsx Changes
+## Implementation Priority
 
-- Add a `onTogglePipeline` prop and a sidebar toggle icon button (visible only on mobile)
-- The "Load" button text can change to "Pipeline" or be removed entirely since the sidebar replaces it
+I would recommend this order based on impact vs. effort:
 
-### Interaction Flow
+1. **Duplicate Scenario** -- Highest value, saves the most time when building out a pipeline of comparison scenarios
+2. **Quick KPI Preview on Hover** -- Lets you scan without loading, very useful for comparison workflows
+3. **Rename Inline** -- Small quality-of-life improvement
+4. **Sort Options** -- Useful once pipeline grows large
+5. **Collapse/Expand Toggle** -- Nice-to-have for screen real estate
 
-1. User opens the dashboard -- pipeline loads and shows all saved scenarios
-2. User fills out a form and clicks Save -- pipeline refreshes, new scenario appears at top
-3. User clicks "+ Add New" -- triggers the existing `handleNew` flow (with unsaved-changes check)
-4. User clicks a scenario card -- triggers load (with unsaved-changes check if dirty)
-5. User clicks the trash icon on a card -- popover confirmation appears, scenario deletes on confirm
-6. Active scenario is always highlighted with a colored border
-7. On mobile, user taps a hamburger/sidebar icon to slide the pipeline in
+Each of these can be built independently without touching the existing save/load/delete/switch flow.
 
