@@ -32,6 +32,8 @@ import { ProFormaScenario } from '@/lib/types';
 import { useToast } from '@/hooks/use-toast';
 import { Loader2, ClipboardList, Receipt, BarChart3, FileText, PanelLeft } from 'lucide-react';
 
+const PIPELINE_COLLAPSED_KEY = 'pipeline-collapsed';
+
 export function Dashboard() {
   const navigate = useNavigate();
   const { user, loading: authLoading, signOut } = useAuth();
@@ -63,6 +65,17 @@ export function Dashboard() {
   const [pendingLoadScenario, setPendingLoadScenario] = useState<ProFormaScenario | null>(null);
   const [showLoadConfirm, setShowLoadConfirm] = useState(false);
   const [pipelineSheetOpen, setPipelineSheetOpen] = useState(false);
+  const [pipelineCollapsed, setPipelineCollapsed] = useState(() => {
+    try { return localStorage.getItem(PIPELINE_COLLAPSED_KEY) === 'true'; } catch { return false; }
+  });
+
+  const togglePipelineCollapsed = () => {
+    setPipelineCollapsed(prev => {
+      const next = !prev;
+      try { localStorage.setItem(PIPELINE_COLLAPSED_KEY, String(next)); } catch {}
+      return next;
+    });
+  };
 
   useEffect(() => {
     if (!authLoading && !user) {
@@ -145,6 +158,20 @@ export function Dashboard() {
     }
   };
 
+  const handlePipelineDuplicate = async (id: string) => {
+    const newScenario = await pipeline.duplicate(id);
+    if (newScenario) {
+      doLoadScenario(newScenario);
+    }
+  };
+
+  const handlePipelineRename = async (id: string, newName: string) => {
+    const success = await pipeline.rename(id, newName);
+    if (success && id === currentScenarioId) {
+      setCurrentScenarioName(newName);
+    }
+  };
+
   const handleLoadScenario = (scenario: ProFormaScenario) => {
     doLoadScenario(scenario);
   };
@@ -195,10 +222,16 @@ export function Dashboard() {
       isDirty={isDirty}
       onSelect={handlePipelineSelect}
       onDelete={handlePipelineDelete}
+      onDuplicate={handlePipelineDuplicate}
+      onRename={handlePipelineRename}
       onNew={handleNew}
       searchQuery={pipeline.searchQuery}
       onSearchChange={pipeline.setSearchQuery}
       totalCount={pipeline.allScenarios.length}
+      sortBy={pipeline.sortBy}
+      onSortChange={pipeline.setSortBy}
+      collapsed={pipelineCollapsed}
+      onToggleCollapse={togglePipelineCollapsed}
     />
   );
 

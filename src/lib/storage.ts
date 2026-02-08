@@ -142,3 +142,58 @@ export async function deleteScenario(id: string): Promise<boolean> {
 
   return true;
 }
+
+export async function duplicateScenario(id: string): Promise<ProFormaScenario | null> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    throw new Error('User not authenticated');
+  }
+
+  const original = await loadScenarioById(id);
+  if (!original) {
+    throw new Error('Scenario not found');
+  }
+
+  const { data, error } = await supabase
+    .from('scenarios')
+    .insert({
+      name: `${original.name} (Copy)`,
+      inputs: original.inputs as unknown as Json,
+      outputs: original.outputs as unknown as Json,
+      tags: original.tags || [],
+      user_id: user.id,
+    })
+    .select()
+    .single();
+
+  if (error) {
+    console.error('Error duplicating scenario:', error);
+    throw error;
+  }
+
+  return {
+    ...data,
+    inputs: data.inputs as unknown as ProFormaInputs,
+    outputs: data.outputs as unknown as ProFormaOutputs,
+  };
+}
+
+export async function updateScenarioName(id: string, name: string): Promise<boolean> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) {
+    return false;
+  }
+
+  const { error } = await supabase
+    .from('scenarios')
+    .update({ name })
+    .eq('id', id)
+    .eq('user_id', user.id);
+
+  if (error) {
+    console.error('Error updating scenario name:', error);
+    return false;
+  }
+
+  return true;
+}
