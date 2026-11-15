@@ -1,0 +1,225 @@
+url,aspect,score,grade,rationale
+https://alignlending.com/calculators/,Intent & H1,80,B,"H1 ""Mortgage calculators that start with your numbers"" matches hub intent but omits ""Michigan"", the differentiator in every tool."
+https://alignlending.com/calculators/,Heading structure,86,B,"Clean H2 groups by job (Planning a purchase, Current mortgage, Checking an offer, Classic payment) with one H3 per tool; no skipped levels."
+https://alignlending.com/calculators/,Above-the-fold answer,70,C,"ATF (76 words) explains the hub, but the primary button is ""Check a Loan Estimate"", one tool among 26, not a way to find the right one."
+https://alignlending.com/calculators/,CTA effectiveness,66,D,"Two ATF CTAs (LE check, readiness quiz) are arbitrary for a hub; no ""start here"" chooser; card CTAs are clear verbs (""Find your break-even"")."
+https://alignlending.com/calculators/,Title & meta,68,D,"Title ""Mortgage Calculators And Tools | Align Lending"" (46) has no Michigan or free hook; meta 150 chars is good."
+https://alignlending.com/calculators/,Internal linking,88,B,"211 contextual source pages link in (129 city, 48 learn) and the page links all 26 tools; anchor ""calculators page"" is repeated 122 times."
+https://alignlending.com/calculators/,E-E-A-T & trust,70,C,"Footer NMLS/EHO and review strip present; no named reviewer or ""last checked"" date for the rules the tools use."
+https://alignlending.com/calculators/,AI-search readiness,60,D,"No answer content, no FAQ; ItemList schema present but each tool card lacks a one-line quotable fact (e.g., the 2026 limits)."
+https://alignlending.com/calculators/,Accuracy & compliance,92,A,"Descriptions match each tool; ""not a credit decision ... or an offer of credit"" disclaimer present."
+https://alignlending.com/calculators/,OVERALL,76,C,Mean of 9 aspect scores.
+https://alignlending.com/mortgage-calculator/,Intent & H1,70,C,"Title says ""Michigan Mortgage Calculator"" but H1 is just ""Mortgage Calculator""; GSC ""mortgage calculator michigan"" 101 imprs at pos 40.2."
+https://alignlending.com/mortgage-calculator/,Heading structure,66,D,"Generic H2s (""Common questions"", ""Start with your question"", ""Other calculators"", ""Learn"") and decorative H3s (""Numbers first"")."
+https://alignlending.com/mortgage-calculator/,Above-the-fold answer,64,D,44-word hero explains the output but not what you need; 620px-min-height hero pushes the first input below a 768px desktop fold.
+https://alignlending.com/mortgage-calculator/,CTA effectiveness,62,D,"Result CTA ""Get pre-approved"" -> /start/?goal=buy is off-vocabulary and implies a preapproval from an estimate."
+https://alignlending.com/mortgage-calculator/,Title & meta,64,D,Title 44 chars with no hook; meta 128 chars (under 140).
+https://alignlending.com/mortgage-calculator/,Internal linking,55,F,"Only 39 contextual source pages (4 learn); /learn/budgeting-for-your-first-home/, /purchase/budget-review/ link it from the footer only."
+https://alignlending.com/mortgage-calculator/,E-E-A-T & trust,74,C,"Reviews, NMLS, EHO and ""Estimates only"" disclaimer; no reviewer/updated date."
+https://alignlending.com/mortgage-calculator/,AI-search readiness,68,D,"10-question FAQ with direct answers; ""How this is calculated"" names the formula; no quotable Michigan tax figure."
+https://alignlending.com/mortgage-calculator/,Accuracy & compliance,68,D,"Property-tax default 1.50% labeled ""statewide median homestead rate"" is stale: the corrected Uncapping Study median is 36.0 mills = 1.8% of price."
+https://alignlending.com/mortgage-calculator/,OVERALL,66,D,Mean of 9 aspect scores.
+https://alignlending.com/home-affordability-calculator/,Intent & H1,78,C,"Title carries ""How Much House Can I Afford?""; H1 ""Home Affordability Calculator"" fits but omits Michigan."
+https://alignlending.com/home-affordability-calculator/,Heading structure,70,C,"Good FAQ H3s; generic H2s and ""In Samantha's words"" interrupt before the method."
+https://alignlending.com/home-affordability-calculator/,Above-the-fold answer,68,D,"41-word hero states the method (""works backwards from income and debts""); inputs needed not listed; tool below desktop fold."
+https://alignlending.com/home-affordability-calculator/,CTA effectiveness,62,D,"Result CTA ""Get pre-approved"" conflicts with the page's own ""A ceiling, not a target"" message."
+https://alignlending.com/home-affordability-calculator/,Title & meta,74,C,Title 59 chars with the question hook; meta 152 good.
+https://alignlending.com/home-affordability-calculator/,Internal linking,58,F,"47 contextual source pages, 37 of them city pages; DTI and budgeting guides link only from the footer."
+https://alignlending.com/home-affordability-calculator/,E-E-A-T & trust,74,C,"Reviews, NMLS, sources (CFPB); no reviewer/date."
+https://alignlending.com/home-affordability-calculator/,AI-search readiness,72,C,10 FAQs including Michigan tax variance; lacks a worked DTI example.
+https://alignlending.com/home-affordability-calculator/,Accuracy & compliance,70,C,Same stale 1.5% property-tax default as the payment calculator.
+https://alignlending.com/home-affordability-calculator/,OVERALL,70,C,Mean of 9 aspect scores.
+https://alignlending.com/mortgage-refinance-calculator/,Intent & H1,74,C,"H1 ""Mortgage Refinance Calculator"" matches the query; the page is really a break-even tool and should say so."
+https://alignlending.com/mortgage-refinance-calculator/,Heading structure,68,D,"Template H2s (""In Samantha's words"", ""Common questions""); FAQ H3s are strong."
+https://alignlending.com/mortgage-refinance-calculator/,Above-the-fold answer,72,C,"Strong hook (""The number that decides it is not the rate...""), but no list of what to bring; tool below fold."
+https://alignlending.com/mortgage-refinance-calculator/,CTA effectiveness,62,D,"""Start my application"" as the result CTA is premature for a should-I-refinance decision."
+https://alignlending.com/mortgage-refinance-calculator/,Title & meta,66,D,"Title 54 chars, no break-even hook; meta 149 good."
+https://alignlending.com/mortgage-refinance-calculator/,Internal linking,38,F,Only 8 contextual source pages; /refinance/ and every /learn/refinancing* guide link it from the footer only.
+https://alignlending.com/mortgage-refinance-calculator/,E-E-A-T & trust,72,C,"Reviews, NMLS, CFPB source; no reviewer/date."
+https://alignlending.com/mortgage-refinance-calculator/,AI-search readiness,70,C,9 FAQs with direct answers; no worked example.
+https://alignlending.com/mortgage-refinance-calculator/,Accuracy & compliance,88,B,Break-even method is correct; no rates displayed.
+https://alignlending.com/mortgage-refinance-calculator/,OVERALL,68,D,Mean of 9 aspect scores.
+https://alignlending.com/va-loan-calculator/,Intent & H1,68,D,"H1 ""VA Loan Calculator"" misses the winning modifiers: ""with funding fee"" (98 imprs, pos 20.9) and ""taxes and insurance"" (36, pos 37.7)."
+https://alignlending.com/va-loan-calculator/,Heading structure,68,D,Template H2s; FAQ H3s good; no funding-fee chart heading.
+https://alignlending.com/va-loan-calculator/,Above-the-fold answer,62,D,"51-word hero lists benefits, not what it calculates or what to enter; tool below fold."
+https://alignlending.com/va-loan-calculator/,CTA effectiveness,68,D,"""Start my application"" fine for VA, but no link from the fee line to the exemption check."
+https://alignlending.com/va-loan-calculator/,Title & meta,60,D,"Title ""Michigan VA Loan Calculator | Align Lending"" (43) has no modifier; 849 imprs at avg pos 53.5."
+https://alignlending.com/va-loan-calculator/,Internal linking,32,F,"9 contextual source pages, 1 learn; 35 VA articles link the fee calculator in content but this page only from the footer."
+https://alignlending.com/va-loan-calculator/,E-E-A-T & trust,74,C,Disclaimers solid; no reviewer/date.
+https://alignlending.com/va-loan-calculator/,AI-search readiness,60,D,"""How is the VA funding fee calculated?"" answer gives no percentages; result shows ""$0"" placeholders in HTML."
+https://alignlending.com/va-loan-calculator/,Accuracy & compliance,70,C,"Fee logic correct, but the 1.5% property-tax default (""statewide median"") is stale versus 36.0 mills (1.8%)."
+https://alignlending.com/va-loan-calculator/,OVERALL,62,D,Mean of 9 aspect scores.
+https://alignlending.com/va-funding-fee-calculator/,Intent & H1,88,B,"H1 ""VA Funding Fee Calculator"" is an exact match for ""va funding fee calculator"" (145 imprs, pos 23)."
+https://alignlending.com/va-funding-fee-calculator/,Heading structure,72,C,"Only 5 H2s; ""The terms"" section uses definitions as H3s; no ""fee chart"" heading."
+https://alignlending.com/va-funding-fee-calculator/,Above-the-fold answer,80,B,78-word hero says what it calculates and that the fee can be financed; inputs not named; tool below fold.
+https://alignlending.com/va-funding-fee-calculator/,CTA effectiveness,70,C,"""Talk it through with Samantha"" is right for exemption questions; no next step into the full VA payment."
+https://alignlending.com/va-funding-fee-calculator/,Title & meta,64,D,"Title 41 chars, no hook; meta 152 good. Competitors title on ""2026 chart""."
+https://alignlending.com/va-funding-fee-calculator/,Internal linking,70,C,"46 contextual source pages (35 learn) with exact ""VA funding fee calculator"" anchor; no link back from the VA loan calculator result."
+https://alignlending.com/va-funding-fee-calculator/,E-E-A-T & trust,72,C,VA source linked; footer disclosures; no reviewer/date.
+https://alignlending.com/va-funding-fee-calculator/,AI-search readiness,52,F,"The fee chart lives only in JavaScript; ""how much is a va funding fee"" ranks pos 84.2 and ""va funding fee chart"" pos 69.1."
+https://alignlending.com/va-funding-fee-calculator/,Accuracy & compliance,90,A,"Live JS applies 2.15/1.5/1.25 and 3.3 (purchase), 2.15/3.3 (cash-out) and 0.5 (IRRRL) correctly; exemptions accurate."
+https://alignlending.com/va-funding-fee-calculator/,OVERALL,73,C,Mean of 9 aspect scores.
+https://alignlending.com/usda-eligibility-check/,Intent & H1,84,B,"H1 ""USDA Loan Eligibility Check"" matches tool intent; ""usda eligibility"" (576 imprs, pos 11.1) lands on a learn article instead."
+https://alignlending.com/usda-eligibility-check/,Heading structure,64,D,"H2 ""Most of Michigan: $122,800 for 1 to 4 people"" is a stat-as-heading and six H3s are bare county names."
+https://alignlending.com/usda-eligibility-check/,Above-the-fold answer,86,B,"59-word hero: what it does, USDA's own map, then income; ""We don't save your address"" friction reducer."
+https://alignlending.com/usda-eligibility-check/,CTA effectiveness,74,C,"Result offers ""Talk with Samantha""; no ""Start my application"" for eligible results or alternative path for ineligible."
+https://alignlending.com/usda-eligibility-check/,Title & meta,74,C,Title 56 chars; meta 130 (short).
+https://alignlending.com/usda-eligibility-check/,Internal linking,82,B,133 contextual source pages (108 city); /learn/usda-loan-basics/ links in content.
+https://alignlending.com/usda-eligibility-check/,E-E-A-T & trust,74,C,"USDA, HB-1-3555 and Census sources; privacy explained; no reviewer/date."
+https://alignlending.com/usda-eligibility-check/,AI-search readiness,76,C,Six FAQs and a county income table in text; no 2026 guarantee-fee answer.
+https://alignlending.com/usda-eligibility-check/,Accuracy & compliance,80,B,"FY 2026 limit $122,800 could not be confirmed against USDA's map this session; map date ""July 25, 2023"" also needs a check."
+https://alignlending.com/usda-eligibility-check/,OVERALL,77,C,Mean of 9 aspect scores.
+https://alignlending.com/loan-limits/,Intent & H1,84,B,"H1 ""2026 and 2027 Loan Limits for Michigan"" matches; 2027 is not announced yet (as of 2026-11-15)."
+https://alignlending.com/loan-limits/,Heading structure,74,C,"H3s ""Conforming: $832,750"", ""FHA: $541,287"" put stat values in headings; state H3s fine."
+https://alignlending.com/loan-limits/,Above-the-fold answer,92,A,"65-word hero gives the answer ($832,750 / $541,287, all 83 counties) and the action."
+https://alignlending.com/loan-limits/,CTA effectiveness,72,C,"""Talk with Samantha about your loan"" fine; no jumbo path when the loan exceeds the limit."
+https://alignlending.com/loan-limits/,Title & meta,82,B,"Title exactly 60 chars; meta 140. Neither says ""FHA"" up front though FHA queries dominate."
+https://alignlending.com/loan-limits/,Internal linking,92,A,"361 contextual source pages; varied anchors (""2026 conforming limit"", ""loan limits tool"")."
+https://alignlending.com/loan-limits/,E-E-A-T & trust,74,C,FHFA and HUD sourced; no reviewer/date stamp.
+https://alignlending.com/loan-limits/,AI-search readiness,86,B,"Direct answers, 5 FAQs, year-specific figures that AI answers quote."
+https://alignlending.com/loan-limits/,Accuracy & compliance,93,A,All 1-4 unit figures reconcile to FHFA/HUD formulas (65% floor); 2027 status and lender pre-limits ($845K-$850K) match industry reporting.
+https://alignlending.com/loan-limits/,OVERALL,83,B,Mean of 9 aspect scores.
+https://alignlending.com/michigan-property-tax-calculator/,Intent & H1,86,B,"H1 matches ""michigan property tax calculator"" (77 imprs, pos 48.8); title adds ""By Address""."
+https://alignlending.com/michigan-property-tax-calculator/,Heading structure,68,D,"Explainer H2 sits above the tool; ""Her rule: never borrow somebody else's tax bill"" and H3 ""Higher is the better surprise"" are decorative."
+https://alignlending.com/michigan-property-tax-calculator/,Above-the-fold answer,68,D,"74-word hero is strong, but 179 words and an H2 come before the tool, so the first input sits well below the fold."
+https://alignlending.com/michigan-property-tax-calculator/,CTA effectiveness,76,C,"""Have Samantha check the property"" is a fitting next step; no hand-off of the tax into a payment."
+https://alignlending.com/michigan-property-tax-calculator/,Title & meta,80,B,"Title 59, meta 150; hook could be ""after you buy"", the unique angle."
+https://alignlending.com/michigan-property-tax-calculator/,Internal linking,70,C,"594 contextual source pages, but 832 identical ""Michigan property tax calculator"" anchors from templated city/learn pages."
+https://alignlending.com/michigan-property-tax-calculator/,E-E-A-T & trust,80,B,"Treasury millage, MCL citations, Census geocoder; no reviewer/date."
+https://alignlending.com/michigan-property-tax-calculator/,AI-search readiness,84,B,"8 FAQs plus a 1,843-community millage table: unique, quotable data."
+https://alignlending.com/michigan-property-tax-calculator/,Accuracy & compliance,90,A,"Half-of-price planning, 18-mill PRE and taxable-value reset are stated correctly."
+https://alignlending.com/michigan-property-tax-calculator/,OVERALL,78,C,Mean of 9 aspect scores.
+https://alignlending.com/michigan-transfer-tax-calculator/,Intent & H1,90,A,"H1 exact match for ""michigan transfer tax calculator"" (168 imprs, pos 37.3)."
+https://alignlending.com/michigan-transfer-tax-calculator/,Heading structure,82,B,"Logical: tool, three factors, method, FAQ, next steps; no table of common prices."
+https://alignlending.com/michigan-transfer-tax-calculator/,Above-the-fold answer,88,B,"65-word hero gives the rates, who pays and the action in two sentences."
+https://alignlending.com/michigan-transfer-tax-calculator/,CTA effectiveness,84,B,"""See what the whole sale leaves you"" -> seller net sheet is the right next step."
+https://alignlending.com/michigan-transfer-tax-calculator/,Title & meta,68,D,"Title 48 chars with no year; meta 137 (short). SERP rivals use ""2026""."
+https://alignlending.com/michigan-transfer-tax-calculator/,Internal linking,84,B,240 contextual source pages; healthy partial-match anchors.
+https://alignlending.com/michigan-transfer-tax-calculator/,E-E-A-T & trust,74,C,MCL citations; no reviewer/date.
+https://alignlending.com/michigan-transfer-tax-calculator/,AI-search readiness,74,C,"Direct FAQ answers (incl. Wayne County); missing a quotable price table (""$300,000 sale = $2,580"")."
+https://alignlending.com/michigan-transfer-tax-calculator/,Accuracy & compliance,95,A,"$3.75 state / $0.55 county per $500, seller liability (MCL 207.523), PRE exemption and Wayne at $0.55 all verified (Wayne County Register of Deeds)."
+https://alignlending.com/michigan-transfer-tax-calculator/,OVERALL,82,B,Mean of 9 aspect scores.
+https://alignlending.com/pmi-removal-calculator/,Intent & H1,88,B,"H1 exact match; ""removing pmi calculator"" pos 2.8, ""fha pmi removal calculator"" pos 7, head term pos 22.2."
+https://alignlending.com/pmi-removal-calculator/,Heading structure,72,C,"""What clients say"" H2 interrupts between the tool and the explanation."
+https://alignlending.com/pmi-removal-calculator/,Above-the-fold answer,84,B,"73-word hero states the federal rule and ""From your own loan papers""; tool below fold."
+https://alignlending.com/pmi-removal-calculator/,CTA effectiveness,82,B,"""Talk it through"" plus ""Ask her to check back"" opt-in is a strong retention path."
+https://alignlending.com/pmi-removal-calculator/,Title & meta,60,D,"Title 38 chars, meta 138: both short, no 80%/78% hook."
+https://alignlending.com/pmi-removal-calculator/,Internal linking,60,D,"33 contextual source pages, mostly learn; not linked from /refinance/."
+https://alignlending.com/pmi-removal-calculator/,E-E-A-T & trust,76,C,CFPB and HUD sources; no reviewer/date.
+https://alignlending.com/pmi-removal-calculator/,AI-search readiness,78,C,Six direct FAQs; AI-style persona queries already surface it at pos 1.
+https://alignlending.com/pmi-removal-calculator/,Accuracy & compliance,94,A,"80% request, 78% automatic, midpoint backstop and FHA 11-year/life rule (ML 2013-04) are correct."
+https://alignlending.com/pmi-removal-calculator/,OVERALL,77,C,Mean of 9 aspect scores.
+https://alignlending.com/mortgage-payoff-calculator/,Intent & H1,86,B,"H1 exact match for ""mortgage payoff calculator"" (234 imprs, pos 41.4)."
+https://alignlending.com/mortgage-payoff-calculator/,Heading structure,72,C,"""What clients say"" H2 sits between the options and the definitions."
+https://alignlending.com/mortgage-payoff-calculator/,Above-the-fold answer,82,B,68-word hero names all three strategies and the recast; tool below fold.
+https://alignlending.com/mortgage-payoff-calculator/,CTA effectiveness,70,C,"Single ""Talk it through with Samantha""; no link to PMI end date or refinance comparison."
+https://alignlending.com/mortgage-payoff-calculator/,Title & meta,60,D,"Title 42 chars, no hook, for a ~700-impression query cluster at pos 40-55."
+https://alignlending.com/mortgage-payoff-calculator/,Internal linking,46,F,Only 21 contextual source pages (16 learn); not linked from /refinance/ or the 15- vs 30-year guide body.
+https://alignlending.com/mortgage-payoff-calculator/,E-E-A-T & trust,72,C,CFPB source; no reviewer/date.
+https://alignlending.com/mortgage-payoff-calculator/,AI-search readiness,68,D,"Five FAQs; no answer to the top PAA, ""what happens if I pay an extra $100 a month""."
+https://alignlending.com/mortgage-payoff-calculator/,Accuracy & compliance,92,A,Biweekly treated as 1/12 extra per month (13 payments/yr) and recast logic are correct.
+https://alignlending.com/mortgage-payoff-calculator/,OVERALL,72,C,Mean of 9 aspect scores.
+https://alignlending.com/points-vs-lender-credit-calculator/,Intent & H1,86,B,"H1 exact match; low search demand (no GSC queries), so its job is conversion support."
+https://alignlending.com/points-vs-lender-credit-calculator/,Heading structure,84,B,"Excellent H3 map to Loan Estimate pages (Page 1 Projected Payments, Section A, Section J, In 5 Years)."
+https://alignlending.com/points-vs-lender-credit-calculator/,Above-the-fold answer,84,B,"67 words, ""No rate needed"" friction reducer; tool below fold."
+https://alignlending.com/points-vs-lender-credit-calculator/,CTA effectiveness,78,C,"""Go over the options with Samantha"" fits; ""Check a Loan Estimate"" secondary present."
+https://alignlending.com/points-vs-lender-credit-calculator/,Title & meta,72,C,"Title 51, meta 148; no ""break-even"" hook."
+https://alignlending.com/points-vs-lender-credit-calculator/,Internal linking,70,C,49 contextual source pages (36 learn).
+https://alignlending.com/points-vs-lender-credit-calculator/,E-E-A-T & trust,72,C,CFPB source; no reviewer/date.
+https://alignlending.com/points-vs-lender-credit-calculator/,AI-search readiness,76,C,Four FAQs; no worked example.
+https://alignlending.com/points-vs-lender-credit-calculator/,Accuracy & compliance,94,A,Rate-free method; compliant.
+https://alignlending.com/points-vs-lender-credit-calculator/,OVERALL,80,B,Mean of 9 aspect scores.
+https://alignlending.com/rent-vs-buy-calculator/,Intent & H1,82,B,H1 exact match; negligible GSC demand.
+https://alignlending.com/rent-vs-buy-calculator/,Heading structure,74,C,"""In Samantha's words"" H2 interrupts; otherwise logical."
+https://alignlending.com/rent-vs-buy-calculator/,Above-the-fold answer,80,B,"68 words, ""No verdict, and no rate from us"" is on-brand; tool below fold."
+https://alignlending.com/rent-vs-buy-calculator/,CTA effectiveness,76,C,Secondary hero CTA to the property tax calculator is smart; result CTA single.
+https://alignlending.com/rent-vs-buy-calculator/,Title & meta,62,D,"Title 39 chars, no Michigan hook; meta 140."
+https://alignlending.com/rent-vs-buy-calculator/,Internal linking,70,C,59 contextual source pages.
+https://alignlending.com/rent-vs-buy-calculator/,E-E-A-T & trust,72,C,CFPB source; no reviewer/date.
+https://alignlending.com/rent-vs-buy-calculator/,AI-search readiness,72,C,Five FAQs; no worked example.
+https://alignlending.com/rent-vs-buy-calculator/,Accuracy & compliance,92,A,Down payment correctly treated as not a cost; no rates.
+https://alignlending.com/rent-vs-buy-calculator/,OVERALL,76,C,Mean of 9 aspect scores.
+https://alignlending.com/seller-net-sheet-calculator/,Intent & H1,88,B,"H1 ""Michigan Seller Net Sheet Calculator"" matches intent and location."
+https://alignlending.com/seller-net-sheet-calculator/,Heading structure,76,C,"Good flow; ""Keep going"" includes an off-topic ""Loan limits by county"" card."
+https://alignlending.com/seller-net-sheet-calculator/,Above-the-fold answer,84,B,"65 words, tells sellers which documents to use; tool below fold."
+https://alignlending.com/seller-net-sheet-calculator/,CTA effectiveness,84,B,"""Talk about the next home with Samantha"" fits the sell-and-buy moment."
+https://alignlending.com/seller-net-sheet-calculator/,Title & meta,76,C,"Title 52, meta 152."
+https://alignlending.com/seller-net-sheet-calculator/,Internal linking,76,C,75 contextual source pages (63 learn).
+https://alignlending.com/seller-net-sheet-calculator/,E-E-A-T & trust,72,C,MCL citations; no reviewer/date.
+https://alignlending.com/seller-net-sheet-calculator/,AI-search readiness,74,C,Six FAQs; no worked example.
+https://alignlending.com/seller-net-sheet-calculator/,Accuracy & compliance,92,A,Transfer tax and exemption correct; payoff vs balance explained.
+https://alignlending.com/seller-net-sheet-calculator/,OVERALL,80,B,Mean of 9 aspect scores.
+https://alignlending.com/compare-loan-estimates/,Intent & H1,70,C,"H1 ""What does your Loan Estimate really cost?"" never names the tool; title duplicates the learn guide's ""How to compare Loan Estimates""."
+https://alignlending.com/compare-loan-estimates/,Heading structure,78,C,Clear sections and FAQ.
+https://alignlending.com/compare-loan-estimates/,Above-the-fold answer,72,C,"279-word ATF is mostly privacy copy; important, but the tool and value prop get buried."
+https://alignlending.com/compare-loan-estimates/,CTA effectiveness,86,B,"""Send to Samantha"" in-tool hand-off is the best conversion path on the site."
+https://alignlending.com/compare-loan-estimates/,Title & meta,60,D,"Title ""How To Compare Loan Estimates, Box By Box"" cannibalizes /learn/how-to-compare-loan-estimates/ (""how to compare loan estimates"" pos 37.2)."
+https://alignlending.com/compare-loan-estimates/,Internal linking,86,B,"141 contextual source pages with ""Loan Estimate check"" anchor."
+https://alignlending.com/compare-loan-estimates/,E-E-A-T & trust,76,C,Strong privacy disclosure; CFPB sources.
+https://alignlending.com/compare-loan-estimates/,AI-search readiness,74,C,Five FAQs.
+https://alignlending.com/compare-loan-estimates/,Accuracy & compliance,90,A,Privacy claims specific; no rates.
+https://alignlending.com/compare-loan-estimates/,OVERALL,77,C,Mean of 9 aspect scores.
+https://alignlending.com/learn/fha-loan-limits/,Intent & H1,84,B,"Article (typed calculator) targeting ""fha loan limits"" (186 imprs, pos 42.4)."
+https://alignlending.com/learn/fha-loan-limits/,Heading structure,88,B,"13 question-led H2s, FAQ, Sources; no skipped levels."
+https://alignlending.com/learn/fha-loan-limits/,Above-the-fold answer,88,B,"First 60 words give the $541,287 floor and $1,249,125 ceiling with HUD ML 2025-23."
+https://alignlending.com/learn/fha-loan-limits/,CTA effectiveness,72,C,"Good ""Find your county limit"" -> /loan-limits/ CTA, but it is not above the fold (atf_ctas 0)."
+https://alignlending.com/learn/fha-loan-limits/,Title & meta,70,C,"Title ""FHA Loan Limits: How Much You Can Borrow"" (40) has no year; ""fha loan limits 2026"" variants rank pos 50-60."
+https://alignlending.com/learn/fha-loan-limits/,Internal linking,80,B,63 contextual source pages.
+https://alignlending.com/learn/fha-loan-limits/,E-E-A-T & trust,92,A,"Byline, Updated October 2026, 51 government sources."
+https://alignlending.com/learn/fha-loan-limits/,AI-search readiness,90,A,Question H2s with direct answers; formula explained.
+https://alignlending.com/learn/fha-loan-limits/,Accuracy & compliance,93,A,"65%/150% of $832,750 = $541,287/$1,249,125 verified."
+https://alignlending.com/learn/fha-loan-limits/,OVERALL,84,B,Mean of 9 aspect scores.
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Intent & H1,86,B,"Article (typed calculator); clear ""how to compare"" intent."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Heading structure,86,B,18 question-led H2s.
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Above-the-fold answer,86,B,Direct 60-word answer in the opening.
+https://alignlending.com/learn/how-to-compare-loan-estimates/,CTA effectiveness,60,D,"Module CTA ""Get a budget review"" is mismatched; the obvious next step is the Loan Estimate check."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Title & meta,76,C,"Title 47, meta 155."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Internal linking,64,D,24 contextual source pages.
+https://alignlending.com/learn/how-to-compare-loan-estimates/,E-E-A-T & trust,90,A,"Byline, date, 84 external sources."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,AI-search readiness,90,A,"Answer-first sections, FAQ schema."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,Accuracy & compliance,84,B,"Cites a ""Loan-Cost-Study-2024.pdf"" on a Webflow CDN whose publisher must be verified against the no-lender-links rule."
+https://alignlending.com/learn/how-to-compare-loan-estimates/,OVERALL,80,B,Mean of 9 aspect scores.
+https://alignlending.com/research/,Intent & H1,84,B,"H1 ""Michigan housing data, sourced and free to cite"" states the value to journalists."
+https://alignlending.com/research/,Heading structure,80,B,Logical sections; stat tiles are not headings.
+https://alignlending.com/research/,Above-the-fold answer,86,B,"108-word ATF with study CTA, license and author."
+https://alignlending.com/research/,CTA effectiveness,78,C,Study + methodology CTAs; consumer CTA at the end.
+https://alignlending.com/research/,Title & meta,70,C,"Title 50, meta 129 (short)."
+https://alignlending.com/research/,Internal linking,30,F,"Only 1 contextual inlink (from another research page); 838 inlinks are nav/footer only. Home, press and Samantha pages link only from the footer."
+https://alignlending.com/research/,E-E-A-T & trust,88,B,"Named author, CC BY 4.0, methods, corrections policy."
+https://alignlending.com/research/,AI-search readiness,78,C,Quotable stat tiles; no Q&A capsules.
+https://alignlending.com/research/,Accuracy & compliance,92,A,Figures match the studies.
+https://alignlending.com/research/,Linkable-asset strength,82,B,"A citable index with license and press contact, but it holds only two studies and has almost no internal authority flowing in."
+https://alignlending.com/research/,OVERALL,77,C,Mean of 10 aspect scores.
+https://alignlending.com/research/methodology/,Intent & H1,80,B,"H1 ""How our research works"" is clear; title ""Research Methodology"" generic."
+https://alignlending.com/research/methodology/,Heading structure,82,B,"Method, limits, definitions, reconciliation, data dictionary, license: complete."
+https://alignlending.com/research/methodology/,Above-the-fold answer,80,B,73-word ATF with standards.
+https://alignlending.com/research/methodology/,CTA effectiveness,74,C,Points to the study and the property tax tool.
+https://alignlending.com/research/methodology/,Title & meta,60,D,"Title 36 chars, generic; meta 131 short."
+https://alignlending.com/research/methodology/,Internal linking,44,F,4 contextual inlinks.
+https://alignlending.com/research/methodology/,E-E-A-T & trust,95,A,"Reconciliation checks to the dollar, retrieval dates, correction log, county-split explanation for 1,534 places."
+https://alignlending.com/research/methodology/,AI-search readiness,78,C,Definitions quotable; no Article/TechArticle schema with author and dates.
+https://alignlending.com/research/methodology/,Accuracy & compliance,95,A,"Methods match the published figures (e.g., $1,814 = 36.0 mills x the 50.5% reset on a $300K home)."
+https://alignlending.com/research/methodology/,Linkable-asset strength,88,B,Methods page journalists and AI engines can verify against; rare for a lender site.
+https://alignlending.com/research/methodology/,OVERALL,78,C,Mean of 10 aspect scores.
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Intent & H1,88,B,"H1 names the study; ""property tax uncapping michigan"" ranks only pos 43.1 (22 imprs)."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Heading structure,78,C,"Findings-as-headlines (""From 9% to 50% in 13 years"") read well but miss the questions people search."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Above-the-fold answer,90,A,"200-word ATF: answer, edition box, correction notice, downloads."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,CTA effectiveness,80,B,"Downloads first, then game-plan CTA; good for both audiences."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Title & meta,82,B,"Title 58, meta 140."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Internal linking,90,A,"354 contextual source pages, anchor ""2026 Uncapping Study"" x283."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,E-E-A-T & trust,84,B,"Author, dates, CC BY 4.0 and a logged correction, but the primary sources are linked only from schema and the methodology page."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,AI-search readiness,86,B,"""The short answer"", stat tiles, embeds, Dataset+Report schema; no Q&A block."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Accuracy & compliance,92,A,Statewide math reconciles; methodology documents limits.
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,Linkable-asset strength,95,A,"Original statewide data (83 counties, 1,534 places, 2008-2026), CSV/PDF/PNG/SVG, embed codes and CC BY 4.0: a top-tier link magnet."
+https://alignlending.com/research/michigan-property-tax-uncapping-study/,OVERALL,86,B,Mean of 10 aspect scores.
+https://alignlending.com/research/michigan-mortgage-market-report/,Intent & H1,84,B,"H1 names the report; title year ""2025"" is ambiguous (2025 data, published 2026)."
+https://alignlending.com/research/michigan-mortgage-market-report/,Heading structure,82,B,Findings as H2s with supporting H3 charts.
+https://alignlending.com/research/michigan-mortgage-market-report/,Above-the-fold answer,88,B,119-word ATF with the answer and edition box.
+https://alignlending.com/research/michigan-mortgage-market-report/,CTA effectiveness,78,C,"Downloads, then consumer CTA."
+https://alignlending.com/research/michigan-mortgage-market-report/,Title & meta,68,D,"Title 52, meta 131 (short)."
+https://alignlending.com/research/michigan-mortgage-market-report/,Internal linking,22,F,Only 2 contextual inlinks: effectively orphaned despite being the site's second original dataset.
+https://alignlending.com/research/michigan-mortgage-market-report/,E-E-A-T & trust,88,B,"Author, CC BY 4.0, FFIEC sourced."
+https://alignlending.com/research/michigan-mortgage-market-report/,AI-search readiness,84,B,"Short answer, 5 stat tiles, Dataset schema; no Q&A block."
+https://alignlending.com/research/michigan-mortgage-market-report/,Accuracy & compliance,84,B,"Hero says ""every mortgage application ... 364,013"" though business-purpose and reverse mortgages are excluded."
+https://alignlending.com/research/michigan-mortgage-market-report/,Linkable-asset strength,90,A,Original HMDA cut for all 83 counties with downloads and embeds; buried by weak internal links.
+https://alignlending.com/research/michigan-mortgage-market-report/,OVERALL,77,C,Mean of 10 aspect scores.

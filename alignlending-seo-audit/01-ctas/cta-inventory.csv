@@ -184,9 +184,9 @@ See investment property financing,/purchase/investment-property-financing/,1,lea
 Open the calculator,/michigan-property-tax-calculator/,1,learn:1,content:1,0,yes,crawl status 200,content_button:1,1,/learn/michigan-taxable-value/
 Ask Samantha,mailto:samantha@alignlending.com?subject=Glossary%20question,1,learn:1,content:1,1,yes,mailto syntax valid; on-domain address,inline_or_card_cta:1,1,/learn/mortgage-glossary/
 Open the calculator,/pmi-removal-calculator/,1,learn:1,content:1,0,yes,crawl status 200,content_button:1,1,/learn/refinancing-to-remove-mortgage-insurance/
-Find out how much entitlement you have left,/learn/va-loan-tips/#tip-2,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
-Use VA’s fee rules and the 4% concession cap,/learn/va-loan-tips/#tip-7,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
-Plan around the occupancy requirement,/learn/va-loan-tips/#tip-8,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
+Find out how much entitlement you have left,/learn/va-loan-tips/#tip-2,1,learn:1,content:1,1,yes,page 200; #tip-2 id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/learn/va-loan-tips/
+Use VA’s fee rules and the 4% concession cap,/learn/va-loan-tips/#tip-7,1,learn:1,content:1,1,yes,page 200; #tip-7 id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/learn/va-loan-tips/
+Plan around the occupancy requirement,/learn/va-loan-tips/#tip-8,1,learn:1,content:1,1,yes,page 200; #tip-8 id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/learn/va-loan-tips/
 Look up a term in the mortgage glossary,/learn/mortgage-glossary/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/what-is-loan-to-value-ratio/
 Verify us on NMLS Consumer Access,https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/2041154,1,other:1,content:1,1,unverified,external host www.nmlsconsumeraccess.org blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/licensing/
 Talk with Samantha about your loan,https://calendly.com/samanthashelton,1,calculator:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/loan-limits/
@@ -219,7 +219,7 @@ Send media request,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no h
 Copy the request,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/press/
 Request images →,/press/#request,1,other:1,content:1,0,yes,page 200; #request id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/press/
 Email a privacy request,mailto:samantha@alignlending.com?subject=Privacy%20request,1,other:1,content:1,1,yes,mailto syntax valid; on-domain address,email:1,1,/privacy-policy/
-Text messages,/privacy-policy/#text-messages,1,other:1,content:1,0,unverified,anchor not checked,inline_or_card_cta:1,1,/privacy-policy/
+Text messages,/privacy-policy/#text-messages,1,other:1,content:1,0,yes,page 200; #text-messages id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/privacy-policy/
 Lower … (router card),/refinance/break-even-review/,1,product_hub:1,content:1,0,yes,crawl status 200,router_card:1,1,/product-loans/
 Compare a shorter term in the calculator,/mortgage-calculator/,1,product:1,content:1,0,yes,crawl status 200,content_button:1,1,/product-loans/15-year-fixed/
 Compare both terms in the calculator,/mortgage-calculator/,1,product:1,content:1,0,yes,crawl status 200,content_button:1,1,/product-loans/30-year-fixed/
@@ -233,7 +233,7 @@ Talk through which loan fits me,https://calendly.com/samanthashelton,1,product:1
 Talk through this property,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/dscr-loans-michigan/
 Compare two Loan Estimates,/compare-loan-estimates/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/dscr-loans-michigan/
 Talk through which one fits me,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/fha-loans/
-Compare HELOC offers side by side,/wp-content/uploads/guides/heloc-lender-comparison-worksheet.pdf?v=1791663759,1,product:1,content:1,0,unverified,not in crawl and not fetched,inline_or_card_cta:1,1,/product-loans/heloc/
+Compare HELOC offers side by side,/wp-content/uploads/guides/heloc-lender-comparison-worksheet.pdf?v=1791663759,1,product:1,content:1,0,yes,live fetch 206,inline_or_card_cta:1,1,/product-loans/heloc/
 Start with the reason,/refinance/home-equity-review/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/home-equity-loan/
 Check the income limit for my address,https://ami-lookup-tool.fanniemae.com/,1,product:1,content:1,0,unverified,external host ami-lookup-tool.fanniemae.com blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/product-loans/home-ready/
 Talk through a loan above the limit,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/jumbo-loans/

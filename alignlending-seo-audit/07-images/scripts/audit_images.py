@@ -145,40 +145,35 @@ def main():
             lcp_768 = variants.get(lcp_src, {}).get(768, "")
 
             def score(after=False):
+                """Deductions calibrated to scoring-rubric.md 3.10 anchors (hero <= 150 KB, inline <= 80 KB,
+                LCP not lazy and preloaded/high priority, served near display size, width/height, alt).
+                og:image is reported separately and is not part of the Media score."""
                 d = []
                 if kind != "text":
                     if not after:
-                        if kind == "img" and lcp["loading"] == "lazy": d.append(("LCP image lazy-loaded", 20))
-                        if kind == "css-bg": d.append(("LCP is an Elementor CSS background (late discovery, no srcset, Motion Effects layer)", 15))
-                        if kind == "img" and lcp.get("fetchpriority") != "high": d.append(("LCP lacks fetchpriority=high", 8))
-                        if kind == "img" and not lcp["srcset"]: d.append(("LCP <img> has no srcset/sizes", 8))
-                        if kind == "img" and lcp["srcset"] and "align-hero" in lcp_src: d.append(("hero sizes=100vw on a <=1240px container", 2))
-                        if kind == "img" and "/uploads/learn/" in lcp_src and by_src[lcp_src]["px_w"] != 1600: d.append(("srcset says 1600w but file is %dpx" % by_src[lcp_src]["px_w"], 3))
-                        if kind == "css-bg": d.append(("LCP background has no responsive variants", 8))
+                        if kind == "img" and lcp["loading"] == "lazy": d.append(("LCP image lazy-loaded", 25))
+                        if kind == "css-bg": d.append(("LCP is an Elementor CSS background: not preloaded, no fetchpriority, discovered after CSS, Motion Effects layer", 15))
+                        if kind == "img" and lcp.get("fetchpriority") != "high": d.append(("LCP lacks fetchpriority=high and no preload", 8))
+                        if (kind == "img" and not lcp["srcset"]) or kind == "css-bg": d.append(("LCP has no srcset/sizes: phones download the desktop file", 6))
+                        if kind == "img" and lcp["srcset"] and "align-hero" in lcp_src: d.append(("hero sizes=100vw on a <=1240px container", 1))
+                        if kind == "img" and "/uploads/learn/" in lcp_src and by_src[lcp_src]["px_w"] != 1600: d.append(("srcset says 1600w but file is %dpx" % by_src[lcp_src]["px_w"], 2))
                         w = by_src[lcp_src]["px_w"] if lcp_src in by_src else 1536
-                        if w > 1600: d.append(("LCP intrinsic %dpx > 1600px needed" % w, 3))
+                        if w > 1600: d.append(("LCP file %dpx wide for a <=1380px slot" % w, 3))
+                        if lcp is not None and lcp["alt"] == "" and "align-hero" in lcp_src: d.append(("hero photo has empty alt (alt text owned by the alt-text agent)", 3))
                     b = lcp_after if after else lcp_bytes
-                    if b > 200_000: d.append(("LCP %d KB (>200 KB)" % (b // 1000), 10))
-                    elif b > 150_000: d.append(("LCP %d KB (150-200 KB)" % (b // 1000), 7))
-                    elif b > 100_000: d.append(("LCP %d KB (100-150 KB)" % (b // 1000), 3))
+                    if b > 500_000: d.append(("LCP %d KB (>500 KB)" % (b // 1000), 25))
+                    elif b > 200_000: d.append(("LCP %d KB (>200 KB; target <=150 KB)" % (b // 1000), 10))
+                    elif b > 150_000: d.append(("LCP %d KB (150-200 KB; target <=150 KB)" % (b // 1000), 6))
                 if not after:
-                    if fp_other: d.append(("fetchpriority=high on a non-LCP image", 4))
+                    if fp_other: d.append(("fetchpriority=high on a non-LCP image", 3))
                     if lazy_atf: d.append(("%d above-the-fold image(s) lazy-loaded" % len(lazy_atf), 5))
                     if cards: d.append(("related-card srcset offers the 1600w hero to phones", 3))
                     if small_over: d.append(("small images >=2.4x their display size", 2))
                     if jpeg: d.append(("JPEG/PNG photo on page", 3))
                     if nodims: d.append(("image(s) without width/height", 10))
-                    if lcp is not None and lcp["alt"] == "" and "align-hero" in lcp_src: d.append(("hero photo has empty alt (alt text owned by sibling agent)", 2))
                     sv = 1 - pa / pb if pb else 0
                     if sv >= 0.5: d.append(("%.0f%% of page image bytes saveable" % (sv * 100), 6))
                     elif sv >= 0.3: d.append(("%.0f%% of page image bytes saveable" % (sv * 100), 4))
-                ogk = og_kind
-                if after and og_kind != "1200x630-jpg":
-                    has_card = (lcp_src in og_files) or og_kind == "portrait" or t in ("county_hub", "calculator", "other", "product")
-                    ogk = "1200x630-jpg" if has_card else og_kind
-                if ogk == "missing": d.append(("og:image missing", 10))
-                elif ogk == "portrait": d.append(("og:image is a portrait headshot (crops badly at 1.91:1)", 6))
-                elif ogk in ("landscape-webp", "png-chart", "other"): d.append(("og:image is %s, not a 1200x630 JPG" % ogk, 3))
                 return max(0, 100 - sum(x for _, x in d)), d
 
             s_now, d_now = score()
@@ -290,6 +285,10 @@ def main():
     st["sitewide_score"] = round(statistics.mean(r["media_score"] for r in page_rows), 1)
     st["sitewide_score_after"] = round(statistics.mean(r["media_score_after"] for r in page_rows), 1)
     st["template_mean_score"] = round(statistics.mean(v["score"] for v in st["by_type"].values()), 1)
+    st["template_mean_score_after"] = round(statistics.mean(v["score_after"] for v in st["by_type"].values()), 1)
+    money = ["home", "purchase", "purchase_sub", "refinance", "refinance_sub", "product_hub", "product"]
+    st["money_page_score"] = round(statistics.mean(v["score"] for k, v in st["by_type"].items() if k in money), 1)
+    st["money_page_score_after"] = round(statistics.mean(v["score_after"] for k, v in st["by_type"].items() if k in money), 1)
     st["pages"] = len(page_rows)
     st["lazy_atf_by_type_image"] = {f"{k[0]}|{k[1]}": v for k, v in lazy_atf_by.most_common()}
     st["fetchpriority_misuse"] = fp_misuse[:20]
@@ -319,7 +318,7 @@ def main():
     st["card_pages_by_type"] = dict(collections.Counter(r["type"] for r in page_rows if r["related_cards"]))
     with open(os.path.join(OUT, "scripts", "audit_stats.json"), "w") as f:
         json.dump(st, f, indent=1, default=str)
-    print(json.dumps({k: v for k, v in st.items() if k in ("sitewide_score", "sitewide_score_after", "template_mean_score", "pages")}, indent=1))
+    print(json.dumps({k: v for k, v in st.items() if k in ("sitewide_score", "sitewide_score_after", "template_mean_score", "template_mean_score_after", "money_page_score", "money_page_score_after", "pages")}, indent=1))
     for t, v in st["by_type"].items():
         print(f"{t:14s} n={v['pages']:3d} now={v['score']:5.1f} after={v['score_after']:5.1f} lcp={v['lcp_avg_kb']} -> {v['lcp_after_avg_kb']} / 768: {v['lcp_768_avg_kb']}  lazyATF={v['atf_lazy_pages']} og={v['og']}")
 

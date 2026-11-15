@@ -1,0 +1,111 @@
+url,aspect,score,grade,rationale
+https://alignlending.com/,Intent & H1,74,C,"H1 'A Michigan Mortgage Broker With More Options and Real Human Guidance' carries the head term but never says what 'more options' means (multiple wholesale lenders), and /mortgage-michigan/ uses the same 'Michigan Mortgage Broker' H1 framing."
+https://alignlending.com/,Heading structure,56,F,"13 H2s and 0 question headings; link-group labels ('Learn', 'About Align', 'Free guides') and 13 county names are marked up as H2/H3, and no heading answers 'what does a mortgage broker do' or 'how is a broker paid'."
+https://alignlending.com/,Above-the-fold answer,70,C,"75 above-the-fold words with a strong line ('One application, shopped across multiple wholesale lenders') and three path cards, but atf_ctas=0, no 'no credit pull' friction-reducer ATF and no statement of who it serves."
+https://alignlending.com/,CTA effectiveness,68,D,The main plan-builder CTA 'Build my plan' is a JS button with no href below the fold; 'Schedule a call with Samantha' and 'Start my application' appear only near the bottom; the ATF Refinance card skips the /refinance/ hub.
+https://alignlending.com/,Title & meta,80,B,"Title is 60 chars with the head term first; meta is 138 chars (under 140) and has no proof point (rating, Waterford, no credit pull)."
+https://alignlending.com/,Internal linking,70,C,121 content links out dilute equity; 567 of 573 contextual inlinks use the anchor 'Home'; no link to the broker-vs-bank explainer or the rate policy.
+https://alignlending.com/,E-E-A-T & trust,86,B,"Both NMLS numbers, six licensed states, Equal Housing, office address, Samantha bio with awards and verifiable Google and NMLS links; no broker-compensation disclosure."
+https://alignlending.com/,AI-search readiness,60,D,"No question headings or FAQ, no single quotable entity sentence near the top; schema has a thin Person node and an AggregateRating Google treats as self-serving."
+https://alignlending.com/,Accuracy & compliance,72,C,"Self-serving AggregateRating (5.0/123) and 24/7 openingHours in schema; the property-tax teaser uses 36.9 mills while the Uncapping Study states 36.0; the 2026 jumbo limit ($832,750) is correct but needs a Jan 2027 update."
+https://alignlending.com/,Overall,71,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/refinance/,Intent & H1,76,C,"H1 'Refinancing Your Michigan Mortgage' matches 'refinance mortgage michigan' (85 imprs, pos 44.5) but has no outcome or differentiator."
+https://alignlending.com/refinance/,Heading structure,72,C,"5 question headings and a sound FAQ, but H2 'Four common refinancing options' competes with /learn/types-of-refinancing/ for 'refinancing options' and 'Loan options'/'Other questions' are link groups as H2."
+https://alignlending.com/refinance/,Above-the-fold answer,80,B,"Answers the core question in the first 25 words ('worth it when the change pays for itself while you still have the loan'), two CTAs and a no-credit-pull strip; the Michigan taxable-value point is buried in a bullet."
+https://alignlending.com/refinance/,CTA effectiveness,76,C,"Clear ATF pair ('Start with a conversation' / 'Run a break-even estimate'), but four different Calendly labels on one page and no CTA to the refinance calculator."
+https://alignlending.com/refinance/,Title & meta,70,C,Title (48) 'Refinance Your Michigan Mortgage | Align Lending' is generic with no hook; meta (154) is good but has no proof point.
+https://alignlending.com/refinance/,Internal linking,48,F,Only 5 contextual inlinks sitewide versus 44 for /learn/types-of-refinancing/; no /learn/ refinance article links up to the hub; no link to /mortgage-refinance-calculator/.
+https://alignlending.com/refinance/,E-E-A-T & trust,78,C,"Samantha name and NMLS in the hero, licensing footer and a cited MCL 211.27a, but no reviewer line, updated date or Sources block."
+https://alignlending.com/refinance/,AI-search readiness,74,C,"FAQPage with four specific answers (Loan Estimate sections, 30-day escrow refund, MCL 211.27a); no 40-60-word 'when does refinancing make sense' answer."
+https://alignlending.com/refinance/,Accuracy & compliance,84,B,"Facts check out (12 CFR 1024.34 escrow refund, MCL 211.27a); rescission line needs 'usually'; the Sarah Cadieux quote is shortened with an ellipsis although /reviews/ promises 'never edited or shortened'."
+https://alignlending.com/refinance/,Overall,73,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Intent & H1,78,C,"H1 names all three products but not the 'vs' phrasing searchers use ('home equity vs cash-out refinance', pos 81.1)."
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Heading structure,74,C,"10 question headings, but H3 'What actually decides it?' repeats its H2, 'What you will walk away knowing' is a CTA label as H3, and there is no side-by-side comparison section."
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Above-the-fold answer,76,C,107 ATF words describe the method ('You do not start with the product') before giving the one-line difference between the three structures.
+https://alignlending.com/refinance/cash-out-vs-home-equity/,CTA effectiveness,78,C,"Tool CTA plus Calendly CTA ATF and a check-back form for not-ready visitors; the Calendly button is labelled 'Compare my options', which reads like the tool."
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Title & meta,66,D,Title (59) lacks 'vs'; meta is 125 chars with no benefit or proof.
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Internal linking,72,C,25 contextual inlinks from relevant /learn/ and product pages with varied anchors; loan cards use the generic anchor 'How it works'; no link to /learn/personal-loan-vs-home-equity/.
+https://alignlending.com/refinance/cash-out-vs-home-equity/,E-E-A-T & trust,84,B,"Samantha bio box with licensing and awards, Sources block (CFPB, Fannie Mae Selling Guide) and both NMLS IDs; no visible updated date."
+https://alignlending.com/refinance/cash-out-vs-home-equity/,AI-search readiness,78,C,"Quotable opening answer and FAQPage (6 Qs), but two FAQ answers are under 20 words ('Can I change my mind later?') and there is no comparison table."
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Accuracy & compliance,84,B,Structure and MCL 211.27a are accurate; testimonials under the '5.0 on Google' header include reviews /reviews/ labels 'Client review'.
+https://alignlending.com/refinance/cash-out-vs-home-equity/,Overall,77,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/refinance/home-equity-review/,Intent & H1,62,D,H1 'Your house is not an ATM' is a slogan with no keyword; the searched question 'Should I use my home equity?' sits in an H2.
+https://alignlending.com/refinance/home-equity-review/,Heading structure,74,C,"10 question headings, but a CTA label as H3 and no section on how much equity can be borrowed (CLTV) or the downsides."
+https://alignlending.com/refinance/home-equity-review/,Above-the-fold answer,72,C,"Defines equity and sets the 'why first' frame, but gives no direct answer or outcome in the first 60 words."
+https://alignlending.com/refinance/home-equity-review/,CTA effectiveness,78,C,Calendly primary plus equity-tool secondary ATF and a check-back form; three different labels for the same Calendly action.
+https://alignlending.com/refinance/home-equity-review/,Title & meta,62,D,Title 'Home Equity Strategy Review' (43) matches no query; meta is 123 chars.
+https://alignlending.com/refinance/home-equity-review/,Internal linking,76,C,"90 contextual inlinks ('Explore my equity options' x58, 'Start a home equity review' x23); no links to /learn/drive-by-appraisal/ or /learn/personal-loan-vs-home-equity/."
+https://alignlending.com/refinance/home-equity-review/,E-E-A-T & trust,84,B,"Samantha bio box, CFPB sources, NMLS and licensing; no visible updated date."
+https://alignlending.com/refinance/home-equity-review/,AI-search readiness,72,C,"'How much of my equity can I actually use?' answers 'That is a conversation, not a formula', so AI engines will quote a competitor's CLTV explanation instead."
+https://alignlending.com/refinance/home-equity-review/,Accuracy & compliance,86,B,Credit-card consolidation answer is balanced and accurate; MCL 211.27a correct; same Google-label issue on testimonials.
+https://alignlending.com/refinance/home-equity-review/,Overall,74,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/refinance/break-even-review/,Intent & H1,64,D,"H1 'Refinancing is not automatically a good idea' is a stance, not the query ('is refinancing worth it', 'refinance break-even')."
+https://alignlending.com/refinance/break-even-review/,Heading structure,76,C,10 question headings and a logical flow; CTA label as H3; no worked example or '2% rule' section that PAA surfaces.
+https://alignlending.com/refinance/break-even-review/,Above-the-fold answer,74,C,Opens with 'Nobody should refinance because somebody called'; the break-even formula appears only after the hero.
+https://alignlending.com/refinance/break-even-review/,CTA effectiveness,80,B,Consistent 'Get my refinance checkup' + 'Run a break-even estimate' pair and a check-back form.
+https://alignlending.com/refinance/break-even-review/,Title & meta,64,D,Title 'Refinance Break-Even Review' (43) is a product name; meta is 125 chars.
+https://alignlending.com/refinance/break-even-review/,Internal linking,82,B,"115 contextual inlinks, the best in the group ('Run a refinance break-even review' x80); links to the points-vs-credit calculator; no link to /mortgage-refinance-calculator/."
+https://alignlending.com/refinance/break-even-review/,E-E-A-T & trust,84,B,"Samantha bio box, CFPB sources, NMLS and licensing; no visible updated date."
+https://alignlending.com/refinance/break-even-review/,AI-search readiness,76,C,"The formula is stated plainly, but there is no illustrative example and no answers for 'is a 1% drop worth it' or 'does refinancing restart my term'."
+https://alignlending.com/refinance/break-even-review/,Accuracy & compliance,86,B,"Points and lender-credit treatment is correct; the Anirudh Papineni quote reads 'breath' here but 'breathe' on three other pages, against the 'never edited' promise."
+https://alignlending.com/refinance/break-even-review/,Overall,76,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/about-us/,Intent & H1,66,D,"H1 'About Align Lending' has no place or entity type; ""align lending"" ""waterford"" (180 imprs, pos 13.7) maps to /product-loans/ instead."
+https://alignlending.com/about-us/,Heading structure,72,C,"Clear H2s, but three link-group labels are H2s and there is no section for recognition, press or editorial standards."
+https://alignlending.com/about-us/,Above-the-fold answer,78,C,"At-a-glance list states NMLS, founding date, six states, awards and office, but 117 ATF words open with a quote rather than a one-sentence definition."
+https://alignlending.com/about-us/,CTA effectiveness,80,B,'Schedule a call with Samantha' primary and 'Read how Align started' secondary; repeated at the end with a game-plan option.
+https://alignlending.com/about-us/,Title & meta,78,C,"Title (58) and meta (155) are solid, but the title reuses 'Independent Michigan Mortgage Broker', competing with the homepage."
+https://alignlending.com/about-us/,Internal linking,40,F,"Only 3 contextual inlinks sitewide, all 'About Align Lending'; 470+ bylines link to /samantha-shelton/ and never to the company page."
+https://alignlending.com/about-us/,E-E-A-T & trust,88,B,"NMLS Consumer Access link, licensing, compensation note, founding story, awards and reviews."
+https://alignlending.com/about-us/,AI-search readiness,66,D,No FAQ or question headings; facts are scattered across the page; no reusable entity paragraph despite AboutPage schema.
+https://alignlending.com/about-us/,Accuracy & compliance,78,C,"'Align is paid by the lender, not by a fee you pay Align' is unqualified [VERIFY]; 'handles each of her loans herself' sits beside a 2024 profile citing 20 loan originators, unexplained."
+https://alignlending.com/about-us/,Overall,72,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/contact-us/,Intent & H1,70,C,"H1 'Get in touch with Align Lending' has no place; NAP query ""align lending"" ""2625 pontiac lake road"" (195 imprs) lands on /samantha-shelton/."
+https://alignlending.com/contact-us/,Heading structure,70,C,6 H2s with 1 question; three are link-group labels; no FAQ.
+https://alignlending.com/contact-us/,Above-the-fold answer,82,B,"55 ATF words with phone, text, calendar, hours and two CTAs; the street address is not above the fold."
+https://alignlending.com/contact-us/,CTA effectiveness,84,B,"Calendly and tel CTAs ATF, inline SMS link and a short form with clear consent text."
+https://alignlending.com/contact-us/,Title & meta,80,B,Title (53) and meta (149) carry NAP and NMLS; the title could carry the phone number for NAP queries.
+https://alignlending.com/contact-us/,Internal linking,58,F,"10 contextual inlinks (state hubs and legal pages); the footer address, Samantha's page and the Waterford city page do not link here."
+https://alignlending.com/contact-us/,E-E-A-T & trust,86,B,"Full NAP, NMLS, TCPA-style consent, privacy and terms links."
+https://alignlending.com/contact-us/,AI-search readiness,62,D,"No FAQ, no map or directions, and the ContactPage has no contactPoint."
+https://alignlending.com/contact-us/,Accuracy & compliance,88,B,NAP is consistent sitewide: '2625 Pontiac Lake Road' x36 and '248-506-5727' x606 with no variants; the shared Organization node still carries 24/7 openingHours.
+https://alignlending.com/contact-us/,Overall,76,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/reviews/,Intent & H1,76,C,"H1 fits but omits 'reviews' and 'Samantha Shelton', the words people search."
+https://alignlending.com/reviews/,Heading structure,66,D,"Good situation groups and a review-policy FAQ, but the 9-H3 'Situations Samantha sees' module duplicates /samantha-shelton/ and three link groups are H2s."
+https://alignlending.com/reviews/,Above-the-fold answer,82,B,"Says what the page is, how reviews are sourced, with filters and a trust strip; 131 ATF words is long."
+https://alignlending.com/reviews/,CTA effectiveness,80,B,"'Ask Samantha about your own situation' primary, Google link secondary, repeated at the end with a call option."
+https://alignlending.com/reviews/,Title & meta,74,C,Title (50) 'Client Reviews Of Samantha Shelton' misses 'Align Lending reviews'; meta 144.
+https://alignlending.com/reviews/,Internal linking,52,F,"7 contextual inlinks; '5.0 on Google, 123 reviews' appears 682 times sitewide but links here only from the homepage."
+https://alignlending.com/reviews/,E-E-A-T & trust,90,A,"Source labels (Google vs client review), a link to each Google review, NMLS links and results-vary disclosures."
+https://alignlending.com/reviews/,AI-search readiness,72,C,"FAQPage on review policy helps, but there is no summary of what clients mention most that AI answers could quote."
+https://alignlending.com/reviews/,Accuracy & compliance,64,D,"The feed shows 'She's so sweet and has great rates' (Ben Davis, Feb 2025), a rate claim the site's policy forbids; 'never edited' is contradicted on /refinance/ and /refinance/break-even-review/; reviews name other LOs [VERIFY]."
+https://alignlending.com/reviews/,Overall,73,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/samantha-shelton/,Intent & H1,78,C,"H1 'Samantha Shelton' is the exact name query and the page averages pos 3.7, but the H1 carries no role or place."
+https://alignlending.com/samantha-shelton/,Heading structure,76,C,"Logical bio structure, but two long H3 modules (9 situations, 8 subjects) and award H3 wording that differs from schema."
+https://alignlending.com/samantha-shelton/,Above-the-fold answer,62,D,"Only 35 ATF words: name, NMLS and two CTAs; the summary sits under the first H2."
+https://alignlending.com/samantha-shelton/,CTA effectiveness,78,C,'Schedule a call with Samantha' and 'Read what she writes' fit a person page; no agent or contact path.
+https://alignlending.com/samantha-shelton/,Title & meta,76,C,Title (57) has no brand; meta 137 (under 140).
+https://alignlending.com/samantha-shelton/,Internal linking,90,A,502 contextual inlinks via bylines; links to press and Learn hubs.
+https://alignlending.com/samantha-shelton/,E-E-A-T & trust,94,A,"License with verify link, company NMLS, background, dated press citations, podcast quotes and editorial standards."
+https://alignlending.com/samantha-shelton/,AI-search readiness,84,B,"Rich ProfilePage and Person schema (knowsAbout, award, sameAs) and a quotable summary; Person.award omits NAMB Broker of the Year."
+https://alignlending.com/samantha-shelton/,Accuracy & compliance,76,C,A situations card is missing the start of its quote; NAMB award missing from schema; '20 loan originators' vs 'one-woman operation'; 'Woman with Vision' vs 'Women With Vision'.
+https://alignlending.com/samantha-shelton/,Overall,79,C,Unweighted mean of the nine aspect scores
+https://alignlending.com/why-we-dont-publish-rates/,Intent & H1,88,B,H1 matches the page purpose exactly and owns a brand-defining topic.
+https://alignlending.com/why-we-dont-publish-rates/,Heading structure,78,C,"4 question headings and descriptive H2s; some H2s ('Facts first, then numbers') are slogans rather than searched questions."
+https://alignlending.com/why-we-dont-publish-rates/,Above-the-fold answer,86,B,"64 ATF words: the answer, what to do, two CTAs and friction-reducers."
+https://alignlending.com/why-we-dont-publish-rates/,CTA effectiveness,84,B,'Get a real number from Samantha' and 'Check a Loan Estimate you already have' fit the intent; repeated at decision points.
+https://alignlending.com/why-we-dont-publish-rates/,Title & meta,86,B,Title (51) and meta (151) are specific and compliant.
+https://alignlending.com/why-we-dont-publish-rates/,Internal linking,56,F,"10 contextual inlinks; not linked from the homepage, /refinance/ or /learn/what-is-mortgage-rate-lock/."
+https://alignlending.com/why-we-dont-publish-rates/,E-E-A-T & trust,86,B,"Cites PMMS, CFPB and 12 CFR 1026.19(e)(2)(ii) inline; no reviewer line or updated date."
+https://alignlending.com/why-we-dont-publish-rates/,AI-search readiness,84,B,"Quotable, sourced facts and FAQPage; no 'where can I see average rates' answer to catch rate-seeking visitors."
+https://alignlending.com/why-we-dont-publish-rates/,Accuracy & compliance,90,A,The Reg Z required-statement quote is exact and the PMMS borrower description is correct; 'No credit check to talk' differs from the sitewide 'No credit pull to talk'.
+https://alignlending.com/why-we-dont-publish-rates/,Overall,82,B,Unweighted mean of the nine aspect scores
+https://alignlending.com/real-estate-agents/,Intent & H1,72,C,"H1 'Working with Samantha on a shared client' fits agents but has no 'Michigan', 'real estate agents' or 'broker'."
+https://alignlending.com/real-estate-agents/,Heading structure,76,C,4 question headings and clear sections; H3 'In Samantha's words' is misfiled under the tools H2.
+https://alignlending.com/real-estate-agents/,Above-the-fold answer,80,B,"119 ATF words with the plan-first promise, two CTAs and a how-she-works list."
+https://alignlending.com/real-estate-agents/,CTA effectiveness,84,B,'Call Samantha about a shared client' is specific and right for agents; tel plus Calendly.
+https://alignlending.com/real-estate-agents/,Title & meta,76,C,Title (47) is clear but has no hook; meta (154) is specific.
+https://alignlending.com/real-estate-agents/,Internal linking,52,F,"5 contextual inlinks, all from /purchase/ sub-pages and /reviews/; not linked from the homepage, /about-us/ or /samantha-shelton/."
+https://alignlending.com/real-estate-agents/,E-E-A-T & trust,90,A,"RESPA Section 8 and GLBA explained with CFR links, NMLS and a sourced uncapping figure."
+https://alignlending.com/real-estate-agents/,AI-search readiness,80,B,"FAQPage (4 Qs) with specific, quotable answers; no 'lender or broker' answer for agents."
+https://alignlending.com/real-estate-agents/,Accuracy & compliance,88,B,"RESPA and Reg X citations correct; uncapping figures ($1,814, about 50%) match /research/michigan-property-tax-uncapping-study/."
+https://alignlending.com/real-estate-agents/,Overall,78,C,Unweighted mean of the nine aspect scores

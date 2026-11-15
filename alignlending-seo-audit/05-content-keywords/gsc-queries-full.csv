@@ -66,13 +66,13 @@ real estate due diligence professionals,0,132,0.0,68.9,,https://alignlending.com
 residential energy audit,0,130,0.0,77.1,,https://alignlending.com/learn/benefits-of-home-energy-audit/,token_match,learn,energy_audit,0,,top
 lease to own vs rent to own,1,128,0.0078,14.2,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,top
 interest rates on portfolio loans,0,128,0.0,58.2,,https://alignlending.com/learn/what-is-portfolio-loan/,token_match,learn,portfolio_loan,0,,top
-flint mortgage,0,126,0.0,18.5,https://alignlending.com/mortgage-location/flint-mi-48552/,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,legacy_city_redirect,local_broker_lender,0,flint,top
+flint mortgage,0,126,0.0,18.5,https://alignlending.com/mortgage-location/flint-mi-48552/,https://alignlending.com/mortgage-lender-flint-mi/,city_match,legacy_city_redirect,local_broker_lender,0,flint,top
 how much does a home energy audit cost,0,125,0.0,69.4,,https://alignlending.com/learn/benefits-of-home-energy-audit/,token_match,learn,energy_audit,1,,top
 rural home development loan,0,124,0.0,46.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,local_broker_lender,0,,top
 home equity line of credit,0,124,0.0,93.3,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,0,,top
 jumbo loan michigan,0,123,0.0,43.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,top
 refinance options,0,123,0.0,54.3,,https://alignlending.com/learn/refinancing-with-low-credit-score/,token_match,learn,refinance_general,0,,top
-"""mortgage brokerage"" ""broker owner"" or ""broker/owner"" texas or georgia or tennessee or florida or alabama or kentucky or virginia wholesale independent -facebook -instagram -linkedin -youtube -yelp -zillow -origami -motto -independentmortgagebrokers -wallethub -philanya -1stclassmtg -pickyourrate...",0,121,0.0,2.4,,https://alignlending.com/mortgage-lender-texas-township-mi/,city_match,city,bot_noise,0,texas,top
+"""mortgage brokerage"" ""broker owner"" or ""broker/owner"" texas or georgia or tennessee or florida or alabama or kentucky or virginia wholesale independent -facebook -instagram -linkedin -youtube -yelp -zillow -origami -motto -independentmortgagebrokers -wallethub -philanya -1stclassmtg -pickyourrate...",0,121,0.0,2.4,,https://alignlending.com/mortgage-florida/,token_match,state_hub,bot_noise,0,,top
 fha mortgage limits,0,121,0.0,33.8,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 usda loan eligibility,0,119,0.0,26.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 what are the requirements for a usda loan,0,118,0.0,48.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,top
@@ -85,7 +85,7 @@ second mortgage,0,107,0.0,86.6,,https://alignlending.com/learn/second-mortgages/
 michigan mortgage lender,0,106,0.0,14.7,https://alignlending.com/,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,home,local_broker_lender,0,,top
 mortgage broker wixom mi,0,105,0.0,15.0,https://alignlending.com/mortgage-location/wixom-mi-48393/,https://alignlending.com/mortgage-lender-wixom-mi/,city_match,legacy_city_redirect,local_broker_lender,0,wixom,top
 what are the benefits of a va loan,0,104,0.0,19.3,https://alignlending.com/learn/va-loan-benefits-for-veterans/,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,1,,top
-flint commercial mortgage,0,102,0.0,54.7,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,local_broker_lender,0,flint,top
+flint commercial mortgage,0,102,0.0,54.7,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,local_broker_lender,0,flint,top
 mortgage calculator michigan,0,101,0.0,40.2,,https://alignlending.com/mortgage-refinance-calculator/,token_match,calculator,local_broker_lender,0,,top
 home warranty policies,0,100,0.0,71.8,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,0,,top
 fha loan amount,0,99,0.0,51.8,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,top
@@ -134,7 +134,7 @@ rural development loan,0,75,0.0,48.7,,https://alignlending.com/learn/usda-loan-b
 calculate va funding fee,0,74,0.0,17.6,https://alignlending.com/va-funding-fee-calculator/,https://alignlending.com/va-funding-fee-calculator/,token_match,calculator,va_funding_fee,0,,top
 advantages of va loans,0,73,0.0,48.5,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_general,0,,top
 fha loan amount limits,0,72,0.0,31.6,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
-pmi removal calculator,0,71,0.0,22.2,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,va_calculator,0,,top
+pmi removal calculator,0,71,0.0,22.2,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,pmi,0,,top
 portfolio loans,0,71,0.0,46.1,,https://alignlending.com/learn/what-is-portfolio-loan/,token_match,learn,portfolio_loan,0,,top
 homeowners insurance deductible,0,71,0.0,66.3,,https://alignlending.com/learn/homeowners-insurance-deductibles/,token_match,learn,home_insurance,0,,top
 refinance usda loan,0,71,0.0,72.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_refinance,0,,top
@@ -148,7 +148,7 @@ va streamline refinance,0,69,0.0,69.7,,https://alignlending.com/learn/va-interes
 homeready mortgage,0,68,0.0,6.5,https://alignlending.com/learn/homeready-mortgages/,https://alignlending.com/learn/homeready-mortgages/,token_match,learn,homeready_homepossible,0,,top
 what is homestead exemption,0,68,0.0,12.2,https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/,https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/,token_match,learn,homestead,1,,top
 mortgage banker near me,0,68,0.0,14.9,https://alignlending.com/,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,home,local_broker_lender,0,,top
-fha loan limits new york,0,68,0.0,57.9,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,fha_limits,0,york,top
+fha loan limits new york,0,68,0.0,57.9,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 how can i compare heloc lenders side-by-side?,0,67,0.0,1.5,,https://alignlending.com/learn/how-to-compare-heloc-lenders/,token_match,learn,heloc,1,,top
 michigan fha loans,0,67,0.0,12.2,https://alignlending.com/product-loans/fha-loans/,https://alignlending.com/learn/fha-loan-tips/,token_match,product,fha_general,0,,top
 usda loans michigan,0,67,0.0,35.7,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
@@ -166,7 +166,7 @@ align,0,64,0.0,4.8,,https://alignlending.com/learn/why-work-with-align-lending/,
 buy lease or rent,0,64,0.0,38.9,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,top
 what is a plat map,0,64,0.0,44.8,,https://alignlending.com/learn/what-is-plat-map/,token_match,learn,plat,1,,top
 michigan 1099 loans,0,64,0.0,48.0,,https://alignlending.com/product-loans/1099-income-loans/,token_match,product,bank_statement_1099_asset,0,,top
-new york fha mortgage limits 2025,0,64,0.0,57.7,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,fha_limits,0,york,top
+new york fha mortgage limits 2025,0,64,0.0,57.7,,https://alignlending.com/fha-loan-limits-2025-homeownership/,token_match,legacy_post,fha_limits,0,,top
 foundation problems,0,64,0.0,71.8,,https://alignlending.com/learn/dealing-with-foundation-issues-in-home/,token_match,learn,home_improvement_drift,0,,top
 close in 10 days real estate loan,0,63,0.0,40.2,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,closing_process,0,,top
 rural development loans,0,63,0.0,47.2,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
@@ -180,18 +180,18 @@ usda home loan income limits,0,60,0.0,34.5,,https://alignlending.com/learn/usda-
 best mortgage companies in michigan,0,60,0.0,39.4,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,top
 drive by appraisal for home equity loan,0,60,0.0,40.4,,https://alignlending.com/learn/home-equity-loans-pros-and-cons/,token_match,learn,home_equity_loan,0,,top
 usda home loan eligibility,0,60,0.0,44.2,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
-richmond home loans,0,60,0.0,49.4,,https://alignlending.com/mortgage-lender-richmond-mi/,token_match,city,local_broker_lender,0,richmond,top
+richmond home loans,0,60,0.0,49.4,,https://alignlending.com/mortgage-lender-richmond-mi/,token_match,city,local_broker_lender,0,,top
 usda loan income requirements,0,59,0.0,28.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,top
 fannie mae energy audits,0,59,0.0,31.0,,https://alignlending.com/learn/fannie-mae-updates/,token_match,learn,energy_audit,0,,top
 real estate investor financing,0,59,0.0,60.2,,https://alignlending.com/learn/how-to-become-real-estate-investor/,token_match,learn,crowdfunding_investing_drift,0,,top
-loan to value calculator​,0,58,0.0,21.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,top
+loan to value calculator​,0,58,0.0,21.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,top
 va home loan benefit,0,58,0.0,23.0,,https://alignlending.com/learn/buying-home-with-va-loan/,token_match,learn,va_benefits,0,,top
 usda loans eligibility,0,58,0.0,29.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 home water damage,0,58,0.0,33.1,,https://alignlending.com/learn/how-to-address-water-damage-in-your-home/,token_match,learn,home_improvement_drift,0,,top
 fha max loan amount,0,58,0.0,42.1,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,top
 va vs conventional loan calculator,0,58,0.0,45.6,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,top
 usda home loan guidelines,0,58,0.0,46.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
-new york fha loan limits 2025,0,58,0.0,60.5,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,fha_limits,0,york,top
+new york fha loan limits 2025,0,58,0.0,60.5,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 fixed rate mortgage farmington mi,0,57,0.0,17.1,https://alignlending.com/mortgage-location/farmington-hills-mi-48331/,https://alignlending.com/mortgage-lender-farmington-mi/,city_match,legacy_city_redirect,mortgage_rates_intent,0,farmington,top
 bank statement loan calculator,0,57,0.0,44.0,,https://alignlending.com/product-loans/bank-statement-loan/,token_match,product,bank_statement_1099_asset,0,,top
 usda home loan qualifications,0,57,0.0,50.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
@@ -208,7 +208,7 @@ how do home mortgage consultants stay updated on the latest mortgage products an
 rate and term refinance farmington hills,0,55,0.0,23.2,,https://alignlending.com/mortgage-lender-in-farmington-hills/,city_match,city,refinance_general,0,farmington hills,top
 mortgage amortization,0,55,0.0,27.1,,https://alignlending.com/learn/mortgage-amortization/,token_match,learn,amortization,0,,top
 michigan asset depletion loans,0,55,0.0,37.2,,https://alignlending.com/product-loans/asset-based-income-loans/,token_match,product,bank_statement_1099_asset,0,,top
-home energy auditing,0,55,0.0,52.3,,https://alignlending.com/learn/benefits-of-home-energy-audit/,token_match,learn,bank_statement_1099_asset,0,,top
+home energy auditing,0,55,0.0,52.3,,https://alignlending.com/learn/benefits-of-home-energy-audit/,token_match,learn,energy_audit,0,,top
 how does home insurance deductible work,0,55,0.0,71.3,,https://alignlending.com/learn/homeowners-insurance-deductibles/,token_match,learn,home_insurance,1,,top
 mortgage loans near me,0,54,0.0,15.1,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,local_broker_lender,0,,top
 renovation insurance cost,0,54,0.0,21.2,,https://alignlending.com/learn/home-renovation-permits-what-you-need/,token_match,learn,home_insurance,0,,top
@@ -230,16 +230,16 @@ how much is a va funding fee,0,52,0.0,84.2,,https://alignlending.com/va-funding-
 if a non-qm features a balloon payment and is not an hpml: monthly payment calculations must be based on the maximum payment scheduled during the first five years after the first payment monthly payment calculations must be based on the introductory interest rate monthly payment calculations must...,0,51,0.0,1.9,,https://alignlending.com/learn/balloon-payments/,token_match,learn,exam_quiz_drift,0,,top
 what is a usda home loan,0,51,0.0,48.6,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,top
 how to calculate ltv,0,51,0.0,53.9,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,1,,top
-flint apartment loans,0,51,0.0,56.0,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,local_broker_lender,0,flint,top
+flint apartment loans,0,51,0.0,56.0,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,local_broker_lender,0,flint,top
 mortgage broker wolverine lake mi,0,50,0.0,5.7,,https://alignlending.com/mortgage-lender-wolverine-lake-mi/,city_match,city,local_broker_lender,0,wolverine lake,top
-loan to value ratio calculator​,0,50,0.0,18.7,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,top
+loan to value ratio calculator​,0,50,0.0,18.7,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,top
 michigan mortgage consultant,0,50,0.0,19.5,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,top
 usda mortgage requirements,0,50,0.0,20.2,https://alignlending.com/learn/usda-loan-basics/,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 benefits of a va loan,0,50,0.0,23.0,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,top
 fha loan limits 2025,0,50,0.0,27.3,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 fha lending limits,0,50,0.0,31.2,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 ann arbor home loan,0,50,0.0,54.9,,https://alignlending.com/mortgage-lender-ann-arbor-mi/,city_match,city,local_broker_lender,0,ann arbor,top
-new york fha mortgage limits,0,50,0.0,55.8,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,fha_limits,0,york,top
+new york fha mortgage limits,0,50,0.0,55.8,,https://alignlending.com/mortgage-lender-york-township-mi/,token_match,city,fha_limits,0,,top
 home energy audit cost,0,50,0.0,65.9,,https://alignlending.com/learn/benefits-of-home-energy-audit/,token_match,learn,energy_audit,0,,top
 1031 exchange real estate,0,50,0.0,84.0,,https://alignlending.com/learn/1031-exchanges-rules-and-benefits/,token_match,learn,1031_exchange,0,,top
 residential mortgage due diligence,0,50,0.0,86.4,,https://alignlending.com/learn/real-estate-due-diligence/,token_match,learn,crowdfunding_investing_drift,0,,top
@@ -253,7 +253,7 @@ usda guaranteed loans,0,49,0.0,52.5,,https://alignlending.com/learn/usda-loan-ba
 refinancing usda loans,0,49,0.0,53.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_refinance,0,,top
 lease to own agreement,0,49,0.0,62.2,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,top
 michigan fha loan requirements,0,48,0.0,22.1,,https://alignlending.com/learn/recent-changes-to-fha-loan-requirements/,token_match,learn,fha_general,0,,top
-loan to value calculator,0,48,0.0,25.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,top
+loan to value calculator,0,48,0.0,25.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,top
 va loans michigan,0,48,0.0,53.6,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,top
 low down payment mortgages,0,48,0.0,74.2,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,low_down_zero_down,0,,top
 michigan usda loan broker,0,47,0.0,9.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
@@ -272,7 +272,7 @@ lansing mortgage company,0,46,0.0,22.8,,https://alignlending.com/mortgage-lender
 mortgage refinance dearborn mi,0,46,0.0,26.7,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,refinance_general,0,dearborn,top
 mortgage lenders in michigan,0,46,0.0,31.8,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,top
 affordable kitchen remodel,0,46,0.0,59.6,,https://alignlending.com/learn/how-to-renovate-kitchen-on-budget/,token_match,learn,home_improvement_drift,0,,top
-new york fha loan limits,0,46,0.0,61.6,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,fha_limits,0,york,top
+new york fha loan limits,0,46,0.0,61.6,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 debt to income ratio fha,0,46,0.0,67.0,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,fha_dti,0,,top
 apr and interest rate,0,46,0.0,82.5,,https://alignlending.com/learn/annual-percentage-rate-apr/,token_match,learn,apr,0,,top
 1031 exchange,0,46,0.0,83.8,,https://alignlending.com/learn/1031-exchanges-rules-and-benefits/,token_match,learn,1031_exchange,0,,top
@@ -303,7 +303,7 @@ eligibility for usda loan,0,43,0.0,26.1,,https://alignlending.com/learn/usda-loa
 budget kitchen renovation,0,43,0.0,28.6,,https://alignlending.com/learn/how-to-renovate-kitchen-on-budget/,token_match,learn,home_improvement_drift,0,,top
 usda loan qualifications,0,43,0.0,29.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 usda income limits,0,43,0.0,34.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,top
-grand rapids mortgage broker,0,43,0.0,35.1,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,top
+grand rapids mortgage broker,0,43,0.0,35.1,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,top
 va loan down payment calculator,0,43,0.0,42.2,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,top
 va refinance program,0,43,0.0,53.8,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
 homeowner insurance deductibles,0,43,0.0,68.7,,https://alignlending.com/learn/homeowners-insurance-deductibles/,token_match,learn,home_insurance,0,,top
@@ -324,7 +324,7 @@ homeowners insurance deductibles,0,42,0.0,70.4,,https://alignlending.com/learn/h
 deductible for homeowners insurance,0,42,0.0,72.2,,https://alignlending.com/learn/homeowners-insurance-deductibles/,token_match,learn,home_insurance,0,,top
 best va loan lender dearborn,0,41,0.0,23.2,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,va_general,0,dearborn,top
 who has the best mortgage rates in dearborn mi,0,41,0.0,29.2,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,mortgage_rates_intent,1,dearborn,top
-holland mi mortgage company,0,41,0.0,32.0,,https://alignlending.com/mortgage-lender-holland-township-mi/,city_match,city,local_broker_lender,0,holland,top
+holland mi mortgage company,0,41,0.0,32.0,,https://alignlending.com/mortgage-lender-holland-mi/,city_match,city,local_broker_lender,0,holland,top
 usda financing,0,41,0.0,42.6,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 ann arbor mortgage,0,41,0.0,43.5,,https://alignlending.com/mortgage-lender-ann-arbor-mi/,city_match,city,local_broker_lender,0,ann arbor,top
 signs of foundation problems,0,41,0.0,59.9,,https://alignlending.com/learn/dealing-with-foundation-issues-in-home/,token_match,learn,home_improvement_drift,0,,top
@@ -333,7 +333,7 @@ mortgage company in pontiac,0,41,0.0,74.6,,https://alignlending.com/mortgage-len
 real estate due diligence consulting,0,41,0.0,90.6,,https://alignlending.com/learn/real-estate-due-diligence/,token_match,learn,crowdfunding_investing_drift,0,,top
 best fha lender in farmington hills mi,0,40,0.0,17.2,,https://alignlending.com/mortgage-lender-in-farmington-hills/,city_match,city,fha_general,0,farmington hills,top
 home loans in farmington hills mi,0,40,0.0,17.5,,https://alignlending.com/mortgage-lender-in-farmington-hills/,city_match,city,local_broker_lender,0,farmington hills,top
-loan to value ratio calculator,0,40,0.0,19.1,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,top
+loan to value ratio calculator,0,40,0.0,19.1,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,top
 best mortgage companies in dearborn,0,40,0.0,19.3,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,local_broker_lender,0,dearborn,top
 residential mortgage lender dearborn,0,40,0.0,20.9,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,local_broker_lender,0,dearborn,top
 rental demand,0,40,0.0,25.6,,https://alignlending.com/learn/economic-factors-driving-housing-demand/,token_match,learn,crowdfunding_investing_drift,0,,top
@@ -388,7 +388,7 @@ what is an escrow balance on a mortgage,0,37,0.0,7.7,,https://alignlending.com/l
 mansion size,0,37,0.0,8.3,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,0,,top
 benefits of homeready mortgage,0,37,0.0,9.8,,https://alignlending.com/learn/homeready-mortgages/,token_match,learn,homeready_homepossible,0,,top
 housing demand,0,37,0.0,11.9,,https://alignlending.com/learn/economic-factors-driving-housing-demand/,token_match,learn,housing_market,0,,top
-mortgage loans ypsilanti mi,0,37,0.0,17.7,,https://alignlending.com/mortgage-lender-ypsilanti-township-mi/,city_match,city,local_broker_lender,0,ypsilanti,top
+mortgage loans ypsilanti mi,0,37,0.0,17.7,,https://alignlending.com/mortgage-lender-ypsilanti-mi/,city_match,city,local_broker_lender,0,ypsilanti,top
 home loans in dearborn mi,0,37,0.0,19.5,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,local_broker_lender,0,dearborn,top
 usda minimum credit score,0,37,0.0,22.1,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_credit,0,,top
 dti for usda loan,0,37,0.0,27.0,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,usda_dti,0,,top
@@ -454,7 +454,7 @@ what is a second mortgage,0,34,0.0,81.9,,https://alignlending.com/learn/second-m
 selling house during divorce,0,34,0.0,90.1,,https://alignlending.com/learn/selling-home-during-divorce/,token_match,learn,seller_topics,0,,top
 refinance+endangered,0,33,0.0,3.2,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,bot_noise,0,,top
 dearborn heights mortgage rates,0,33,0.0,15.9,,https://alignlending.com/mortgage-lender-dearborn-heights-mi/,city_match,city,mortgage_rates_intent,0,dearborn heights,top
-flint home loans,0,33,0.0,19.5,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,local_broker_lender,0,flint,top
+flint home loans,0,33,0.0,19.5,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,local_broker_lender,0,flint,top
 hidden costs of buying a home,0,33,0.0,23.4,,https://alignlending.com/learn/how-to-spot-hidden-costs-in-home-purchase/,token_match,learn,other,0,,top
 mortgage advisor,0,33,0.0,24.1,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,top
 home warranty plans,0,33,0.0,25.9,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,0,,top
@@ -496,7 +496,7 @@ rent to own vs buying,0,31,0.0,33.0,,https://alignlending.com/learn/lease-to-own
 mortgage rate lock fee,0,31,0.0,39.0,,https://alignlending.com/learn/what-is-mortgage-rate-lock/,token_match,learn,rate_lock,0,,top
 crowdfunding real estate,0,31,0.0,40.0,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,crowdfunding_investing_drift,0,,top
 va loan benefits for disabled veterans,0,31,0.0,42.1,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_disabled,0,,top
-mortgage lender hudson,0,31,0.0,58.0,,https://alignlending.com/mortgage-lender-hudson-mi/,city_match,city,local_broker_lender,0,hudson,top
+mortgage lender hudson,0,31,0.0,58.0,,https://alignlending.com/mortgage-lender-hudson-mi/,token_match,city,local_broker_lender,0,,top
 credit builder loan va,0,31,0.0,58.5,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,top
 mortgage rate lock,0,31,0.0,63.3,,https://alignlending.com/learn/what-is-mortgage-rate-lock/,token_match,learn,rate_lock,0,,top
 va streamline,0,31,0.0,63.5,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
@@ -615,11 +615,11 @@ mortgage interest tax deduction,0,26,0.0,75.2,,https://alignlending.com/learn/mo
 how much is the va funding fee,0,26,0.0,86.7,,https://alignlending.com/va-funding-fee-calculator/,token_match,calculator,va_funding_fee,1,,top
 mortgage loans,0,25,0.0,1.3,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,local_broker_lender,0,,top
 how does a usda loan in idaho compare to a conventional mortgage for rural buyers?,0,25,0.0,6.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,top
-fha pmi removal calculator,0,25,0.0,7.0,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,va_calculator,0,,top
+fha pmi removal calculator,0,25,0.0,7.0,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,fha_mip,0,,top
 "refinance home loan rochester hills, michigan",0,25,0.0,9.1,,https://alignlending.com/mortgage-lender-rochester-hills-mi/,city_match,city,refinance_general,0,rochester hills,top
 is earnest money refundable,0,25,0.0,13.6,,https://alignlending.com/learn/earnest-money-deposits/,token_match,learn,earnest_money,1,,top
-mortgage broker northville michigan,0,25,0.0,15.0,,https://alignlending.com/mortgage-lender-northville-township-mi/,city_match,city,local_broker_lender,0,northville,top
-pmi calculator removal,0,25,0.0,15.6,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,va_calculator,0,,top
+mortgage broker northville michigan,0,25,0.0,15.0,,https://alignlending.com/mortgage-lender-northville-mi/,city_match,city,local_broker_lender,0,northville,top
+pmi calculator removal,0,25,0.0,15.6,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,pmi,0,,top
 home possible income limits,0,25,0.0,23.0,,https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/,token_match,learn,homeready_homepossible,0,,top
 who is eligible for a usda loan,0,25,0.0,23.1,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,top
 usda loan dti,0,25,0.0,25.6,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,usda_dti,0,,top
@@ -644,7 +644,7 @@ aligned lending,1,24,0.0417,4.3,,https://alignlending.com/learn/trends-in-mortga
 what legal risks arise from mixed-use property development?,0,24,0.0,6.2,,https://alignlending.com/learn/benefits-of-investing-in-mixed-use-developments/,token_match,learn,crowdfunding_investing_drift,1,,top
 earnest money va loan,0,24,0.0,6.8,,https://alignlending.com/learn/earnest-money-deposits/,token_match,learn,va_general,0,,top
 refinance+fishing,0,24,0.0,8.0,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,bot_noise,0,,top
-home warranty waiting period,0,24,0.0,10.4,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,bank_statement_1099_asset,0,,top
+home warranty waiting period,0,24,0.0,10.4,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,0,,top
 minimum down for conventional loan,0,24,0.0,12.5,,https://alignlending.com/learn/what-is-conventional-97-loan/,token_match,learn,conventional,0,,top
 michigan conventional loans,0,24,0.0,14.3,,https://alignlending.com/learn/what-is-conventional-97-loan/,token_match,learn,conventional,0,,top
 benefits of using va loan,0,24,0.0,17.1,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,top
@@ -729,7 +729,7 @@ who has the best mortgage rates in farmington hills mi,0,22,0.0,14.0,,https://al
 usda loan requirements tn,0,22,0.0,15.1,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 va new construction home loans,0,22,0.0,20.5,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_construction,0,,top
 usda income,0,22,0.0,21.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,top
-mortgage broker plymouth,0,22,0.0,22.1,,https://alignlending.com/mortgage-lender-plymouth-township-mi/,city_match,city,local_broker_lender,0,plymouth,top
+mortgage broker plymouth,0,22,0.0,22.1,,https://alignlending.com/mortgage-lender-plymouth-mi/,city_match,city,local_broker_lender,0,plymouth,top
 michigan va loan eligibility,0,22,0.0,22.9,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_requirements,0,,top
 pay down mortgage calculator,0,22,0.0,25.1,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,payoff_calculator,0,,top
 usda loan annual funding fee,0,22,0.0,28.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_funding_fee,0,,top
@@ -823,7 +823,7 @@ michigan affordable home loans,0,20,0.0,14.2,,https://alignlending.com/learn/hom
 usda home loan guarantee,0,20,0.0,15.1,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 48009 conventional mortgage,0,20,0.0,16.0,,https://alignlending.com/learn/what-is-conventional-97-loan/,token_match,learn,conventional,0,,top
 usda guaranteed loan program,0,20,0.0,16.2,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
-flint mortgage rates,0,20,0.0,17.0,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,mortgage_rates_intent,0,flint,top
+flint mortgage rates,0,20,0.0,17.0,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,mortgage_rates_intent,0,flint,top
 is it a buyers market,0,20,0.0,17.9,,https://alignlending.com/learn/what-is-sellers-market-for-home-buyers/,token_match,learn,housing_market,1,,top
 home affordability index,0,20,0.0,19.8,,https://alignlending.com/learn/housing-affordability-indices/,token_match,learn,housing_market,0,,top
 "best mortgage companies in rochester hills, michigan",0,20,0.0,21.4,,https://alignlending.com/mortgage-lender-rochester-hills-mi/,city_match,city,local_broker_lender,0,rochester hills,top
@@ -847,7 +847,7 @@ apply for a usda loan,0,20,0.0,50.8,,https://alignlending.com/learn/usda-loan-ba
 seller's disclosure,0,20,0.0,51.4,,https://alignlending.com/learn/what-is-sellers-disclosure/,token_match,learn,seller_topics,0,,top
 va home loan advantages,0,20,0.0,54.6,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_benefits,0,,top
 rural development loan michigan,0,20,0.0,54.6,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
-mortgage loans hudson,0,20,0.0,56.7,,https://alignlending.com/mortgage-lender-hudson-mi/,city_match,city,local_broker_lender,0,hudson,top
+mortgage loans hudson,0,20,0.0,56.7,,https://alignlending.com/mortgage-lender-hudson-mi/,token_match,city,local_broker_lender,0,,top
 mn fha loan limits,0,20,0.0,57.8,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 disabled veteran refinance,0,20,0.0,61.8,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,va_irrrl,0,,top
 advantages of a va mortgage loan,0,20,0.0,62.3,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_general,0,,top
@@ -893,7 +893,7 @@ va housing loan benefits,0,19,0.0,32.5,,https://alignlending.com/learn/va-loan-b
 max fha loan amount,0,19,0.0,33.3,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,top
 what is a portfolio loan,0,19,0.0,33.4,,https://alignlending.com/learn/what-is-portfolio-loan/,token_match,learn,portfolio_loan,1,,top
 seller disclosures,0,19,0.0,38.1,,https://alignlending.com/learn/how-to-handle-seller-disclosures/,token_match,learn,seller_topics,0,,top
-hecm waiting period completion,0,19,0.0,40.4,,https://alignlending.com/learn/how-to-refinance-mortgage-in-forbearance/,token_match,learn,bank_statement_1099_asset,0,,top
+hecm waiting period completion,0,19,0.0,40.4,,https://alignlending.com/learn/how-to-refinance-mortgage-in-forbearance/,token_match,learn,reverse_mortgage,0,,top
 real estate crowdfunding investing,0,19,0.0,40.6,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,crowdfunding_investing_drift,0,,top
 types of houses,0,19,0.0,41.7,,https://alignlending.com/learn/different-types-of-houses-by-structure-and-style/,token_match,learn,home_improvement_drift,0,,top
 va home loan irrrl,0,19,0.0,43.8,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
@@ -931,7 +931,7 @@ convayance,0,18,0.0,1.0,,https://alignlending.com/learn/conveyance-in-real-estat
 michigan mortgage for seniors,0,18,0.0,1.1,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,top
 changes in active housing inventory across u.s. regions,0,18,0.0,1.5,,https://alignlending.com/learn/housing-policy-changes/,token_match,learn,housing_market,0,,top
 what risks are often associated with the housing market?,0,18,0.0,2.1,,https://alignlending.com/learn/housing-market-trends/,token_match,learn,housing_market,1,,top
-insurance renovation cost estimate,0,18,0.0,3.1,,https://alignlending.com/learn/home-renovation-permits-what-you-need/,token_match,learn,va_calculator,0,,top
+insurance renovation cost estimate,0,18,0.0,3.1,,https://alignlending.com/learn/home-renovation-permits-what-you-need/,token_match,learn,home_insurance,0,,top
 personal loan companies,0,18,0.0,3.5,,https://alignlending.com/learn/personal-loan-vs-home-equity/,token_match,learn,personal_loans_drift,0,,top
 is rocket mortgage a broker,0,18,0.0,5.8,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,broker_vs_lender,1,,top
 explain how a balloon mortgage works and its risks for first-time homebuyers,0,18,0.0,6.9,,https://alignlending.com/learn/balloon-mortgages-risks-and-benefits/,token_match,learn,balloon,0,,top
@@ -968,7 +968,7 @@ lansing commercial mortgage,0,18,0.0,34.4,,https://alignlending.com/mortgage-len
 real estate finances,0,18,0.0,34.8,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,crowdfunding_investing_drift,0,,top
 who are mansion properties,0,18,0.0,39.1,,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,1,,top
 waiving inspection contingency,0,18,0.0,39.7,,https://alignlending.com/learn/home-inspection-waivers-risks-and-benefits/,token_match,learn,inspection,0,,top
-kalamazoo mortgage company,0,18,0.0,40.1,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,local_broker_lender,0,kalamazoo,top
+kalamazoo mortgage company,0,18,0.0,40.1,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,local_broker_lender,0,kalamazoo,top
 fha loan max amount,0,18,0.0,40.7,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,top
 veterans loan requirements,0,18,0.0,43.7,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_requirements,0,,top
 selling a home during divorce realtor northwest indiana,0,18,0.0,45.4,,https://alignlending.com/learn/selling-home-during-divorce/,token_match,learn,seller_topics,0,,top
@@ -1050,7 +1050,7 @@ house types,0,17,0.0,55.9,,https://alignlending.com/learn/home-types-and-living/
 colorado fha loan limits 2025,0,17,0.0,56.1,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,top
 short term rental compliance,0,17,0.0,56.4,,https://alignlending.com/learn/navigating-short-term-rental-regulations/,token_match,learn,crowdfunding_investing_drift,0,,top
 va earl refinance,0,17,0.0,58.6,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
-mortgage lenders harrison,0,17,0.0,61.6,,https://alignlending.com/mortgage-lender-harrison-township-mi/,city_match,city,local_broker_lender,0,harrison,top
+mortgage lenders harrison,0,17,0.0,61.6,,https://alignlending.com/mortgage-lender-harrison-township-mi/,token_match,city,local_broker_lender,0,,top
 veteran home loan calculator,0,17,0.0,61.9,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,top
 va construction to permanent loan,0,17,0.0,64.4,,https://alignlending.com/learn/construction-to-permanent-loans/,token_match,learn,va_construction,0,,top
 home warranty purchase,0,17,0.0,67.5,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,0,,top
@@ -1134,7 +1134,7 @@ how to qualify for a mortgage in michigan,0,15,0.0,1.0,,https://alignlending.com
 conveyance of title,0,15,0.0,1.0,,https://alignlending.com/learn/conveyance-in-real-estate/,token_match,learn,conveyance,0,,top
 how to investing for homeowners,0,15,0.0,1.7,,https://alignlending.com/learn/real-estate-investing/,token_match,learn,other,1,,top
 vegan loan buying tips,0,15,0.0,2.6,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,bot_noise,0,,top
-how do i compare reliable title underwriting providers for residential commercial and lender-related deals?,0,15,0.0,3.1,,https://alignlending.com/learn/commercial-real-estate-investing/,token_match,learn,bank_statement_1099_asset,1,,top
+how do i compare reliable title underwriting providers for residential commercial and lender-related deals?,0,15,0.0,3.1,,https://alignlending.com/learn/commercial-real-estate-investing/,token_match,learn,closing_process,1,,top
 michigan subdivision plats,0,15,0.0,3.9,,https://alignlending.com/mortgage-lender-allen-park-mi/,token_match,city,plat,0,,top
 "for a non-hpml qualified mortgage to include a balloon payment, the consumer must: be able to make the maximum payment scheduled during the first five years of the loan term be able to afford 125% of the maximum payment scheduled during the first five years of the loan term be able to make twice ...",0,15,0.0,4.4,,https://alignlending.com/learn/balloon-payments/,token_match,learn,exam_quiz_drift,0,,top
 "under the 2026 qm points-and-fees thresholds, for loans ? $137,958, points and fees may not exceed: 2% of total loan amount 2.5% of total loan amount 3% of total loan amount 5% of total loan amount",0,15,0.0,4.8,,https://alignlending.com/learn/non-qm-loans-for-self-employed-borrowers/,token_match,learn,exam_quiz_drift,0,,top
@@ -1160,7 +1160,7 @@ agriculture home loans,0,15,0.0,23.7,,https://alignlending.com/learn/home-equity
 requirements for a usda loan,0,15,0.0,23.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
 does va have identity of interest guidelines,0,15,0.0,24.1,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_requirements,1,,top
 usda loan requirements for buyers,0,15,0.0,25.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
-flint mi mortgage rates,0,15,0.0,25.6,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,mortgage_rates_intent,0,flint,top
+flint mi mortgage rates,0,15,0.0,25.6,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,mortgage_rates_intent,0,flint,top
 best mortgage lenders for first-time buyers dearborn,0,15,0.0,25.6,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,first_time_buyer,0,dearborn,top
 current va construction loan rates,0,15,0.0,25.8,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_construction,0,,top
 trusted mortgage lender near me dearborn,0,15,0.0,26.1,,https://alignlending.com/mortgage-lender-dearborn-mi/,city_match,city,local_broker_lender,0,dearborn,top
@@ -1176,7 +1176,7 @@ usda county income limits,0,15,0.0,30.7,,https://alignlending.com/learn/usda-loa
 guidelines for va loan,0,15,0.0,31.2,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,top
 michigan jumbo loan application,0,15,0.0,31.3,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,top
 recommended mortgage lenders in detroit for a quick close,0,15,0.0,31.6,,https://alignlending.com/mortgage-lender-detroit-mi/,city_match,city,local_broker_lender,0,detroit,top
-mortgage broker grand rapids mi,0,15,0.0,31.8,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,top
+mortgage broker grand rapids mi,0,15,0.0,31.8,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,top
 crowdfunded real estate,0,15,0.0,35.5,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,crowdfunding_investing_drift,0,,top
 drive-by appraisal,0,15,0.0,36.3,,https://alignlending.com/learn/drive-by-appraisal/,token_match,learn,appraisal,0,,top
 usda loans requirements,0,15,0.0,37.2,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,top
@@ -1208,7 +1208,7 @@ kitchen remodeling on a budget,0,15,0.0,64.2,,https://alignlending.com/learn/how
 ann arbor mortgage rates,0,15,0.0,65.5,,https://alignlending.com/mortgage-lender-ann-arbor-mi/,city_match,city,mortgage_rates_intent,0,ann arbor,top
 detroit va mortgage,0,15,0.0,67.3,,https://alignlending.com/mortgage-lender-detroit-mi/,city_match,city,va_general,0,detroit,top
 hoa dues,0,15,0.0,69.1,,https://alignlending.com/learn/buying-home-with-hoa-pros-and-cons/,token_match,learn,hoa,0,,top
-richmond county conventional mortgage,0,15,0.0,72.0,,https://alignlending.com/mortgage-lender-richmond-mi/,city_match,city,conventional,0,richmond,top
+richmond county conventional mortgage,0,15,0.0,72.0,,https://alignlending.com/mortgage-lender-richmond-mi/,token_match,city,conventional,0,,top
 refinance usda to conventional,0,15,0.0,72.1,,https://alignlending.com/learn/what-is-usda-streamline-refinance/,token_match,learn,usda_refinance,0,,top
 can i sell my home if i have a reverse mortgage,0,15,0.0,72.2,,https://alignlending.com/learn/selling-home-with-reverse-mortgage/,token_match,learn,reverse_mortgage,1,,top
 insurance during renovation,0,15,0.0,76.7,,https://alignlending.com/learn/what-is-renovation-loan/,token_match,learn,home_insurance,0,,top
@@ -1373,7 +1373,7 @@ portfolio lenders in michigan,0,13,0.0,59.3,,https://alignlending.com/learn/what
 va construction loans lenders,0,13,0.0,60.5,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_construction,0,,top
 cheapest way to convert garage to living space,0,13,0.0,62.2,,https://alignlending.com/learn/converting-garage-into-living-space/,token_match,learn,home_improvement_drift,0,,top
 what is included in escrow payments,0,13,0.0,63.4,,https://alignlending.com/learn/payments-escrow-servicing/,token_match,learn,escrow,1,,top
-mortgage companies in grand rapids mi,0,13,0.0,65.9,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi;top
+mortgage companies in grand rapids mi,0,13,0.0,65.9,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi;top
 pay off mortgage early calculator,0,13,0.0,67.4,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,top
 veteran streamline refinance rates,0,13,0.0,69.0,,https://alignlending.com/learn/streamline-refinancing/,token_match,learn,va_irrrl,0,,top
 bad credit refinancing home loan,0,13,0.0,71.1,,https://alignlending.com/learn/refinancing-with-bad-credit/,token_match,learn,refi_bad_credit,0,,search:refi
@@ -1388,7 +1388,7 @@ va streamline refi rates,0,13,0.0,76.2,,https://alignlending.com/learn/va-intere
 va survivor benefits home loan,0,13,0.0,77.2,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_benefits,0,,top
 what is apr on a loan,0,13,0.0,77.5,,https://alignlending.com/learn/annual-percentage-rate-apr/,token_match,learn,apr,1,,top
 va irrrl refinance program,0,13,0.0,77.8,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
-how to secure a jumbo loan in new york,0,13,0.0,78.2,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,jumbo,1,york,top
+how to secure a jumbo loan in new york,0,13,0.0,78.2,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,1,,top
 va rate reduction refinance,0,13,0.0,79.5,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,top
 how do i know if my foundation needs repair,0,13,0.0,80.2,,https://alignlending.com/learn/dealing-with-foundation-issues-in-home/,token_match,learn,home_improvement_drift,1,,top
 selling a home in probate,0,13,0.0,82.9,,https://alignlending.com/learn/selling-home-in-probate/,token_match,learn,seller_topics,0,,top
@@ -1407,7 +1407,7 @@ is rocket mortgage a lender or broker,0,12,0.0,6.3,,https://alignlending.com/lea
 what are the best tools for ensuring tila compliant disclosures in loan terms and conditions?,0,12,0.0,6.3,,https://alignlending.com/terms-and-conditions/,token_match,other,seller_topics,1,,search:what
 tell me about joint loan vs cosigner,0,12,0.0,9.3,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,cosigner,0,,search:vsearch:should
 what home warranty options are available for single family homes?,0,12,0.0,9.8,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,1,,search:what
-richmond county mortgage broker,0,12,0.0,10.4,,https://alignlending.com/mortgage-lender-richmond-mi/,city_match,city,local_broker_lender,0,richmond,search:broker
+richmond county mortgage broker,0,12,0.0,10.4,,https://alignlending.com/mortgage-lender-richmond-mi/,token_match,city,local_broker_lender,0,,search:broker
 apply for home loan michigan,0,12,0.0,11.0,,https://alignlending.com/learn/home-equity-loans-pros-and-cons/,token_match,learn,local_broker_lender,0,,search:michigan
 "asset depletion loans in grosse pointe shores, michigan",0,12,0.0,11.5,,https://alignlending.com/mortgage-lender-grosse-pointe-shores-mi/,city_match,city,bank_statement_1099_asset,0,grosse pointe shores,search:michigan
 escrow analysis calculator,0,12,0.0,12.1,,https://alignlending.com/learn/mortgage-escrow-accounts/,token_match,learn,escrow,0,,search:calc1
@@ -1459,7 +1459,7 @@ what is a home warranty plan,0,12,0.0,76.3,,https://alignlending.com/learn/home-
 what is loan to value,0,12,0.0,78.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,1,,search:what
 michigan home equity loan,0,12,0.0,79.9,,https://alignlending.com/learn/home-equity-loans-pros-and-cons/,token_match,learn,home_equity_loan,0,,search:michigan
 va home loan streamline refinance rates,0,12,0.0,81.5,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,search:va2
-jumbo loans harrison,0,12,0.0,83.7,,https://alignlending.com/mortgage-lender-harrison-township-mi/,city_match,city,jumbo,0,harrison,search:jumbo
+jumbo loans harrison,0,12,0.0,83.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:jumbo
 how much does it cost to renovate a kitchen,0,12,0.0,86.1,,https://alignlending.com/learn/how-to-renovate-kitchen-on-budget/,token_match,learn,home_improvement_drift,1,,search:how
 what does apr mean on a mortgage loan,0,12,0.0,91.3,,https://alignlending.com/learn/annual-percentage-rate-apr/,token_match,learn,apr,1,,search:what
 explain how escrow works in real estate and ongoing mortgage payments,0,11,0.0,1.1,,https://alignlending.com/learn/payments-escrow-servicing/,token_match,learn,escrow,0,,search:how
@@ -1531,7 +1531,7 @@ pay mortgage calculator,0,11,0.0,80.2,,https://alignlending.com/mortgage-refinan
 how to manage rental properties,0,11,0.0,80.3,,https://alignlending.com/learn/tips-for-managing-multiple-rental-properties/,token_match,learn,crowdfunding_investing_drift,1,,search:how
 detroit heloc,0,11,0.0,80.7,,https://alignlending.com/mortgage-lender-detroit-mi/,city_match,city,heloc,0,detroit,search:heloc
 what is a second lien mortgage,0,11,0.0,87.0,,https://alignlending.com/learn/second-mortgages/,token_match,learn,second_mortgage,1,,search:what
-compare mortgage preapproval estimate from different lenders,0,10,0.0,1.0,,https://alignlending.com/learn/importance-of-mortgage-preapproval/,token_match,learn,va_calculator,0,,search:lender
+compare mortgage preapproval estimate from different lenders,0,10,0.0,1.0,,https://alignlending.com/learn/importance-of-mortgage-preapproval/,token_match,learn,broker_vs_lender,0,,search:lender
 compare mortgage question from different lenders,0,10,0.0,1.5,,https://alignlending.com/learn/how-to-compare-heloc-lenders/,token_match,learn,broker_vs_lender,0,,search:lender
 +cfpb closing costs typically 2% to 5% home purchase,0,10,0.0,2.3,,https://alignlending.com/learn/how-to-budget-for-closing-costs/,token_match,learn,closing_costs,0,,search:closing
 prequalified vs preapproved mortgage,0,10,0.0,2.4,,https://alignlending.com/learn/prequalified-vs-preapproved-whats-difference/,token_match,learn,local_broker_lender,0,,search:vsearch:should
@@ -1541,7 +1541,7 @@ disorder+refinance,0,10,0.0,4.7,,https://alignlending.com/learn/types-of-refinan
 how do non-qm lenders evaluate borrowers?,0,10,0.0,5.6,,https://alignlending.com/learn/non-qm-loans-for-self-employed-borrowers/,token_match,learn,bank_statement_1099_asset,1,,search:lender
 48009 va loan,0,10,0.0,5.6,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,search:va2
 what is a drive report in mortgage,0,10,0.0,5.8,,https://alignlending.com/learn/how-to-read-home-inspection-report/,token_match,learn,local_broker_lender,1,,search:what
-which underwriting practices are most common among lenders offering low down payment loans?,0,10,0.0,6.5,,https://alignlending.com/learn/buying-home-with-low-down-payment/,token_match,learn,bank_statement_1099_asset,1,,search:lender
+which underwriting practices are most common among lenders offering low down payment loans?,0,10,0.0,6.5,,https://alignlending.com/learn/buying-home-with-low-down-payment/,token_match,learn,closing_process,1,,search:lender
 what income limits apply to qualifying for a usda home loan?,0,10,0.0,6.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,1,,search:usda
 can a rural refinance help lower monthly payments enough to justify closing costs?,0,10,0.0,6.7,,https://alignlending.com/learn/what-is-usda-streamline-refinance/,token_match,learn,refinance_general,1,,search:refi
 how do requirements for mortgage refinancing compare across states?,0,10,0.0,7.0,,https://alignlending.com/learn/refinance-appraisal-requirements/,token_match,learn,refinance_general,1,,search:refi
@@ -1550,7 +1550,7 @@ can usda loan eligibility change if my household income increases after applying
 what is a rate lock period,0,10,0.0,7.8,,https://alignlending.com/learn/what-is-mortgage-rate-lock/,token_match,learn,rate_lock,1,,search:what
 how many floors does a mansion have,0,10,0.0,7.9,,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,1,,search:how
 evaluate the home loans company fairway on usda loan income requirements,0,10,0.0,7.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,search:usda
-evaluate carriermotgage on refinance options with competitive rates,0,10,0.0,8.8,,https://alignlending.com/learn/should-you-refinance-before-rates-rise/,token_match,learn,va_irrrl,0,,search:refi
+evaluate carriermotgage on refinance options with competitive rates,0,10,0.0,8.8,,https://alignlending.com/learn/should-you-refinance-before-rates-rise/,token_match,learn,refinance_general,0,,search:refi
 mansion vs big house,0,10,0.0,9.2,,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,0,,search:vsearch:should
 refinance to remove cosigner,0,10,0.0,9.4,,https://alignlending.com/learn/refinancing-to-remove-co-signer/,token_match,learn,refinance_general,0,,search:refi
 evaluate freedom mortgage on low down payment loans,0,10,0.0,9.6,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,low_down_zero_down,0,,search:downpay
@@ -1599,7 +1599,7 @@ what is included in escrow,0,10,0.0,69.8,,https://alignlending.com/learn/mortgag
 va home loan mortgage calculator,0,10,0.0,71.4,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,search:va2
 dti for fha loan,0,10,0.0,72.4,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,fha_dti,0,,search:fha
 va loan requirement,0,10,0.0,72.4,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_requirements,0,,search:va2
-mortgage lender grand rapids,0,10,0.0,74.3,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:lender
+mortgage lender grand rapids,0,10,0.0,74.3,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:lender
 refinance home equity loan,0,10,0.0,75.0,,https://alignlending.com/learn/refinancing-with-home-equity-loan/,token_match,learn,home_equity_loan,0,,search:refi
 jumbo mortgage down payment,0,10,0.0,76.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:downpay
 refinance with usda loan,0,10,0.0,77.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_refinance,0,,search:usda
@@ -1615,7 +1615,7 @@ what is an interest only mortgage,0,10,0.0,94.0,,https://alignlending.com/learn/
 michigan conventional loan vs fha loan,0,9,0.0,1.0,,https://alignlending.com/learn/what-is-conventional-97-loan/,token_match,learn,fha_general,0,,search:michigan
 "bank statement loans in grosse pointe shores, michigan",0,9,0.0,1.0,,https://alignlending.com/mortgage-lender-grosse-pointe-shores-mi/,city_match,city,bank_statement_1099_asset,0,grosse pointe shores,search:michigan
 how to compare builder mortgage incentives against outside lender quotes,0,9,0.0,1.9,,https://alignlending.com/learn/builder-preferred-lender-vs-mortgage-broker/,token_match,learn,broker_vs_lender,1,,search:lender
-jumbo loan limit texas 2020,0,9,0.0,4.7,,https://alignlending.com/mortgage-lender-texas-township-mi/,city_match,city,jumbo,0,texas,search:jumbo
+jumbo loan limit texas 2020,0,9,0.0,4.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:jumbo
 15 year vs 30 year mortgage rates,0,9,0.0,4.9,,https://alignlending.com/learn/15-year-vs-30-year-mortgage-comparison/,token_match,learn,mortgage_rates_intent,0,,search:vsearch:should
 what role do labor and material costs play in the iowa housing shortage?,0,9,0.0,5.3,,https://alignlending.com/learn/what-is-real-estate-agents-role-in-closing/,token_match,learn,housing_market,1,,search:what
 how much value does a well add to property,0,9,0.0,6.8,,https://alignlending.com/learn/how-well-water-impacts-homes-value/,token_match,learn,other,1,,search:how
@@ -1638,7 +1638,7 @@ how to qualify for an usda loan,0,9,0.0,19.1,,https://alignlending.com/learn/usd
 how much does it cost to recast a mortgage,0,9,0.0,20.8,,https://alignlending.com/learn/mortgage-recasting/,token_match,learn,payoff_calculator,1,,search:how
 how do you get a usda loan,0,9,0.0,20.9,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,search:usda
 michigan mortgage interest rates today,0,9,0.0,21.0,,https://alignlending.com/learn/impact-of-interest-rates-on-home-prices/,token_match,learn,mortgage_rates_intent,0,,search:michigan
-mortgage broker brighton michigan,0,9,0.0,21.7,,https://alignlending.com/mortgage-lender-brighton-township-mi/,city_match,city,local_broker_lender,0,brighton,search:michigan
+mortgage broker brighton michigan,0,9,0.0,21.7,,https://alignlending.com/mortgage-lender-brighton-mi/,city_match,city,local_broker_lender,0,brighton,search:michigan
 rocket mortgage vs better,0,9,0.0,23.0,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,broker_vs_lender,0,,search:vsearch:should
 usda loan limit calculator,0,9,0.0,24.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_loan_limits,0,,search:usda
 types of home loans with no down payment,0,9,0.0,25.7,,https://alignlending.com/learn/buying-home-with-low-down-payment/,token_match,learn,low_down_zero_down,0,,search:downpay
@@ -1651,7 +1651,7 @@ usda income limit,0,9,0.0,29.3,,https://alignlending.com/learn/usda-loan-basics/
 usda dti,0,9,0.0,30.2,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,usda_dti,0,,search:usda
 2025 fha loan limits,0,9,0.0,31.3,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
 usda max income limits,0,9,0.0,31.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,search:usda
-home loans flint michigan,0,9,0.0,31.6,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,local_broker_lender,0,flint,search:michigan
+home loans flint michigan,0,9,0.0,31.6,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,local_broker_lender,0,flint,search:michigan
 fha loan traverse city,0,9,0.0,34.4,,https://alignlending.com/mortgage-lender-traverse-city-mi/,city_match,city,fha_general,0,traverse city,search:fha
 loan payment calculator payoff,0,9,0.0,36.6,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc1
 how to fix va loan eligibility issues,0,9,0.0,36.6,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_requirements,1,,search:va2
@@ -1708,7 +1708,7 @@ best loan officer near me,0,8,0.0,1.4,,https://alignlending.com/learn/physician-
 lenders,0,8,0.0,1.6,,https://alignlending.com/learn/comparing-mortgage-lenders-what-to-look/,token_match,learn,local_broker_lender,0,,search:lender
 "asset depletion loans in orchard lake village, michigan",0,8,0.0,2.4,,https://alignlending.com/mortgage-lender-orchard-lake-village-mi/,city_match,city,bank_statement_1099_asset,0,orchard lake village,search:michigan
 02601 usda loan,0,8,0.0,2.6,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
-what role do labor and material costs play in the wyoming housing shortage?,0,8,0.0,2.9,,https://alignlending.com/mortgage-lender-wyoming-mi/,city_match,city,housing_market,1,wyoming,search:what
+what role do labor and material costs play in the wyoming housing shortage?,0,8,0.0,2.9,,https://alignlending.com/mortgage-lender-wyoming-mi/,token_match,city,housing_market,1,,search:what
 "how to evaluate the overall cost of a non-qm loan (apr, points, and fees) vs alternatives?",0,8,0.0,3.9,,https://alignlending.com/learn/non-qm-loans-for-self-employed-borrowers/,token_match,learn,bank_statement_1099_asset,1,,search:how
 how long is a mansion,0,8,0.0,3.9,,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,1,,search:how
 how do the closing costs and fees from rocket mortgage compare to those from other mortgage providers?,0,8,0.0,4.6,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,closing_costs,1,,search:closing
@@ -1766,7 +1766,7 @@ usda home loan ada,0,8,0.0,29.8,,https://alignlending.com/learn/usda-loan-basics
 max fha loan amount 2021,0,8,0.0,29.9,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,search:fha
 homestead exemption michigan,0,8,0.0,29.9,https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/,https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/,token_match,learn,homestead,0,,search:michigan
 fixed rate mortgage vs adjustable rate mortgage,0,8,0.0,30.6,,https://alignlending.com/learn/fixed-rate-mortgages-benefits-and-drawbacks/,token_match,learn,mortgage_rates_intent,0,,search:vsearch:should
-mortgage broker in monroe,0,8,0.0,31.6,,https://alignlending.com/mortgage-lender-monroe-township-mi/,city_match,city,local_broker_lender,0,monroe,search:broker
+mortgage broker in monroe,0,8,0.0,31.6,,https://alignlending.com/mortgage-lender-monroe-township-mi/,token_match,city,local_broker_lender,0,,search:broker
 va loan estimator,0,8,0.0,32.0,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_calculator,0,,search:va2
 usda streamline,0,8,0.0,32.4,,https://alignlending.com/learn/what-is-usda-streamline-refinance/,token_match,learn,usda_refinance,0,,search:usda
 income limit usda loan,0,8,0.0,32.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,search:usda
@@ -1793,7 +1793,7 @@ va loans to build a home,0,8,0.0,44.5,,https://alignlending.com/learn/benefits-o
 usda low income mortgage,0,8,0.0,44.6,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,0,,search:usda
 usda home financing,0,8,0.0,45.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 usda loans qualifications,0,8,0.0,47.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
-mortgage broker grand rapids,0,8,0.0,47.6,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:broker
+mortgage broker grand rapids,0,8,0.0,47.6,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:broker
 usda loan terms,0,8,0.0,48.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 max fha loan limit 2026,0,8,0.0,49.4,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
 fha loan limit 2024,0,8,0.0,51.5,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
@@ -1805,7 +1805,7 @@ va disability mortgage benefits,0,8,0.0,54.0,,https://alignlending.com/learn/va-
 first time home buyer tax credit,0,8,0.0,55.4,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,0,,search:firsttime
 benefits of va home loan,0,8,0.0,55.6,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_general,0,,search:va2
 loan pay off calculator,0,8,0.0,55.8,,https://alignlending.com/va-loan-calculator/,token_match,calculator,payoff_calculator,0,,search:calc1
-mortgage lender monroe,0,8,0.0,57.0,,https://alignlending.com/mortgage-lender-monroe-township-mi/,city_match,city,local_broker_lender,0,monroe,search:lender
+mortgage lender monroe,0,8,0.0,57.0,,https://alignlending.com/mortgage-lender-monroe-township-mi/,token_match,city,local_broker_lender,0,,search:lender
 how to use a usda loan,0,8,0.0,57.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,search:usda
 va loan for 100 disabled,0,8,0.0,58.3,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_disabled,0,,search:va2
 how to calculate cash on cash return,0,8,0.0,61.4,,https://alignlending.com/learn/what-is-cash-on-cash-return/,token_match,learn,crowdfunding_investing_drift,1,,search:how
@@ -1849,12 +1849,12 @@ what va loan benefits matter most to veterans and which lenders are rated highes
 how can mixed-use developments create multiple income streams for investors?,0,7,0.0,3.6,,https://alignlending.com/learn/benefits-of-investing-in-mixed-use-developments/,token_match,learn,crowdfunding_investing_drift,1,,search:mi
 what does fha maximum loan amount mean,0,7,0.0,3.7,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,1,,search:fha
 what are non conforming loans,0,7,0.0,3.7,,https://alignlending.com/learn/non-conforming-loans/,token_match,learn,bank_statement_1099_asset,1,,search:what
-can anyone recommend a va loan lender in kalamazoo who explains fees clearly?,0,7,0.0,4.0,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,va_general,1,kalamazoo,search:lender
+can anyone recommend a va loan lender in kalamazoo who explains fees clearly?,0,7,0.0,4.0,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,va_general,1,kalamazoo,search:lender
 infection+refinance,0,7,0.0,4.3,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,bot_noise,0,,search:refi
 lowest down payment mortgage options available,0,7,0.0,4.7,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,low_down_zero_down,0,,search:downpay
 loans near me,0,7,0.0,4.9,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,local_broker_lender,0,,search:nearme
 "what are the closing costs, documents needed, and processing times for a usda streamline?",0,7,0.0,5.0,,https://alignlending.com/learn/what-is-usda-streamline-refinance/,token_match,learn,usda_refinance,1,,search:usda
-how can landlords monitor tenant market movements?,0,7,0.0,5.1,,https://alignlending.com/mortgage-lender-monitor-township-mi/,city_match,city,crowdfunding_investing_drift,1,monitor,search:how
+how can landlords monitor tenant market movements?,0,7,0.0,5.1,,https://alignlending.com/mortgage-lender-monitor-township-mi/,token_match,city,crowdfunding_investing_drift,1,,search:how
 should i shop around instead of using rocket mortgage?,0,7,0.0,5.1,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,broker_vs_lender,1,,search:vsearch:should
 what must be approved for the plat map to become part of the legal description?,0,7,0.0,5.4,,https://alignlending.com/learn/what-is-plat-map/,token_match,learn,plat,1,,search:what
 jumbo loans louisiana,0,7,0.0,5.6,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:jumbo
@@ -1891,11 +1891,11 @@ how to get a plat map,0,7,0.0,19.4,,https://alignlending.com/learn/what-is-plat-
 how much are closing costs for seller in michigan,0,7,0.0,20.6,,https://alignlending.com/learn/seller-paid-closing-costs/,token_match,learn,closing_costs,1,,search:michigan
 types of refinance loans,0,7,0.0,21.1,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,refinance_general,0,,search:refi
 502 usda loan,0,7,0.0,21.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_502_direct,0,,search:usda
-loan to value mortgage calculator,0,7,0.0,22.0,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
+loan to value mortgage calculator,0,7,0.0,22.0,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
 using usda loan,0,7,0.0,23.1,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 usda limits,0,7,0.0,23.7,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_loan_limits,0,,search:usda
 usda refinance guidelines,0,7,0.0,24.1,,https://alignlending.com/learn/what-is-usda-streamline-refinance/,token_match,learn,usda_refinance,0,,search:usda
-75 loan to value calculator,0,7,0.0,24.7,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
+75 loan to value calculator,0,7,0.0,24.7,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
 how real estate crowdfunding works,0,7,0.0,25.1,,https://alignlending.com/learn/real-estate-crowdfunding/,token_match,learn,crowdfunding_investing_drift,1,,search:how
 what is an rd loan,0,7,0.0,25.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,search:what
 home possible mortgage michigan,0,7,0.0,25.4,,https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/,token_match,learn,homeready_homepossible,0,,search:michigan
@@ -1909,7 +1909,7 @@ heloc line of credit,0,7,0.0,29.9,,https://alignlending.com/learn/home-equity-li
 requirements for an va loan,0,7,0.0,30.3,,https://alignlending.com/learn/va-loans/,token_match,learn,va_requirements,0,,search:va2
 jumbo loans in michigan,0,7,0.0,30.4,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:michigan
 mortgage ltv calculator,0,7,0.0,30.9,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
-fha loan kalamazoo,0,7,0.0,31.5,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,fha_general,0,kalamazoo,search:fha
+fha loan kalamazoo,0,7,0.0,31.5,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,fha_general,0,kalamazoo,search:fha
 usda rural housing loans,0,7,0.0,32.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 connect with a mortgage advisor in michigan now,0,7,0.0,33.0,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,search:michigan
 find a detroit mortgage broker to work with,0,7,0.0,33.1,,https://alignlending.com/mortgage-lender-detroit-mi/,city_match,city,local_broker_lender,0,detroit,search:broker
@@ -1993,7 +1993,7 @@ what does loan to value mean,0,7,0.0,82.6,,https://alignlending.com/learn/what-i
 what percentage of home value for reverse mortgage,0,7,0.0,82.9,,https://alignlending.com/learn/reverse-mortgages-how-they-work/,token_match,learn,reverse_mortgage,1,,search:what
 how do you figure out your debt to income ratio,0,7,0.0,83.0,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,dti_general,1,,search:how
 cash out vs home equity loan,0,7,0.0,83.1,,https://alignlending.com/refinance/cash-out-vs-home-equity/,token_match,refinance_sub,home_equity_loan,0,,search:vsearch:should
-mortgage lenders grand rapids mi,0,7,0.0,83.3,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
+mortgage lenders grand rapids mi,0,7,0.0,83.3,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
 best mortgage lenders in woodhaven,0,7,0.0,84.3,,https://alignlending.com/mortgage-lender-woodhaven-mi/,city_match,city,local_broker_lender,0,woodhaven,search:lender
 construction to perm va loan,0,7,0.0,84.7,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_construction,0,,search:va2
 va benefits home loan,0,7,0.0,84.9,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_benefits,0,,search:va2
@@ -2013,7 +2013,7 @@ what is the securitization process of real estate assets in reits,0,6,0.0,2.8,,h
 mortgage loan lenders,0,6,0.0,3.5,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,local_broker_lender,0,,search:lender
 compare fixed maturities vs balloon payments: which loan products use them and which lenders offer each,0,6,0.0,3.7,,https://alignlending.com/learn/balloon-payments/,token_match,learn,balloon,0,,search:lender
 +cfpb closing costs 2% 5% home purchase,0,6,0.0,4.0,,https://alignlending.com/learn/how-to-budget-for-closing-costs/,token_match,learn,closing_costs,0,,search:closing
-top conventional mortgage lenders in kalamazoo?,0,6,0.0,4.0,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,conventional,1,kalamazoo,search:lender
+top conventional mortgage lenders in kalamazoo?,0,6,0.0,4.0,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,conventional,1,kalamazoo,search:lender
 can you break down how a home equity loan payment calculator treats interest-only periods versus a fully amortizing schedule?,0,6,0.0,4.2,,https://alignlending.com/learn/interest-only-mortgages-risks-and-benefits/,token_match,learn,home_equity_loan,1,,search:calc2
 fannie mae homeready loan vs conventional loan,0,6,0.0,4.3,,https://alignlending.com/learn/fannie-mae-updates/,token_match,learn,homeready_homepossible,0,,search:vsearch:should
 what should investors look for when choosing a title fraud monitoring vendor?,0,6,0.0,4.5,,https://alignlending.com/learn/title-insurance-why-its-important/,token_match,learn,title_company,1,,search:what
@@ -2033,10 +2033,10 @@ do you pay taxes differently if you sell to a cash buyer vs traditional?,0,6,0.0
 fha loan limits alaska,0,6,0.0,7.8,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
 what documentation onboarding is required to apply for a choice mortgage group jumbo loan?,0,6,0.0,7.8,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,1,,search:jumbo
 rent to own vs renting,0,6,0.0,8.0,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,search:vsearch:should
-can a usda loan in wyoming be used to refinance an existing rural mortgage?,0,6,0.0,8.2,,https://alignlending.com/mortgage-lender-wyoming-mi/,city_match,city,usda_refinance,1,wyoming,search:usda
+can a usda loan in wyoming be used to refinance an existing rural mortgage?,0,6,0.0,8.2,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_refinance,1,,search:usda
 how do i compare loan estimates from different lenders as a first time buyer?,0,6,0.0,8.7,,https://alignlending.com/learn/first-time-home-buyer-grants-and-programs/,token_match,learn,first_time_buyer,1,,search:lender
 watering+refinance,0,6,0.0,8.7,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,bot_noise,0,,search:refi
-find a mortgage lender in grand rapids mi to talk to,0,6,0.0,9.0,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
+find a mortgage lender in grand rapids mi to talk to,0,6,0.0,9.0,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
 conveyance vs deed,0,6,0.0,9.2,,https://alignlending.com/learn/conveyance-in-real-estate/,token_match,learn,conveyance,0,,search:vsearch:should
 who pays transfer tax in michigan,0,6,0.0,9.8,,https://alignlending.com/learn/michigan-transfer-tax/,token_match,learn,transfer_tax,1,,search:michigan
 homeready vs home possible income limits,0,6,0.0,9.8,,https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/,token_match,learn,homeready_homepossible,0,,search:vsearch:should
@@ -2067,7 +2067,7 @@ documents needed for usda loan,0,6,0.0,20.3,,https://alignlending.com/learn/usda
 can you still get the first time home buyer tax credit in 2026,0,6,0.0,20.5,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,1,,search:firsttime
 is cash out refinance taxable,0,6,0.0,20.5,,https://alignlending.com/learn/what-is-cash-out-refinance-loan/,token_match,learn,cash_out,1,,search:refi
 mortgage companies in michigan,0,6,0.0,20.7,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,search:michigan
-heloc new york,0,6,0.0,21.3,,https://alignlending.com/mortgage-lender-york-township-mi/,city_match,city,heloc,0,york,search:heloc
+heloc new york,0,6,0.0,21.3,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,0,,search:heloc
 usda mortgage loan limits,0,6,0.0,21.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_loan_limits,0,,search:usda
 michigan jumbo loan limit,0,6,0.0,21.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:michigan
 mortgage broker canton mi,0,6,0.0,22.0,,https://alignlending.com/mortgage-lender-canton-township-mi/,city_match,city,local_broker_lender,0,canton,search:mi
@@ -2092,7 +2092,7 @@ usda home loan mortgage,0,6,0.0,28.0,,https://alignlending.com/learn/usda-loan-b
 ferndale mi personal loans,0,6,0.0,28.2,,https://alignlending.com/mortgage-lender-ferndale-mi/,city_match,city,personal_loans_drift,0,ferndale,search:mi
 usda loans pros and cons,0,6,0.0,28.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 usda house loans,0,6,0.0,28.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
-loan-to-value ratio calculator home,0,6,0.0,29.0,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
+loan-to-value ratio calculator home,0,6,0.0,29.0,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
 what are portfolio loans,0,6,0.0,29.0,,https://alignlending.com/learn/what-is-portfolio-loan/,token_match,learn,portfolio_loan,1,,search:what
 perks of va loan,0,6,0.0,29.3,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_general,0,,search:va2
 3.5 down payment,0,6,0.0,30.7,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,fha_down_payment,0,,search:downpay
@@ -2106,7 +2106,7 @@ using a usda loan,0,6,0.0,34.5,,https://alignlending.com/learn/usda-loan-basics/
 can you refinance a usda rural development loan,0,6,0.0,34.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_refinance,1,,search:usda
 how much house can i actually afford in michigan,0,6,0.0,35.3,,https://alignlending.com/learn/what-to-look-for-when-buying-house/,token_match,learn,other,1,,search:michigan
 homeready vs home possible,0,6,0.0,36.2,,https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/,token_match,learn,homeready_homepossible,0,,search:vsearch:should
-installment loans monroe mi,0,6,0.0,37.0,,https://alignlending.com/mortgage-lender-monroe-township-mi/,city_match,city,personal_loans_drift,0,monroe,search:mi
+installment loans monroe mi,0,6,0.0,37.0,,https://alignlending.com/mortgage-lender-monroe-mi/,city_match,city,personal_loans_drift,0,monroe,search:mi
 pay off mortgage faster calculator,0,6,0.0,37.2,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 fha max loans,0,6,0.0,37.7,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,search:fha
 no down payment home loans,0,6,0.0,38.5,,https://alignlending.com/learn/buying-home-with-low-down-payment/,token_match,learn,low_down_zero_down,0,,search:downpay
@@ -2123,7 +2123,7 @@ usda home loan interest rates,0,6,0.0,41.5,,https://alignlending.com/learn/usda-
 hawaii va loan calculator,0,6,0.0,41.5,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,search:va2
 fha county loan limits 2026,0,6,0.0,41.7,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
 fha loans maximum,0,6,0.0,41.8,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,search:fha
-wayne county transfer tax,0,6,0.0,42.2,,https://alignlending.com/mortgage-michigan/wayne-county/,token_match,county_hub,transfer_tax,0,wayne,search:transfer
+wayne county transfer tax,0,6,0.0,42.2,,https://alignlending.com/mortgage-michigan/wayne-county/,token_match,county_hub,transfer_tax,0,,search:transfer
 qualifying for va loans,0,6,0.0,42.2,,https://alignlending.com/learn/benefits-of-va-construction-loans/,token_match,learn,va_requirements,0,,search:va2
 usda home loan rules,0,6,0.0,42.5,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
 michigan understanding adjustable-rate mortgages,0,6,0.0,43.3,,https://alignlending.com/learn/adjustable-rate-mortgages-pros-and-cons/,token_match,learn,mortgage_rates_intent,0,,search:michigan
@@ -2239,12 +2239,12 @@ what are the best conforming 30 year fixed options available,0,5,0.0,2.0,,https:
 title company near me,0,5,0.0,2.2,,https://alignlending.com/learn/how-to-choose-title-company/,token_match,learn,title_company,0,,search:nearme
 "i am selling my home. i want information about pricing, listing, and the sales process. how do rocket mortgage's closing costs compare to those of other mortgage providers?",0,5,0.0,2.6,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,ai_persona_prompt,1,,search:closing
 how can i maximize va financing benefits and minimize out-of-pocket costs?,0,5,0.0,2.8,,https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/,token_match,learn,va_benefits,1,,search:mi
-best mortgage lender for first-time home buyers in kalamazoo?,0,5,0.0,3.2,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,first_time_buyer,1,kalamazoo,search:lender
+best mortgage lender for first-time home buyers in kalamazoo?,0,5,0.0,3.2,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,first_time_buyer,1,kalamazoo,search:lender
 what does co signing mean,0,5,0.0,3.2,,https://alignlending.com/learn/co-signing-mortgage-risks-and-benefits/,token_match,learn,cosigner,1,,search:what
 how to choose the right refinance program to shorten your term and lower total interest?,0,5,0.0,3.6,,https://alignlending.com/learn/benefits-of-rate-and-term-refinance/,token_match,learn,refinance_general,1,,search:refi
 revenue stamps calculator,0,5,0.0,4.0,,https://alignlending.com/mortgage-refinance-calculator/,token_match,calculator,transfer_tax,0,,search:calc2
 two lenders quoted me almost the same rate but different fees — how do i pick?,0,5,0.0,4.6,,https://alignlending.com/learn/homeowner-association-fees/,token_match,learn,mortgage_rates_intent,1,,search:lender
-can someone recommend a mortgage lender in grand haven who's good with first-time buyers and doesn't just send me a link?,0,5,0.0,4.8,,https://alignlending.com/mortgage-lender-grand-haven-township-mi/,city_match,city,first_time_buyer,1,grand haven,search:lender
+can someone recommend a mortgage lender in grand haven who's good with first-time buyers and doesn't just send me a link?,0,5,0.0,4.8,,https://alignlending.com/mortgage-lender-grand-haven-mi/,city_match,city,first_time_buyer,1,grand haven,search:lender
 refinance+syndrome,0,5,0.0,5.0,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,bot_noise,0,,search:refi
 what is the 3 7 3 rule in mortgage? tell me about the til disclosure,0,5,0.0,5.0,,https://alignlending.com/learn/new-mortgage-disclosure-rules/,token_match,learn,closing_process,1,,search:what
 first time home buyer proggram need to pay tax on 2017 built house,0,5,0.0,5.6,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,0,,search:firsttime
@@ -2263,7 +2263,7 @@ how should a homeowner judge whether their dwelling limit still reflects rebuild
 "i am a 45-54, 55-64, or 65+ year old. which lenders help new buyers use their va benefits?",0,5,0.0,7.8,,https://alignlending.com/learn/va-loan-benefits-for-veterans/,token_match,learn,va_benefits,1,,search:lender
 how does rocket mortgage compare to other mortgage lenders?,0,5,0.0,8.4,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,broker_vs_lender,1,,search:lender
 land contract calculator,0,5,0.0,8.6,,https://alignlending.com/learn/michigan-land-contract/,token_match,learn,land_contract,0,,search:calc2
-conventional loan lender in grand haven allowing seller-paid closing costs?,0,5,0.0,8.8,,https://alignlending.com/mortgage-lender-grand-haven-township-mi/,city_match,city,closing_costs,1,grand haven,search:lender
+conventional loan lender in grand haven allowing seller-paid closing costs?,0,5,0.0,8.8,,https://alignlending.com/mortgage-lender-grand-haven-mi/,city_match,city,closing_costs,1,grand haven,search:lender
 calculate taxes michigan,0,5,0.0,9.0,,https://alignlending.com/learn/impact-of-home-improvements-on-property-taxes/,token_match,learn,other,0,,search:mi
 what providers have the most competitive title insurance plan choices?,0,5,0.0,9.0,,https://alignlending.com/learn/title-insurance-why-its-important/,token_match,learn,title_company,1,,search:what
 fha jumbo loan limits 2018,0,5,0.0,9.2,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
@@ -2282,7 +2282,7 @@ low down payment loan options,0,5,0.0,11.8,,https://alignlending.com/learn/low-d
 condo mortgage refinancing application,0,5,0.0,11.8,,https://alignlending.com/learn/pros-and-cons-of-refinancing-condo/,token_match,learn,refinance_general,0,,search:refi
 next wave refinance options,0,5,0.0,12.0,,https://alignlending.com/learn/refinancing-with-low-credit-score/,token_match,learn,refinance_general,0,,search:refi
 lenders that offer fha 203k loan with no pmi,0,5,0.0,12.6,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_mip,0,,search:lender
-i'm looking for a mortgage broker in grand rapids michigan,0,5,0.0,12.8,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
+i'm looking for a mortgage broker in grand rapids michigan,0,5,0.0,12.8,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:mi
 dti calculator for fha,0,5,0.0,13.8,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,fha_dti,0,,search:fha
 is there a first time home buyer tax credit ohio,0,5,0.0,13.8,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,1,,search:firsttime
 usda rural development loan requirements,0,5,0.0,14.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
@@ -2293,9 +2293,9 @@ va one-time close construction loan definition,0,5,0.0,16.4,,https://alignlendin
 preferred lender incentives,0,5,0.0,16.6,,https://alignlending.com/learn/builder-preferred-lender-vs-mortgage-broker/,token_match,learn,broker_vs_lender,0,,search:lender
 usda debt to income ratio calculator,0,5,0.0,16.6,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,usda_income_limits,0,,search:usda
 independent mortgage broker near me,0,5,0.0,17.4,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,local_broker_lender,0,,search:nearme
-ltv calculator for pmi removal,0,5,0.0,19.2,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,va_calculator,0,,search:pmi
-loan to value calculator home,0,5,0.0,19.4,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
-construction loan monitoring flint mi,0,5,0.0,19.4,,https://alignlending.com/mortgage-lender-flint-township-mi/,city_match,city,construction,0,flint,search:mi
+ltv calculator for pmi removal,0,5,0.0,19.2,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,ltv,0,,search:pmi
+loan to value calculator home,0,5,0.0,19.4,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
+construction loan monitoring flint mi,0,5,0.0,19.4,,https://alignlending.com/mortgage-lender-flint-mi/,city_match,city,construction,0,flint,search:mi
 conforming vs non conforming loans,0,5,0.0,19.8,,https://alignlending.com/learn/non-conforming-loans/,token_match,learn,bank_statement_1099_asset,0,,search:vsearch:should
 rent vs leasing,0,5,0.0,20.0,,https://alignlending.com/learn/reporting-rent-for-credit-boost/,token_match,learn,other,0,,search:vsearch:should
 what does a $500 home warranty cover,0,5,0.0,20.8,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,1,,search:what
@@ -2307,7 +2307,7 @@ fha loans in southgate mi,0,5,0.0,21.6,,https://alignlending.com/mortgage-lender
 how much are my property taxes,0,5,0.0,22.0,,https://alignlending.com/learn/impact-of-home-improvements-on-property-taxes/,token_match,learn,property_tax,1,,search:proptax
 usda subsidized loan,0,5,0.0,22.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_502_direct,0,,search:usda
 usda single family housing guaranteed loan program,0,5,0.0,22.4,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:usda
-loan to value percentage calculator,0,5,0.0,22.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
+loan to value percentage calculator,0,5,0.0,22.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
 what is a 3.5 down payment,0,5,0.0,22.8,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,fha_down_payment,1,,search:downpay
 tax credit for first time home buyer 2025,0,5,0.0,22.8,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,0,,search:firsttime
 physician loan michigan,0,5,0.0,22.8,,https://alignlending.com/learn/physician-mortgage-loans/,token_match,learn,physician,0,,search:michigan
@@ -2338,7 +2338,7 @@ va lenders in michigan,0,5,0.0,32.8,,https://alignlending.com/learn/va-interest-
 jumbo loan brokers,0,5,0.0,33.0,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:broker
 mortgage calculator pay off,0,5,0.0,33.2,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 how to negotiate a contingency on the sale of a home,0,5,0.0,33.4,,https://alignlending.com/learn/home-sale-contingencies/,token_match,learn,other,1,,search:how
-mortgage lender park river,0,5,0.0,33.8,,https://alignlending.com/mortgage-lender-park-township-mi/,city_match,city,local_broker_lender,0,park,search:lender
+mortgage lender park river,0,5,0.0,33.8,,https://alignlending.com/mortgage-lender-river-rouge-mi/,token_match,city,local_broker_lender,0,,search:lender
 usda direct loan,0,5,0.0,33.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_502_direct,0,,search:usda
 what happens when a balloon payment comes due,0,5,0.0,34.2,,https://alignlending.com/learn/balloon-payments/,token_match,learn,balloon,1,,search:what
 what do balloon mortgage and arm have in common,0,5,0.0,34.2,,https://alignlending.com/learn/balloon-mortgages/,token_match,learn,balloon,1,,search:what
@@ -2409,7 +2409,7 @@ can i refinance an fha loan,0,5,0.0,65.0,,https://alignlending.com/learn/pros-an
 how to buy a home warranty,0,5,0.0,65.0,,https://alignlending.com/learn/home-warranty-options-for-buyers/,token_match,learn,home_warranty,1,,search:how
 refinancing fha loan,0,5,0.0,65.6,,https://alignlending.com/learn/pros-and-cons-of-refinancing-fha-loan/,token_match,learn,fha_refinance,0,,search:fha
 types of refinance mortgage loans,0,5,0.0,65.6,,https://alignlending.com/learn/types-of-refinancing/,token_match,learn,refinance_general,0,,search:refi
-loan to value ratio for refinancing,0,5,0.0,65.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_irrrl,0,,search:refi
+loan to value ratio for refinancing,0,5,0.0,65.8,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,refinance_general,0,,search:refi
 refinance with my bad credit,0,5,0.0,66.2,,https://alignlending.com/learn/refinancing-with-bad-credit/,token_match,learn,refi_bad_credit,0,,search:refi
 how does refinancing a home loan work,0,5,0.0,66.2,,https://alignlending.com/learn/refinancing-with-home-equity-loan/,token_match,learn,refinance_general,1,,search:refi
 fha high balance loan limits 2026,0,5,0.0,66.6,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
@@ -2501,10 +2501,10 @@ fha va mortgage underwriting guideline changes latest,0,4,0.0,3.3,,https://align
 fha loan lookup,0,4,0.0,3.5,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_limits,0,,search:fha
 is rocket mortgage a direct lender?,0,4,0.0,3.5,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,broker_vs_lender,1,,search:lender
 rent to own vs rent to buy,0,4,0.0,3.5,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,search:vsearch:should
-what are my options for conditional underwriting approval,0,4,0.0,3.5,,https://alignlending.com/learn/mortgage-underwriting/,token_match,learn,bank_statement_1099_asset,1,,search:what
-evaluate the consumer lending company capital one on home equity line of credit,0,4,0.0,3.8,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,va_requirements,0,,search:credit
+what are my options for conditional underwriting approval,0,4,0.0,3.5,,https://alignlending.com/learn/mortgage-underwriting/,token_match,learn,closing_process,1,,search:what
+evaluate the consumer lending company capital one on home equity line of credit,0,4,0.0,3.8,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,0,,search:credit
 fha jumbo loan limits by county,0,4,0.0,4.3,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
-how does a heloc work in texas,0,4,0.0,4.5,,https://alignlending.com/mortgage-lender-texas-township-mi/,city_match,city,heloc,1,texas,search:heloc
+how does a heloc work in texas,0,4,0.0,4.5,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,1,,search:heloc
 what are the main strengths associated with fannie mae in housing finance?,0,4,0.0,4.5,,https://alignlending.com/learn/fannie-mae-and-freddie-mac-stabilizing-housing-market/,token_match,learn,other,1,,search:what
 which zero-down mortgages have reasonable closing costs?,0,4,0.0,4.8,,https://alignlending.com/learn/mortgage-closing-costs/,token_match,learn,closing_costs,1,,search:closing
 is there any federal or utah tax benefit for first time home buyer,0,4,0.0,4.8,,https://alignlending.com/learn/first-time-home-buyer-tax-credits/,token_match,learn,first_time_buyer,1,,search:firsttime
@@ -2534,7 +2534,7 @@ no down payment home loans 2015,0,4,0.0,8.8,,https://alignlending.com/learn/buyi
 what square footage is considered a mini mansion,0,4,0.0,8.8,,https://alignlending.com/learn/definition-of-mansion-what-makes-house-mansion/,token_match,learn,mansion_drift,1,,search:mi
 who can identify property defects and estimate repair costs before closing?,0,4,0.0,9.0,,https://alignlending.com/learn/mortgage-closing-costs/,token_match,learn,home_improvement_drift,1,,search:cani
 pmi meaning mortgage,0,4,0.0,9.5,,https://alignlending.com/learn/what-is-piggyback-mortgage/,token_match,learn,pmi,0,,search:pmi
-texas fha loan limits 2022,0,4,0.0,9.8,,https://alignlending.com/mortgage-lender-texas-township-mi/,city_match,city,fha_limits,0,texas,search:fha
+texas fha loan limits 2022,0,4,0.0,9.8,,https://alignlending.com/learn/fha-loan-limits/,token_match,calculator,fha_limits,0,,search:fha
 rent to own vs rent,0,4,0.0,9.8,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,0,,search:vsearch:should
 fannie mae homeready vs home possible income limits,0,4,0.0,9.8,,https://alignlending.com/learn/fannie-mae-updates/,token_match,learn,homeready_homepossible,0,,search:vsearch:should
 "i am selling my home. i want information about pricing, listing, and the sales process. can i customize the repayment terms of a home equity loan with rocket mortgage to better fit my financial situation?",0,4,0.0,10.3,,https://alignlending.com/learn/selling-home-with-home-equity-loan/,token_match,learn,ai_persona_prompt,1,,search:cani
@@ -2583,7 +2583,7 @@ line of credit or heloc meaning,0,4,0.0,26.5,,https://alignlending.com/learn/hom
 michigan property taxes,0,4,0.0,26.8,,https://alignlending.com/learn/impact-of-home-improvements-on-property-taxes/,token_match,learn,property_tax,0,,search:proptax
 minimum credit score for a usda loan,0,4,0.0,27.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_credit,0,,search:credit
 intelliloan vs owning,0,4,0.0,27.5,,https://alignlending.com/learn/benefits-of-investing-in-senior-housing-markets/,token_match,learn,lease_to_own,0,,search:vsearch:should
-bad credit loans ypsilanti,0,4,0.0,27.8,,https://alignlending.com/mortgage-lender-ypsilanti-township-mi/,city_match,city,credit_general,0,ypsilanti,search:credit
+bad credit loans ypsilanti,0,4,0.0,27.8,,https://alignlending.com/mortgage-lender-ypsilanti-mi/,city_match,city,credit_general,0,ypsilanti,search:credit
 va mortgage funding fee calculator,0,4,0.0,28.0,,https://alignlending.com/va-funding-fee-calculator/,token_match,calculator,va_funding_fee,0,,search:calc2
 pros and cons of buying a manufactured home,0,4,0.0,28.8,,https://alignlending.com/learn/manufactured-homes-pros-and-cons/,token_match,learn,manufactured,0,,search:condo_mfg
 what is rent to own,0,4,0.0,28.8,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,1,,search:what
@@ -2625,7 +2625,7 @@ adjustable rate mortgage vs fixed rate,0,4,0.0,42.0,,https://alignlending.com/le
 what is the rural development loan,0,4,0.0,42.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,1,,search:what
 jumbo mortgage threshold,0,4,0.0,43.5,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:jumbo
 jumbo mortgage rates michigan,0,4,0.0,44.0,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:mi
-mortgage lender muskegon,0,4,0.0,44.5,,https://alignlending.com/mortgage-lender-muskegon-township-mi/,city_match,city,local_broker_lender,0,muskegon,search:lender
+mortgage lender muskegon,0,4,0.0,44.5,,https://alignlending.com/mortgage-lender-muskegon-mi/,city_match,city,local_broker_lender,0,muskegon,search:lender
 pay off loan faster calculator,0,4,0.0,45.0,,https://alignlending.com/va-loan-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 mortgage payoff calculators,0,4,0.0,45.5,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 va home loan calculator with taxes and insurance,0,4,0.0,46.0,,https://alignlending.com/va-loan-calculator/,token_match,calculator,va_calculator,0,,search:calc2
@@ -2682,7 +2682,7 @@ what is balloon payment mortgage,0,4,0.0,68.8,,https://alignlending.com/learn/ba
 minimum down payment for conventional loan,0,4,0.0,69.3,,https://alignlending.com/learn/what-is-conventional-97-loan/,token_match,learn,low_down_zero_down,0,,search:downpay
 what are the fha guidelines for income and debt ratios,0,4,0.0,69.8,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,fha_dti,1,,search:fha
 pay off house or invest calculator,0,4,0.0,70.3,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
-grand rapids mortgage lender,0,4,0.0,71.5,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,local_broker_lender,0,grand rapids,search:lender
+grand rapids mortgage lender,0,4,0.0,71.5,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,local_broker_lender,0,grand rapids,search:lender
 rural development loans michigan,0,4,0.0,71.8,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_eligibility,0,,search:mi
 what is plf in reverse mortgage,0,4,0.0,72.3,,https://alignlending.com/learn/reverse-mortgages-how-they-work/,token_match,learn,reverse_mortgage,1,,search:what
 what is cap rate in real estate,0,4,0.0,72.3,,https://alignlending.com/learn/cap-rates-in-real-estate/,token_match,learn,crowdfunding_investing_drift,1,,search:what
@@ -2760,13 +2760,13 @@ where to compare introductory heloc rates and terms?,0,3,0.0,4.0,,https://alignl
 explain how lenders determine a borrower’s ability to repay a home equity loan.,0,3,0.0,4.0,,https://alignlending.com/learn/home-equity-loans-pros-and-cons/,token_match,learn,home_equity_loan,0,,search:lender
 i am self-employed and looking to buy a home. i need guidance on mortgage options and documentation requirements. how do rocket mortgage's closing costs compare to those of other mortgage providers?,0,3,0.0,4.3,,https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/,token_match,learn,ai_persona_prompt,1,,search:closing
 why isn’t rent-to-own considered credit?,0,3,0.0,4.3,,https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/,token_match,learn,lease_to_own,1,,search:credit
-top local mortgage lender and loan servicer in kalamazoo?,0,3,0.0,4.3,,https://alignlending.com/mortgage-lender-kalamazoo-township-mi/,city_match,city,local_broker_lender,1,kalamazoo,search:lender
+top local mortgage lender and loan servicer in kalamazoo?,0,3,0.0,4.3,,https://alignlending.com/mortgage-lender-kalamazoo-mi/,city_match,city,local_broker_lender,1,kalamazoo,search:lender
 are usda lenders stricter about credit or income?,0,3,0.0,4.3,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_income_limits,1,,search:lender
 how to negotiate repairs or credits in a home purchase using nolo’s tips?,0,3,0.0,4.7,,https://alignlending.com/learn/managing-home-repairs-during-escrow/,token_match,learn,credit_general,1,,search:credit
 home buyers credit,0,3,0.0,4.7,,https://alignlending.com/learn/credit-repair-strategies-for-home-buyers/,token_match,learn,credit_general,0,,search:credit
 best first-time home buyer lender in east lansing for skilled trade workers?,0,3,0.0,4.7,,https://alignlending.com/mortgage-lender-east-lansing-mi/,city_match,city,first_time_buyer,1,east lansing,search:lender
 +cfpb closing costs 2 to 5 percent home purchase official,0,3,0.0,5.0,,https://alignlending.com/learn/how-to-budget-for-closing-costs/,token_match,learn,closing_costs,0,,search:closing
-"is there a free heloc payment calculator that factors in variable rates, and how accurate are those projections compared with fixed-rate home equity loans?",0,3,0.0,5.3,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,va_calculator,1,,search:heloc
+"is there a free heloc payment calculator that factors in variable rates, and how accurate are those projections compared with fixed-rate home equity loans?",0,3,0.0,5.3,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,1,,search:heloc
 compare mortgage rates and closing costs from local lenders,0,3,0.0,5.3,,https://alignlending.com/learn/mortgage-closing-costs/,token_match,learn,closing_costs,0,,search:lender
 local lenders near me,0,3,0.0,5.3,,https://alignlending.com/learn/comparing-mortgage-lenders-what-to-look/,token_match,learn,local_broker_lender,0,,search:nearme
 refinance condo mortgage application,0,3,0.0,5.7,,https://alignlending.com/learn/pros-and-cons-of-refinancing-condo/,token_match,learn,refinance_general,0,,search:condo_mfg
@@ -2789,14 +2789,14 @@ list the best refinancing strategies to shorten your loan maturity and which len
 how does escrow work for property taxes,0,3,0.0,8.0,,https://alignlending.com/learn/mortgage-escrow-accounts/,token_match,learn,escrow,1,,search:proptax
 whats homestead exemption,0,3,0.0,8.3,,https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/,token_match,learn,homestead,1,,search:homestead
 mortgage broker southgate michigan,0,3,0.0,8.7,,https://alignlending.com/mortgage-lender-southgate-mi/,city_match,city,local_broker_lender,0,southgate,search:broker
-evaluate the secondary mortgage company fannie mae on affordable housing & access to credit,0,3,0.0,9.0,,https://alignlending.com/learn/fannie-mae-and-freddie-mac-stabilizing-housing-market/,token_match,learn,va_requirements,0,,search:credit
+evaluate the secondary mortgage company fannie mae on affordable housing & access to credit,0,3,0.0,9.0,,https://alignlending.com/learn/fannie-mae-and-freddie-mac-stabilizing-housing-market/,token_match,learn,credit_general,0,,search:credit
 home mortgage loans with no down payment,0,3,0.0,9.7,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,low_down_zero_down,0,,search:downpay
 fannie mae low cash down payment,0,3,0.0,10.0,,https://alignlending.com/learn/low-down-payment-mortgages/,token_match,learn,low_down_zero_down,0,,search:downpay
 plot map vs plat map,0,3,0.0,10.0,,https://alignlending.com/learn/what-is-plat-map/,token_match,learn,plat,0,,search:vsearch:should
 "competition among mortgage lenders in detroit, mi",0,3,0.0,10.3,,https://alignlending.com/mortgage-lender-detroit-mi/,city_match,city,local_broker_lender,0,detroit,search:lender
 where can i find refinance options with lenient criteria?,0,3,0.0,11.0,,https://alignlending.com/learn/refinancing-with-low-credit-score/,token_match,learn,refinance_general,1,,search:cani
 fha loan pmi rules,0,3,0.0,11.3,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_mip,0,,search:pmi
-mortgage lender in northville,0,3,0.0,11.7,,https://alignlending.com/mortgage-lender-northville-township-mi/,city_match,city,local_broker_lender,0,northville,search:lender
+mortgage lender in northville,0,3,0.0,11.7,,https://alignlending.com/mortgage-lender-northville-mi/,city_match,city,local_broker_lender,0,northville,search:lender
 condo refinance,0,3,0.0,13.3,,https://alignlending.com/learn/pros-and-cons-of-refinancing-condo/,token_match,learn,refinance_general,0,,search:condo_mfg
 va jumbo irrrl,0,3,0.0,14.0,,https://alignlending.com/learn/va-interest-rate-reduction-refinance-loans/,token_match,learn,va_irrrl,0,,search:jumbo
 pmi or mip,0,3,0.0,14.3,,https://alignlending.com/pmi-removal-calculator/,token_match,calculator,fha_mip,0,,search:pmi
@@ -2812,11 +2812,11 @@ current pmi rates,0,3,0.0,17.3,,https://alignlending.com/learn/mortgage-rates/,t
 jumbo loan threshold,0,3,0.0,17.7,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,0,,search:jumbo
 non qm bank statement loan,0,3,0.0,18.0,,https://alignlending.com/learn/non-qm-loans-for-self-employed-borrowers/,token_match,learn,bank_statement_1099_asset,0,,search:dscr_nonqm
 homeowner line of credit,0,3,0.0,18.3,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,0,,search:credit
-lender grand haven,0,3,0.0,18.3,,https://alignlending.com/mortgage-lender-grand-haven-township-mi/,city_match,city,local_broker_lender,0,grand haven,search:lender
+lender grand haven,0,3,0.0,18.3,,https://alignlending.com/mortgage-lender-grand-haven-mi/,city_match,city,local_broker_lender,0,grand haven,search:lender
 heloc accelerated mortgage payoff calculator,0,3,0.0,19.0,,https://alignlending.com/learn/home-equity-line-of-credit-heloc/,token_match,learn,heloc,0,,search:heloc
 debt to income calculator fha,0,3,0.0,19.3,,https://alignlending.com/learn/debt-to-income-ratio-dti/,token_match,learn,fha_dti,0,,search:calc2
 home possible minimum credit score,0,3,0.0,19.3,,https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/,token_match,learn,homeready_homepossible,0,,search:credit
-mortgage lender brighton,0,3,0.0,19.3,,https://alignlending.com/mortgage-lender-brighton-township-mi/,city_match,city,local_broker_lender,0,brighton,search:lender
+mortgage lender brighton,0,3,0.0,19.3,,https://alignlending.com/mortgage-lender-brighton-mi/,city_match,city,local_broker_lender,0,brighton,search:lender
 manufactured home refinance,0,3,0.0,20.0,,https://alignlending.com/learn/refinancing-manufactured-home/,token_match,learn,refinance_general,0,,search:condo_mfg
 refinance condo,0,3,0.0,20.3,,https://alignlending.com/learn/pros-and-cons-of-refinancing-condo/,token_match,learn,refinance_general,0,,search:condo_mfg
 manufactured home pros and cons,0,3,0.0,20.3,,https://alignlending.com/learn/manufactured-homes-pros-and-cons/,token_match,learn,manufactured,0,,search:condo_mfg
@@ -2826,7 +2826,7 @@ property tax michigan calculator,0,3,0.0,22.3,,https://alignlending.com/michigan
 mortgage broker trenton michigan,0,3,0.0,23.0,,https://alignlending.com/mortgage-lender-trenton-mi/,city_match,city,local_broker_lender,0,trenton,search:broker
 how big is jumbo loan,0,3,0.0,23.3,,https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/,token_match,learn,jumbo,1,,search:jumbo
 fha home loan down payment,0,3,0.0,23.7,,https://alignlending.com/learn/buying-home-with-low-down-payment/,token_match,learn,fha_down_payment,0,,search:downpay
-mortgage loan to value ratio calculator,0,3,0.0,24.3,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,va_calculator,0,,search:calc2
+mortgage loan to value ratio calculator,0,3,0.0,24.3,,https://alignlending.com/learn/what-is-loan-to-value-ratio/,token_match,learn,ltv,0,,search:calc2
 buying a condo vs coop,0,3,0.0,24.3,,https://alignlending.com/learn/pros-and-cons-of-buying-condo/,token_match,learn,condo,0,,search:condo_mfg
 credit score needed for usda loan,0,3,0.0,25.0,,https://alignlending.com/learn/usda-loan-basics/,token_match,learn,usda_credit,0,,search:credit
 jumbo loan refinancing 15068,0,3,0.0,25.0,,https://alignlending.com/learn/refinancing-jumbo-loan/,token_match,learn,refinance_general,0,,search:jumbo
@@ -2872,7 +2872,7 @@ home pay off calculator,0,3,0.0,46.3,,https://alignlending.com/home-affordabilit
 interest only mortgage lenders,0,3,0.0,47.0,,https://alignlending.com/learn/interest-only-mortgages/,token_match,learn,interest_only,0,,search:lender
 new mortgage rules for bad credit,0,3,0.0,47.3,,https://alignlending.com/learn/buying-home-with-bad-credit/,token_match,learn,credit_general,0,,search:credit
 bad credit home refinance,0,3,0.0,47.3,,https://alignlending.com/learn/refinancing-with-bad-credit/,token_match,learn,refi_bad_credit,0,,search:credit
-grand rapids credit heloc rates,0,3,0.0,47.3,,https://alignlending.com/mortgage-lender-grand-rapids-township-mi/,city_match,city,heloc,0,grand rapids,search:heloc
+grand rapids credit heloc rates,0,3,0.0,47.3,,https://alignlending.com/mortgage-lender-grand-rapids-mi/,city_match,city,heloc,0,grand rapids,search:heloc
 does locking a rate commit you to a lender,0,3,0.0,47.3,,https://alignlending.com/learn/fixed-rate-mortgage-tips/,token_match,learn,rate_lock,1,,search:lender
 house pay off calculator,0,3,0.0,48.0,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 accelerated mortgage payment calculator,0,3,0.0,48.0,,https://alignlending.com/mortgage-refinance-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
@@ -2914,7 +2914,7 @@ direct vs guaranteed usda loans,0,3,0.0,65.7,,https://alignlending.com/learn/usd
 how much can i get an fha loan for,0,3,0.0,66.3,,https://alignlending.com/learn/fha-loan-tips/,token_match,learn,fha_general,1,,search:cani
 interest rate vs apr,0,3,0.0,66.3,,https://alignlending.com/learn/annual-percentage-rate-apr/,token_match,learn,apr,0,,search:vsearch:should
 invest or pay off mortgage calculator,0,3,0.0,66.7,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
-dscr lenders lincoln,0,3,0.0,68.3,,https://alignlending.com/product-loans/dscr-loans-michigan/,token_match,product,dscr,0,lincoln,search:dscr_nonqm
+dscr lenders lincoln,0,3,0.0,68.3,,https://alignlending.com/product-loans/dscr-loans-michigan/,token_match,product,dscr,0,,search:dscr_nonqm
 can i refinance my fha loan,0,3,0.0,69.3,,https://alignlending.com/learn/pros-and-cons-of-refinancing-fha-loan/,token_match,learn,fha_refinance,1,,search:cani
 mortgage early payoff calculator,0,3,0.0,69.7,,https://alignlending.com/mortgage-payoff-calculator/,token_match,calculator,payoff_calculator,0,,search:calc2
 refinance mortgage no closing costs,0,3,0.0,70.0,,https://alignlending.com/learn/what-is-no-closing-cost-refinance/,token_match,learn,refinance_general,0,,search:closing
