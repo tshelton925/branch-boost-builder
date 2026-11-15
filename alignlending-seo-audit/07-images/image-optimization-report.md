@@ -172,7 +172,7 @@ WordPress Site Icon crops of `cropped-Align-Lending-FF-01-2.jpg` (JPEG, 32/180/1
 - **Same photo, 3 JPEG sizes:** `Samantha-202x300.jpg`, `-691x1024.jpg` and `-768x1139.jpg` are WordPress sub-sizes of one upload (dHash distance 0–2 of 256), each served on different pages. We consolidated them into `samantha-shelton-portrait.webp` plus 104 px and 168 px headshots.
 - **Same photo, 2 hero files:** `align-hero-borrowsmart-access.webp` (privacy policy) and `align-hero-research-mortgage-market.webp` (market report), dHash distance 1/256.
 - **Versioned heroes:** `about-us-v2` (contact, licensing) and `-v3` (about). `cash-out-vs-home-equity` v1 (calculators hub, terms) and `-v2` (points calculator, refi page). `homebuying-budget-review` v1 (`/samantha-shelton/`) and `-v2` (budget review). Some heroes are reused on unrelated pages (for example the 30-year-fixed hero on the property-tax uncapping study). That is harmless for speed, but the filename describes a different topic.
-- **City heroes are unique:** no two of the 276 are near-duplicates (closest pair at dHash distance 36/256).
+- **City heroes are unique:** no two of the 276 are near-duplicates (closest pair at dHash distance 36/256). Two break the naming scheme with a WordPress duplicate-upload counter: `align-hero-city-vienna-township-1.webp` and `align-hero-city-jamestown-township-1.webp`. That usually means an orphaned file with the clean name exists in `/2026/11/`.
 - **WordPress sub-sizes nobody requests:** the 63 hand-coded non-city heroes never reference their -300/-768/-1024/-1536 sub-sizes, so about 250 files sit unused. Once snippet 1 ships, the 276 city heroes' WordPress sub-sizes (about 1,100 files) become unused too. They are not served, so they have no speed cost. Delete them 30 days after the change, once cached HTML has expired.
 
 ### 3.14 CDN and caching headers (checked 2026-11-15)
@@ -265,7 +265,8 @@ City and learn names stay as they are: the `align-hero-city-<city>.webp` scheme 
 | `align-plan-porch / colonial / ranch / movein.webp` | `homebuyer-plan-family-front-porch / white-colonial-house / brick-ranch-house / moving-day.webp` |
 | `equal-housing-opportunity-logo-100-w.png` | `equal-housing-opportunity-logo.png` |
 | `cropped-Align-Lending-FF-01-2*.jpg` | `align-lending-site-icon-512.png` |
-| `align-hero-*-v2/-v3.webp` | drop the version suffix on the next re-upload (`new_suggested_filename` in the manifest) |
+| `align-hero-*-v2/-v3.webp` | drop the version suffix on the next re-upload where the clean name is free (`new_suggested_filename` in the manifest). `about-us-v2/-v3`, `cash-out-vs-home-equity-v2` and `homebuying-budget-review-v2` keep their names because the clean name is taken. |
+| `align-hero-city-vienna-township-1.webp`, `align-hero-city-jamestown-township-1.webp` | `align-hero-city-vienna-township.webp`, `align-hero-city-jamestown-township.webp` |
 
 Renaming means a new upload plus a URL swap in the widget. In-place replacement keeps the old name and needs no markup change, which is why heroes keep their names.
 

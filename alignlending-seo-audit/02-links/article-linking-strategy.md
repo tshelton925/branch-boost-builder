@@ -1,7 +1,7 @@
 # Article linking strategy: alignlending.com Learn Center
 
 Owner question: "Is there a better way to link our articles?"
-Scope: the 473 `/learn/` URLs (420 articles, 52 category hubs and the Learn root), how they connect to the product, purchase, refinance and calculator pages, and how city and county pages hand off to the Michigan guides. Broken links and site architecture belong to the link-health workstream and are not covered here.
+Scope: the 473 `/learn/` URLs (420 articles, 50 category hubs, 2 tool pages and the Learn root; closing-costs, michigan-taxable-value and mortgage-glossary are counted as hubs), how they connect to the product, purchase, refinance and calculator pages, and how city and county pages hand off to the Michigan guides. Broken links and site architecture belong to the link-health workstream and are not covered here.
 Data: crawl of 2026-11-15 (`page_summary.csv`, `pages.jsonl`, `text/`), and Google Search Console via DataWise (top 600 queries by impressions, plus `search` pulls for tax, credit, closing, down payment, HELOC, first time, PMI, sell, escrow and cash out).
 
 Files in this folder:
@@ -9,9 +9,9 @@ Files in this folder:
 | File | What it is |
 |---|---|
 | `cluster-map.csv` | 528 rows: every `/learn/` URL (473) plus the 55 pillar and money pages, with cluster, role, pillar, hub, estimated GSC impressions and whether the page already links its pillar |
-| `link-insertions.csv` | 260 specific insertions (114 P0, 142 P1, 4 P2). 232 use a phrase that already exists in the source text; 27 add one new sentence; 1 re-points an existing link |
+| `link-insertions.csv` | 252 specific insertions (107 P0, 141 P1, 4 P2). 224 use a phrase that already exists in the source text; 27 add one new sentence; 1 re-points an existing link |
 | `cannibalization.csv` | 68 overlap groups, each with a canonical URL and an action: 34 merge, 31 differentiate, 3 redirect. 53 URLs to 301 |
-| `city-guide-link-insertions.csv` | Supplement: 389 more city-page links to the Michigan guides, each anchored on an existing sentence (bulk work for a developer) |
+| `city-guide-link-insertions.csv` | Supplement: 384 more city-page links to the Michigan guides, each anchored on an existing sentence (bulk work for a developer) |
 
 ---
 
@@ -64,13 +64,13 @@ After the P0 and P1 work in this folder (insertions, module rules, merges), I pr
 
 ## 3. Findings ranked by impact
 
-1. **Pillar pages pass no equity down (critical).** Evidence: `/product-loans/fha-loans/` links `/learn/fha-loans/`, credit score, DTI, closing-cost budgeting and mortgage insurance, but not FHA loan limits, 203(k), FHA streamline or FHA tips. `/refinance/` links `/learn/refinancing-guide/`, `/learn/refinancing/` and `/learn/home-equity/` only. `/purchase/` links three Michigan tax guides and the Learn root. Site-wide, money pages link 11% of the articles in their cluster. Fix: the "Guides for this loan" block (section 7.3) and 30 down-link rows in `link-insertions.csv`.
-2. **`/refinance/` and `/purchase/` are starved (critical).** `/refinance/` has 5 contextual inlinks and `/purchase/` has 16 (`page_summary.csv`). Refinance articles all point to `/refinance/break-even-review/` (115 inlinks) instead. The query "refinance home loan" shows 856 impressions at position 66.9, and "refinancing options" shows 421 at 11.9. Fix: R3 (next-step rule), plus 7 rows to `/refinance/` and 14 rows to `/purchase/`.
+1. **Pillar pages pass no equity down (critical).** Evidence: `/product-loans/fha-loans/` links `/learn/fha-loans/`, credit score, DTI, closing-cost budgeting and mortgage insurance, but not FHA loan limits, 203(k), FHA streamline or FHA tips. `/refinance/` links `/learn/refinancing-guide/`, `/learn/refinancing/` and `/learn/home-equity/` only. `/purchase/` links three Michigan tax guides and the Learn root. Site-wide, money pages link 11% of the articles in their cluster. Fix: the "Guides for this loan" block (section 7.3) and 38 money-page and calculator rows in `link-insertions.csv`.
+2. **`/refinance/` and `/purchase/` are starved (critical).** `/refinance/` has 5 contextual inlinks and `/purchase/` has 16 (`page_summary.csv`). Refinance articles all point to `/refinance/break-even-review/` (115 inlinks) instead. The query "refinance home loan" shows 856 impressions at position 66.9, and "refinancing options" shows 421 at 11.9. Fix: R3 (next-step rule), plus 7 rows to `/refinance/` and 13 rows to `/purchase/`.
 3. **The site's largest impression pages have weak next steps (high).** Examples: lease-to-own (est. 15,616 impressions) links only the generic game-plan CTA, not the readiness or first-time buyer pages its readers need; conveyance (est. 1,162, position 1.3) and plat map (est. 338) never link `/purchase/`; the IRRRL guide (est. 370) never links `/refinance/`. Fix: P0 new-sentence rows.
 4. **Related and previous/next modules ignore topic (high).** The Related block is fixed per category: 159 distinct targets serve 420 articles, and three posts take 150 slots. Only 29% of previous/next links stay inside the cluster. Fix: module spec in sections 7.1 and 7.2.
 5. **Cannibalization (high).** There are 68 groups and 53 URLs to merge or redirect (`cannibalization.csv`). The six P0 groups are lease-to-own, closing costs, low down payment, amortization, home buying process (`buying-process` repeats the hub's H1 pattern), and FHA loan limits (internal "loan limits" anchors send 351 links to `/loan-limits/`, while `/learn/fha-loan-limits/` earns the est. 1,779 FHA-limit impressions).
 6. **Calculators are not paired (medium-high).** `/mortgage-refinance-calculator/` is linked from 0 of 39 refinance articles and has 8 contextual inlinks. `/home-affordability-calculator/` is linked from 2 Learn pages, `/va-loan-calculator/` from 1 of 8 VA articles, and `/mortgage-calculator/` from 2 of 20 basics and term articles. Calculators link back to only 2 to 4 Learn pages each. By contrast, the exact anchor "Michigan property tax calculator" appears on 210 Learn pages. Fix: pairing matrix in section 6, R8.
-7. **City pages mention Michigan topics without linking the guide (medium).** 275 city pages mention homestead or the PRE, but 66 link the homestead guide. 214 mention MSHDA or MI 10K, but 68 link a DPA page. Septic: 183 mention, 149 link. Private well: 173 mention, 119 link. Waterfront: 97 mention, 71 link. Transfer tax and USDA are already covered (126 of 126, 112 of 114). Fix: R9, plus 28 rows in the main file and 389 in the supplement.
+7. **City pages mention Michigan topics without linking the guide (medium).** 275 city pages mention homestead or the PRE, but 66 link the homestead guide. 214 mention MSHDA or MI 10K, but 68 link a DPA page. Septic: 183 mention, 149 link. Private well: 173 mention, 119 link. Waterfront: 97 mention, 71 link. Transfer tax and USDA are already covered (126 of 126, 112 of 114). Fix: R9, plus 12 rows in the main file and 384 in the supplement.
 8. **The Michigan property-tax hub is a sink (medium).** `/learn/michigan-taxable-value/` has 294 contextual inlinks but no link to the homestead, assessment or transfer-tax guides, or to the uncapping study. Fix: 4 rows, including re-pointing its PRE link from the glossary to the homestead guide.
 9. **The site's own research is barely linked (medium).** `/research/michigan-mortgage-market-report/` has 2 contextual inlinks, yet it holds quotable Michigan statistics that strengthen AI-search answers. I verified these on the report page: 30% of 2025 Michigan purchase loans had DTI above 43%; manufactured-home purchase applications were denied 57% of the time versus 8% for site-built homes; home equity lines were denied 30% of the time versus 15.5% for purchases. Fix: 5 new-sentence rows.
 10. **Over-optimized repetition (low-medium).** "Michigan property tax calculator" appears 210 times, and "Build your homebuyer game plan" or "Get my homebuyer game plan" 243 times. The CTA labels are fine as button text, but in-body anchors should vary (R10).
@@ -140,7 +140,7 @@ Rules for merges: move the unique sections into the canonical, then 301. **Updat
 - **Mix per article:** 1 link to the pillar (R3), 1 link to the hub (already standard: "If you're earlier in the process, start with our ... guide"), at least 3 links to same-cluster articles, at most 3 links to adjacent-cluster articles, and 1 link to the cluster calculator where the article discusses numbers (R8).
 - **Where:** the first link in the first 100 words (the hub sentence), the pillar in the first 30%, and same-cluster links at the point where the sub-question comes up. Use at most one link per paragraph, and never link inside an H2 or H3.
 - **Anchor style:** 2 to 6 words, descriptive, using a phrase already in the sentence. Use the target's topic and, for money pages, add "Michigan" where it reads naturally (for example "HELOCs in Michigan", "Michigan down payment assistance"). Never use "click here", "read more" or a bare URL. Do not use the same exact anchor for the same target more than 3 times per publishing batch; track it in a link inventory. Do not link to the same target twice on one page, except the pillar, which may appear once more in the closing section.
-- **Never** link from a rate example, an APR table or a Sources or footnote line, and never link a phrase inside a quoted statute or a quote. Every row in `link-insertions.csv` was filtered on these rules.
+- **Never** link from a rate example, an APR table or a Sources or footnote line, and never link a phrase inside a quoted statute or a quote. Every row in `link-insertions.csv` was filtered on these rules, and no row sits on, or points to, a URL that `cannibalization.csv` merges or redirects.
 
 **R3. Next step to the pillar: twice per article.**
 1. **In the first 30%:** add one sentence right after the hub sentence in the intro. Template (Align voice, no promises, adapt the noun): "When you are ready to apply this to your own [purchase / refinance / equity plan], see [descriptive anchor to `pillar_url`]." Most articles already have an early "Next step" CTA box. Keep it, but make it point to the pillar's conversion page as mapped below, and add the in-text sentence, because in-text links carry more relevance than CTA buttons.
@@ -150,7 +150,7 @@ Rules for merges: move the unique sections into the canonical, then 301. **Updat
 
 **R5. Previous / next links.** Replace chronological order with cluster order: the hub's list order. Previous and next stay inside the cluster, and the last article's "next" is the cluster hub. If that is not feasible in Astra, remove previous/next. Only 29% of the current links are on-topic.
 
-**R6. Hub page layout** (all 52 hubs, in order):
+**R6. Hub page layout** (all 50 hubs, in order):
 1. A 40 to 60-word direct answer to the hub's head question, with the entity named (Align Lending, Michigan).
 2. A **"Start here" card** linking the pillar money page with a descriptive anchor.
 3. **Core guides:** every article in the cluster (100% coverage is the rule; today 87%), grouped under 3 to 5 subheadings in journey order. Each entry shows the title and a one-line description.
@@ -193,7 +193,7 @@ Hubs should not repeat full article content (see the USDA hub vs. basics row in 
 | USDA | `/usda-eligibility-check/` or `/product-loans/usda-loans/` | 114 → 112 (done) |
 | land contract | `/learn/michigan-land-contract/` | 4 → 1 |
 
-County hubs (13) link the three core Michigan guides (taxable value, homestead, DPA) once each in their intro section. `city-guide-link-insertions.csv` lists 389 ready rows. Rows for city pages that already earn impressions (Dearborn, Ann Arbor, Flint, Farmington Hills, Traverse City, Richmond, Detroit, Wolverine Lake) are P0 or P1 in the main file.
+County hubs (13) link the three core Michigan guides (taxable value, homestead, DPA) once each in their intro section. `city-guide-link-insertions.csv` lists 384 ready rows. Rows for city pages that already earn impressions (Dearborn, Ann Arbor, Flint, Farmington, Traverse City, Richmond, Detroit, Wolverine Lake) are P0 or P1 in the main file.
 
 **R10. Anchor governance.** Keep a link inventory: source, target, anchor, date. Before publishing, check three caps: no target gets more than 3 identical in-body anchors per batch, no article has more than 20 in-body internal links, and no anchor points at a redirecting URL.
 
@@ -253,13 +253,13 @@ County hubs (13) link the three core Michigan guides (taxable value, homestead, 
 
 - **Columns:** `priority`, `source_url`, `anchor_text_exact`, `existing_sentence_or_new_sentence`, `target_url`, `reason`, plus `insertion_type`, `placement`, `source_cluster`, `source_type`, `target_type`, estimated source and target impressions, `impact` and `effort`.
 - **Insertion types:**
-  - **link existing phrase (232):** the sentence is copied verbatim from the page text and the anchor is an exact substring. I checked every row against `text/<slug>.txt` (0 mismatches), and the target is not already linked anywhere on the source page.
+  - **link existing phrase (224):** the sentence is copied verbatim from the page text and the anchor is an exact substring. I checked every row against `text/<slug>.txt` (0 mismatches), and the target is not already linked anywhere on the source page.
   - **new sentence (27):** the text starts with `NEW:`, and `placement` says where it goes. The new sentences contain no rates or promises, and their only facts are figures I verified on the Align research page.
   - **change existing link (1):** re-point the PRE link on `/learn/michigan-taxable-value/`.
 - **Priority logic:** P0 = the source earns est. 100 or more impressions and the target is a money page or striking-distance page, or the target is an under-linked pillar. P1 = a missing pillar link, a money-page down-link or a calculator pairing. P2 = backlog.
-- **Spread:** 184 source pages and 89 target pages. Caps: 3 rows per source (4 for sources with est. 1,000 or more impressions) and 3 identical anchors per target.
-- **Top targets by row count:** `/purchase/` 14, `/purchase/first-time-homebuyer/` 9, `/purchase/renovation-financing/` 9, `/purchase/down-payment-assistance/` 8, `/learn/low-down-payment-mortgages/` 8, `/refinance/` 7.
-- **Order of work:** P0 rows (114) in week 1, together with the 6 P0 cannibalization actions; P1 rows (142) and the module builds (sections 7.1 to 7.4) in weeks 2 to 4; P2 and the city supplement after that.
+- **Spread:** 179 source pages and 91 target pages. Caps: 3 rows per source (4 for sources with est. 1,000 or more impressions) and 3 identical anchors per target (city pages exempt, because R9 links the first mention of a proper noun such as MSHDA).
+- **Top targets by row count:** `/purchase/` 13, `/purchase/down-payment-assistance/` 12, `/purchase/first-time-homebuyer/` 9, `/purchase/renovation-financing/` 8, `/learn/low-down-payment-mortgages/` 8, `/refinance/` 7.
+- **Order of work:** P0 rows (107) in week 1, together with the 6 P0 cannibalization actions; P1 rows (141) and the module builds (sections 7.1 to 7.4) in weeks 2 to 4; P2 and the city supplement after that.
 - **Draft wording:** new sentences that describe how Align works are subject to Align approval before publishing.
 
 ## 9. Measurement and caveats
