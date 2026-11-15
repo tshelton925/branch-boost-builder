@@ -3,7 +3,7 @@
 **Owner:** Alt text and image SEO specialist · **Crawl date:** 2026-11-15 · **Scope:** alt text, filenames, captions, image structured data, og/twitter images, image sitemap. Compression, format and delivery belong to the sibling report in this folder.
 
 **Files**
-- `07-images/alt-text.csv`: 859 rows, one per image URL. It includes all 808 unique images that render an empty alt anywhere, plus 51 improvement rows (30 learn hero alts to rewrite, 4 people photos, 2 logos, 15 research charts). The first 9 columns follow the brief. The helper columns after them are `alt_change_location`, `media_library_alt_current`, `attachment_id`, `missing_alt_occurrences` and `priority`.
+- `07-images/alt-text.csv`: 860 rows, one per image URL. It includes all 808 unique images that render an empty alt anywhere, plus 52 improvement rows (30 learn hero alts to rewrite, 4 people photos, 2 logos, 15 research charts, and the home hero, which is a CSS background today). The first 9 columns follow the brief. The helper columns after them are `alt_change_location`, `media_library_alt_current`, `attachment_id`, `missing_alt_occurrences` and `priority`.
 - This report covers the summary, scorecard, findings ranked by impact, patterns and the bulk-update method.
 
 Nothing here has been changed on the live site. Every recommendation is a change for Align to make.
@@ -21,14 +21,14 @@ Nothing here has been changed on the live site. Every recommendation is a change
    Do not install an "auto-fill empty alt" plugin. It would make screen readers announce about 3,400 redundant images.
 2. **416 occurrences (380 unique images) are meaningful and need alt.** These are 276 city heroes, 64 product, purchase, refinance, calculator, hub and about heroes, the `/learn/` hub hero, and 39 learn "featured story" images on 48 learn hub pages.
 3. **Root cause: the hero template, not the Media Library.** All 340 hero attachments already have alt text in the Media Library. Rank Math reads it for `og:image:alt` and for the ImageObject `caption`. On the page, though, the hero is hard-coded in an Elementor **HTML widget** (`data-widget_type="html.default"` → `<section class="adp adp-hero"><img class="adp-hero__img" … alt="">`), so 359 pages render `alt=""`. **One mu-plugin (section 6.1) fixes all 359 pages at once.** The CSV then improves the text itself.
-4. **Every alt Claude wrote is based on viewing the image.** 431 meaningful rows, 0 templated:
+4. **Every alt Claude wrote is based on viewing the image.** 432 meaningful rows, 0 templated:
    - All 276 city heroes (every city page in every county), viewed in 31 labelled contact sheets of 9.
    - All 65 product, purchase, refinance, calculator, hub and about heroes.
    - All 69 learn heroes that needed new alt.
-   - The Samantha photos, logos and all 15 research charts (PNG exports).
+   - The Samantha photos, logos, the home CSS hero and all 15 research charts (PNG exports).
 
    The 421 learn cards were not viewed one by one, because the markup makes them decorative.
-5. **The city and product heroes are generated illustrations, not location photos.** Example: Grosse Pointe Farms shows a generic snowy brick Georgian with a dark text-safe left third. No landmark appears in any city hero, so no alt names a landmark. City alts follow the pattern *"[what is visible], illustrating homes in [City], Michigan"*. The place name is there for local relevance, but the alt does not claim the scene was photographed there (section 5.2).
+5. **The city and product heroes are generated illustrations, not location photos.** Example: Grosse Pointe Farms shows a generic snowy brick Georgian with a dark text-safe left third. No landmark appears in any city hero, so no alt names a landmark. City alts follow the pattern *"[what is visible], illustrating homes in [City], Michigan"*. The place name is there for local relevance, but the alt does not claim the scene was photographed there (section 7.2).
 6. **Compliance:**
    - One learn hero alt contains a Reg Z triggering term: "…Conventional 97 loan and **3% down**". That is a P0 to remove.
    - 40 learn hero alts state loan outcomes for illustrated people, such as "purchased with a VA loan", "financed with an FHA 203(k) loan" or "bought with a low down payment". These read as invented client stories, which the brief forbids. All 69 learn alts in the CSV describe only what is visible.
@@ -103,7 +103,7 @@ Points per component:
 | Learn articles (423) | 25 | 10 | 13 | 10 | 13 | 11 | **82 B** | 467/468 heroes have alt (average 102 characters). 40 alts state loan outcomes, 1 has "3% down", 5 run over 125 characters and 1 is cut off mid-word ("…design id"). Cards and guide covers are correctly hidden. Article ImageObject has only `url` (no caption, width or height), and og:image:alt is the title. Filenames match the slugs. 0 sitemap images. | 95 A |
 | Learn hubs and `/learn/` (48) | 25 | 0 | 13 | 10 | 13 | 11 | **72 C** | The "Featured story" image (`.al-hero-feature`, 1600 px, fetchpriority high) renders `alt=""` on 48 hub pages. | 94 A |
 | Research (4) | 0 | 9 | 16 | 10 | 17 | 14 | **66 D** | Heroes `alt=""`. Charts are strong: `<figure>`, a takeaway H3, a source figcaption, PNG/SVG/Embed and CC BY 4.0. Report JSON-LD lists each chart as an ImageObject with `license`, `acquireLicensePage`, `creditText` and `creator`. However, the aria-labels name the chart type rather than the finding, the ImageObjects lack width and height, and primaryImageOfPage is the portrait. | 95 A |
-| Home (1) | 25 | 8 | 16 | 10 | 20 | 10 | **89 B** | No hero `<img>`. The plan collage is correctly decorative. The Samantha photo is "Samantha Shelton" under a "Meet Samantha Shelton" heading. og is the 1200×630 share image with alt and ImageObject caption. | 93 A |
+| Home (1) | 15 | 8 | 16 | 10 | 20 | 10 | **79 C** | The hero photo (`align-lending-michigan-home-hero.webp`, ID 6870) is a CSS background, so it has no alt and Google Images cannot index it. The sibling's delivery-fix-list D01 converts it to an `<img>`. The plan collage is correctly decorative. The Samantha photo is "Samantha Shelton" under a "Meet Samantha Shelton" heading. og is the 1200×630 share image with alt and ImageObject caption. | 93 A |
 | About, contact, legal, agents, reviews, press (12) | 0 | 9 | 12 | 10 | 9 | 8 | **48 F** | Hero `alt=""` on 11/11. 4 heroes are borrowed from unrelated pages: `/samantha-shelton/` shows a budget notebook, and privacy and terms use the BorrowSmart and cash-out images. 7/12 use the portrait as og. Weak filename `rsw_600h_600cg_true.webp`. | 87 B |
 | **Sitewide (835, weighted)** | | | | | | | **70 C** | | ~92 A |
 
@@ -374,7 +374,7 @@ WP_CLI::success( sprintf( '%s. Library: %d, learn posts: %d, skipped: %d, not fo
 ```
 
 Expected dry-run result:
-- **Library: 344.** That is 276 city heroes, 64 page heroes, `Samantha4-scaled.jpg`, `rsw_600h_600cg_true.webp` and the 2 logos.
+- **Library: 345.** That is 276 city heroes, 64 page heroes, the home hero (ID 6870), `Samantha4-scaled.jpg`, `rsw_600h_600cg_true.webp` and the 2 logos.
 - **Learn posts: at least 69** article heroes, plus hub pages if their "featured story" markup lives in post_content.
 - **Not found: 0.**
 
@@ -460,7 +460,7 @@ The city and product og images are WebP at 1920×1085. Check a sample in the Lin
 
 ### 7.1 Writing rules
 
-- Each alt is 125 characters or fewer: the 431 meaningful rows run 13–125, averaging 105.
+- Each alt is 125 characters or fewer: the 432 meaningful rows run 13–125, averaging 105.
 - No "image of" or "photo of", no exclamation points, no rates, APR, payments or "low" claims, and no stated financing outcome for illustrated people.
 - Every alt describes what is visible: house style, setting, season and light. The topic appears only when it is visible, for example a renovation, moving boxes, a lockbox, dog tags or a survey stake.
 - People photos use the name. Where the role is printed beside the photo (the city hero card shows "Broker Owner and Senior Loan Originator, NMLS 1647301"), the alt is "Samantha Shelton of Align Lending", which adds the entity without repeating the role. A setting is named only when it is visible: "in the Align Lending office" for `Samantha4`, where the sign shows.
@@ -493,7 +493,11 @@ The Media Library stores one alt per image, which renders on every page that use
 
 ## 8. Coordination and open items
 
-- **Compression agent (part 1):** replace files in place so attachment IDs and alts survive, for example with Enable Media Replace or by overwriting the file at the same path. Do not issue new URLs; if any URL changes, the CSV `image_url` must be re-keyed. Keep or add IPTC metadata (F7).
+- **Compression agent (part 1), whose files are in this folder:**
+  - **Replacements** (`optimized-manifest.csv`): where possible, replace each file in place so attachment IDs and alts survive, for example with Enable Media Replace. If a file is uploaded as a new attachment under its `new_suggested_filename`, join `alt-text.csv.image_url` to `optimized-manifest.csv.original_url` and copy `recommended_alt_exact` onto the new attachment.
+  - **New og cards** (`og-image-map.csv`, `align-og-*-1200x630.jpg`): Rank Math prints each og card's library alt as `og:image:alt`. Give each new card the alt of the hero it was cropped from. Where `og-image-map.csv` supplies a card, it replaces the hero in the section 6.4 table; the Rank Math default-image change still applies.
+  - **Home hero** (`delivery-fix-list.csv` D01): the planned `<img class="adp-hero__img" … alt="">` gets its alt from the mu-plugin. The CSV row for `align-lending-michigan-home-hero.webp` sets the library alt.
+  - **IPTC:** keep or add IPTC metadata (F7).
 - **Content and compliance:** the "3% down" wording in the Conventional 97 title and H1 (F2), the `/learn/why-work-with-align-lending/` image (F6), and the Editorial Policy imagery line (F7) need Align approval.
 - **Bing:** Bing Webmaster is not connected. Bing Image Search also weighs alt and surrounding text. After launch, export Bing's Search Performance with the Images filter to measure image clicks; no Bing figures are claimed here.
 - **CSV legend:**
