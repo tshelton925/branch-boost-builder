@@ -1,0 +1,927 @@
+{
+ "by_type": {
+  "learn": {
+   "pages": 471,
+   "score": 90.9,
+   "score_after": 98.6,
+   "lcp_kinds": {
+    "img": 467,
+    "text": 4
+   },
+   "lcp_avg_kb": 148.7,
+   "lcp_max_kb": 283.9,
+   "lcp_after_avg_kb": 122.9,
+   "lcp_768_avg_kb": null,
+   "atf_lazy_pages": 1,
+   "og": {
+    "landscape-webp": 467,
+    "portrait": 4
+   },
+   "page_img_kb": 355.2,
+   "page_img_after_kb": 311.2,
+   "top_deductions": [
+    [
+     "-3 related-card srcset offers the 1600w hero to phones",
+     465
+    ],
+    [
+     "-2 srcset says 1600w but file is #",
+     334
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     305
+    ],
+    [
+     "target <=#)",
+     164
+    ],
+    [
+     "-6 LCP # (150-#",
+     141
+    ],
+    [
+     "-3 fetchpriority=high on a non-LCP image",
+     47
+    ]
+   ]
+  },
+  "city": {
+   "pages": 276,
+   "score": 73.8,
+   "score_after": 100.0,
+   "lcp_kinds": {
+    "img": 276
+   },
+   "lcp_avg_kb": 172.2,
+   "lcp_max_kb": 292.4,
+   "lcp_after_avg_kb": 96.3,
+   "lcp_768_avg_kb": 27.9,
+   "atf_lazy_pages": 276,
+   "og": {
+    "landscape-webp": 276
+   },
+   "page_img_kb": 214.2,
+   "page_img_after_kb": 117.9,
+   "top_deductions": [
+    [
+     "-1 hero sizes=100vw on a <=# container",
+     276
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     276
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     276
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     276
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     276
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     276
+    ]
+   ]
+  },
+  "product": {
+   "pages": 21,
+   "score": 81.9,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 21
+   },
+   "lcp_avg_kb": 129.5,
+   "lcp_max_kb": 232.9,
+   "lcp_after_avg_kb": 75.8,
+   "lcp_768_avg_kb": 23.9,
+   "atf_lazy_pages": 0,
+   "og": {
+    "portrait": 6,
+    "landscape-webp": 15
+   },
+   "page_img_kb": 159.2,
+   "page_img_after_kb": 95.4,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     21
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     21
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     21
+    ],
+    [
+     "-4 # of page image bytes saveable",
+     21
+    ],
+    [
+     "target <=#)",
+     6
+    ],
+    [
+     "-6 LCP # (150-#",
+     4
+    ]
+   ]
+  },
+  "calculator": {
+   "pages": 18,
+   "score": 83.7,
+   "score_after": 99.4,
+   "lcp_kinds": {
+    "text": 1,
+    "img": 17
+   },
+   "lcp_avg_kb": 123.4,
+   "lcp_max_kb": 209.9,
+   "lcp_after_avg_kb": 79.5,
+   "lcp_768_avg_kb": 22.5,
+   "atf_lazy_pages": 0,
+   "og": {
+    "portrait": 4,
+    "landscape-webp": 14
+   },
+   "page_img_kb": 156.9,
+   "page_img_after_kb": 105.2,
+   "top_deductions": [
+    [
+     "-4 # of page image bytes saveable",
+     16
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     16
+    ],
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     15
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     15
+    ],
+    [
+     "target <=#)",
+     5
+    ],
+    [
+     "-6 LCP # (150-#",
+     3
+    ]
+   ]
+  },
+  "county_hub": {
+   "pages": 13,
+   "score": 70.5,
+   "score_after": 100,
+   "lcp_kinds": {
+    "text": 1,
+    "img": 12
+   },
+   "lcp_avg_kb": 183.7,
+   "lcp_max_kb": 257.1,
+   "lcp_after_avg_kb": 100.4,
+   "lcp_768_avg_kb": 29.1,
+   "atf_lazy_pages": 12,
+   "og": {
+    "portrait": 13
+   },
+   "page_img_kb": 210.8,
+   "page_img_after_kb": 114.1,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     12
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     12
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     12
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     12
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     12
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     12
+    ]
+   ]
+  },
+  "other": {
+   "pages": 12,
+   "score": 80.2,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 12
+   },
+   "lcp_avg_kb": 95.3,
+   "lcp_max_kb": 145.8,
+   "lcp_after_avg_kb": 57.3,
+   "lcp_768_avg_kb": 20.0,
+   "atf_lazy_pages": 5,
+   "og": {
+    "landscape-webp": 3,
+    "1200x630-jpg": 2,
+    "portrait": 7
+   },
+   "page_img_kb": 156.9,
+   "page_img_after_kb": 89.0,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     11
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     11
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     10
+    ],
+    [
+     "-4 # of page image bytes saveable",
+     8
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     7
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     5
+    ]
+   ]
+  },
+  "purchase_sub": {
+   "pages": 10,
+   "score": 75.7,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 10
+   },
+   "lcp_avg_kb": 99.7,
+   "lcp_max_kb": 132.0,
+   "lcp_after_avg_kb": 64.8,
+   "lcp_768_avg_kb": 24.1,
+   "atf_lazy_pages": 8,
+   "og": {
+    "landscape-webp": 9,
+    "portrait": 1
+   },
+   "page_img_kb": 205.2,
+   "page_img_after_kb": 113.9,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     10
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     10
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     10
+    ],
+    [
+     "-4 # of page image bytes saveable",
+     10
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     9
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     8
+    ]
+   ]
+  },
+  "research": {
+   "pages": 4,
+   "score": 71.5,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 4
+   },
+   "lcp_avg_kb": 122.1,
+   "lcp_max_kb": 212.4,
+   "lcp_after_avg_kb": 68.1,
+   "lcp_768_avg_kb": 20.4,
+   "atf_lazy_pages": 4,
+   "og": {
+    "landscape-webp": 2,
+    "png-chart": 2
+   },
+   "page_img_kb": 164.3,
+   "page_img_after_kb": 89.7,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     4
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     4
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     4
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     4
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     4
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     4
+    ]
+   ]
+  },
+  "state_hub": {
+   "pages": 3,
+   "score": 70.7,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 3
+   },
+   "lcp_avg_kb": 179.5,
+   "lcp_max_kb": 258.9,
+   "lcp_after_avg_kb": 100.7,
+   "lcp_768_avg_kb": 30.2,
+   "atf_lazy_pages": 3,
+   "og": {
+    "landscape-webp": 3
+   },
+   "page_img_kb": 221.6,
+   "page_img_after_kb": 122.3,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     3
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     3
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     3
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     3
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     3
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     3
+    ]
+   ]
+  },
+  "refinance_sub": {
+   "pages": 3,
+   "score": 71.3,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 3
+   },
+   "lcp_avg_kb": 98.7,
+   "lcp_max_kb": 176.4,
+   "lcp_after_avg_kb": 64.4,
+   "lcp_768_avg_kb": 22.1,
+   "atf_lazy_pages": 3,
+   "og": {
+    "landscape-webp": 3
+   },
+   "page_img_kb": 214.0,
+   "page_img_after_kb": 117.1,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     3
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     3
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     3
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     3
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     3
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     3
+    ]
+   ]
+  },
+  "home": {
+   "pages": 1,
+   "score": 61,
+   "score_after": 90,
+   "lcp_kinds": {
+    "css-bg": 1
+   },
+   "lcp_avg_kb": 218.2,
+   "lcp_max_kb": 218.2,
+   "lcp_after_avg_kb": 218.2,
+   "lcp_768_avg_kb": 53.5,
+   "atf_lazy_pages": 0,
+   "og": {
+    "1200x630-jpg": 1
+   },
+   "page_img_kb": 481.3,
+   "page_img_after_kb": 362.6,
+   "top_deductions": [
+    [
+     "-15 LCP is an Elementor CSS background: not preloaded, no fetchpriority, discovered after CSS, Motion Effects layer",
+     1
+    ],
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     1
+    ],
+    [
+     "-10 LCP # (>#",
+     1
+    ],
+    [
+     "target <=#)",
+     1
+    ],
+    [
+     "-3 fetchpriority=high on a non-LCP image",
+     1
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     1
+    ]
+   ]
+  },
+  "product_hub": {
+   "pages": 1,
+   "score": 78,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 1
+   },
+   "lcp_avg_kb": 151.1,
+   "lcp_max_kb": 151.1,
+   "lcp_after_avg_kb": 77.9,
+   "lcp_768_avg_kb": 24.1,
+   "atf_lazy_pages": 0,
+   "og": {
+    "landscape-webp": 1
+   },
+   "page_img_kb": 180.8,
+   "page_img_after_kb": 97.5,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     1
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     1
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     1
+    ],
+    [
+     "-6 LCP # (150-#",
+     1
+    ],
+    [
+     "target <=#)",
+     1
+    ],
+    [
+     "-4 # of page image bytes saveable",
+     1
+    ]
+   ]
+  },
+  "purchase": {
+   "pages": 1,
+   "score": 64,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 1
+   },
+   "lcp_avg_kb": 228.1,
+   "lcp_max_kb": 228.1,
+   "lcp_after_avg_kb": 118.9,
+   "lcp_768_avg_kb": 35.8,
+   "atf_lazy_pages": 1,
+   "og": {
+    "landscape-webp": 1
+   },
+   "page_img_kb": 270.2,
+   "page_img_after_kb": 140.5,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     1
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     1
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     1
+    ],
+    [
+     "-10 LCP # (>#",
+     1
+    ],
+    [
+     "target <=#)",
+     1
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     1
+    ]
+   ]
+  },
+  "refinance": {
+   "pages": 1,
+   "score": 74,
+   "score_after": 100,
+   "lcp_kinds": {
+    "img": 1
+   },
+   "lcp_avg_kb": 73.3,
+   "lcp_max_kb": 73.3,
+   "lcp_after_avg_kb": 43.1,
+   "lcp_768_avg_kb": 16.7,
+   "atf_lazy_pages": 1,
+   "og": {
+    "landscape-webp": 1
+   },
+   "page_img_kb": 115.4,
+   "page_img_after_kb": 64.7,
+   "top_deductions": [
+    [
+     "-6 LCP has no srcset/sizes: phones download the desktop file",
+     1
+    ],
+    [
+     "-3 LCP file # wide for a <=# slot",
+     1
+    ],
+    [
+     "-3 hero photo has empty alt (alt text owned by the alt-text agent)",
+     1
+    ],
+    [
+     "-5 #-the-fold image(s) lazy-loaded",
+     1
+    ],
+    [
+     "-2 small images >=2.4x their display size",
+     1
+    ],
+    [
+     "-3 JPEG/PNG photo on page",
+     1
+    ]
+   ]
+  }
+ },
+ "sitewide_score": 83.9,
+ "sitewide_score_after": 99.2,
+ "template_mean_score": 74.8,
+ "template_mean_score_after": 99.1,
+ "money_page_score": 72.3,
+ "money_page_score_after": 98.6,
+ "pages": 835,
+ "lazy_atf_by_type_image": {
+  "city|Samantha-202x300.jpg": 276,
+  "county_hub|Samantha-202x300.jpg": 12,
+  "purchase_sub|Samantha-202x300.jpg": 8,
+  "other|Samantha-202x300.jpg": 5,
+  "research|Samantha-202x300.jpg": 4,
+  "state_hub|Samantha-202x300.jpg": 3,
+  "refinance_sub|Samantha-202x300.jpg": 3,
+  "other|Samantha4-683x1024.jpg": 1,
+  "learn|Samantha-202x300.jpg": 1,
+  "purchase|Samantha-202x300.jpg": 1,
+  "refinance|Samantha-202x300.jpg": 1
+ },
+ "fetchpriority_misuse": [
+  [
+   "https://alignlending.com/",
+   [
+    "align-plan-porch.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/buying-strategies/",
+   [
+    "how-to-create-competitive-offer.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/conventional-loans/",
+   [
+    "what-is-conventional-97-loan.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/credit-and-qualifying/",
+   [
+    "debt-to-income-ratio-dti.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/fha-loans/",
+   [
+    "benefits-of-fha-203-k-loans.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/financing-investments/",
+   [
+    "non-qm-loans-for-self-employed-borrowers.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/first-time-home-buyers/",
+   [
+    "first-time-home-buyer-grants-and-programs.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/fixed-vs-arm/",
+   [
+    "adjustable-rate-mortgages-pros-and-cons.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-buying-process/",
+   [
+    "home-appraisal-process.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-buying/",
+   [
+    "home-appraisal-process.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-equity/",
+   [
+    "financing-home-renovations-options-and-tips.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-improvement/",
+   [
+    "energy-efficient-home-upgrades.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-types-and-living/",
+   [
+    "condo-vs-co-op-similarities-and-differences.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/home-maintenance/",
+   [
+    "seasonal-home-maintenance-checklist.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/housing-market-trends/",
+   [
+    "urban-vs-suburban-housing-markets.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/how-mortgages-work/",
+   [
+    "benefits-of-working-with-mortgage-broker.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/how-rates-work/",
+   [
+    "annual-percentage-rate-apr.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/homeownership/",
+   [
+    "energy-efficient-home-upgrades.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/industry-updates-and-rules/",
+   [
+    "zoning-regulations.webp"
+   ]
+  ],
+  [
+   "https://alignlending.com/learn/insurance-and-protection/",
+   [
+    "evaluating-home-insurance-options.webp"
+   ]
+  ]
+ ],
+ "format_mix": {
+  "WEBP": 1239,
+  "JPEG": 4,
+  "PNG": 1
+ },
+ "bytes_total_mb": 140.97,
+ "by_category": {
+  "hero-city": {
+   "n": 276,
+   "mb": 47.52,
+   "avg_kb": 172.2,
+   "median_kb": 169.8,
+   "max_kb": 292.4,
+   "after_mb": 26.59,
+   "replaced": 276,
+   "over_120kb": 238,
+   "over_200kb": 71,
+   "px": {
+    "1920x1085": 150,
+    "1920x1086": 126
+   }
+  },
+  "hero-learn": {
+   "n": 469,
+   "mb": 69.8,
+   "avg_kb": 148.8,
+   "median_kb": 147.0,
+   "max_kb": 283.9,
+   "after_mb": 57.69,
+   "replaced": 307,
+   "over_120kb": 456,
+   "over_200kb": 24,
+   "px": {
+    "1920x1080": 306,
+    "1600x900": 134,
+    "1280x720": 15,
+    "1440x810": 13
+   }
+  },
+  "hero-page": {
+   "n": 64,
+   "mb": 7.58,
+   "avg_kb": 118.5,
+   "median_kb": 116.9,
+   "max_kb": 258.9,
+   "after_mb": 4.49,
+   "replaced": 63,
+   "over_120kb": 30,
+   "over_200kb": 5,
+   "px": {
+    "1920x1086": 51,
+    "1920x1074": 9,
+    "1920x1085": 3,
+    "1600x900": 1
+   }
+  },
+  "headshot": {
+   "n": 6,
+   "mb": 0.3,
+   "avg_kb": 49.7,
+   "median_kb": 62.7,
+   "max_kb": 82.3,
+   "after_mb": 0.13,
+   "replaced": 5,
+   "over_120kb": 0,
+   "over_200kb": 0,
+   "px": {
+    "768x1139": 1,
+    "683x1024": 1,
+    "691x1024": 1,
+    "600x600": 1
+   }
+  },
+  "learn-card": {
+   "n": 421,
+   "mb": 15.58,
+   "avg_kb": 37.0,
+   "median_kb": 37.5,
+   "max_kb": 60.2,
+   "after_mb": 15.04,
+   "replaced": 89,
+   "over_120kb": 0,
+   "over_200kb": 0,
+   "px": {
+    "640x360": 421
+   }
+  },
+  "content": {
+   "n": 6,
+   "mb": 0.16,
+   "avg_kb": 26.9,
+   "median_kb": 31.5,
+   "max_kb": 47.1,
+   "after_mb": 0.1,
+   "replaced": 4,
+   "over_120kb": 0,
+   "over_200kb": 0,
+   "px": {
+    "320x476": 4,
+    "160x207": 2
+   }
+  },
+  "logo": {
+   "n": 2,
+   "mb": 0.02,
+   "avg_kb": 12.3,
+   "median_kb": 12.3,
+   "max_kb": 14.3,
+   "after_mb": 0.02,
+   "replaced": 1,
+   "over_120kb": 0,
+   "over_200kb": 0,
+   "px": {
+    "400x185": 1,
+    "100x96": 1
+   }
+  },
+  "hero-home": {
+   "n": 1,
+   "mb": 0.22,
+   "avg_kb": 218.2,
+   "median_kb": 218.2,
+   "max_kb": 218.2,
+   "after_mb": 0.22,
+   "replaced": 0,
+   "over_120kb": 1,
+   "over_200kb": 1,
+   "px": {
+    "1536x1024": 1
+   }
+  }
+ },
+ "bytes_quantiles_kb": {
+  "p10": 33.0,
+  "p25": 42.4,
+  "p50": 134.0,
+  "p75": 151.5,
+  "p90": 188.6,
+  "p99": 257.1
+ },
+ "bytes_buckets": {
+  "<25KB": 34,
+  "25-50KB": 389,
+  "50-100KB": 45,
+  "100-150KB": 409,
+  "150-200KB": 267,
+  ">=200KB": 100
+ },
+ "lazy_atf_total": 315,
+ "no_dims_total": 0,
+ "empty_alt_occurrences": 3325,
+ "card_pages_by_type": {
+  "learn": 465,
+  "calculator": 2
+ }
+}
