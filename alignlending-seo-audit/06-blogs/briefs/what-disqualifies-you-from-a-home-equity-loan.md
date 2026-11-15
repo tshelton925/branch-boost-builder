@@ -80,7 +80,7 @@ Answer must say: usually for a period; lenders set waiting periods after a bankr
 ### H2 What can you fix before you apply, and how fast?
 Answer must say: pay down revolving balances to lower DTI, correct credit report errors, document income, clear tax delinquencies and title issues, and get a realistic value before applying; most of this shows up in a first conversation, before any credit pull.
 - Table: Problem · What to do · Typical time to show up (use "next statement cycle", "after the correction posts"; no invented durations, `[VERIFY]` any day count).
-- Quote (quote bank, matching topic): "Why. That's my first question." with the long form "What are we using the money for?" (Samantha Shelton).
+- `[NEEDS SAMANTHA QUOTE: the first thing she checks when a homeowner wants a HELOC, and what she tells someone who was just denied]` (do not reuse the stock "Why. That's my first question." line, which already appears on many pages).
 
 ### H2 If you are turned down, what are your options?
 Answer must say: ask for the adverse action notice, which must state the reasons (ECOA/Reg B); then compare a smaller line, a cash-out refinance, waiting and rebuilding, or a personal loan for small amounts.
@@ -171,4 +171,4 @@ Article + FAQPage + BreadcrumbList (Home › Learn › Home equity › What disq
 - The CLTV example and any line-size figure carry the F12 label and `[COMPLIANCE REVIEW]`; no apply CTA nearby.
 - Do not say how Align is paid (D5 pending); if needed use "How Align Lending is paid on your loan, and how much, appears on your Loan Estimate and Closing Disclosure."
 - Credit language: avoid "bad credit OK" and approval promises; use "Loan approval is subject to underwriting, credit, income, asset, appraisal and property eligibility review."
-- Quote use limited to the bank quote named above.
+- No stock quote-bank quotes; only the `[NEEDS SAMANTHA QUOTE]` placeholder named above.
