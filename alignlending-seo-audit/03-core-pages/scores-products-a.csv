@@ -1,0 +1,131 @@
+url,aspect,score,grade,rationale
+https://alignlending.com/product-loans/,Intent & H1,85,B,"H1 ""Michigan Mortgage Loan Programs"" matches the hub intent and is unique sitewide; no supporting entity (broker, Waterford) in the H1 area."
+https://alignlending.com/product-loans/,Heading structure,78,C,"Clean H2 categories with 21 card H3s, but the stale ""Borrow above $832,750"" H3, three decorative process-step H3s and generic ""Start with your question""/""Learn"" H2s."
+https://alignlending.com/product-loans/,Above-the-fold answer,66,D,"53 words that say only ""Start with what you are trying to do""; nothing on which programs exist, who Align is, or why a broker (above_fold_text)."
+https://alignlending.com/product-loans/,CTA effectiveness,80,B,"Right primary for undecided intent (Talk through your options → Calendly) plus /start/; 21 identical ""About X"" card links are weak anchors."
+https://alignlending.com/product-loans/,Title & meta,84,B,"Title 47 chars with keyword first; meta 155 chars, but no proof point or friction-reducer."
+https://alignlending.com/product-loans/,Internal linking,82,B,"Links every product page (45 content links out, 382 contextual inlinks) but omits /loan-limits/, /usda-eligibility-check/, /va-funding-fee-calculator/ and /pmi-removal-calculator/."
+https://alignlending.com/product-loans/,E-E-A-T & trust,68,D,"Reviews and NMLS footer present, but no reviewer/byline, no visible updated date and NMLS missing from the ATF trust strip (byline=None, visible_updated=None)."
+https://alignlending.com/product-loans/,AI-search readiness,60,D,"No FAQ, no FAQPage schema (faq_q=0) and no direct answer to ""which loan is right for me""; ItemList schema is a plus."
+https://alignlending.com/product-loans/,Accuracy & compliance,84,B,"$832,750 is correct for 2026, but ""narrow fifteen options"" contradicts the 21 cards on the page."
+https://alignlending.com/product-loans/,Overall,76,C,Mean of 9 aspects; weakest: AI-search readiness (60) and Above-the-fold answer (66).
+https://alignlending.com/product-loans/fha-loans/,Intent & H1,88,B,"H1 ""FHA Loans in Michigan"" matches ""michigan fha loans"" (pos 12.2) and is unique; title says ""Broker"" instead of the query term."
+https://alignlending.com/product-loans/fha-loans/,Heading structure,72,C,"One strong comparison H2 and good FAQ H3s, but generic ""Key benefits""/""Guidelines for this loan"" H2s, five label H3s (Credit Score, DTI Ratio…) and decorative process H3s."
+https://alignlending.com/product-loans/fha-loans/,Above-the-fold answer,68,D,"68 words that define FHA but give no requirement (no 580, no down payment, no limit) and defer to ""the table below""."
+https://alignlending.com/product-loans/fha-loans/,CTA effectiveness,78,C,Clear Start my application / Talk with Samantha pair and a mid-table CTA; no matching tool CTA (limits or calculator) for the many researchers at pos 20-40.
+https://alignlending.com/product-loans/fha-loans/,Title & meta,72,C,"Title 40 chars leads with ""Broker"" not ""FHA loans"" and wastes 20 chars; meta 149 chars is clear but has no number or proof."
+https://alignlending.com/product-loans/fha-loans/,Internal linking,74,C,"Links /learn/fha-loans/, /loan-limits/, /pmi-removal-calculator/ but not /learn/fha-loan-limits/ or /mortgage-calculator/; five ""Read the guide"" card-wrap anchors."
+https://alignlending.com/product-loans/fha-loans/,E-E-A-T & trust,72,C,"HUD source links and an FHA-specific review, but no reviewer, byline or visible updated date."
+https://alignlending.com/product-loans/fha-loans/,AI-search readiness,70,C,"7 FAQs with FAQPage schema, but the quotable numbers searchers ask for (3.5%, 1.75%, 10%, waiting periods) are missing."
+https://alignlending.com/product-loans/fha-loans/,Accuracy & compliance,84,B,"$541,287 and the MIP duration rule are correct; the conventional ""Usually 620"" row is outdated after Fannie Mae's Nov 2025 change; 57% DTI is stated as a rule."
+https://alignlending.com/product-loans/fha-loans/,Overall,75,C,Mean of 9 aspects; weakest: Above-the-fold answer (68) and AI-search readiness (70).
+https://alignlending.com/product-loans/va-loans/,Intent & H1,88,B,"""VA Loans in Michigan"" matches the head term; unique sitewide."
+https://alignlending.com/product-loans/va-loans/,Heading structure,72,C,"Good VA vs FHA and calculator H2s; ""Request Your COE Early"" is an action filed under Key benefits, label H3s (COE, Credit Score) and template H2s."
+https://alignlending.com/product-loans/va-loans/,Above-the-fold answer,72,C,"Names who qualifies and Align's COE/entitlement check, but omits the three facts searchers want: no down payment, no monthly MI, no limit with full entitlement."
+https://alignlending.com/product-loans/va-loans/,CTA effectiveness,80,B,Clear primary/secondary plus an embedded calculator with its own CTAs; the VA COE CTA sends users off-site mid-page.
+https://alignlending.com/product-loans/va-loans/,Title & meta,68,D,"Title 39 chars leads with ""Broker""; meta 135 chars is below the 140 floor."
+https://alignlending.com/product-loans/va-loans/,Internal linking,76,C,"Links /learn/va-loans/, the funding fee calculator and VA Homebuyer Plan; misses /va-loan-calculator/, /loan-limits/ and IRRRL; four ""Read the guide"" anchors."
+https://alignlending.com/product-loans/va-loans/,E-E-A-T & trust,72,C,"VA.gov and michigan.gov sources, but no reviewer or updated date; one michigan.gov link likely outdated."
+https://alignlending.com/product-loans/va-loans/,AI-search readiness,66,D,"Strong Michigan DVE detail, but the down payment FAQ answers with a euphemism and no funding fee figures appear anywhere."
+https://alignlending.com/product-loans/va-loans/,Accuracy & compliance,84,B,"Exemptions, entitlement and MCL 211.7b are correct; DVE qualifying criteria missing; calculator rate list is labeled illustrative."
+https://alignlending.com/product-loans/va-loans/,Overall,75,C,Mean of 9 aspects; weakest: AI-search readiness (66) and Title & meta (68).
+https://alignlending.com/product-loans/usda-loans/,Intent & H1,84,B,"""USDA Loans in Michigan"" is accurate but misses the ""Rural Development"" entity in the 335-impression query."
+https://alignlending.com/product-loans/usda-loans/,Heading structure,72,C,"Good USDA vs FHA H2; template ""Key benefits""/""Guidelines"" H2s with label H3s (Location, Income) and decorative process H3s."
+https://alignlending.com/product-loans/usda-loans/,Above-the-fold answer,64,D,"74 words with ""down payment options for eligible addresses"" instead of ""no down payment"", and no income limit or fee figures."
+https://alignlending.com/product-loans/usda-loans/,CTA effectiveness,68,D,Mid-page CTA sends users to the external USDA map while the site has its own Michigan eligibility tool; no tool CTA above the fold.
+https://alignlending.com/product-loans/usda-loans/,Title & meta,66,D,"Title 41 chars leads with ""Broker""; meta 130 chars is below the 140 floor."
+https://alignlending.com/product-loans/usda-loans/,Internal linking,62,D,"Only 92 contextual inlinks; does not link /learn/usda-loan-basics/ (the URL Google ranks for ""usda eligibility""); tool only in the footer-style block."
+https://alignlending.com/product-loans/usda-loans/,E-E-A-T & trust,68,D,"USDA sources present; reviews block renders no reviews (""Read client reviews"" only); no reviewer or date."
+https://alignlending.com/product-loans/usda-loans/,AI-search readiness,60,D,"Good FAQ set but no quotable numbers (fees, $122,800, 115%) above the FAQ; misses PAA ""what disqualifies"" and ""USDA vs FHA""."
+https://alignlending.com/product-loans/usda-loans/,Accuracy & compliance,88,B,"Every stated claim checks out; the gaps are omissions, not errors."
+https://alignlending.com/product-loans/usda-loans/,Overall,70,C,Mean of 9 aspects; weakest: AI-search readiness (60) and Internal linking (62).
+https://alignlending.com/product-loans/conventional-loans/,Intent & H1,86,B,"""Conventional Loans in Michigan"" matches ""michigan conventional loans"" (pos 14.3) and is unique."
+https://alignlending.com/product-loans/conventional-loans/,Heading structure,74,C,"Strong ""When conventional is the right call"" H2, but template H2s, five label H3s and the PMI question buried as an H3."
+https://alignlending.com/product-loans/conventional-loans/,Above-the-fold answer,60,D,"52 words: a definition and ""steady credit and income"" with no requirement, number or Align angle."
+https://alignlending.com/product-loans/conventional-loans/,CTA effectiveness,76,C,"Standard pair plus ""Talk through which loan fits me""; no PMI calculator CTA despite a PMI FAQ."
+https://alignlending.com/product-loans/conventional-loans/,Title & meta,82,B,Title 51 chars keyword-first; meta 143 chars but no proof point.
+https://alignlending.com/product-loans/conventional-loans/,Internal linking,74,C,"417 contextual inlinks and good sibling links, but no link to /pmi-removal-calculator/ or the Conventional 97 article."
+https://alignlending.com/product-loans/conventional-loans/,E-E-A-T & trust,72,C,CFPB and FHFA sources; no reviewer or updated date.
+https://alignlending.com/product-loans/conventional-loans/,AI-search readiness,64,D,"6 FAQs with schema, but answers hedge (""restrictions may apply"") and give no numbers."
+https://alignlending.com/product-loans/conventional-loans/,Accuracy & compliance,80,B,"$832,750 and PMI rules are right; ""Credit below 620: usually declined"" is outdated after Fannie Mae's Nov 2025 change."
+https://alignlending.com/product-loans/conventional-loans/,Overall,74,C,Mean of 9 aspects; weakest: Above-the-fold answer (60) and AI-search readiness (64).
+https://alignlending.com/product-loans/jumbo-loans/,Intent & H1,86,B,"""Jumbo Loans in Michigan"" fits the head term; the page ranks ~pos 44 for it, so the gap is depth and links, not the H1."
+https://alignlending.com/product-loans/jumbo-loans/,Heading structure,72,C,"Good jumbo vs conforming H2; ""Key benefits"" holds rules not benefits; a dollar figure in an FAQ heading; template H2s."
+https://alignlending.com/product-loans/jumbo-loans/,Above-the-fold answer,76,C,"Direct definition with the $832,750 figure and the loan-not-price point, but 83 words and no requirements or Align angle."
+https://alignlending.com/product-loans/jumbo-loans/,CTA effectiveness,76,C,"Standard pair plus ""Talk through a loan above the limit""; no loan-limit tool CTA above the fold."
+https://alignlending.com/product-loans/jumbo-loans/,Title & meta,72,C,"Title leads with ""Broker""; meta 137 chars, below the 140 floor."
+https://alignlending.com/product-loans/jumbo-loans/,Internal linking,70,C,"92 contextual inlinks; no links from Ann Arbor city page despite 119 Ann Arbor jumbo impressions; four ""Read the guide"" anchors."
+https://alignlending.com/product-loans/jumbo-loans/,E-E-A-T & trust,66,D,Only FHFA cited; no reviewer or date; no source for lender norms.
+https://alignlending.com/product-loans/jumbo-loans/,AI-search readiness,70,C,Clear FAQ answers but no requirement ranges and no 2027 timing answer.
+https://alignlending.com/product-loans/jumbo-loans/,Accuracy & compliance,86,B,2026 limit correct; needs a planned 2027 update across five places on the page.
+https://alignlending.com/product-loans/jumbo-loans/,Overall,75,C,Mean of 9 aspects; weakest: E-E-A-T & trust (66) and Internal linking (70).
+https://alignlending.com/product-loans/home-ready/,Intent & H1,84,B,H1 names both programs and Michigan; unique.
+https://alignlending.com/product-loans/home-ready/,Heading structure,72,C,Template H2s with label H3s; good comparison table H2.
+https://alignlending.com/product-loans/home-ready/,Above-the-fold answer,76,C,"Answers who (≤80% AMI) and what (low down, reduced MI) but no 3% figure, no lookup link and no Align angle."
+https://alignlending.com/product-loans/home-ready/,CTA effectiveness,76,C,"Good mid-page ""Check the income limit for my address""; calculator CTA ""Get pre-approved"" breaks the CTA vocabulary."
+https://alignlending.com/product-loans/home-ready/,Title & meta,80,B,"Title 51 chars but brand replaced by ""Michigan Broker""; meta 153 chars."
+https://alignlending.com/product-loans/home-ready/,Internal linking,66,D,"Does not link /learn/homeready-mortgages/ (the URL at pos 6.5) or the Home Possible guide; four ""Read the guide"" anchors."
+https://alignlending.com/product-loans/home-ready/,E-E-A-T & trust,72,C,Fannie and Freddie sources; no reviewer or date.
+https://alignlending.com/product-loans/home-ready/,AI-search readiness,64,D,"Only 4 FAQs; no answer for income limit lookup, education or HomeReady vs FHA."
+https://alignlending.com/product-loans/home-ready/,Accuracy & compliance,90,A,All program claims verified against the HomeReady matrix and Home Possible page.
+https://alignlending.com/product-loans/home-ready/,Overall,76,C,Mean of 9 aspects; weakest: AI-search readiness (64) and Internal linking (66).
+https://alignlending.com/product-loans/30-year-fixed/,Intent & H1,78,C,"H1 matches the product, but most query demand is rate intent the page cannot serve."
+https://alignlending.com/product-loans/30-year-fixed/,Heading structure,74,C,Good comparison H2 and FAQ; template H2s and label H3s.
+https://alignlending.com/product-loans/30-year-fixed/,Above-the-fold answer,76,C,Explains what and who in 76 words; no program availability or Align angle.
+https://alignlending.com/product-loans/30-year-fixed/,CTA effectiveness,80,B,"Mid-page ""Compare both terms in the calculator"" fits the decision; standard pair above the fold."
+https://alignlending.com/product-loans/30-year-fixed/,Title & meta,64,D,"Title fine (50); meta 103 chars, far under 140."
+https://alignlending.com/product-loans/30-year-fixed/,Internal linking,62,D,Only 27 contextual inlinks; does not link the 15 vs 30 comparison article (pos 6.1) or the payoff calculator.
+https://alignlending.com/product-loans/30-year-fixed/,E-E-A-T & trust,70,C,CFPB links; no reviewer or date.
+https://alignlending.com/product-loans/30-year-fixed/,AI-search readiness,70,C,5 FAQs; misses the repeated PAA on paying extra and a no-rate answer for rate queries.
+https://alignlending.com/product-loans/30-year-fixed/,Accuracy & compliance,76,C,"Facts correct; ""30-year"" is a Reg Z repayment-period trigger term per CFPB commentary, which needs a compliance decision for the product name."
+https://alignlending.com/product-loans/30-year-fixed/,Overall,72,C,Mean of 9 aspects; weakest: Internal linking (62) and Title & meta (64).
+https://alignlending.com/product-loans/15-year-fixed/,Intent & H1,80,B,"H1 matches ""15 year fixed mortgage"" (pos 20.7) with Michigan."
+https://alignlending.com/product-loans/15-year-fixed/,Heading structure,72,C,"Good savings H2; ""Usually a Lower Rate"" rate headline; template H2s."
+https://alignlending.com/product-loans/15-year-fixed/,Above-the-fold answer,76,C,Clear who/tradeoff test; no availability or Align angle.
+https://alignlending.com/product-loans/15-year-fixed/,CTA effectiveness,78,C,Mid-page calculator CTA fits; standard pair above the fold.
+https://alignlending.com/product-loans/15-year-fixed/,Title & meta,80,B,Title 50 and meta 149 are sound.
+https://alignlending.com/product-loans/15-year-fixed/,Internal linking,58,F,Only 13 contextual inlinks (second-lowest in scope); no link to the comparison article that ranks at pos 6.1.
+https://alignlending.com/product-loans/15-year-fixed/,E-E-A-T & trust,70,C,CFPB links; no reviewer or date.
+https://alignlending.com/product-loans/15-year-fixed/,AI-search readiness,70,C,6 FAQs with schema; no rate-intent answer.
+https://alignlending.com/product-loans/15-year-fixed/,Accuracy & compliance,74,C,"Math and availability correct; rate-claim headline and ""15-year"" trigger term need review."
+https://alignlending.com/product-loans/15-year-fixed/,Overall,73,C,Mean of 9 aspects; weakest: Internal linking (58) and E-E-A-T & trust (70).
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Intent & H1,84,B,H1 includes the acronym and Michigan.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Heading structure,76,C,Strong FAQ on caps and the AIR table; template H2s; caps answer buried as the last FAQ.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Above-the-fold answer,76,C,Good framing question; no fixed-period options or cap concept in the first 60 words.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,CTA effectiveness,76,C,"Mid-page ""Talk through how long you will stay"" fits; no calculator CTA."
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Title & meta,74,C,"Title 53; meta 135 chars, under 140."
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Internal linking,62,D,15 contextual inlinks; links fixed-vs-arm and pros-and-cons but not the resets or tips articles.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,E-E-A-T & trust,70,C,One CFPB source; no reviewer or date.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,AI-search readiness,76,C,Caps and AIR answers are quotable and specific.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Accuracy & compliance,88,B,All mechanics correct; could add SOFR/6-month schedule.
+https://alignlending.com/product-loans/adjustable-rate-mortgage/,Overall,76,C,Mean of 9 aspects; weakest: Internal linking (62) and E-E-A-T & trust (70).
+https://alignlending.com/product-loans/buydown-loans/,Intent & H1,82,B,"H1 matches the product; ""2-1"" (the term people search) is absent from H1 and title."
+https://alignlending.com/product-loans/buydown-loans/,Heading structure,72,C,"Good comparison H2; calculator H3 ""The loan"" is meaningless; template H2s."
+https://alignlending.com/product-loans/buydown-loans/,Above-the-fold answer,80,B,"Clear in 69 words: what, how long, who funds it, note rate unchanged."
+https://alignlending.com/product-loans/buydown-loans/,CTA effectiveness,80,B,"""Ask Samantha about a seller-paid buydown"" is specific; calculator embedded."
+https://alignlending.com/product-loans/buydown-loans/,Title & meta,82,B,Title 48 with calculator hook but no brand; meta 144 good.
+https://alignlending.com/product-loans/buydown-loans/,Internal linking,70,C,24 contextual inlinks; no link to the points calculator or seller concessions article.
+https://alignlending.com/product-loans/buydown-loans/,E-E-A-T & trust,66,D,Only a CFPB points link; no Fannie/FHA source for buydown rules; no reviewer or date.
+https://alignlending.com/product-loans/buydown-loans/,AI-search readiness,74,C,Plain 2-1 explanation in FAQ; agency limits missing.
+https://alignlending.com/product-loans/buydown-loans/,Accuracy & compliance,84,B,Core rules correct; eligible-loan list incomplete; rate dropdown is an input list with disclaimer.
+https://alignlending.com/product-loans/buydown-loans/,Overall,77,C,Mean of 9 aspects; weakest: E-E-A-T & trust (66) and Internal linking (70).
+https://alignlending.com/product-loans/physician-loans/,Intent & H1,86,B,"""Physician Loans in Michigan"" matches ""michigan physician loan""."
+https://alignlending.com/product-loans/physician-loans/,Heading structure,80,B,"Newer template with question-ready H2s; the long ""How it works"" uses bold lead-ins instead of H3s."
+https://alignlending.com/product-loans/physician-loans/,Above-the-fold answer,80,B,"Strong story plus a ""short answer"" block; program features arrive just below the fold."
+https://alignlending.com/product-loans/physician-loans/,CTA effectiveness,76,C,Standard pair; Loan Estimate comparison tool would fit the decision.
+https://alignlending.com/product-loans/physician-loans/,Title & meta,82,B,"Title 52, meta 146, both clear."
+https://alignlending.com/product-loans/physician-loans/,Internal linking,40,F,Only 2 contextual inlinks and 4 total (page_summary all_inlinks=4); the matching learn article does not link to it.
+https://alignlending.com/product-loans/physician-loans/,E-E-A-T & trust,74,C,Dated Fannie Mae and CFPB citations; first-person Samantha quote needs sign-off; no reviewer or date.
+https://alignlending.com/product-loans/physician-loans/,AI-search readiness,82,B,"Short-answer block, specific agency rules and lender-question list are highly quotable."
+https://alignlending.com/product-loans/physician-loans/,Accuracy & compliance,82,B,Agency rules correct; unsourced first-person quote is a brand-rule risk.
+https://alignlending.com/product-loans/physician-loans/,Overall,76,C,Mean of 9 aspects; weakest: Internal linking (40) and E-E-A-T & trust (74).
+https://alignlending.com/product-loans/manufactured-home-loans/,Intent & H1,86,B,"H1 matches ""michigan manufactured home loans""."
+https://alignlending.com/product-loans/manufactured-home-loans/,Heading structure,56,F,"Four intended H3s render as literal ""### Step 1/2/3/In Michigan"" text, leaving a ~1,200-word H2 with no subheadings."
+https://alignlending.com/product-loans/manufactured-home-loans/,Above-the-fold answer,80,B,Frames the two deciding questions plus a short-answer block.
+https://alignlending.com/product-loans/manufactured-home-loans/,CTA effectiveness,76,C,Standard pair; no on-page checklist anchor.
+https://alignlending.com/product-loans/manufactured-home-loans/,Title & meta,82,B,"Title 51, meta 142."
+https://alignlending.com/product-loans/manufactured-home-loans/,Internal linking,76,C,100 contextual inlinks; misses the refinance article both ways.
+https://alignlending.com/product-loans/manufactured-home-loans/,E-E-A-T & trust,78,C,18 primary-source citations with dates; quote needs sign-off; reviews name other loan officers.
+https://alignlending.com/product-loans/manufactured-home-loans/,AI-search readiness,84,B,"Specific, sourced, Michigan-statute answers."
+https://alignlending.com/product-loans/manufactured-home-loans/,Accuracy & compliance,90,A,Agency and Michigan rules check out.
+https://alignlending.com/product-loans/manufactured-home-loans/,Overall,79,C,Mean of 9 aspects; weakest: Heading structure (56) and CTA effectiveness (76).

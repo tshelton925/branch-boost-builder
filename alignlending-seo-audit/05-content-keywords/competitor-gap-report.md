@@ -58,7 +58,7 @@ Also **refresh 14 existing pages** with the exact titles, H1s and H2s in section
 |---|---|---|---|
 | Competitive keyword coverage | 35 | F | All gap calls returned 0–1 shared keywords from each competitor's top 300; Align averages position 59.3 across 459 keywords (DataWise competitors). |
 | Michigan high-intent demand capture | 30 | F | No ranking for "michigan first time home buyer programs" (3,600/mo) or any MSHDA term (0 GSC queries); the property tax calculator ranks 48.8 for a 9,900/mo term (GSC). |
-| Question (PAA) coverage | 62 | D | 469 of 471 `/learn/` pages carry FAQ schema and question H2s, but 72 of 221 PAA questions (33%) have no matching page and map to NEW posts. |
+| Question (PAA) coverage | 62 | D | 469 of 471 `/learn/` pages carry FAQ schema and question H2s, but 65 of 221 PAA questions (29%) have no matching page and map to NEW posts. |
 | AI-search citation share | 45 | F | Cited on 4 of 12 tracked prompts (ChatGPT 2, Perplexity 2, Gemini 1, Google AI Mode 0); Google AI mentions are 19 against riverbankfinance.com's 785 (see `ai-visibility.md`). |
 | Original data leverage | 55 | F | The Uncapping Study covers 83 counties and 1,534 places under CC BY 4.0, yet it drew 0 citations on 2 uncapping prompts. All 4 research pages have `faq_q = 0` and no Dataset schema. |
 | Title/H1 alignment on gap-relevant pages | 60 | D | The `/purchase/first-time-homebuyer/` H1 "You are not supposed to understand this yet" carries no keyword, and `/learn/conventional-loans/` ranks 70.5–97.8 for core terms (GSC). |
@@ -119,7 +119,7 @@ Cluster totals add up the listed keywords. Google groups close variants into one
 | Seniors and age | 5 | 620 + PAA in 9 of 15 seeds | 0–23 | Informational/commercial | themortgagereports.com #2 | NEW |
 | HUD homes, VA underwriting | 5 | 980 | 1–20 | Informational/commercial | gustancho.com #5–6 | 2 NEW |
 | Refinance requirements, debt consolidation | 8 | 990 | 0–33 | Transactional/informational | rossmortgage.com #8–70 | Refresh appraisal page + NEW debt-consolidation post |
-| All other clusters (construction, renovation, ARM/float, local Troy, PMI, jumbo, non-QM, calculators) | 38 | about 3,600 | 0–41 | Mixed | Mixed | Refresh only (see CSV) |
+| All other clusters (first-time buyer basics, investment property, land contracts, borrowing against a paid-off home, adding a borrower, construction, renovation, ARM/float, local Troy, PMI, jumbo, non-QM, calculators) | 47 | 7,560 | 0–41 | Mixed | Mixed | Mostly refresh; NEW N17 and N19 (see CSV) |
 
 ---
 
@@ -145,7 +145,7 @@ All titles are 60 characters or fewer. Each answer block goes directly under the
 | R6 | /product-loans/non-warrantable-condo-loans/ | Above-fold answer (new) | none | "A non-warrantable condo is a unit in a project that does not meet Fannie Mae or Freddie Mac project standards, for example because of a single owner holding too many units, pending litigation, low owner occupancy or commercial space above the limit. Most banks will not lend on these units. A portfolio or non-QM condo loan can. [VERIFY: Fannie Mae Selling Guide B4-2.1]" | 1,600/mo at KD 0 with 0 GSC impressions today | P0 |
 | R7 | /learn/benefits-of-working-with-mortgage-broker/ | New H2 plus answer | none | H2 "Are credit unions better than banks for a mortgage?" Answer: "Not automatically. A credit union offers only its own loan programs, and so does a bank. Either can be a good fit if its pricing and guidelines match your file. A broker compares several wholesale lenders on one application, which helps most when your file is unusual or you want to see more than one offer." | "are credit unions better than banks" (1,900/mo, KD 15); Perplexity already cites this page | P1 |
 | R8 | /learn/buying-second-home/ | New H2s | none | "What are the requirements for a second home loan?" · "Can you have two primary residences in Michigan?" | 590/mo (KD 0) + 140/mo (KD 0); GSC shows this page at 90.8 for "buying a second home" | P1 |
-| R9 | /learn/what-is-home-equity-sharing-agreement/ | Title | (current home equity sharing title) | HELOC vs Home Equity Agreement (HEA): How They Compare | "heloc vs hea" 880/mo (KD 0); TMR #3 | P1 |
+| R9 | /learn/what-is-home-equity-sharing-agreement/ | Title | Home Equity Sharing: How It Works And What It Costs | HELOC vs Home Equity Agreement (HEA): How They Compare | "heloc vs hea" 880/mo (KD 0); TMR #3 | P1 |
 | R10 | /learn/refinance-appraisal-requirements/ | New H2 | none | "Can you refinance without an appraisal?" | 260 + 210 + 170/mo (KD 0); Align already ranks 12 for "is an appraisal required for a refinance" (DFS) | P1 |
 | R11 | /learn/first-time-home-buyers/ | Answer block under the existing H2 "What counts as a first-time home buyer?" | (long-form) | "For most programs, you are a first-time home buyer if you have not owned a principal residence in the past three years. A single parent who only owned with a former spouse, or someone who only owned a home not fixed to a foundation, may also qualify. MSHDA, FHA and Fannie Mae each apply their own version, so check the program's definition. [VERIFY: HUD and Fannie Mae definitions]" | "what qualifies as a first time home buyer" (390 + 170/mo, KD 31) | P1 |
 | R12 | /learn/debt-to-income-ratio-dti/ | New H2 | none | "Can you get a mortgage with a high debt-to-income ratio?" | 320/mo (KD 31; TMR #2) | P1 |
