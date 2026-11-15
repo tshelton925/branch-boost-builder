@@ -73,7 +73,7 @@ Hub pages themselves (not scored above, findings in §3.15): all 12 county-hub m
 
 ### 2c. The 20 cities with the most GSC impressions
 
-GSC in DataWise has no page dimension, so impressions are attributed by matching a page's city name in the query. 197 local queries match 43 city pages for 4,227 impressions. **Every one of these city queries shows 0 clicks**, and average positions run 6–54, so ranking is the larger lever. Titles and metas only convert once a page reaches page one.
+GSC in DataWise has no page dimension, so impressions are attributed by matching a page's city name in the query. 197 local queries match 43 city pages for 4,227 impressions. **All 197 matched queries show 0 clicks**, and average positions run 6–54, so ranking is the larger lever. Titles and metas only convert once a page reaches page one.
 
 | City | City-query impr. | Avg pos | Acc | Intent | T&M | Link | Uniq | Main consistency issue |
 |---|---|---|---|---|---|---|---|---|
@@ -149,14 +149,14 @@ Fix: list every county in the eyebrow ("Ottawa and Allegan counties, Michigan"),
 
 - **Blair Township** (Grand Traverse; `datePublished` 2026-11-14) is the only city page no county hub links to. `/additional-cities/` names it twice in text ("Blair Township to the south", "$275,000 in Blair Township") but links neither mention and gives it no card. It has 6 content inlinks.
 - Every other city is linked from exactly the right hub: 12 hubs × their cities match the eyebrow counties exactly (Oakland 54 incl. Northville, Wayne 43 incl. Northville, Macomb 21, Genesee 20, Washtenaw 18, Kent 17, Livingston 12, Ottawa 12, Monroe 11, St. Clair 11, Lapeer 9, Lenawee 9). `/mortgage-michigan/` links all 276.
-- Every city links back to a hub ("{County} County overview").
+- Every city links back to a hub (anchor "{County} County overview" or "Additional Michigan Cities").
 - **40 pages in 16 counties have no county hub** and hang off `/additional-cities/`, a 7,230-word page with 84 cards and 46 inlinks. Four counties have enough pages to justify a hub: **Kalamazoo (7), Grand Traverse (6), Ingham (4, plus Clinton 2 and Eaton 1 around Lansing), Muskegon (4)**. GSC already shows Kalamazoo (53) and Lansing (105) query impressions.
 
 ### 3.5 P1: Same-name places are not told apart
 
 - `/mortgage-lender-gaines-mi/` (Genesee) actually covers **Gaines Township in Genesee County** plus the village ("township homes split between ZIP codes 48436 and 48473… a village home pays its own mills"). Meanwhile `/mortgage-lender-gaines-township-mi/` is **Gaines Township in Kent County**. Neither page mentions or links the other. The Genesee hero also opens with the keyword string "Mortgage broker Gaines MI:".
 - `/mortgage-lender-clinton-mi/` is the Village of Clinton "inside Clinton Township… in northeast Lenawee County", while `/mortgage-lender-clinton-township-mi/` is Clinton Township in **Macomb** County. The Macomb page never says which Clinton Township it covers.
-- The other 16 city/township pairs distinguish themselves well. The township pages say "a separate tax unit from the City of X" in the hero or meta, and both sides link each other. Most city pages, though, mention the township only in the body (city-side hero/meta distinction: 3 of 16).
+- The other 16 city/township pairs distinguish themselves well. 13 of 16 township pages make the distinction in the hero or meta ("a separate tax unit from the City of X"), all 16 do in the body, and both sides link each other. City pages mostly mention the township only in the body: 3 of 16 do it in the hero or meta.
 
 Fix: one-line disambiguation and a cross-link on all four pages (exact text in fixes). Rewrite the Gaines hero.
 
@@ -198,7 +198,7 @@ GSC city queries include refinance intent: "rate and term refinance farmington h
 | Loan limits | 2026 conforming $832,750 on 274 pages; 2026 FHA floor $541,287 on 140; no stale 2025 limits. ✔ |
 | Uncapping | "2026 Uncapping Study" (Align research), 654 mentions. ✔ |
 | Sources line | "every link checked November 2026" on 276/276. ✔ |
-| **Population** | Six labels: ACS 2020–2024 (81), **no year or source (81)**, Census "2024 estimate" (46), not stated (44), "2020 Census" (12), year with no type (7), **"2026 estimate" (Berkley, 15,386: no such Census vintage exists at crawl date)**. Vintage 2025 city estimates should be available by Nov 2026 [VERIFY], so "2024 estimate" is one vintage behind. |
+| **Population** | Several labels: ACS 2020–2024 (81), **no year or source (81)**, Census "2024 estimate" (46), not stated (44), "2020 Census" (12), a year with no source type (7), ACS with no years (4), **"2026 estimate" (Berkley, 15,386: no such Census vintage exists at crawl date)**. Vintage 2025 city estimates should be available by Nov 2026 [VERIFY], so "2024 estimate" is one vintage behind. |
 | Market snapshots | Redfin windows vary page to page ("July through September 2026" 68, "September 2026" 69, "October 2026" 22, "March 2026" 20, "November 2025" 13…). "as of" phrasing has 10+ variants ("as of mid", "as of spring 2026", "as of December"). |
 | Glance box | "Typical home value near $X" has no named source; the body cites Zillow, Redfin and ACS figures side by side. The "Property tax current owners pay" row shows on 157 of 276. |
 
@@ -225,7 +225,7 @@ Neighbor counts: 6 on 228 pages, 7 on 31, 5 on 10, 8–9 on 4. Marquette has **0
 
 ### 3.16 P2: Legacy redirects and ZIP cross-reference
 
-- **ZIP leakage check: no city page claims another city's ZIP without explaining it.** 70 pages list in their glance box a ZIP that the legacy map assigned to another city. All of them are townships or villages sharing a mailing ZIP, and each names the other place on the page (e.g., Flint Township lists 48532/48504/48507 and explains the Flint addresses).
+- **ZIP leakage check: no city page claims another city's ZIP without explaining it.** 64 pages list in their glance box a ZIP that the legacy map assigned to another city. 60 are townships or villages sharing a mailing ZIP, and each names the other place on the page (e.g., Flint Township lists 48532/48504/48507 and explains the Flint addresses). The other 4 are naming artifacts: legacy `saint-clair`/`saint-clair-shores` vs new `st-clair` slugs, and Grosse Pointe Shores' 48236, which the legacy map wrongly gave to Grosse Pointe Park.
 - Legacy ZIPs missing from pages are PO-box or unique ZIPs (Ann Arbor 48106/48107/48113, Flint 48550–48557, Detroit 482xx unique, Novi 48376, Troy 48007/48099). That's correct.
 - The **legacy map itself had wrong ZIPs** that now route inconsistently. `grosse-ile-mi-48173` 301s to **Rockwood** (48173 is Rockwood's ZIP; Grosse Ile is 48138), while name-based redirects send `grosse-pointe-park-mi-48236` and `south-lyon-mi-48025` to their named cities. `newport-mi-48166` goes to Estral Beach. Fix: send the Grosse Ile URL to `/mortgage-lender-grosse-ile-township-mi/`.
 
@@ -263,8 +263,8 @@ Method: body text per page; own city name and county replaced with tokens; 5-wor
 | Unique shingles per page (on no other city page) | median **68.5%**, mean 68.1%, p10 63.8%, min 58.4% (Kentwood) |
 | Template boilerplate share | median 16.6%, max 22.2% |
 | Pairwise Jaccard, ex-boilerplate | median 0.0012, p99 0.0069, max **0.048** (Flint Twp / Frenchtown Twp); 0 pairs > 0.05 |
-| Pairwise Jaccard, full text (3,000-pair sample) | median 0.068, p90 0.080, max 0.116 |
-| Top full-text pairs | Flint Twp–Frenchtown Twp 0.129; Clay Twp–Mundy Twp 0.127; Davison Twp–Grand Blanc Twp 0.122; Grand Blanc Twp–Mundy Twp 0.122 |
+| Pairwise Jaccard, full text (random 3,000-pair sample) | median 0.068, p90 0.080, sample max 0.116 |
+| Most similar pairs overall (full-text Jaccard) | Flint Twp–Frenchtown Twp 0.129; Clay Twp–Mundy Twp 0.127; Davison Twp–Grand Blanc Twp 0.122; Grand Blanc Twp–Mundy Twp 0.122 |
 | City vs same-name township | 0.063–0.088 (Northville/Northville Twp highest), the same as unrelated pairs |
 | Titles / H1s / metas | 276 unique each; titles and H1s differ only by city by design |
 
