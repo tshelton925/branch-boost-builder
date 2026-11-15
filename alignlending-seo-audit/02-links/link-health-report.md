@@ -2,9 +2,9 @@
 
 **Team:** Links, part 1 of 2 (link health, architecture, external-link quality). Article-to-article linking strategy is covered by the companion agent in this folder.
 **Data:** crawl of 2026-11-15 (835 live HTML pages + 96 legacy redirects), `link_graph.json`, `inlinks.json`, `pages.jsonl`, `page_summary.csv`, `external_links.json`, `external_status.jsonl`, the live REST API and redirect spot-checks (fetched politely, 2–3 at a time), GSC through DataWise (90 days to 2026-11-10).
-**Files in this folder:** `broken-links.csv` (206 rows), `external-link-policy.csv` (1,849 domains), `internal-link-fixes.csv` (56 rows), this report.
+**Files in this folder:** `broken-links.csv` (242 rows), `external-link-policy.csv` (1,849 domains), `internal-link-fixes.csv` (56 rows), this report.
 
-> **Data limitation, stated up front.** The background checker (`external_status.jsonl`, 11,643 URLs) ran from this sandbox, and the sandbox's egress proxy refused every outside host. All HTTPS URLs came back `ProxyError` and all `http://` URLs came back `ConnectionError`. Only the 5 hosts the proxy allows returned a real status. So **no external URL could be confirmed live or dead.** I did not label any external link "broken" without evidence. Instead I give (a) every defect I could prove from the HTML (wrong targets, insecure `http://`, archived mirrors, policy violations), and (b) a re-run command for a machine with open internet (section 7). Internal links and the legacy redirects *were* checked live.
+> **Data limitation, stated up front.** The background checker (`external_status.jsonl`, 11,643 URLs, finished 04:05 UTC) ran from this sandbox, and the sandbox's egress proxy refused nearly every outside host: 10,557 `ProxyError`, 78 `ConnectionError` (all `http://`) and 811 `InvalidSchema` (the `sms:` text button, which is not broken). Only **197** URLs returned a real status: michigan.gov became reachable late in the run, plus storage.googleapis.com and mirealtors.com. I re-checked the other **159 michigan.gov URLs** myself once that host opened. **Verified so far: 353 URLs, of which 2 are confirmed 404s and 22 redirect to a new address.** The remaining **~11,290 external URLs are unverified.** I did not mark any of them broken without evidence. Instead I give (a) every defect I could prove from the HTML (wrong targets, insecure `http://`, archived mirrors, policy violations), and (b) a re-run command for a machine with open internet (section 7). Internal links, internal PDFs and the legacy redirects *were* all checked live.
 
 ---
 
@@ -37,15 +37,15 @@ Scores use the BRIEF §4 rubric. Metrics: contextual inlinks = unique pages link
 | Learn (471) | 19 (3) | **73 C** | Visible breadcrumbs on all 471. 27% of articles have fewer than 10 contextual inlinks. 16% of body links are anchorless card images or "Read more". The buyer and refinance CTA blocks skip the hubs. 4 self-links. | **78 C** | 98% gov/primary with correct `rel="noopener"`, but 61 links per page, of which 55% repeat an earlier link. 12 violation links (security.org, FortuneBuilders, Houzz, Trading Economics). eCFR links point at whole Parts, not sections. |
 | Research (4) | 4 (1) | **55 F** | The Uncapping Study is a hit (344 inlinks), but the Michigan Mortgage Market Report has 2 contextual inlinks (both from `/research/` pages) and `/research/` has 1. | **86 B** | 100% gov/primary (HMDA, Census, Treasury). |
 | About/trust/legal (12) | 10 (3) | **62 D** | `/about-us/` has 3 inlinks and `/reviews/` has 7. The "5.0 on Google, 123 reviews" claim appears on 353 pages but is linked only on the homepage. | **80 B** | The press page links third-party features (MPA, AIME podcasts, CanvasRebel). That is acceptable for press, but use `nofollow` on the pay-to-feature interview sites. |
-| **Sitewide** | **(835)** | **71 C** | No orphans, no broken internal links, click depth ≤2 via navigation and ≤4 via body links. Held back by starved hubs, a menu printed 3 times, 4,245 redundant card links and missing visible breadcrumbs on 327 pages. | **70 C** | 92% gov/primary is strong. Held back by 69 policy violations, 171 Wikipedia links, 136 `http://` links, 15 rel-less sitewide links to alignwithalign.com, citation duplication, and **live status unverified** for 11,643 URLs. |
+| **Sitewide** | **(835)** | **71 C** | No orphans, no broken internal links, click depth ≤2 via navigation and ≤4 via body links. Held back by starved hubs, a menu printed 3 times, 4,245 redundant card links and missing visible breadcrumbs on 349 pages. | **70 C** | 92% gov/primary is strong. Held back by 69 policy violations, 171 Wikipedia links, 136 `http://` links, 15 rel-less sitewide links to alignwithalign.com and citation duplication. Of the 353 URLs that could be checked, 2 are 404s and 22 redirect; live status is **unverified** for the other ~11,290. |
 
 ---
 
 ## 3. Findings ranked by impact
 
 ### F1 (critical): `/refinance/` and `/purchase/` hubs are bypassed by every template
-- **Evidence:** `inlinks.json` gives `/refinance/` 5 contextual inlinks (`/refinance/break-even-review/`, `/refinance/cash-out-vs-home-equity/`, `/refinance/home-equity-review/`, plus 2 city pages) and `/purchase/` 16 (12 from its own subs). For comparison, `/purchase/homebuyer-game-plan/` has 492 and `/refinance/break-even-review/` has 115.
-- **Why:** the city template's "Loan options" list links `/product-loans/` twice and never the hubs (3/276 city pages link `/purchase/`, 2/276 link `/refinance/`). 175 learn articles end with "Build/Get my homebuyer game plan" and 97 end with "Run a refinance break-even review" or "Review my break-even". The homepage cards point to sub-pages.
+- **Evidence:** `inlinks.json` gives `/refinance/` 5 contextual inlinks (`/refinance/break-even-review/`, `/refinance/cash-out-vs-home-equity/`, `/refinance/home-equity-review/`, plus 2 city pages). `/purchase/` has 16: 8 from its own sub-pages, 3 from city pages, and `/mortgage-michigan/`, `/mortgage-process/`, `/product-loans/`, `/real-estate-agents/` and `/refinance/`. For comparison, `/purchase/homebuyer-game-plan/` has 492 and `/refinance/break-even-review/` has 115.
+- **Why:** the city template's "Loan options" list links `/product-loans/` twice and never the hubs (3/276 city pages link `/purchase/`, 2/276 link `/refinance/`). 175 learn articles carry a "Build/Get my homebuyer game plan" block and 97 carry "Run a refinance break-even review" or "Review my break-even". The homepage cards point to sub-pages.
 - **Fix:** template edits in `internal-link-fixes.csv` (P0/P1): city list items "Buying a home in {City}: how we plan it" → `/purchase/` and "Refinancing a {City} home" → `/refinance/`; one hub link appended to each learn CTA block; text links under the homepage Buy and Refinance cards; refinance links from 6 refinance-relevant product pages. Expected result: `/refinance/` rises from 5 to roughly 380 contextual inlinks and `/purchase/` from 16 to roughly 460, without adding any new sitewide navigation.
 
 ### F2 (high): city pages carry 65 external links each; learn articles carry 61, about half of them repeats
@@ -86,9 +86,9 @@ Scores use the BRIEF §4 rubric. Metrics: contextual inlinks = unique pages link
 - **Evidence:** `section.al-related > article.al-card` contains `a.al-card-img` (image link, `alt=""`, `aria-hidden`), then the `h3` title link, then a "Read more" link, all to the same URL. Sitewide that is **2,086 anchorless image links and 2,159 "Read more" anchors** on 471 articles.
 - **Fix:** keep only the title link and use a CSS stretched link so the whole card stays clickable (`internal-link-fixes.csv`).
 
-### F7 (medium): visible breadcrumbs are missing on 327 pages that already have BreadcrumbList schema
+### F7 (medium): visible breadcrumbs are missing on 349 pages that already have BreadcrumbList schema
 - **Evidence:** visible trails exist on 470/471 learn pages (`nav.al-crumbs`), 13/13 county hubs (`nav.align-county-crumbs`) and 2 calculators.
-- **Missing on:** 276 city pages, 22 product pages, 15 purchase/refinance pages, 16 calculators and the trust pages. On these, schema exists without a visible trail. Flint's schema, for example, is `Home › Service Areas › Genesee County › Flint`.
+- **Missing on:** 276 city pages, 22 product pages, 15 purchase/refinance pages, 16 calculators, 12 trust/legal pages, 4 research pages, 3 state hubs and 1 learn page. On all of these, schema exists without a visible trail. Flint's schema, for example, is `Home › Service Areas › Genesee County › Flint`.
 - **Fix:** render the same trail visibly. This adds an in-body upward link (city → county hub → Service Areas) and matches Google's guidance that markup reflect visible content.
 
 ### F8 (medium): stranded money pages and assets
@@ -100,6 +100,12 @@ Scores use the BRIEF §4 rubric. Metrics: contextual inlinks = unique pages link
   - `/refinance/` links no calculator.
   - The trust claim "5.0 on Google, 123 reviews" appears on 353 pages but is linked only on the homepage.
 - **Fix:** each has an exact row in `internal-link-fixes.csv`.
+
+### F9a (medium): confirmed dead and moved external links (from the 353 URLs that could be checked)
+- **404:** `/michigan-property-tax-calculator/` links "Treasury lists this year's limits" to `https://www.michigan.gov/taxes/questions/iit/accordion/homestead/who-qualifies-for-a-homestead-property-tax-credit-1`, which lands on `/taxes/404`. Replace it with `https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit` (verified 200).
+- **404:** `/learn/how-well-water-impacts-homes-value/` links "EGLE's fee update notice" to an EGLE PDF (`…/RRD/Lab/FAQ-Drinking-Water-Lab-Fee-Updates-2026.pdf`) that lands on `/egle/404`.
+- **22 michigan.gov URLs redirect (34 source/URL pairs):** these are old `/documents/…_7.pdf` paths and vanity URLs that now resolve to new `/-/media/…` or section URLs. Examples: `/documents/cis_ofis_03homegd_74854_7.pdf` on 5 pages, `/documents/treasury/TransferOwnershipGuidelines_423898_7.pdf` on 4. They still work, but update them to the final URLs (all rows are in `broken-links.csv`, P2) so they survive the next state site migration.
+- **Extrapolation:** only about 3% of external URLs could be checked, and the checked set is almost all michigan.gov, which is well maintained. Expect a higher dead-link rate among the small municipal and school sites that make up most of the remaining 1,849 domains.
 
 ### F9 (medium): 136 insecure `http://` external links (81 unique source/URL pairs on 44 pages)
 - **Evidence:** for example `http://www.sca.isr.umich.edu/` on 3 learn articles, `http://www.leg.state.fl.us/statutes/…193.155…` on the homestead guide, `http://www.villageofdryden.com/…` (8 links on `/mortgage-lender-dryden-mi/`), and `http://censusreporter.org/…` on Bloomfield Hills and Dryden.
