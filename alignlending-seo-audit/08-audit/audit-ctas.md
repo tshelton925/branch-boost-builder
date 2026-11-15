@@ -22,7 +22,7 @@ The work cannot go to the consistency team as it stands. Four kinds of problem n
    - "164 of 423 articles have an end-of-article next step" is really **142 of 423**. The other 22 blocks are on hubs. The team's own CSV says 281 articles lack one.
    - "9 variants / all 61 Loan Types articles" is really 8 category defaults plus 3 one-offs, and **51 of 53** articles.
    - One finding is refuted: the USDA product page *does* link `/usda-eligibility-check/`.
-2. **The recommendations break the brand guide's CTA vocabulary.** They criticise 62 Calendly labels, then propose **27 new non-standard Calendly labels (184 instances)**. They also reuse retired labels: "Get a homebuying budget review" ×75, "Run the numbers…" ×45, "Use the … calculator" ×28, and "Tell Samantha the situation", which the guide names on its retire list. Guide §5.2 is explicit: Calendly buttons say "Talk", and buttons keep the standard labels. The fix is mechanical and is listed in the corrections CSV.
+2. **The recommendations break the brand guide's CTA vocabulary.** They criticise 62 Calendly labels, then propose **32 new non-standard Calendly labels (about 200 instances)**. They also reuse retired labels: "Get a homebuying budget review" ×75, "Run the numbers…" ×45, "Use the … calculator" ×28, and "Tell Samantha the situation", which the guide names on its retire list. Guide §5.2 is explicit: Calendly buttons say "Talk", and buttons keep the standard labels. The fix is mechanical and is listed in the corrections CSV.
 3. **Three compliance slips.**
    - "No credit pull to talk" is recommended under three home hero cards, none of which is a talk CTA.
    - "Nothing here checks your credit" is recommended beside "Start my application".
@@ -180,7 +180,7 @@ For each row I checked four things: whether the destination exists in `page_summ
 
 ### 5.2 Systemic fixes (exact text in the CSV)
 
-- **One talk label.** All 184 non-standard Calendly button instances become **"Talk with Samantha"**. On `/purchase/`, `/refinance/` and `/product-loans/` the label is **"Talk through your options"**. Topic wording moves into the module head and text. A program-specific talk label may run only as a PM-approved A/B test.
+- **One talk label.** All non-standard Calendly buttons (32 labels, about 200 instances) become **"Talk with Samantha"**. On `/purchase/`, `/refinance/` and `/product-loans/` the label is **"Talk through your options"**. Topic wording moves into the module head and text. A program-specific talk label may run only as a PM-approved A/B test.
 - **Tool labels.** Use the guide's pattern:
 
   | Current label(s) | Replace with |

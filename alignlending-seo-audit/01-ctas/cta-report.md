@@ -527,3 +527,60 @@ Implementation notes:
 - No Bing data is connected, so a Bing export is needed. The CTA recommendations do not depend on the search engine.
 - The crawler's `atf` flag means "before the first H2". It does not account for the visual fold on phones.
 - No change was made to the live site.
+
+## Auditor corrections
+
+Independent audit, 2026-11-15. **Verdict: PASS WITH CORRECTIONS.** Full audit: `08-audit/audit-ctas.md`. Row-level fixes (93): `08-audit/corrections-ctas.csv`. Everything above this heading is the team's text, unchanged. Where they differ, the corrections below take precedence.
+
+**Counts**
+- Learn modules: 8 category defaults plus 3 one-off variants (11 label/destination pairs) on the 420 articles that have one. Not "9 variants".
+- Loan Types: 51 of the 53 articles point to `/product-loans/`. Not "all 61", which counted 8 cluster hubs.
+- §5.1 category counts, articles only: Home Buying 106, Loan Types 51/53, Refinancing 47, Homeownership 52/55, Rates & Market 45, Mortgage Basics 23/24, Selling 45, Investing 45.
+- End block: **142 of 423** articles have `al-next`, so 281 lack it. Not 164/259: the 164 includes 22 hubs. 386 of 423 articles still carry the "Call 248-506-5727 or start online" links at a median 79% of the text.
+- No action above the first H2: 470 of 471 Learn pages, not 471. `/learn/` has "Talk with Samantha".
+- Self-serve labels that open Calendly: 6 above-the-fold primaries, not 4. Add "Plan my move" (`/purchase/buy-before-you-sell/`) and "Review my situation" (`/purchase/self-employed-homebuyer/`). 16 labels (31 instances) site-wide.
+- Calendly appears on 831 pages, not 795.
+
+**Refuted**
+- `/product-loans/usda-loans/` does link `/usda-eligibility-check/` ("Is this address in a USDA area?", in the closing block). The gap is at the mid-page decision point.
+
+**GA4**
+- A Samantha bar Call or Meet click fires two different events (`samantha_bar` plus `phone_click` or `cta_click`), not one event twice. Annotate GA4 when the bar exclusion ships.
+- Keep `destination=schedule`, not `meet`.
+- Key events on a parameter need derived events: `apply_click` and `text_request`.
+- Section references in the CSV: the event plan is §9 and the topic map is §8.
+
+**Scores**
+- Rubric §6 headline: simple mean 76 (C) and money-page 77 (C) after audit (77 and 81 on the team's inputs). Page-weighted 67, reference only.
+- Re-scores beyond tolerance: Learn 55 → 63 (D); home 72 → 66 (D); purchase sub-pages 82 → 72 (C); refinance sub-pages 81 → 73 (C); the five product pages without a mid CTA 71 → 77 (C); `/va-loan-calculator/` 82 → 74 (C); FHA ATF 90 → 82 (B).
+- Drop the −10 "identical labels" product deduction, because the rubric rewards standard labels.
+- Mark the ATF column informational. The core-page teams' ATF scores are the scores of record.
+
+**Priorities**
+- The 77 Learn destination rows and the template row move from P0 to P1. Nothing is broken or non-compliant, and the cited queries show 0 clicks.
+- The 3 sitewide P0s stay: off-domain menu actions, Calendly UTM, GA4 fix.
+
+**Labels (guide §5.2)**
+- Every Calendly button reads "Talk with Samantha". On `/purchase/`, `/refinance/` and `/product-loans/` it reads "Talk through your options". This replaces 32 proposed variants (about 200 instances), including the retired "Tell Samantha the situation".
+- Tool labels follow "[Estimate / Calculate / Check] my …". The full mapping is in the corrections CSV. Examples: "Review my budget", "Calculate my break-even", "Estimate my payment", "Estimate my property tax", "Check my Loan Estimate", "Check whether the rent covers the payment".
+
+**Compliance**
+- Put "No credit pull to talk" only under a talk CTA. The home hero recommendation pairs it with three non-talk cards; adopt the home team's "Talk through your options" button and place the reducer under it.
+- Replace "Nothing here checks your credit" beside apply CTAs with "A credit check comes later, only with your permission." plus `[VERIFY with Align]`.
+- Replace "Get a real number from Samantha" with "Talk with Samantha".
+- Hold labels that name 15- or 30-year terms until counsel rules on term names.
+
+**Topic-map fixes**
+- Drop `modular` from the manufactured rule. The manufactured page says its rules do not apply to modular homes.
+- Split `nonqm`: balloon, interest-only and non-conforming go to `/product-loans/non-qm-loans/`.
+- Add `nonqm` and `heloan` to the refinance guard.
+- Add a selling-cluster guard so product overrides fall back to `sell`.
+- In taxes-and-money, a `repair` slug resolves to `repair`.
+- Keep any existing end block that already matches the article (e.g. "Review renovation financing").
+- The corrections CSV gives 12 exact replacement rows.
+
+**Cross-team conflicts.** These are in `audit-ctas.md` §8:
+- purchase: "Build my homebuyer game plan → Calendly"; "Get pre-approved"
+- refinance: "Get my refinance checkup" kept on Calendly
+- products-a: talk button removed from the ATF
+- products-b: `from` values outside the `/start/` whitelist, including "1099"
