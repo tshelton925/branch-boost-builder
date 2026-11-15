@@ -12,21 +12,21 @@ The site already serves WebP (1,239 of 1,244 images), sets width and height on e
 
 1. **The homepage LCP image is an Elementor CSS background** (`align-lending-michigan-home-hero.webp`, 1536×1024, 218 KB). It sits in an external stylesheet, is moved into a JavaScript layer by Motion Effects, has no preload or srcset, and the only `fetchpriority="high"` on the page is on a 132-px thumbnail. Home Media score: **63 (D)**.
 2. **314 pages lazy-load an above-the-fold headshot** (`Samantha-202x300.jpg` in the hero card). LiteSpeed replaces it with a GIF placeholder until its lazy-load script runs. It is a 202×300 JPEG shown in a 52×52 circle.
-3. **82 hero pages have no srcset**, including every money page (purchase, refinance, all 22 product pages) plus calculators and county and state hubs. Phones download the full 1920-px desktop hero: 119 KB on average, 228 KB on `/purchase/`.
+3. **82 hero pages have no srcset**, including every money page (purchase, refinance, all 22 product pages) plus calculators and county and state hubs. Phones download the full 1920-px desktop hero: 128 KB on average across those 82 pages, 228 KB on `/purchase/`.
 4. **Hero files are larger than any slot needs.** City heroes are 1920 px and 172 KB on average (max 292 KB). On learn articles, 306 of 469 heroes are 1920 px files that the srcset labels "1600w". Their srcset also jumps from 960w to 1600w, so most phones download the biggest file.
 5. **Share images are inconsistent.** Only 3 pages have a 1200×630 JPG `og:image`. 35 pages share a portrait headshot, and the rest use 16:9 WebP heroes. The favicon is a JPEG crop that includes a sliver of the wordmark, and `/favicon.ico` returns 404.
 
-**What we built:** 1,979 optimized files (140.3 MB, under the 150 MB budget, so no variants were pruned), a reproducible pipeline (`scripts/optimize_images.py`, `scripts/audit_images.py`, `scripts/visual_check.py`), and five WPCode snippets that fix delivery across all templates at once.
+**What we built:** {{NFILES}} optimized files ({{OUTMB}} MB, under the 150 MB budget, so no variants were pruned), a reproducible pipeline (`scripts/optimize_images.py`, `scripts/audit_images.py`, `scripts/visual_check.py`), and five WPCode snippets (plus an optional home stopgap) that fix delivery across all templates at once.
 
 **Savings.** Across the 1,245 files that have a 1:1 replacement, total size falls from **141.2 MB to 104.28 MB (−26.1 %)**. What visitors download per page view falls further:
 
 | LCP image per view | Before | After (desktop, 1600w) | After (phone, 768w) |
 |---|---|---|---|
-| City page (avg of 276) | 172 KB desktop · ~124 KB phone (1536 sub-size) | **96 KB** | **28 KB** |
+| City page (avg of 276) | 172 KB on DPR2 laptops (1920 file) · ~124 KB on DPR1 desktops and DPR-3 phones (1536 sub-size, Flint sample) | **96 KB** | **28 KB** |
 | `/purchase/` | 228 KB, all devices | **119 KB** | **36 KB** |
 | Product pages (avg of 21) | 130 KB, all devices | **76 KB** | **24 KB** |
 | Learn article (avg of 469) | 149 KB desktop and DPR-3 phones | 123 KB (DPR2) · **87 KB** (1200w, DPR1 and phones) | 87 KB (1200w) |
-| Home | 218 KB, all devices | 218 KB (file kept, see §5.4) | **54 KB** |
+| Home | 218 KB, all devices | 218 KB (file kept, see §5.4) | **54 KB** (768w, DPR ≤ 2) · 116 KB (1200w, DPR-3) |
 
 **Media scores:** sitewide (page-weighted, 832 scored pages) **82.1 → 99.2 projected**. Mean across page types **76.1 → 99.1**. **Money pages (home, purchase, refinance and products) 74.2 (C) → 98.6**. Projected scores assume every change in §6 ships and the alt-text CSV fills the empty hero alts.
 
@@ -203,13 +203,13 @@ The PageSpeed Insights API returned **HTTP 429 (daily quota exhausted for the sh
 | # | Finding | Evidence | Priority | Impact | Effort |
 |---|---|---|---|---|---|
 | 1 | The home LCP is a late-discovered CSS background (218 KB) with Motion Effects and no preload or srcset. Priority goes to a thumbnail instead. | §3.9; `fetchpriority` on `align-plan-porch.webp` | **P0** | critical | medium |
-| 2 | 82 hero pages, including every money page, have no srcset, so phones download 1920-px heroes (avg 119 KB, `/purchase/` 228 KB). | `media-scores-by-page.csv` `lcp_srcset=False` | **P0** | high | low (snippet 1 + uploads) |
+| 2 | 82 hero pages, including every money page, have no srcset, so phones download 1920-px heroes (avg 128 KB, max 259 KB, `/purchase/` 228 KB). | `media-scores-by-page.csv` `lcp_srcset=False` | **P0** | high | low (snippet 1 + uploads) |
 | 3 | An above-the-fold headshot is lazy-loaded through LiteSpeed's JS placeholder on 314 pages. It is a JPEG at 3.9× its display size. | `images.json` `lazy_atf=314`; §3.6 | **P0** | high | low (snippet 1) |
 | 4 | City heroes are 1920 px and 172 KB on average (71 over 200 KB). `sizes="100vw"` sends the 1536 sub-size to DPR-3 phones. | §3.2, §3.5 | P1 | high | low |
 | 5 | No LCP preload anywhere, and the hero `<img>` sits 157–218 KB into the HTML. | §3.7 | P1 | medium | low (snippets 2–3) |
 | 6 | Learn: 306 heroes are 1920 px labelled 1600w, there is no 1200w step, cards offer the 1600w hero to phones, and 47 hubs mark a second image high priority. | §3.5, §3.7 | P1 | high (469 pages) | low |
 | 7 | og:image: 35 pages share a portrait headshot, and only 3 pages have a 1200×630 JPG. | §3.10, `og-image-map.csv` | P1 | medium | low |
-| 8 | 95 learn heroes are grain-heavy. WebP at q≥72 cannot reach 150 KB without visible softening (for example `how-to-qualify-for-jumbo-loan.webp`: 284 KB, 305 KB at q72). | §5.3 | P2 | medium | medium (re-export) |
+| 8 | 95 learn heroes (already 1600 px) stay above 150 KB. Most are grain-heavy AI images that WebP at q≥72 cannot shrink without visible softening (for example `how-to-qualify-for-jumbo-loan.webp`: 284 KB, 305 KB at q72). | §5.3 | P2 | medium | medium (re-export) |
 | 9 | The logo is a 400-px raster stretched to 734 px in the popup, and there is no SVG. | §3.11 | P2 | low | low |
 | 10 | The favicon is a JPEG crop with a stray wordmark fragment, and `/favicon.ico` returns 404. | §3.12 | P2 | low | low |
 | 11 | Duplicate and versioned files and unused WordPress sub-sizes; meaningless filenames (`rsw_600h_600cg_true.webp`, `Samantha4-683x1024.jpg`). | §3.13 | P2 | low | low |
@@ -248,7 +248,7 @@ New files (not 1:1, so not counted above): 341 city/page/home 1200w (19.8 MB, av
 
 We also simulated the mobile hero: a 390×1000 box at DPR2 with `object-fit: cover` and the template's 0.9 → 0.7 overlay, comparing the 768w and 1600w sources. The 768w is slightly softer, and under the overlay the difference is hard to see. That is why snippet 1 sets `sizes` to `60vw` below 768 px.
 
-**Grain-heavy learn heroes.** 95 learn heroes are noise-heavy AI images, for example `how-to-qualify-for-jumbo-loan.webp` (1600×900, 284 KB). Re-encoding makes them bigger (305 KB at q72, 274 KB even at q55). A 3×3 median filter cuts about 27 % (to 207 KB at q74) but softens brick texture at 100 % zoom. That fails "no visible quality loss", so it is **off by default** (`--denoise-heavy`). The 1200w variants of these images (up to 206 KB) still go to most visitors. The real fix is to re-export these 95 images from their master files (listed in `image-inventory.csv`, `heavy:` issue, action `keep`).
+**Heavy learn heroes.** 95 learn heroes are already 1600 px or smaller and stay above 150 KB because re-encoding saves less than 20 %. Most are grain-heavy AI images, for example `how-to-qualify-for-jumbo-loan.webp` (1600×900, 284 KB). Re-encoding makes them bigger (305 KB at q72, 274 KB even at q55). A 3×3 median filter cuts about 27 % (to 207 KB at q74) but softens brick texture at 100 % zoom. That fails "no visible quality loss", so it is **off by default** (`--denoise-heavy`). The 1200w variants of these images (up to 206 KB) still go to most visitors. The real fix is to re-export these 95 images from their master files (listed in `image-inventory.csv`, `heavy:` issue, action `keep`).
 
 ### 5.4 Home hero
 The 1536×1024 file only saves 16 % at q72 (183 KB). We tried softening the area under the dark overlay. It saved 41 %, but the band reaches the roofline and the softening showed at 100 % zoom, so we dropped it. The original file stays for desktop. The large home wins come from delivery: 768w (54 KB) for phones, 1200w (116 KB) for tablets, preload and priority, and no Motion Effects. Re-exporting from the master at 1600 px, q75, is a P2.
