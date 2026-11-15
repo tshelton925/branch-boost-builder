@@ -452,6 +452,8 @@ Result on `/mortgage-lender-flint-mi/` after the step 1 uploads:
 ```
 Why `60vw` on phones: the mobile hero sits under a 70–90 % dark overlay (§5.3), so the 768w file (28 KB) is enough and saves about 70–100 KB per phone view. If the hero files are not uploaded yet, `align_hero_sources()` finds no variants and outputs `src` plus its true width only, so the snippet is safe to activate first.
 
+**Works with the alt-text mu-plugin.** `alt-text-and-image-seo-report.md` §6.1 fills hero and headshot alt on the same filter at priority 10. This snippet runs at priority 20 and copies whatever alt is in the tag at that point, so the two compose. The same rewrite also fixes the `/learn/` hub hero (D10): `learn-center.webp` gets its true `width="1344" height="752"`. When D13 swaps the home portrait to `samantha-shelton-portrait.webp` in the widget HTML, paste the alt from `alt-text.csv` into the widget. The mu-plugin's override is keyed to the old JPEG filename.
+
 ### 7.2 Snippet 2: preload the hero in `<head>` (needs snippet 1)
 ```php
 <?php
