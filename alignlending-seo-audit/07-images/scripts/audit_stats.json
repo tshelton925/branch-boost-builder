@@ -483,23 +483,23 @@
   "home": {
    "pages": 1,
    "scored": 1,
-   "score": 59,
-   "score_after": 100,
-   "score_min": 59,
-   "score_max": 59,
+   "score": 63,
+   "score_after": 90,
+   "score_min": 63,
+   "score_max": 63,
    "lcp_kinds": {
     "css-bg": 1
    },
    "lcp_avg_kb": 218.2,
    "lcp_max_kb": 218.2,
-   "lcp_after_avg_kb": 127.7,
-   "lcp_768_avg_kb": 40.2,
+   "lcp_after_avg_kb": 218.2,
+   "lcp_768_avg_kb": 53.5,
    "atf_lazy_pages": 0,
    "og": {
     "1200x630-jpg": 1
    },
    "page_img_kb": 481.3,
-   "page_img_after_kb": 272.0,
+   "page_img_after_kb": 362.6,
    "top_deductions": [
     [
      "-15 LCP is an Elementor CSS background: not preloaded, no fetchpriority, discovered after CSS, Motion Effects layer",
@@ -676,10 +676,10 @@
  ],
  "sitewide_score": 82.1,
  "sitewide_score_after": 99.2,
- "template_mean_score": 75.8,
- "template_mean_score_after": 99.9,
- "money_page_score": 73.6,
- "money_page_score_after": 100,
+ "template_mean_score": 76.1,
+ "template_mean_score_after": 99.1,
+ "money_page_score": 74.2,
+ "money_page_score_after": 98.6,
  "pages": 835,
  "lazy_atf_by_type_image": {
   "city|Samantha-202x300.jpg": 276,
@@ -939,8 +939,8 @@
    "avg_kb": 218.2,
    "median_kb": 218.2,
    "max_kb": 218.2,
-   "after_mb": 0.13,
-   "replaced": 1,
+   "after_mb": 0.22,
+   "replaced": 0,
    "over_120kb": 1,
    "over_200kb": 1,
    "px": {

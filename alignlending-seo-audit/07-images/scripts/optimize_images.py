@@ -187,8 +187,7 @@ def og_crop(im, anchor_y=0.6):
 def og_name(base):
     stem = base.rsplit(".", 1)[0]
     stem = stem.replace("align-hero-", "")
-    stem = re.sub(r"-v\d+$", "", stem)
-    return f"align-og-{stem}-1200x630.jpg"
+    return f"align-og-{stem}-1200x630.jpg"  # keeps any -vN suffix so names stay unique
 
 
 def suggest_hero_name(name):
@@ -224,7 +223,7 @@ def job_hero(args):
     wrong_size = im.width > HERO_W
     saving = 1 - len(data) / old
     folder = "learn" if kind == "hero-learn" else "heroes"
-    new_name = name if kind in ("hero-city", "hero-learn") else suggest_hero_name(name)
+    new_name = name if kind in ("hero-city", "hero-learn") else rec.get("suggested", name)
     if kind == "hero-learn":
         note_primary = f"Overwrite /wp-content/uploads/learn/{name} via SFTP/hPanel File Manager (same URL; srcset 1600w descriptor becomes truthful). Purge LiteSpeed + Hostinger CDN."
     else:
@@ -457,6 +456,17 @@ def main():
     if os.path.exists(home):
         rec = dict(src=f"{SITE}/wp-content/uploads/2026/08/align-lending-michigan-home-hero.webp", bytes=os.path.getsize(home), kind="hero-home")
         hero_jobs.append((rec, home, out, variants, a.og))
+
+    # collision-aware rename suggestions: drop a -vN suffix only when the clean name is free
+    names = [os.path.basename(j[0]["src"]) for j in hero_jobs]
+    clean = {n: suggest_hero_name(n) for n in names}
+    counts = {}
+    for n in names:
+        counts[clean[n]] = counts.get(clean[n], 0) + 1
+    for j in hero_jobs:
+        n = os.path.basename(j[0]["src"])
+        c = clean[n]
+        j[0]["suggested"] = c if (c == n or (counts[c] == 1 and c not in names)) else n
 
     rows = []
     with ProcessPoolExecutor(max_workers=a.workers) as ex:
