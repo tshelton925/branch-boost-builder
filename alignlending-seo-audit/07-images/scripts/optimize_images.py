@@ -38,7 +38,7 @@ Usage (run from any directory that is NOT img_raw; -I keeps cwd off sys.path):
 """
 import argparse, csv, io, json, os, re, sys, shutil
 from concurrent.futures import ProcessPoolExecutor
-from PIL import Image, ImageCms, ImageFilter, ImageOps
+from PIL import Image, ImageCms, ImageFilter, ImageOps  # ImageFilter: --denoise-heavy
 
 HERO_W = 1600
 HERO_TARGET = 120_000
@@ -129,19 +129,6 @@ def resize_w(im, w):
     return im.resize((w, h), Image.LANCZOS, reducing_gap=3.0)
 
 
-def overlay_soften(im, stop=0.50, feather=0.12, radius=2.0):
-    """Home hero only: the template paints rgba(6,15,26,.80-.84) over the top 52-64 % of this
-    background, so detail there is invisible. Blur that band (feathered) so the encoder spends
-    its bits on the visible lower part of the photo."""
-    W, H = im.size
-    col = Image.new("L", (1, H))
-    for y in range(H):
-        t = y / H
-        a = 255 if t < stop else (0 if t > stop + feather else int(255 * (1 - (t - stop) / feather)))
-        col.putpixel((0, y), a)
-    return Image.composite(im.filter(ImageFilter.GaussianBlur(radius)), im, col.resize((W, H)))
-
-
 def q_search(im, target, qs=HERO_QS):
     data = None
     for q in qs:
@@ -223,10 +210,7 @@ def job_hero(args):
     im = load(path).convert("RGB")
     old = rec["bytes"]
     extra_note = ""
-    src_im = im  # unsoftened copy for the og card (shared images have no overlay)
-    if kind == "hero-home":
-        im = overlay_soften(im)
-        extra_note = " Top half pre-softened (it sits under the template's 80-84% dark overlay); visible lower half untouched."
+    src_im = im
     big = resize_w(im, HERO_W)
     q, data, met = q_search(big, HERO_TARGET)
     if rec.get("denoise_heavy") and len(data) > 150_000:
