@@ -107,7 +107,7 @@ Display sizes come from the templates' inline CSS and `sizes` attributes:
 |---|---|---|---|---|
 | City/page heroes | 1920 px | ≤ 1,380 CSS px | 1.4× at DPR1 | 1600 px is enough. 1920 adds about 45 % bytes for pixels nobody sees. |
 | Learn heroes (306) | 1920 px | 1,160 CSS px; srcset says 1600w | — | The descriptor is wrong and the file is 44 % larger than its label. |
-| `Samantha-202x300.jpg` | 202×300 | 52×52 circle (`.adp-person img`) | 3.9× wide, wrong aspect | A 104×104 WebP at 2× is about 3 KB. |
+| `Samantha-202x300.jpg` | 202×300 | 52×52 circle (`.adp-person img`) | 3.9× wide, wrong aspect | A 104×104 WebP at 2× is 2.1 KB. |
 | `align-plan-*.webp` (home) | 320×476 | 116–132 px (`.ahb-ph`) | 2.4× | 264×393 is 2× of the largest. |
 | Logo in the popup | 400×185 file | declared 734×340 (`size-full`) | 0.54×, **upscaled** | WordPress metadata says the original is 734 px; the file is 400 px. |
 | Guide covers | 160×207 | 104×135 | 1.5× | Fine. |
