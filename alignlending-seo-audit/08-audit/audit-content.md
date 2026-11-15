@@ -120,7 +120,7 @@ Status: **C** confirmed · **Corr** confirmed in part, corrected · **R** refute
 | GSC | Apply the 25 CTR rewrites + striking titles | **Confirmed with corrections** | 9 content fixes (§5.1). 11 of the target pages belong to the core-pages or city teams, which already propose different titles (§6). |
 | GSC | 301 legacy ZIP URLs and legacy duplicates | **Refuted as written** | Already single-hop 301s. Replace with: submit the old URLs via IndexNow / GSC URL Inspection, and remove the remaining internal links to redirects. |
 | GSC N01 / Inv new #2 | USDA income limits in Michigan | **Confirmed** (same topic, double-listed) | Title year conflict: "for 2026" (GSC) vs FY2027 (Inv). Use "USDA Income Limits in Michigan by County (FY2027)" (49) with [VERIFY: USDA RD FY2027 limits]. |
-| GSC N02 | USDA DTI limits | **Confirmed** (312 impressions; "usda max dti" 80 @19.8 on the generic DTI page, GSC-attributed) | Consider folding N03 (USDA credit) into it; see §7. |
+| GSC N02 | USDA DTI limits | **Confirmed** (312 impressions; "usda max dti" 80 @19.8 on the generic DTI page, GSC-attributed) | Combine with N03 (USDA credit); see §7 item 12. |
 | GSC N20 / Inv new #8 | DSCR guide | **Corrected** | Keep it, but target the informational intent ("how DSCR loans work", "DSCR ratio"), use the slug `/learn/how-dscr-loans-work/`, and leave "dscr loans michigan" to the money page. Priority P1. |
 | GSC N27 / Comp #14 | How to compare/choose a Michigan lender | **Confirmed** (double-listed) | One post. Destination `/` is fine; no rankings, no lender names linked. |
 | Inv #3 | FHA loan limits refresh to 2027 | **Confirmed** (timing-based) | **Conflict:** GSC proposes a "FHA Loan Limits 2026" title now. Hold until HUD's CY2027 Mortgagee Letter, then use "FHA Loan Limits 2027: Michigan Limits by County" (47). Same rule for `/loan-limits/`. |
@@ -278,7 +278,11 @@ Bank-wide fixes: remap the 7 questions that point to merge members to their cano
 | 21 | Year labels | FY2027 / 2027 | "2026" in N01, N10, N16 and 4 metas | "2026" in R2, N2 | Use FY2027/2027 or no year for anything published after Nov 2026 |
 | 22 | Cross-team titles | — | Rewrites `/`, `/refinance/`, `/product-loans/fha-loans/`, `/usda-loans/`, `/non-qm-loans/`, Dearborn, Ann Arbor, Macomb, `/michigan-property-tax-calculator/`… | Rewrites `/purchase/first-time-homebuyer/`, `/purchase/down-payment-assistance/`, calculator | The core-pages and city teams already propose **different** text: home "Michigan Mortgage Broker, Multiple Lenders \| Align Lending"; FHA "FHA Loans in Michigan: 2026 Limits & Rules \| Align Lending"; USDA "USDA Rural Development Loans in Michigan \| Align Lending"; Dearborn "Mortgage Broker in Dearborn, MI \| Align Lending". **The owning team's version is the base; content-team rewrites are inputs for the consistency team.** |
 
-**Double-counted new-post candidates:** 84 nominal (26 + 30 + 28) collapse to about **55 distinct topics**. **9** are listed by two or three analysts (MSHDA, USDA income limits, VA funding fee, VA entitlement/minimums, DSCR, FHA MIP, affordability, bankruptcy, lender comparison, asset depletion, homestead credit). **12 fold into existing pages:** USDA eligible areas, conforming limit, HELOC vs. cash-out, estimating property taxes, FTHB pillar, PRE, closing costs Michigan, DTI tool, well/septic, zero-down, portfolio rates, jumbo threshold.
+**Double-counted new-post candidates:** 84 nominal (26 + 30 + 28) collapse to **69 distinct topics**.
+- **11 topics are listed by two or three analysts:** MSHDA, USDA income limits, VA funding fee, VA entitlement/minimums, DSCR, FHA MIP, affordability, bankruptcy (all three), lender comparison, asset depletion, homestead credit. Inventory #22 (preapproval documents) also sits inside Comp #1.
+- **11 topics should fold into existing pages:** USDA eligible areas; conforming limit with jumbo threshold (GSC N16 joins it); HELOC vs. cash-out; estimating property taxes; FTHB pillar; PRE; closing costs Michigan; DTI tool; well/septic; zero-down; portfolio rates.
+
+That leaves **about 58 genuinely new posts**, or 56 if GSC N30 (3/7/3) and N25 (escrow at refinance) become H2s as recommended in §5.3.
 
 ---
 
@@ -297,7 +301,13 @@ The content strategist is drafting the plan from these three analysts. Items the
 9. **Year stamps:** every brief title, H2 or meta drafted with "2026" for loan limits, USDA income limits, the VA funding fee or conventional guidelines should use FY2027/2027 (with [VERIFY]) or no year. The CY2027 and FY2027 releases land between late November 2026 and January 2027.
 10. **Compliance in briefs:** no "N% down", "no down payment" or "$100 down" in titles or on money pages **[COUNSEL]**. No NAMB award in schema or copy. Use the guide §7.6 Michigan taxable-value wording in every uncapping answer. Apply CTAs go to `/start/`.
 11. **Pruning costs a few clicks:** mixed-use (2) and senior housing (1) earned 3 of the ~11 Learn clicks. Keep mixed-use pending Align, or accept the loss knowingly.
-12. **Use GSC page-level numbers for the two lead pages:** lease-to-own 14,548 impressions / 3 clicks and usda-loan-basics 10,182 / 2 clicks (90 days). Treat every "0 clicks" figure as a floor: the query table holds only 87 of the 416 clicks.
+12. **The USDA carve-up is too fine.** GSC N01–N08 split eight posts (126 to 1,026 cluster impressions each) out of `/learn/usda-loan-basics/`. That page already has H2s for the 29/41 ratios, FY2027 fees, Michigan county income limits and Guaranteed vs. Direct, and it is the site's second-largest traffic page (10,182 impressions). Cap the new USDA posts at 3:
+    - N01 income limits;
+    - N02 + N03 combined as "USDA DTI and credit score requirements";
+    - N05 Direct vs. Guaranteed.
+
+    Fold N04, N06, N07 and N08 in as H2s on the basics page, so the new posts do not cannibalize it.
+13. **Use GSC page-level numbers for the two lead pages:** lease-to-own 14,548 impressions / 3 clicks and usda-loan-basics 10,182 / 2 clicks (90 days). Treat every "0 clicks" figure as a floor: the query table holds only 87 of the 416 clicks.
 
 ---
 
