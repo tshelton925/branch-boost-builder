@@ -155,7 +155,8 @@ def main():
                         if kind == "css-bg": d.append(("LCP is an Elementor CSS background: not preloaded, no fetchpriority, discovered after CSS, Motion Effects layer", 15))
                         if kind == "img" and lcp.get("fetchpriority") != "high": d.append(("LCP lacks fetchpriority=high and no preload", 8))
                         if (kind == "img" and not lcp["srcset"]) or kind == "css-bg": d.append(("LCP has no srcset/sizes: phones download the desktop file", 6))
-                        if kind == "img" and lcp["srcset"] and "align-hero" in lcp_src: d.append(("hero sizes=100vw on a <=1240px container", 1))
+                        if kind == "img" and lcp["srcset"] and "align-hero" in lcp_src: d.append(("hero sizes=100vw: DPR-3 phones fetch the 1536w file (~124 KB) for a photo under a 70-90% overlay", 3))
+                        if kind == "img" and lcp["srcset"] and "/uploads/learn/" in lcp_src: d.append(("hero srcset jumps 960w -> 1600w: phones at DPR >= 2.6 (94vw = 1,000-1,100 px) download the 1600 file", 4))
                         if kind == "img" and "/uploads/learn/" in lcp_src and by_src[lcp_src]["px_w"] != 1600: d.append(("srcset says 1600w but file is %dpx" % by_src[lcp_src]["px_w"], 2))
                         w = by_src[lcp_src]["px_w"] if lcp_src in by_src else 1536
                         if w > 1600: d.append(("LCP file %dpx wide for a <=1380px slot" % w, 3))
@@ -166,10 +167,10 @@ def main():
                     elif b > 150_000: d.append(("LCP %d KB (150-200 KB; target <=150 KB)" % (b // 1000), 6))
                 if not after:
                     if fp_other: d.append(("fetchpriority=high on a non-LCP image", 3))
-                    if lazy_atf: d.append(("%d above-the-fold image(s) lazy-loaded" % len(lazy_atf), 5))
+                    if lazy_atf: d.append(("%d above-the-fold image(s) lazy-loaded" % len(lazy_atf), 4))
                     if cards: d.append(("related-card srcset offers the 1600w hero to phones", 3))
-                    if small_over: d.append(("small images >=2.4x their display size", 2))
-                    if jpeg: d.append(("JPEG/PNG photo on page", 3))
+                    if small_over: d.append(("small images >=2.4x their display size", 1))
+                    if jpeg: d.append(("JPEG/PNG photo on page", 2))
                     if nodims: d.append(("image(s) without width/height", 10))
                     sv = 1 - pa / pb if pb else 0
                     if sv >= 0.5: d.append(("%.0f%% of page image bytes saveable" % (sv * 100), 6))
@@ -178,14 +179,16 @@ def main():
 
             s_now, d_now = score()
             s_after, d_after = score(True)
+            if not content and kind != "css-bg":
+                s_now = s_after = "N/A"  # rubric section 1: no content images -> Media is N/A, never 100
             page_rows.append(dict(url=url, type=t, lcp_kind=kind, lcp_src=lcp_src.replace(SITE, ""), lcp_px=lcp_px, lcp_bytes=lcp_bytes,
                                   lcp_bytes_after_1600=lcp_after, lcp_bytes_after_768=lcp_768,
                                   lcp_fetchpriority=(lcp.get("fetchpriority") if lcp else ("n/a" if kind == "text" else "none (CSS bg)")),
                                   lcp_loading=(lcp["loading"] if lcp else ""), lcp_srcset=(lcp["srcset"] if lcp else ""),
                                   atf_lazy=";".join(im["src"].rsplit("/", 1)[-1] for im in lazy_atf), related_cards=len(cards),
                                   og_image=og.replace(SITE, ""), og_kind=og_kind,
-                                  page_img_bytes=pb, page_img_bytes_after=pa, media_score=s_now, media_grade=grade(s_now),
-                                  media_score_after=s_after, media_grade_after=grade(s_after),
+                                  page_img_bytes=pb, page_img_bytes_after=pa, media_score=s_now, media_grade=grade(s_now) if s_now != "N/A" else "N/A",
+                                  media_score_after=s_after, media_grade_after=grade(s_after) if s_after != "N/A" else "N/A",
                                   deductions="; ".join(f"-{x} {m}" for m, x in d_now)))
 
     # ---------------------------------------------------------------- per-image inventory
@@ -299,8 +302,10 @@ def main():
         for r in rs:
             for part in r["deductions"].split("; "):
                 if part: top[re.sub(r"\d+ KB|\d+%|\d+px|\d+ above", "#", part)] += 1
-        st["by_type"][t] = dict(pages=len(rs), score=round(statistics.mean(r["media_score"] for r in rs), 1),
-                                score_after=round(statistics.mean(r["media_score_after"] for r in rs), 1),
+        sc = [r for r in rs if r["media_score"] != "N/A"]
+        st["by_type"][t] = dict(pages=len(rs), scored=len(sc), score=round(statistics.mean(r["media_score"] for r in sc), 1),
+                                score_after=round(statistics.mean(r["media_score_after"] for r in sc), 1),
+                                score_min=min(r["media_score"] for r in sc), score_max=max(r["media_score"] for r in sc),
                                 lcp_kinds=dict(collections.Counter(r["lcp_kind"] for r in rs)),
                                 lcp_avg_kb=round(statistics.mean(lb) / 1000, 1) if lb else None,
                                 lcp_max_kb=round(max(lb) / 1000, 1) if lb else None,
@@ -311,8 +316,10 @@ def main():
                                 page_img_kb=round(statistics.mean(r["page_img_bytes"] for r in rs) / 1000, 1),
                                 page_img_after_kb=round(statistics.mean(r["page_img_bytes_after"] for r in rs) / 1000, 1),
                                 top_deductions=top.most_common(6))
-    st["sitewide_score"] = round(statistics.mean(r["media_score"] for r in page_rows), 1)
-    st["sitewide_score_after"] = round(statistics.mean(r["media_score_after"] for r in page_rows), 1)
+    scored = [r for r in page_rows if r["media_score"] != "N/A"]
+    st["na_pages"] = [r["url"] for r in page_rows if r["media_score"] == "N/A"]
+    st["sitewide_score"] = round(statistics.mean(r["media_score"] for r in scored), 1)
+    st["sitewide_score_after"] = round(statistics.mean(r["media_score_after"] for r in scored), 1)
     st["template_mean_score"] = round(statistics.mean(v["score"] for v in st["by_type"].values()), 1)
     st["template_mean_score_after"] = round(statistics.mean(v["score_after"] for v in st["by_type"].values()), 1)
     money = ["home", "purchase", "purchase_sub", "refinance", "refinance_sub", "product_hub", "product"]

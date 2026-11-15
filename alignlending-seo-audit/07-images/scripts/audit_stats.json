@@ -2,8 +2,11 @@
  "by_type": {
   "learn": {
    "pages": 471,
-   "score": 90.9,
+   "scored": 469,
+   "score": 87.0,
    "score_after": 98.6,
+   "score_min": 78,
+   "score_max": 100,
    "lcp_kinds": {
     "img": 467,
     "text": 4
@@ -20,6 +23,10 @@
    "page_img_kb": 355.2,
    "page_img_after_kb": 311.2,
    "top_deductions": [
+    [
+     "-4 hero srcset jumps 960w -> 1600w: phones at DPR >= 2.6 (94vw = 1,000-1,100 px) download the 1600 file",
+     466
+    ],
     [
      "-3 related-card srcset offers the 1600w hero to phones",
      465
@@ -39,17 +46,16 @@
     [
      "-6 LCP # (150-#",
      141
-    ],
-    [
-     "-3 fetchpriority=high on a non-LCP image",
-     47
     ]
    ]
   },
   "city": {
    "pages": 276,
-   "score": 73.8,
+   "scored": 276,
+   "score": 74.8,
    "score_after": 100.0,
+   "score_min": 68,
+   "score_max": 80,
    "lcp_kinds": {
     "img": 276
    },
@@ -65,7 +71,7 @@
    "page_img_after_kb": 117.9,
    "top_deductions": [
     [
-     "-1 hero sizes=100vw on a <=# container",
+     "-3 hero sizes=100vw: DPR-3 phones fetch the 1536w file (~#) for a photo under a 70-# overlay",
      276
     ],
     [
@@ -77,23 +83,26 @@
      276
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      276
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      276
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      276
     ]
    ]
   },
   "product": {
    "pages": 21,
+   "scored": 21,
    "score": 81.9,
    "score_after": 100,
+   "score_min": 74,
+   "score_max": 84,
    "lcp_kinds": {
     "img": 21
    },
@@ -137,8 +146,11 @@
   },
   "calculator": {
    "pages": 18,
-   "score": 83.7,
+   "scored": 18,
+   "score": 83.3,
    "score_after": 99.4,
+   "score_min": 74,
+   "score_max": 96,
    "lcp_kinds": {
     "text": 1,
     "img": 17
@@ -183,8 +195,11 @@
   },
   "county_hub": {
    "pages": 13,
-   "score": 70.5,
+   "scored": 12,
+   "score": 71.3,
    "score_after": 100,
+   "score_min": 65,
+   "score_max": 77,
    "lcp_kinds": {
     "text": 1,
     "img": 12
@@ -213,23 +228,26 @@
      12
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      12
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      12
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      12
     ]
    ]
   },
   "other": {
    "pages": 12,
-   "score": 80.2,
+   "scored": 12,
+   "score": 81.6,
    "score_after": 100,
+   "score_min": 75,
+   "score_max": 92,
    "lcp_kinds": {
     "img": 12
    },
@@ -263,19 +281,22 @@
      8
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      7
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      5
     ]
    ]
   },
   "purchase_sub": {
    "pages": 10,
-   "score": 75.7,
+   "scored": 10,
+   "score": 78.2,
    "score_after": 100,
+   "score_min": 77,
+   "score_max": 84,
    "lcp_kinds": {
     "img": 10
    },
@@ -308,19 +329,22 @@
      10
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      9
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      8
     ]
    ]
   },
   "research": {
    "pages": 4,
-   "score": 71.5,
+   "scored": 4,
+   "score": 74.5,
    "score_after": 100,
+   "score_min": 67,
+   "score_max": 77,
    "lcp_kinds": {
     "img": 4
    },
@@ -349,23 +373,26 @@
      4
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      4
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      4
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      4
     ]
    ]
   },
   "state_hub": {
    "pages": 3,
-   "score": 70.7,
+   "scored": 3,
+   "score": 73.7,
    "score_after": 100,
+   "score_min": 67,
+   "score_max": 77,
    "lcp_kinds": {
     "img": 3
    },
@@ -393,23 +420,26 @@
      3
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      3
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      3
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      3
     ]
    ]
   },
   "refinance_sub": {
    "pages": 3,
-   "score": 71.3,
+   "scored": 3,
+   "score": 74.3,
    "score_after": 100,
+   "score_min": 71,
+   "score_max": 77,
    "lcp_kinds": {
     "img": 3
    },
@@ -437,23 +467,26 @@
      3
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      3
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      3
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      3
     ]
    ]
   },
   "home": {
    "pages": 1,
-   "score": 61,
+   "scored": 1,
+   "score": 63,
    "score_after": 90,
+   "score_min": 63,
+   "score_max": 63,
    "lcp_kinds": {
     "css-bg": 1
    },
@@ -489,15 +522,18 @@
      1
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      1
     ]
    ]
   },
   "product_hub": {
    "pages": 1,
+   "scored": 1,
    "score": 78,
    "score_after": 100,
+   "score_min": 78,
+   "score_max": 78,
    "lcp_kinds": {
     "img": 1
    },
@@ -540,8 +576,11 @@
   },
   "purchase": {
    "pages": 1,
-   "score": 64,
+   "scored": 1,
+   "score": 67,
    "score_after": 100,
+   "score_min": 67,
+   "score_max": 67,
    "lcp_kinds": {
     "img": 1
    },
@@ -577,15 +616,18 @@
      1
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      1
     ]
    ]
   },
   "refinance": {
    "pages": 1,
-   "score": 74,
+   "scored": 1,
+   "score": 77,
    "score_after": 100,
+   "score_min": 77,
+   "score_max": 77,
    "lcp_kinds": {
     "img": 1
    },
@@ -613,25 +655,30 @@
      1
     ],
     [
-     "-5 #-the-fold image(s) lazy-loaded",
+     "-4 #-the-fold image(s) lazy-loaded",
      1
     ],
     [
-     "-2 small images >=2.4x their display size",
+     "-1 small images >=2.4x their display size",
      1
     ],
     [
-     "-3 JPEG/PNG photo on page",
+     "-2 JPEG/PNG photo on page",
      1
     ]
    ]
   }
  },
- "sitewide_score": 83.9,
+ "na_pages": [
+  "https://alignlending.com/learn/michigan-land-contract/",
+  "https://alignlending.com/learn/mortgage-glossary/",
+  "https://alignlending.com/mortgage-michigan/additional-cities/"
+ ],
+ "sitewide_score": 82.1,
  "sitewide_score_after": 99.2,
- "template_mean_score": 74.8,
+ "template_mean_score": 76.1,
  "template_mean_score_after": 99.1,
- "money_page_score": 72.3,
+ "money_page_score": 74.2,
  "money_page_score_after": 98.6,
  "pages": 835,
  "lazy_atf_by_type_image": {
