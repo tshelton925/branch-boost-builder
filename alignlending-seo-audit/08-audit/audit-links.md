@@ -2,7 +2,7 @@
 
 **Auditor:** independent auditor, 08-audit · **Date:** 2026-11-15 · **Read-only:** nothing on the live site was changed.
 **Scope:** `02-links/link-health-report.md`, `broken-links.csv` (242), `external-link-policy.csv` (1,849), `internal-link-fixes.csv` (56), and `article-linking-strategy.md`, `cluster-map.csv` (528), `link-insertions.csv` (252), `cannibalization.csv` (68), `city-guide-link-insertions.csv` (384).
-**Companion file:** `08-audit/corrections-links.csv` (row-level fixes: file, row_identifier, field, current_value, corrected_value, reason).
+**Companion file:** `08-audit/corrections-links.csv` (62 rows: file, row_identifier, field, current_value, corrected_value, reason).
 
 **Method.**
 - I re-derived every headline number with python (stdlib) from `$DATA`: `pages.jsonl` links by `region` and `kind`, `inlinks.json`, `link_graph.json`, `page_summary.csv`, `text/`, `external_status.jsonl` and the raw `site/home.html`. My scripts are in the scratchpad at `audit_links/`.
