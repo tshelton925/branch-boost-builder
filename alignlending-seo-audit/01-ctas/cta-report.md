@@ -1,7 +1,7 @@
 # CTA and conversion audit: alignlending.com
 
 Team: CTA and Conversion · Crawl date 2026-11-15 · Scope: all 835 pages in `page_summary.csv`, plus the `/start/` intake page they link to
-Files in this folder: `cta-report.md` (this file), `cta-inventory.csv` (309 label → destination rows), `cta-recommendations.csv` (444 implementation rows)
+Files in this folder: `cta-report.md` (this file), `cta-inventory.csv` (310 label → destination rows), `cta-recommendations.csv` (444 implementation rows)
 
 How this was done: Python (stdlib) over `pages.jsonl` (`ctas`, `links`, `outline`, `above_fold_text`), `page_summary.csv` (`type`) and the `text/` files. I placed each CTA against the H2 outline by matching its label in the body text. Raw HTML came from `site/*.html` (home, purchase, refinance, FHA, USDA article, Flint, Oakland County), plus 59 live fetches made one at a time, 2.5 s apart (`/start/`, 33 anchor targets, PDFs, 6 more pages). I also read GSC query data from DataWise (90 days). Scripts and fetched HTML are in the session scratchpad under `cta/`.
 
@@ -24,8 +24,8 @@ The losses come from four places:
 3. **Label drift.** One Calendly URL carries 62 different labels, and some labels promise something the destination does not deliver.
 4. **Long gaps with no next step** on city, learn and some product pages.
 
-**Destination check.** Of 309 label → destination pairs:
-- 222 are verified working.
+**Destination check.** Of 310 label → destination pairs:
+- 223 are verified working.
 - 0 are broken.
 - 15 are JavaScript buttons with no URL.
 - 72 are unverified, because the audit session's network proxy blocks calendly.com, alignwithalign.com, my1003app.com and the government tools.
@@ -81,7 +81,7 @@ I then subtracted documented judgment points. Products lose 10 for a generic pri
 | County hubs | 13 | **70 C** | **80 B** | 4 content CTAs with a median 1,394-word gap. `/mortgage-michigan/additional-cities/` (7,230 words) has no ATF CTA and a 7,204-word gap. |
 | State hubs | 3 | **85 B** | **82 B** | "Talk with Samantha" plus "Start with a few questions", and a CTA in 4 of 13 sections. The Florida page's "Send Samantha the address" opens Calendly. |
 | Learn articles and hubs | 471 | **55 F** | **68 D** | No action above the first H2 on 471 of 471 pages. The single module sits at a median 14% of the text and is keyed by category, not topic. 164 of 423 articles have an end block. Median length is 5,572 words, with a median longest gap of 3,630 words. |
-| Research | 4 | **80 B** | **80 B** | Download CTAs suit the audience (PDF and CSV verified, 206/200). Long reports have gaps of 2,895 to 15,739 words with no "talk" option. |
+| Research | 4 | **80 B** | **80 B** | Download CTAs suit the audience (PDF and CSV verified, 206/200). The three report pages have gaps of 2,089 to 15,739 words with no "talk" option. |
 | About, contact, reviews, legal ("other") | 12 | **80 B** | **80 B** | Contact, about and reviews are well built. Legal pages put email and phone first, which is correct. |
 
 ### 2b. Global elements
@@ -134,9 +134,9 @@ Calculator selection: DataWise exposes GSC queries only, not pages. I ranked the
 
 ## 3. Inventory highlights (`cta-inventory.csv`)
 
-- **Size:** 309 label → destination rows, 27,537 instances, 124 distinct destinations.
+- **Size:** 310 label → destination rows, 28,372 instances, 124 distinct destinations.
   - It includes the crawler's `ctas`: 12,590 after removing 112 reference links the crawler flagged only because they contain "contact us" or "schedule", 60 pager arrows and 1 skip link.
-  - It adds links the crawler did not class as CTAs: the 5 mega-menu actions, the chrome "Text" `sms:` link (824 pages), the home hero cards, learn end blocks (`al-next`), "start online" links, and verb-led card or inline CTAs.
+  - It adds links the crawler did not class as CTAs: the 5 mega-menu actions, the chrome "Text" `sms:` link (824 pages), the home hero cards, learn end blocks (`al-next`), "start online" links, the footer email link, and verb-led card or inline CTAs.
 - **Header (every page):** "Contact Us" twice, phone link twice (desktop number, mobile icon), "Apply Now" once (to `/start/` with or without `goal`), and the 5 alignwithalign.com menu actions.
 - **Footer:** phone `tel:+12485065727` (835) and email `mailto:samantha@alignlending.com`.
 - **Popup elementor-822:** the slide-in mobile menu. Full navigation, "Contact Us" and the same 5 alignwithalign.com actions. Section 7 covers how it opens.
@@ -160,14 +160,14 @@ Calculator selection: DataWise exposes GSC queries only, not pages. I ranked the
 
 | Destination group | Instances | Result | Evidence |
 |---|---|---|---|
-| `/start/` (`?goal=buy|refi|equity`, `&why=improve&from=home-equity`) | ~2,100 | **Works.** It is a `noindex` intake ("Let's start with what you're working on… About a minute… Nothing here checks your credit"). | Live 200. `window.alignStartCfg` reads `goal`, `stage`, `aim`, `why` and a whitelisted `from`. All goal values in use are valid. |
+| `/start/` (4 URL variants: none, `?goal=buy`, `?goal=refi`, `?goal=equity`) | 1,921 | **Works.** It is a `noindex` intake ("Let's start with what you're working on… About a minute… Nothing here checks your credit"). | Live 200. `window.alignStartCfg` reads `goal`, `stage`, `aim`, `why` and a whitelisted `from`. All goal values in use are valid. |
 | Real application | n/a | `https://alignlending.my1003app.com/1647301/register` and sign-in at `/1647301/pos` | Found only in `/start/` (`appHost`, `appPath`, header button). The host is blocked from this session, so it is unverified. **No page links `app.alignlending.com`**, so the brief's statement needs correcting. |
-| Internal pages (90 URLs) | ~6,000 | Works | All are in the crawl with status 200. |
-| Internal anchors (37) | 70 | **All present** | Each fragment's `id` was found in live HTML: `#break-even`, `#available-equity`, `#equity-compare`, `#affordability`, `#sell-timing`, `#cash-to-close`, `#readiness` (2 pages), `#rental-flow`, `#doc-readiness`, `#va-fee` (2), `#p-pay`, `#p-aff`, `#p-ref`, `#p-va`, `#p-bs`, `#p-dscr`, `#payoff`, `#mi-end`, `#mi-tax`, `#mi-transfer`, `#points-credit`, `#rent-buy`, `#seller-net`, `#usda-check`, `#loan-limits`, `#counties`, `#programs`, `#story`, `#subjects`, `#request`, `#writes`, `#tip-2/7/8`, `#text-messages`. |
-| PDFs and CSVs (guides, research, HELOC worksheet) | 50 | Works | 206/200 with `application/pdf`. |
+| Internal pages (58 URLs) | 4,746 | Works | All are in the crawl with status 200. |
+| Internal anchors (37) | 115 | **All present** | Each fragment's `id` was found in live HTML: `#break-even`, `#available-equity`, `#equity-compare`, `#affordability`, `#sell-timing`, `#cash-to-close`, `#readiness` (2 pages), `#rental-flow`, `#doc-readiness`, `#va-fee` (2), `#p-pay`, `#p-aff`, `#p-ref`, `#p-va`, `#p-bs`, `#p-dscr`, `#payoff`, `#mi-end`, `#mi-tax`, `#mi-transfer`, `#points-credit`, `#rent-buy`, `#seller-net`, `#usda-check`, `#loan-limits`, `#counties`, `#programs`, `#story`, `#subjects`, `#request`, `#writes`, `#tip-2/7/8`, `#text-messages`. |
+| PDFs and CSVs (7 files: guides, research, HELOC worksheet) | 48 | Works | 206/200 with `application/pdf`. |
 | `tel:` | 3,816 | **Correct everywhere** | Always `tel:+12485065727`. Display text varies: "248-506-5727" (2,142), "(248) 506-5727" (2 links plus `/start/` and the chrome panel), "Call", and "Call Align Lending at 248-506-5727" (aria label). Standardize the visible text on "248-506-5727" (P2). |
 | `sms:` | 825 | Format OK | `sms:+12485065727?&body=…` (the `?&` form works on iOS and Android). |
-| `mailto:` | 860 | Syntax OK | On-domain address, with subject lines on press and privacy. |
+| `mailto:` | 840 (835 footer) | Syntax OK | On-domain address, with subject lines on press and privacy. |
 | Calendly `calendly.com/samanthashelton` | 2,683 | **Unverified (host blocked)** | Single event-less URL with no UTM. |
 | alignwithalign.com (`/buy`, `/payment-lab`, `/own`, `/plan`, `/ask`) | 12,525 | **Unverified (host blocked)** | The crawl's own `external_status.jsonl` also has status 0 (ProxyError) for all 5. |
 | NMLS, VA.gov COE, USDA eligibility map, Fannie Mae AMI lookup, Google review link | 5 | Unverified (host blocked) | Primary-source tools, so the link choice is appropriate. |
@@ -213,7 +213,7 @@ GSC demand points at the clusters that matter most:
 - "lease to own": 15,242 impressions. That is the site's top query and ≈8% of 181K impressions.
 - USDA queries: ≈3,300.
 - FHA loan limits: ≈680.
-- "personal loans" (→ `/learn/personal-loan-vs-home-equity/`): 1,657.
+- "personal loans": 1,657, most likely landing on `/learn/personal-loan-vs-home-equity/` (no page dimension in DataWise).
 - Portfolio loans: ≈850.
 - "amortization": 315.
 
@@ -265,7 +265,7 @@ Payoff, VA payment and VA funding fee pages offer "Talk it through with Samantha
 
 **5.9 Calendly label sprawl on planning pages (medium, P1).**
 
-There are up to 6 labels for one Calendly URL per page (`/purchase/va-homebuyer-plan/`). 9 of 10 purchase sub-pages close with a generic "Talk through your own situation" block after their own talk block.
+There are up to 6 labels for one Calendly URL per page (`/purchase/va-homebuyer-plan/`). 6 of 10 purchase sub-pages close with a generic "Talk through your own situation" block after their own talk block.
 
 **5.10 Product labels are identical across 21 programs (medium, P1).**
 

@@ -22,7 +22,7 @@ Every agent on this project reads this file first. It defines the goal, the data
 - **Samantha Shelton**: Broker Owner and Senior Loan Originator, NMLS 1647301. She is the face, byline and voice of the site. Awards: Hall of AIME, NAMB Broker of the Year, Woman with Vision.
 - Trust strip used site-wide: "No credit pull to talk", "5.0 on Google, 123 reviews".
 - The primary CTA vocabulary currently in use: "Start my application", "Talk with Samantha", "Build my homebuyer game plan", "Talk through your options", header "Apply Now" / "Contact Us" / phone.
-- The application lives at `app.alignlending.com`.
+- Apply buttons go to `/start/` (a 1-minute questionnaire), which hands off to `alignlending.my1003app.com`. `app.alignlending.com` is not linked from any page (corrected by the CTA team). "Talk"/booking CTAs go to a single Calendly link. The header and mobile menu also link to `www.alignwithalign.com` (this session's network blocks it, so it is unverified).
 - Page inventory (crawled 2026-11-15, 901 live HTML URLs): 1 home, 275 city pages (`/mortgage-lender-<city>-mi/`) across 29 counties, 13 county hubs (`/mortgage-michigan/<county>/`), state hubs (MI, FL, NC), `/purchase/` + 10 sub-pages, `/refinance/` + 3 sub-pages, `/product-loans/` + ~22 product pages, ~16 calculators and tools, 472 `/learn/` URLs (articles + category hubs), 96 legacy WordPress posts at root slugs (not in the sitemap), research pages, and about/contact/reviews/legal pages.
 - 293 legacy `/mortgage-location/<city>-mi-<zip>/` URLs 301 to the new city pages.
 - GSC, last 90 days: 416 clicks, 181K impressions, avg position 28, 5,231 queries, 511 in striking distance. Impressions are growing fast from October 2026.

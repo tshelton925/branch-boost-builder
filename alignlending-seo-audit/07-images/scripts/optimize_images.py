@@ -33,10 +33,12 @@ Usage (run from any directory that is NOT img_raw; -I keeps cwd off sys.path):
                            (default), all heroes, or none
      --budget-mb 150       prune 1200 px city/page variants (then learn 1200) if the output
                            is larger than this, per the brief (keep 1600w + 768w)
+     --denoise-heavy       optional 3x3 median for heroes still >150 KB at q72 (off by default;
+                           ~25 % smaller, slight softening at 100 % zoom)
 """
 import argparse, csv, io, json, os, re, sys, shutil
 from concurrent.futures import ProcessPoolExecutor
-from PIL import Image, ImageCms, ImageOps
+from PIL import Image, ImageCms, ImageFilter, ImageOps
 
 HERO_W = 1600
 HERO_TARGET = 120_000
@@ -127,6 +129,19 @@ def resize_w(im, w):
     return im.resize((w, h), Image.LANCZOS, reducing_gap=3.0)
 
 
+def overlay_soften(im, stop=0.50, feather=0.12, radius=2.0):
+    """Home hero only: the template paints rgba(6,15,26,.80-.84) over the top 52-64 % of this
+    background, so detail there is invisible. Blur that band (feathered) so the encoder spends
+    its bits on the visible lower part of the photo."""
+    W, H = im.size
+    col = Image.new("L", (1, H))
+    for y in range(H):
+        t = y / H
+        a = 255 if t < stop else (0 if t > stop + feather else int(255 * (1 - (t - stop) / feather)))
+        col.putpixel((0, y), a)
+    return Image.composite(im.filter(ImageFilter.GaussianBlur(radius)), im, col.resize((W, H)))
+
+
 def q_search(im, target, qs=HERO_QS):
     data = None
     for q in qs:
@@ -207,8 +222,21 @@ def job_hero(args):
     rows = []
     im = load(path).convert("RGB")
     old = rec["bytes"]
+    extra_note = ""
+    src_im = im  # unsoftened copy for the og card (shared images have no overlay)
+    if kind == "hero-home":
+        im = overlay_soften(im)
+        extra_note = " Top half pre-softened (it sits under the template's 80-84% dark overlay); visible lower half untouched."
     big = resize_w(im, HERO_W)
     q, data, met = q_search(big, HERO_TARGET)
+    if rec.get("denoise_heavy") and len(data) > 150_000:
+        # optional (--denoise-heavy): grain-heavy AI images cannot reach 150 KB at q>=72; a 3x3 median
+        # removes the grain (~25 % smaller) with slight softening at 100 % zoom. Off by default.
+        med = big.filter(ImageFilter.MedianFilter(3))
+        q2, d2, met2 = q_search(med, HERO_TARGET)
+        if len(d2) < len(data):
+            big, q, data, met = med, q2, d2, met2
+            extra_note += " Denoised (3x3 median) because q72 alone stayed above 150 KB."
     wrong_size = im.width > HERO_W
     saving = 1 - len(data) / old
     folder = "learn" if kind == "hero-learn" else "heroes"
@@ -226,12 +254,13 @@ def job_hero(args):
         rows.append(dict(original_url=src, optimized_file=rel(p, out), new_suggested_filename=new_name,
                          old_bytes=old, new_bytes=len(data), new_px=f"{big.width}x{big.height}",
                          recommended_width_height_attrs=f'width="{big.width}" height="{big.height}"',
-                         upload_note=note_primary + ("" if met else f" Note: {len(data)//1000} KB at q{q}; 120 KB target not reachable at q>=72 for this detailed image."),
+                         upload_note=note_primary + extra_note + ("" if met else f" Note: {len(data)//1000} KB at q{q}; 120 KB target not reachable at q>=72 for this detailed image."),
                          role="primary", quality=q, target_met=met))
     else:
         rows.append(dict(original_url=src, optimized_file="", new_suggested_filename=new_name, old_bytes=old,
                          new_bytes=old, new_px=f"{im.width}x{im.height}", recommended_width_height_attrs=f'width="{im.width}" height="{im.height}"',
-                         upload_note=f"Keep current file: re-encode saved only {saving:.0%} (<20%).", role="kept", quality=q, target_met=len(data) <= HERO_TARGET))
+                         upload_note=(f"Keep current file: re-encode saved only {saving:.0%} (<20%)." + (" Grain-heavy image: WebP q72 cannot reach 150 KB without visible softening; re-export from the master file, or run with --denoise-heavy." if len(data) > 150_000 else "")),
+                         role="kept", quality=q, target_met=len(data) <= HERO_TARGET))
     # responsive variants (always built: they are new srcset candidates)
     for w in variants:
         if w >= big.width:
@@ -252,7 +281,7 @@ def job_hero(args):
     # og card
     if og and kind in ("hero-page", "hero-city", "hero-home"):
         if kind != "hero-city" or og == "all" or rec.get("used_off_city"):
-            c = og_crop(im)
+            c = og_crop(src_im)
             cd = jpeg_bytes(c, 80)
             on = og_name(name)
             p = os.path.join(out, "optimized", "og", on)
@@ -413,6 +442,7 @@ def main():
     ap.add_argument("--learn-variants", default="1200")
     ap.add_argument("--og", default="pages", choices=["none", "pages", "all"])
     ap.add_argument("--budget-mb", type=float, default=150.0)
+    ap.add_argument("--denoise-heavy", action="store_true", help="3x3 median on heroes still >150 KB at q72 (off by default)")
     a = ap.parse_args()
     out = os.path.abspath(a.out)
     data = os.path.abspath(a.data)
@@ -427,7 +457,7 @@ def main():
     imgs = json.load(open(os.path.join(data, "images.json")))
     hero_jobs, card_jobs, misc_jobs = [], [], []
     for r in imgs:
-        rec = dict(src=r["src"], bytes=r["bytes"], kind=classify(r["src"]), learn_variants=learn_variants,
+        rec = dict(src=r["src"], bytes=r["bytes"], kind=classify(r["src"]), learn_variants=learn_variants, denoise_heavy=a.denoise_heavy,
                    used_off_city=any("/mortgage-lender-" not in u for u in r.get("sample_pages", [])))
         path = os.path.join(raw_dir, os.path.basename(r["file"]))
         if rec["kind"].startswith("hero-"):

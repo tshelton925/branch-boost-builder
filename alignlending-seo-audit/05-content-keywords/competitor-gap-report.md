@@ -21,20 +21,23 @@ Companion files in this folder:
    - "michigan homestead property tax credit" has 1,600 a month at KD 0.
    - "michigan homestead exemption" (880) and "principal residence exemption" (590) are both KD 0. Align ranks 22.8–29.9 with a generic multi-state page.
 3. **The largest single national gap is "how to get pre approved for a home loan"** (12,100 a month, KD 22). The Mortgage Center, a lender in Southfield, MI, ranks #20. Align has two adjacent pages, but neither targets the how-to intent.
-4. **The Mortgage Reports and Gustan Cho win the question queries.** The Mortgage Reports holds position 1–2 on 51 relevant gaps: conventional guidelines (2,900), SSI and disability loans (720 + 590 + 590 + 480), "what disqualifies you from a home equity loan" (880), HELOC vs HEA (880) and letter of explanation (390 + 390). Gustan Cho holds 47 underwriting-guideline gaps: collections, charge-offs, bankruptcy waiting periods, VA manual underwriting and the HUD $100 down program.
+4. **The Mortgage Reports and Gustan Cho win the question queries.** The Mortgage Reports ranks 1–5 (mostly #2) on 51 relevant gaps: conventional guidelines (2,900), SSI and disability loans (720 + 590 + 590 + 480), "what disqualifies you from a home equity loan" (880), HELOC vs HEA (880) and letter of explanation (390 + 390). Gustan Cho ranks 1–8 on 47 relevant gaps, mostly underwriting guidelines: collections, charge-offs, bankruptcy waiting periods, VA manual underwriting and the HUD $100 down program.
 5. **People Also Ask is dominated by life-stage questions that no Align page answers:**
    - Age ("Can a 70 year old get a 20 year mortgage?") appeared in 9 of 15 seeds.
    - Salary affordability ("Can I afford a $300k house on a $70k salary?") appeared in 9 of 15.
    - "What should you not tell a mortgage lender?" appeared in 8 of 15.
    - "Extra $100 a month" appeared in 7 of 15.
 
-**What to do.** Publish **28 new pages**, ranked in section 6. Six are P0:
+**What to do.** Publish **28 new pages**, ranked in section 6. Nine are P0:
 1. How to get pre-approved in Michigan.
 2. The Michigan first-time buyer programs pillar.
 3. The MSHDA MI Home Loan explainer.
 4. The Michigan PRE guide.
 5. Closing costs in Michigan.
 6. The non-warrantable condo explainer.
+7. What disqualifies you from a home equity loan or HELOC.
+8. How much house you can afford in Michigan.
+9. Mortgages at 60, 70 or 80.
 
 Also **refresh 14 existing pages** with the exact titles, H1s and H2s in section 5. Start with the property tax calculator, `/learn/conventional-loans/`, `/purchase/first-time-homebuyer/` and `/purchase/down-payment-assistance/`.
 

@@ -257,6 +257,35 @@ def main():
         for r in sorted(page_rows, key=lambda r: (r["type"], r["url"])):
             w.writerow(r)
 
+    # ---------------------------------------------------------------- og:image map (implementation table)
+    trust = ("/about-us/", "/samantha-shelton/", "/reviews/", "/press/", "/contact-us/", "/licensing/", "/editorial-policy/")
+    with open(os.path.join(OUT, "og-image-map.csv"), "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["url", "type", "current_og_image", "current_kind", "recommended_og_file", "recommended_og_url_after_upload", "priority", "reason"])
+        for r in sorted(page_rows, key=lambda r: (r["type"], r["url"])):
+            k, lcp_full = r["og_kind"], (SITE + r["lcp_src"]) if r["lcp_src"].startswith("/") else r["lcp_src"]
+            if k == "1200x630-jpg":
+                rec, url2, pr, why = "keep", r["og_image"], "-", "Already a 1200x630 JPG share card."
+            elif lcp_full in og_files:
+                fn = og_files[lcp_full]
+                rec, url2 = fn, "/wp-content/uploads/2026/11/" + os.path.basename(fn)
+                pr = "P1" if r["type"] not in ("city",) else "P2"
+                why = ("Current og is a portrait headshot that crops to her torso at 1.91:1; use the page's own hero cropped to 1200x630." if k == "portrait"
+                       else "Current og is the %s hero WebP (%s); a 1200x630 JPG renders on every share target and matches og:image:width/height." % (r["lcp_px"], k))
+            elif k == "portrait":
+                share = "align-share-samantha-shelton-1200x630-1.jpg" if any(r["url"].endswith(t) for t in trust) else "align-share-home-1200x630-1.jpg"
+                rec, url2, pr = "existing:" + share, "/wp-content/uploads/2026/10/" + share, "P1"
+                why = "Page has no hero photo and uses the 683x1024 portrait; reuse the existing 1200x630 share card."
+            elif r["type"] == "learn":
+                rec, url2, pr = "keep (P2)", r["og_image"], "P2"
+                why = "16:9 WebP hero works on Google/Facebook/X; build JPG cards later with optimize_images.py --og all if LinkedIn shares matter."
+            elif k == "png-chart":
+                rec, url2, pr, why = "keep", r["og_image"], "P2", "Research chart PNG: confirm it is 1200x630 or larger; charts are good share images."
+            else:
+                rec, url2, pr = "keep (P2)", r["og_image"], "P2"
+                why = "City hero WebP; generate city cards with optimize_images.py --og all when convenient."
+            w.writerow([r["url"], r["type"], r["og_image"], k, rec, url2, pr, why])
+
     # ---------------------------------------------------------------- aggregates
     st = {}
     bt = collections.defaultdict(list)
