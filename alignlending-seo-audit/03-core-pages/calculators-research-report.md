@@ -885,3 +885,39 @@ Pitches should be drafted for Align's approval. Quotes must come from Samantha's
 - **Links team:** the 832 identical property-tax anchors.
 - **Images team:** wrong `primaryImageOfPage` on the property tax calculator (`align-hero-break-even-review-v2.webp`). The transfer-tax and USDA checks reuse `Samantha4-scaled.jpg`.
 - **CTA team:** the result-CTA map in 4.3 and the GA4 event spec.
+
+
+## Auditor corrections
+
+*Added by the independent auditor (08-audit), 2026-11-15. Full detail: `08-audit/audit-core-pages-B.md`. Row-level fixes: `08-audit/corrections-core-pages-B.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+- **Confirmed:**
+  - Hero CSS `min-height:620px; margin:24px 0 88px` (live, desktop; a ≤767px rule sets min-height to 0).
+  - The VA fee chart is absent from page text.
+  - 1.5% vs 36.0 mills = 1.8%, with the $75/month understatement on $300,000. The default appears on 3 calculators and 4 product pages.
+  - VA loan calculator 9 contextual inlinks; research hub 1, market report 2, methodology 4.
+  - Page-level GSC 849/53.5 and 86/41.5 (DataWise overview `top_pages`).
+  - Wayne County at $0.55 per $500.
+  - Every transfer-tax table row and every market-report statistic.
+- **Corrected: tax-label wording (rows 9, 24, 57).** "A taxable value of half the price" breaks the Editorial Policy's required wording (half the assessor's market value, "not automatically half the price you paid"). Exact replacements are in the CSV.
+- **Corrected: example labels.** Worked examples in rows 24, 45, 57 and 82 must open with the exact label "Hypothetical example, not an offer. Actual rates, costs and payments vary."
+- **Corrected: VA.gov check dates.** Row 67 says "checked against VA.gov on November 15, 2026", and row 69's caption gives the same date, but VA.gov was unreachable this session. Use `[DATE CHECKED]` with `[VERIFY]`.
+- **Corrected: compliance flags.** Rows 70 and 15 need `[COMPLIANCE REVIEW]` on the fee percentages.
+- **Corrected: rows.**
+  - Row 56: drop the duplicate fee-chart H2 on the VA loan calculator. The fee calculator owns "va funding fee chart".
+  - Row 110: meta rewritten (157 characters).
+  - Row 169 (P0) deleted: `/editorial-policy/` already links the methodology in content.
+  - Row 84: the link already exists.
+  - Row 16: the target `/loan-to-value-calculator/` does not exist yet.
+  - Row 172: brand suffix.
+  - F3: "35 VA learn articles" is really 34 Learn articles, about 8 of them VA-specific, out of 43 pages that link the fee calculator but not the loan calculator.
+- **New P0 gap.** The government non-affiliation disclaimer (guide 7.6) is missing on `/va-loan-calculator/`, `/va-funding-fee-calculator/`, `/usda-eligibility-check/` and `/loan-limits/`.
+- **Scores.** Internal linking sat below the rubric anchors (1-2 contextual inlinks = 40; below 40 only for orphans and broken links). Corrected:
+  - Internal linking: VA loan calc 32→55, refinance calc 38→52, research hub 30→42, market report 22→42.
+  - Accuracy: VA loan calc 70→58 (gate G2, not binding), USDA check 80→66.
+  - Overalls: refinance 70 C, VA loan calc 63 D, USDA check 75 C, research hub 79 C, market report 79 C.
+  - Re-score VA fee calculator and loan-limits accuracy for the missing disclaimer. External linking and Media are unscored.
+- **Conflicts.**
+  - Property tax title and H1 vs 05-content-keywords R1. Unified title "Michigan Property Tax Calculator: Estimate After You Buy" and H1 "Michigan Property Tax Calculator: Estimate Your Tax After You Buy", at P0.
+  - "Use the calculator" removal vs 01-ctas: follow guide 5.2, which retires it.
+  - Reviewer lines need `[DECISION: Align]`.

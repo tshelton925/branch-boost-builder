@@ -1295,3 +1295,37 @@ Counts: 440 change rows, 88 fact-check rows, 130 score rows.
 - https://alignlending.com/usda-eligibility-check/
 - DataWise GSC property 7faa6221b18546d9a3c4c6a4fd0ae4ed (queries, 90 days; searches: fha, usda, va loan, conventional, jumbo, homeready, buydown, physician, manufactured, adjustable, arm, 15 year, 30 year, align, conforming, loan types, funding fee)
 - DataWise People Also Ask: FHA loan Michigan; VA loan Michigan; USDA loan Michigan; jumbo loan limit Michigan 2027 (depth 2); conventional loan requirements; manufactured home loan Michigan; HomeReady mortgage; physician loan Michigan (depth 1)
+
+## Auditor corrections
+
+*Added by the independent auditor (08-audit), 2026-11-15. Full detail: `08-audit/audit-core-pages-B.md`. Row-level fixes: `08-audit/corrections-core-pages-B.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+- **Confirmed:**
+  - 92 USDA contextual inlinks; physician 2.
+  - "fifteen options" vs 21 listed.
+  - Literal "### Step 1-3" and "### In Michigan".
+  - 34 "Read the guide" anchors; 5 metas under 140.
+  - The Fannie Mae DU 620 removal (SEL-2025-09, casefiles on or after Nov 16, 2025).
+  - The CFPB comment 24(d)(1) reading that "no downpayment" does not trigger 1026.24(d), confirmed via search excerpts because consumerfinance.gov is blocked.
+- **Corrected: schema count.** MortgageLoan `areaServed` has 283 places, not 283 cities: 276 City, 6 State (the six licensed states) and 1 AdministrativeArea (live JSON-LD, `/product-loans/va-loans/`).
+- **Corrected: compliance flags.** Section 6 says down-payment and fee percentages are marked `[COMPLIANCE REVIEW]`, but only 7 of 440 rows carry the flag. Add it, or use the supplied no-percentage fallback, on:
+  - P0 subheads, metas and requirement H2s: rows 38, 44, 49, 127, 133, 169, 175, 178, 242, 248 (plus 24, 47, 52, 64, 137, 140, 193).
+  - Every "no down payment" row: 15, 84, 90, 92, 103, 136, 140, 203.
+  - The 30-year and 15-year name rows: 274, 276, 279, 280, 302, 304, 307.
+- **Corrected: three gaps that are now P0.**
+  1. Government non-affiliation disclaimer (guide 7.6, "P0 for the product teams") on FHA, VA, USDA and manufactured.
+  2. Stale 1.5% "statewide median" tax default on the VA, buydown and HomeReady calculators: the site's study gives 36.0 mills, which is 1.8% of market value.
+  3. Jumbo also says "Guidelines are set by the agency".
+- **Corrected: rows.**
+  - Rows 78 and 326 use a URL that does not exist (`/mortgage-lender-in-farmington-hills/` is the real page).
+  - Rows 401 and 402 (P0) and 161 add links that already exist.
+  - Row 155's "current: none" is wrong: the tool is already linked lower on the page.
+  - Row 215's 2027-announcement H2 goes stale; an evergreen version is supplied.
+  - USDA CTA label becomes the guide's "Check an address for USDA".
+  - The 620 cells (rows 80 and 202) are harmonized with Products B.
+- **Scores.** Accuracy re-scored (blind sample against the rubric anchors): FHA 84→64, VA 84→60, USDA 88→64, conventional 80→70. Overall: FHA 73 C, VA 73 C, **USDA 68 D**, conventional 73 C; section average 75 C unchanged. Re-score HomeReady, buydown and manufactured accuracy for the same defects. External linking and Media are unscored; score them or justify N/A.
+- **Conflicts.**
+  - Navigation: one unified Loans menu, with the footer per 02-links.
+  - USDA ownership: national "usda eligibility" stays with `/learn/usda-loan-basics/`, its ranking URL.
+  - Funding-fee chart: owned by `/va-funding-fee-calculator/`.
+  - "Reviewed by" line: needs an Align decision (guide 7.8).

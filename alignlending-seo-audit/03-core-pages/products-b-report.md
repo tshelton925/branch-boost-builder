@@ -1402,3 +1402,33 @@ Statuses: **KEEP** (no change), **RENAME** (same section, new heading), **NEW** 
 - A **"Mortgage after bankruptcy or foreclosure in Michigan"** non-QM child page. The hub currently answers this in one H2, and there is a PAA and GSC pattern around waiting periods.
 - An **Ohio bank statement loans** page: "ohio bank statement loans" draws 27 impressions at about position 70, and Align is licensed in Ohio.
 - City-page anchors: change "non-warrantable condo loan page" and "non-warrantable condo page" (19 links across 32 city pages) to "non-warrantable condo loans in Michigan" (city-page team).
+
+
+## Auditor corrections
+
+*Added by the independent auditor (08-audit), 2026-11-15. Full detail: `08-audit/audit-core-pages-B.md`. Row-level fixes: `08-audit/corrections-core-pages-B.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+- **Confirmed:**
+  - HELOC, 1099, asset-based and condo are absent from the header (desktop and mobile copies) and the footer. Physician and manufactured are also absent.
+  - The non-QM hub links 2 of 5 children.
+  - The HELOC editorial note.
+  - "Guidelines are set by the agency" on HEL, non-QM, DSCR and bank statement.
+  - DSCR has 0 sources.
+  - Inlinks 19/6/7/38.
+  - The cash-out 620 claim (Fannie Mae SEL-2025-09; Freddie Mac LPA has no minimum for Accept loans).
+- **Corrected: method.** The overall is an unweighted mean. With the rubric section 4 weights, the averages are 76.4 (weighted) and 76.2 after audit re-scores. Corrected page overalls: HELOC 77, HEL 75, cash-out 77, non-QM 72, DSCR 78, bank statement 75, 1099 78, asset-based 73, condo **80 B**. External linking and Media are unscored.
+- **Corrected: accuracy scores.** DSCR 76→68 and bank statement 76→64 (blind sample); asset-based 84→64 (reviews gap).
+- **Corrected: row 319.** The 1.5% tax default is not a P2 `[VERIFY]`: the site's own Uncapping Study shows it is wrong (36.0 mills = 1.8% of market value). Set it to 1.80 with the corrected label, at P0.
+- **New P0 gap.** `/product-loans/asset-based-income-loans/` shows "Taylor is the best ... great rates" and "Kevin was great!" (guide 7.7 names this page). Replace them with verbatim process reviews about Samantha.
+- **Corrected: copy.**
+  - Rows 364 and 407 "one of our non-QM loan options" becomes "other non-QM loan options" (guide 6 bans lender language).
+  - Row 314 needs `[COMPLIANCE REVIEW]`.
+  - Rows 73 and 241: remove the "(160)" and "(156)" from the exact text.
+  - Row 14 rewritten as a question H3 with an exact answer.
+  - Row 238 becomes "Calculate my DSCR".
+  - Row 456 anchor becomes "HOA rules for condo buyers".
+- **Corrected: schema count.** Row 470 is 276 City + 6 State + 1 AdministrativeArea (283 nodes), not "about 275".
+- **Corrected: link rows.** 59 of the 136 link rows (43%) add links that already exist in content. Relabel them "re-anchor/move", set them to P2, and do not count them as new inlinks.
+- **Conflicts.**
+  - Navigation: the unified menu replaces the section 4.3 groups (asset page label = final H1, "Asset Depletion Loans"). The footer follows 02-links section 5.2, which removes product links, so the footer additions here are superseded.
+  - Reviewed-by rows need `[DECISION: Align]` (guide 7.8).

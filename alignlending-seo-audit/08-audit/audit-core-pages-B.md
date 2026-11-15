@@ -299,7 +299,7 @@ The lowest-impact rows can wait for the backlog: the generic "Compare {program} 
   - Title "Michigan Property Tax Calculator: Estimate After You Buy" (56 characters).
   - H1 "Michigan Property Tax Calculator: Estimate Your Tax After You Buy".
   - Priority P0, with the calculators team as page owner.
-  - The fix for the 834 identical city anchors (C row 625 in the report) needs the city team's sign-off.
+  - The fix for the 834 identical city anchors (calculators report section 5.9, city-template anchor item) needs the city team's sign-off.
 
 **K4. Navigation** (Products A, Products B, 02-links section 5)
 - A adds Physician to the menu and footer. B adds Home equity and Non-QM groups and five footer items.
