@@ -1,0 +1,121 @@
+url,aspect,score,grade,rationale
+https://alignlending.com/purchase/,Intent & H1,84,B,"H1 'Buying a Home in Michigan' matches hub intent and is unique sitewide, but says nothing about mortgages or the next step."
+https://alignlending.com/purchase/,Heading structure,72,C,"Only 1 question heading; utility H2s ('Learn', 'Free guides', 'Other questions') carry no meaning; router omits VA, self-employed and down payment help."
+https://alignlending.com/purchase/,Above-the-fold answer,72,C,"107 ATF words: 'Start with a clear picture of what you can actually do' is a promise, not an answer; the Michigan bullets are strong."
+https://alignlending.com/purchase/,CTA effectiveness,78,C,'Build my homebuyer game plan' sends to an internal page while the same label books Calendly elsewhere; 'Start your pre-approval' is buried at the bottom.
+https://alignlending.com/purchase/,Title & meta,70,C,'Buying A Home In Michigan | Align Lending' (41) has no hook; 154-char meta is generic with no proof point.
+https://alignlending.com/purchase/,Internal linking,68,D,"32 outlinks but 3 of 10 sub-pages missing from the router; just 16 contextual inlinks, anchors mostly 'Purchase overview'."
+https://alignlending.com/purchase/,E-E-A-T & trust,74,C,Samantha + NMLS ATF and reviews present; no external sources (4 external links are Calendly/Google Maps); no visible updated date.
+https://alignlending.com/purchase/,AI-search readiness,60,D,"No FAQ, no FAQ schema; only one quotable Michigan paragraph (taxable value, transfer tax, MSHDA $10,000)."
+https://alignlending.com/purchase/,Accuracy & compliance,88,B,"$832,750 2026 conforming limit verified against FHFA; MSHDA 'up to $10,000' consistent; no rate or trigger terms."
+https://alignlending.com/purchase/,Overall (weighted),74,C,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: AI-search readiness 60, Internal linking 68."
+https://alignlending.com/purchase/first-time-homebuyer/,Intent & H1,45,F,H1 'You are not supposed to understand this yet' contains no topic words; GSC shows zero impressions for the head term 'first time home buyer michigan'.
+https://alignlending.com/purchase/first-time-homebuyer/,Heading structure,70,C,"11 question headings, but calculator labels are H4s ('Due at closing', 'Paid before you get there') and there is no programs, definition or credit-score section."
+https://alignlending.com/purchase/first-time-homebuyer/,Above-the-fold answer,55,F,"125 ATF words describe what a call covers; no program, cost or outcome is named before the first H2."
+https://alignlending.com/purchase/first-time-homebuyer/,CTA effectiveness,80,B,'Get my first-time buyer plan' is specific and benefit-led; 'See what it costs upfront' is a strong secondary; no path for buyers ready to apply.
+https://alignlending.com/purchase/first-time-homebuyer/,Title & meta,55,F,'First-Time Homebuyer Plan | Align Lending' has no 'Michigan'; meta is 128 chars with no benefit or proof.
+https://alignlending.com/purchase/first-time-homebuyer/,Internal linking,72,C,"26 outlinks and 53 contextual inlinks, but the down payment assistance page is only linked from a footer list, and learn articles do not defer to this page."
+https://alignlending.com/purchase/first-time-homebuyer/,E-E-A-T & trust,80,B,"Samantha bio, NMLS, MSHDA and CFPB sources, 6 reviews; Article+Person schema exists but no visible byline or updated date."
+https://alignlending.com/purchase/first-time-homebuyer/,AI-search readiness,66,D,"7 FAQ in schema, short answers; only one quotable Michigan fact block (MI 10K); no definition or program list for AI answers to cite."
+https://alignlending.com/purchase/first-time-homebuyer/,Accuracy & compliance,82,B,"MI 10K facts (640, paired with MI Home Loan, repaid on sale/refi/payoff/move) match MSHDA sources; not date-stamped; no rate or trigger terms."
+https://alignlending.com/purchase/first-time-homebuyer/,Overall (weighted),66,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 45, Above-the-fold answer 55."
+https://alignlending.com/purchase/homebuyer-game-plan/,Intent & H1,50,F,H1 'You do not have to be ready to talk to us' has no topic words; the branded eyebrow 'Michigan Homebuyer Game Plan' is not a searched phrase.
+https://alignlending.com/purchase/homebuyer-game-plan/,Heading structure,62,D,"Empty H2 from the assessment widget, 'How ready are you to buy a home ?' with a stray space, widget labels as H3s, 17 H2s in total."
+https://alignlending.com/purchase/homebuyer-game-plan/,Above-the-fold answer,68,D,"161 ATF words, the longest in the section; the 'walk away knowing' list is a strong outcome statement but the answer is buried."
+https://alignlending.com/purchase/homebuyer-game-plan/,CTA effectiveness,74,C,'Build my homebuyer game plan' books Calendly here but links to this page from the hub and process page; 16 CTAs on one page.
+https://alignlending.com/purchase/homebuyer-game-plan/,Title & meta,60,D,'Michigan Homebuyer Game Plan | Align Lending' targets a branded phrase with no search demand; meta 131 chars.
+https://alignlending.com/purchase/homebuyer-game-plan/,Internal linking,85,B,"492 contextual inlinks (most in the section) and a useful journey router, but inbound anchors are CTA phrases ('Build your homebuyer game plan' x308)."
+https://alignlending.com/purchase/homebuyer-game-plan/,E-E-A-T & trust,80,B,"Bio, NMLS, Michigan Treasury + CFPB sources, 5 reviews; no visible byline/date."
+https://alignlending.com/purchase/homebuyer-game-plan/,AI-search readiness,70,C,"9 FAQ, good direct answers on relocation and taxes; 'Talk to somebody' answer to the main question is thin on specifics."
+https://alignlending.com/purchase/homebuyer-game-plan/,Accuracy & compliance,85,B,Uncapping explanation and 60-day occupancy are accurate; duplicate assessment content with Readiness Review.
+https://alignlending.com/purchase/homebuyer-game-plan/,Overall (weighted),69,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 50, Title & meta 60."
+https://alignlending.com/purchase/budget-review/,Intent & H1,55,F,H1 'Affordability is not one number somebody hands you' omits the query; the first H2 'How much house can I comfortably afford?' carries it instead.
+https://alignlending.com/purchase/budget-review/,Heading structure,76,C,12 question headings in logical order; 'What you leave with' is decoration; FAQ 'What am I not willing to give up…' is not a searched question.
+https://alignlending.com/purchase/budget-review/,Above-the-fold answer,62,D,130 ATF words frame the idea well but give no method or outcome before the first H2.
+https://alignlending.com/purchase/budget-review/,CTA effectiveness,74,C,'Review my budget with someone' is vague about who; 'Run the numbers' anchor works.
+https://alignlending.com/purchase/budget-review/,Title & meta,55,F,'Homebuying Budget Review | Align Lending' matches no query; meta 133 chars.
+https://alignlending.com/purchase/budget-review/,Internal linking,80,B,"145 contextual inlinks; good learn links out, but no link to the affordability or mortgage calculator."
+https://alignlending.com/purchase/budget-review/,E-E-A-T & trust,80,B,"Bio, CFPB x2 + MSHDA sources, 5 reviews; no byline/date."
+https://alignlending.com/purchase/budget-review/,AI-search readiness,68,D,7 FAQ with short answers; method is described but no quotable step list.
+https://alignlending.com/purchase/budget-review/,Accuracy & compliance,86,B,MI 10K and taxable-value statements accurate; no trigger terms.
+https://alignlending.com/purchase/budget-review/,Overall (weighted),69,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 55, Title & meta 55."
+https://alignlending.com/purchase/mortgage-readiness-review/,Intent & H1,45,F,H1 'There is no such thing as calling too early' has no topic words and competes with Game Plan for the same intent.
+https://alignlending.com/purchase/mortgage-readiness-review/,Heading structure,60,D,Empty H2 and duplicated assessment headings; good question H2 'What should I do before applying for a mortgage?'.
+https://alignlending.com/purchase/mortgage-readiness-review/,Above-the-fold answer,58,F,104 ATF words of reassurance; no answer before the first H2.
+https://alignlending.com/purchase/mortgage-readiness-review/,CTA effectiveness,78,C,"'Start the conversation' + assessment, plus a genuinely low-friction 'Ask Samantha to check back' form."
+https://alignlending.com/purchase/mortgage-readiness-review/,Title & meta,58,F,'Mortgage Readiness Review | Align Lending' matches no query; meta 140.
+https://alignlending.com/purchase/mortgage-readiness-review/,Internal linking,74,C,"64 contextual inlinks and good outlinks, but they split equity with Game Plan."
+https://alignlending.com/purchase/mortgage-readiness-review/,E-E-A-T & trust,72,C,Only one source (AnnualCreditReport.com); bio and reviews present; one review's text was edited from the Google original.
+https://alignlending.com/purchase/mortgage-readiness-review/,AI-search readiness,66,D,Strong 4-item answer under the first H2; 5 FAQ; duplicate content dilutes it.
+https://alignlending.com/purchase/mortgage-readiness-review/,Accuracy & compliance,80,B,Facts fine; Jason Sych review text corrected ('insure i' → 'ensure I') versus the version on 6 other pages.
+https://alignlending.com/purchase/mortgage-readiness-review/,Overall (weighted),64,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 45, Above-the-fold answer 58."
+https://alignlending.com/purchase/self-employed-homebuyer/,Intent & H1,62,D,"H1 'Self-employed is different, not harder' names the audience but not mortgage, home loan or Michigan."
+https://alignlending.com/purchase/self-employed-homebuyer/,Heading structure,74,C,Logical question H2/H3s; 'Why the paperwork looks different' is vague; good FAQ set.
+https://alignlending.com/purchase/self-employed-homebuyer/,Above-the-fold answer,68,D,"118 ATF words: 'a documentation question, not a verdict' partly answers; no mention of two-year history or how income is counted."
+https://alignlending.com/purchase/self-employed-homebuyer/,CTA effectiveness,72,C,'Review my situation' does not say what is reviewed; 'See what is likely to come up' is a strong secondary.
+https://alignlending.com/purchase/self-employed-homebuyer/,Title & meta,60,D,'Self-Employed Homebuyer Plan | Align Lending' lacks 'mortgage' and 'Michigan'; meta 139.
+https://alignlending.com/purchase/self-employed-homebuyer/,Internal linking,62,D,Only 22 contextual inlinks; not in the hub router; good product outlinks.
+https://alignlending.com/purchase/self-employed-homebuyer/,E-E-A-T & trust,82,B,"Fannie Mae Selling Guide B3-3.2-01 and IRS transcript sources, bio, reviews."
+https://alignlending.com/purchase/self-employed-homebuyer/,AI-search readiness,74,C,Quotable two-year-history answer; 6 FAQ; income calculation not explained step by step.
+https://alignlending.com/purchase/self-employed-homebuyer/,Accuracy & compliance,88,B,Two-year rule and 12–24 month exception match Fannie B3-3.2-01; non-QM 'usually costs more' is fair.
+https://alignlending.com/purchase/self-employed-homebuyer/,Overall (weighted),71,C,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Title & meta 60, Intent & H1 62."
+https://alignlending.com/purchase/buy-before-you-sell/,Intent & H1,55,F,"H1 'You are coordinating two houses, not one' is evocative but has no query terms; the title carries 'Buy Before You Sell'."
+https://alignlending.com/purchase/buy-before-you-sell/,Heading structure,74,C,Strong first H2 'Do I sell first or buy first?'; H3 'Where does this go wrong most often?' repeats its H2.
+https://alignlending.com/purchase/buy-before-you-sell/,Above-the-fold answer,64,D,115 ATF words: sound advice ('do not list… until') but the options are not named before the first H2.
+https://alignlending.com/purchase/buy-before-you-sell/,CTA effectiveness,80,B,'Plan my move' and 'Work out the timing' fit the intent.
+https://alignlending.com/purchase/buy-before-you-sell/,Title & meta,60,D,'Buy Before You Sell | Align Lending' (35) has no Michigan or hook; meta 137.
+https://alignlending.com/purchase/buy-before-you-sell/,Internal linking,80,B,"78 contextual inlinks; links to HELOC, bridge-loan guide, seller net sheet and transfer tax calculator."
+https://alignlending.com/purchase/buy-before-you-sell/,E-E-A-T & trust,70,C,No 'Where these rules come from' section; agent review and bio present.
+https://alignlending.com/purchase/buy-before-you-sell/,AI-search readiness,72,C,'What are the actual ways people handle this?' lists the tools; no direct answer on how a bridge loan works.
+https://alignlending.com/purchase/buy-before-you-sell/,Accuracy & compliance,86,B,Transfer tax exemption and the 2024 commission-practice change are described correctly.
+https://alignlending.com/purchase/buy-before-you-sell/,Overall (weighted),70,C,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 55, Title & meta 60."
+https://alignlending.com/purchase/va-homebuyer-plan/,Intent & H1,45,F,H1 'You do not need to apologize for using a benefit you earned' omits 'VA loan' and 'Michigan'; Michigan VA queries sit at positions 49–69.
+https://alignlending.com/purchase/va-homebuyer-plan/,Heading structure,66,D,"Only 4 FAQ; no eligibility, entitlement or 'downside' sections that searchers ask about."
+https://alignlending.com/purchase/va-homebuyer-plan/,Above-the-fold answer,52,F,"65 ATF words, no Samantha/NMLS line (the only purchase page without it), no answer."
+https://alignlending.com/purchase/va-homebuyer-plan/,CTA effectiveness,78,C,'Talk to somebody who knows VA' and 'See your funding fee' fit the intent.
+https://alignlending.com/purchase/va-homebuyer-plan/,Title & meta,50,F,'VA Homebuyer Plan | Align Lending' (33) has no 'loan' or 'Michigan'; meta 127.
+https://alignlending.com/purchase/va-homebuyer-plan/,Internal linking,60,D,"18 contextual inlinks, the lowest in the section; missing from the hub router."
+https://alignlending.com/purchase/va-homebuyer-plan/,E-E-A-T & trust,76,C,"VA COE, VA home loans and Michigan Treasury sources; ATF trust line incomplete."
+https://alignlending.com/purchase/va-homebuyer-plan/,AI-search readiness,68,D,"Excellent quotable Michigan exemption answer (MCL 211.7b, Form 5107) and funding-fee calculator; few other direct answers."
+https://alignlending.com/purchase/va-homebuyer-plan/,Accuracy & compliance,88,B,"Funding fee schedule since April 7, 2023 and exemption categories match VA (confirmed via secondary sources; va.gov blocked here)."
+https://alignlending.com/purchase/va-homebuyer-plan/,Overall (weighted),63,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 45, Title & meta 50."
+https://alignlending.com/purchase/investment-property-financing/,Intent & H1,50,F,"H1 'Buy it because the numbers work, not because you like the house' has no query terms; title 'Investment Property Financing' is closer."
+https://alignlending.com/purchase/investment-property-financing/,Heading structure,68,D,"H4 widget label 'Every month, whoever is in it'; vague H2 'The part people skip'; no rental-income or DSCR section."
+https://alignlending.com/purchase/investment-property-financing/,Above-the-fold answer,60,D,127 ATF words open with a quote and a question; no financing facts above the fold.
+https://alignlending.com/purchase/investment-property-financing/,CTA effectiveness,80,B,'Review a property with us' and 'See what the property produces' match intent.
+https://alignlending.com/purchase/investment-property-financing/,Title & meta,62,D,Title lacks Michigan; meta 133 chars with curly quotes and no proof.
+https://alignlending.com/purchase/investment-property-financing/,Internal linking,72,C,"63 contextual inlinks, but the CTA anchor 'Review an investment property' accounts for 100 inbound link instances, so almost none describe the topic."
+https://alignlending.com/purchase/investment-property-financing/,E-E-A-T & trust,80,B,"Fannie Mae B3-3.1-08 and IRS Pub 527 sources; no review quote, only a link."
+https://alignlending.com/purchase/investment-property-financing/,AI-search readiness,70,C,"Non-homestead millage answer is quotable; no direct answers on down payment, rental income or DSCR."
+https://alignlending.com/purchase/investment-property-financing/,Accuracy & compliance,88,B,Non-homestead school operating millage statement is correct; no trigger terms.
+https://alignlending.com/purchase/investment-property-financing/,Overall (weighted),68,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 50, Above-the-fold answer 60."
+https://alignlending.com/purchase/renovation-financing/,Intent & H1,50,F,H1 'You are not just financing the house. You are financing a plan for it' contains no program or query terms.
+https://alignlending.com/purchase/renovation-financing/,Heading structure,76,C,Good question H2s and a strong 7-question FAQ; no H2 per program.
+https://alignlending.com/purchase/renovation-financing/,Above-the-fold answer,62,D,129 ATF words warn before answering; programs only named below the first H2.
+https://alignlending.com/purchase/renovation-financing/,CTA effectiveness,72,C,Secondary 'Start with a few questions' sends exploratory visitors to the application flow /start/?goal=buy.
+https://alignlending.com/purchase/renovation-financing/,Title & meta,58,F,'Renovation Financing Review | Align Lending' matches no query; no 203(k)/HomeStyle or Michigan.
+https://alignlending.com/purchase/renovation-financing/,Internal linking,70,C,40 contextual inlinks; program cards link to generic FHA/conventional pages; 203(k) and HomeStyle learn guides not linked.
+https://alignlending.com/purchase/renovation-financing/,E-E-A-T & trust,82,B,"HUD, Fannie Mae and Freddie Mac sources; bio; reviews."
+https://alignlending.com/purchase/renovation-financing/,AI-search readiness,70,C,"Specific draw-schedule answer; no program figures such as the $75,000 limited 203(k) cap."
+https://alignlending.com/purchase/renovation-financing/,Accuracy & compliance,86,B,Program descriptions correct; HUD consultant requirement correct; limits missing rather than wrong.
+https://alignlending.com/purchase/renovation-financing/,Overall (weighted),68,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Intent & H1 50, Title & meta 58."
+https://alignlending.com/purchase/down-payment-assistance/,Intent & H1,85,B,"H1 'Down Payment Assistance Programs in Michigan' is an exact match, but the content beneath it names no Michigan program."
+https://alignlending.com/purchase/down-payment-assistance/,Heading structure,62,D,Generic type-of-help H2s; no H2 for MSHDA or eligibility; link cards marked up as H3s under 'Planning the cash side'.
+https://alignlending.com/purchase/down-payment-assistance/,Above-the-fold answer,58,F,"80 ATF words define kinds of help; no program, amount or eligibility; no Samantha line."
+https://alignlending.com/purchase/down-payment-assistance/,CTA effectiveness,68,D,Primary 'Check my down payment options' opens the application flow (/start/?goal=buy) for an informational visitor; 'Call Samantha' tel link is good.
+https://alignlending.com/purchase/down-payment-assistance/,Title & meta,72,C,"Title 51 chars with keyword; meta 142 chars but no MSHDA, MI 10K or proof."
+https://alignlending.com/purchase/down-payment-assistance/,Internal linking,68,D,"72 contextual inlinks (48 from city pages), but the 135-inlink grants article and HomeReady product page do not link here."
+https://alignlending.com/purchase/down-payment-assistance/,E-E-A-T & trust,55,F,"No bio, no review quotes, no MSHDA source (only CFPB x2), no byline or date; trust strip says 'No credit check to ask' vs the sitewide 'No credit pull to talk'."
+https://alignlending.com/purchase/down-payment-assistance/,AI-search readiness,45,F,"5 generic FAQ; nothing quotable about Michigan, so AI answers cite MSHDA and Bankrate instead."
+https://alignlending.com/purchase/down-payment-assistance/,Accuracy & compliance,70,C,Statements are accurate but omit the state program other Align pages cite; Align's MSHDA participation is not stated.
+https://alignlending.com/purchase/down-payment-assistance/,Overall (weighted),65,D,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: AI-search readiness 45, E-E-A-T & trust 55."
+https://alignlending.com/mortgage-process/,Intent & H1,72,C,H1 'How the mortgage process actually works' matches 'mortgage process' but omits Michigan and 'step by step'.
+https://alignlending.com/mortgage-process/,Heading structure,72,C,"7 question headings, but H2 groupers ('Preapproval and paperwork', 'Money and timing') instead of numbered steps."
+https://alignlending.com/mortgage-process/,Above-the-fold answer,78,C,"102 ATF words and the first sentence is a real answer: 'Talk first, then the paperwork, then the house, then title, appraisal and underwriting before closing.'"
+https://alignlending.com/mortgage-process/,CTA effectiveness,76,C,"'Start with a conversation' plus game plan; no path to preapproval for ready buyers, which this page attracts."
+https://alignlending.com/mortgage-process/,Title & meta,74,C,"'Our Mortgage Process, Step By Step | Align Lending' (50) lacks Michigan; meta 153 is good."
+https://alignlending.com/mortgage-process/,Internal linking,58,F,Only 15 contextual inlinks; no learn process article links here.
+https://alignlending.com/mortgage-process/,E-E-A-T & trust,66,D,"No external sources at all, no byline or updated date."
+https://alignlending.com/mortgage-process/,AI-search readiness,66,D,"Direct answers under questions, but no numbered step list, no FAQ schema, no TRID facts to quote."
+https://alignlending.com/mortgage-process/,Accuracy & compliance,70,C,'Over the last 12 months Samantha's loans averaged under 14 days from application to clear to close' is an unsourced performance claim.
+https://alignlending.com/mortgage-process/,Overall (weighted),71,C,"Weights: Intent & H1 15, ATF 15, all others 10. Weakest: Internal linking 58, E-E-A-T & trust 66."
