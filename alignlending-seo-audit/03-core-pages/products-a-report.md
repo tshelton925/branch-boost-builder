@@ -12,11 +12,11 @@ Read-only: nothing here has been changed on the live site. All replacement copy 
 
 Top five findings:
 
-1. **Above-the-fold copy hides the deciding facts.** None of the six priority pages states its key requirement in the first 60 words: no 580/3.5% on FHA, no "no down payment" on VA or USDA, no income limit on USDA, no 620/3%/PMI rule on conventional. VA and USDA use the euphemism "down payment options for eligible borrowers", which CFPB commentary shows is unnecessary: "no downpayment" does not trigger Reg Z disclosures (comment 24(d)(1)-1.ii).
+1. **Above-the-fold copy hides the deciding facts.** Five of the six priority pages state no requirement in the first 60 words (jumbo gives only the $832,750 threshold): no 580/3.5% on FHA, no "no down payment" on VA or USDA, no income limit on USDA, no 620/3%/PMI rule on conventional. VA and USDA use the euphemism "down payment options for eligible borrowers", which CFPB commentary shows is unnecessary: "no downpayment" does not trigger Reg Z disclosures (comment 24(d)(1)-1.ii).
 2. **USDA demand is going to the wrong URLs.** "usda eligibility" (576 imprs, pos 11.1) and "usda rural development loan" (335, pos 13.9) map to /learn/usda-loan-basics/, while /product-loans/usda-loans/ has 92 contextual inlinks, does not link that article, and sends its mid-page CTA to the external USDA map instead of the site's own Michigan eligibility tool.
 3. **Physician page is nearly orphaned** (2 contextual inlinks, 4 total), and its matching guide /learn/physician-mortgage-loans/ does not link to it. The 15-year (13), ARM (15), buydown (24) and 30-year (27) pages are also thinly linked, and none links the learn article that already ranks for its comparison query.
 4. **One outdated fact, one wrong number, one rendering bug.** Conventional and FHA pages say credit below 620 is "usually declined" / "usually 620", but Fannie Mae removed DU's 620 minimum for casefiles created on or after Nov 16, 2025 (SEL-2025-09). The hub promises to "narrow fifteen options" while listing 21. The manufactured-home page shows four headings as literal "### Step 1…" text.
-5. **Template headings and markup dilute every page.** "Key benefits", "Guidelines for this loan", "Questions about this loan", "Start with your question", "Learn", "Other loan options" plus three process-step H3s repeat on 11 pages; 42 "Read the guide" card anchors; MortgageLoan schema lists 283 cities per page; no page shows a reviewer or updated date.
+5. **Template headings and markup dilute every page.** "Key benefits", "Guidelines for this loan", "Questions about this loan", "Start with your question", "Learn", "Other loan options" plus three process-step H3s repeat on 10 pages; 34 "Read the guide" card anchors; MortgageLoan schema lists 283 cities per page; no page shows a reviewer or updated date.
 
 Loan limits: FHFA has not announced 2027 limits as of today (it announces in late November). All copy uses 2026 limits ($832,750 conforming, $541,287 FHA) with a same-day update plan in section 6.
 
@@ -55,7 +55,7 @@ Grades: A 90–100 · B 80–89 · C 70–79 · D 60–69 · F <60. Each score's
 | 8 | P1 | high | Product pages do not link the learn articles/tools Google already ranks | No link: USDA→/learn/usda-loan-basics/, HomeReady→/learn/homeready-mortgages/ (pos 6.5), 15-year→/learn/15-year-vs-30-year-mortgage-comparison/ (pos 6.1), conventional→/pmi-removal-calculator/, FHA→/learn/fha-loan-limits/ | Exact anchors per page in section 7 and the changes CSV. |
 | 9 | P1 | medium | Titles lead with "Broker" and 5 metas are under 140 chars | FHA/VA/USDA/jumbo titles "Michigan X Loan Broker"; metas 103-137 chars on 30-year, VA, USDA, jumbo, ARM | New titles/metas (all ≤60 / 140-160). |
 | 10 | P1 | medium | No reviewer or visible updated date on any page | byline=None, visible_updated=None (13/13) | Add "Reviewed by Samantha Shelton, Broker Owner, NMLS 1647301 · Updated November 2026" and `reviewedBy` schema. |
-| 11 | P1 | medium | Generic template headings and "Read the guide" anchors | 11 pages share 6 generic H2s + 3 process H3s; 42 "Read the guide" anchors | Section 5 template changes. |
+| 11 | P1 | medium | Generic template headings and "Read the guide" anchors | 10 pages share 6 generic H2s + 3 process H3s; 34 "Read the guide" anchors | Section 5 template changes. |
 | 12 | P1 | medium | MortgageLoan schema lists 283 cities | FHA raw HTML: areaServed 283 City nodes; page HTML ~400 KB | areaServed: State Michigan. |
 | 13 | P1 | medium | Reg Z trigger terms need a compliance decision | CFPB comment 24(d)(1): "30-year mortgage" is a repayment-period trigger; 15-year/30-year pages use it in H1/title | Section 6: counsel decision; no rename recommended without it. |
 | 14 | P2 | low | VA page Michigan exemption link likely outdated | links /taxes/property/exemptions/homeowner/disabled-veteran-exemption; Treasury page now at /taxes/property/exemptions/veterans/disabled-veterans-exemption | Update link. |
@@ -84,11 +84,11 @@ Grades: A 90–100 · B 80–89 · C 70–79 · D 60–69 · F <60. Each score's
 
 Bing: no Bing Webmaster export is connected, so no Bing positions are claimed. Bing weighs exact-match titles and visible dates more than Google; the title and reviewer/updated-date changes help there. A Bing export is needed to confirm.
 
-## 5. Sitewide template changes (11 template pages; physician and manufactured use a newer template)
+## 5. Sitewide template changes (10 template pages; the hub, physician and manufactured pages use other templates)
 
 | Current | Recommended exact | Why |
 |---|---|---|
-| H2 Key benefits | H2 Why Michigan buyers choose {program}  (ARM/jumbo/buydown: How {program} works) | Entity in heading; "Key benefits" repeats on 11 pages. |
+| H2 Key benefits | H2 Why Michigan buyers choose {program}  (ARM/jumbo/buydown: How {program} works) | Entity in heading; "Key benefits" repeats on 10 pages. |
 | H2 Guidelines for this loan + label H3s (Credit Score, DTI Ratio …) | H2 What are the {program} requirements in Michigan? + 40-60-word answer + requirements table (rows, not headings) | Question-led; matches "{program} requirements michigan" queries; removes 4-5 label H3s per page. |
 | H2 Check the rules at the source | H2 Where we check {program} rules | Entity-specific; keeps the Sources function. |
 | H2 Questions about this loan | H2 {Program} questions Michigan buyers ask | Entity + location. |
@@ -96,7 +96,7 @@ Bing: no Bing Webmaster export is connected, so no Bing positions are claimed. B
 | H2 Start with your question | H2 Plan your next step | Clearer label. |
 | H2 Learn | H2 {Program} guides from the Learn Center | Entity. |
 | H2 Other loan options | H2 Compare {program} with other Michigan loans | Entity. |
-| Card links ending "Read the guide" | Descriptive inline anchors per row (exact anchors in section 7) | 42 generic anchors. |
+| Card links ending "Read the guide" | Descriptive inline anchors per row (exact anchors in section 7) | 34 generic anchors. |
 | No reviewer/date | Reviewed by Samantha Shelton, Broker Owner, NMLS 1647301 · Updated November 2026 | E-E-A-T and freshness. |
 | MortgageLoan areaServed = 283 City nodes | areaServed = State Michigan | Lean schema. |
 
@@ -175,7 +175,7 @@ PAA used: Where is the best place to get a mortgage loan?; What type of loan is 
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Michigan Mortgage Loan Programs | Align Lending | Michigan Mortgage Loan Programs | Align Lending | 47 |
+| Title | Michigan Mortgage Loan Programs \| Align Lending | Michigan Mortgage Loan Programs \| Align Lending | 47 |
 | Meta | Compare Michigan home loans: conventional, FHA, VA, USDA, jumbo, non-QM, fixed and adjustable terms, and home equity. Start with what you are trying to do. | Compare Michigan home loans side by side: conventional, FHA, VA, USDA, jumbo, non-QM and home equity. Start with your goal. No credit pull to talk. | 147 |
 
 **Fact check.**
@@ -184,7 +184,7 @@ PAA used: Where is the best place to get a mortgage loan?; What type of loan is 
 |---|---|---|---|---|
 | Conforming limit used for jumbo threshold | $832,750 (2026), every Michigan county | $832,750 one-unit baseline for 2026; no Michigan high-cost county. 2027 not yet announced (FHFA announces late Nov). | https://www.fhfa.gov/news/news-release/fhfa-announces-conforming-loan-limit-values-for-2026 | correct (flag for 2027 update) |
 | Number of options Samantha narrows | "narrow fifteen options" | The hub lists 21 program cards (21 product URLs) | https://alignlending.com/product-loans/ | wrong (internal inconsistency) |
-| HomeReady/Home Possible income rule | households at or under 80% of AMI | 80% of AMI for the property location (Fannie B5-6-01; Freddie Home Possible) | https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility | correct |
+| HomeReady/Home Possible income rule | households at or under 80% of AMI | 80% of AMI for the property location (Fannie B5-6-01; Freddie Home Possible) | https://ask-poli.fanniemae.com/Selling-Guide/Origination-thru-Closing/Subpart-B5-Unique-Eligibility-Underwriting-Considerations/Chapter-B5-6-HomeReady-Mortgage/1032997081/B5-6-01-HomeReady-Mortgage-Loan-and-Borrower-Eligibility-04-06-2022.htm | correct |
 | FHA mortgage insurance can last life of loan | can last the life of the loan | Life of loan when LTV > 90% at origination; 11 years at ≤ 90% | https://archives.hud.gov/news/2023/pr23-041.cfm | correct |
 | VA: no monthly MI; funding fee unless exempt | as stated | Correct per VA | https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/ | correct |
 | Temporary buydown: first one to three years; qualify at full payment | as stated | Fannie B2-1.4-04: max 3 years; B3-6-04: qualify at note rate | https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns | correct |
@@ -273,7 +273,7 @@ PAA used: How to qualify for an FHA loan in Michigan?; What disqualifies you fro
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Michigan FHA Loan Broker | Align Lending | FHA Loans in Michigan: 2026 Limits & Rules | Align Lending | 58 |
+| Title | Michigan FHA Loan Broker \| Align Lending | FHA Loans in Michigan: 2026 Limits & Rules \| Align Lending | 58 |
 | Meta | FHA loans in Michigan, explained: flexible credit requirements, low down payment options, and when FHA mortgage insurance does and does not come off. | FHA loans in Michigan: 580 credit for 3.5% down, a $541,287 limit in every county for 2026, and when FHA mortgage insurance ends. No credit pull to talk. | 153 |
 
 **Fact check.**
@@ -291,7 +291,7 @@ PAA used: How to qualify for an FHA loan in Michigan?; What disqualifies you fro
 | Conventional PMI: request at 80%, auto at 78% | as stated | Homeowners Protection Act | https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/ | correct |
 | FHA credit score models | not on page | ML 2026-11 adds FICO 10T and VantageScore 4.0 for case numbers on/after 1/1/2027; minimums unchanged | https://www.hud.gov/sites/default/files/hudclips/documents/2026-11hsgml.pdf | add (new for 2027) |
 | Michigan taxable value uncaps to half of market value the year after sale | as stated | Taxable value uncaps to SEV (50% of true cash value) the year after a transfer | https://www.michigan.gov/taxes/property/change-ownership | correct |
-| Gift funds can cover 100% of down payment and closing | as stated | FHA allows gifts from family, employer, approved programs | https://www.hud.gov/hud-partners/single-family-handbook-4000-1 | correct |
+| Gift funds can cover 100% of down payment and closing | as stated | FHA allows gifts from family, employer, approved programs | https://www.hud.gov/sites/default/files/Housing/documents/40001-hsgh-Update-18.pdf | correct |
 
 **Schema.** MortgageLoan (#loan): keep name/loanType/provider/description; REPLACE the 283-item City areaServed with `"areaServed": {"@type": "State", "name": "Michigan"}`; add `"amount": {"@type": "MonetaryAmount", "maxValue": 541287, "currency": "USD"}` (2026 one-unit limit, update yearly) and `"loanTerm"` omitted (Reg Z). FAQPage: regenerate from the visible FAQ (9 questions incl. 3 new; remove the limit question that moved to an H2, or keep it in both visible FAQ and schema). WebPage: add `reviewedBy` → #person and keep `dateModified`.
 
@@ -413,7 +413,7 @@ Exempt: veterans receiving VA compensation for a service-connected disability (o
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Michigan VA Loan Broker | Align Lending | VA Loans in Michigan: Eligibility & Fees | Align Lending | 56 |
+| Title | Michigan VA Loan Broker \| Align Lending | VA Loans in Michigan: Eligibility & Fees \| Align Lending | 56 |
 | Meta | VA loans in Michigan for veterans and service members: eligibility, the funding fee and who is exempt, and how entitlement is restored. | VA loans in Michigan: who is eligible, why full entitlement means no down payment or monthly mortgage insurance, and who is exempt from the VA funding fee. | 155 |
 
 **Fact check.**
@@ -492,7 +492,7 @@ PAA used: What disqualifies you from a USDA loan?; Why would a USDA loan get den
 | H3 | KEEP | Does USDA charge mortgage insurance like FHA does? | Add the figures: "a 1% upfront guarantee fee and a 0.35% annual fee". [COMPLIANCE REVIEW: fee percentages] |
 | H3 | KEEP | What does Michigan add to a USDA purchase? |  |
 | H3 | NEW | What disqualifies you from a USDA loan? | Most often the address or the income: a home outside USDA's eligible map, or household income above the county limit. Other common reasons are owning a home in the area that meets your needs, a payment that does not fit USDA's ratios, or a property that is an investment or has an income-producing use. |
-| H3 | NEW | Is USDA or FHA better? | If the address and household income both qualify, USDA usually costs less: no down payment, a 1% upfront fee instead of FHA's 1.75%, and a 0.35% annual fee instead of FHA's annual premium. FHA wins when the home is outside a USDA area or the household earns over the limit. |
+| H3 | NEW | Who pays closing costs on a USDA loan? | You do, unless the seller or a lender credit covers them. USDA allows seller-paid closing costs, and because USDA lends up to the appraised value, costs can sometimes be financed when the appraisal comes in above the price. Ask for seller help in your offer; Samantha sizes the request. [VERIFY: seller-contribution limit in HB-1-3555] |
 | H3 | NEW | How long does USDA approval take? | Longer than FHA or conventional, because the lender approves the file and then USDA issues its own guarantee commitment. Plan for extra days in the contract timeline. [VERIFY: current USDA Michigan state-office turn time before quoting a number] Samantha builds that step into the closing date from the start. |
 | H2 | KEEP | What our clients say | Keep. Prefer reviews that mention this loan type or a Michigan city; never edit review text. |
 | H2 | KEEP | Ask Samantha whether this loan fits | Keep the H2 and its one-line brief. |
@@ -519,7 +519,7 @@ Source: USDA fiscal 2026 moderate income limits (HB-1-3555 Appendix 5), as publi
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Michigan USDA Loan Broker | Align Lending | USDA Rural Development Loans in Michigan | Align Lending | 56 |
+| Title | Michigan USDA Loan Broker \| Align Lending | USDA Rural Development Loans in Michigan \| Align Lending | 56 |
 | Meta | USDA loans in Michigan: which addresses and incomes qualify, how the upfront and annual fees work, and how USDA compares with FHA. | USDA loans in Michigan: no down payment, a $122,800 income limit for 1 to 4 people in most counties, the 1% and 0.35% fees, and a free address check. | 149 |
 
 **Fact check.**
@@ -527,11 +527,11 @@ Source: USDA fiscal 2026 moderate income limits (HB-1-3555 Appendix 5), as publi
 | Claim | On page | Verified value | Source | Status |
 |---|---|---|---|---|
 | Income limits typically cap at 115% of AMI | 115% of area median | Guaranteed program: adjusted income ≤ 115% of median (moderate income) | https://www.rd.usda.gov/programs-services/single-family-housing-guaranteed-loan-program/mi | correct |
-| FY2026 Michigan income limit (most counties) | not on page (on /usda-eligibility-check/) | $122,800 (1–4) / $162,100 (5–8); higher in 6 counties | https://www.rd.usda.gov/resources/directives/handbooks | correct per site tool and secondary corroboration [VERIFY vs HB-1-3555 App. 5] |
+| FY2026 Michigan income limit (most counties) | not on page (on /usda-eligibility-check/) | $122,800 (1–4) / $162,100 (5–8); higher in 6 counties | https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf | correct per site tool and secondary corroboration [VERIFY vs HB-1-3555 App. 5] |
 | Upfront fee applies; annual fee lower than FHA's | no figures | 1.00% upfront guarantee fee; 0.35% annual fee (USDA program overview, Jan 2026) | https://www.rd.usda.gov/media/file/download/usda-rd-sfh-guarantee-loan-program-101-jan-2026.pdf | correct (add figures) |
 | Smaller upfront fee than FHA | as stated | 1% vs FHA 1.75% | https://www.rd.usda.gov/media/file/download/usda-rd-sfh-guarantee-loan-program-101-jan-2026.pdf | correct |
-| USDA sets no program credit minimum | as stated | USDA has no regulatory minimum; GUS uses 640 for streamlined credit review [VERIFY HB-1-3555 ch. 10] | https://www.rd.usda.gov/resources/directives/handbooks | correct |
-| Repeat buyers OK if not owning adequate home in area | as stated | 7 CFR 3555.151 applicant eligibility | https://www.rd.usda.gov/resources/directives/handbooks | correct |
+| USDA sets no program credit minimum | as stated | USDA has no regulatory minimum; GUS uses 640 for streamlined credit review [VERIFY HB-1-3555 ch. 10] | https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf | correct |
+| Repeat buyers OK if not owning adequate home in area | as stated | 7 CFR 3555.151 applicant eligibility | https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf | correct |
 | Down payment | "down payment options for eligible addresses and incomes" | No down payment required (100% financing of appraised value) | https://www.rd.usda.gov/media/file/download/usda-rd-sfh-guarantee-loan-program-101-jan-2026.pdf | vague (fix) |
 | Eligibility map in effect since July 25, 2023 (site tool) | on tool page | Matches site tool note; proposed 2020-Census maps pending | https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do | not re-verified [VERIFY] |
 
@@ -608,7 +608,7 @@ PAA used: What credit score do you need to have to get a conventional loan?; Can
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Conventional Home Loans In Michigan | Align Lending | Conventional Loans in Michigan: Requirements | Align Lending | 60 |
+| Title | Conventional Home Loans In Michigan \| Align Lending | Conventional Loans in Michigan: Requirements \| Align Lending | 60 |
 | Meta | Conventional home loans in Michigan, explained: who they fit, what lenders look for, how PMI comes off, and when another loan type fits better. | Conventional loans in Michigan: 3% down for first-time buyers, when PMI comes off, the $832,750 limit for 2026, and when FHA or VA fits better instead. | 151 |
 
 **Fact check.**
@@ -691,7 +691,7 @@ PAA used: What is a jumbo loan for 2026?; What is the max conforming loan limit 
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Michigan Jumbo Loan Broker | Align Lending | Michigan Jumbo Loans: Requirements & Limits | Align Lending | 59 |
+| Title | Michigan Jumbo Loan Broker \| Align Lending | Michigan Jumbo Loans: Requirements & Limits \| Align Lending | 59 |
 | Meta | Jumbo loans in Michigan for loan amounts above the $832,750 conforming limit: reserves, down payment, appraisals, and how jumbo compares. | Jumbo loans in Michigan start above $832,750 in 2026. What jumbo lenders check: credit, down payment, reserves and appraisals, and how a broker compares them. | 158 |
 
 **Fact check.**
@@ -773,18 +773,18 @@ PAA used: What does Fannie Mae consider a first time homebuyer?; Which is better
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | HomeReady And Home Possible Loans | Michigan Broker | HomeReady & Home Possible Loans in Michigan | Align Lending | 59 |
+| Title | HomeReady And Home Possible Loans \| Michigan Broker | HomeReady & Home Possible Loans in Michigan \| Align Lending | 59 |
 | Meta | HomeReady and Home Possible in Michigan: low-down-payment conventional loans for incomes at or under 80% of area median, with reduced mortgage insurance. | HomeReady and Home Possible in Michigan: 3% down, reduced mortgage insurance, and an income limit of 80% of area median. Check the limit for your address. | 154 |
 
 **Fact check.**
 
 | Claim | On page | Verified value | Source | Status |
 |---|---|---|---|---|
-| Income at or under 80% AMI for the address | as stated | 80% of AMI for property location (Fannie B5-6-01; Freddie Home Possible) | https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility | correct |
+| Income at or under 80% AMI for the address | as stated | 80% of AMI for property location (Fannie B5-6-01; Freddie Home Possible) | https://ask-poli.fanniemae.com/Selling-Guide/Origination-thru-Closing/Subpart-B5-Unique-Eligibility-Underwriting-Considerations/Chapter-B5-6-HomeReady-Mortgage/1032997081/B5-6-01-HomeReady-Mortgage-Loan-and-Borrower-Eligibility-04-06-2022.htm | correct |
 | Reduced MI coverage | as stated | 25% coverage at 90.01–97% LTV vs 35% standard (HomeReady matrix) | https://singlefamily.fanniemae.com/media/8341/display | correct (add figure) |
 | 1-unit: no minimum own funds; 2–4 units need own funds | as stated | HomeReady matrix: $0 for 1-unit; 3% for 2–4 units above 80% LTV | https://singlefamily.fanniemae.com/media/8341/display | correct |
 | Homeownership course when every borrower is first-time | as stated | Required when all borrowers are first-time homebuyers (Freddie: CreditSmart Homebuyer U) | https://sf.freddiemac.com/working-with-us/origination-underwriting/mortgage-products/home-possible | correct |
-| Boarder income can count (HomeReady) | as stated | Allowed under HomeReady (B5-6-02) | https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility | correct |
+| Boarder income can count (HomeReady) | as stated | Allowed under HomeReady (B5-6-02) | https://ask-poli.fanniemae.com/Selling-Guide/Origination-thru-Closing/Subpart-B5-Unique-Eligibility-Underwriting-Considerations/Chapter-B5-6-HomeReady-Mortgage/1032997081/B5-6-01-HomeReady-Mortgage-Loan-and-Borrower-Eligibility-04-06-2022.htm | correct |
 | Updated AMI limits | not stated | Freddie Mac updated Home Possible AMI limits effective June 13, 2026 | https://sf.freddiemac.com/working-with-us/origination-underwriting/mortgage-products/home-possible | add (note annual update) |
 
 **Schema.** MortgageLoan (#loan): name "HomeReady and Home Possible"; loanType "Conventional"; areaServed State Michigan. FAQPage regenerated (7 questions).
@@ -846,7 +846,7 @@ PAA used: What happens if I pay an extra $100 a month on my 30-year mortgage?; H
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | 30-Year Fixed Mortgage In Michigan | Align Lending | 30-Year Fixed Mortgages in Michigan | Align Lending | 51 |
+| Title | 30-Year Fixed Mortgage In Michigan \| Align Lending | 30-Year Fixed Mortgages in Michigan \| Align Lending | 51 |
 | Meta | See how a 30-year fixed compares with a fifteen, what it takes to qualify in Michigan, and who it fits. | A 30-year fixed mortgage keeps the required payment lowest of the fixed terms. See how it compares with a 15-year in Michigan, who it fits, and how to qualify. | 159 |
 
 **Fact check.**
@@ -919,7 +919,7 @@ PAA used: How to cut 10 years off a 30-year mortgage?; Is it smart to pay a mort
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | 15-Year Fixed Mortgage In Michigan | Align Lending | 15-Year Fixed Mortgages in Michigan | Align Lending | 51 |
+| Title | 15-Year Fixed Mortgage In Michigan \| Align Lending | 15-Year Fixed Mortgages in Michigan \| Align Lending | 51 |
 | Meta | A 15-year fixed mortgage pays the loan off in half the time with less total interest, and a higher payment. See what it takes to qualify in Michigan. | A 15-year fixed mortgage pays the loan off in half the time with less total interest, and a higher payment. See what it takes to qualify in Michigan. | 149 |
 
 **Fact check.**
@@ -928,7 +928,7 @@ PAA used: How to cut 10 years off a 30-year mortgage?; Is it smart to pay a mort
 |---|---|---|---|---|
 | Fifteen-year rates usually run below thirty-year | "Usually a Lower Rate" (H3) | Generally true (Freddie Mac PMMS shows 15-yr below 30-yr), but a rate-comparison headline conflicts with the brand rule on rate claims | https://www.freddiemac.com/pmms | correct but reword (brand/compliance) |
 | Roughly half the interest of a thirty, sometimes more | as stated | Amortization math: at equal rates a 15-yr pays ~45% of the 30-yr's interest; less with a lower rate | https://www.consumerfinance.gov/ask-cfpb/what-is-the-difference-between-a-fixed-rate-and-adjustable-rate-mortgage-arm-loan-en-100/ | correct (illustrative) |
-| Available loan types FHA, conventional, VA, jumbo | as stated (USDA omitted) | USDA guaranteed purchase loans are 30-year fixed [VERIFY 7 CFR 3555.104] | https://www.rd.usda.gov/resources/directives/handbooks | correct |
+| Available loan types FHA, conventional, VA, jumbo | as stated (USDA omitted) | USDA guaranteed purchase loans are 30-year fixed [VERIFY 7 CFR 3555.104] | https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf | correct |
 | Reg Z trigger: "15-year" period of repayment | Product name | CFPB comment 24(d)(1) | https://www.consumerfinance.gov/rules-policy/regulations/1026/Interp-24 | compliance review |
 
 **Schema.** As 30-year page. FAQPage regenerated (7 questions).
@@ -991,7 +991,7 @@ PAA used: (no ARM seed run; GSC questions used) are adjustable rate mortgages ba
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Adjustable-Rate Mortgages In Michigan | Align Lending | Adjustable-Rate Mortgages in Michigan | Align Lending | 53 |
+| Title | Adjustable-Rate Mortgages In Michigan \| Align Lending | Adjustable-Rate Mortgages in Michigan \| Align Lending | 53 |
 | Meta | How an adjustable-rate mortgage works in Michigan: the fixed period, how the rate resets, the three caps, and who an ARM actually fits. | How an adjustable-rate mortgage works in Michigan: the 5, 7 or 10-year fixed period, how the rate resets, the three caps, and who an ARM actually fits. | 151 |
 
 **Fact check.**
@@ -1064,7 +1064,7 @@ PAA used: (no seed run; low volume)
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Temporary Buydown Loans In Michigan | Calculator | 2-1 Buydown Loans in Michigan: Calculator | Align Lending | 57 |
+| Title | Temporary Buydown Loans In Michigan \| Calculator | 2-1 Buydown Loans in Michigan: Calculator \| Align Lending | 57 |
 | Meta | A temporary buydown lowers your payment for the first one to three years. Free calculator shows each year of payments and what funding it costs. | A temporary buydown lowers your payment for the first one to three years. Free calculator shows each year of payments and what funding it costs. | 144 |
 
 **Fact check.**
@@ -1074,7 +1074,7 @@ PAA used: (no seed run; low volume)
 | Buydown period one to three years | as stated | Fannie B2-1.4-04: max 3 years; rate increase ≤1% per year; max 3% reduction | https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns | correct |
 | Qualify at the note rate | as stated | Fannie B3-6-04: qualify without the bought-down rate | https://selling-guide.fanniemae.com/sel/b3-6-04/qualifying-payment-requirements | correct |
 | Fixed-rate loans | "It is set up on a fixed-rate loan" | Fannie allows fixed-rate and certain ARMs | https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns | mostly correct (add ARM nuance) |
-| Eligible loans FHA, VA and conventional | as stated | Correct; USDA also permits temporary buydowns under HB-1-3555 [VERIFY] | https://www.rd.usda.gov/resources/directives/handbooks | incomplete [VERIFY] |
+| Eligible loans FHA, VA and conventional | as stated | Correct; USDA also permits temporary buydowns under HB-1-3555 [VERIFY] | https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf | incomplete [VERIFY] |
 | Unused escrow credited at payoff | "usually credited" | Fannie: funds must be applied for borrower benefit at payoff (B2-1.4-04) | https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns | correct |
 
 **Schema.** MortgageLoan (#loan): name "Temporary Buydown"; keep WebApplication for the calculator; Offer node: confirm it carries no rate. FAQPage regenerated.
@@ -1136,7 +1136,7 @@ PAA used: What is a physician's mortgage loan? (seed "physician loan Michigan" r
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Physician Mortgage Loans In Michigan | Align Lending | Physician Mortgage Loans in Michigan | Align Lending | 52 |
+| Title | Physician Mortgage Loans In Michigan \| Align Lending | Physician Mortgage Loans in Michigan \| Align Lending | 52 |
 | Meta | How physician and medical professional mortgages work: contracts in place of pay history, student loans, mortgage insurance. Terms vary by lender. | How physician and medical professional mortgages work: contracts in place of pay history, student loans, mortgage insurance. Terms vary by lender. | 146 |
 
 **Fact check.**
@@ -1214,7 +1214,7 @@ PAA used: Do you pay property taxes on mobile homes in Michigan?; Can you live i
 
 | | Current | Recommended | Length |
 |---|---|---|---|
-| Title | Manufactured Home Loans In Michigan | Align Lending | Manufactured Home Loans in Michigan | Align Lending | 51 |
+| Title | Manufactured Home Loans In Michigan \| Align Lending | Manufactured Home Loans in Michigan \| Align Lending | 51 |
 | Meta | Financing a manufactured home: real property or chattel, the FHA, VA, USDA and conventional routes, and the papers to gather before you apply. | Financing a manufactured home: real property or chattel, the FHA, VA, USDA and conventional routes, and the papers to gather before you apply. | 142 |
 
 **Fact check.**
@@ -1246,7 +1246,7 @@ PAA used: Do you pay property taxes on mobile homes in Michigan?; Can you live i
 **P1 (this month):** titles; new question-led H2s with answers and tables; FAQ additions and regenerated FAQPage schema; template H2 renames; reviewer/updated line; schema areaServed fix; descriptive anchors replacing "Read the guide"; compliance decisions on percentages and the 15/30-year product names.
 **P2 (backlog):** process-step demotion; minor heading renames; calculator CTA label; USDA review cards; VA michigan.gov link; Cornell LII → uscode.house.gov.
 
-Counts: 462 change rows, 88 fact-check rows, 130 score rows.
+Counts: 440 change rows, 88 fact-check rows, 130 score rows.
 
 ## 9. Sources
 
@@ -1259,17 +1259,17 @@ Counts: 462 change rows, 88 fact-check rows, 130 score rows.
 - https://answers.hud.gov/FHA/s/article/Does-FHA-require-a-minimum-credit-score-and-how-is-it-determined
 - https://answers.hud.gov/FHA/s/article/What-are-the-maximum-qualifying-ratio-requirements-for-manually-underwritten-loans
 - https://www.hud.gov/sites/default/files/hudclips/documents/2026-11hsgml.pdf
-- https://www.hud.gov/hud-partners/single-family-handbook-4000-1
+- https://www.hud.gov/sites/default/files/Housing/documents/40001-hsgh-Update-18.pdf
 - https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/
 - https://www.va.gov/housing-assistance/home-loans/loan-limits/
 - https://www.va.gov/housing-assistance/home-loans/how-to-request-coe/
 - https://www.rd.usda.gov/media/file/download/usda-rd-sfh-guarantee-loan-program-101-jan-2026.pdf
 - https://www.rd.usda.gov/programs-services/single-family-housing-guaranteed-loan-program/mi
 - https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do
-- https://www.rd.usda.gov/resources/directives/handbooks
+- https://rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf
 - https://singlefamily.fanniemae.com/news-events/announcement-sel-2025-09-selling-guide-updates
 - https://singlefamily.fanniemae.com/media/8341/display
-- https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility
+- https://ask-poli.fanniemae.com/Selling-Guide/Origination-thru-Closing/Subpart-B5-Unique-Eligibility-Underwriting-Considerations/Chapter-B5-6-HomeReady-Mortgage/1032997081/B5-6-01-HomeReady-Mortgage-Loan-and-Borrower-Eligibility-04-06-2022.htm
 - https://ami-lookup-tool.fanniemae.com/amilookuptool/
 - https://sf.freddiemac.com/working-with-us/origination-underwriting/mortgage-products/home-possible
 - https://selling-guide.fanniemae.com/sel/b2-1.4-04/temporary-interest-rate-buydowns
