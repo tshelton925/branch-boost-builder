@@ -17,7 +17,7 @@ Shared rules: `06-blogs/briefs/_README.md`. Corrections that apply here: **F4, F
 ## 2. Keywords and evidence
 
 **Primary:** `home loans for seniors on social security` (210/mo, KD 23; The Mortgage Reports #2).
-**Supporting:** `senior mortgage loan` (140, KD 1) · `fha cash out plan for seniors` (110, KD 6) · `can you buy a house on social security` (90, KD 2) · **PAA age questions appeared in 9 of 15 seeds**: "Can a 75 year old get a 30 year mortgage?", "Can I get a 30 year mortgage if I'm 60 years old?", "Is 55 too old to buy a house?", "What is the best mortgage option for people over 60?" / "over 70?", "Is it smart to pay off your house when you retire?", "When should retirees not pay off their mortgages?", "What percent of retirees still have a mortgage?".
+**Supporting:** `senior mortgage loan` (140, KD 1) · `fha cash out plan for seniors` (110, KD 6) · `can you buy a house on social security` (90, KD 2) · **PAA age questions appeared in 9 of 15 seeds**: "Can a 75 year old get a 30 year mortgage?", "Can I get a 30 year mortgage if I'm 60 years old?", "Is 55 too old to buy a house?", "What is the best mortgage option for people over 60?" / "over 70?" (PAA wording; never use "best" in Align copy), "Is it smart to pay off your house when you retire?", "When should retirees not pay off their mortgages?", "What percent of retirees still have a mortgage?".
 **Why a new URL:** no Align page answers the age question; the closest pages are `/learn/buying-home-for-aging-in-place/` (property features) and the reverse mortgage guide (a different product, pending D1). Competitor analyst #9 (auditor: P1 more defensible than P0).
 **Do not target:** reverse mortgage / HECM queries (owner decision D1 pending; `/learn/reverse-mortgages-how-they-work/` is frozen except for figure accuracy) · "asset depletion loans Michigan" → `/product-loans/asset-based-income-loans/` · "buy before you sell" → `/purchase/buy-before-you-sell/`.
 
@@ -88,7 +88,7 @@ Entity and broker statements; end CTA.
 1. **Can a 75-year-old get a 30-year mortgage?** (PAA)
 2. **Is 55 too old to buy a house?** (PAA)
 3. **Can you buy a house on Social Security alone?** (supporting kw, 90/mo)
-4. **What is the best mortgage option for people over 70?** (PAA; answer without "best": "the right option depends on…")
+4. **What mortgage options do people over 70 have?** (PAA "What is the best mortgage option for people over 70?", reworded to avoid the banned superlative; answer "the right option depends on…")
 5. **Do lenders count retirement account withdrawals as income?** `[VERIFY]`
 6. **Do property taxes go down when you turn 65 in Michigan?** (PAA, Michigan seed) No automatic reduction; list the programs.
 7. **Is it smart to pay off your house when you retire?** (PAA) Not-advice framing.

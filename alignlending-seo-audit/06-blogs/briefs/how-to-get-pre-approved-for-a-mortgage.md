@@ -68,8 +68,8 @@ Answer must say: once documents are in, a preapproval can take from the same day
 Answer must say: an instant online result is a prequalification based on what you typed, not a review of your documents; sellers and agents in Michigan generally expect a preapproval backed by documents; use online tools to estimate, then get a reviewed preapproval before you offer.
 - Link "prequalified vs. preapproved" → `/learn/prequalified-vs-preapproved-whats-difference/`.
 
-### H2 Where is the best place to get preapproved?
-Answer must say: there is no single best place; compare a bank, a credit union and an independent mortgage broker on the programs they can offer, the Loan Estimate, and how well they explain your options; a broker compares several wholesale lenders on one application.
+### H2 Where should you get preapproved: a bank, a credit union or a broker?
+Answer must say: no single place fits everyone (this section answers the "best place to get pre approved" query without the banned superlative); compare a bank, a credit union and an independent mortgage broker on the programs they can offer, the Loan Estimate, and how well they explain your options; a broker compares several wholesale lenders on one application.
 - Broker statement (exact, from `/licensing/`).
 - Link "mortgage broker vs. bank vs. credit union in Michigan" → `/learn/benefits-of-working-with-mortgage-broker/`.
 - Link "Check my Loan Estimate" → `/compare-loan-estimates/`.

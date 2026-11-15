@@ -32,7 +32,7 @@ Current results are MSHDA's own pages (accurate but spread across several URLs),
 2. Says plainly that **MSHDA loans go only through MSHDA participating lenders** (F2) and how to find one, with Align's role stated honestly.
 3. Settles the confusing numbers: MI 10K is up to $10,000 as a **deferred loan, not a grant**; the $25,000 First-Generation program is **closed** (F1); the $7,500 figure is an older amount `[VERIFY]`.
 4. Adds the **Michigan cost a program page never mentions**: the year after you buy, taxable value resets (Align's 2026 Uncapping Study: about 50.5% typical jump; statewide median homestead rate 36.0 mills, about 1.8% of market value a year after the reset). An MSHDA buyer's payment has to carry the new-owner tax, not the seller's.
-5. Gives an honest "when MSHDA is not the best fit" section with a comparison table (no rates).
+5. Gives an honest "when an MSHDA loan does not fit" section with a comparison table (no rates).
 
 ## 5. Outline
 
@@ -73,7 +73,7 @@ Answer must say: you apply through an MSHDA participating lender, not MSHDA; the
 - Align's role, exact wording (F2): "Samantha explains the MSHDA programs and, if one fits, refers you to a participating lender." `[DECISION D3 PENDING: replace with stronger wording only after Align confirms its own participating-lender access]`
 - Link "MSHDA's participating lender list" (MSHDA, external).
 
-### H2 When is an MSHDA loan not the best fit?
+### H2 When does an MSHDA loan not fit?
 Answer must say: MSHDA helps most when cash for the down payment is the barrier; it can cost more over time than an open-market loan for a buyer who has the cash, MI 10K must be repaid on a refinance or sale, and the price and income limits rule some buyers out; compare Loan Estimates side by side.
 - Comparison table (no rates, no payment amounts): MI Home Loan + MI 10K · FHA on its own · Conventional with HomeReady. Rows: who it fits, cash needed (described, not as percentages next to a CTA), mortgage insurance, what happens on a refinance, income limit, price limit. `[COMPLIANCE REVIEW: any down payment wording]`
 - `[NEEDS SAMANTHA QUOTE: when MSHDA assistance helps a buyer and when she tells them to skip it]`
