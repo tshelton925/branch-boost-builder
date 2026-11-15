@@ -16,7 +16,7 @@ The nine pages average **75 (C)**, with a narrow range from **70 (non-QM hub)** 
 - **None of the nine above-the-fold blocks says what you need to qualify.** Each defines the product and stops there. Section 6 gives rewrites of 60 words or fewer for all nine.
 - **E-E-A-T (avg 69, D).** The five older-template pages cite 0 to 2 sources (DSCR cites none), and no page shows a reviewer or updated date.
 - **Accuracy issues to fix now (P0):** the cash-out page says "conventional cash-out usually starts at 620", which has been out of date since Fannie Mae dropped its fixed 620 minimum for DU loans in November 2025; the HELOC page publishes an internal editorial note ("source of the approved uncapping sentence"); and four non-agency pages say "Guidelines are set by the agency" (P1).
-- **Demand:** the Michigan head terms for these nine products drew **1,113 impressions and 1 click** in 90 days. The **DSCR cluster (528 impressions, positions 39 to 46)** is the largest single opportunity. The **"second mortgage" synonym cluster (about 500 impressions, positions 80 to 87)** is unclaimed by any product page.
+- **Demand:** the Michigan head terms for these nine products drew **1,113 impressions and 1 click** in 90 days. The **DSCR cluster (528 impressions, positions 39 to 46)** is the largest single opportunity. The **"second mortgage" synonym cluster (about 450 impressions across 27 queries, mostly positions 75 to 90)** is unclaimed by any product page.
 
 No page publishes or implies a rate. The rate fields in the DSCR and bank statement calculators are user inputs; keep them unselected by default and add the "we do not publish rates" line.
 
@@ -298,7 +298,7 @@ Statuses: **KEEP** (no change), **RENAME** (same section, new heading), **NEW** 
 
 | Aspect | Score | Grade | Evidence |
 |---|---|---|---|
-| Intent & H1 | 82 | B | H1 'Home Equity Loans in Michigan' matches the primary query exactly and is unique. It misses the 'second mortgage' synonym, which draws about 500 impressions at position 80-87. |
+| Intent & H1 | 82 | B | H1 'Home Equity Loans in Michigan' matches the primary query exactly and is unique. It misses the 'second mortgage' synonym, which draws about 450 impressions across 27 queries at positions 60-90. |
 | Heading structure | 70 | C | 10 H2s with 7 question H3s in the FAQ. The H2s are generic ('Key benefits', 'Guidelines for this loan'), the H3s use inconsistent Title Case, and there is no qualification or cost H2. |
 | Above-the-fold answer | 74 | C | 78 words define the product and give good sizing advice ('size it to the quote'), but say nothing about who qualifies or what lenders check. |
 | CTA effectiveness | 76 | C | Standard primary and ghost CTAs plus a useful mid-page 'See how much equity I can use'. Four 'Read the guide' links are generic, and there is no calculator or Loan Estimate step. |
@@ -308,7 +308,7 @@ Statuses: **KEEP** (no change), **RENAME** (same section, new heading), **NEW** 
 | AI-search readiness | 78 | C | 7 FAQ answers with schema, a comparison table and a worked $400,000 example. There is no definition capsule or 'what do you need to qualify' answer. |
 | Accuracy & compliance | 76 | C | No rates and the math is correct, but '680+ preferred' is stated as a norm and the boilerplate wrongly says an agency sets home equity loan guidelines. |
 
-**Target query and intent.** Commercial investigation: a homeowner with a known cost who wants a fixed second loan and needs to know eligibility, amount and cost. Secondary: second mortgage (synonym cluster, about 500 impressions at pos 80-87); fixed-rate second mortgage; closed end home equity loan; home equity loan process timeline; drive-by appraisal for home equity loan.
+**Target query and intent.** Commercial investigation: a homeowner with a known cost who wants a fixed second loan and needs to know eligibility, amount and cost. Secondary: second mortgage (synonym cluster, about 450 impressions across 27 queries, mostly pos 75-90); fixed-rate second mortgage; closed end home equity loan; home equity loan process timeline; drive-by appraisal for home equity loan.
 
 **GSC evidence (90 days).** home equity loans in michigan 38 impr, pos 82.7; home equity loan michigan 29, pos 86.4; michigan home equity loan 12, pos 79.9; home equity loans 43, pos 85.1; home equity loan pros and cons 37, pos 33.5 (Learn article territory); drive by appraisal for home equity loan 60+38, pos about 41; second mortgage 107, pos 86.6; second mortgage loan 65, pos 83.9; home equity loan process timeline 5, pos 4.6.
 
