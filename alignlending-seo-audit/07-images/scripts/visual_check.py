@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw
 
 SAMPLES = [
     ("wp-content_uploads_2026_10_align-hero-city-grosse-pointe-farms.webp", "optimized/heroes/align-hero-city-grosse-pointe-farms.webp", (0.55, 0.55)),
-    ("wp-content_uploads_learn_how-to-qualify-for-jumbo-loan.webp", "optimized/learn/how-to-qualify-for-jumbo-loan.webp", (0.5, 0.45)),
+    ("wp-content_uploads_learn_how-to-handle-multiple-offers.webp", "optimized/learn/how-to-handle-multiple-offers.webp", (0.5, 0.45)),
     ("wp-content_uploads_2026_09_align-hero-30-year-fixed.webp", "optimized/heroes/align-hero-30-year-fixed.webp", (0.6, 0.6)),
 ]
 

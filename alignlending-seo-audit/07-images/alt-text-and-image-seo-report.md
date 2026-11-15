@@ -22,7 +22,7 @@ Nothing here has been changed on the live site. Every recommendation is a change
 2. **416 occurrences (380 unique images) are meaningful and need alt.** These are 276 city heroes, 64 product, purchase, refinance, calculator, hub and about heroes, the `/learn/` hub hero, and 39 learn "featured story" images on 48 learn hub pages.
 3. **Root cause: the hero template, not the Media Library.** All 340 hero attachments already have alt text in the Media Library. Rank Math reads it for `og:image:alt` and for the ImageObject `caption`. On the page, though, the hero is hard-coded in an Elementor **HTML widget** (`data-widget_type="html.default"` → `<section class="adp adp-hero"><img class="adp-hero__img" … alt="">`), so 359 pages render `alt=""`. **One mu-plugin (section 6.1) fixes all 359 pages at once.** The CSV then improves the text itself.
 4. **Every alt Claude wrote is based on viewing the image.** 431 meaningful rows, 0 templated:
-   - All 276 city heroes, across 27 counties, viewed in 31 labelled contact sheets of 9.
+   - All 276 city heroes (every city page in every county), viewed in 31 labelled contact sheets of 9.
    - All 65 product, purchase, refinance, calculator, hub and about heroes.
    - All 69 learn heroes that needed new alt.
    - The Samantha photos, logos and all 15 research charts (PNG exports).
@@ -374,7 +374,7 @@ WP_CLI::success( sprintf( '%s. Library: %d, learn posts: %d, skipped: %d, not fo
 ```
 
 Expected dry-run result:
-- **Library: about 343.** That is 276 city heroes, 64 page heroes, `Samantha4-scaled.jpg`, `rsw_600h_600cg_true.webp` and the 2 logos.
+- **Library: 344.** That is 276 city heroes, 64 page heroes, `Samantha4-scaled.jpg`, `rsw_600h_600cg_true.webp` and the 2 logos.
 - **Learn posts: at least 69** article heroes, plus hub pages if their "featured story" markup lives in post_content.
 - **Not found: 0.**
 
