@@ -710,3 +710,24 @@ python3 -I visual_check.py   --data "$DATA" --out .. --preview /tmp/qa
 - Bytes are measured on the crawl's copies (`img_raw/`). Two live spot checks match: Flint hero 207,938 bytes, learn USDA hero 150,660 bytes.
 - The `learn-960/` files were not crawled. One live check (`usda-loan-basics`, 67,804 bytes) suggests they are reasonable, so they are not regenerated.
 - Bing Webmaster data is not connected. Bing requests `/favicon.ico` and uses `og:image` for some previews, so D16 and D17 also serve Bing.
+
+---
+
+## Auditor corrections
+
+*Added by the independent auditor on 2026-11-15. Full detail in `08-audit/audit-images.md`; row-level changes in `08-audit/corrections-images.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+**Confirmed:** the home hero is a 218,244-byte CSS background with Motion Effects, no preload, and `fetchpriority` on the 132-px `align-plan-porch.webp` (checked live). 314 pages lazy-load the 52-px headshot. 306 learn heroes are 1920 px labelled 1600w. 3 pages have a 1200×630 og:image and 35 use the portrait. `/favicon.ico` returns 404 (live). 1,239/1,244 images are WebP and 0 lack dimensions. City heroes go 172 → 96 KB (−44%). Totals go 141.19 → 104.28 MB. All 1,977 files exist, and bytes and pixel size match the manifest on all 1,978 rows. PSNR is at least 32 dB on photographs, with no crop or colour shift. All snippets pass `php -l`.
+
+**Corrections**
+1. **srcset count:** 83 hero pages lack srcset, not 82 (the `/learn/` hub `learn-center.webp` is the 83rd; this CSV also says 83).
+2. **Savings wording:** 746 of 1,246 inventoried files are replaced and 499 are kept. The 746 replaced files go 101.07 → 64.19 MB (−36.5%). The −26.1% applies to all 1,246.
+3. **Priorities:** finding 2 / D05 (srcset) P0 → **P1**. Finding 3 / D03 (lazy headshot, not the LCP) P0 → **P1**, impact medium. D01 (home LCP) stays P0; confirm it with PSI.
+4. **Learn Media score:** 87 (B) → **92 (A)**. The table deducts one srcset problem four times (−12). Cap responsive-image deductions at −6 combined, and raise the empty-hero-alt deduction from −3 to −8. The sitewide score becomes **84.9 (B)**. Money pages stay 74.2 (C) and city pages stay 75 (C). The projected ~99 holds only with the auditor alt corrections and the snippet fixes below.
+5. **Snippet 3:** add the slug guard (exact code in the corrections CSV, tested). Without it, the 47 hub "featured story" images stay `eager`/`fetchpriority="high"` with the 1600w candidate, so D09 never happens.
+6. **Snippet 4:** **do not install it.** Its `/uploads/learn/` match re-adds `fetchpriority=high` and removes lazy on the hub featured images, which undoes D09. Its class test never fires, because Elementor HTML widgets bypass core. If you keep it, match only `/uploads/learn/{post_name}.webp`.
+7. **Snippet 5:** set `big_image_size_threshold` to **2200**, not 1600. The threshold applies to height too, so 1600 would shrink future uploads of the research maps (1600×2165 and 1600×2127) and tall portraits.
+8. **Step 2:** activate snippets 1–2 *after* the uploads. Then run `wp transient delete --all` (snippet 1 caches srcset and dimensions for 12 h) and clear Elementor's element cache, as well as LiteSpeed and the CDN.
+9. **Duplicate upload:** `optimized/headshots/samantha-shelton-align-lending-office.webp` is the same photo as existing attachment **10423 `samantha-shelton-press-683.webp`** (28,242 B, already alt-tagged; dHash 4/256). Reuse 10423 for D11 and D12 and do not upload the new file.
+10. **Filename:** use `homebuyer-plan-front-porch.webp`, not `homebuyer-plan-family-front-porch.webp`. Keep familial-status words out of filenames.
+11. **Gaps to add:** (a) the 15 research chart PNGs (2.95 MB, 2 of them og:images) shrink to about 0.85 MB with a 64-colour palette at 44–48 dB. (b) Embed IPTC `DigitalSourceType = trainedAlgorithmicMedia` on re-export of the generated images; 0 of 1,977 outputs carry it, which leaves alt report F7.2 undone. (c) The og cards keep the hero's near-black left third and carry no brand mark (P2). (d) Check `sizes="(max-width:767px) 60vw"` on a real phone. The auditor's DPR-3 simulation shows 768w is softer but acceptable under the 0.9 → 0.7 overlay.
