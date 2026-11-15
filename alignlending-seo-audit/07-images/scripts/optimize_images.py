@@ -191,9 +191,12 @@ def og_name(base):
 
 
 def suggest_hero_name(name):
-    """Keep the align-hero-* scheme; only drop meaningless -vN suffixes."""
+    """Keep the align-hero-* scheme; only drop meaningless -vN suffixes and WordPress's
+    duplicate-upload counters (-1, -2) on city heroes."""
     stem, ext = name.rsplit(".", 1)
     clean = re.sub(r"-v\d+$", "", stem)
+    if stem.startswith("align-hero-city-"):
+        clean = re.sub(r"-\d$", "", clean)
     return f"{clean}.{ext}"
 
 
@@ -223,14 +226,15 @@ def job_hero(args):
     wrong_size = im.width > HERO_W
     saving = 1 - len(data) / old
     folder = "learn" if kind == "hero-learn" else "heroes"
-    new_name = name if kind in ("hero-city", "hero-learn") else rec.get("suggested", name)
+    new_name = name if kind == "hero-learn" else rec.get("suggested", name)
     if kind == "hero-learn":
         note_primary = f"Overwrite /wp-content/uploads/learn/{name} via SFTP/hPanel File Manager (same URL; srcset 1600w descriptor becomes truthful). Purge LiteSpeed + Hostinger CDN."
     else:
         note_primary = (f"Replace in place: Media Library > Enable Media Replace > 'Just replace the file' (keeps {wp_dir(src)}{name}), "
                         f"or overwrite via SFTP. Purge LiteSpeed + Hostinger CDN.")
         if new_name != name:
-            note_primary += f" Optional rename on next re-upload: {new_name} (drop meaningless version suffix)."
+            note_primary += (f" Optional rename on next re-upload: {new_name} (drops the meaningless suffix; if WordPress "
+                             f"appends -1 again, an orphaned file with that name already exists in {wp_dir(src)}).")
     if wrong_size or saving >= MIN_SAVING:
         p = os.path.join(out, "optimized", folder, name)
         write(p, data)

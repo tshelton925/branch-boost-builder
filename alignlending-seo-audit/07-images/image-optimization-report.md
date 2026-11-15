@@ -16,7 +16,7 @@ The site already serves WebP (1,239 of 1,244 images), sets width and height on e
 4. **Hero files are larger than any slot needs.** City heroes are 1920 px and 172 KB on average (max 292 KB). On learn articles, 306 of 469 heroes are 1920 px files that the srcset labels "1600w". Their srcset also jumps from 960w to 1600w, so most phones download the biggest file.
 5. **Share images are inconsistent.** Only 3 pages have a 1200×630 JPG `og:image`. 35 pages share a portrait headshot, and the rest use 16:9 WebP heroes. The favicon is a JPEG crop that includes a sliver of the wordmark, and `/favicon.ico` returns 404.
 
-**What we built:** {{NFILES}} optimized files ({{OUTMB}} MB, under the 150 MB budget, so no variants were pruned), a reproducible pipeline (`scripts/optimize_images.py`, `scripts/audit_images.py`, `scripts/visual_check.py`), and five WPCode snippets (plus an optional home stopgap) that fix delivery across all templates at once.
+**What we built:** 1,977 optimized files (140.5 MB, under the 150 MB budget, so no variants were pruned), a reproducible pipeline (`scripts/optimize_images.py`, `scripts/audit_images.py`, `scripts/visual_check.py`), and five WPCode snippets (plus an optional home stopgap) that fix delivery across all templates at once.
 
 **Savings.** Across the 1,245 files that have a 1:1 replacement, total size falls from **141.2 MB to 104.28 MB (−26.1 %)**. What visitors download per page view falls further:
 
@@ -223,7 +223,7 @@ The PageSpeed Insights API returned **HTTP 429 (daily quota exhausted for the sh
 - **Content and headshots:** WebP at 2× the CSS display size, q 75–80. The 52-px avatar becomes 104×104 (cropped like the CSS `object-position: 50% 12%`, from the higher-resolution 768 px original). The 84-px research byline becomes 168×168.
 - **Graphics:** the PNG logo is kept as PNG because it has transparency and a 16-colour palette makes it smaller than WebP.
 - A primary file is written only if it saves ≥ 20 % or the current file has the wrong format or pixel size. Everything else is listed as "keep" in `image-inventory.csv` (`action` column).
-- The **150 MB budget** guard prunes the 1200w variants first. The output came to 140.3 MB, so every variant is included.
+- The **150 MB budget** guard prunes the 1200w variants first. The output came to 140.5 MB, so every variant is included.
 
 ### 5.2 Results
 | Category | Files | Before | After | Saved | Notes |
