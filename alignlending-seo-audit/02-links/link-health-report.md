@@ -353,3 +353,54 @@ python3 check_external.py <DATA dir>
    - Glossary wrapper.
    - Split the county hubs.
    - Footer `/licensing/` duplicates.
+
+---
+
+## Auditor corrections
+
+Independent audit, 2026-11-15. **Verdict: PASS WITH CORRECTIONS.**
+- Full audit: `08-audit/audit-links.md`. Row-level fixes: `08-audit/corrections-links.csv`.
+- Everything above this heading is the team's text, unchanged. Where they differ, the corrections below take precedence.
+- 23 of the 29 checked findings reproduce exactly, including `/refinance/` 5 and `/purchase/` 16, the 3 menu copies, the 12,525 alignwithalign.com links, 318 links per city page, the 69 policy links on 60 pages, 349 breadcrumb gaps, 136 `http://` links, the live REST totals of 293 and 96, and the GSC legacy-URL attribution.
+
+**Counts**
+- §2 Purchase row: `/purchase/` has 16 inlinks, **8** (not 12) from its own sub-pages.
+- Wikipedia wrong-target links: **about 51**, not 58. Seven anchors are population or housing figures on the correct city article ("1,084 residents", "92% of homes are single-family"). That is a source problem (P1), not a wrong target.
+- County coverage: the 13 county hubs link **275 of 276** cities. `/mortgage-lender-blair-township-mi/` is linked only from a state hub, so add it to its county hub.
+- Unverified external URLs: 811 of the ~11,290 are `sms:` links, so about **10,479** web URLs remain to check. The 2 × 404 and 21 redirects rest on the team's recheck log; michigan.gov returned a proxy 403 to the auditor.
+
+**Scores (rubric §6)**
+- Sitewide External linking: **78 (C)** (simple mean of the 10 page-type scores), not 70. Money-page external: 79 (C).
+- Sitewide Internal 71 (C) stands. Add type mean 70 (C) and money-page score 71 (C).
+- Report the hubs separately: `/purchase/` internal **56 (F)**, `/refinance/` internal **50 (F)**. Purchase subs are about 76 (C), refinance subs 78 (C). The 60 (D) refinance group grade misstates both.
+
+**External-link policy**
+- **houzz.com is Tier 4, P2, not VIOLATION/P0.** These are Houzz Magazine design articles, the same class as Angi, which the Editorial Policy names as acceptable.
+- **nolo.com: keep as Tier 4.** The Editorial Policy names it. Add the Michigan statute only where a legal rule rests on Nolo alone.
+- **datausa.io** (44 links, 42 city pages) cites income figures exactly as the VIOLATION aggregators do. Give it the same treatment and add fix rows.
+- project-osrm.org and openstreetmap.org are methodology attribution, not "primary" sources.
+- webharvest.gov is an archived mirror: replace it, as F12 says.
+- The 9 non-city policy rows need specific fixes, not the city boilerplate:
+  - Trading Economics → Census New Residential Sales.
+  - security.org → remove.
+  - FortuneBuilders → remove, or link hudhomestore.gov [VERIFY].
+  - Ownwell → St. Clair County Equalization or the assessor [VERIFY].
+- **Priority:** P0 = the 7 lead-gen and affiliate links (Ownwell, security.org, FortuneBuilders). Aggregators, Wikipedia and datausa = P1. The guide treats Wikipedia and WPR alike. Ship the replacements in the same pass as the `04-city-pages` corrected figures, so a Census link never sits on a WPR projection.
+
+**Navigation (unified spec, 02-links is the owner; see audit-core-pages-B K4)**
+- **Buy:** Conventional, FHA, VA, USDA, HomeReady & Home Possible, Jumbo, Physician, Manufactured.
+- **Rate and term** [COMPLIANCE REVIEW]: 30-Year Fixed, 15-Year Fixed, ARM, Buydown.
+- **Self-employed and non-QM:** Non-QM, Bank Statement, 1099 Income, Asset Depletion, DSCR, Non-Warrantable Condo.
+- **Home equity:** Home Equity Loan, HELOC, Cash-Out Refinance.
+- `internal-link-fixes` row 41 adds Condo, not Physician. The physician page does not present the program as non-QM.
+- Print the menu once by removing the duplicate **dropdown**. Keep popup 822: 01-ctas makes it the mobile menu with an action row. Delete the "drop the popup" option.
+- alignwithalign.com items: **P0**, following 01-ctas row 2.
+  - "Try payment scenarios" → `/mortgage-calculator/#p-pay`.
+  - "Explore my equity" → `/refinance/home-equity-review/#available-equity`.
+  - Remove "Save my plan" unless it is a working account feature. Never send it to `/start/` (guide §5.2 rule 1).
+
+**Implementation**
+- `internal-link-fixes` rows 20–21 (hub links in the Learn CTA blocks) must ship inside the 01-ctas `al-module`/`al-next` template. Otherwise the `/refinance/` fix is lost when that template is rebuilt.
+- Rows 28–39: vary the anchors. Each set repeats one anchor 6 times; the cap is 3.
+- Visible breadcrumbs: keep P1. For multi-county cities, use the city team's majority-county rule.
+- Trust-strip link (row 50): keep it only while the review count is maintained from one template (guide §7.7).

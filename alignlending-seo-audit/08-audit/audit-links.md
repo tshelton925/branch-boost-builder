@@ -289,7 +289,7 @@ All 107 pass the mechanical checks: the phrase is verbatim, the target exists, t
 
 **K6. Wikipedia and aggregator removal vs city fact-checks** (02 `broken-links.csv` / policy vs `04-city-pages`)
 - The city team cites Wikipedia as its own verification source in 4 rows: East Lansing population, Barton Hills population, Lansing (Potter Park Zoo) and Flint (McLaren). The brand rule makes those unacceptable, so the city team must re-source them to Census, the municipality or the employer.
-- 33 city fact-check rows already say "Replace with data.census.gov / Census QuickFacts".
+- 32 city fact-check rows (factcheck-group-1.csv) already say "Replace with data.census.gov / Census QuickFacts".
 - `04-city-pages/city-fixes.csv` has 132 Wikipedia and city-data rows that duplicate 02's link rows.
 - Several WPR figures are projections or ranges that no Census table publishes ("26,280 by 2026", "7,500 to 8,020"). The city team gives the corrected text ("about 25,900 residents for 2025", Census Vintage 2025).
 - **Resolution:**

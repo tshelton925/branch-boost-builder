@@ -268,3 +268,78 @@ County hubs (13) link the three core Michigan guides (taxable value, homestead, 
 - **GSC attribution is inferred.** The connector has no page dimension. The query-to-page rules sit in the scratchpad script `gscmap2.py`, and impressions marked "est." are sums of the mapped queries. The queries pulled total about 50,600 impressions, of which about 43,900 map to a URL; the site total is 181K. Confirm page-level numbers before any 301.
 - **Bing:** Bing Webmaster data is not connected. Bing weighs exact-match anchors and on-page relevance more heavily than Google, which strengthens the case for R2 anchor variety and R7 down-links. I need a Bing export before giving Bing-specific numbers.
 - **Not in scope here:** orphans, broken links and redirect chains (link-health workstream), and title, H1 and meta rewrites for the merged canonicals (core-pages and content workstreams).
+
+---
+
+## Auditor corrections
+
+Independent audit, 2026-11-15. **Verdict: PASS WITH CORRECTIONS.**
+- Full audit: `08-audit/audit-links.md`. Row-level fixes: `08-audit/corrections-links.csv`.
+- Everything above this heading is the team's text, unchanged. Where they differ, the corrections below take precedence.
+- Confirmed: all 224 existing-phrase rows and all 384 city rows are verbatim. The median of 28 in-body links (auditor 29), money pages linking 2 to 6 Learn pages, 0 of 33 and 0 of 36, the "3 posts × 50 modules", prev/next 29%, homestead 275 → 66, 0 Learn links to the refinance calculator, and every research-report figure in the new sentences.
+
+**Compliance (P0)**
+- **Row 108** (`/purchase/first-time-homebuyer/`, a money page) used "from 0% to 3.5%", a down-payment percentage (guide §7.2 rule 1). Corrected:
+  - Anchor: "low-down-payment mortgage options".
+  - Sentence: "NEW: If the down payment is the hurdle, compare low-down-payment mortgage options."
+- Rows 104, 105, 106, 131, 153 and 192 anchor links on "3% down" or "3.5% down". Drop them or hold them for [COUNSEL] (104–106 move P0 → P1). Never anchor a link on a down-payment percentage.
+- Rows 116, 135 and 218 (term names): add `[COMPLIANCE REVIEW]`.
+- Rows 72 and 84: do not anchor "purchase loan" inside the ICE "36.8 days" statistic. Link a different sentence.
+
+**Score**
+- The overall 54 (F) is a custom formula, not the rubric.
+- A blind rubric re-score (§3.6 anchors) of 6 articles gives **71 (C)**: no orphans, no broken links, hub links on 87%, a money-page link on 92%, median inlinks of 17.5–19.
+- Keep 54 as a labelled "cluster-architecture index". Relabel the cluster column the same way: C20's 37 falls below the rubric floor, which is reserved for orphans and broken links.
+- The projected score after fixes on the rubric basis is about 82 (B), projected.
+
+**Corrected or refuted statements**
+- C13: **0 of 36** articles link `/purchase/`, not 1. No Learn page links `/purchase/` in body copy.
+- "11%" becomes **about 9%** (36 of 420).
+- "The modules are not topical" becomes "concentrated": 84% of Related slots stay in the cluster, but 3 posts take 150 slots.
+- "The connector has no page column" is refuted. The DataWise `overview` returns `top_pages_90` and `opps_90` with URLs, and the estimates miss them:
+
+  | Page | Actual impressions | Team estimate |
+  |---|---|---|
+  | `usda-loan-basics` | 10,182 | 4,945 |
+  | `usda-eligibility-check` | 86 | 695 |
+  | `va-loan-calculator` | 849 | 209 |
+
+  Use the page rows where they exist, then re-run the P0 logic.
+- P0 rule: 26 of the 107 P0 rows fail the stated rule. Restate it to include "target is a striking-distance page (position 4–30, ≥ 30 impressions)".
+- Downgrade row 81 to P2: it is a cross-cluster link, not "same-cluster".
+- Caps: `michigan-taxable-value` has 4 source rows, and "Michigan Mortgage Market Report" is used ×4 on one target. Cut each to 3.
+- R2: a 20-link cap against a median of 28 means pruning about 8 links per article. Raise the cap to 30 or say so.
+
+**Copy fixes**
+- Row 12: "NEW: For all seven types of refinancing, read refinancing options and who each one fits."
+- Row 136: "NEW: A loan above the conforming limit is non-conforming; see how non-conforming loans work."
+- Rows 56, 170 and 182, and city rows 192–199: link the **second** occurrence of the anchor. The first sits inside an existing link.
+
+**Cannibalization and the blog inventory (05-content-keywords)**
+- 33 of the 53 URLs to 301 agree with `blog-inventory.csv`. **20 disagree:**
+
+  | Topic | URLs | Note |
+  |---|---|---|
+  | `buying-process` (P0) | 1 | Different 301 target: 05 sends it to `/learn/home-buying-process/`. |
+  | Seller's market | 4 | 05 merges 02's canonical. |
+  | Regulation updates | 6 | Inverted. |
+  | Trends and new products | 2 | Different targets. |
+  | Beginner investing | 2 | Inverted. |
+  | Freddie Mac | 1 | Different target. |
+  | Movers | 1 | Different target. |
+  | Selling overview | 1 | Different target. |
+  | ARM | 1 | The cell is malformed and contradicts the row's own canonical. |
+  | `mortgage-terminology` | 1 | 05 keeps it. |
+
+- 05 also merges 24 pages that 02 only differentiates. Among them:
+  - `amortization-schedules` (P0). GSC `opps_90` credits "amortization" (315, 14.5) to this URL, so check GSC Pages before any 301.
+  - `how-to-budget-for-closing-costs`.
+  - `how-to-compare-loan-estimates`, a C11 secondary money page in `cluster-map.csv`.
+- The PM rules per group. Until then, freeze those 301s.
+- 18 insertion rows sit on source pages that 05 merges (14) or prunes (4): P0 rows 32 and 33, plus 16 P1 rows. Re-home them on the surviving canonical, and drop those on pruned pages.
+- Row 125 now targets `/learn/what-is-cash-out-refinance-loan/`.
+
+**Next-step box (conflict with 01-ctas §8)**
+- 01-ctas owns the `al-module`/`al-next` destinations and labels.
+- This team supplies only the `/refinance/` and `/purchase/` hub text links inside that template, and drops the R3 closing-box map.
+- Use guide §5.2 labels: "Review my break-even" or "Calculate my break-even", not "Run a break-even review".
