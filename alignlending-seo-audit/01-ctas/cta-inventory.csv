@@ -1,0 +1,310 @@
+label,destination,count,page_types,regions,atf_count,status_ok,status_note,element_kind,distinct_pages,example_page
+Contact Us,/contact-us/,2510,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:38; purchase_sub:30; state_hub:12; research:12; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835; content:5,0,yes,crawl status 200,header_nav:1670; popup_menu:835; text_cta:5,835,/
+Plan my purchase,https://www.alignwithalign.com/buy,2505,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:36; purchase_sub:30; research:12; state_hub:9; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835,0,unverified,external host www.alignwithalign.com blocked by the audit session egress proxy (CONNECT 403); verify manually,header_menu_action:1670; popup_menu:835,835,/
+Try payment scenarios,https://www.alignwithalign.com/payment-lab,2505,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:36; purchase_sub:30; research:12; state_hub:9; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835,0,unverified,external host www.alignwithalign.com blocked by the audit session egress proxy (CONNECT 403); verify manually,header_menu_action:1670; popup_menu:835,835,/
+Explore my equity,https://www.alignwithalign.com/own,2505,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:36; purchase_sub:30; research:12; state_hub:9; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835,0,unverified,external host www.alignwithalign.com blocked by the audit session egress proxy (CONNECT 403); verify manually,header_menu_action:1670; popup_menu:835,835,/
+Save my plan,https://www.alignwithalign.com/plan,2505,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:36; purchase_sub:30; research:12; state_hub:9; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835,0,unverified,external host www.alignwithalign.com blocked by the audit session egress proxy (CONNECT 403); verify manually,header_menu_action:1670; popup_menu:835,835,/
+Ask Samantha a question,https://www.alignwithalign.com/ask,2505,learn:1413; city:828; product:63; calculator:54; county_hub:39; other:36; purchase_sub:30; research:12; state_hub:9; refinance_sub:9; home:3; product_hub:3; purchase:3; refinance:3,header:1670; popup:835,0,unverified,external host www.alignwithalign.com blocked by the audit session egress proxy (CONNECT 403); verify manually,header_menu_action:1670; popup_menu:835,835,/
+248-506-5727,tel:+12485065727,2142,learn:1404; city:552; product:42; calculator:37; other:33; county_hub:26; purchase_sub:20; research:8; state_hub:6; refinance_sub:6; home:2; product_hub:2; purchase:2; refinance:2,header:835; footer:835; content:472,0,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,header_phone:835; footer_phone:835; phone:472,835,/
+Talk with Samantha,https://calendly.com/samanthashelton,1671,city:1127; learn:469; county_hub:25; product:23; calculator:14; state_hub:7; research:5; purchase_sub:1,content:1671,319,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1671,795,/home-affordability-calculator/
+Call Align Lending at 248-506-5727,tel:+12485065727,835,learn:471; city:276; product:21; calculator:18; county_hub:13; other:12; purchase_sub:10; research:4; state_hub:3; refinance_sub:3; home:1; product_hub:1; purchase:1; refinance:1,header:835,0,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,header_phone:835,835,/
+Call,tel:+12485065727,824,learn:471; city:270; product:21; calculator:18; county_hub:13; purchase_sub:10; other:7; research:4; state_hub:3; refinance_sub:3; home:1; product_hub:1; purchase:1; refinance:1,chrome:824,0,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,chrome:824,824,/
+Meet,https://calendly.com/samanthashelton,824,learn:471; city:270; product:21; calculator:18; county_hub:13; purchase_sub:10; other:7; research:4; state_hub:3; refinance_sub:3; home:1; product_hub:1; purchase:1; refinance:1,chrome:824,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,chrome:824,824,/
+Talk with Samantha,"(button, no href)",824,learn:471; city:270; product:21; calculator:18; county_hub:13; purchase_sub:10; other:7; research:4; state_hub:3; refinance_sub:3; home:1; product_hub:1; purchase:1; refinance:1,chrome:824,0,n/a,JS button (no href); action handled on page,chrome:824,824,/
+Text,sms:+12485065727?&body=(page-specific),824,learn:471; city:270; product:21; calculator:18; county_hub:13; purchase_sub:10; other:7; research:4; state_hub:3; refinance_sub:3; home:1; product_hub:1; purchase:1; refinance:1,chrome:824,0,yes,"sms:+12485065727 with prefilled body (iOS/Android ""?&body="" form)",chrome:824,824,/
+Start my application,/start/?goal=buy,600,city:552; county_hub:25; product:22; calculator:1,content:600,298,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:600,300,/mortgage-lender-ada-township-mi/
+Apply Now,/start/,445,learn:402; calculator:15; other:12; product:8; research:4; state_hub:2; home:1; product_hub:1,header:445,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",header_button:445,445,/
+Compare loan options,/product-loans/,341,city:276; learn:60; calculator:5,content:341,0,yes,crawl status 200,content_button:280; learn_module:61,341,/home-affordability-calculator/
+Apply Now,/start/?goal=buy,330,city:276; learn:17; county_hub:13; product:10; purchase_sub:10; calculator:2; state_hub:1; purchase:1,header:330,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,header_button:330,330,/home-affordability-calculator/
+See every loan option,/product-loans/,307,city:276; product:21; calculator:4; state_hub:3; other:2; refinance:1,content:307,0,yes,crawl status 200,inline_or_card_cta:307,307,/about-us/
+How Michigan taxable value works,/learn/michigan-taxable-value/,276,city:276,content:276,0,yes,crawl status 200,content_button:276,276,/mortgage-lender-ada-township-mi/
+start online,/start/,274,learn:273; calculator:1,content:274,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:274,274,/learn/1031-exchanges-rules-and-benefits/
+Build your homebuyer game plan,/purchase/homebuyer-game-plan/,252,learn:148; city:103; calculator:1,content:252,0,yes,crawl status 200,inline_or_card_cta:252,252,/learn/15-year-vs-30-year-mortgage-comparison/
+Build your homebuyer game plan first,/purchase/homebuyer-game-plan/,140,city:140,content:140,0,yes,crawl status 200,inline_or_card_cta:140,140,/mortgage-lender-addison-township-mi/
+Get my homebuyer game plan,/purchase/homebuyer-game-plan/,112,learn:112,content:112,0,yes,crawl status 200,learn_module:112,112,/learn/15-first-time-home-buyer-tips/
+start online,/start/?goal=buy,104,learn:104,content:104,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,inline_text_cta:104,104,/learn/15-first-time-home-buyer-tips/
+Run a refinance break-even review,/refinance/break-even-review/,80,learn:80,content:80,0,yes,crawl status 200,inline_or_card_cta:80,80,/learn/annual-percentage-rate-apr/
+Explore my equity options,/refinance/home-equity-review/,58,learn:58,content:58,0,yes,crawl status 200,learn_module:58,58,/learn/accessibility-features-in-modern-homes/
+Plan a buy before you sell,/purchase/buy-before-you-sell/,58,learn:58,content:58,0,yes,crawl status 200,inline_or_card_cta:58,58,/learn/benefits-of-hiring-professional-stager/
+Review my break-even,/refinance/break-even-review/,53,learn:53,content:53,0,yes,crawl status 200,learn_module:53,53,/learn/benefits-of-rate-and-term-refinance/
+Get a budget review,/purchase/budget-review/,52,learn:51; calculator:1,content:52,0,yes,crawl status 200,learn_module:52,52,/learn/affordability-challenges-in-todays-housing-market/
+Review an investment property,/purchase/investment-property-financing/,50,learn:50,content:50,0,yes,crawl status 200,learn_module:50,50,/learn/1031-exchanges-rules-and-benefits/
+Build a buy before you sell strategy,/purchase/buy-before-you-sell/,50,learn:50,content:50,0,yes,crawl status 200,learn_module:50,50,/learn/benefits-of-hiring-professional-stager/
+start online,/start/?goal=refi,47,learn:47,content:47,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,inline_text_cta:47,47,/learn/benefits-of-refinancing-va-loan/
+Apply Now,/start/?goal=refi,42,learn:39; calculator:1; refinance:1; refinance_sub:1,header:42,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,header_button:42,42,/learn/benefits-of-rate-and-term-refinance/
+Schedule a call with Samantha,https://calendly.com/samanthashelton,41,product:21; other:5; learn:5; calculator:4; home:2; state_hub:2; product_hub:1; purchase_sub:1,content:41,4,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:41,37,/
+Review renovation financing,/purchase/renovation-financing/,33,learn:33,content:33,0,yes,crawl status 200,inline_or_card_cta:33,33,/learn/accessibility-features-in-modern-homes/
+Get a homebuying budget review,/purchase/budget-review/,33,learn:33,content:33,0,yes,crawl status 200,inline_or_card_cta:33,33,/learn/affordability-challenges-in-todays-housing-market/
+Take the readiness review,/purchase/mortgage-readiness-review/,29,learn:29,content:29,0,yes,crawl status 200,learn_module:28; content_button:1,29,/learn/amortization-schedules/
+Take a mortgage readiness review,/purchase/mortgage-readiness-review/,26,learn:26,content:26,0,yes,crawl status 200,inline_or_card_cta:26,26,/learn/budgeting-for-your-first-home/
+book a time with Samantha,https://calendly.com/samanthashelton,24,learn:24,content:24,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:24,24,/learn/15-year-vs-30-year-mortgage-comparison/
+Start a home equity review,/refinance/home-equity-review/,23,learn:23,content:23,0,yes,crawl status 200,inline_or_card_cta:23,23,/learn/addressing-mold-issues-in-your-home/
+Open the guide,/wp-content/uploads/guides/Your-Michigan-Homebuyer-Guide.pdf?v=1792114431,22,learn:22,content:22,0,yes,live fetch 206,content_button:22,22,/learn/15-first-time-home-buyer-tips/
+Open the guide,/wp-content/uploads/guides/Refinancing-and-Home-Equity-in-Michigan.pdf?v=1792863159,21,learn:21,content:21,0,yes,live fetch 206,content_button:21,21,/learn/benefits-of-rate-and-term-refinance/
+Apply Now,/start/?goal=equity,18,learn:13; product:3; refinance_sub:2,header:18,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,header_button:18,18,/learn/home-equity-line-of-credit-heloc/
+Start my application,/start/,17,product:16; home:1,content:17,8,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",application:17,9,/
+Build my homebuyer game plan,/purchase/homebuyer-game-plan/,13,learn:6; research:3; other:2; state_hub:1; purchase:1,content:13,2,yes,crawl status 200,content_button:13,10,/learn/
+Review a self-employed plan,/purchase/self-employed-homebuyer/,13,learn:13,content:13,0,yes,crawl status 200,inline_or_card_cta:13,13,/learn/balloon-mortgages-risks-and-benefits/
+See the Michigan uncapping study,/research/michigan-property-tax-uncapping-study/,12,learn:12,content:12,0,yes,crawl status 200,inline_or_card_cta:12,12,/learn/capital-gains-tax-exemptions/
+Build a homebuyer game plan,/purchase/homebuyer-game-plan/,11,product:9; other:2,content:11,0,yes,crawl status 200,inline_or_card_cta:9; content_button:2,11,/about-us/
+Get a first-time homebuyer plan,/purchase/first-time-homebuyer/,11,learn:11,content:11,0,yes,crawl status 200,inline_or_card_cta:10; learn_module:1,11,/learn/15-first-time-home-buyer-tips/
+Talk it through with Samantha,https://calendly.com/samanthashelton,11,learn:4; calculator:4; purchase_sub:1; refinance:1; refinance_sub:1,content:11,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:11,11,/learn/buying-home-with-va-loan/
+Compare your equity options,/refinance/cash-out-vs-home-equity/,11,learn:11,content:11,0,yes,crawl status 200,inline_or_card_cta:11,11,/learn/financing-home-renovations-options-and-tips/
+Estimate the tax for an address,/michigan-property-tax-calculator/,11,product:10; other:1,content:11,0,yes,crawl status 200,inline_or_card_cta:11,11,/mortgage-process/
+Talk it through first,https://calendly.com/samanthashelton,10,product:9; refinance_sub:1,content:10,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:10,10,/product-loans/15-year-fixed/
+Call 248-506-5727,tel:+12485065727,9,other:8; home:1,content:9,5,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,phone:9,7,/
+Start with a few questions,/start/,9,state_hub:5; product_hub:2; other:2,content:9,3,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",application:9,4,/mortgage-florida/
+Get the published rate for an address,/michigan-property-tax-calculator/,8,calculator:4; product:4,content:8,0,yes,crawl status 200,inline_or_card_cta:8,7,/home-affordability-calculator/
+See what it costs upfront,/purchase/first-time-homebuyer/#cash-to-close,8,purchase_sub:6; other:2,content:8,2,yes,page 200; #cash-to-close id present in live HTML (fetched 2026-11-15),content_button:4; inline_or_card_cta:4,2,/mortgage-process/
+Run a break-even estimate,/refinance/break-even-review/#break-even,8,refinance_sub:6; refinance:2,content:8,4,yes,page 200; #break-even id present in live HTML (fetched 2026-11-15),content_button:4; inline_or_card_cta:4,2,/refinance/
+Estimate your available equity,/refinance/home-equity-review/#available-equity,8,refinance_sub:8,content:8,2,yes,page 200; #available-equity id present in live HTML (fetched 2026-11-15),content_button:4; inline_or_card_cta:4,2,/refinance/cash-out-vs-home-equity/
+See the VA homebuyer plan,/purchase/va-homebuyer-plan/,7,learn:7,content:7,0,yes,crawl status 200,inline_or_card_cta:7,7,/learn/benefits-of-va-construction-loans/
+Start with a homebuyer game plan,/purchase/homebuyer-game-plan/,7,city:7,content:7,0,yes,crawl status 200,inline_or_card_cta:7,7,/mortgage-lender-dexter-township-mi/
+Meet Samantha Shelton,/samantha-shelton/,6,other:6,content:6,0,yes,crawl status 200,inline_or_card_cta:6,6,/about-us/
+Open the calculator,/rent-vs-buy-calculator/,6,learn:6,content:6,0,yes,crawl status 200,content_button:6,6,/learn/15-first-time-home-buyer-tips/
+Open the calculator,/va-funding-fee-calculator/,6,learn:6,content:6,0,yes,crawl status 200,content_button:6,6,/learn/benefits-of-refinancing-va-loan/
+Start my application,/start/?goal=equity,6,product:6,content:6,3,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:6,3,/product-loans/cashout-loans/
+Run the numbers,/purchase/budget-review/#affordability,6,purchase_sub:6,content:6,2,yes,page 200; #affordability id present in live HTML (fetched 2026-11-15),content_button:3; inline_or_card_cta:3,1,/purchase/budget-review/
+Talk through your own situation,https://calendly.com/samanthashelton,6,purchase_sub:6,content:6,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:6,6,/purchase/budget-review/
+Work out the timing,/purchase/buy-before-you-sell/#sell-timing,6,purchase_sub:6,content:6,2,yes,page 200; #sell-timing id present in live HTML (fetched 2026-11-15),content_button:3; inline_or_card_cta:3,1,/purchase/buy-before-you-sell/
+See what the property produces,/purchase/investment-property-financing/#rental-flow,6,purchase_sub:6,content:6,2,yes,page 200; #rental-flow id present in live HTML (fetched 2026-11-15),content_button:3; inline_or_card_cta:3,1,/purchase/investment-property-financing/
+Take the readiness assessment,/purchase/mortgage-readiness-review/#readiness,6,purchase_sub:6,content:6,2,yes,page 200; #readiness id present in live HTML (fetched 2026-11-15),content_button:3; inline_or_card_cta:3,1,/purchase/mortgage-readiness-review/
+Contact Align Lending,/contact-us/,5,other:4; learn:1,content:5,0,yes,crawl status 200,text_cta:4; content_button:1,5,/learn/how-to-qualify-for-jumbo-loan/
+start screen,/start/,5,city:5,content:5,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:5,5,/mortgage-lender-blendon-township-mi/
+Start with a conversation,https://calendly.com/samanthashelton,5,other:3; refinance:2,content:5,2,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:5,2,/mortgage-process/
+Talk through your options,https://calendly.com/samanthashelton,5,purchase:3; product_hub:1; purchase_sub:1,content:5,2,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:5,3,/product-loans/
+Ask her to check back,"(button, no href)",5,refinance_sub:3; purchase_sub:1; calculator:1,content:5,0,n/a,JS button (no href); action handled on page,tool_button:5,5,/pmi-removal-calculator/
+Meet Samantha,/samantha-shelton/,4,other:2; city:2,content:4,0,yes,crawl status 200,content_button:4,4,/editorial-policy/
+get started online,/start/?goal=buy,4,learn:4,content:4,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,inline_text_cta:4,4,/learn/building-home-on-budget-tips-and-tricks/
+Find your county limit,/loan-limits/,4,learn:3; calculator:1,content:4,0,yes,crawl status 200,content_button:4,4,/learn/conventional-loans/
+Run the tax calculator,/michigan-property-tax-calculator/,4,city:4,content:4,0,yes,crawl status 200,content_button:4,4,/mortgage-lender-georgetown-township-mi/
+Take the readiness assessment,/purchase/homebuyer-game-plan/#readiness,4,purchase_sub:4,content:4,2,yes,page 200; #readiness id present in live HTML (fetched 2026-11-15),content_button:2; inline_or_card_cta:2,1,/purchase/homebuyer-game-plan/
+Estimate my budget,/purchase/budget-review/#affordability,4,purchase_sub:4,content:4,0,yes,page 200; #affordability id present in live HTML (fetched 2026-11-15),content_button:2; inline_or_card_cta:2,1,/purchase/homebuyer-game-plan/
+See what is likely to come up,/purchase/self-employed-homebuyer/#doc-readiness,4,purchase_sub:4,content:4,2,yes,page 200; #doc-readiness id present in live HTML (fetched 2026-11-15),content_button:2; inline_or_card_cta:2,1,/purchase/self-employed-homebuyer/
+Pick a time to talk,https://calendly.com/samanthashelton,3,other:2; calculator:1,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,2,/compare-loan-estimates/
+Get pre-approved,/start/?goal=buy,3,calculator:2; product:1,content:3,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:3,3,/home-affordability-calculator/
+get started online,/start/,3,learn:3,content:3,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:3,3,/learn/fha-loans/
+Find your Michigan community,/mortgage-michigan/,3,learn:3,content:3,0,yes,crawl status 200,inline_or_card_cta:3,3,/learn/hiring-movers/
+How USDA loans work,/product-loans/usda-loans/,3,calculator:2; learn:1,content:3,1,yes,crawl status 200,content_button:3,2,/learn/usda-loan-basics/
+the start page,/start/,3,city:3,content:3,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:3,3,/mortgage-lender-britton-mi/
+Buying a waterfront home,/learn/buying-waterfront-property/,3,city:3,content:3,0,yes,crawl status 200,content_button:3,3,/mortgage-lender-highland-mi/
+Review my budget with someone,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/budget-review/
+See the homebuyer game plan,/purchase/homebuyer-game-plan/,3,purchase_sub:3,content:3,0,yes,crawl status 200,content_button:3,3,/purchase/buy-before-you-sell/
+Get my first-time buyer plan,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/first-time-homebuyer/
+Build my homebuyer game plan,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/homebuyer-game-plan/
+Talk it through,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,3,/purchase/homebuyer-game-plan/
+Review a property with us,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/investment-property-financing/
+Start the conversation,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/mortgage-readiness-review/
+Talk to somebody who knows VA,https://calendly.com/samanthashelton,3,purchase_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/purchase/va-homebuyer-plan/
+Call Samantha about a shared client,tel:+12485065727,3,other:3,content:3,1,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,phone:3,1,/real-estate-agents/
+Get my refinance checkup,https://calendly.com/samanthashelton,3,refinance_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/refinance/break-even-review/
+Compare my options,https://calendly.com/samanthashelton,3,refinance_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/refinance/cash-out-vs-home-equity/
+Talk through my equity options,https://calendly.com/samanthashelton,3,refinance_sub:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/refinance/home-equity-review/
+Ask Samantha about your own situation,https://calendly.com/samanthashelton,3,other:3,content:3,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:3,1,/reviews/
+See my equity,/refinance/home-equity-review/,2,home:1; refinance:1,content:2,0,yes,crawl status 200,content_button:2,2,/
+Cash-out or home equity?,/refinance/cash-out-vs-home-equity/,2,home:1; refinance:1,content:2,0,yes,crawl status 200,content_button:2,2,/
+Buy a Home,/start/?goal=buy,2,home:2,content:2,2,yes,/start/ 200 (noindex intake); params read by alignStartCfg,hero_router_card:2,1,/
+Refinance,/refinance/break-even-review/,2,home:2,content:2,2,yes,crawl status 200,hero_router_card:2,1,/
+Compare Your Options,/compare-loan-estimates/,2,home:2,content:2,2,yes,crawl status 200,inline_or_card_cta:2,1,/
+(248) 506-5727,tel:+12485065727,2,calculator:2,content:2,2,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,phone:2,1,/compare-loan-estimates/
+Send to Samantha,"(button, no href)",2,calculator:1; other:1,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/compare-loan-estimates/
+Check a Loan Estimate,/compare-loan-estimates/,2,calculator:2,content:2,2,yes,crawl status 200,content_button:2,2,/calculators/
+Use the calculator,/home-affordability-calculator/#p-aff,2,calculator:2,content:2,2,yes,page 200; #p-aff id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/home-affordability-calculator/
+Open the calculator,/mortgage-payoff-calculator/,2,learn:2,content:2,0,yes,crawl status 200,content_button:2,2,/learn/amortization-schedules/
+Review this with Samantha,https://calendly.com/samanthashelton,2,learn:1; purchase_sub:1,content:2,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,2,/learn/debt-to-income-ratio-dti/
+Talk about the next home with Samantha,https://calendly.com/samanthashelton,2,learn:1; calculator:1,content:2,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,2,/learn/finances-of-selling/
+Compare my options,/refinance/cash-out-vs-home-equity/,2,learn:2,content:2,0,yes,crawl status 200,learn_module:2,2,/learn/fire-safety-tips-for-homeowners/
+Open the calculator,/michigan-transfer-tax-calculator/,2,learn:2,content:2,0,yes,crawl status 200,content_button:2,2,/learn/michigan-transfer-tax/
+See what your sale leaves you,/purchase/buy-before-you-sell/#sell-timing,2,learn:2,content:2,0,yes,page 200; #sell-timing id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/learn/michigan-transfer-tax/
+Go over the options with Samantha,https://calendly.com/samanthashelton,2,learn:1; calculator:1,content:2,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,2,/learn/mortgage-rate-buydowns/
+Check an address,/usda-eligibility-check/,2,learn:2,content:2,0,yes,crawl status 200,content_button:2,2,/learn/recent-changes-to-usda-loan-programs/
+Start a refinance break-even review,/refinance/break-even-review/,2,learn:2,content:2,0,yes,crawl status 200,inline_or_card_cta:2,2,/learn/refinancing-guide/
+Check this address,"(button, no href)",2,learn:1; calculator:1,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/learn/usda-loan-basics/
+Look up your county,/loan-limits/#loan-limits,2,calculator:2,content:2,2,yes,page 200; #loan-limits id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/loan-limits/
+Use the calculator,/michigan-property-tax-calculator/#mi-tax,2,calculator:2,content:2,2,yes,page 200; #mi-tax id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/michigan-property-tax-calculator/
+Use the calculator,/michigan-transfer-tax-calculator/#mi-transfer,2,calculator:2,content:2,2,yes,page 200; #mi-transfer id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/michigan-transfer-tax-calculator/
+See the Florida programs,/mortgage-florida/#programs,2,state_hub:2,content:2,0,yes,page 200; #programs id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/mortgage-florida/
+start your application,/start/,2,city:2,content:2,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:2,1,/mortgage-lender-bay-city-mi/
+Use the calculator,/mortgage-calculator/#p-pay,2,calculator:2,content:2,2,yes,page 200; #p-pay id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/mortgage-calculator/
+start a conversation,/start/,2,city:2,content:2,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_text_cta:2,2,/mortgage-lender-grand-haven-mi/
+How condo financing works,/learn/condominium-financing/,2,city:2,content:2,0,yes,crawl status 200,content_button:2,2,/mortgage-lender-meridian-township-mi/
+Buying a home with an HOA,/learn/buying-home-with-hoa-pros-and-cons/,2,city:2,content:2,0,yes,crawl status 200,content_button:2,2,/mortgage-lender-northville-township-mi/
+Find your county,/mortgage-michigan/#counties,2,state_hub:2,content:2,2,yes,page 200; #counties id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/mortgage-michigan/
+Use the calculator,/mortgage-payoff-calculator/#payoff,2,calculator:2,content:2,2,yes,page 200; #payoff id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/mortgage-payoff-calculator/
+Use the calculator,/mortgage-refinance-calculator/#p-ref,2,calculator:2,content:2,2,yes,page 200; #p-ref id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/mortgage-refinance-calculator/
+Use the calculator,/points-vs-lender-credit-calculator/#points-credit,2,calculator:2,content:2,2,yes,page 200; #points-credit id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/points-vs-lender-credit-calculator/
+Email Align Lending,mailto:samantha@alignlending.com,2,other:2,content:2,0,yes,mailto syntax valid; on-domain address,email:2,2,/privacy-policy/
+Estimate my income from deposits,/product-loans/bank-statement-loan/#p-bs,2,product:2,content:2,0,yes,page 200; #p-bs id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/product-loans/bank-statement-loan/
+Start with a home equity strategy review,/refinance/home-equity-review/,2,product:2,content:2,0,yes,crawl status 200,inline_or_card_cta:2,2,/product-loans/cashout-loans/
+Run the numbers on a property,/product-loans/dscr-loans-michigan/#p-dscr,2,product:2,content:2,0,yes,page 200; #p-dscr id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/product-loans/dscr-loans-michigan/
+See how much equity I can use,/refinance/home-equity-review/#available-equity,2,product:2,content:2,0,yes,page 200; #available-equity id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/product-loans/home-equity-loan/
+Plan my move,https://calendly.com/samanthashelton,2,purchase_sub:2,content:2,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,1,/purchase/buy-before-you-sell/
+Add up my cash to close,/purchase/first-time-homebuyer/#cash-to-close,2,purchase_sub:2,content:2,2,yes,page 200; #cash-to-close id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/purchase/down-payment-assistance/
+Start the assessment,"(button, no href)",2,purchase_sub:2,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/purchase/homebuyer-game-plan/
+Back,"(button, no href)",2,purchase_sub:2,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/purchase/homebuyer-game-plan/
+Continue,"(button, no href)",2,purchase_sub:2,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/purchase/homebuyer-game-plan/
+Schedule a planning call,https://calendly.com/samanthashelton,2,purchase_sub:2,content:2,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,2,/purchase/homebuyer-game-plan/
+Start over,"(button, no href)",2,purchase_sub:2,content:2,0,n/a,JS button (no href); action handled on page,tool_button:2,2,/purchase/homebuyer-game-plan/
+Get your actual list,https://calendly.com/samanthashelton,2,purchase_sub:2,content:2,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,2,/purchase/mortgage-readiness-review/
+Talk through a project,https://calendly.com/samanthashelton,2,purchase_sub:2,content:2,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,1,/purchase/renovation-financing/
+Use your home's equity,/product-loans/home-equity-loan/,2,purchase_sub:1; refinance_sub:1,content:2,0,yes,crawl status 200,inline_or_card_cta:2,2,/purchase/renovation-financing/
+See your funding fee,/purchase/va-homebuyer-plan/#va-fee,2,purchase_sub:2,content:2,2,yes,page 200; #va-fee id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/purchase/va-homebuyer-plan/
+About VA loans,/product-loans/va-loans/,2,purchase_sub:2,content:2,0,yes,crawl status 200,content_button:2,1,/purchase/va-homebuyer-plan/
+Use the calculator,/pmi-removal-calculator/#mi-end,2,calculator:2,content:2,2,yes,page 200; #mi-end id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/pmi-removal-calculator/
+Review my situation,https://calendly.com/samanthashelton,2,purchase_sub:2,content:2,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,1,/purchase/self-employed-homebuyer/
+Answer the three questions,/refinance/cash-out-vs-home-equity/#equity-compare,2,refinance_sub:2,content:2,1,yes,page 200; #equity-compare id present in live HTML (fetched 2026-11-15),content_button:2,1,/refinance/cash-out-vs-home-equity/
+Use the calculator,/rent-vs-buy-calculator/#rent-buy,2,calculator:2,content:2,2,yes,page 200; #rent-buy id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/rent-vs-buy-calculator/
+Read the 2026 Uncapping Study,/research/michigan-property-tax-uncapping-study/,2,research:2,content:2,2,yes,crawl status 200,content_button:2,2,/research/
+Use the calculator,/seller-net-sheet-calculator/#seller-net,2,calculator:2,content:2,2,yes,page 200; #seller-net id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/seller-net-sheet-calculator/
+Check an address,/usda-eligibility-check/#usda-check,2,calculator:2,content:2,2,yes,page 200; #usda-check id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/usda-eligibility-check/
+Use the calculator,/va-funding-fee-calculator/#va-fee,2,calculator:2,content:2,2,yes,page 200; #va-fee id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/va-funding-fee-calculator/
+Use the calculator,/va-loan-calculator/#p-va,2,calculator:2,content:2,2,yes,page 200; #p-va id present in live HTML (fetched 2026-11-15),content_button:1; inline_or_card_cta:1,1,/va-loan-calculator/
+Get a real number from Samantha,https://calendly.com/samanthashelton,2,other:2,content:2,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:2,1,/why-we-dont-publish-rates/
+Build my plan,"(button, no href)",1,home:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/
+Read Samantha's story,/samantha-shelton/,1,home:1,content:1,0,yes,crawl status 200,content_button:1,1,/
+See all calculators,/calculators/,1,home:1,content:1,0,yes,crawl status 200,content_button:1,1,/
+See all 16 loan options,/product-loans/,1,home:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/
+See all 276 city guides,/mortgage-michigan/,1,home:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/
+Read how Align started,/about-us/#story,1,other:1,content:1,1,yes,page 200; #story id present in live HTML (fetched 2026-11-15),content_button:1,1,/about-us/
+Read Samantha's full story,/samantha-shelton/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/about-us/
+book a time to meet,https://calendly.com/samanthashelton,1,calculator:1,content:1,1,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/compare-loan-estimates/
+Call me,"(button, no href)",1,calculator:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/compare-loan-estimates/
+Take the readiness quiz,/purchase/mortgage-readiness-review/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/calculators/
+Book a call with Samantha,https://calendly.com/samanthashelton,1,other:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/contact-us/
+text her,sms:+12485065727?&body=(page-specific),1,other:1,content:1,0,yes,"sms:+12485065727 with prefilled body (iOS/Android ""?&body="" form)",sms_link:1,1,/contact-us/
+Browse the guides,/learn/,1,other:1,content:1,1,yes,crawl status 200,content_button:1,1,/editorial-policy/
+Why we don't publish rates,/why-we-dont-publish-rates/,1,other:1,content:1,1,yes,crawl status 200,content_button:1,1,/editorial-policy/
+Browse by subject,/learn/#subjects,1,learn:1,content:1,1,yes,page 200; #subjects id present in live HTML (fetched 2026-11-15),content_button:1,1,/learn/
+Search,"(button, no href)",1,learn:1,content:1,1,n/a,JS button (no href); action handled on page,tool_button:1,1,/learn/
+See credit repair strategies for home buyers,/learn/credit-repair-strategies-for-home-buyers/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/buying-home-with-bad-credit/
+See the 30-year fixed,/product-loans/30-year-fixed/,1,learn:1,content:1,0,yes,crawl status 200,learn_module:1,1,/learn/fixed-rate-mortgages-benefits-and-drawbacks/
+Compare adjustable-rate mortgages,/product-loans/adjustable-rate-mortgage/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/fixed-rate-mortgages-benefits-and-drawbacks/
+See cash-out vs. home equity,/refinance/cash-out-vs-home-equity/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/home-equity/
+See investment property financing,/purchase/investment-property-financing/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/how-to-refinance-investment-property/
+Open the calculator,/michigan-property-tax-calculator/,1,learn:1,content:1,0,yes,crawl status 200,content_button:1,1,/learn/michigan-taxable-value/
+Ask Samantha,mailto:samantha@alignlending.com?subject=Glossary%20question,1,learn:1,content:1,1,yes,mailto syntax valid; on-domain address,inline_or_card_cta:1,1,/learn/mortgage-glossary/
+Open the calculator,/pmi-removal-calculator/,1,learn:1,content:1,0,yes,crawl status 200,content_button:1,1,/learn/refinancing-to-remove-mortgage-insurance/
+Find out how much entitlement you have left,/learn/va-loan-tips/#tip-2,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
+Use VA’s fee rules and the 4% concession cap,/learn/va-loan-tips/#tip-7,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
+Plan around the occupancy requirement,/learn/va-loan-tips/#tip-8,1,learn:1,content:1,1,unverified,anchor not checked,inline_or_card_cta:1,1,/learn/va-loan-tips/
+Look up a term in the mortgage glossary,/learn/mortgage-glossary/,1,learn:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/learn/what-is-loan-to-value-ratio/
+Verify us on NMLS Consumer Access,https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/2041154,1,other:1,content:1,1,unverified,external host www.nmlsconsumeraccess.org blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/licensing/
+Talk with Samantha about your loan,https://calendly.com/samanthashelton,1,calculator:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/loan-limits/
+Read the uncapping study,/research/michigan-property-tax-uncapping-study/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/michigan-property-tax-calculator/
+Have Samantha check the property,https://calendly.com/samanthashelton,1,calculator:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/michigan-property-tax-calculator/
+Read the transfer tax guide,/learn/michigan-transfer-tax/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/michigan-transfer-tax-calculator/
+See what the whole sale leaves you,/seller-net-sheet-calculator/,1,calculator:1,content:1,0,yes,crawl status 200,content_button:1,1,/michigan-transfer-tax-calculator/
+Send Samantha the address,https://calendly.com/samanthashelton,1,state_hub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/mortgage-florida/
+Buying a home in a flood zone,/learn/buying-home-in-flood-zone/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-canton-township-mi/
+Run a budget review,/purchase/budget-review/,1,city:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/mortgage-lender-grand-haven-mi/
+Build a homebuying plan with Samantha,/purchase/homebuyer-game-plan/,1,city:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/mortgage-lender-huron-township-mi/
+How a renovation loan works,/learn/what-is-renovation-loan/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-lansing-mi/
+The builder's lender or a broker,/learn/builder-preferred-lender-vs-mortgage-broker/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-macomb-township-mi/
+Buying a home with a septic system,/learn/buying-home-with-septic-system/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-milford-mi/
+Buying a historic home,/learn/buying-historic-home/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-northville-mi/
+Buying in a flood zone,/learn/buying-home-in-flood-zone/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-northville-mi/
+Michigan property tax calculator,/michigan-property-tax-calculator/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-northville-mi/
+Read the lakefront guide,/learn/buying-waterfront-property/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-orion-township-mi/
+Read about second homes,/learn/buying-second-home/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-park-township-mi/
+See refinance options,/refinance/,1,city:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-lender-rochester-hills-mi/
+Estimate the tax for a Michigan address,/michigan-property-tax-calculator/,1,state_hub:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/mortgage-michigan/
+Book a call for your list,https://calendly.com/samanthashelton,1,other:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/mortgage-process/
+First-Time Homebuyer,/purchase/first-time-homebuyer/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/mortgage-process/
+Book a call to talk it through,https://calendly.com/samanthashelton,1,other:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/mortgage-process/
+Start my application,/start/?goal=refi,1,calculator:1,content:1,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:1,1,/mortgage-refinance-calculator/
+Email samantha@alignlending.com,mailto:samantha@alignlending.com?subject=Media%20request%20for%20Samantha%20Shelton,1,other:1,content:1,1,yes,mailto syntax valid; on-domain address,email:1,1,/press/
+Media request form,/press/#request,1,other:1,content:1,1,yes,page 200; #request id present in live HTML (fetched 2026-11-15),content_button:1,1,/press/
+Show all 61 placements,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/press/
+Send media request,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/press/
+Copy the request,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/press/
+Request images →,/press/#request,1,other:1,content:1,0,yes,page 200; #request id present in live HTML (fetched 2026-11-15),inline_or_card_cta:1,1,/press/
+Email a privacy request,mailto:samantha@alignlending.com?subject=Privacy%20request,1,other:1,content:1,1,yes,mailto syntax valid; on-domain address,email:1,1,/privacy-policy/
+Text messages,/privacy-policy/#text-messages,1,other:1,content:1,0,unverified,anchor not checked,inline_or_card_cta:1,1,/privacy-policy/
+Lower … (router card),/refinance/break-even-review/,1,product_hub:1,content:1,0,yes,crawl status 200,router_card:1,1,/product-loans/
+Compare a shorter term in the calculator,/mortgage-calculator/,1,product:1,content:1,0,yes,crawl status 200,content_button:1,1,/product-loans/15-year-fixed/
+Compare both terms in the calculator,/mortgage-calculator/,1,product:1,content:1,0,yes,crawl status 200,content_button:1,1,/product-loans/30-year-fixed/
+See how long a change takes to pay for itself,/refinance/break-even-review/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/30-year-fixed/
+Talk through how long you will stay,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/adjustable-rate-mortgage/
+See how a self-employed homebuyer plan works,/purchase/self-employed-homebuyer/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/bank-statement-loan/
+Ask Samantha about a seller-paid buydown,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/buydown-loans/
+Ask about a seller buydown,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/buydown-loans/
+Compare both against my current loan,/refinance/cash-out-vs-home-equity/,1,product:1,content:1,0,yes,crawl status 200,content_button:1,1,/product-loans/cashout-loans/
+Talk through which loan fits me,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/conventional-loans/
+Talk through this property,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/dscr-loans-michigan/
+Compare two Loan Estimates,/compare-loan-estimates/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/dscr-loans-michigan/
+Talk through which one fits me,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/fha-loans/
+Compare HELOC offers side by side,/wp-content/uploads/guides/heloc-lender-comparison-worksheet.pdf?v=1791663759,1,product:1,content:1,0,unverified,not in crawl and not fetched,inline_or_card_cta:1,1,/product-loans/heloc/
+Start with the reason,/refinance/home-equity-review/,1,product:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/product-loans/home-equity-loan/
+Check the income limit for my address,https://ami-lookup-tool.fanniemae.com/,1,product:1,content:1,0,unverified,external host ami-lookup-tool.fanniemae.com blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/product-loans/home-ready/
+Talk through a loan above the limit,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/jumbo-loans/
+Check an address on the USDA map,https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do,1,product:1,content:1,0,unverified,external host eligibility.sc.egov.usda.gov blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/product-loans/usda-loans/
+Tell Samantha the situation,https://calendly.com/samanthashelton,1,product:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/product-loans/non-qm-loans/
+Request your certificate of eligibility,https://www.va.gov/housing-assistance/home-loans/how-to-request-coe/,1,product:1,content:1,0,unverified,external host www.va.gov blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/product-loans/va-loans/
+Start your pre-approval,/start/?goal=buy,1,purchase:1,content:1,0,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:1,1,/purchase/
+Buying … (router card),/purchase/first-time-homebuyer/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+Setting … (router card),/purchase/budget-review/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+Selling … (router card),/purchase/buy-before-you-sell/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+Somewhere … (router card),/purchase/homebuyer-game-plan/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+The … (router card),/purchase/renovation-financing/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+I … (router card),/purchase/investment-property-financing/,1,purchase:1,content:1,0,yes,crawl status 200,router_card:1,1,/purchase/
+Run the number for an address,/michigan-property-tax-calculator/,1,purchase:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/purchase/
+Ask about your situation,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/budget-review/
+Find the published rate for an address,/michigan-property-tax-calculator/,1,purchase_sub:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/purchase/budget-review/
+Use a VA benefit,/product-loans/va-loans/,1,purchase_sub:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/purchase/budget-review/
+Build your move strategy,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/buy-before-you-sell/
+Figure out the order first,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/buy-before-you-sell/
+Ask about Plan B,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/buy-before-you-sell/
+Check my down payment options,/start/?goal=buy,1,purchase_sub:1,content:1,1,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:1,1,/purchase/down-payment-assistance/
+Call Samantha,tel:+12485065727,1,purchase_sub:1,content:1,0,yes,E.164 tel:+12485065727 matches NAP 248-506-5727,phone:1,1,/purchase/down-payment-assistance/
+Get your first-time buyer plan,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/first-time-homebuyer/
+Ask before you do it,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/first-time-homebuyer/
+Ask about a specific property,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/homebuyer-game-plan/
+How Michigan property taxes work,/learn/michigan-taxable-value/,1,purchase_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/purchase/homebuyer-game-plan/
+See all service areas,/mortgage-michigan/,1,purchase_sub:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/purchase/homebuyer-game-plan/
+Review the numbers with Samantha,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/investment-property-financing/
+Get a straight read,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/investment-property-financing/
+Start with a few questions,/start/?goal=buy,1,purchase_sub:1,content:1,1,yes,/start/ 200 (noindex intake); params read by alignStartCfg,application:1,1,/purchase/renovation-financing/
+Run a payment on the total cost,/mortgage-calculator/,1,purchase_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/purchase/renovation-financing/
+Book a time before you commit,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/renovation-financing/
+Read about renovation permits,/learn/home-renovation-permits-what-you-need/,1,purchase_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/purchase/renovation-financing/
+Check what you have been told,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/va-homebuyer-plan/
+Let us check your situation,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/va-homebuyer-plan/
+See what a readiness review covers,/purchase/mortgage-readiness-review/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/real-estate-agents/
+See how she times a buy-before-you-sell move,/purchase/buy-before-you-sell/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/real-estate-agents/
+Read Samantha's background,/samantha-shelton/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/real-estate-agents/
+Read client reviews,/reviews/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/real-estate-agents/
+Run the property tax calculator,/michigan-property-tax-calculator/,1,other:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/real-estate-agents/
+Compare cash-out and home equity,/refinance/cash-out-vs-home-equity/,1,refinance:1,content:1,0,yes,crawl status 200,content_button:1,1,/refinance/
+See … (router card),/refinance/break-even-review/,1,refinance:1,content:1,0,yes,crawl status 200,router_card:1,1,/refinance/
+Access … (router card),/refinance/home-equity-review/,1,refinance:1,content:1,0,yes,crawl status 200,router_card:1,1,/refinance/
+Compare … (router card),/refinance/cash-out-vs-home-equity/,1,refinance:1,content:1,0,yes,crawl status 200,router_card:1,1,/refinance/
+Cash-Out … (router card),/refinance/cash-out-vs-home-equity/,1,refinance:1,content:1,0,yes,crawl status 200,router_card:1,1,/refinance/
+Longer-Term … (router card),/refinance/break-even-review/,1,refinance:1,content:1,0,yes,crawl status 200,router_card:1,1,/refinance/
+Get a straight answer,https://calendly.com/samanthashelton,1,refinance_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/refinance/break-even-review/
+Review your income strategy,https://calendly.com/samanthashelton,1,purchase_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/purchase/self-employed-homebuyer/
+About bank statement loans,/product-loans/bank-statement-loan/,1,purchase_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/purchase/self-employed-homebuyer/
+Compare your options with Samantha,https://calendly.com/samanthashelton,1,refinance_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/refinance/cash-out-vs-home-equity/
+Tell us what you are trying to do,https://calendly.com/samanthashelton,1,refinance_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/refinance/cash-out-vs-home-equity/
+Start with the equity review,/refinance/home-equity-review/,1,refinance_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/refinance/cash-out-vs-home-equity/
+Talk through your equity options,https://calendly.com/samanthashelton,1,refinance_sub:1,content:1,0,unverified,external host calendly.com blocked by the audit session egress proxy (CONNECT 403); verify manually,booking:1,1,/refinance/home-equity-review/
+Compare the options,/refinance/cash-out-vs-home-equity/,1,refinance_sub:1,content:1,0,yes,crawl status 200,content_button:1,1,/refinance/home-equity-review/
+Estimate your property tax,/michigan-property-tax-calculator/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/rent-vs-buy-calculator/
+How we work,/research/methodology/,1,research:1,content:1,1,yes,crawl status 200,content_button:1,1,/research/
+Build a game plan,/purchase/homebuyer-game-plan/,1,research:1,content:1,0,yes,crawl status 200,content_button:1,1,/research/
+All research,/research/,1,research:1,content:1,1,yes,crawl status 200,content_button:1,1,/research/methodology/
+Run the tax for an address,/michigan-property-tax-calculator/,1,research:1,content:1,0,yes,crawl status 200,content_button:1,1,/research/methodology/
+Download the report (PDF),/wp-content/uploads/research/hmda-2025/Michigan-Mortgage-Market-Report-2025.pdf?v=1792865532,1,research:1,content:1,1,yes,live fetch 206,content_button:1,1,/research/michigan-mortgage-market-report/
+Download the data (CSV),/wp-content/uploads/research/hmda-2025/hmda-2025-counties.csv?v=1792865532,1,research:1,content:1,1,yes,live fetch 200,content_button:1,1,/research/michigan-mortgage-market-report/
+Download the study (PDF),/wp-content/uploads/research/uncapping-2026/Michigan-Property-Tax-Uncapping-Study-2026.pdf?v=1793152852,1,research:1,content:1,1,yes,live fetch 206,content_button:1,1,/research/michigan-property-tax-uncapping-study/
+Download the data (CSV),/wp-content/uploads/research/uncapping-2026/uncapping-2026-cities-townships.csv?v=1793152853,1,research:1,content:1,1,yes,live fetch 200,content_button:1,1,/research/michigan-property-tax-uncapping-study/
+Read every review on Google,https://maps.app.goo.gl/wnRurH5E7AAwjkub6,1,other:1,content:1,1,unverified,external host maps.app.goo.gl blocked by the audit session egress proxy (CONNECT 403); verify manually,content_button:1,1,/reviews/
+Show all reviews,"(button, no href)",1,other:1,content:1,0,n/a,JS button (no href); action handled on page,tool_button:1,1,/reviews/
+Read what she writes,/samantha-shelton/#writes,1,other:1,content:1,1,yes,page 200; #writes id present in live HTML (fetched 2026-11-15),content_button:1,1,/samantha-shelton/
+Compare your options across our lender network ›,/start/,1,other:1,content:1,0,yes,"/start/ 200 (noindex intake, 1-minute questionnaire; not the application itself)",inline_or_card_cta:1,1,/samantha-shelton/
+Read the selling costs guide,/learn/finances-of-selling/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/seller-net-sheet-calculator/
+Ask a question,/contact-us/,1,other:1,content:1,1,yes,crawl status 200,content_button:1,1,/terms-and-conditions/
+See down payment help,/purchase/down-payment-assistance/,1,calculator:1,content:1,0,yes,crawl status 200,inline_or_card_cta:1,1,/usda-eligibility-check/
+Read the VA loan guide,/learn/va-loans/,1,calculator:1,content:1,1,yes,crawl status 200,content_button:1,1,/va-funding-fee-calculator/
+Check a Loan Estimate you already have,/compare-loan-estimates/,1,other:1,content:1,1,yes,crawl status 200,content_button:1,1,/why-we-dont-publish-rates/
+Compare two Loan Estimates side by side,/compare-loan-estimates/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/why-we-dont-publish-rates/
+Check your Loan Estimate,/compare-loan-estimates/,1,other:1,content:1,0,yes,crawl status 200,content_button:1,1,/why-we-dont-publish-rates/
