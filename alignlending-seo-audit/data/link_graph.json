@@ -1,0 +1,5722 @@
+{
+ "counts": {
+  "home": 1,
+  "other": 12,
+  "calculator": 18,
+  "learn": 471,
+  "state_hub": 3,
+  "city": 276,
+  "county_hub": 13,
+  "product_hub": 1,
+  "product": 21,
+  "purchase": 1,
+  "purchase_sub": 10,
+  "refinance": 1,
+  "refinance_sub": 3,
+  "research": 4
+ },
+ "non200_or_unparsed": [],
+ "sitemap_or_crawled_urls_that_redirect": [
+  {
+   "url": "https://alignlending.com/15-first-time-home-buyer-tips/",
+   "final_url": "https://alignlending.com/learn/15-first-time-home-buyer-tips/",
+   "redirects": [
+    [
+     301,
+     "/learn/15-first-time-home-buyer-tips/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/alternative-financing-home-buyers/",
+   "final_url": "https://alignlending.com/learn/alternative-financing-options-for-home-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/alternative-financing-options-for-home-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/appeal-low-appraisal/",
+   "final_url": "https://alignlending.com/learn/how-to-appeal-low-appraisal/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-appeal-low-appraisal/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/assess-home-resale-potential/",
+   "final_url": "https://alignlending.com/learn/how-to-assess-homes-resale-potential/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-assess-homes-resale-potential/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/avoid-buyers-remorse/",
+   "final_url": "https://alignlending.com/learn/how-to-avoid-buyers-remorse/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-avoid-buyers-remorse/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/balloon-payments-mortgage-guide/",
+   "final_url": "https://alignlending.com/learn/balloon-payments/",
+   "redirects": [
+    [
+     301,
+     "/learn/balloon-payments/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/avoid-home-inspection-pitfalls/",
+   "final_url": "https://alignlending.com/learn/avoiding-common-home-inspection-pitfalls/",
+   "redirects": [
+    [
+     301,
+     "/learn/avoiding-common-home-inspection-pitfalls/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/budget-first-home/",
+   "final_url": "https://alignlending.com/learn/budgeting-for-your-first-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/budgeting-for-your-first-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/build-home-budget-tips/",
+   "final_url": "https://alignlending.com/learn/building-home-on-budget-tips-and-tricks/",
+   "redirects": [
+    [
+     301,
+     "/learn/building-home-on-budget-tips-and-tricks/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-fixer-upper-benefits/",
+   "final_url": "https://alignlending.com/learn/advantages-of-buying-fixer-upper/",
+   "redirects": [
+    [
+     301,
+     "/learn/advantages-of-buying-fixer-upper/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-foreclosed-home/",
+   "final_url": "https://alignlending.com/learn/how-to-buy-foreclosed-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-buy-foreclosed-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-historic-home/",
+   "final_url": "https://alignlending.com/learn/buying-historic-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-historic-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-aging-in-place/",
+   "final_url": "https://alignlending.com/learn/buying-home-for-aging-in-place/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-for-aging-in-place/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-auction/",
+   "final_url": "https://alignlending.com/learn/how-to-purchase-home-at-auction/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-purchase-home-at-auction/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-bad-credit/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-bad-credit/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-bad-credit/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-cryptocurrency/",
+   "final_url": "https://alignlending.com/learn/how-to-buy-home-with-cryptocurrency/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-buy-home-with-cryptocurrency/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-freelancer/",
+   "final_url": "https://alignlending.com/learn/how-to-buy-home-as-freelancer/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-buy-home-as-freelancer/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-hoa-pros-cons/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-hoa-pros-and-cons/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-hoa-pros-and-cons/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-low-down-payment/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-low-down-payment/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-low-down-payment/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-septic-system/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-septic-system/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-septic-system/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-single-parent/",
+   "final_url": "https://alignlending.com/learn/buying-home-as-single-parent/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-as-single-parent/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-flood-zone/",
+   "final_url": "https://alignlending.com/learn/buying-home-in-flood-zone/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-in-flood-zone/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-low-income/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-low-income-tips-and-programs/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-low-income-tips-and-programs/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-solar-panels/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-solar-panels/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-solar-panels/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-with-partner/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-partner-legal-considerations/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-partner-legal-considerations/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-home-va-loan/",
+   "final_url": "https://alignlending.com/learn/buying-home-with-va-loan/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-with-va-loan/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-house-12-steps/",
+   "final_url": "https://alignlending.com/learn/first-time-home-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/first-time-home-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-investment-property/",
+   "final_url": "https://alignlending.com/learn/buying-home-as-investment-property/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-home-as-investment-property/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-multi-family-home/",
+   "final_url": "https://alignlending.com/learn/buying-multi-family-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-multi-family-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-second-home/",
+   "final_url": "https://alignlending.com/learn/buying-second-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-second-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-pocket-listing-pros-cons/",
+   "final_url": "https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-pocket-listing-pros-and-cons/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-vacation-home/",
+   "final_url": "https://alignlending.com/learn/buying-second-home/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-second-home/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/buy-waterfront-property/",
+   "final_url": "https://alignlending.com/learn/buying-waterfront-property/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-waterfront-property/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/choose-home-inspector/",
+   "final_url": "https://alignlending.com/learn/how-to-choose-home-inspector/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-choose-home-inspector/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/choose-title-company/",
+   "final_url": "https://alignlending.com/learn/how-to-choose-title-company/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-choose-title-company/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/closing-costs-home-buyer/",
+   "final_url": "https://alignlending.com/learn/closing-costs/",
+   "redirects": [
+    [
+     301,
+     "/learn/closing-costs/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/co-buy-home-family-friends/",
+   "final_url": "https://alignlending.com/learn/co-buying-home-with-family-or-friends/",
+   "redirects": [
+    [
+     301,
+     "/learn/co-buying-home-with-family-or-friends/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/co-signing-mortgage-risks/",
+   "final_url": "https://alignlending.com/learn/co-signing-mortgage-risks-and-benefits/",
+   "redirects": [
+    [
+     301,
+     "/learn/co-signing-mortgage-risks-and-benefits/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/condo-vs-co-op/",
+   "final_url": "https://alignlending.com/learn/condo-vs-co-op-similarities-and-differences/",
+   "redirects": [
+    [
+     301,
+     "/learn/condo-vs-co-op-similarities-and-differences/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/condominium-financing/",
+   "final_url": "https://alignlending.com/learn/condominium-financing/",
+   "redirects": [
+    [
+     301,
+     "/learn/condominium-financing/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/conventional-loans-guide/",
+   "final_url": "https://alignlending.com/learn/conventional-loans/",
+   "redirects": [
+    [
+     301,
+     "/learn/conventional-loans/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/compare-mortgage-lenders/",
+   "final_url": "https://alignlending.com/learn/comparing-mortgage-lenders-what-to-look/",
+   "redirects": [
+    [
+     301,
+     "/learn/comparing-mortgage-lenders-what-to-look/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/conveyance-real-estate-explained/",
+   "final_url": "https://alignlending.com/learn/conveyance-in-real-estate/",
+   "redirects": [
+    [
+     301,
+     "/learn/conveyance-in-real-estate/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/craftsman-houses-history/",
+   "final_url": "https://alignlending.com/learn/craftsman-houses-history-and-features/",
+   "redirects": [
+    [
+     301,
+     "/learn/craftsman-houses-history-and-features/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/create-competitive-offer/",
+   "final_url": "https://alignlending.com/learn/how-to-create-competitive-offer/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-create-competitive-offer/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/credit-challenged-to-mortgage-ready-guide/",
+   "final_url": "https://alignlending.com/learn/credit-repair-strategies-for-home-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/credit-repair-strategies-for-home-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/credit-impact-home-buying/",
+   "final_url": "https://alignlending.com/learn/how-does-my-credit-impact-buying-house/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-does-my-credit-impact-buying-house/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/cul-de-sac-house/",
+   "final_url": "https://alignlending.com/learn/buying-cul-de-sac-house-pros-and-cons/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-cul-de-sac-house-pros-and-cons/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/distressed-properties-2025-investment-guide/",
+   "final_url": "https://alignlending.com/learn/buying-distressed-properties/",
+   "redirects": [
+    [
+     301,
+     "/learn/buying-distressed-properties/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/drive-by-appraisals-home-valuation-guide/",
+   "final_url": "https://alignlending.com/learn/drive-by-appraisal/",
+   "redirects": [
+    [
+     301,
+     "/learn/drive-by-appraisal/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/escalation-clauses-automatic-counter/",
+   "final_url": "https://alignlending.com/learn/escalation-clauses-what-they-are-and-how-they/",
+   "redirects": [
+    [
+     301,
+     "/learn/escalation-clauses-what-they-are-and-how-they/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/fha-loan-limits-2025-homeownership/",
+   "final_url": "https://alignlending.com/learn/fha-loan-limits/",
+   "redirects": [
+    [
+     301,
+     "/learn/fha-loan-limits/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/finance-home-401k/",
+   "final_url": "https://alignlending.com/learn/how-to-finance-home-purchase-with-401-k/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-finance-home-purchase-with-401-k/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/first-time-home-buyer-playbook-2025/",
+   "final_url": "https://alignlending.com/learn/first-time-home-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/first-time-home-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/first-time-home-buyer-tax-credits-2025-guide/",
+   "final_url": "https://alignlending.com/learn/first-time-home-buyer-tax-credits/",
+   "redirects": [
+    [
+     301,
+     "/learn/first-time-home-buyer-tax-credits/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/first-time-home-buyers-2025-2/",
+   "final_url": "https://alignlending.com/learn/first-time-home-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/first-time-home-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/foreclosure-market-2025-buyers/",
+   "final_url": "https://alignlending.com/learn/foreclosure-process-what-home-buyers-should-know/",
+   "redirects": [
+    [
+     301,
+     "/learn/foreclosure-process-what-home-buyers-should-know/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/freddie-mac-home-possible-loans/",
+   "final_url": "https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/",
+   "redirects": [
+    [
+     301,
+     "/learn/freddie-macs-home-possible-loans-benefits-and-requirements/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/gift-funds-guide/",
+   "final_url": "https://alignlending.com/learn/financing-home-purchase-with-gift-funds/",
+   "redirects": [
+    [
+     301,
+     "/learn/financing-home-purchase-with-gift-funds/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/handle-bidding-war/",
+   "final_url": "https://alignlending.com/learn/how-to-handle-bidding-war/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-handle-bidding-war/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/handle-seller-disclosures/",
+   "final_url": "https://alignlending.com/learn/how-to-handle-seller-disclosures/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-handle-seller-disclosures/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/hire-movers-questions/",
+   "final_url": "https://alignlending.com/learn/how-to-hire-movers-questions-to-ask/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-hire-movers-questions-to-ask/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/hiring-movers-guide/",
+   "final_url": "https://alignlending.com/learn/hiring-movers/",
+   "redirects": [
+    [
+     301,
+     "/learn/hiring-movers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/hoa-fees-guide-2/",
+   "final_url": "https://alignlending.com/learn/homeowner-association-fees/",
+   "redirects": [
+    [
+     301,
+     "/learn/homeowner-association-fees/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/hoa-fees-guide/",
+   "final_url": "https://alignlending.com/learn/homeowner-association-fees/",
+   "redirects": [
+    [
+     301,
+     "/learn/homeowner-association-fees/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-appraisal-process/",
+   "final_url": "https://alignlending.com/learn/home-appraisal-process/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-appraisal-process/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-buyer-grants-2025/",
+   "final_url": "https://alignlending.com/learn/first-time-home-buyer-grants-and-programs/",
+   "redirects": [
+    [
+     301,
+     "/learn/first-time-home-buyer-grants-and-programs/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-buyer-rebates/",
+   "final_url": "https://alignlending.com/learn/home-buyer-rebates/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-buyer-rebates/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-buying-process-2025/",
+   "final_url": "https://alignlending.com/learn/home-buying-process/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-buying-process/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-inspection-checklist-buyers-guide/",
+   "final_url": "https://alignlending.com/learn/home-inspection-checklist-for-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-inspection-checklist-for-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-inspections-new-construction/",
+   "final_url": "https://alignlending.com/learn/home-inspections-for-new-construction/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-inspections-for-new-construction/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/home-warranty-options/",
+   "final_url": "https://alignlending.com/learn/home-warranty-options-for-buyers/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-warranty-options-for-buyers/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/lease-option-agreements/",
+   "final_url": "https://alignlending.com/learn/lease-option-agreements-pros-and-cons/",
+   "redirects": [
+    [
+     301,
+     "/learn/lease-option-agreements-pros-and-cons/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/lease-to-own-vs/",
+   "final_url": "https://alignlending.com/learn/lease-to-own-vs-rent-to-own-whats/",
+   "redirects": [
+    [
+     301,
+     "/learn/lease-to-own-vs-rent-to-own-whats/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/leaving-home-emotional-tips/",
+   "final_url": "https://alignlending.com/learn/leaving-old-home-emotional-considerations/",
+   "redirects": [
+    [
+     301,
+     "/learn/leaving-old-home-emotional-considerations/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/manage-home-repairs-escrow/",
+   "final_url": "https://alignlending.com/learn/managing-home-repairs-during-escrow/",
+   "redirects": [
+    [
+     301,
+     "/learn/managing-home-repairs-during-escrow/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/manufactured-homes-pros-cons/",
+   "final_url": "https://alignlending.com/learn/manufactured-homes-pros-and-cons/",
+   "redirects": [
+    [
+     301,
+     "/learn/manufactured-homes-pros-and-cons/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/modern-home-buying-guide-2025/",
+   "final_url": "https://alignlending.com/learn/home-buying-process/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-buying-process/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/modern-homebuyers-blueprint-property-acquisition/",
+   "final_url": "https://alignlending.com/learn/home-buying-process/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-buying-process/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/modular-homes-benefits/",
+   "final_url": "https://alignlending.com/learn/benefits-of-modular-homes/",
+   "redirects": [
+    [
+     301,
+     "/learn/benefits-of-modular-homes/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/mortgage-basics-guide/",
+   "final_url": "https://alignlending.com/learn/mortgage-basics/",
+   "redirects": [
+    [
+     301,
+     "/learn/mortgage-basics/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/mortgage-services-in-michigan/",
+   "final_url": "https://alignlending.com/mortgage-michigan/",
+   "redirects": [
+    [
+     301,
+     "/mortgage-michigan/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/moving-tips-home-buyers/",
+   "final_url": "https://alignlending.com/learn/moving-and-settling/",
+   "redirects": [
+    [
+     301,
+     "/learn/moving-and-settling/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/negotiate-house-prices/",
+   "final_url": "https://alignlending.com/learn/how-to-negotiate-house-prices/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-negotiate-house-prices/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/new-building-codes-home-buying/",
+   "final_url": "https://alignlending.com/learn/impact-of-new-building-codes-on-home-purchases/",
+   "redirects": [
+    [
+     301,
+     "/learn/impact-of-new-building-codes-on-home-purchases/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/new-construction-home-benefits/",
+   "final_url": "https://alignlending.com/learn/new-home-construction/",
+   "redirects": [
+    [
+     301,
+     "/learn/new-home-construction/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/negotiate-home-purchase/",
+   "final_url": "https://alignlending.com/learn/negotiating-home-purchase/",
+   "redirects": [
+    [
+     301,
+     "/learn/negotiating-home-purchase/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/read-home-inspection-report/",
+   "final_url": "https://alignlending.com/learn/how-to-read-home-inspection-report/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-read-home-inspection-report/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/save-down-payment/",
+   "final_url": "https://alignlending.com/learn/how-to-save-for-down-payment/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-save-for-down-payment/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/short-sales-vs-foreclosures/",
+   "final_url": "https://alignlending.com/learn/home-buyers-guide-to-short-sales-vs-foreclosures/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-buyers-guide-to-short-sales-vs-foreclosures/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/spot-hidden-home-costs/",
+   "final_url": "https://alignlending.com/learn/how-to-spot-hidden-costs-in-home-purchase/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-spot-hidden-costs-in-home-purchase/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/waiving-home-inspections-risk-guide/",
+   "final_url": "https://alignlending.com/learn/home-inspection-waivers-risks-and-benefits/",
+   "redirects": [
+    [
+     301,
+     "/learn/home-inspection-waivers-risks-and-benefits/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/well-water-home-value/",
+   "final_url": "https://alignlending.com/learn/how-well-water-impacts-homes-value/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-well-water-impacts-homes-value/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/seller-paid-closing-costs/",
+   "final_url": "https://alignlending.com/learn/seller-paid-closing-costs/",
+   "redirects": [
+    [
+     301,
+     "/learn/seller-paid-closing-costs/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/types-of-houses-guide/",
+   "final_url": "https://alignlending.com/learn/different-types-of-houses-by-structure-and-style/",
+   "redirects": [
+    [
+     301,
+     "/learn/different-types-of-houses-by-structure-and-style/"
+    ]
+   ]
+  },
+  {
+   "url": "https://alignlending.com/win-house-sellers-market/",
+   "final_url": "https://alignlending.com/learn/how-to-win-house-in-sellers-market/",
+   "redirects": [
+    [
+     301,
+     "/learn/how-to-win-house-in-sellers-market/"
+    ]
+   ]
+  }
+ ],
+ "orphans_no_content_inlinks": [],
+ "internal_targets_not_crawled_status": {
+  "https://alignlending.com": [
+   200,
+   null
+  ],
+  "https://alignlending.com/learn/homestead-exemption/": [
+   301,
+   "https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/"
+  ],
+  "https://alignlending.com/start/": [
+   200,
+   null
+  ],
+  "https://alignlending.com/washtenaw-county/": [
+   301,
+   "https://alignlending.com/mortgage-michigan/washtenaw-county/"
+  ]
+ },
+ "broken_internal": {},
+ "broken_or_blocked_external": {
+  "sms:+12485065727?&body=Hi%20Samantha%2C%20I%20was%20on%20your%20rate%20policy%20page%20and%20have%20a%20question.": {
+   "status": [
+    0,
+    "InvalidSchema"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/why-we-dont-publish-rates/"
+   ]
+  },
+  "https://maps.google.com/?q=2625+Pontiac+Lake+Road+Waterford+MI+48328": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 4,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/contact-us/",
+    "https://alignlending.com/privacy-policy/",
+    "https://alignlending.com/terms-and-conditions/"
+   ]
+  },
+  "https://www.irs.gov/forms-pubs/about-form-1099-r": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/asset-based-income-loans/"
+   ]
+  },
+  "https://www.law.cornell.edu/cfr/text/24/203.43b": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-shelby-township-mi/"
+   ]
+  },
+  "https://www.nmlsconsumeraccess.org/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 18,
+   "linked_from_sample": [
+    "https://alignlending.com/editorial-policy/",
+    "https://alignlending.com/learn/balloon-mortgages-risks-and-benefits/",
+    "https://alignlending.com/learn/benefits-of-working-with-mortgage-broker/",
+    "https://alignlending.com/learn/bridge-loans/",
+    "https://alignlending.com/learn/builder-preferred-lender-vs-mortgage-broker/"
+   ]
+  },
+  "https://www.fhfa.gov/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-richland-township-mi/"
+   ]
+  },
+  "https://www.facebook.com/105599291490093": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/samantha-shelton/"
+   ]
+  },
+  "https://maps.app.goo.gl/wnRurH5E7AAwjkub6": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 327,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/about-us/",
+    "https://alignlending.com/contact-us/",
+    "https://alignlending.com/home-affordability-calculator/",
+    "https://alignlending.com/mortgage-calculator/"
+   ]
+  },
+  "https://www.linkedin.com/in/align-lending-08ab48229/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/samantha-shelton/"
+   ]
+  },
+  "https://calendly.com/samanthashelton": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 831,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/about-us/",
+    "https://alignlending.com/calculators/",
+    "https://alignlending.com/compare-loan-estimates/",
+    "https://alignlending.com/contact-us/"
+   ]
+  },
+  "https://www.nar.realtor/sites/default/files/documents/nar-facts-financing-faq-2024-03-20.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-buyers-agent-agreement/"
+   ]
+  },
+  "https://www.instagram.com/align.lending": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/samantha-shelton/"
+   ]
+  },
+  "https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/STC/2025/2025-Annual-Report.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/research/methodology/"
+   ]
+  },
+  "https://selling-guide.fanniemae.com/sel/b4-2.2-02/full-review-additional-eligibility-requirements-units-new-and-newly-converted-condo-projects": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/non-warrantable-condo-loans/"
+   ]
+  },
+  "https://sf.freddiemac.com/working-with-us/origination-underwriting/mortgage-products/manufactured-homes": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/manufactured-home-loans/"
+   ]
+  },
+  "https://www.consumerfinance.gov/archive/blog/7-factors-determine-your-mortgage-interest-rate/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/why-we-dont-publish-rates/"
+   ]
+  },
+  "https://www.alignwithalign.com/ask": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 835,
+   "linked_from_sample": [
+    "https://alignlending.com/",
+    "https://alignlending.com/about-us/",
+    "https://alignlending.com/calculators/",
+    "https://alignlending.com/compare-loan-estimates/",
+    "https://alignlending.com/contact-us/"
+   ]
+  },
+  "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/research/methodology/",
+    "https://alignlending.com/research/michigan-mortgage-market-report/"
+   ]
+  },
+  "https://www.floodsmart.gov": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-clifford-mi/",
+    "https://alignlending.com/mortgage-lender-flat-rock-mi/",
+    "https://alignlending.com/mortgage-lender-lodi-township-mi/"
+   ]
+  },
+  "https://www.va.gov": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-tallmadge-township-mi/"
+   ]
+  },
+  "https://msc.fema.gov/portal": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-st-clair-shores-mi/"
+   ]
+  },
+  "https://www.hud.gov/buying/loans": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/fha-loans/"
+   ]
+  },
+  "https://www.govinfo.gov/link/uscode/42/4012a": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-midland-mi/"
+   ]
+  },
+  "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-6093": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-peninsula-township-mi/"
+   ]
+  },
+  "https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XXXV/part-3555/subpart-E/section-3555.208": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/manufactured-home-loans/"
+   ]
+  },
+  "https://www.courts.michigan.gov/siteassets/forms/scao-approved/dc100c.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/using-home-for-extra-income/"
+   ]
+  },
+  "https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/usda-loans/"
+   ]
+  },
+  "https://detroitmi.gov/sites/detroitmi.localhost/files/2025-05/City%20of%20Detroit%20FY26-29%20Adopted%20Four-Year%20Plan.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-redford-township-mi/"
+   ]
+  },
+  "https://www.epa.gov/septic/septicsmart": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-metamora-mi/"
+   ]
+  },
+  "https://www.occ.gov/news-issuances/bulletins/2006/bulletin-2006-41.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/pros-and-cons-of-interest-only-mortgages/"
+   ]
+  },
+  "https://www.bls.gov/news.release/cpi.t01.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-cash-on-cash-return/"
+   ]
+  },
+  "https://www.federalreserve.gov/supervisionreg/regcccg.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/when-does-seller-get-money-after-closing/"
+   ]
+  },
+  "https://michiganlegalhelp.org/resources/housing/how-do-i-know-if-im-landlord": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/using-home-for-extra-income/"
+   ]
+  },
+  "https://www.appraisalinstitute.org/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 9,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/drive-by-appraisal/",
+    "https://alignlending.com/learn/home-appraisal-process/",
+    "https://alignlending.com/learn/how-to-appeal-low-appraisal/",
+    "https://alignlending.com/learn/how-to-prepare-for-home-appraisal/",
+    "https://alignlending.com/learn/how-to-refinance-with-low-appraisal/"
+   ]
+  },
+  "https://www.fema.gov/cis/MI.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-bedford-township-mi/",
+    "https://alignlending.com/mortgage-lender-frenchtown-township-mi/"
+   ]
+  },
+  "https://benefits.va.gov/HOMELOANS/documents/congressionalreports/2023-cmr-recommendations-for-improving-appraisal-delivery-times.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/home-appraisal-process/",
+    "https://alignlending.com/learn/how-to-appeal-low-appraisal/"
+   ]
+  },
+  "https://www.ic3.gov/CrimeInfo/BEC": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-real-estate-agents-role-in-closing/"
+   ]
+  },
+  "https://www.asc.gov/national-registries": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-sell-home-with-low-appraisal/",
+    "https://alignlending.com/learn/refinance-appraisal-requirements/"
+   ]
+  },
+  "https://fhfa.gov/sites/default/files/2024-03/Title-Acceptance-Pilot-FAQs.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/title-insurance-why-its-important/"
+   ]
+  },
+  "https://www.benefits.va.gov/WARMS/docs/admin26/m26_07/m26-07-chapter12-minimum-property-requirements.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-richmond-mi/"
+   ]
+  },
+  "https://training.detroitmi.gov/sites/training.detroitmi/files/2022-06/Detroit%20Land%20Contract%20Buyer%20Guide-1-Before%20Signing-final.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/balloon-payments/"
+   ]
+  },
+  "https://www.oaklandcountymi.gov/community/oakland-county-parks/golf/white-lake-oaks-golf-course": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-white-lake-mi/"
+   ]
+  },
+  "https://outliermedia.org/land-contract-detroit-guide/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/balloon-payments/"
+   ]
+  },
+  "https://www.federalregister.gov/documents/2016/10/19/2016-18901/amendments-to-the-2013-mortgage-rules-under-the-real-estate-settlement-procedures-act-regulation-x": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-assumable-mortgage/"
+   ]
+  },
+  "https://cdn.prod.website-files.com/65d83dbce4794e96c7dc60de/65d83dbce4794e96c7dc62a3_Master%20Plan%20Update%202020.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-cannon-township-mi/"
+   ]
+  },
+  "https://www.michiganpublic.org/politics-government/2026-10-15/google-wins-zoning-approval-for-huge-data-center-near-detroit-airport": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-van-buren-township-mi/"
+   ]
+  },
+  "https://www.msrb.org/sites/default/files/2022-08/MSRB-Glossary-of-Municipal-Securities-Terms-Third_Edition-August-2013.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/balloon-payments/"
+   ]
+  },
+  "https://ag.state.mn.us/Consumer/Publications/ContractForDeed.asp": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/balloon-payments/"
+   ]
+  },
+  "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/home-maintenance-for-first-time-homeowners/",
+    "https://alignlending.com/learn/seasonal-home-maintenance-checklist/"
+   ]
+  },
+  "https://www.homeinspector.org/resources/standard-of-practice/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-pre-listing-home-inspection/"
+   ]
+  },
+  "https://gtcountymi.gov/31/About-Us": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-blair-township-mi/"
+   ]
+  },
+  "https://www.cpsc.gov/s3fs-public/516.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/home-insurance-and-renovations/",
+    "https://alignlending.com/learn/how-to-read-home-inspection-report/"
+   ]
+  },
+  "https://myhome.freddiemac.com/buying/inspecting-and-appraising-your-home": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/why-home-appraisals-matter/"
+   ]
+  },
+  "https://www.nachi.org/home-inspection-faq-buyers-sellers.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/negotiating-repairs-after-home-inspection/"
+   ]
+  },
+  "https://www.cdc.gov/nchs/fastats/marriage-divorce.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/selling-home-during-divorce/"
+   ]
+  },
+  "https://www.realcomp.com/News-Events/Feature-2026/October-2026/September-Single-Family-Home-Sales-Statistical-Highlights": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 13,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/advantages-of-buying-fixer-upper/",
+    "https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/",
+    "https://alignlending.com/learn/how-to-create-competitive-offer/",
+    "https://alignlending.com/learn/how-to-handle-bidding-war/",
+    "https://alignlending.com/learn/how-to-navigate-cooling-housing-market/"
+   ]
+  },
+  "https://www.nahb.org/blog/2026/01/fha-mmi-fund-capital-ratio": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/pros-and-cons-of-fha-203-k-loans/",
+    "https://alignlending.com/learn/recent-changes-to-fha-loan-requirements/"
+   ]
+  },
+  "https://www.usa.gov/home-repair-programs": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-renovation-loan/"
+   ]
+  },
+  "https://www.energystar.gov/products/refrigerators": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-renovate-kitchen-on-budget/"
+   ]
+  },
+  "https://www.energycodes.gov/status/states/michigan": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 8,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-buying-newly-constructed-home/",
+    "https://alignlending.com/learn/benefits-of-investing-in-green-housing-markets/",
+    "https://alignlending.com/learn/building-home-on-budget-tips-and-tricks/",
+    "https://alignlending.com/learn/converting-garage-into-living-space/",
+    "https://alignlending.com/learn/cost-of-building-house-is-it-worth/"
+   ]
+  },
+  "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/cooking/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-renovate-kitchen-on-budget/"
+   ]
+  },
+  "https://www.fdic.gov/national-rates-and-rate-caps": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-cash-on-cash-return/"
+   ]
+  },
+  "https://www.bobvila.com/articles/home-addition-cost/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/pros-and-cons-of-adding-home-addition/"
+   ]
+  },
+  "https://www.myfico.com/credit-education/credit-scores/fico-score-versions": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/importance-of-mortgage-preapproval/",
+    "https://alignlending.com/learn/reporting-rent-for-credit-boost/"
+   ]
+  },
+  "https://www.eia.gov/todayinenergy/detail.php?id=68264": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/winterizing-your-home/"
+   ]
+  },
+  "https://archives.hud.gov/news/2022/2022-17hgnml.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/reporting-rent-for-credit-boost/"
+   ]
+  },
+  "https://www.miplace.org/historic-preservation/programs-and-services/historic-preservation-tax-credits/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-holland-mi/",
+    "https://alignlending.com/mortgage-lender-northville-mi/"
+   ]
+  },
+  "https://www.attomdata.com/news/market-trends/home-sales-prices/q2-2026-home-equity-and-underwater-report/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-refinance-with-negative-equity/"
+   ]
+  },
+  "https://eyeonhousing.org/2024/06/considering-housing-inventory-why-both-new-and-existing-supply-matters/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-balanced-housing-market/"
+   ]
+  },
+  "https://www.hudhomestore.gov/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 5,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/advantages-of-buying-fixer-upper/",
+    "https://alignlending.com/learn/federal-housing-administration-updates/",
+    "https://alignlending.com/learn/home-buyers-guide-to-short-sales-vs-foreclosures/",
+    "https://alignlending.com/learn/how-to-purchase-home-at-auction/",
+    "https://alignlending.com/learn/off-market-listings-how-to-find-them/"
+   ]
+  },
+  "https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/HHDC_2026Q2.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/refinancing-with-bad-credit/"
+   ]
+  },
+  "https://www.nps.gov/rira/index.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-estral-beach-mi/",
+    "https://alignlending.com/mortgage-lender-monroe-mi/",
+    "https://alignlending.com/mortgage-lender-monroe-township-mi/"
+   ]
+  },
+  "https://www.aarp.org/pri/topics/livable-communities/housing/2021-home-community-preferences/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/home-automation-systems/"
+   ]
+  },
+  "https://www.ada.gov/topics/title-iii/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-investing-in-mixed-use-developments/"
+   ]
+  },
+  "https://eldercare.acl.gov/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 4,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-for-aging-in-place/",
+    "https://alignlending.com/learn/downsizing-your-home-tips-for-smooth-transition/",
+    "https://alignlending.com/learn/reverse-mortgages-how-they-work/",
+    "https://alignlending.com/learn/selling-home-with-reverse-mortgage/"
+   ]
+  },
+  "https://savingplaces.org/stories/10-on-tuesday-one-last-checklist-before-you-buy-your-historic-home": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-historic-home/"
+   ]
+  },
+  "https://huduser.gov/portal/sites/default/files/pdf/Rent-Reporting-Guidance-2025-final.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-bad-credit/",
+    "https://alignlending.com/learn/reporting-rent-for-credit-boost/"
+   ]
+  },
+  "https://www.nia.nih.gov/health/aging-place/aging-place-growing-older-home": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/accessibility-features-in-modern-homes/",
+    "https://alignlending.com/learn/buying-home-for-aging-in-place/",
+    "https://alignlending.com/learn/pros-and-cons-of-buying-townhouse/"
+   ]
+  },
+  "https://www.habitat.org/housing-help/apply": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-as-single-parent/",
+    "https://alignlending.com/learn/buying-home-with-low-income-tips-and-programs/"
+   ]
+  },
+  "https://www.fortunebuilders.com/p/real-estate-auction-process/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-purchase-home-at-auction/"
+   ]
+  },
+  "https://www.annualcreditreport.com/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-buy-home-as-freelancer/",
+    "https://alignlending.com/learn/personal-loan-vs-home-equity/",
+    "https://alignlending.com/learn/refinancing-after-loan-modification/"
+   ]
+  },
+  "https://leagle.com/decision/inmico20200720231": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-purchase-home-at-auction/"
+   ]
+  },
+  "https://www.sec.gov/newsroom/press-releases/2023-29": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/real-estate-investment-trusts-reits/"
+   ]
+  },
+  "https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/selling-home-with-reverse-mortgage/"
+   ]
+  },
+  "https://www.urban.org/sites/default/files/2026-04/April%20v4.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-no-doc-mortgage/",
+    "https://alignlending.com/learn/what-is-portfolio-loan/"
+   ]
+  },
+  "https://www.nfcc.org/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 9,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-bad-credit/",
+    "https://alignlending.com/learn/credit-repair-strategies-for-home-buyers/",
+    "https://alignlending.com/learn/how-does-my-credit-impact-buying-house/",
+    "https://alignlending.com/learn/how-to-buy-home-with-student-loan-debt/",
+    "https://alignlending.com/learn/how-to-improve-your-debt-to-income-ratio/"
+   ]
+  },
+  "https://nlihc.org/sites/default/files/oor/2026-OOR-MI.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-analyze-propertys-rental-potential/"
+   ]
+  },
+  "https://www.ed.gov/about/news/press-release/fact-sheet-trump-administration-simplifying-student-loan-repayment": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-bad-credit/",
+    "https://alignlending.com/learn/how-to-buy-home-with-student-loan-debt/"
+   ]
+  },
+  "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/real-estate-leverage/"
+   ]
+  },
+  "https://housing.state.mi.us/webportal/default.aspx?page=counseling_start": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 11,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-bad-credit/",
+    "https://alignlending.com/learn/buying-home-with-low-down-payment/",
+    "https://alignlending.com/learn/credit-repair-strategies-for-home-buyers/",
+    "https://alignlending.com/learn/freddie-macs-home-possible-loans-benefits-and-requirements/",
+    "https://alignlending.com/learn/homeready-mortgages/"
+   ]
+  },
+  "https://www.pewresearch.org/social-trends/2022/03/24/financial-issues-top-the-list-of-reasons-u-s-adults-live-in-multigenerational-homes/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/trends-in-multi-generational-housing/"
+   ]
+  },
+  "https://www.nbcnews.com/business/real-estate/trump-administration-moves-count-crypto-federal-mortgage-asset-rcna215222": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-buy-home-with-cryptocurrency/"
+   ]
+  },
+  "https://files.consumerfinance.gov/f/201409_cfpb_report_manufactured-housing.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-flat-rock-mi/",
+    "https://alignlending.com/mortgage-lender-plymouth-township-mi/"
+   ]
+  },
+  "https://www.fincen.gov/rre": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 5,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/flipping-houses-risks-and-rewards/",
+    "https://alignlending.com/learn/how-to-handle-multiple-offers/",
+    "https://alignlending.com/learn/pros-and-cons-of-selling-to-cash-buyer/",
+    "https://alignlending.com/learn/selling-without-realtor/",
+    "https://alignlending.com/learn/what-is-cash-offer-in-real-estate/"
+   ]
+  },
+  "https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/state-specific-mortgage-assistance-programs/"
+   ]
+  },
+  "https://foundation.caionline.org/publications/factbook/statistical-review/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/navigating-hoa-regulations/",
+    "https://alignlending.com/learn/pros-and-cons-of-refinancing-condo/"
+   ]
+  },
+  "https://www.iii.org/article/insuring-your-home-based-business": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/using-home-for-extra-income/"
+   ]
+  },
+  "https://www.macombgov.org/macomb-orchard-trail": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-shelby-township-mi/"
+   ]
+  },
+  "https://content.govdelivery.com/accounts/USDARD/bulletins/42d03db": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/recent-changes-to-usda-loan-programs/",
+    "https://alignlending.com/learn/state-specific-mortgage-assistance-programs/",
+    "https://alignlending.com/learn/usda-loan-basics/"
+   ]
+  },
+  "https://micounties.org/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-plat-map/"
+   ]
+  },
+  "https://singlefamily.fanniemae.com/originating-underwriting/mortgage-products/homestyle-renovation": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/rocket-mortgage-vs-mortgage-broker/"
+   ]
+  },
+  "https://milivcounty.gov/dpw/household-hazardous-waste-collections/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-tyrone-township-mi/"
+   ]
+  },
+  "https://eligibility.sc.egov.usda.gov/eligibility/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-maybee-mi/"
+   ]
+  },
+  "https://michigansaves.org/about-us/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/winterizing-your-home/"
+   ]
+  },
+  "https://thesuntimesnews.com/?p=45193": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-york-township-mi/"
+   ]
+  },
+  "https://agents.floodsmart.gov/sites/default/files/media/document/2025-08/FEMA_NFIP_TEXT-ONLY_fema_nfip-why-do-i-need_brochure_20251.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-texas-township-mi/"
+   ]
+  },
+  "https://operationhope.org/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-as-single-parent/"
+   ]
+  },
+  "https://entp.hud.gov/idapp/html/hecm_agency_look.cfm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/reverse-mortgages-how-they-work/"
+   ]
+  },
+  "https://www.oriontownship.org/calendar.php": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-orion-township-mi/"
+   ]
+  },
+  "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/what-you-should-know-about-your-retirement-plan": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-finance-home-purchase-with-401-k/"
+   ]
+  },
+  "https://www.ready.gov/sites/default/files/2020-03/ready_document-and-insure-your-property.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/evaluating-home-insurance-options/"
+   ]
+  },
+  "https://www.justice.gov/atr/media/1386031/dl": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-buyers-agent-agreement/"
+   ]
+  },
+  "https://www.bridgemi.com/michigan-government/old-buildings-new-ideas-michiganders-fight-housing-shortage-innovation": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/economic-impacts-of-housing-shortages/",
+    "https://alignlending.com/learn/impact-of-interest-rates-on-home-prices/"
+   ]
+  },
+  "https://www.nssl.noaa.gov/education/svrwx101/floods/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-in-flood-zone/"
+   ]
+  },
+  "https://www.huduser.gov/portal/datasets/fmr/fmr2027/Reevaluation-Requests-FY27-FMRs.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/using-home-for-extra-income/"
+   ]
+  },
+  "https://damsafety.org/MI-Final-Report": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-in-flood-zone/"
+   ]
+  },
+  "https://www.energy.gov/cmei/scep/wap/weatherization-assistance-program": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/winterizing-your-home/"
+   ]
+  },
+  "https://ami-lookup-tool.fanniemae.com/amilookuptool/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/product-loans/home-ready/"
+   ]
+  },
+  "https://www.osti.gov/biblio/1172644": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-investing-in-green-housing-markets/",
+    "https://alignlending.com/learn/buying-home-with-solar-panels/"
+   ]
+  },
+  "https://pvwatts.nlr.gov/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-solar-panels/"
+   ]
+  },
+  "https://bridgemi.com/business-watch/pfizer-announces-300-new-jobs-amid-750-million-expansion-near-kalamazoo": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-texas-township-mi/"
+   ]
+  },
+  "https://eta-publications.lbl.gov/sites/default/files/lbnl-1003917.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-solar-panels/"
+   ]
+  },
+  "https://www.militaryonesource.mil/benefits/va-home-loans/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-va-loan/",
+    "https://alignlending.com/learn/how-to-qualify-for-va-loan/",
+    "https://alignlending.com/learn/va-loan-tips/"
+   ]
+  },
+  "https://www.a2gov.org/water-treatment-plant/about-us/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-barton-hills-mi/"
+   ]
+  },
+  "https://www.nolo.com/legal-encyclopedia/offer-to-house-purchase-contract-36141.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/what-is-home-purchase-agreement/"
+   ]
+  },
+  "https://www.alta.org/news-and-publications/press-release/Latest-FBI-Cybercrime-Report-Shows-Real-Estate-Fraud-Losses-Rising-Reinforcing-Need-for-Strong-Consumer-Safeguards": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/title-insurance-why-its-important/"
+   ]
+  },
+  "https://www.army.mil/article/236473/great_lakes_water_levels_still_setting_records": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-second-home/"
+   ]
+  },
+  "https://www.military.com/money/va-loans/va-lending-and-construction-loans.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-va-construction-loans/"
+   ]
+  },
+  "https://myairforcebenefits.us.af.mil/VA-launches-Partial-Claim-Program-to-help-Veterans-avoid-home-foreclosure": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-va-loan/",
+    "https://alignlending.com/learn/proposed-changes-to-va-loan-programs/"
+   ]
+  },
+  "https://docs.nlr.gov/docs/fy12osti/51664.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-home-with-solar-panels/"
+   ]
+  },
+  "https://prnewswire.com/news-releases/meijer-opens-new-supercenter-in-flat-rock-mich-300312391.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-flat-rock-mi/"
+   ]
+  },
+  "https://hud.gov/sites/dfiles/SFH/documents/TI_MH_ALLOWLOAN_Mar_2024.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/refinancing-manufactured-home/"
+   ]
+  },
+  "https://www.realestatenews.com/2026/02/06/zillow-can-continue-enforcing-private-listing-ban-judge-rules": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/"
+   ]
+  },
+  "https://researchdiscovery.drexel.edu/esploro/outputs/report/On-MLS-Study-Measuring-the-Benefits-of/991022200857804721": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/"
+   ]
+  },
+  "https://www.weather.gov/grr/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-grand-haven-mi/"
+   ]
+  },
+  "https://ijc.org/en/where-are-water-levels-heading-great-lakes": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-waterfront-property/"
+   ]
+  },
+  "https://www.rismedia.com/2026/03/18/compass-drops-lawsuit-zillow-portal-updates-rules/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-pocket-listing-pros-and-cons/"
+   ]
+  },
+  "https://www.fws.gov/refuge/detroit-river": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 3,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-brownstown-township-mi/",
+    "https://alignlending.com/mortgage-lender-estral-beach-mi/",
+    "https://alignlending.com/mortgage-lender-gibraltar-mi/"
+   ]
+  },
+  "https://www.washtenaw.org/2414/County-Cleanup-Days": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-ypsilanti-township-mi/"
+   ]
+  },
+  "https://www.glerl.noaa.gov/data/wlevels/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-waterfront-property/"
+   ]
+  },
+  "https://www.in.gov/dlgf/files/2023-presentation/230125-Wood-Harris-Presentation-Ratio-Studies-Overview.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/property-tax-assessments-how-they-work/"
+   ]
+  },
+  "https://www.gtcountymi.gov/552/Reports-Millages": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-peninsula-township-mi/"
+   ]
+  },
+  "https://mymlsa.org/wp-content/uploads/2026/08/riparian-rights-brochure-mlsa-2026.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-waterfront-property/"
+   ]
+  },
+  "https://alta.org/news-and-publications/press-release/Latest-FBI-Cybercrime-Report-Shows-Real-Estate-Fraud-Losses-Rising-Reinforcing-Need-for-Strong-Consumer-Safeguards": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/how-to-choose-title-company/"
+   ]
+  },
+  "https://www.wxyz.com/news/102nd-bayview-mackinac-race-sets-sail-this-weekend-with-200-boats-smoke-and-storms-expected": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-port-huron-mi/"
+   ]
+  },
+  "https://www.bridgedetroit.com/lafayette-park-detroit-thermal-verdict/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/pros-and-cons-of-living-in-co-op/"
+   ]
+  },
+  "https://www.uscourts.gov/sites/default/files/document/bf_f_0630.2026.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/refinancing-after-bankruptcy/"
+   ]
+  },
+  "https://content.naic.org/committees/c/title-insurance-wg": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/title-insurance-why-its-important/"
+   ]
+  },
+  "https://www.freddiemac.com/pmms/about-pmms": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/housing-market-outlook/",
+    "https://alignlending.com/learn/trends-in-mortgage-lending/"
+   ]
+  },
+  "https://www.waterfordmi.gov/1354/Parks-Facilities": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-waterford-mi/"
+   ]
+  },
+  "https://search.library.wisc.edu/digital/AQ5VII6GNL36H78T": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/craftsman-houses-history-and-features/"
+   ]
+  },
+  "https://mortgagetech.ice.com/resources/data-reports/may-2026-mortgage-monitor": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 12,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/contingencies-in-home-offers/",
+    "https://alignlending.com/learn/conveyance-in-real-estate/",
+    "https://alignlending.com/learn/finding-home/",
+    "https://alignlending.com/learn/how-fast-can-a-mortgage-close/",
+    "https://alignlending.com/learn/how-to-handle-seller-disclosures/"
+   ]
+  },
+  "https://www.geneseecountymi.gov/departments/equalization/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-vienna-township-mi/"
+   ]
+  },
+  "https://romi.gov/217/Homeowner-Affidavits": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 5,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-process/",
+    "https://alignlending.com/learn/conveyance-in-real-estate/",
+    "https://alignlending.com/learn/finding-home/",
+    "https://alignlending.com/learn/how-to-prepare-for-home-closing/",
+    "https://alignlending.com/learn/state-specific-home-buying-regulations/"
+   ]
+  },
+  "https://www.houzz.com/magazine/the-case-for-hiring-a-home-stager-when-youre-selling-stsetivw-vs~72932275": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/benefits-of-hiring-professional-stager/"
+   ]
+  },
+  "https://censusreporter.org/profiles/06000US2613989280-zeeland-charter-township-ottawa-county-mi/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-zeeland-township-mi/"
+   ]
+  },
+  "https://vantagescore.com/consumers/blog/thinking-about-applying-for-a-loan-shop-around-to-find-the-best-offer": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/comparing-mortgage-lenders-what-to-look/"
+   ]
+  },
+  "https://npgallery.nps.gov/AssetDetail/NRIS/13000479": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-westland-mi/"
+   ]
+  },
+  "https://miottawa.org/park-locations/upper-macatawa-natural-area/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-zeeland-township-mi/"
+   ]
+  },
+  "https://www2.census.gov/programs-surveys/decennial/2020/data/demographic-and-housing-characteristics-file/Michigan/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/research/methodology/"
+   ]
+  },
+  "https://planning.org/greatplaces/neighborhoods/2012/heritagehill.htm": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/craftsman-houses-history-and-features/"
+   ]
+  },
+  "https://www.phmc.state.pa.us/portal/communities/architecture/styles/index.html": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/different-types-of-houses-by-structure-and-style/"
+   ]
+  },
+  "https://gamblehouse.org/about/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/craftsman-houses-history-and-features/"
+   ]
+  },
+  "https://www.cmich.edu/research/clarke-historical-library/explore-collection/explore-online/michigan-material/aladdin-company-bay-city": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 2,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/craftsman-houses-history-and-features/",
+    "https://alignlending.com/learn/different-types-of-houses-by-structure-and-style/"
+   ]
+  },
+  "https://www.identitytheft.gov/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/credit-repair-strategies-for-home-buyers/"
+   ]
+  },
+  "https://www.michiganbusiness.org/press-releases/2022/07/projects-creating-more-than-1000-jobs-economic-vibrancy-across-michigan-approved-by-msf/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/mortgage-lender-zeeland-township-mi/"
+   ]
+  },
+  "https://www.sca.isr.umich.edu/": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 14,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/affordability-challenges-in-todays-housing-market/",
+    "https://alignlending.com/learn/benefits-of-mortgage-rate-locks/",
+    "https://alignlending.com/learn/economic-factors-driving-housing-demand/",
+    "https://alignlending.com/learn/federal-reserve-and-mortgage-rates/",
+    "https://alignlending.com/learn/housing-market-outlook/"
+   ]
+  },
+  "https://web.mit.edu/ebj/www/doc/culdesacs.pdf": {
+   "status": [
+    0,
+    "ProxyError"
+   ],
+   "linked_from_count": 1,
+   "linked_from_sample": [
+    "https://alignlending.com/learn/buying-cul-de-sac-house-pros-and-cons/"
+   ]
+  }
+ },
+ "external_checked": 169,
+ "external_status_file": "external_status.jsonl (filled by check_external.py; may be partial)",
+ "external_unique": 11643,
+ "external_top_domains": [
+  [
+   "www.alignwithalign.com",
+   4175
+  ],
+  [
+   "www.michigan.gov",
+   2102
+  ],
+  [
+   "www.legislature.mi.gov",
+   1891
+  ],
+  [
+   "www.consumerfinance.gov",
+   1277
+  ],
+  [
+   "selling-guide.fanniemae.com",
+   946
+  ],
+  [
+   "www.nmlsconsumeraccess.org",
+   858
+  ],
+  [
+   "calendly.com",
+   831
+  ],
+  [
+   "",
+   825
+  ],
+  [
+   "censusreporter.org",
+   753
+  ],
+  [
+   "www.hud.gov",
+   617
+  ],
+  [
+   "www.ecfr.gov",
+   606
+  ],
+  [
+   "www.irs.gov",
+   568
+  ],
+  [
+   "www.law.cornell.edu",
+   536
+  ],
+  [
+   "www.fhfa.gov",
+   474
+  ],
+  [
+   "www.census.gov",
+   331
+  ],
+  [
+   "maps.app.goo.gl",
+   327
+  ],
+  [
+   "www.nar.realtor",
+   315
+  ],
+  [
+   "tigerweb.geo.census.gov",
+   305
+  ],
+  [
+   "msc.fema.gov",
+   292
+  ],
+  [
+   "project-osrm.org",
+   273
+  ],
+  [
+   "www.epa.gov",
+   269
+  ],
+  [
+   "www.va.gov",
+   244
+  ],
+  [
+   "www.openstreetmap.org",
+   218
+  ],
+  [
+   "geocoding.geo.census.gov",
+   215
+  ],
+  [
+   "www.federalreserve.gov",
+   209
+  ],
+  [
+   "www.govinfo.gov",
+   188
+  ],
+  [
+   "www.freddiemac.com",
+   184
+  ],
+  [
+   "www.fema.gov",
+   176
+  ],
+  [
+   "www.oaklandcountymi.gov",
+   167
+  ],
+  [
+   "en.wikipedia.org",
+   154
+  ],
+  [
+   "sf.freddiemac.com",
+   126
+  ],
+  [
+   "www.oakgov.com",
+   106
+  ],
+  [
+   "www.floodsmart.gov",
+   87
+  ],
+  [
+   "cdn.prod.website-files.com",
+   85
+  ],
+  [
+   "www.energystar.gov",
+   84
+  ],
+  [
+   "www.bls.gov",
+   82
+  ],
+  [
+   "www.federalregister.gov",
+   80
+  ],
+  [
+   "files.consumerfinance.gov",
+   74
+  ],
+  [
+   "www.benefits.va.gov",
+   71
+  ],
+  [
+   "www.macombgov.org",
+   60
+  ],
+  [
+   "www.geneseecountymi.gov",
+   59
+  ],
+  [
+   "www.waynecountymi.gov",
+   54
+  ],
+  [
+   "www.washtenaw.org",
+   54
+  ],
+  [
+   "myhome.freddiemac.com",
+   52
+  ],
+  [
+   "www.ic3.gov",
+   49
+  ],
+  [
+   "bsaonline.com",
+   49
+  ],
+  [
+   "www.fdic.gov",
+   48
+  ],
+  [
+   "www.newyorkfed.org",
+   47
+  ],
+  [
+   "www.mpamag.com",
+   46
+  ],
+  [
+   "www.justice.gov",
+   45
+  ],
+  [
+   "datausa.io",
+   42
+  ],
+  [
+   "www.lenawee.mi.us",
+   42
+  ],
+  [
+   "www.eastgrmi.gov",
+   42
+  ],
+  [
+   "michiganlegalhelp.org",
+   41
+  ],
+  [
+   "milivcounty.gov",
+   41
+  ],
+  [
+   "miottawa.org",
+   41
+  ],
+  [
+   "worldpopulationreview.com",
+   39
+  ],
+  [
+   "www.indtwp.com",
+   39
+  ],
+  [
+   "www.grossepointefarms.org",
+   39
+  ],
+  [
+   "www.co.monroe.mi.us",
+   38
+  ]
+ ],
+ "top_anchor_texts_by_target": {
+  "https://alignlending.com/learn/": [
+   [
+    "Learn",
+    472
+   ],
+   [
+    "Browse the Learn Center",
+    320
+   ],
+   [
+    "The Align Learn Center",
+    4
+   ],
+   [
+    "Browse the guides",
+    1
+   ],
+   [
+    "the Learn library",
+    1
+   ]
+  ],
+  "https://alignlending.com/start/": [
+   [
+    "Start my application",
+    624
+   ],
+   [
+    "start online",
+    425
+   ],
+   [
+    "Start with a few questions",
+    12
+   ],
+   [
+    "get started online",
+    7
+   ],
+   [
+    "start screen",
+    5
+   ],
+   [
+    "Home improvements Draw as the work is billed, or take it all at once. Start",
+    3
+   ],
+   [
+    "Paying off other debt Samantha will ask what changes once the debt is gone. Star",
+    3
+   ],
+   [
+    "A large expense coming up Tuition, a medical bill, a family need. When you need ",
+    3
+   ]
+  ],
+  "https://alignlending.com/michigan-property-tax-calculator/": [
+   [
+    "Michigan property tax calculator",
+    781
+   ],
+   [
+    "property tax calculator",
+    153
+   ],
+   [
+    "Estimate the tax for an address",
+    11
+   ],
+   [
+    "Get the published rate for an address",
+    8
+   ],
+   [
+    "tax calculator",
+    6
+   ],
+   [
+    "the property tax calculator",
+    5
+   ],
+   [
+    "Run the tax calculator",
+    4
+   ],
+   [
+    "the Michigan property tax calculator",
+    4
+   ]
+  ],
+  "https://alignlending.com/samantha-shelton/": [
+   [
+    "Samantha Shelton",
+    476
+   ],
+   [
+    "Read Samantha's story",
+    13
+   ],
+   [
+    "Meet Samantha Shelton",
+    6
+   ],
+   [
+    "Meet Samantha",
+    4
+   ],
+   [
+    "Samantha",
+    3
+   ],
+   [
+    "About Samantha",
+    2
+   ],
+   [
+    "Read Samantha's full story",
+    1
+   ],
+   [
+    "Samantha\u2019s profile page",
+    1
+   ]
+  ],
+  "https://alignlending.com/purchase/homebuyer-game-plan/": [
+   [
+    "Build your homebuyer game plan",
+    252
+   ],
+   [
+    "Build your homebuyer game plan first",
+    140
+   ],
+   [
+    "Get my homebuyer game plan",
+    112
+   ],
+   [
+    "homebuyer game plan",
+    74
+   ],
+   [
+    "Homebuyer Game Plan",
+    35
+   ],
+   [
+    "Build my homebuyer game plan",
+    13
+   ],
+   [
+    "Build a homebuyer game plan",
+    11
+   ],
+   [
+    "Start with a homebuyer game plan",
+    7
+   ]
+  ],
+  "https://alignlending.com/": [
+   [
+    "Home",
+    472
+   ],
+   [
+    "Escrow",
+    1
+   ],
+   [
+    "PMI",
+    1
+   ],
+   [
+    "DTI",
+    1
+   ],
+   [
+    "Closing costs",
+    1
+   ],
+   [
+    "Uncapping",
+    1
+   ],
+   [
+    "FHA loans",
+    1
+   ]
+  ],
+  "https://alignlending.com/editorial-policy/": [
+   [
+    "How we choose and check sources",
+    424
+   ],
+   [
+    "Our editorial policy Who writes these guides, where the facts come from, what we",
+    1
+   ]
+  ],
+  "https://alignlending.com/product-loans/conventional-loans/": [
+   [
+    "Conventional Loans",
+    283
+   ],
+   [
+    "conventional",
+    94
+   ],
+   [
+    "conventional loan",
+    57
+   ],
+   [
+    "conventional loans",
+    37
+   ],
+   [
+    "Conventional loans",
+    36
+   ],
+   [
+    "Conventional Loan",
+    9
+   ],
+   [
+    "Conventional Loan If your credit and income are steady, start here. Mortgage ins",
+    8
+   ],
+   [
+    "Conventional",
+    7
+   ]
+  ],
+  "https://alignlending.com/product-loans/": [
+   [
+    "Compare loan options",
+    341
+   ],
+   [
+    "See every loan option",
+    307
+   ],
+   [
+    "loan programs page",
+    21
+   ],
+   [
+    "loan programs",
+    20
+   ],
+   [
+    "Every loan option",
+    12
+   ],
+   [
+    "loan programs hub",
+    6
+   ],
+   [
+    "full list of loan programs",
+    2
+   ],
+   [
+    "loan programs overview",
+    2
+   ]
+  ],
+  "https://alignlending.com/product-loans/fha-loans/": [
+   [
+    "FHA Loans",
+    282
+   ],
+   [
+    "FHA",
+    119
+   ],
+   [
+    "FHA loans",
+    55
+   ],
+   [
+    "FHA loan",
+    28
+   ],
+   [
+    "FHA loan page",
+    10
+   ],
+   [
+    "FHA loans in Michigan",
+    8
+   ],
+   [
+    "FHA Loan Fits a thinner credit history or a recent setback. The tradeoff is FHA ",
+    6
+   ],
+   [
+    "FHA Loan",
+    5
+   ]
+  ],
+  "https://alignlending.com/loan-limits/": [
+   [
+    "loan limits tool",
+    116
+   ],
+   [
+    "2026 conforming limit",
+    70
+   ],
+   [
+    "loan limits page",
+    48
+   ],
+   [
+    "2026 FHA limit",
+    45
+   ],
+   [
+    "loan limits lookup",
+    34
+   ],
+   [
+    "loan limit lookup",
+    14
+   ],
+   [
+    "Find your county limit",
+    4
+   ],
+   [
+    "conforming limit",
+    4
+   ]
+  ],
+  "https://alignlending.com/research/michigan-property-tax-uncapping-study/": [
+   [
+    "2026 Uncapping Study",
+    283
+   ],
+   [
+    "uncapping study",
+    54
+   ],
+   [
+    "Uncapping Study",
+    29
+   ],
+   [
+    "Michigan property tax uncapping study",
+    21
+   ],
+   [
+    "Michigan Property Tax Uncapping Study",
+    15
+   ],
+   [
+    "2026 Michigan Property Tax Uncapping Study",
+    13
+   ],
+   [
+    "See the Michigan uncapping study",
+    12
+   ],
+   [
+    "Michigan uncapping study",
+    9
+   ]
+  ],
+  "https://alignlending.com/product-loans/va-loans/": [
+   [
+    "VA Loans",
+    279
+   ],
+   [
+    "VA",
+    94
+   ],
+   [
+    "VA loans",
+    36
+   ],
+   [
+    "VA loan",
+    18
+   ],
+   [
+    "VA loans in Michigan",
+    10
+   ],
+   [
+    "VA loan page",
+    6
+   ],
+   [
+    "VA Loan For eligible veterans, service members and some surviving spouses. No mo",
+    5
+   ],
+   [
+    "VA Home Loan",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/michigan-taxable-value/": [
+   [
+    "How Michigan taxable value works",
+    346
+   ],
+   [
+    "taxable value guide",
+    103
+   ],
+   [
+    "Michigan taxable value and uncapping",
+    50
+   ],
+   [
+    "How Michigan taxable value resets after a sale",
+    47
+   ],
+   [
+    "how taxable value works",
+    17
+   ],
+   [
+    "the taxable value guide",
+    14
+   ],
+   [
+    "How Michigan taxable value works after a sale",
+    14
+   ],
+   [
+    "Michigan taxable value",
+    12
+   ]
+  ],
+  "https://alignlending.com/learn/buying-home-in-flood-zone/": [
+   [
+    "Buying a home in a flood zone",
+    140
+   ],
+   [
+    "flood zone guide",
+    115
+   ],
+   [
+    "buying a home in a flood zone",
+    70
+   ],
+   [
+    "buying in a flood zone",
+    17
+   ],
+   [
+    "Flood zones and flood insurance",
+    15
+   ],
+   [
+    "flood zone buying guide",
+    11
+   ],
+   [
+    "guide to buying in a flood zone",
+    8
+   ],
+   [
+    "Flood maps and flood insurance",
+    6
+   ]
+  ],
+  "https://alignlending.com/product-loans/home-ready/": [
+   [
+    "HomeReady and Home Possible",
+    240
+   ],
+   [
+    "HomeReady",
+    69
+   ],
+   [
+    "HomeReady page",
+    7
+   ],
+   [
+    "HomeReady\u00ae and Home Possible\u00ae Conventional loans with reduced mortgage insurance",
+    3
+   ],
+   [
+    "HomeReady\u00ae and Home Possible\u00ae",
+    3
+   ],
+   [
+    "Buy with a smaller down payment",
+    3
+   ],
+   [
+    "Home Possible",
+    2
+   ],
+   [
+    "HomeReady loans",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/property-tax-assessments-how-they-work/": [
+   [
+    "how property tax assessments work",
+    116
+   ],
+   [
+    "property tax assessments",
+    40
+   ],
+   [
+    "property tax assessment guide",
+    20
+   ],
+   [
+    "assessment guide",
+    20
+   ],
+   [
+    "How property tax assessments work",
+    15
+   ],
+   [
+    "how assessments work",
+    14
+   ],
+   [
+    "[img] ",
+    13
+   ],
+   [
+    "Property Tax Assessments: How They Work and How to Appeal Yours",
+    13
+   ]
+  ],
+  "https://alignlending.com/learn/home-appraisal-process/": [
+   [
+    "home appraisal process",
+    122
+   ],
+   [
+    "The home appraisal process: What to expect",
+    41
+   ],
+   [
+    "Read more",
+    40
+   ],
+   [
+    "[img] ",
+    38
+   ],
+   [
+    "the home appraisal process",
+    35
+   ],
+   [
+    "appraisal guide",
+    16
+   ],
+   [
+    "home appraisal guide",
+    13
+   ],
+   [
+    "appraisal process",
+    10
+   ]
+  ],
+  "https://alignlending.com/learn/home-inspection-checklist-for-buyers/": [
+   [
+    "home inspection checklist",
+    84
+   ],
+   [
+    "home inspection checklist for buyers",
+    59
+   ],
+   [
+    "Home inspection checklist for buyers: What to look for room by room",
+    41
+   ],
+   [
+    "[img] ",
+    40
+   ],
+   [
+    "Read more",
+    40
+   ],
+   [
+    "inspection checklist",
+    39
+   ],
+   [
+    "Home inspection checklist for buyers",
+    34
+   ],
+   [
+    "A home inspection checklist for buyers",
+    28
+   ]
+  ],
+  "https://alignlending.com/michigan-transfer-tax-calculator/": [
+   [
+    "Michigan transfer tax calculator",
+    123
+   ],
+   [
+    "transfer tax calculator",
+    88
+   ],
+   [
+    "the transfer tax calculator",
+    5
+   ],
+   [
+    "Michigan transfer tax",
+    2
+   ],
+   [
+    "Open the calculator",
+    2
+   ],
+   [
+    "Michigan transfer tax The state and county transfer tax on a sale, which the sel",
+    2
+   ],
+   [
+    "Michigan transfer tax The state and county transfer tax on a Michigan sale, whic",
+    1
+   ],
+   [
+    "calculator",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/condominium-financing/": [
+   [
+    "condominium financing guide",
+    83
+   ],
+   [
+    "condominium financing",
+    65
+   ],
+   [
+    "How condo financing works",
+    35
+   ],
+   [
+    "How condominium financing works",
+    35
+   ],
+   [
+    "[img] ",
+    17
+   ],
+   [
+    "Condominium Financing: What You Need to Know Before Buying a Condo",
+    17
+   ],
+   [
+    "Read more",
+    17
+   ],
+   [
+    "Condominium financing",
+    17
+   ]
+  ],
+  "https://alignlending.com/learn/mortgage-escrow-accounts/": [
+   [
+    "mortgage escrow accounts",
+    76
+   ],
+   [
+    "escrow guide",
+    27
+   ],
+   [
+    "escrow account",
+    17
+   ],
+   [
+    "Understanding Mortgage Escrow Accounts",
+    7
+   ],
+   [
+    "escrow account guide",
+    7
+   ],
+   [
+    "escrow accounts",
+    6
+   ],
+   [
+    "mortgage escrow account",
+    6
+   ],
+   [
+    "Read more",
+    6
+   ]
+  ],
+  "https://alignlending.com/calculators/": [
+   [
+    "calculators page",
+    114
+   ],
+   [
+    "calculators",
+    40
+   ],
+   [
+    "All calculators Every Align tool in one place, grouped by the question it answer",
+    10
+   ],
+   [
+    "All calculators and tools",
+    5
+   ],
+   [
+    "the calculators page",
+    5
+   ],
+   [
+    "All calculators",
+    4
+   ],
+   [
+    "Align calculators",
+    4
+   ],
+   [
+    "full calculator list",
+    4
+   ]
+  ],
+  "https://alignlending.com/learn/closing-costs/": [
+   [
+    "closing costs",
+    82
+   ],
+   [
+    "closing costs guide",
+    74
+   ],
+   [
+    "closing cost guide",
+    11
+   ],
+   [
+    "closing costs for buyers",
+    6
+   ],
+   [
+    "What closing costs cover",
+    5
+   ],
+   [
+    "closing costs and what to expect as a buyer",
+    4
+   ],
+   [
+    "What closing costs include",
+    4
+   ],
+   [
+    "[img] ",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/buying-home-with-septic-system/": [
+   [
+    "Buying a home with a septic system",
+    93
+   ],
+   [
+    "buying a home with a septic system",
+    49
+   ],
+   [
+    "septic guide",
+    37
+   ],
+   [
+    "septic system guide",
+    31
+   ],
+   [
+    "septic systems",
+    11
+   ],
+   [
+    "buying with a septic system",
+    7
+   ],
+   [
+    "Buying a home on a septic system",
+    6
+   ],
+   [
+    "Buying a house on a septic system",
+    4
+   ]
+  ],
+  "https://alignlending.com/learn/fha-loans/": [
+   [
+    "FHA loans",
+    90
+   ],
+   [
+    "FHA loans guide",
+    17
+   ],
+   [
+    "FHA loans explained",
+    17
+   ],
+   [
+    "How FHA loans work",
+    15
+   ],
+   [
+    "FHA loan guide",
+    10
+   ],
+   [
+    "FHA",
+    8
+   ],
+   [
+    "FHA loans FHA loans allow 3.5% down with a 580 credit score. \u2192",
+    8
+   ],
+   [
+    "FHA loan",
+    7
+   ]
+  ],
+  "https://alignlending.com/learn/debt-to-income-ratio-dti/": [
+   [
+    "debt-to-income ratio",
+    75
+   ],
+   [
+    "debt-to-income guide",
+    17
+   ],
+   [
+    "debt-to-income (DTI) ratio",
+    15
+   ],
+   [
+    "Debt-to-income ratio (DTI): How to calculate it and the limits by loan type",
+    14
+   ],
+   [
+    "Read more",
+    13
+   ],
+   [
+    "debt-to-income ratio guide",
+    12
+   ],
+   [
+    "[img] ",
+    12
+   ],
+   [
+    "Debt-to-income ratio (DTI): What is it and how is it calculated?",
+    11
+   ]
+  ],
+  "https://alignlending.com/learn/how-well-water-impacts-homes-value/": [
+   [
+    "How well water affects a home's value",
+    41
+   ],
+   [
+    "well water guide",
+    30
+   ],
+   [
+    "how well water affects a home\u2019s value",
+    19
+   ],
+   [
+    "well water",
+    11
+   ],
+   [
+    "how well water impacts a home\u2019s value",
+    7
+   ],
+   [
+    "how well water affects value",
+    6
+   ],
+   [
+    "What a private well means for value",
+    6
+   ],
+   [
+    "well water and home value",
+    5
+   ]
+  ],
+  "https://alignlending.com/learn/manufactured-homes-pros-and-cons/": [
+   [
+    "Manufactured homes: pros and cons",
+    34
+   ],
+   [
+    "manufactured homes guide",
+    23
+   ],
+   [
+    "Manufactured homes, pros and cons",
+    22
+   ],
+   [
+    "manufactured homes",
+    18
+   ],
+   [
+    "manufactured home guide",
+    16
+   ],
+   [
+    "Manufactured homes: what to weigh",
+    8
+   ],
+   [
+    "manufactured homes pros and cons",
+    4
+   ],
+   [
+    "Buying a manufactured home",
+    4
+   ]
+  ],
+  "https://alignlending.com/purchase/budget-review/": [
+   [
+    "Get a budget review",
+    52
+   ],
+   [
+    "budget review",
+    35
+   ],
+   [
+    "Get a homebuying budget review",
+    33
+   ],
+   [
+    "Homebuying Budget Review",
+    20
+   ],
+   [
+    "homebuying budget review",
+    3
+   ],
+   [
+    "Homebuying budget Start from a monthly payment you are comfortable with and see ",
+    2
+   ],
+   [
+    "budget review page",
+    2
+   ],
+   [
+    "Estimate my budget",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/first-time-home-buyer-grants-and-programs/": [
+   [
+    "first-time home buyer grants and programs",
+    47
+   ],
+   [
+    "first-time home buyer programs",
+    18
+   ],
+   [
+    "Michigan down payment assistance and grants",
+    15
+   ],
+   [
+    "grants and programs guide",
+    11
+   ],
+   [
+    "Read more",
+    8
+   ],
+   [
+    "first-time homebuyer grants and programs",
+    8
+   ],
+   [
+    "first-time buyer programs guide",
+    7
+   ],
+   [
+    "First-time home buyer grants and programs that cut your upfront costs",
+    5
+   ]
+  ],
+  "https://alignlending.com/compare-loan-estimates/": [
+   [
+    "Loan Estimate check",
+    121
+   ],
+   [
+    "the Loan Estimate check",
+    4
+   ],
+   [
+    "Compare Your Options",
+    2
+   ],
+   [
+    "Check a Loan Estimate",
+    2
+   ],
+   [
+    "Loan Estimate",
+    2
+   ],
+   [
+    "Loan Estimate check Upload a Loan Estimate and get feedback on what the lender c",
+    2
+   ],
+   [
+    "Loan Estimate check Upload a Loan Estimate and get feedback, or compare two side",
+    1
+   ],
+   [
+    "two or more VA Loan Estimates",
+    1
+   ]
+  ],
+  "https://alignlending.com/usda-eligibility-check/": [
+   [
+    "USDA eligibility check",
+    102
+   ],
+   [
+    "USDA address check",
+    34
+   ],
+   [
+    "USDA check",
+    5
+   ],
+   [
+    "Check an address",
+    2
+   ],
+   [
+    "USDA address check Whether an address sits inside USDA's areas, and how your hou",
+    2
+   ],
+   [
+    "the USDA eligibility check",
+    2
+   ],
+   [
+    "USDA address check Whether an address sits inside USDA's areas on USDA's own map",
+    1
+   ],
+   [
+    "USDA: no loan limit The USDA home loans Align arranges set no maximum loan amoun",
+    1
+   ]
+  ],
+  "https://alignlending.com/refinance/break-even-review/": [
+   [
+    "Run a refinance break-even review",
+    80
+   ],
+   [
+    "Review my break-even",
+    53
+   ],
+   [
+    "Refinance Break-Even Review",
+    13
+   ],
+   [
+    "break-even review",
+    5
+   ],
+   [
+    "Break-Even Review",
+    5
+   ],
+   [
+    "refinance break-even review",
+    3
+   ],
+   [
+    "Refinance break-even Months until a refinance pays for itself, against how long ",
+    3
+   ],
+   [
+    "Refinance",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/home-buying/": [
+   [
+    "Home Buying",
+    111
+   ],
+   [
+    "Home Buying guide",
+    87
+   ],
+   [
+    "home buying guide",
+    26
+   ],
+   [
+    "12-step home buying guide",
+    3
+   ],
+   [
+    "Home buying",
+    2
+   ],
+   [
+    "Home buying Buying usually takes 30 to 45 days from accepted offer to closing. T",
+    1
+   ],
+   [
+    "All 106 guides",
+    1
+   ],
+   [
+    "12-step guide to buying a house",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/": [
+   [
+    "homestead exemption guide",
+    40
+   ],
+   [
+    "homestead exemption filing guide",
+    11
+   ],
+   [
+    "Filing the homestead exemption",
+    9
+   ],
+   [
+    "Filing the principal residence exemption",
+    7
+   ],
+   [
+    "Filing your homestead exemption",
+    5
+   ],
+   [
+    "Filing for Michigan's homestead exemption",
+    5
+   ],
+   [
+    "Filing Michigan's homestead exemption",
+    4
+   ],
+   [
+    "homestead exemption benefits and filing guide",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/buying-waterfront-property/": [
+   [
+    "Buying a waterfront home",
+    25
+   ],
+   [
+    "Buying waterfront property",
+    15
+   ],
+   [
+    "buying waterfront property",
+    13
+   ],
+   [
+    "waterfront guide",
+    11
+   ],
+   [
+    "waterfront property",
+    8
+   ],
+   [
+    "waterfront property guide",
+    8
+   ],
+   [
+    "waterfront buying guide",
+    7
+   ],
+   [
+    "Buying waterfront property in Michigan",
+    6
+   ]
+  ],
+  "https://alignlending.com/learn/importance-of-mortgage-preapproval/": [
+   [
+    "importance of mortgage preapproval",
+    27
+   ],
+   [
+    "mortgage preapproval",
+    16
+   ],
+   [
+    "The importance of mortgage preapproval: What it does and why sellers ask for it",
+    12
+   ],
+   [
+    "pre-approval guide",
+    11
+   ],
+   [
+    "[img] ",
+    10
+   ],
+   [
+    "Read more",
+    10
+   ],
+   [
+    "why mortgage preapproval matters",
+    7
+   ],
+   [
+    "preapproval",
+    4
+   ]
+  ],
+  "https://alignlending.com/learn/usda-loan-basics/": [
+   [
+    "USDA loan basics",
+    87
+   ],
+   [
+    "USDA loan basics guide",
+    11
+   ],
+   [
+    "[img] ",
+    4
+   ],
+   [
+    "USDA loan basics: How rural housing loans work and who qualifies",
+    4
+   ],
+   [
+    "Read more",
+    4
+   ],
+   [
+    "USDA guide",
+    3
+   ],
+   [
+    "USDA loans",
+    2
+   ],
+   [
+    "How USDA loans work",
+    2
+   ]
+  ],
+  "https://alignlending.com/product-loans/manufactured-home-loans/": [
+   [
+    "manufactured home loan page",
+    66
+   ],
+   [
+    "manufactured home loans",
+    48
+   ],
+   [
+    "manufactured home loans page",
+    9
+   ],
+   [
+    "manufactured home loan",
+    5
+   ],
+   [
+    "how we finance manufactured homes",
+    1
+   ],
+   [
+    "loan page",
+    1
+   ],
+   [
+    "manufactured home loan path",
+    1
+   ],
+   [
+    "Manufactured home loans",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/what-is-renovation-loan/": [
+   [
+    "renovation loans",
+    31
+   ],
+   [
+    "what a renovation loan is",
+    25
+   ],
+   [
+    "What Is a Renovation Loan? How to Finance a Home and Its Remodel Together",
+    18
+   ],
+   [
+    "Read more",
+    17
+   ],
+   [
+    "[img] ",
+    16
+   ],
+   [
+    "How a renovation loan works",
+    16
+   ],
+   [
+    "renovation loan",
+    8
+   ],
+   [
+    "how renovation loans work",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/va-loans/": [
+   [
+    "VA loans",
+    54
+   ],
+   [
+    "VA loans guide",
+    15
+   ],
+   [
+    "VA loans hub",
+    10
+   ],
+   [
+    "VA loans VA loans offer 0% down and no monthly mortgage insurance. \u2192",
+    8
+   ],
+   [
+    "VA loan guide",
+    6
+   ],
+   [
+    "VA Loans",
+    5
+   ],
+   [
+    "VA",
+    5
+   ],
+   [
+    "VA loan",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/home-buying-process/": [
+   [
+    "home buying process",
+    79
+   ],
+   [
+    "Home Buying Process",
+    42
+   ],
+   [
+    "home buying process guide",
+    6
+   ],
+   [
+    "Read more",
+    5
+   ],
+   [
+    "The Home Buying Process: Every Step From Start to Finish",
+    5
+   ],
+   [
+    "Home buying process Learn the home buying process step by step, from checking yo",
+    3
+   ],
+   [
+    "Home buying process Guides to the home buying process from accepted offer to clo",
+    2
+   ],
+   [
+    "The home buying process: Every step from offer to closing day",
+    2
+   ]
+  ],
+  "https://alignlending.com/product-loans/usda-loans/": [
+   [
+    "USDA",
+    42
+   ],
+   [
+    "USDA loans",
+    19
+   ],
+   [
+    "USDA Loan",
+    8
+   ],
+   [
+    "USDA loan",
+    7
+   ],
+   [
+    "USDA loan page",
+    6
+   ],
+   [
+    "USDA loans in Michigan",
+    4
+   ],
+   [
+    "How USDA loans work",
+    3
+   ],
+   [
+    "USDA loans page",
+    2
+   ]
+  ],
+  "https://alignlending.com/product-loans/jumbo-loans/": [
+   [
+    "Jumbo Loans",
+    44
+   ],
+   [
+    "jumbo loan",
+    22
+   ],
+   [
+    "jumbo",
+    8
+   ],
+   [
+    "jumbo loans",
+    6
+   ],
+   [
+    "Jumbo loans",
+    4
+   ],
+   [
+    "Jumbo loans in Michigan",
+    3
+   ],
+   [
+    "Borrow above $832,750",
+    3
+   ],
+   [
+    "jumbo loan page",
+    2
+   ]
+  ],
+  "https://alignlending.com/refinance/home-equity-review/": [
+   [
+    "Explore my equity options",
+    58
+   ],
+   [
+    "Start a home equity review",
+    23
+   ],
+   [
+    "Home Equity Strategy",
+    9
+   ],
+   [
+    "See my equity",
+    2
+   ],
+   [
+    "Home equity strategy What your equity is, what you owe, and what the money would",
+    2
+   ],
+   [
+    "Start with a home equity strategy review",
+    2
+   ],
+   [
+    "Available equity What your home is worth, what you owe, and what the money would",
+    1
+   ],
+   [
+    "Use my home equity There is more than one way to reach the equity in your home, ",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/home-equity-line-of-credit-heloc/": [
+   [
+    "home equity line of credit",
+    33
+   ],
+   [
+    "how a HELOC works",
+    17
+   ],
+   [
+    "Home equity line of credit (HELOC): How it works",
+    14
+   ],
+   [
+    "[img] ",
+    11
+   ],
+   [
+    "Read more",
+    11
+   ],
+   [
+    "home equity line of credit (HELOC)",
+    8
+   ],
+   [
+    "HELOC guide",
+    7
+   ],
+   [
+    "home equity lines of credit",
+    7
+   ]
+  ],
+  "https://alignlending.com/learn/conventional-loans/": [
+   [
+    "conventional loans",
+    42
+   ],
+   [
+    "conventional loan",
+    15
+   ],
+   [
+    "Conventional loans Learn how conventional loans work, including 3% down payment ",
+    8
+   ],
+   [
+    "conventional loan guide",
+    7
+   ],
+   [
+    "conventional loans guide",
+    6
+   ],
+   [
+    "conventional",
+    5
+   ],
+   [
+    "Conventional Loans",
+    4
+   ],
+   [
+    "conventional financing",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/whats-good-credit-score-to-buy-house/": [
+   [
+    "what counts as a good credit score to buy a house",
+    25
+   ],
+   [
+    "What\u2019s a good credit score to buy a house, and why does it matter?",
+    14
+   ],
+   [
+    "[img] ",
+    13
+   ],
+   [
+    "Read more",
+    13
+   ],
+   [
+    "a good credit score to buy a house",
+    13
+   ],
+   [
+    "What's a good credit score to buy a house, and why does it matter?",
+    11
+   ],
+   [
+    "what\u2019s a good credit score to buy a house",
+    9
+   ],
+   [
+    "what counts as a good credit score",
+    9
+   ]
+  ],
+  "https://alignlending.com/learn/contingencies-in-home-offers/": [
+   [
+    "contingencies in home offers",
+    62
+   ],
+   [
+    "home purchase contingencies",
+    10
+   ],
+   [
+    "inspection contingency",
+    5
+   ],
+   [
+    "contingencies",
+    5
+   ],
+   [
+    "[img] ",
+    5
+   ],
+   [
+    "Understanding contingencies in home offers: the five that protect buyers",
+    5
+   ],
+   [
+    "Read more",
+    5
+   ],
+   [
+    "offer contingencies",
+    4
+   ]
+  ],
+  "https://alignlending.com/learn/benefits-of-fha-203-k-loans/": [
+   [
+    "FHA 203(k) loans",
+    24
+   ],
+   [
+    "benefits of FHA 203(k) loans",
+    19
+   ],
+   [
+    "the benefits of FHA 203(k) loans",
+    9
+   ],
+   [
+    "Benefits of FHA 203(k) loans: One loan to buy and renovate a fixer-upper",
+    6
+   ],
+   [
+    "Read more",
+    6
+   ],
+   [
+    "[img] ",
+    5
+   ],
+   [
+    "FHA 203(k) renovation loan",
+    4
+   ],
+   [
+    "FHA 203(k) loan",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-qualify-for-jumbo-loan/": [
+   [
+    "How to qualify for a jumbo loan",
+    29
+   ],
+   [
+    "how to qualify for a jumbo loan",
+    25
+   ],
+   [
+    "[img] ",
+    13
+   ],
+   [
+    "Read more",
+    13
+   ],
+   [
+    "qualifying for a jumbo loan",
+    10
+   ],
+   [
+    "Qualifying for a jumbo loan",
+    5
+   ],
+   [
+    "jumbo qualification guide",
+    3
+   ],
+   [
+    "When a loan crosses into jumbo",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/title-insurance-why-its-important/": [
+   [
+    "why title insurance matters",
+    30
+   ],
+   [
+    "title insurance",
+    24
+   ],
+   [
+    "title insurance guide",
+    8
+   ],
+   [
+    "why title insurance is important",
+    7
+   ],
+   [
+    "title insurance and why it\u2019s important",
+    4
+   ],
+   [
+    "title insurance policy",
+    3
+   ],
+   [
+    "Title insurance",
+    2
+   ],
+   [
+    "[img] ",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-appeal-low-appraisal/": [
+   [
+    "appealing a low appraisal",
+    36
+   ],
+   [
+    "how to appeal a low appraisal",
+    28
+   ],
+   [
+    "appeal a low appraisal",
+    16
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "How to appeal a low appraisal and keep your purchase on track",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ],
+   [
+    "Previous How to appeal a low appraisal and keep your purchase on track",
+    1
+   ],
+   [
+    "low appraisal guide",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-create-competitive-offer/": [
+   [
+    "How to create a competitive offer on a house in a seller\u2019s market",
+    53
+   ],
+   [
+    "Read more",
+    52
+   ],
+   [
+    "[img] ",
+    51
+   ],
+   [
+    "creating a competitive offer",
+    14
+   ],
+   [
+    "how to create a competitive offer",
+    9
+   ],
+   [
+    "create a competitive offer",
+    8
+   ],
+   [
+    "a competitive offer",
+    2
+   ],
+   [
+    "writing a competitive offer",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-budget-for-closing-costs/": [
+   [
+    "budgeting for closing costs",
+    28
+   ],
+   [
+    "how to budget for closing costs",
+    23
+   ],
+   [
+    "How to budget for closing costs on a home purchase",
+    13
+   ],
+   [
+    "Read more",
+    10
+   ],
+   [
+    "[img] ",
+    9
+   ],
+   [
+    "budget for closing costs",
+    6
+   ],
+   [
+    "How to budget for closing costs",
+    5
+   ],
+   [
+    "closing cost budget guide",
+    3
+   ]
+  ],
+  "https://alignlending.com/purchase/buy-before-you-sell/": [
+   [
+    "Plan a buy before you sell",
+    58
+   ],
+   [
+    "Build a buy before you sell strategy",
+    50
+   ],
+   [
+    "Buy Before You Sell",
+    7
+   ],
+   [
+    "Buy Before You Sell When you need to buy the next home and sell this one, and th",
+    3
+   ],
+   [
+    "Buy before you sell What your current home's sale leaves you after the payoff, a",
+    2
+   ],
+   [
+    "Two houses, two closings, one family The biggest mistake is thinking this is jus",
+    2
+   ],
+   [
+    "Next step: Buy Before You Sell",
+    1
+   ],
+   [
+    "buy-before-you-sell",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/earnest-money-deposits/": [
+   [
+    "earnest money deposits",
+    47
+   ],
+   [
+    "earnest money deposit",
+    14
+   ],
+   [
+    "earnest money",
+    7
+   ],
+   [
+    "earnest money guide",
+    5
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "Understanding earnest money deposits: how much to put down and when it\u2019s refunda",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ],
+   [
+    "Previous Understanding earnest money deposits: how much to put down and when it\u2019",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/advantages-of-buying-fixer-upper/": [
+   [
+    "Advantages of buying a fixer-upper: 7 key benefits (and the tradeoffs)",
+    54
+   ],
+   [
+    "Read more",
+    54
+   ],
+   [
+    "[img] ",
+    52
+   ],
+   [
+    "advantages of buying a fixer-upper",
+    26
+   ],
+   [
+    "the advantages of buying a fixer-upper",
+    5
+   ],
+   [
+    "buying a fixer-upper",
+    2
+   ],
+   [
+    "case for a fixer-upper",
+    1
+   ],
+   [
+    "Next Advantages of buying a fixer-upper: 7 key benefits (and the tradeoffs)",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/home-closing-process/": [
+   [
+    "home closing process",
+    41
+   ],
+   [
+    "the home closing process",
+    17
+   ],
+   [
+    "closing process guide",
+    4
+   ],
+   [
+    "the Home Closing Process",
+    3
+   ],
+   [
+    "home closing process guide",
+    2
+   ],
+   [
+    "closing process",
+    2
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "Understanding the home closing process: a step-by-step timeline",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/mortgage-insurance/": [
+   [
+    "mortgage insurance",
+    43
+   ],
+   [
+    "mortgage insurance guide",
+    21
+   ],
+   [
+    "Understanding Mortgage Insurance",
+    7
+   ],
+   [
+    "how mortgage insurance works",
+    6
+   ],
+   [
+    "[img] ",
+    6
+   ],
+   [
+    "Read more",
+    6
+   ],
+   [
+    "Previous Understanding Mortgage Insurance",
+    1
+   ],
+   [
+    "PMI",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/seller-paid-closing-costs/": [
+   [
+    "seller-paid closing costs",
+    75
+   ],
+   [
+    "Seller-paid closing costs: What they cover and how to negotiate them",
+    3
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ],
+   [
+    "Seller-paid closing costs",
+    2
+   ],
+   [
+    "seller credits",
+    1
+   ],
+   [
+    "Seller-Paid Closing Costs",
+    1
+   ],
+   [
+    "seller-paid price cut",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/what-is-cash-out-refinance-loan/": [
+   [
+    "cash-out refinance",
+    29
+   ],
+   [
+    "cash-out refinancing",
+    22
+   ],
+   [
+    "Read more",
+    11
+   ],
+   [
+    "[img] ",
+    10
+   ],
+   [
+    "What Is a Cash-Out Refinance Loan? How It Works and How Much You Can Take Out",
+    9
+   ],
+   [
+    "what a cash-out refinance loan is",
+    8
+   ],
+   [
+    "cash-out refinance loans",
+    7
+   ],
+   [
+    "what a cash-out refinance is",
+    5
+   ]
+  ],
+  "https://alignlending.com/learn/first-time-home-buyers/": [
+   [
+    "first-time home buyers",
+    26
+   ],
+   [
+    "purchasing your first house",
+    10
+   ],
+   [
+    "first-time home buyer guide",
+    8
+   ],
+   [
+    "First-Time Home Buyers",
+    5
+   ],
+   [
+    "First-time home buyers Learn the home buying basics every first-time buyer needs",
+    5
+   ],
+   [
+    "first-time buyer guide",
+    5
+   ],
+   [
+    "first-time home buyers guide",
+    4
+   ],
+   [
+    "first-time homebuyer guide",
+    3
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-handle-seller-disclosures/": [
+   [
+    "how to handle seller disclosures",
+    36
+   ],
+   [
+    "handling seller disclosures",
+    34
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "How to handle seller disclosures during your home purchase",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ],
+   [
+    "seller\u2019s disclosures",
+    2
+   ],
+   [
+    "Previous How to handle seller disclosures during your home purchase",
+    1
+   ],
+   [
+    "Next How to handle seller disclosures during your home purchase",
+    1
+   ]
+  ],
+  "https://alignlending.com/product-loans/cashout-loans/": [
+   [
+    "cash-out refinance",
+    54
+   ],
+   [
+    "cash-out refinances",
+    9
+   ],
+   [
+    "Cash-Out Refinance Replaces your mortgage with a larger one and pays you the dif",
+    5
+   ],
+   [
+    "Cash-Out Refinance",
+    4
+   ],
+   [
+    "Cash-out refinance in Michigan",
+    2
+   ],
+   [
+    "Cash-out refinancing",
+    1
+   ],
+   [
+    "Cash-out refinances",
+    1
+   ],
+   [
+    "Cash-Out Refinance A new, larger first mortgage that pays off the current one an",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/buying-historic-home/": [
+   [
+    "Buying a historic home",
+    31
+   ],
+   [
+    "buying a historic home",
+    18
+   ],
+   [
+    "historic home guide",
+    9
+   ],
+   [
+    "Guide to Buying a Historic Home: What to Know First",
+    6
+   ],
+   [
+    "Read more",
+    5
+   ],
+   [
+    "Buying in a historic district",
+    5
+   ],
+   [
+    "Buying an older or historic home",
+    5
+   ],
+   [
+    "[img] ",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-choose-title-company/": [
+   [
+    "choosing a title company",
+    38
+   ],
+   [
+    "how to choose a title company",
+    27
+   ],
+   [
+    "title company",
+    5
+   ],
+   [
+    "How to choose a title company for your home purchase",
+    3
+   ],
+   [
+    "choosing your title company",
+    2
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ],
+   [
+    "title company guide",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/home-renovation-permits-what-you-need/": [
+   [
+    "home renovation permits",
+    47
+   ],
+   [
+    "renovation permits",
+    14
+   ],
+   [
+    "Home renovation permits: What you need and what they cost",
+    6
+   ],
+   [
+    "[img] ",
+    5
+   ],
+   [
+    "Read more",
+    5
+   ],
+   [
+    "renovation permits guide",
+    2
+   ],
+   [
+    "necessary permits",
+    1
+   ],
+   [
+    "home renovation permits guide",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/buying-home-with-hoa-pros-and-cons/": [
+   [
+    "buying a home with an HOA",
+    19
+   ],
+   [
+    "HOA guide",
+    18
+   ],
+   [
+    "Buying a home with an HOA",
+    13
+   ],
+   [
+    "pros and cons of buying a home with an HOA",
+    7
+   ],
+   [
+    "Buying a home with an HOA: The pros, cons and costs to weigh",
+    3
+   ],
+   [
+    "Buying a home with an HOA: pros and cons",
+    3
+   ],
+   [
+    "[img] ",
+    2
+   ],
+   [
+    "Read more",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/loan-types/": [
+   [
+    "Loan Types & Programs",
+    62
+   ],
+   [
+    "Loan Types & Programs guide",
+    42
+   ],
+   [
+    "loan types and programs guide",
+    15
+   ],
+   [
+    "loan types and programs",
+    9
+   ],
+   [
+    "choosing the right mortgage type",
+    8
+   ],
+   [
+    "types of mortgage loans",
+    3
+   ],
+   [
+    "Types of mortgage loans: How to choose the right one",
+    3
+   ],
+   [
+    "guide to loan types and programs",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/what-is-sellers-disclosure/": [
+   [
+    "what a seller\u2019s disclosure is",
+    29
+   ],
+   [
+    "[img] ",
+    12
+   ],
+   [
+    "What is a seller\u2019s disclosure?",
+    12
+   ],
+   [
+    "Read more",
+    12
+   ],
+   [
+    "the seller\u2019s disclosure",
+    11
+   ],
+   [
+    "what a seller\u2019s disclosure covers",
+    7
+   ],
+   [
+    "seller\u2019s disclosure",
+    5
+   ],
+   [
+    "the seller disclosure",
+    3
+   ]
+  ],
+  "https://alignlending.com/purchase/down-payment-assistance/": [
+   [
+    "down payment assistance page",
+    41
+   ],
+   [
+    "down payment assistance",
+    16
+   ],
+   [
+    "Down payment assistance",
+    3
+   ],
+   [
+    "the down payment assistance page",
+    2
+   ],
+   [
+    "down payment assistance programs",
+    2
+   ],
+   [
+    "down payment assistance in Michigan",
+    1
+   ],
+   [
+    "assistance programs",
+    1
+   ],
+   [
+    "our assistance page",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/negotiating-home-purchase/": [
+   [
+    "Guide to Negotiating a Home Purchase",
+    55
+   ],
+   [
+    "Read more",
+    53
+   ],
+   [
+    "[img] ",
+    52
+   ],
+   [
+    "negotiating a home purchase",
+    28
+   ],
+   [
+    "Previous Guide to Negotiating a Home Purchase",
+    1
+   ],
+   [
+    "Negotiating a home purchase",
+    1
+   ],
+   [
+    "Next Guide to Negotiating a Home Purchase",
+    1
+   ],
+   [
+    "guide to negotiating a home purchase",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/buying-home-as-investment-property/": [
+   [
+    "buying a home as an investment property",
+    42
+   ],
+   [
+    "Buying a home as an investment property: A step-by-step guide",
+    26
+   ],
+   [
+    "Read more",
+    24
+   ],
+   [
+    "[img] ",
+    22
+   ],
+   [
+    "investment property guide",
+    4
+   ],
+   [
+    "Buying a house to rent out",
+    3
+   ],
+   [
+    "Buying a home as an investment property",
+    3
+   ],
+   [
+    "investment property",
+    2
+   ]
+  ],
+  "https://alignlending.com/seller-net-sheet-calculator/": [
+   [
+    "seller net sheet calculator",
+    60
+   ],
+   [
+    "seller net sheet",
+    5
+   ],
+   [
+    "Seller net sheet What reaches you from a Michigan sale: payoff, commissions you ",
+    2
+   ],
+   [
+    "the other costs",
+    1
+   ],
+   [
+    "Seller net sheet calculator What reaches you from the sale, with the transfer ta",
+    1
+   ],
+   [
+    "See what the whole sale leaves you",
+    1
+   ],
+   [
+    "Seller net sheet What the whole sale leaves you after the payoff, commissions, c",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-prepare-for-home-closing/": [
+   [
+    "How to prepare for a home closing: your step-by-step checklist",
+    42
+   ],
+   [
+    "[img] ",
+    40
+   ],
+   [
+    "Read more",
+    40
+   ],
+   [
+    "preparing for a home closing",
+    25
+   ],
+   [
+    "how to prepare for a home closing",
+    7
+   ],
+   [
+    "preparing for closing",
+    4
+   ],
+   [
+    "preparing for your home closing",
+    4
+   ],
+   [
+    "how to prepare for closing",
+    2
+   ]
+  ],
+  "https://alignlending.com/learn/how-to-read-home-inspection-report/": [
+   [
+    "how to read a home inspection report",
+    25
+   ],
+   [
+    "reading a home inspection report",
+    16
+   ],
+   [
+    "How to read a home inspection report and prioritize what matters",
+    3
+   ],
+   [
+    "home inspection report",
+    3
+   ],
+   [
+    "inspection report guide",
+    3
+   ],
+   [
+    "Reading a home inspection report",
+    3
+   ],
+   [
+    "a home inspection report",
+    2
+   ],
+   [
+    "reading an inspection report",
+    2
+   ]
+  ],
+  "https://alignlending.com/purchase/mortgage-readiness-review/": [
+   [
+    "Take the readiness review",
+    29
+   ],
+   [
+    "Take a mortgage readiness review",
+    26
+   ],
+   [
+    "Mortgage Readiness Review",
+    13
+   ],
+   [
+    "Mortgage readiness quiz Eight questions about your timing, savings, credit and j",
+    3
+   ],
+   [
+    "Calling after the house is already found The early call is almost always easier ",
+    2
+   ],
+   [
+    "Take the readiness quiz",
+    1
+   ],
+   [
+    "Next step: Mortgage Readiness Review",
+    1
+   ],
+   [
+    "Mortgage Readiness Review Where you stand before you apply, and what to work on ",
+    1
+   ]
+  ],
+  "https://alignlending.com/learn/homeownership/": [
+   [
+    "Homeownership",
+    63
+   ],
+   [
+    "Homeownership guide",
+    57
+   ],
+   [
+    "homeownership",
+    5
+   ],
+   [
+    "homeownership guide",
+    5
+   ],
+   [
+    "Homeownership What owning a home costs each year, from upkeep and insurance to M",
+    1
+   ],
+   [
+    "All 55 guides",
+    1
+   ],
+   [
+    "homeownership hub",
+    1
+   ],
+   [
+    "Next Homeownership: Costs, maintenance, and protecting your home",
+    1
+   ]
+  ]
+ },
+ "internal_links_pointing_to_redirects": [
+  {
+   "source": "https://alignlending.com/mortgage-lender-salem-township-mi/",
+   "target": "https://alignlending.com/washtenaw-county/",
+   "region": "content",
+   "count": 1,
+   "redirects_to": "https://alignlending.com/mortgage-michigan/washtenaw-county/"
+  },
+  {
+   "source": "https://alignlending.com/mortgage-lender-springfield-township-mi/",
+   "target": "https://alignlending.com/learn/homestead-exemption/",
+   "region": "content",
+   "count": 1,
+   "redirects_to": "https://alignlending.com/learn/homestead-exemption-benefits-and-filing-guide/"
+  }
+ ],
+ "pages_not_in_sitemap": []
+}
