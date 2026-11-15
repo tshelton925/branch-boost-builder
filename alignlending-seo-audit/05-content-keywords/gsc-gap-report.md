@@ -359,3 +359,46 @@ Drift question groups (home insurance deductibles 433 impressions, mansions 316,
 - `gsc-opportunities.csv`: 783 rows (123 striking, 43 CTR, 152 gap, 172 question, 123 local, 170 drift; 33 P0, 163 P1, 587 P2); every row has an action, target page or new topic, exact title/H2 where applicable, priority, impact and effort
 - `gsc-blog-candidates.csv`: 30 new-post candidates with primary and supporting queries, cluster impressions, best and weighted position, intent, closest existing page, money page and priority
 - `gsc-gap-report.md`: this report
+
+---
+
+## Auditor corrections
+
+*Added by the independent content auditor, 2026-11-15. Full detail: `08-audit/audit-content.md`; exact replacement text: `08-audit/corrections-content.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+**Confirmed by re-querying DataWise and recomputing the CSVs:**
+- 30 days: 134,261 vs 34,706 impressions (+287%); position 24 → 32.8.
+- 90 days: 416 / 181,048, with 418 impressions in the prior 90 days.
+- 79.6% of on-topic impressions at position >20; 10.1% in the top 10.
+- Non-brand top 10: exactly 8 clicks from 10,665 impressions.
+- USDA basics meta, verbatim "…subsidized rates as low as 1%". It also says "zero down payment".
+- "conveyance" 1,123 @1.3, 0 clicks. "usda eligibility" 576 @11.1 on the article (GSC-attributed).
+- The queries endpoint has no page dimension.
+- Surge pages: 14,548 / 62% and 10,182 / 96%.
+
+Note: the query table holds only 87 of 416 clicks, so every "0 clicks" figure is a floor.
+
+**Refuted:**
+1. "Legacy root posts with canonicals … use 301s" (P0). They already 301 in a single hop, as does `/lease-to-own-vs/` (crawl `redirects`). Replace the P0 with a P1: resubmit old URLs via IndexNow / URL Inspection and fix internal links to redirects. The ZIP URLs already 301 per the brief.
+2. N22 (well/septic). The existing `/learn/buying-home-with-septic-system/` and `/learn/how-well-water-impacts-homes-value/` already carry FHA/USDA lender-rule H2s. Retitle the well page instead.
+
+**Corrected:**
+- **Scorecard labels.** The scorecard reports outcome KPIs as rubric aspects. Relabel "CTR health 30" and "question coverage 58" as outcome KPIs; under the rubric anchors, Title & meta = **73 C**, AI readiness = **72 C** and Intent = **75 C** (was 68).
+- **Library size:** 424 articles, median 5,604 words (not "431 … 5,572").
+- **P0 count.** The 33 P0 rows are 12 unique actions.
+- **Rewrite fixes:**
+  - LTV: drop "Calculator" until the widget exists.
+  - 3/7/3 meta: the third "3" is the Closing Disclosure rule.
+  - VA benefits: "limits on closing costs" and "exemption".
+  - Conventional 97: remove "lowest".
+  - Four limits/eligibility metas: drop "2026". Hold the FHA limits titles until the CY2027 release.
+  - Home meta: "We compare…", not Samantha personally.
+  - Dearborn and Ann Arbor: "Michigan", not "local".
+  - Move the `jumbo-loan-tips` copy to `how-to-qualify-for-jumbo-loan`.
+  - Lease-to-own: "Lease to Own a Home: How It Works vs. Rent to Own".
+- **DSCR (N20)** targets "how DSCR loans work", not the money page's "dscr loans michigan".
+- **USDA carve-up.** Cap new USDA posts at 3 (N01; N02 + N03; N05) and fold N04/N06/N07/N08 into the basics page.
+- **Fold into H2s:** N15, N16, N17 [COUNSEL], N25, N30.
+- **N01 title:** "(FY2027)"; N10 drops "2026".
+- **Inferred mappings.** Fix 5 implausible ones in `gsc-queries-full.csv`. The two analysts disagree on 265 of 810 shared mappings, so confirm with a GSC Page × Query export.
+- **Cross-team scope.** Eleven of the rewritten pages (home, refinance, product pages, city pages, calculator) belong to the core-pages and city teams, which propose different titles. Treat these rewrites as inputs for the consistency team.

@@ -229,3 +229,33 @@ Ranking blends four factors: cluster volume × (100 − KD), Michigan specificit
 - `datawise_keyword_gap` compares only the top 300 keywords of each domain. Long-tail gaps beyond that set are not visible here, which is why the PAA bank and the Michigan keyword research supplement it.
 - Align positions combine DataForSEO ranked keywords (DFS, a snapshot) with GSC 90-day average positions. Where neither has data, the CSV says "not in top 100 (DFS) / no GSC impressions".
 - No Bing data is connected. See the Bing/Copilot section of `ai-visibility.md`. A Bing Webmaster Tools export is needed before Bing gaps can be measured.
+
+---
+
+## Auditor corrections
+
+*Added by the independent content auditor, 2026-11-15. Full detail: `08-audit/audit-content.md`; exact replacement text: `08-audit/corrections-content.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+**Confirmed:**
+- `datawise_keyword_metrics` re-check: "how to get pre approved for a home loan" 12,100 / KD 22; "michigan property tax calculator" 9,900 / KD 13; "michigan homestead exemption" 880 / KD 0; "michigan principal residence exemption" 590 / KD 0; "michigan first time home buyer programs" 3,600 / KD 5.
+- GSC: property tax calculator 77 @48.8; homestead 22.8–29.9; 0 queries contain "mshda".
+- Uncapping figures (50.5%; 9% in 2013; 37% Monroe to 92% Charlevoix) and HMDA figures (22.6% / 15.5% / ~2× / 364,013), both from page text.
+- 65 of 221 PAA questions map to NEW.
+
+**Not reproduced** (paid tools, no raw output saved): the 459 keywords / position 59.3, the competitor positions, the AI tracker and the AI mentions. They are internally consistent. Label "about 37 visits a month" as a DataForSEO estimate; GSC shows 241 clicks in the last 30 days.
+
+**Refuted:**
+1. "All 4 research pages have … no Dataset schema". Both report pages already carry `Dataset`, `DataDownload` and `Report`. "Original data leverage" moves 55 → **60 D**.
+2. N27 "Debt-to-income ratio calculator (tool)". `/learn/debt-to-income-ratio-dti/` already runs an on-page calculator; retitle that page instead.
+
+**Corrected:**
+- **Pre-approval volume.** The 12,100 is national; "michigan mortgage pre approval" shows 0 volume.
+- **Homestead page.** It is Michigan-heavy (Form 2368, 6 Michigan H2s), not "generic multi-state". Refresh it as the PRE owner ("Homestead Exemption in Michigan: What It Is and How to File"); no new N4 URL.
+- **N2 pillar** duplicates the existing `/learn/first-time-home-buyer-grants-and-programs/`, which already covers MSHDA and "$25,000". Refresh it as "Michigan First-Time Homebuyer Programs and Grants".
+- **N5 closing costs** becomes the merged `/learn/closing-costs/` canonical (P1). **N9** drops to P1. **N6** keeps a single owner per intent.
+- **N1 destination** is `/start/`, not app.alignlending.com.
+- **N21 title** removes "$100 down" [COUNSEL].
+- **Answer blocks.** R1 needs the guide §7.6 taxable-value wording. R6 is trimmed to 56 words with no "Most banks". R7 loses "only". R2 drops "2026".
+- **keyword-gaps.csv:** 4 rows point to merge members. "best place to get pre approved" is 720 in the report but 590 in the CSV.
+- **paa-question-bank.csv:** move 2 VA "no down payment" questions and 1 "average down payment" question off money pages; remap 7 questions from merge members to canonicals; remap the PRE, pillar and closing-cost "NEW" mappings to the existing pages.
+- **Citation share** harmonized at 40 with `ai-visibility.md`.

@@ -221,3 +221,16 @@ No Bing numbers appear in this report. Factors that matter for this site:
 - **Social signals.** Bing has said it takes social signals into account. Share each new research release and post on the Facebook, LinkedIn and Instagram profiles already listed in `sameAs`.
 - **Bing Places for Business.** Claim the listing, or import it from the Google Business Profile, with identical NAP and the "Mortgage Broker" category. Copilot and Bing local answers draw on Bing Places in the same way Google AI Mode drew on Yelp and Google Maps in the tracker.
 - **Crawl access.** robots.txt allows Bingbot. Confirm the host does not block or throttle it.
+
+---
+
+## Auditor corrections
+
+*Added by the independent content auditor, 2026-11-15. Full detail: `08-audit/audit-content.md`; exact replacement text: `08-audit/corrections-content.csv`. (This file is part of analyst 3's deliverable; verdict **PASS WITH CORRECTIONS**.)*
+
+- **Not reproduced (paid tools):** 4 of 12 prompts, 5 of 48 checks, and riverbankfinance.com 785 vs Align 19 AI mentions. The per-prompt table is internally consistent (ChatGPT 2, Gemini 1, Perplexity 2; Riverbank on 7 prompts). The share-of-voice "10 citations" is not reconciled with the 6 cited URLs listed.
+- **Refuted: "no Dataset schema" on the research pages.** Both report pages already carry `Dataset`, `DataDownload` and `Report`. Change A1 from "add Dataset JSON-LD" to "validate the existing markup and add only missing `license` / `temporalCoverage` / `distribution.contentUrl`". The "Original data reaching AI answers" score (20) stands as an outcome score; correct its rationale.
+- **A1 answer block:** use the guide §7.6 wording ("…resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid…"). The figures are verified.
+- **A3 FHA product template:** remove "FHA allows 3.5% down with a 580 credit score" (a trigger term on a money page, guide §7.2) and "Samantha Shelton reviews every file" (unverified, §10.1). Add the visible government non-affiliation line (§7.6).
+- **A3 city H2:** USDA eligibility is set by address. Say whether any part of the city is eligible and link the address check, rather than "yes or no".
+- **A7 award schema:** remove "NAMB Broker of the Year" (Verify status, PM-07). Use "2023 Women With Vision honoree" and add the approved "Hall of AIME inductee (2024)", "Mortgage Professional America 2025 Elite Women" and "HousingWire 2024 Rising Star".

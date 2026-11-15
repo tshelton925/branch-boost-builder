@@ -487,3 +487,29 @@ Every guide follows the editorial rules: Samantha byline, Sources list, no rates
   - `/research/michigan-mortgage-market-report/` is titled "Michigan Mortgage Market Report 2025" and is stale (core pages and consistency team).
   - 419 articles carry a "How Align …" section and a Calendly booking CTA. Keep the CTA vocabulary consistent with the CTA team's findings.
 - **Nothing was changed on the live site.** All actions are recommendations, and drafts describing how Align works need Align's approval.
+
+---
+
+## Auditor corrections
+
+*Added by the independent content auditor, 2026-11-15. Full detail: `08-audit/audit-content.md`; exact replacement text: `08-audit/corrections-content.csv`. Verdict: **PASS WITH CORRECTIONS**.*
+
+**Confirmed by recomputation:** 424 articles and 49 hubs; median 5,604 words (range 1,285–6,511); learn-sitemap lastmod 2026-10-11 to 2026-11-14; 50,180 mapped impressions and 4 clicks at position 47; "lease to own" 15,242 @59.8 = 22.2% of top-1,000 impressions (re-queried in DataWise); 68 drift; 61 groups / 87 merges; 38 prunes; $832,750 / $541,287 / $1,249,125 on 123 / 54 / 73 Learn pages; no named reviewer; the "No rate quotes, no predictions" conflict on `housing-market-outlook`.
+
+**Refuted:**
+1. "Sourced Samantha quote … on only 5 of 424". Verbatim quote-bank quotes appear on **142 of 424** articles. The real issue is repetition ("only works when nothing goes wrong" on 33 pages, "somebody else's tax bill" on 27). Re-scope finding 1's fix: add `[NEEDS SAMANTHA QUOTE: topic]` only to the **26** top-40 impression articles that have none, and limit each quote to its topic cluster.
+2. "`definition-of-mansion…` is the only off-topic page that has earned a click". In GSC page-level data, `benefits-of-investing-in-mixed-use-developments` has 2 clicks and `benefits-of-investing-in-senior-housing-markets` has 1. Change mixed-use to KEEP pending Align's view.
+3. Amortization canonical. GSC attributes "amortization" (315 @14.5) to **`/learn/amortization-schedules/`**. Make it the canonical and 301 `mortgage-amortization` into it.
+
+**Corrected:**
+- **Program counts.** "20 articles / 27%" holds for the cluster labels, but about 28–32 program-led articles (≈32% of impressions) exist once IRRRL, streamline and program-update guides are counted.
+- **Lease to own.** The "3 near-duplicates" overlap in intent, not in text (shingle overlap ≤9%). Its title already leads with the head term.
+- **`mortgage-rate-predictions`** becomes a P1 title change only. **`housing-market-outlook`** needs an interim meta and H2 fix now, not in January.
+- **Missed P0:** the `/learn/mortgage-news/` meta says "30-year rates near 6.5%".
+- **Merge targets.** `fixed-rate-mortgage-options` merges into `/learn/15-year-vs-30-year-mortgage-comparison/`. The market-type canonical needs a three-term title. `crowdfunding` gets a 301 only. Jumbo keeps `how-to-qualify-for-jumbo-loan` as canonical, with the title "Jumbo Loans in Michigan: Requirements and How to Qualify".
+- **USDA basics title:** "USDA Loans in Michigan: How Rural Development Loans Work". "Income Limits" would cannibalize new guide #2.
+- **New guides to drop or fold:** #3 (USDA eligible areas → the tool), #4 (conforming limit → `/loan-limits/`), #16 (→ `/refinance/cash-out-vs-home-equity/`), #20 (→ the calculator refresh), #22 (→ competitor N1).
+- **New guides to re-scope:** #8 DSCR becomes `/learn/how-dscr-loans-work/`, not the money page's query. #6 splits into federal VA benefits and the Michigan exemption. #26 uses the approved `/licensing/` wording.
+- **Personal-loan refresh** drops to P2.
+
+**Score adjustments:** E-E-A-T 79 C → **81 B** (corrected first-hand input; crosses the grade boundary, so reconcile). Heading structure 80 B → **78 C**. AI readiness (72) and Title & meta (73) stand.
