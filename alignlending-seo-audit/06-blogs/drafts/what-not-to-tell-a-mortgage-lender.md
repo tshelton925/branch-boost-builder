@@ -16,7 +16,7 @@ cluster: "C08 Credit, DTI and qualifying"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 1992
+word_count: 1966
 target_money_page: /purchase/homebuyer-game-plan/#readiness
 internal_links:
   - {anchor: "Take the readiness review", url: /purchase/homebuyer-game-plan/#readiness, placement: "CTA module after first H2 (first 30%)"}
@@ -113,13 +113,13 @@ The application asks most of these as yes-or-no declarations. Michigan adds a fe
 | A bankruptcy, foreclosure or short sale | The application asks about the last 7 years | Credit report and public records |
 | A job change, accepted or planned | Income must be current and likely to continue | Employment is verified again before closing |
 
-Unpaid Michigan property taxes are returned to the county treasurer as delinquent each March 1, as Michigan Treasury's [foreclosure process page](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process) explains, so a title search finds them. Related guides: [how a Michigan land contract works](/learn/michigan-land-contract/), [financing a home purchase with gift funds](/learn/financing-home-purchase-with-gift-funds/) and how lenders source [earnest money deposits](/learn/earnest-money-deposits/).
+Unpaid Michigan property taxes are returned to the county treasurer as delinquent each March 1, as Michigan Treasury's [foreclosure process page](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process) explains, so a title search finds them. See also [how a Michigan land contract works](/learn/michigan-land-contract/), [financing a home purchase with gift funds](/learn/financing-home-purchase-with-gift-funds/) and [earnest money deposits](/learn/earnest-money-deposits/).
 
 ## What happens if you leave something out?
 
 Most omissions surface in underwriting through the credit report, tax transcripts, bank statements or a call to your employer, and a late discovery can delay or end the approval. A knowingly false statement on a loan application can be a federal crime. Telling your loan officer early leaves time to find a program that fits.
 
-The statute is [18 U.S.C. §1014](https://www.govinfo.gov/link/uscode/18/1014), which covers knowingly false statements made to influence a mortgage lending business. Programs treat the same item differently, so a collection account raised on the first call leaves more choices than one found before closing.
+The statute is [18 U.S.C. §1014](https://www.govinfo.gov/link/uscode/18/1014), which covers knowingly false statements made to influence a mortgage lending business.
 <!-- LINK ONCE LIVE: anchor "buying after bankruptcy or foreclosure" → /learn/buying-a-house-after-bankruptcy-or-foreclosure/ (add a sentence here when that post publishes) -->
 
 Samantha Shelton, Align's broker owner, puts it this way: [NEEDS SAMANTHA QUOTE: why she wants to hear about the complicated part of a file on the first call]
@@ -143,9 +143,9 @@ If debt is the tight spot, read [how to improve your debt-to-income ratio](/lear
 
 ## What should you do if something changes before closing?
 
-Tell your loan officer right away about a new job, a raise, a lost job, a new debt, a large deposit or a change in who will live in the home. Many changes are workable when the lender learns early. Some need new documents or a revised disclosure of loan terms and costs. [VERIFY: 12 CFR 1026.19(e)(3)(iv) changed circumstances]
+Tell your loan officer right away about a new job, a raise, a lost job, a new debt, a large deposit or a change in who will live in the home. Many changes are workable when the lender learns early. Some need new documents or a revised disclosure of loan terms and costs.
 
-A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall.
+[VERIFY: revised Loan Estimate after a changed circumstance, 12 CFR 1026.19(e)(3)(iv)] A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall.
 
 ## How do you explain a late payment, gap in work or large deposit?
 

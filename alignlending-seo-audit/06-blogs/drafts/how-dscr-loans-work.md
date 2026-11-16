@@ -13,7 +13,7 @@ cluster: "C16 Real estate investing (breadcrumb parent /learn/financing-investme
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: 2026-11-16
-word_count: 0
+word_count: 2061
 target_money_page: /product-loans/dscr-loans-michigan/
 internal_links:
   - {anchor: "DSCR loan requirements in Michigan", url: /product-loans/dscr-loans-michigan/}
@@ -249,5 +249,145 @@ Every outside source this guide links to, in the order it appears.
 Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 
 ```json-ld
-JSONLD_PLACEHOLDER
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/how-dscr-loans-work/#article",
+      "headline": "How DSCR loans work: the ratio, the rent and the Michigan tax math",
+      "description": "A DSCR loan qualifies a rental on its rent, not your income. See how lenders figure the ratio, what counts as rent and why Michigan's non-homestead tax matters.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301",
+        "worksFor": {
+          "@id": "https://alignlending.com/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://alignlending.com/#organization",
+        "@type": "Organization",
+        "name": "Align Lending"
+      },
+      "isPartOf": {
+        "@id": "https://alignlending.com/learn/financing-investments/"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/how-dscr-loans-work/",
+      "about": [
+        "Debt-service coverage ratio loan",
+        "Michigan property tax"
+      ],
+      "citation": [
+        "https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-A/section-1026.3",
+        "https://selling-guide.fanniemae.com/sel/b3-3.1-08/rental-income",
+        "https://www.michigan.gov/taxes/property/principal-residence-exemption",
+        "https://www.michigan.gov/taxes/property/estimator/related/millage-rates",
+        "https://detroitmi.gov/departments/buildings-safety-engineering-and-environmental-department-bseed/bseed-divisions/property-maintenance/tenant-rental-property/rental-certificate",
+        "https://www.grandrapidsmi.gov/departments/code-compliance/rental-properties/rental-certification-program/",
+        "https://alignlending.com/research/michigan-property-tax-uncapping-study/"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Financing investments",
+          "item": "https://alignlending.com/learn/financing-investments/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "How DSCR loans work",
+          "item": "https://alignlending.com/learn/how-dscr-loans-work/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alignlending.com/learn/how-dscr-loans-work/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a good DSCR ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the lender, but 1.0 is the usual floor, because at 1.0 the rent exactly covers the monthly housing cost. Many lenders price better at about 1.20 to 1.25 or higher. Room above the minimum also cushions vacancy, repairs and a Michigan tax reset."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you get a DSCR loan with no rental history?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes. On a vacant unit or a new purchase, lenders usually use the appraiser's market rent estimate instead of a lease. History matters more for short-term rental income, where many lenders want a booking record or a market study before they count nightly rent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a DSCR loan count toward your personal debt-to-income ratio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can. The DSCR loan is qualified on the property, but the mortgage still shows on your credit report. If you later apply for a loan based on your personal income, that lender decides how to count the DSCR payment and its rent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you use a DSCR loan for a short-term rental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some lenders allow it, often with a higher minimum ratio and a booking history or market study. Local rules matter as much. Many Michigan cities and townships regulate short-term rentals through zoning, licensing or inspections, and a unit that cannot operate legally produces no qualifying income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you use a DSCR loan for a home you will live in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A DSCR loan is for investment property only, and lenders usually ask you to sign a statement that you will not live in it. If you plan to live in one unit of a 2–4 unit building, look at owner-occupied loans, which use your personal income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are DSCR loans only for experienced investors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, not always. Many lenders allow first-time investors, sometimes with a larger down payment, more reserves or a higher minimum ratio. Some limit first-time investors to certain property types or loan sizes. Ask about experience rules early, because they differ from lender to lender."
+          }
+        }
+      ]
+    }
+  ]
+}
 ```
