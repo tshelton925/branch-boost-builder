@@ -17,7 +17,7 @@ cluster: "C02 VA loans (breadcrumb parent /learn/va-loans/)"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2398
+word_count: 2333
 target_money_page: "/product-loans/va-loans/"
 internal_links:
   - {anchor: "VA loans in Michigan", url: "/product-loans/va-loans/"}
@@ -57,8 +57,6 @@ image_brief:
 
 **Subject to Align approval**
 
-Home / Learn / VA loans / VA benefits for disabled veterans in Michigan
-
 # VA home loan and property tax benefits for disabled veterans in Michigan
 
 Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
@@ -92,15 +90,13 @@ VA sets these rules; a private lender makes the loan and decides on approval. Se
 | Funding fee refund | Veterans whose award is effective before the loan closed | Same page |
 | Exemption on refinances | The same groups, on a VA streamline (IRRRL) or cash-out refinance | Same page |
 | No monthly mortgage insurance; no VA loan limit with full entitlement | Every eligible veteran | [VA home loan entitlement and limits](https://www.va.gov/housing-assistance/home-loans/loan-limits/) |
-| Adapted housing grants (SAH and SHA); maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
+| Specially adapted housing (SAH) and special housing adaptation (SHA) grants; maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
 
 [VERIFY: confirm each row and its page date on va.gov, which was blocked from the drafting session.]
 
-A specially adapted housing (SAH) or special housing adaptation (SHA) grant also qualifies you for Michigan's property tax exemption.
-
 <div class="al-module">
 
-**Planning a VA purchase in Michigan?** See the steps, the documents and the Michigan tax line in one place.
+**Planning a VA purchase in Michigan?**
 
 [Plan my VA purchase](/purchase/va-homebuyer-plan/)
 
@@ -117,7 +113,7 @@ The exemption covers the fee on any VA-guaranteed loan, including later [refinan
 
 ### Can you get the funding fee refunded if your rating comes later?
 
-Possibly. VA's test is the effective date of your disability award, not the date of the decision. In VA's example, a June 15 closing with an award effective June 1 may qualify, and an award effective July 1 generally would not. Ask your VA Regional Loan Center (877-827-3702) or your servicer, as VA News explains in [VA home loan funding fee refunds: Why timing matters](https://news.va.gov/150990/va-home-loan-funding-fee-refunds-timing-matters/). [VERIFY: refund rule and phone number on the VA funding fee page; record the article's date.]
+Possibly. VA's test is the effective date of your disability award, not the date of the decision. In VA's example, a June 15 closing with an award effective June 1 may qualify, and an award effective July 1 generally would not. Ask your VA Regional Loan Center (877-827-3702) or your servicer. Source: VA News, [VA home loan funding fee refunds: Why timing matters](https://news.va.gov/150990/va-home-loan-funding-fee-refunds-timing-matters/). [VERIFY: refund rule and phone number on the VA funding fee page; record the article's date.]
 
 ## Does Michigan exempt disabled veterans from property tax?
 
@@ -132,7 +128,7 @@ Yes. Under MCL 211.7b, the homestead of a qualifying disabled veteran is exempt 
 | Refiling | Not required for an exemption granted for taxes levied on or after January 1, 2025 |
 | Who must hold title | The veteran alone or with a spouse; the surviving spouse alone |
 
-Source: MCL 211.7b, the State Tax Commission FAQ and Form 5107 (Rev. 03-26), all linked from Treasury's [Disabled Veteran Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption) page.
+Source: MCL 211.7b, the State Tax Commission FAQ, Form 5107 (Rev. 03-26) and Treasury's [Disabled Veteran Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption) page.
 
 ### What does the exemption cover?
 
@@ -153,8 +149,6 @@ The assessor decides; boards of review no longer hear new claims. A December 30 
 3. File it with the assessor, with the VA letter and closing documents.
 4. Keep copies and the assessor's written decision.
 5. Send the approval to your servicer and ask for a new escrow analysis.
-
-If you sell, move out or stop qualifying, file Form 6054 with the assessor within 45 days.
 
 ## How do these benefits change your loan and budget in Michigan?
 
@@ -179,7 +173,7 @@ Local millage varies, so [estimate your Michigan property tax after you buy](/mi
 
 Yes. The benefits change the cost of the loan, not the approval test. VA disability compensation counts as income, and because it is tax-free, VA's handbook lets lenders gross up verified non-taxable income for the debt-to-income ratio. The loan still has to meet VA's residual income standard and the lender's approval.
 
-The rules sit in VA's Lenders Handbook, [VA Pamphlet 26-7, chapter 4](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting). Residual income, what is left each month after major expenses, uses actual income. [VERIFY: chapter 4 gross-up and residual income rules as applied to disability compensation.] See [VA loan requirements](/learn/how-to-qualify-for-va-loan/) and [how to buy a home with your VA benefit](/learn/buying-home-with-va-loan/).
+See VA's Lenders Handbook, [VA Pamphlet 26-7, chapter 4](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting). Residual income, what is left each month after major expenses, uses actual income. [VERIFY: chapter 4 gross-up and residual income rules as applied to disability compensation.] See [VA loan requirements](/learn/how-to-qualify-for-va-loan/) and [how to buy a home with your VA benefit](/learn/buying-home-with-va-loan/).
 
 <!-- LINK WHEN LIVE: "buying a home on disability income" -> /learn/buying-a-home-on-ssi-or-disability-income/ -->
 
@@ -187,7 +181,7 @@ The rules sit in VA's Lenders Handbook, [VA Pamphlet 26-7, chapter 4](https://ww
 
 Veterans below the MCL 211.7b standard still get Michigan's Principal Residence Exemption like any owner who lives in the home, which exempts it from up to 18 mills of school operating tax. Veterans with a service-connected disability may also claim the homestead property tax credit on Form MI-1040CR-2, with a larger allowance at higher ratings.
 
-File its affidavit by June 1 (summer levy) or November 1 (winter levy); see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). For the 2025 tax year, Treasury's [MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) sets a taxable value allowance of $3,500 for ratings of 10% to 50%, $4,000 for 60% to 80% and $4,500 for 90% to 100%. No credit is allowed above $71,500 of total household resources or $165,400 of taxable value. Treasury says to file whichever of the MI-1040CR or MI-1040CR-2 gives the larger credit.
+File the exemption affidavit by June 1 (summer levy) or November 1 (winter levy); see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). For the 2025 tax year, Treasury's [MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) sets a taxable value allowance of $3,500 for ratings of 10% to 50%, $4,000 for 60% to 80% and $4,500 for 90% to 100%. No credit is allowed above $71,500 of total household resources or $165,400 of taxable value. Treasury says to file whichever of the MI-1040CR or MI-1040CR-2 gives the larger credit.
 
 <!-- LINK WHEN LIVE: "Michigan homestead property tax credit" -> /learn/michigan-homestead-property-tax-credit/ -->
 
@@ -195,7 +189,7 @@ File its affidavit by June 1 (summer levy) or November 1 (winter levy); see [Mic
 
 The Michigan Veterans Affairs Agency connects veterans with accredited Veteran Service Officers, who help with VA letters and benefit claims, through 1-800-MICH-VET or its county search. Your city or township assessor handles Form 5107. For a rating decision or an appeal, work with a VA-accredited representative.
 
-The agency's [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) search lists officers by county. [VERIFY: whether MVAA or VA states this help is at no cost.]
+The [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) lists 1-800-MICH-VET, and its [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) search lists officers by county. [VERIFY: whether MVAA or VA states this help is at no cost.]
 
 [NEEDS SAMANTHA QUOTE: what veterans most often miss about the funding fee exemption or the Michigan exemption when they buy]
 
@@ -214,11 +208,11 @@ Ready to apply instead? [Start my application](/start/?goal=buy)
 
 ### Who is exempt from paying the VA funding fee?
 
-Veterans receiving VA compensation for a service-connected disability are exempt, as are veterans entitled to it who receive retirement or active-duty pay instead. VA also exempts surviving spouses receiving Dependency and Indemnity Compensation, service members with a proposed or memorandum rating before closing, and active-duty Purple Heart recipients.
+Veterans receiving VA compensation for a service-connected disability are exempt, as are veterans entitled to it who take retirement or active-duty pay instead. So are surviving spouses receiving Dependency and Indemnity Compensation, service members with a proposed or memorandum rating before closing, and active-duty Purple Heart recipients.
 
 ### Do disabled veterans pay property tax in Michigan?
 
-Not if they qualify under MCL 211.7b. A Michigan veteran rated by the VA as 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply.
+Not if they qualify under MCL 211.7b. A Michigan veteran rated 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply.
 
 ### What disability rating do you need for the Michigan property tax exemption?
 
@@ -234,13 +228,13 @@ Yes, while the spouse stays unremarried, if the veteran qualified immediately be
 
 ### Can you get a VA funding fee refund after a disability rating?
 
-Sometimes. VA bases a refund on the effective date of your disability award. If that date falls before your loan closed, you may qualify even though the decision came later. If it falls after closing, you generally do not. Ask your VA Regional Loan Center.
+Sometimes. VA bases a refund on the effective date of your disability award. If that date falls before your loan closed, you may qualify even though the decision came later. If it falls after closing, you generally do not.
 
 <!-- [COMPLIANCE REVIEW] FAQ below states VA's down payment rule (conservative practice treats "no down payment" as a Reg Z trigger term). Written as VA's rule, VA linked, no CTA in this block. -->
 
 ### Does a 100% disabled veteran need a down payment for a VA loan?
 
-VA does not require a down payment from an eligible veteran, disabled or not, who has full entitlement and buys at or below the appraised value, according to VA's [entitlement and loan limits page](https://www.va.gov/housing-assistance/home-loans/loan-limits/). A lender may set its own rules, and a low appraisal or partial entitlement can mean bringing cash to closing.
+VA does not require a down payment from an eligible veteran, disabled or not, with full entitlement who buys at or below the appraised value, according to VA's [entitlement and loan limits page](https://www.va.gov/housing-assistance/home-loans/loan-limits/). Lenders may set their own rules, and a low appraisal can mean bringing cash to closing.
 
 ## Sources
 
@@ -258,6 +252,7 @@ Every outside source this guide links to, in the order it appears.
 - [Form 5107, State Tax Commission Affidavit for Disabled Veterans Exemption (Rev. 03-26)](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/PSD/STC/5107.pdf) — Michigan Department of Treasury
 - [VA Pamphlet 26-7, chapter 4](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting) — U.S. Department of Veterans Affairs
 - [2025 MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) — Michigan Department of Treasury
+- [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) — State of Michigan
 - [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) — Michigan Veterans Affairs Agency
 
 ---
@@ -322,6 +317,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
         "https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/PSD/STC/5107.pdf",
         "https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting",
         "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf",
+        "https://www.michigan.gov/mvaa",
         "https://www.michigan.gov/mvaa/county-filter-search-locations"
       ],
       "speakable": {
@@ -370,7 +366,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Who is exempt from paying the VA funding fee?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Veterans receiving VA compensation for a service-connected disability are exempt, as are veterans entitled to it who receive retirement or active-duty pay instead. VA also exempts surviving spouses receiving Dependency and Indemnity Compensation, service members with a proposed or memorandum rating before closing, and active-duty Purple Heart recipients."
+            "text": "Veterans receiving VA compensation for a service-connected disability are exempt, as are veterans entitled to it who take retirement or active-duty pay instead. So are surviving spouses receiving Dependency and Indemnity Compensation, service members with a proposed or memorandum rating before closing, and active-duty Purple Heart recipients."
           }
         },
         {
@@ -378,7 +374,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Do disabled veterans pay property tax in Michigan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not if they qualify under MCL 211.7b. A Michigan veteran rated by the VA as 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply."
+            "text": "Not if they qualify under MCL 211.7b. A Michigan veteran rated 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply."
           }
         },
         {
@@ -410,7 +406,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Can you get a VA funding fee refund after a disability rating?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes. VA bases a refund on the effective date of your disability award. If that date falls before your loan closed, you may qualify even though the decision came later. If it falls after closing, you generally do not. Ask your VA Regional Loan Center."
+            "text": "Sometimes. VA bases a refund on the effective date of your disability award. If that date falls before your loan closed, you may qualify even though the decision came later. If it falls after closing, you generally do not."
           }
         },
         {
@@ -418,7 +414,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Does a 100% disabled veteran need a down payment for a VA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "VA does not require a down payment from an eligible veteran, disabled or not, who has full entitlement and buys at or below the appraised value, according to VA's entitlement and loan limits page. A lender may set its own rules, and a low appraisal or partial entitlement can mean bringing cash to closing."
+            "text": "VA does not require a down payment from an eligible veteran, disabled or not, with full entitlement who buys at or below the appraised value, according to VA's entitlement and loan limits page. Lenders may set their own rules, and a low appraisal can mean bringing cash to closing."
           }
         }
       ]

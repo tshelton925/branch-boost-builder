@@ -16,7 +16,7 @@ cluster: "C10 Home equity, cash-out and HELOC"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2185
+word_count: 2196
 target_money_page: "/product-loans/heloc/"
 internal_links:
   - "/product-loans/heloc/"
@@ -59,7 +59,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
 
 **Key takeaways**
 
-- Michigan lenders denied 30.1% of home equity line of credit (HELOC) applications and 27.3% of home equity loans in 2025, against 15.5% of purchase loans ([Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/)).
+- Michigan lenders denied 30.1% of decided home equity line of credit (HELOC) applications and 27.3% of home equity loans in 2025, against 15.5% for purchase loans ([Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/)).
 - Combined loan-to-value (CLTV), not the equity on paper, sets the size of a line.
 - Debt-to-income ratio and credit history were the reasons cited most on Michigan home equity denials. Collateral was third.
 - A land contract, unpaid property taxes or a listed home can stop a file regardless of credit.
@@ -70,7 +70,7 @@ Seven things stop most home equity applications: too little equity after the len
 
 1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** Lenders never lend all of it.
 2. **[A high debt-to-income ratio.](#what-debt-to-income-ratio-do-you-need-for-a-home-equity-loan)** The new payment counts too.
-3. **[Credit score or recent late payments.](#what-credit-score-do-you-need-for-a-heloc-or-home-equity-loan)** Recent lates can outweigh the score.
+3. **[Credit score or recent late payments.](#what-credit-score-do-you-need-for-a-heloc-or-home-equity-loan)** History can outweigh the number.
 4. **[Unstable or undocumented income.](#what-can-you-fix-before-you-apply-and-how-fast)** The lender must verify it.
 5. **[The property type or condition.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** Some homes are excluded.
 6. **[Title or lien problems.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** Other claims on the title come first.
@@ -109,7 +109,7 @@ Enough to stay under the lender's combined loan-to-value cap. Combined loan-to-v
 
 > **CLTV = (all mortgage balances + the new line) ÷ appraised value**
 
-The CFPB's [home equity line of credit booklet](https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure.pdf) illustrates this with a 75% cap, and the lender also weighs your ability to repay. Many lenders cap combined borrowing around 80% to 90% [VERIFY: typical HELOC and home equity CLTV caps; no GSE or regulator source found. If none, cut the range and say "many lenders set their own caps"].
+The CFPB's [home equity line of credit booklet](https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure.pdf) illustrates this with a 75% cap and notes that the lender also weighs your ability to repay. Many lenders cap combined borrowing around 80% to 90% [VERIFY: typical HELOC and home equity CLTV caps; no GSE or regulator source found. If none, cut the range and say "many lenders set their own caps"].
 
 **Hypothetical example, not an offer. Actual rates, costs and payments vary.** [COMPLIANCE REVIEW]
 
@@ -130,7 +130,7 @@ The figures cover only the value and the first mortgage, before closing costs an
 
 ### Can you borrow 100% of your home equity?
 
-Rarely: the cap always leaves the lender a cushion. Texas, where Align is also licensed, caps homestead debt at 80% in the [Texas Constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm).
+Rarely: the cap always leaves the lender a cushion. Texas, where Align is also licensed, caps homestead debt at 80% in the [Texas Constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm). This guide covers Michigan.
 
 ### What if the appraisal comes in low?
 
@@ -158,7 +158,7 @@ Lenders usually decline or restrict homes listed for sale, some investment prope
 - **Unpaid property taxes.** Taxes unpaid on March 1 after the levy year turn delinquent ([MCL 211.78a](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78a)). A year later the home forfeits to the county treasurer ([MCL 211.78g](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g)). If a foreclosure judgment goes unpaid by the next March 31, the government takes title and mortgage liens are wiped out ([MCL 211.78k](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78k)). So lenders want delinquent taxes paid first.
 - **Assistance liens.** The Michigan State Housing Development Authority's [MI 10K DPA loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) is a second mortgage, repaid when the first mortgage is paid off, the home is sold or refinanced, or it stops being owner-occupied. Some lenders refuse to sit behind it [VERIFY: MSHDA and city DPA policy on new subordinate liens].
 - **Contractor liens and listed homes.** An unpaid contractor's construction lien usually has to be released first. Fannie Mae requires a listed home to come off the market before a [cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) funds; many equity lenders decline listed homes outright.
-- **Trusts, estates and property type.** Lenders differ on trusts, and a home in probate usually passes to the heirs first [VERIFY: lender trust and estate eligibility]. Some exclude manufactured homes titled as personal property, or investment homes.
+- **Trusts, estates and property type.** Lenders differ on trusts, and a home in probate usually passes to the heirs first [VERIFY: lender trust and estate eligibility]. Some exclude manufactured homes titled as personal property, and some lend only on a primary residence.
 
 ## Does a recent bankruptcy or foreclosure disqualify you?
 

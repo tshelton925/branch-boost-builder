@@ -16,7 +16,7 @@ cluster: "C21 Specialty financing (lease-to-own, land contracts)"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 0
+word_count: 2299
 word_count_method: "Article copy from the opening answer through Sources; excludes front matter, the draft header, breadcrumb and byline lines, editor comments, [VERIFY]/[NEEDS] tags and the JSON-LD block"
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
@@ -66,7 +66,7 @@ Rent-to-own makes you a tenant with an option to buy. A Michigan land contract m
 
 - **Title:** the owner keeps the deed under rent-to-own. A land contract gives you equitable title until payoff. A mortgage gives you the deed at closing.
 - **Default:** eviction can start 7 days after a written rent demand. A land contract buyer gets 90 days or 6 months after a forfeiture judgment; a mortgage borrower, usually 6 months or 1 year after the sale.
-- **Property tax:** a land contract uncaps taxable value the year after signing. Rent-to-own usually waits for the deed.
+- **Property tax:** taxable value uncaps the year after a land contract is signed or a home is sold. Rent-to-own usually waits for the deed.
 - **The way out:** Fannie Mae limits rent credit to the gap between your rent and the appraiser's market rent.
 
 </div>
@@ -75,7 +75,7 @@ Rent-to-own makes you a tenant with an option to buy. A Michigan land contract m
 
 With rent-to-own, the owner keeps title, you pay a landlord, and a missed payment can mean eviction and losing your option money. With a land contract, the seller keeps legal title, you pay the seller, and default can end in forfeiture. With a mortgage, you hold title, pay a lender, and risk foreclosure.
 
-These are Michigan's usual rules. Your contract can change some of them.
+Your contract can change some of these Michigan rules.
 
 | | Rent-to-own (lease-option) | Land contract | Mortgage |
 |---|---|---|---|
@@ -105,9 +105,9 @@ These are Michigan's usual rules. Your contract can change some of them.
 
 ## How does rent-to-own work in Michigan?
 
-Rent-to-own is a lease with a right to buy at a set price by a set date. You usually pay an option fee, and part of the rent may be credited toward the price. Not buying usually means losing the fee. A lease-purchase version can obligate you to buy.
+Rent-to-own is a lease with a right to buy at a set price by a set date. You usually pay an option fee, and part of the rent may be credited toward the price. Not buying can mean losing the fee. A lease-purchase version can obligate you to buy.
 
-A lease-option lets you walk away. A lease-purchase commits you, and the [FTC warns](https://consumer.ftc.gov/consumer-alerts/2016/11/what-you-need-know-about-rent-own-home-deals) that breaking it can bring legal action. `[VERIFY: FTC wording]` See [lease to own vs. rent to own](/learn/lease-to-own-vs-rent-to-own-whats/) for typical terms. Until you exercise the option, [Michigan's Treasury](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/ownership-requirement) treats the deal as a rental agreement, `[VERIFY: Treasury PRE FAQ]` so the [Truth in Renting Act](https://legislature.mi.gov/Laws/MCL?objectName=mcl-554-633) applies: the lease cannot waive the landlord's habitability duties or your right to notice and procedure in court.
+A lease-option lets you walk away. A lease-purchase commits you, and the [FTC warns](https://consumer.ftc.gov/consumer-alerts/2016/11/what-you-need-know-about-rent-own-home-deals) that breaking it can bring legal action. `[VERIFY: FTC wording]` See [lease to own vs. rent to own](/learn/lease-to-own-vs-rent-to-own-whats/) for typical terms. Until you exercise the option, [Michigan Treasury](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/ownership-requirement) treats the deal as a rental agreement, `[VERIFY: Treasury PRE FAQ]` so the [Truth in Renting Act](https://legislature.mi.gov/Laws/MCL?objectName=mcl-554-633) applies: the lease cannot waive the landlord's habitability duties or your right to notice and procedure in court.
 
 ## How does a land contract work in Michigan?
 
@@ -123,7 +123,7 @@ A rent-to-own tenant can be evicted and lose the option fee and credits. A land 
 
 **Land contract.** Forfeiture works only if the contract provides for it ([MCL 600.5726](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5726)). After a written notice, you have 15 days to pay or cure ([MCL 600.5728](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5728)). After a judgment, the order to leave waits 90 days if you have paid under half the price, or 6 months if half or more. Pay and cure in that window and the contract continues; otherwise your right to redeem ends and your payments are usually lost. The seller can instead foreclose in circuit court ([MCL 600.3101](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3101)).
 
-**Mortgage.** A mortgage with a power of sale can be foreclosed by advertisement, outside court ([MCL 600.3201](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3201)). For a home of up to 4 units, redemption lasts 6 months if more than two-thirds of the loan was owed, 1 year in most other cases, and 30 days if abandoned ([MCL 600.3240](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240)).
+**Mortgage.** A mortgage with a power of sale can be foreclosed by advertisement, outside court ([MCL 600.3201](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3201)). For a home of up to 4 units, redemption lasts 6 months if more than two-thirds of the original loan was still owed, 1 year in most other cases, and 30 days if abandoned ([MCL 600.3240](https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240)).
 
 ## How do property taxes work under each option in Michigan?
 
@@ -137,13 +137,13 @@ In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([A
 
 Rent credits count only under the lender's rules: Fannie Mae limits a credit to the difference between the rent you paid and the appraiser's market rent. Land contract payments build equity you can use when you refinance, and lenders ask for the contract and proof of every payment.
 
-[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also wants a written lease with an original term of at least 12 months stating the rent and credit, and an appraisal showing market rent. `[VERIFY: B3-4.3-12, SEL-2024-05]` For a land contract signed more than 12 months before the application, Fannie Mae treats the payoff as a limited cash-out refinance valued on a new appraisal ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). `[VERIFY: B2-1.3-05]` A seller's "your rent goes toward the house" binds no lender.
+[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also wants a written lease with an original term of at least 12 months stating the rent and credit, and an appraisal showing market rent. `[VERIFY: B3-4.3-12, SEL-2024-05]` For a land contract signed more than 12 months before the application, Fannie Mae treats the payoff as a limited cash-out refinance valued on a new appraisal ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). `[VERIFY: B2-1.3-05]` A seller's promise that "your rent goes toward the house" binds no lender.
 
 ## How do you move from rent-to-own or a land contract to a mortgage?
 
 Start a lender review well before the option deadline or balloon date. Lenders look at your credit, income, payment history and an appraisal. A land contract payoff may be financed as a purchase or a refinance, depending on the program and when the contract was signed.
 
-1. **Find the deadline:** the option expiration or balloon date in the signed contract.
+1. **Find the deadline:** the option or balloon date in the contract.
 2. **Check your readiness early,** leaving time to work on credit, income documents or savings. If credit is the obstacle, see [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/).
 3. **Keep the paper trail:** the contract, proof of every payment, and the seller's written rent-credit or payoff statement. <!-- EDITOR: once /learn/how-to-get-pre-approved-for-a-mortgage/ is live, link "how to get preapproved for a mortgage" here. -->
 4. **Apply, then order the appraisal and title work** in time to close before the deadline.
@@ -171,7 +171,7 @@ The [CFPB has warned](https://www.consumerfinance.gov/about-us/newsroom/consumer
 
 It depends on the price, the terms and how long you stay. Compare the full cost of each path, including option fees, the land contract's interest, taxes, insurance and repairs, against a mortgage you could qualify for, using your own numbers.
 
-Three costs hide behind a monthly figure: an option fee you may not get back, a price set years ahead, and refinancing by the balloon date. The calculator linked under the table covers renting; [renting vs. buying, the financial comparison](/learn/renting-vs-buying-financial-comparison/) explains what to count.
+Three costs hide behind a monthly figure: an option fee you may not get back, a price set years ahead, and refinancing by the balloon date. The calculator above covers renting; [renting vs. buying, the financial comparison](/learn/renting-vs-buying-financial-comparison/) explains what to count.
 
 A readiness review shows whether a mortgage is closer than the seller's offer suggests. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
 
@@ -238,5 +238,161 @@ Every outside source this guide links to, in the order it appears.
 - [Contract for deed consumer advisory](https://www.consumerfinance.gov/about-us/newsroom/consumer-advisory-help-is-available-for-people-facing-housing-problems-because-of-a-contract-for-deed/) — Consumer Financial Protection Bureau
 
 ```json-ld
-{}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/rent-to-own-vs-land-contract-michigan/#article",
+      "headline": "Rent-to-own, land contract or mortgage: three ways to buy a Michigan home",
+      "description": "Compare rent-to-own, a Michigan land contract and a mortgage: who holds title, what happens if you miss a payment, the tax reset, and how each leads to a loan.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ],
+        "worksFor": {
+          "@id": "https://alignlending.com/#organization"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://alignlending.com/#organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/rent-to-own-vs-land-contract-michigan/",
+      "about": [
+        "Rent-to-own homes",
+        "Land contracts in Michigan",
+        "Mortgages"
+      ],
+      "citation": [
+        "https://consumer.ftc.gov/consumer-alerts/2016/11/what-you-need-know-about-rent-own-home-deals",
+        "https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/ownership-requirement",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-554-633",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-7dd",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5714",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5744",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5726",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-5728",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3101",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3201",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240",
+        "https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a",
+        "https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits",
+        "https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements",
+        "https://www.consumerfinance.gov/about-us/newsroom/consumer-advisory-help-is-available-for-people-facing-housing-problems-because-of-a-contract-for-deed/"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Specialty financing",
+          "item": "https://alignlending.com/learn/specialty-financing/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Rent-to-own vs. land contract vs. mortgage",
+          "item": "https://alignlending.com/learn/rent-to-own-vs-land-contract-michigan/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alignlending.com/learn/rent-to-own-vs-land-contract-michigan/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a land contract better than rent-to-own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on what you need. A land contract makes you the buyer: you hold equitable title and build equity, but carry taxes, repairs and a balloon date. A lease-option lets you walk away, usually losing the option fee. Have an attorney compare the actual contracts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who pays property taxes on a land contract in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually the buyer, because the contract says so. Taxable value uncaps for the year after the contract is signed, not when the deed is recorded at payoff. The buyer files a Property Transfer Affidavit within 45 days and can claim the Principal Residence Exemption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you claim the homestead exemption on a land contract in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Michigan tax law counts a person purchasing property under a land contract as an owner for the Principal Residence Exemption, often called the homestead exemption. Use a written contract signed by the seller, and file the affidavit by June 1 or November 1."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do rent-to-own payments count toward a down payment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only part of them, and only under the lender's rules. Fannie Mae counts no more than the difference between the rent you paid and the appraiser's market rent, under a written lease-option with an original term of at least 12 months. Ask a lender to review it first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens at the end of a land contract if you cannot get a mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The balloon payment is still due. You can ask the seller for a written extension, sell and pay off the contract, or keep working toward a loan. If you miss it, forfeiture gives you 15 days after the notice, then 90 days or 6 months after a judgment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is rent-to-own a good idea with bad credit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can buy time, but it costs money if the plan fails: the option fee and rent credits can be lost if no mortgage comes through by the deadline. Before you sign, find out how far your credit really is from a mortgage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you need a lawyer for a land contract in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, have one review it before you sign. A Michigan real estate attorney can check the title, the forfeiture and balloon terms and the seller's mortgage, and record the contract. Align is a mortgage broker and does not give legal advice."
+          }
+        }
+      ]
+    }
+  ]
+}
 ```
