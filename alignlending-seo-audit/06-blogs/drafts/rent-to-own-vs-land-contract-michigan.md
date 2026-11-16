@@ -75,7 +75,7 @@ Rent-to-own makes you a tenant with an option to buy. A Michigan land contract m
 
 With rent-to-own, the owner keeps title, you pay a landlord, and a missed payment can mean eviction and losing your option money. With a land contract, the seller keeps legal title, you pay the seller, and default can end in forfeiture. With a mortgage, you hold title, pay a lender, and risk foreclosure.
 
-Each cell shows the usual Michigan rule. Your contract can change some of them.
+These are Michigan's usual rules. Your contract can change some of them.
 
 | | Rent-to-own (lease-option) | Land contract | Mortgage |
 |---|---|---|---|
@@ -87,7 +87,7 @@ Each cell shows the usual Michigan rule. Your contract can change some of them.
 | Taxable value uncaps | When the deed transfers, unless the lease has a bargain purchase option | Year after signing | Year after the sale |
 | Lost on default | The home after eviction; fee and credits if the contract says so | The home and, usually, payments made | The home, after foreclosure and redemption |
 | Path to a mortgage | Exercise the option, then a purchase loan | Pay off the contract, often by refinancing | Already there |
-| Recorded? | Ask an attorney about a memorandum of option | Recommended: contract or memorandum | Yes, at closing |
+| Recorded? | Optional memorandum of option; ask an attorney | Recommended: contract or memorandum | Yes, at closing |
 
 *Sources: MCL 211.27a, 211.7dd, 600.5714, 600.5744 and 600.3240; Michigan Department of Treasury.*
 
@@ -137,7 +137,7 @@ In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([A
 
 Rent credits count only under the lender's rules: Fannie Mae limits a credit to the difference between the rent you paid and the appraiser's market rent. Land contract payments build equity you can use when you refinance, and lenders ask for the contract and proof of every payment.
 
-[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also wants a written lease with an original term of at least 12 months stating the rent and credit, and an appraisal showing market rent. `[VERIFY: B3-4.3-12, SEL-2024-05]` For a land contract signed more than 12 months before the application, Fannie Mae treats the payoff as a limited cash-out refinance valued on a new appraisal ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). `[VERIFY: B2-1.3-05]` A seller's promise that "your rent goes toward the house" binds no lender.
+[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also wants a written lease with an original term of at least 12 months stating the rent and credit, and an appraisal showing market rent. `[VERIFY: B3-4.3-12, SEL-2024-05]` For a land contract signed more than 12 months before the application, Fannie Mae treats the payoff as a limited cash-out refinance valued on a new appraisal ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). `[VERIFY: B2-1.3-05]` A seller's "your rent goes toward the house" binds no lender.
 
 ## How do you move from rent-to-own or a land contract to a mortgage?
 
@@ -173,7 +173,7 @@ It depends on the price, the terms and how long you stay. Compare the full cost 
 
 Three costs hide behind a monthly figure: an option fee you may not get back, a price set years ahead, and refinancing by the balloon date. The calculator linked under the table covers renting; [renting vs. buying, the financial comparison](/learn/renting-vs-buying-financial-comparison/) explains what to count.
 
-A readiness review shows whether a mortgage is closer than the seller's offer suggests. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Bring the offer, and Samantha will explain what a lender would need from it.
+A readiness review shows whether a mortgage is closer than the seller's offer suggests. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
 
 <div class="al-cta-end">
 
