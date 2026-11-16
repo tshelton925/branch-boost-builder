@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E3.md (E3 editor, 2026-11-16)"
 publish_week: "W6 (Dec 28, 2026–Jan 3, 2027). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 1880  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
+word_count: 1915  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
 target_money_page: /purchase/homebuyer-game-plan/#readiness
 internal_links:
   - {anchor: "Take the readiness review", url: /purchase/homebuyer-game-plan/#readiness, placement: "CTA module after first H2 (first 30%)"}
@@ -82,7 +82,7 @@ Nothing material should be hidden. The application asks about your income, debts
 
 That includes your religion and any plans to have children. Keep hopes apart from facts, too: a raise not yet in writing is a possibility, not income.
 
-> **Not sure what applies to you?** Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can go over it first. Or take the eight-question readiness review.
+> **Not sure what applies to you?** Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can go over it first. Or take the 8-question readiness review.
 >
 > [Take the readiness review](/purchase/homebuyer-game-plan/#readiness) · No application required.
 >
@@ -125,7 +125,7 @@ Most omissions surface in underwriting through the credit report, tax transcript
 The statute is [18 U.S.C. §1014](https://www.govinfo.gov/link/uscode/18/1014), which covers knowingly false statements made to influence a mortgage lending business.
 <!-- LINK ONCE LIVE (W8, Jan 11–17): add "Waiting periods after a past bankruptcy or foreclosure are covered in [buying after bankruptcy or foreclosure](/learn/buying-a-house-after-bankruptcy-or-foreclosure/)." -->
 
-Samantha Shelton, Align's broker owner, puts it this way: [NEEDS SAMANTHA QUOTE: why she wants to hear about the complicated part of a file on the first call]
+Samantha puts it this way: [NEEDS SAMANTHA QUOTE: why she wants to hear about the complicated part of a file on the first call]
 
 ## What should you not do after applying for a mortgage?
 
@@ -166,9 +166,7 @@ Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #20
 
 > **Tell Samantha the complicated part first; that is what the first call is for.**
 >
-> [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end)
->
-> No credit pull to talk.
+> [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) · No credit pull to talk.
 
 ## Questions about what to tell a mortgage lender
 

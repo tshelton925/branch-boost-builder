@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E3.md (E3 editor, 2026-11-16)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
 publish_week: "W2 (Nov 30–Dec 6, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
-word_count: 2345  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
+word_count: 2373  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
 target_money_page: "/purchase/homebuyer-game-plan/"
 internal_links:
   - {url: "/learn/importance-of-mortgage-preapproval/", anchor: "why preapproval matters", status: "live"}
@@ -218,6 +218,7 @@ Not by law, but most sellers and listing agents expect one. A preapproval backed
 A prequalification is an estimate based on what you tell a lender, usually without documents. A preapproval rests on reviewed documents and a credit check. Lenders use the terms differently, so ask what each letter verified. Align's prequalified vs. preapproved guide covers the rest.
 
 <!-- FAQ links for the editor (visible text must stay identical to the JSON-LD): "budget review" → /purchase/budget-review/ ; "home affordability calculator" → /home-affordability-calculator/ ; "Michigan Mortgage Market Report" → /research/michigan-mortgage-market-report/ ; "prequalified vs. preapproved guide" → /learn/prequalified-vs-preapproved-whats-difference/ -->
+<!-- [VERIFY] FAQ 6 ("Michigan purchase agreements usually set a date by which your financing must be approved") rests on the same check as the financing-contingency table row: confirm against the current Michigan Realtors Buy and Sell Agreement or with a Michigan real estate attorney. If it cannot be confirmed, soften the FAQ and the JSON-LD together. -->
 
 Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 

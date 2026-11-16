@@ -20,7 +20,7 @@ editor_review: "06-blogs/editor-review-E3.md (E3 editor, 2026-11-16)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
 publish_week: "W5 (Dec 21–27, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
-word_count: 2100  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
+word_count: 2192  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
 target_money_page: "/purchase/budget-review/"
 internal_links:
   - {url: "/purchase/budget-review/", anchor: "How much house can you comfortably afford in Michigan?"}

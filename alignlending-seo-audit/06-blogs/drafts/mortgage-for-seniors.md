@@ -19,7 +19,7 @@ editor_review: "06-blogs/editor-review-E3.md (E3 editor, 2026-11-16)"
 publish_week: "W5 (Dec 21–27, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2050  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
+word_count: 2145  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
 target_money_page: "/purchase/buy-before-you-sell/ (secondary: /product-loans/asset-based-income-loans/)"
 internal_links:
   - {anchor: "plan a buy-before-you-sell move", url: "/purchase/buy-before-you-sell/", placement: "30-year H2, first 30% of body"}
@@ -44,6 +44,7 @@ verify_flags:
 editor_resolved_flags:
   - "Regulation B: §1002.6(b)(2)(ii) (age in a scoring system; no negative value for an applicant 62 or older), (b)(2)(iv), §1002.2(o) and §1002.6(b)(5) (no discounting pension, annuity or retirement income; probable continuance may be considered) confirmed on eCFR/GovInfo/CFPB. The 2026 Regulation B rule did not amend §1002.6(b)."
   - "Fannie Mae SEL-2026-02 (March 4, 2026) restructured Chapter B3-3; the section numbers cited are current: B3-3.4-03 (three-year continuance from the note date for annuities and retirement account distributions), B3-3.4-15 (10/07/2026: own-account Social Security needs no continuance proof; another person's account needs 3 years from the application date; 15% gross-up without more documentation), B3-3.1-01 (general income information), B3-3.4-06 (03/04/2026 employment-related assets: net documented assets divided by the amortization term; inheritance and real estate proceeds ineligible; purchase or limited cash-out only; higher loan-to-value limit when the asset owner is 62 or older). Links added."
+  - "Gross-up: Fannie Mae B3-3.4-15 allows grossing up 15% of Social Security without more documentation; HUD 4000.1 has its own nontaxable-income gross-up section and treats part of Social Security as nontaxable. The post states no percentage, only that programs set the rule."
   - "HUD HECM: minimum age 62 and HUD-approved counseling confirmed (HUD handbook, HUD partner page, CFPB). Link updated to HUD's current HECM page."
   - "Summer tax deferment: 62 or older, household income $40,000 or less, deferral to February 14 confirmed through Waterford Township and City of Southfield treasurer pages (Treasury Form 471, MCL 211.51). The filing date (September 14 or 15) is not stated in the post."
   - "Homestead property tax credit: larger share for claimants 65 or older confirmed in MI-1040CR materials; no limits are stated in the post."
