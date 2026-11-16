@@ -22,7 +22,7 @@ breadcrumb_parent: /learn/usda-and-assistance-programs/
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: 2026-11-16
-word_count: 2405
+word_count: 2296
 target_money_page: /product-loans/usda-loans/
 internal_links:
   - {anchor: "how USDA loans work", url: /learn/usda-loan-basics/}
@@ -70,7 +70,7 @@ image_brief:
 
 **Subject to Align approval.**
 
-Home › Learn › USDA and assistance programs › USDA loan requirements
+<!-- Breadcrumb (template): Home › Learn › USDA and assistance programs › USDA loan requirements -->
 
 # USDA loan requirements: credit, debt-to-income, property and occupancy rules
 
@@ -78,7 +78,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
 
 <div class="al-answer">
 
-For Michigan buyers using a USDA Guaranteed loan, the address and household income are only the first two tests. The lender also checks credit (GUS usually wants 640 for an automated approval), debt ratios of 29% for housing and 41% in total, that you will live in the home, and that the house meets USDA's property standards.
+For Michigan buyers using a USDA Guaranteed loan, the address and household income are only the first two tests. The lender also checks credit (USDA's automated system, GUS, usually wants 640), debt ratios of 29% for housing and 41% in total, that you will live in the home, and that the house meets USDA's property standards.
 
 </div>
 
@@ -86,9 +86,9 @@ For Michigan buyers using a USDA Guaranteed loan, the address and household inco
 
 <div class="al-takeaways">
 
-- **Address and income first:** the home must be in a USDA-eligible area, and every adult who will live there counts toward the county income limit.
+- **Address and income first:** the home must be in a USDA-eligible area, and every adult living there counts toward the county income limit.
 - **Credit:** no handbook minimum score, but GUS generally needs 640 for an automated approval.
-- **Debt:** 29% of gross monthly income for housing and 41% for all debts. In Michigan, the housing figure uses the new owner's tax.
+- **Debt:** 29% of gross monthly income for housing and 41% for all debts; in Michigan, housing includes the new owner's tax.
 - **Occupancy:** a primary residence only, and everyone on the loan must live there.
 - **Property:** mainly residential, sound and sanitary, with no set maximum loan amount on Guaranteed loans.
 
@@ -104,10 +104,10 @@ Each rule sits in a chapter of [HB-1-3555](https://www.rd.usda.gov/resources/dir
 
 | Requirement | USDA rule | Where it is set (HB-1-3555) | How to check |
 |---|---|---|---|
-| Address | In an area USDA designates as rural | [Chapter 12](https://www.rd.usda.gov/media/file/download/3555-chapter12.pdf); [USDA's eligibility map](https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do) | Align's eligibility check |
-| Household income | Adjusted household income at or under the county limit | [Chapter 9](https://www.rd.usda.gov/files/3555-1chapter09.pdf); [Appendix 5](https://www.rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf) | Align's eligibility check |
+| Address | In a USDA-designated rural area | [Chapter 12](https://www.rd.usda.gov/media/file/download/3555-chapter12.pdf); [USDA's eligibility map](https://eligibility.sc.egov.usda.gov/eligibility/welcomeAction.do) | The eligibility check |
+| Household income | Adjusted household income at or under the county limit | [Chapter 9](https://www.rd.usda.gov/files/3555-1chapter09.pdf); [Appendix 5](https://www.rd.usda.gov/sites/default/files/rd-grhlimitmap.pdf) | The eligibility check |
 | Credit | No handbook minimum; 640 or higher generally meets the standard in GUS | [Chapter 10](https://www.rd.usda.gov/files/3555-1chapter10.pdf) | Credit report; GUS result |
-| Debt ratios | 29% housing, 41% total; higher with GUS approval or a waiver | [Chapter 11](https://www.rd.usda.gov/files/3555-1chapter11.pdf) | Debts divided by gross monthly income |
+| Debt ratios | 29% housing, 41% total; higher with GUS approval or a waiver | [Chapter 11](https://www.rd.usda.gov/files/3555-1chapter11.pdf) | Your DTI |
 | Occupancy | Primary residence; no other adequate home nearby at closing | [Chapter 8](https://www.rd.usda.gov/files/3555-1chapter08.pdf) | The homes you own |
 | Citizenship | U.S. citizen, U.S. non-citizen national or qualified alien | Chapter 8 | Your documents |
 | Property | Mainly residential, sound, sanitary, no income-producing use | Chapter 12 | The appraisal |
@@ -126,9 +126,9 @@ Source: USDA Rural Development, HB-1-3555 and 7 CFR part 3555, as of November 20
 
 ## What credit score do you need for a USDA loan?
 
-<p class="al-answer">USDA does not set a minimum credit score in its handbook. Its Guaranteed Underwriting System (GUS) generally needs a score of 640 or higher for an automated approval. Below that, or with thin credit, a lender can underwrite the file manually with stricter documentation, and many lenders add their own minimum score.</p> [VERIFY: HB-1-3555 Ch. 10, sections 10.3 to 10.5 and Attachment 10-A, for the 640 standard and the GUS Refer below it]
+<p class="al-answer">USDA does not set a minimum credit score in its handbook. Its Guaranteed Underwriting System (GUS) generally needs 640 or higher for an automated approval. Below that, or with thin credit, a lender can underwrite the file manually with stricter documentation, and many lenders add their own minimum.</p> [VERIFY: HB-1-3555 Ch. 10, sections 10.3 to 10.5 and Attachment 10-A, for the 640 standard and the GUS Refer below it]
 
-The regulation asks for a credit history that shows the ability and willingness to repay debts ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)), and a 640 score alone does not prove it. A file with no score can still qualify on nontraditional credit, such as rent and utility records [VERIFY: HB-1-3555 Ch. 10, nontraditional credit]. Lenders add their own minimums, called overlays. Compare programs in [what credit score you need, by loan type](/learn/whats-good-credit-score-to-buy-house/).
+The regulation asks for a credit history that shows ability and willingness to repay ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)), and a 640 score alone does not prove it. A file with no score can still qualify on nontraditional credit, such as rent and utility records [VERIFY: HB-1-3555 Ch. 10, nontraditional credit]. Lenders add their own minimums, called overlays. Compare programs in [what credit score you need, by loan type](/learn/whats-good-credit-score-to-buy-house/).
 
 ### Can I get a USDA loan with a 550 credit score?
 
@@ -136,9 +136,9 @@ It is very unlikely with most lenders. The handbook names no floor, but a 550 sc
 
 ## What is the maximum debt-to-income ratio for a USDA loan?
 
-<p class="al-answer">USDA's standard ratios are 29% of gross monthly income for the housing payment, which counts principal, interest, property taxes, insurance, the USDA annual fee and any HOA dues, and 41% for that payment plus all other monthly debts. GUS can accept higher ratios when strong compensating factors support the rest of the file.</p> [VERIFY: HB-1-3555 Ch. 11, section 11.2 and the housing expense list]
+<p class="al-answer">USDA's standard ratios are 29% of gross monthly income for the housing payment, which counts principal, interest, property taxes, insurance, the USDA annual fee and any HOA dues, and 41% for that payment plus all other monthly debts. GUS can accept higher ratios on a file with strong compensating factors.</p> [VERIFY: HB-1-3555 Ch. 11, section 11.2 and the housing expense list]
 
-Both ratios use repayment income, the income of the people on the loan. Your debt-to-income ratio (DTI) is monthly debt payments divided by gross monthly income; see [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a manual file, a waiver above 29% and 41% needs documented compensating factors, led in the regulation by a credit score of 680 or higher, and Chapter 11 caps manual waivers at 32% and 44% [VERIFY: current HB-1-3555 Ch. 11 waiver maximums; GUS Accept needs no separate waiver]. For the fee figures, see [USDA's current fees](/learn/recent-changes-to-usda-loan-programs/).
+Both ratios use repayment income, the income of the people on the loan. Your debt-to-income ratio (DTI) is monthly debts divided by gross monthly income; see [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a manual file, a waiver above 29% and 41% needs documented compensating factors, led in the regulation by a credit score of 680 or higher, and Chapter 11 caps manual waivers at 32% and 44% [VERIFY: current HB-1-3555 Ch. 11 waiver maximums; GUS Accept needs no separate waiver]. For the fee figures, see [USDA's current fees](/learn/recent-changes-to-usda-loan-programs/).
 
 ### How do Michigan property taxes affect your USDA ratio?
 
@@ -155,43 +155,43 @@ The homestead rate assumes you file the Principal Residence Exemption, by June 1
 
 <p class="al-answer">USDA counts the income of every adult who will live in the home, not just the borrowers. It then subtracts allowances for each child under 18, for a household member 62 or older, and for some childcare and medical costs, and compares the result, called adjusted income, with the county limit.</p> [VERIFY: HB-1-3555 Ch. 9, annual and adjusted income, and any exclusions for adult full-time students]
 
-A working adult in the home can push the household over the limit without adding repayment income. Limits change each fiscal year, so [check your county's current income limit](/usda-eligibility-check/).
+A working adult in the home can push the household over the limit. Limits change each fiscal year, so [check your county's current income limit](/usda-eligibility-check/).
 
 ### Can my partner live with me if they are not on the loan?
 
-Yes. A partner, adult child or roommate can live in the home without being on the loan. Their income counts toward the household limit but cannot help you qualify for the payment, because the debt ratios use only the borrowers' income.
+Yes. A partner, adult child or roommate can live there without being on the loan. Their income counts toward the household limit but not toward the debt ratios, which use only the borrowers' income.
 
 ## Is there a maximum USDA loan amount?
 
-<p class="al-answer">USDA Guaranteed loans have no set maximum loan amount. Your repayment income, the 29% and 41% ratios and the appraised value decide how much you can borrow, and the loan generally cannot exceed the appraised value plus the financed guarantee fee. USDA's Direct loans, made by Rural Development itself, do have area loan limits.</p> [VERIFY: 7 CFR 3555.103 maximum loan amount; Direct area loan limits]
+<p class="al-answer">USDA Guaranteed loans have no set maximum loan amount. Your repayment income, the 29% and 41% ratios and the appraised value decide how much you can borrow, and the loan generally cannot exceed the appraised value plus the financed guarantee fee. Direct loans, made by USDA itself, have area loan limits.</p> [VERIFY: 7 CFR 3555.103 maximum loan amount; Direct area loan limits]
 
 Direct loans follow their own rules, set out on [USDA's Direct program page](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-direct-home-loans); for the comparison, see [USDA Direct vs. Guaranteed loans](/learn/usda-loan-basics/).
 
 ## Who can be on a USDA loan, and can you use a co-signer?
 
-<p class="al-answer">Everyone on a USDA Guaranteed loan must live in the home. Non-occupant co-signers and co-borrowers, such as a parent who keeps their own house, are not allowed. A co-borrower who will live there can be added if they meet the credit, income and citizenship rules, and their income and debts then count in the ratios.</p> [VERIFY: HB-1-3555 Ch. 8 and Ch. 9 on non-occupant co-borrowers; lender overlays cite section 9.8]
+<p class="al-answer">Everyone on a USDA Guaranteed loan must live in the home. Non-occupant co-signers and co-borrowers, such as a parent who keeps their own house, are not allowed. A co-borrower who will live there can be added if they meet the credit, income and citizenship rules, and their income and debts then count.</p> [VERIFY: HB-1-3555 Ch. 8 and Ch. 9 on non-occupant co-borrowers; lender overlays cite section 9.8]
 
 An occupying co-borrower can help the ratios, but their debts come too. See [co-signing a mortgage, risks and benefits](/learn/co-signing-mortgage-risks-and-benefits/).
 
 ## Can you have two USDA loans or use the program twice?
 
-<p class="al-answer">Generally one at a time. The home must be your primary residence, and when the loan closes you cannot own another home in the area that is adequate for your household. You can use USDA again after you sell, and limited exceptions exist, such as moving beyond a reasonable commute for a new job.</p> [VERIFY: HB-1-3555 Ch. 8, section 8.2, on current homeowners and the exceptions]
+<p class="al-answer">Generally one at a time. The home must be your primary residence, and when the loan closes you cannot own another home in the area that is adequate for your household. You can use USDA again after you sell, and limited exceptions exist, such as a job move beyond a reasonable commute.</p> [VERIFY: HB-1-3555 Ch. 8, section 8.2, on current homeowners and the exceptions]
 
-Chapter 8 also covers a current home that is not structurally sound or no longer fits the household [VERIFY: HB-1-3555 Ch. 8]. Replacing the loan on the home you already have is a different path: [refinancing a USDA loan](/learn/what-is-usda-streamline-refinance/).
+Chapter 8 also covers a current home that is unsound or too small for the household [VERIFY: HB-1-3555 Ch. 8]. Replacing the loan on your current home is a different path: [refinancing a USDA loan](/learn/what-is-usda-streamline-refinance/).
 
 ### Can I use a USDA loan for a rental property?
 
-No. USDA Guaranteed loans finance a primary residence only, so a rental, a second home or an investment property does not qualify.
+No. USDA Guaranteed loans finance a primary residence only, not a rental, second home or investment property.
 
 ## What property and house rules does a USDA loan have?
 
-<p class="al-answer">The home must be mainly residential, structurally sound, sanitary and free of health and safety hazards, on a site typical in size for the area, with no income-producing use. Condos must be in a project approved or accepted by HUD/FHA, VA, Fannie Mae or Freddie Mac, and wells and septic systems must meet state and local health rules.</p> [VERIFY: HB-1-3555 Ch. 12, including 12.11(A) on condominiums]
+<p class="al-answer">The home must be mainly residential, structurally sound, sanitary and free of health and safety hazards, on a site typical in size for the area, with no income-producing use. Condos need a project approved or accepted by HUD/FHA, VA, Fannie Mae or Freddie Mac, and wells and septic systems must meet local health rules.</p> [VERIFY: HB-1-3555 Ch. 12, including 12.11(A) on condominiums]
 
-Sheds and non-commercial workshops are fine; barns, silos or livestock buildings used mainly for farming or a business are not. New manufactured homes can qualify under their own rules, and existing ones generally cannot [VERIFY: HB-1-3555 Ch. 12, manufactured housing].
+Sheds and workshops are fine; barns or livestock buildings used mainly for farming or a business are not. New manufactured homes can qualify under their own rules, and existing ones generally cannot [VERIFY: HB-1-3555 Ch. 12, manufactured housing].
 
 ### What will fail a USDA inspection?
 
-USDA sends no inspector of its own on an existing home. The appraiser checks the house against the property standards, and the lender requires repairs before closing when something fails [VERIFY: HB-1-3555 Ch. 12 and the HUD minimum property standards it applies]. Common problems in rural Michigan homes: a well that fails a water test, a failing septic system, a worn-out roof, no working heat, peeling paint in a pre-1978 home and structural damage. Your county or district health department sets well and septic rules; see [buying a home with a septic system](/learn/buying-home-with-septic-system/) and [well water and home value](/learn/how-well-water-impacts-homes-value/).
+USDA sends no inspector of its own on an existing home. The appraiser checks the house against the property standards, and failed items must be repaired before closing [VERIFY: HB-1-3555 Ch. 12 and the HUD minimum property standards it applies]. Common problems in rural Michigan homes: a well that fails a water test, a failing septic system, a worn-out roof, no working heat, peeling paint in a pre-1978 home and structural damage. See [buying a home with a septic system](/learn/buying-home-with-septic-system/) and [well water and home value](/learn/how-well-water-impacts-homes-value/).
 
 ### Can you buy land or a hobby farm with a USDA loan?
 
@@ -199,16 +199,16 @@ Not land by itself. The loan covers a home and its lot, sized typically for the 
 
 ## What disqualifies you from a USDA loan?
 
-<p class="al-answer">Most often, the address or the household income. After those, the common reasons are credit the lender will not accept, debt ratios that GUS will not approve and no waiver supports, already owning an adequate home nearby, a co-signer who will not live there, or a property with an income-producing use or major repairs.</p>
+<p class="al-answer">Most often, the address or the household income. After those come credit the lender will not accept, debt ratios that GUS will not approve and no waiver supports, already owning an adequate home nearby, a co-signer who will not live there, or a property with an income-producing use or major repairs.</p>
 
 An unresolved delinquent federal debt can also stop a file until it is cleared [VERIFY: HB-1-3555 Ch. 8 and Ch. 10 on delinquent federal debt and the CAIVRS check].
 
 [NEEDS SAMANTHA QUOTE: the USDA requirement Michigan buyers most often miss]
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can check the address, household income and new-owner tax with you and compare USDA with other options. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can check the address, income and new-owner tax with you. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
 
 <!-- al-next: end block -->
-> Bring the address and the household's income, and go through the USDA rules with Samantha.
+> Have the address and household income ready.
 >
 > [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) (button)
 >
@@ -218,11 +218,11 @@ Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #20
 
 ### What credit score do I need for a USDA home loan?
 
-USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add a higher minimum of their own.
+USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders also add a higher minimum score of their own.
 
 ### What is the maximum DTI for a USDA loan?
 
-The standard limits are 29% of gross monthly income for the housing payment and 41% for all monthly debts. GUS can approve higher ratios on a strong file, and a manually underwritten file can go higher only with documented compensating factors, such as a credit score of 680 or higher.
+The standard limits are 29% of gross monthly income for the housing payment and 41% for all monthly debts. GUS can approve higher ratios on a strong file, and a manual file can go higher only with documented compensating factors.
 
 ### Can you have a co-signer on a USDA loan?
 
@@ -238,7 +238,7 @@ Not a set dollar limit on Guaranteed loans. How much you can borrow depends on y
 
 ### Why would a USDA loan get denied?
 
-The most common reasons are an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another adequate home nearby, a co-signer who will not live in the home, or a property that fails USDA's standards.
+Usually an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another adequate home nearby, a co-signer who will not live there, or a property that fails USDA's standards.
 
 ### Can I put a down payment on a USDA loan?
 
@@ -369,7 +369,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "What credit score do I need for a USDA home loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add a higher minimum of their own."
+            "text": "USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders also add a higher minimum score of their own."
           }
         },
         {
@@ -377,7 +377,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "What is the maximum DTI for a USDA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The standard limits are 29% of gross monthly income for the housing payment and 41% for all monthly debts. GUS can approve higher ratios on a strong file, and a manually underwritten file can go higher only with documented compensating factors, such as a credit score of 680 or higher."
+            "text": "The standard limits are 29% of gross monthly income for the housing payment and 41% for all monthly debts. GUS can approve higher ratios on a strong file, and a manual file can go higher only with documented compensating factors."
           }
         },
         {
@@ -409,7 +409,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Why would a USDA loan get denied?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most common reasons are an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another adequate home nearby, a co-signer who will not live in the home, or a property that fails USDA's standards."
+            "text": "Usually an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another adequate home nearby, a co-signer who will not live there, or a property that fails USDA's standards."
           }
         },
         {

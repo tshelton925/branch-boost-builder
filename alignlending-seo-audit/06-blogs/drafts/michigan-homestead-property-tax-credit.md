@@ -17,10 +17,27 @@ cluster: "C12 Michigan property tax, uncapping, homestead and transfer tax"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 0
+word_count: 3195
 target_money_page: /michigan-property-tax-calculator/
-internal_links: []
-verify_flags: []
+internal_links:
+  - "/michigan-property-tax-calculator/"
+  - "/michigan-property-tax-calculator/#mi-tax"
+  - "/learn/homestead-exemption-benefits-and-filing-guide/"
+  - "/learn/mortgage-escrow-accounts/"
+  - "/learn/impact-of-new-tax-laws-on-homeownership/"
+  - "/research/michigan-property-tax-uncapping-study/"
+  - "/learn/michigan-taxable-value/"
+  - "/learn/property-tax-assessments-how-they-work/"
+  - "/editorial-policy/"
+verify_flags:
+  - "VERIFY: replace every tax year 2025 figure with Treasury's tax year 2026 figures before publishing; Treasury's tax year 2026 credit page returned \"not found\" when checked on November 16, 2026."
+  - "VERIFY: tax year 2026 figures."
+  - "LINK ONCE LIVE: /learn/buying-a-home-on-ssi-or-disability-income/"
+  - "LINK ONCE LIVE: /learn/va-benefits-disabled-veterans-michigan/"
+  - "VERIFY: tax year 2026 claim due date in Treasury's 2026 instructions."
+  - "VERIFY: summer tax deferment income limit and filing deadline under MCL 211.51; legislature.mi.gov was not reachable on November 16, 2026."
+  - "LINK ONCE LIVE: /learn/mortgage-for-seniors/"
+  - "NEEDS SAMANTHA QUOTE: what she tells buyers about their first full Michigan tax bill"
 image_brief:
   description: "Lead graphic, two-column comparison card. Left: 'Exemption (PRE): lowers the bill' with a tax-bill icon and a down arrow. Right: 'Credit (MI-1040CR): refunds part of it' with a state-return icon and a return arrow. Icons only, no figures, no people. File pre-vs-property-tax-credit.webp, 80 KB or less, width and height set; Open Graph version 1200 x 630, title-only."
   alt: "Comparison card of Michigan's Principal Residence Exemption, which lowers the tax bill, and the homestead property tax credit, which refunds part of it"
@@ -236,10 +253,173 @@ Every outside source this guide links to, in the order it appears.
 
 [How we choose and check sources](/editorial-policy/)
 
-SOURCES_PLACEHOLDER
+- [Homestead Property Tax Credit](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit) — Michigan Department of Treasury
+- [2025 Homestead Property Tax Credit Information](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/tax-year-credit-information/2025) — Michigan Department of Treasury
+- [2025 MI-1040CR instructions](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-Instr.pdf) — Michigan Department of Treasury
+- [Total household resources](https://www.michigan.gov/taxes/iit/tax-guidance/total-household-resources) — Michigan Department of Treasury
+- [Homestead Property Tax Credit: Homeowners](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners) — Michigan Department of Treasury
+- [Homestead Property Tax Credit forms (MI-1040CR and MI-1040CR-2)](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/forms) — Michigan Department of Treasury
+- [Disabled Veterans Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption) — Michigan Department of Treasury
+- [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal) — Michigan Department of Treasury
+- [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) — Michigan Department of Treasury
+- [Homestead Property Tax Credit: How to File](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/how-to-file) — Michigan Department of Treasury
+- [2025 MI-1040 Individual Income Tax Instruction Book](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf) — Michigan Department of Treasury
+- [Homestead Property Tax Credit: Renters](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) — Michigan Department of Treasury
+- [Homeowner property tax exemption programs](https://www.michigan.gov/taxes/property/exemptions/homeowner) — Michigan Department of Treasury
+- [Homeowner property tax exemption programs](https://www.michigan.gov/taxes/property/exemptions/homeowner/poverty-exemption) — Michigan Department of Treasury
 
 Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 
 ```json-ld
-JSONLD_PLACEHOLDER
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/michigan-homestead-property-tax-credit/#article",
+      "headline": "Michigan homestead property tax credit: who qualifies, how much and how to file",
+      "description": "The Michigan homestead property tax credit (MI-1040CR) returns part of your property tax or rent. See the income and value limits, how it works and how to file.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://alignlending.com/#organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/michigan-homestead-property-tax-credit/",
+      "about": {
+        "@type": "GovernmentOrganization",
+        "name": "Michigan Department of Treasury",
+        "url": "https://www.michigan.gov/treasury"
+      },
+      "citation": [
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/tax-year-credit-information/2025",
+        "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-Instr.pdf",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/total-household-resources",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/forms",
+        "https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption",
+        "https://www.michigan.gov/taxes/property/principal",
+        "https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/how-to-file",
+        "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters",
+        "https://www.michigan.gov/taxes/property/exemptions/homeowner",
+        "https://www.michigan.gov/taxes/property/exemptions/homeowner/poverty-exemption"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Taxes and money",
+          "item": "https://alignlending.com/learn/taxes-and-money/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Michigan homestead property tax credit",
+          "item": "https://alignlending.com/learn/michigan-homestead-property-tax-credit/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who qualifies for the homestead property tax credit in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Michigan residents of at least six months who own or rent their Michigan homestead can qualify if total household resources are within Treasury's limit, $71,500 for tax year 2025. Owners also need a taxable value of $165,400 or less. A trust or company cannot claim it, and a vacation home or rental property does not count."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the income limit for the Michigan property tax credit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For tax year 2025, total household resources must be $71,500 or less. The credit starts shrinking above $62,500, by 10% for each $1,000 or part of $1,000, and reaches zero above $71,500. Total household resources include taxable and nontaxable income, such as Social Security. Treasury adjusts the limits each year."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the Michigan homestead property tax credit calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treasury subtracts 3.2% of your total household resources from your property tax, or from 23% of rent, then allows 60% of the rest for most claimants, up to 100% for lower-income claimants age 65 or older, and 100% for people with disabilities. For tax year 2025 the credit cannot exceed $1,900, and the phase-out applies above $62,500."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do property taxes go down when you turn 65 in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Turning 65 does not by itself lower a Michigan property tax bill. What changes is the help you can claim: a larger homestead property tax credit for lower-income claimants, a possible delay in paying taxes through your local or county treasurer, and, for owners who cannot pay because of poverty, a yearly poverty exemption application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim the credit if I do not file a Michigan income tax return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Treasury's instructions say that if you are not required to file an MI-1040, you can file the MI-1040CR by itself once you know your total household resources and the property taxes levied for the year. The credit is refundable, so it is paid to you even if you owe no Michigan income tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I claim the homestead property tax credit for past years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, within limits. Treasury allows a claim up to four years from the date the original return was due. For tax year 2025, the last day to claim the credit is April 15, 2030. Use the MI-1040CR and the limits for the year you are claiming, not the current year's."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the homestead property tax credit the same as the homestead exemption?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The homestead exemption, officially the Principal Residence Exemption, lowers your bill by exempting your home from up to 18 mills of school operating tax, and you file Form 2368 with your assessor. The credit is claimed on your state income tax return and refunds part of the tax. Owners can have both."
+          }
+        }
+      ]
+    }
+  ]
+}
 ```
