@@ -22,7 +22,7 @@ breadcrumb_parent: /learn/usda-and-assistance-programs/
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: 2026-11-16
-word_count: 2566
+word_count: 2405
 target_money_page: /product-loans/usda-loans/
 internal_links:
   - {anchor: "how USDA loans work", url: /learn/usda-loan-basics/}
@@ -46,10 +46,8 @@ verify_flags:
   - "VERIFY: every row against the current revision of each chapter; rd.usda.gov could not be opened from this session, so chapter URLs and rules come from search results quoting the official files"
   - "VERIFY: HB-1-3555 Ch. 10, sections 10.3 to 10.5 and Attachment 10-A, for the 640 standard and the GUS Refer below it"
   - "VERIFY: HB-1-3555 Ch. 10, nontraditional credit"
-  - "VERIFY: HB-1-3555 Ch. 10, unacceptable credit indicators"
   - "VERIFY: HB-1-3555 Ch. 11, section 11.2 and the housing expense list"
-  - "VERIFY: current HB-1-3555 Ch. 11 waiver maximums"
-  - "VERIFY: HB-1-3555 Ch. 11"
+  - "VERIFY: current HB-1-3555 Ch. 11 waiver maximums; GUS Accept needs no separate waiver"
   - "VERIFY: HB-1-3555 Ch. 9, annual and adjusted income, and any exclusions for adult full-time students"
   - "VERIFY: 7 CFR 3555.103 maximum loan amount; Direct area loan limits"
   - "VERIFY: HB-1-3555 Ch. 8 and Ch. 9 on non-occupant co-borrowers; lender overlays cite section 9.8"
@@ -92,7 +90,7 @@ For Michigan buyers using a USDA Guaranteed loan, the address and household inco
 - **Credit:** no handbook minimum score, but GUS generally needs 640 for an automated approval.
 - **Debt:** 29% of gross monthly income for housing and 41% for all debts. In Michigan, the housing figure uses the new owner's tax.
 - **Occupancy:** a primary residence only, and everyone on the loan must live there.
-- **Property and amount:** mainly residential, sound and sanitary, with no set maximum loan amount on Guaranteed loans.
+- **Property:** mainly residential, sound and sanitary, with no set maximum loan amount on Guaranteed loans.
 
 </div>
 
@@ -100,9 +98,9 @@ For the program itself, see [how USDA loans work](/learn/usda-loan-basics/).
 
 ## What are the requirements for a USDA loan?
 
-<p class="al-answer">A USDA Guaranteed loan has six tests: an eligible address, household income at or under the county limit, acceptable credit, debt ratios of 29% and 41%, the home as your primary residence with no other adequate home nearby, and a property that meets USDA's standards. You can check the address and income yourself before you talk to a lender.</p>
+<p class="al-answer">A USDA Guaranteed loan has six tests: an eligible address, household income at or under the county limit, acceptable credit, debt ratios of 29% and 41%, the home as your primary residence with no other adequate home nearby, and a property that meets USDA's standards. You can check the first two yourself.</p>
 
-Each rule sits in a chapter of [HB-1-3555](https://www.rd.usda.gov/resources/directives/handbooks), the handbook lenders follow for USDA's Section 502 Guaranteed loan. For how the program fits a purchase here, see [USDA Rural Development loans in Michigan](/product-loans/usda-loans/).
+Each rule sits in a chapter of [HB-1-3555](https://www.rd.usda.gov/resources/directives/handbooks), the handbook lenders follow for USDA's Section 502 Guaranteed loan. See also [USDA Rural Development loans in Michigan](/product-loans/usda-loans/).
 
 | Requirement | USDA rule | Where it is set (HB-1-3555) | How to check |
 |---|---|---|---|
@@ -117,7 +115,7 @@ Each rule sits in a chapter of [HB-1-3555](https://www.rd.usda.gov/resources/dir
 
 Source: USDA Rural Development, HB-1-3555 and 7 CFR part 3555, as of November 2026. [VERIFY: every row against the current revision of each chapter; rd.usda.gov could not be opened from this session, so chapter URLs and rules come from search results quoting the official files]
 
-Run the first two tests yourself: [Check an address for USDA](/usda-eligibility-check/), then enter the household's income on the same page.
+[Check an address for USDA](/usda-eligibility-check/), then enter the household's income on the same page.
 
 <!-- al-module: after the first answer section -->
 > **Next step** · Is the address eligible? USDA's map decides first.
@@ -130,17 +128,17 @@ Run the first two tests yourself: [Check an address for USDA](/usda-eligibility-
 
 <p class="al-answer">USDA does not set a minimum credit score in its handbook. Its Guaranteed Underwriting System (GUS) generally needs a score of 640 or higher for an automated approval. Below that, or with thin credit, a lender can underwrite the file manually with stricter documentation, and many lenders add their own minimum score.</p> [VERIFY: HB-1-3555 Ch. 10, sections 10.3 to 10.5 and Attachment 10-A, for the 640 standard and the GUS Refer below it]
 
-The regulation asks for an acceptable credit history, one that shows the ability and willingness to repay debts ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)). A 640 score generally meets that standard when nothing else on the report raises a concern, but the score alone does not prove acceptable credit. A file with no score can still qualify on nontraditional credit, such as rent and utility records [VERIFY: HB-1-3555 Ch. 10, nontraditional credit], while a delinquent federal debt can stop a file at any score [VERIFY: HB-1-3555 Ch. 10, unacceptable credit indicators]. Lenders add their own minimums, called overlays. Compare programs in [what credit score you need, by loan type](/learn/whats-good-credit-score-to-buy-house/).
+The regulation asks for a credit history that shows the ability and willingness to repay debts ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)), and a 640 score alone does not prove it. A file with no score can still qualify on nontraditional credit, such as rent and utility records [VERIFY: HB-1-3555 Ch. 10, nontraditional credit]. Lenders add their own minimums, called overlays. Compare programs in [what credit score you need, by loan type](/learn/whats-good-credit-score-to-buy-house/).
 
 ### Can I get a USDA loan with a 550 credit score?
 
-It is very unlikely with most lenders. The handbook does not name a floor, but a 550 score means manual underwriting, where the lender must document why the credit is acceptable, and lender minimums usually sit well above 550. The practical step is to fix what is holding the score down before you apply.
+It is very unlikely with most lenders. The handbook names no floor, but a 550 score means manual underwriting, and lender minimums usually sit well above 550. The practical step is to fix what is holding the score down before you apply.
 
 ## What is the maximum debt-to-income ratio for a USDA loan?
 
 <p class="al-answer">USDA's standard ratios are 29% of gross monthly income for the housing payment, which counts principal, interest, property taxes, insurance, the USDA annual fee and any HOA dues, and 41% for that payment plus all other monthly debts. GUS can accept higher ratios when strong compensating factors support the rest of the file.</p> [VERIFY: HB-1-3555 Ch. 11, section 11.2 and the housing expense list]
 
-Both ratios use repayment income, the income of the people on the loan. Your debt-to-income ratio (DTI) is your monthly debt payments divided by your gross monthly income; see [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a manual file, a lender can ask USDA for a waiver above 29% and 41% with documented compensating factors, which the regulation leads with a credit score of 680 or higher. USDA's Chapter 11 revision caps manual waivers at 32% and 44% [VERIFY: current HB-1-3555 Ch. 11 waiver maximums], while a GUS Accept covers higher ratios without a separate waiver [VERIFY: HB-1-3555 Ch. 11]. USDA republishes its fees each fiscal year; see [USDA's current fees](/learn/recent-changes-to-usda-loan-programs/).
+Both ratios use repayment income, the income of the people on the loan. Your debt-to-income ratio (DTI) is monthly debt payments divided by gross monthly income; see [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a manual file, a waiver above 29% and 41% needs documented compensating factors, led in the regulation by a credit score of 680 or higher, and Chapter 11 caps manual waivers at 32% and 44% [VERIFY: current HB-1-3555 Ch. 11 waiver maximums; GUS Accept needs no separate waiver]. For the fee figures, see [USDA's current fees](/learn/recent-changes-to-usda-loan-programs/).
 
 ### How do Michigan property taxes affect your USDA ratio?
 
@@ -149,15 +147,15 @@ In Michigan, the tax inside that 29% should be the new owner's. The year after a
 <!-- [COMPLIANCE REVIEW]: worked example with income, tax and ratio figures (F12). No apply CTA in this section. -->
 *Hypothetical example, not an offer. Actual rates, costs and payments vary.*
 
-Borrowers earning $78,000 a year have $6,500 a month, so the 29% housing limit is about $1,885. On a $240,000 home whose assessor's market value is near the price, taxable value resets to about $120,000. At 36.0 mills, the statewide median homestead rate (2025 rates, per Align's study), the tax is about $4,320 a year, or $360 a month. That uses about 19% of the $1,885 before principal, interest, insurance or the annual fee. This is arithmetic on income and tax, not a loan payment.
+Borrowers earning $78,000 a year have $6,500 a month, so the 29% housing limit is about $1,885. On a $240,000 home whose assessor's market value is near the price, taxable value resets to about $120,000. At 36.0 mills, the statewide median homestead rate (2025 rates, per Align's study), the tax is about $4,320 a year, or $360 a month: about 19% of the $1,885 before principal, interest, insurance or the annual fee. This is arithmetic on income and tax, not a loan payment.
 
-The homestead rate assumes you file the Principal Residence Exemption, by June 1 or November 1. To [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/), enter the address.
+The homestead rate assumes you file the Principal Residence Exemption, by June 1 or November 1. Enter the address to [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/).
 
 ## How is household income counted for a USDA loan?
 
 <p class="al-answer">USDA counts the income of every adult who will live in the home, not just the borrowers. It then subtracts allowances for each child under 18, for a household member 62 or older, and for some childcare and medical costs, and compares the result, called adjusted income, with the county limit.</p> [VERIFY: HB-1-3555 Ch. 9, annual and adjusted income, and any exclusions for adult full-time students]
 
-This eligibility test is separate from the debt ratios, so a working adult in the home can push the household over the limit without adding repayment income. Limits change each fiscal year, so [check your county's current income limit](/usda-eligibility-check/).
+A working adult in the home can push the household over the limit without adding repayment income. Limits change each fiscal year, so [check your county's current income limit](/usda-eligibility-check/).
 
 ### Can my partner live with me if they are not on the loan?
 
@@ -167,7 +165,7 @@ Yes. A partner, adult child or roommate can live in the home without being on th
 
 <p class="al-answer">USDA Guaranteed loans have no set maximum loan amount. Your repayment income, the 29% and 41% ratios and the appraised value decide how much you can borrow, and the loan generally cannot exceed the appraised value plus the financed guarantee fee. USDA's Direct loans, made by Rural Development itself, do have area loan limits.</p> [VERIFY: 7 CFR 3555.103 maximum loan amount; Direct area loan limits]
 
-Most buyers who search for a USDA loan limit meet the household income limit first. Direct loans follow their own rules, set out on [USDA's Direct program page](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-direct-home-loans); for the comparison, see [USDA Direct vs. Guaranteed loans](/learn/usda-loan-basics/).
+Direct loans follow their own rules, set out on [USDA's Direct program page](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-direct-home-loans); for the comparison, see [USDA Direct vs. Guaranteed loans](/learn/usda-loan-basics/).
 
 ## Who can be on a USDA loan, and can you use a co-signer?
 
@@ -189,28 +187,28 @@ No. USDA Guaranteed loans finance a primary residence only, so a rental, a secon
 
 <p class="al-answer">The home must be mainly residential, structurally sound, sanitary and free of health and safety hazards, on a site typical in size for the area, with no income-producing use. Condos must be in a project approved or accepted by HUD/FHA, VA, Fannie Mae or Freddie Mac, and wells and septic systems must meet state and local health rules.</p> [VERIFY: HB-1-3555 Ch. 12, including 12.11(A) on condominiums]
 
-Sheds and non-commercial workshops are fine. Barns, silos, commercial greenhouses or livestock buildings used mainly for farming or a business make a property ineligible. New manufactured homes can qualify under their own rules, and existing ones generally cannot [VERIFY: HB-1-3555 Ch. 12, manufactured housing].
+Sheds and non-commercial workshops are fine; barns, silos or livestock buildings used mainly for farming or a business are not. New manufactured homes can qualify under their own rules, and existing ones generally cannot [VERIFY: HB-1-3555 Ch. 12, manufactured housing].
 
 ### What will fail a USDA inspection?
 
-USDA does not send its own inspector on an existing home. The appraiser checks the house against the property standards, and the lender requires repairs before closing when something fails [VERIFY: HB-1-3555 Ch. 12 and the HUD minimum property standards it applies]. Common problems in rural Michigan homes: a well that fails a water test or runs short, a failing septic system, a worn-out roof, no working heat, peeling paint in a home built before 1978, and structural damage. Your county or district health department sets the well and septic rules; see [buying a home with a septic system](/learn/buying-home-with-septic-system/) and [well water and home value](/learn/how-well-water-impacts-homes-value/).
+USDA sends no inspector of its own on an existing home. The appraiser checks the house against the property standards, and the lender requires repairs before closing when something fails [VERIFY: HB-1-3555 Ch. 12 and the HUD minimum property standards it applies]. Common problems in rural Michigan homes: a well that fails a water test, a failing septic system, a worn-out roof, no working heat, peeling paint in a pre-1978 home and structural damage. Your county or district health department sets well and septic rules; see [buying a home with a septic system](/learn/buying-home-with-septic-system/) and [well water and home value](/learn/how-well-water-impacts-homes-value/).
 
 ### Can you buy land or a hobby farm with a USDA loan?
 
-Not land by itself. The loan covers a home and its lot, and the site must be typical in size for the area. A house on acreage can qualify, but vacant land and property used mainly for farming or a business cannot [VERIFY: HB-1-3555 Ch. 12, site and income-producing rules]. See [buying a home in a rural area](/learn/tips-for-buying-home-in-rural-area/).
+Not land by itself. The loan covers a home and its lot, sized typically for the area. A house on acreage can qualify, but vacant land and property used mainly for farming or a business cannot [VERIFY: HB-1-3555 Ch. 12, site and income-producing rules]. See [buying a home in a rural area](/learn/tips-for-buying-home-in-rural-area/).
 
 ## What disqualifies you from a USDA loan?
 
 <p class="al-answer">Most often, the address or the household income. After those, the common reasons are credit the lender will not accept, debt ratios that GUS will not approve and no waiver supports, already owning an adequate home nearby, a co-signer who will not live there, or a property with an income-producing use or major repairs.</p>
 
-An unresolved delinquent federal debt can also stop a file until it is cleared [VERIFY: HB-1-3555 Ch. 8 and Ch. 10 on delinquent federal debt and the CAIVRS check]. Most of these can be checked before you make an offer.
+An unresolved delinquent federal debt can also stop a file until it is cleared [VERIFY: HB-1-3555 Ch. 8 and Ch. 10 on delinquent federal debt and the CAIVRS check].
 
 [NEEDS SAMANTHA QUOTE: the USDA requirement Michigan buyers most often miss]
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can go through the address, the household income and the new-owner tax with you, then compare USDA with other options before you decide. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can check the address, household income and new-owner tax with you and compare USDA with other options. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
 
 <!-- al-next: end block -->
-> Bring the address and the household's income, and Samantha will go through the USDA rules that apply to you.
+> Bring the address and the household's income, and go through the USDA rules with Samantha.
 >
 > [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) (button)
 >
@@ -220,7 +218,7 @@ Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #20
 
 ### What credit score do I need for a USDA home loan?
 
-USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add their own minimum, so the score a lender accepts can be higher.
+USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add a higher minimum of their own.
 
 ### What is the maximum DTI for a USDA loan?
 
@@ -232,7 +230,7 @@ Not one who lives elsewhere. USDA Guaranteed loans do not allow non-occupant co-
 
 ### Can you have two USDA loans?
 
-Usually not at the same time. A USDA loan must be for your primary residence, and you generally cannot own another adequate home in the area when the new loan closes. Limited exceptions exist, such as relocating beyond a reasonable commute, and you can use the program again after selling.
+Usually not at the same time. A USDA loan must be for your primary residence, and you generally cannot own another adequate home in the area when the new loan closes. Limited exceptions exist, and you can use the program again after selling.
 
 ### Is there a limit on how much you can borrow with a USDA loan?
 
@@ -244,7 +242,7 @@ The most common reasons are an ineligible address or household income over the c
 
 ### Can I put a down payment on a USDA loan?
 
-Yes. [USDA's Guaranteed program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program) does not require a down payment, but it allows one. A down payment lowers the amount you borrow. Closing costs and prepaid items, such as the escrow for taxes and insurance, are due either way.
+Yes. [USDA's Guaranteed program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program) does not require a down payment, but it allows one. A down payment lowers the amount you borrow. Closing costs and prepaid items, such as the first deposit into escrow for taxes and insurance, are due either way.
 <!-- [COMPLIANCE REVIEW]: down payment answer stated as USDA's rule, with USDA linked; keep away from CTAs. -->
 
 Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA.
@@ -371,7 +369,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "What credit score do I need for a USDA home loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add their own minimum, so the score a lender accepts can be higher."
+            "text": "USDA itself sets no minimum score. Its Guaranteed Underwriting System generally needs 640 or higher for an automated approval, and files below that are usually underwritten manually with more documentation. Many lenders add a higher minimum of their own."
           }
         },
         {
@@ -395,7 +393,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you have two USDA loans?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usually not at the same time. A USDA loan must be for your primary residence, and you generally cannot own another adequate home in the area when the new loan closes. Limited exceptions exist, such as relocating beyond a reasonable commute, and you can use the program again after selling."
+            "text": "Usually not at the same time. A USDA loan must be for your primary residence, and you generally cannot own another adequate home in the area when the new loan closes. Limited exceptions exist, and you can use the program again after selling."
           }
         },
         {
@@ -419,7 +417,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can I put a down payment on a USDA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. USDA's Guaranteed program does not require a down payment, but it allows one. A down payment lowers the amount you borrow. Closing costs and prepaid items, such as the escrow for taxes and insurance, are due either way."
+            "text": "Yes. USDA's Guaranteed program does not require a down payment, but it allows one. A down payment lowers the amount you borrow. Closing costs and prepaid items, such as the first deposit into escrow for taxes and insurance, are due either way."
           }
         }
       ]

@@ -16,7 +16,7 @@ breadcrumb_parent: "/learn/first-time-home-buyers/"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 0
+word_count: 2382  # body excluding Sources, front matter, schema and placeholders; 2584 including Sources
 target_money_page: "/purchase/down-payment-assistance/"
 internal_links:
   - {anchor: "Michigan down payment assistance options", url: "/purchase/down-payment-assistance/"}
@@ -34,7 +34,25 @@ links_when_live:
   - {anchor: "VA benefits for disabled veterans in Michigan", url: "/learn/va-benefits-disabled-veterans-michigan/"}
   - {anchor: "Michigan homestead property tax credit", url: "/learn/michigan-homestead-property-tax-credit/"}
   - {anchor: "mortgage for seniors", url: "/learn/mortgage-for-seniors/"}
-verify_flags: []
+verify_flags:
+  - "VERIFY: Fannie Mae B3-3.4-15 and B3-3.4-09 continuance wording; HUD 4000.1 Social Security and disability income sections; VA Lenders Handbook M26-7 chapter 4"
+  - "VERIFY: CFPB Bulletin 2014-03 text on review dates"
+  - "VERIFY: Fannie Mae section and continuance rule for SSI"
+  - "VERIFY"
+  - "VERIFY: HUD 4000.1 gross-up text and URL"
+  - "VERIFY: SSA 2026 resource limits; SSA counts resources as of the first moment of each month"
+  - "VERIFY: SSA ABLE spotlight and POMS SI 01130.740 on housing distributions used for a purchase"
+  - "VERIFY: SSA"
+  - "VERIFY at publish: MSHDA pages for reopening and current limits"
+  - "VERIFY: local Michigan city and county DPA programs named in the refreshed first-time buyer guide"
+  - "VERIFY: VA eligibility wording"
+  - "VERIFY: 12 CFR 1002.2(z) and comment 2(z)-3 (Social Security and SSI as public assistance); 1002.6(b)(5)"
+  - "VERIFY: HUD settlement releases"
+  - "VERIFY: MI-1040CR instructions for how the disabled category changes the credit; MCL 211.7u; MCL 211.7b"
+  - "NEEDS SAMANTHA QUOTE: what she wants buyers with disability income to know before they rule themselves out"
+  - "VERIFY: SSA home exclusion; in-kind support and maintenance rules when someone else pays housing costs; treatment of savings spent at closing"
+  - "VERIFY: Fannie Mae B3-3.1-01, B3-3.4-15; HUD 4000.1 gross-up"
+  - "VERIFY at publish: MSHDA Key to Own page, program status and contact" []
 image_brief:
   description: "Hero: an illustrated single-story home with a no-step entry and a wide front door, no people. File buying-home-disability-income-hero.webp, 1600 x 900, 150 KB or less, not lazy-loaded. Open Graph 1200 x 630, same graphic, text-free. No figures in the image."
   alt: "Illustration of a single-story home with a step-free entry, for a guide to buying a home on disability income"
@@ -229,3 +247,165 @@ Every outside source this guide links to, in the order it appears.
 - [MCL 211.7b](https://www.legislature.mi.gov/documents/mcl/pdf/mcl-211-7b.pdf) — Michigan Legislature
 
 <!-- Draft source log (Regulation N recordkeeping): michigan.gov pages for MSHDA MI Home Loan, MI 10K DPA, First-Generation DPA (closed, funds exhausted, no waitlist), Key to Own, MiABLE FAQ, HPTC 2025 and STC Bulletin 17 of 2025 were read directly on 2026-11-16. ssa.gov, consumerfinance.gov, selling-guide.fanniemae.com, hud.gov, va.gov and legislature.mi.gov could not be reached from the drafting session; those facts come from search results quoting the official pages and keep [VERIFY] flags until an editor opens each page. -->
+
+```json-ld
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/buying-a-home-on-ssi-or-disability-income/#article",
+      "headline": "Buying a home on SSI or disability income in Michigan",
+      "description": "How lenders count SSDI, SSI and VA disability income, how the SSI asset limit and MiABLE accounts work, and which Michigan programs can help you buy a home.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ],
+        "worksFor": {
+          "@id": "https://alignlending.com/#organization"
+        }
+      },
+      "publisher": {
+        "@id": "https://alignlending.com/#organization",
+        "@type": "Organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/buying-a-home-on-ssi-or-disability-income/",
+      "image": "https://alignlending.com/wp-content/uploads/buying-home-disability-income-hero.webp",
+      "citation": [
+        "https://www.ssa.gov/ssi/text-resources-ussi.htm",
+        "https://files.consumerfinance.gov/f/201411_cfpb_bulletin_disability-income.pdf",
+        "https://selling-guide.fanniemae.com/sel/b3-3.4-15/social-security-income",
+        "https://selling-guide.fanniemae.com/sel/b3-3.4-09/long-term-disability-income",
+        "https://selling-guide.fanniemae.com/sel/b3-3.4-18/va-benefits-income",
+        "https://selling-guide.fanniemae.com/sel/b3-3.1-01/general-income-information",
+        "https://www.hud.gov/program_offices/administration/hudclips/handbooks/hsgh/4000.1",
+        "https://www.ssa.gov/OP_Home/cfr20/416/416-1212.htm",
+        "https://www.ssa.gov/ssi/spotlights/spot-able.html",
+        "https://www.michigan.gov/miable/frequently-asked-questions/for-account-holders-and-caregivers/general",
+        "https://www.michigan.gov/mshda/homeownership/mi-home-loan",
+        "https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan",
+        "https://www.michigan.gov/mshda/pathway-to-housing/firstgendpa",
+        "https://www.michigan.gov/mshda/rental/housing-choice-voucher/key-to-own-homeownership-program",
+        "https://www.va.gov/housing-assistance/disability-housing-grants/",
+        "https://www.consumerfinance.gov/rules-policy/regulations/1002/6/",
+        "https://www.hud.gov/topics/fair_lending",
+        "https://www.consumerfinance.gov/complaint/",
+        "https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/tax-year-credit-information/2025",
+        "https://www.michigan.gov/treasury/-/media/Project/Websites/treasury/STC/Bulletins/2025/Bulletin-17-of-2025---Poverty-Exemption.pdf",
+        "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-211-7b.pdf"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "First-time home buyers",
+          "item": "https://alignlending.com/learn/first-time-home-buyers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Buying a home on SSI or disability income",
+          "item": "https://alignlending.com/learn/buying-a-home-on-ssi-or-disability-income/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alignlending.com/learn/buying-a-home-on-ssi-or-disability-income/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you buy a house on SSI disability?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. SSI counts as income for conventional, FHA, VA and USDA loans when an SSA letter documents it. The limits are the loan's debt-to-income and credit rules, and the cash you need for closing. Because SSI has a resource limit, plan how you will hold the money for closing before you start saving."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do lenders count SSDI as income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Lenders count SSDI from your SSA award or benefit letter. Fannie Mae does not require a lender to prove that SSDI on your own work record will continue unless there is reason to believe it will stop. The non-taxable part can be grossed up under program rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a down payment grant for people with disabilities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single federal down payment grant for people with disabilities. Help in Michigan comes from MSHDA's MI 10K DPA, which is a loan, some city and county programs, MSHDA's Key to Own voucher program, VA adapted-housing grants for eligible veterans and local Habitat for Humanity affiliates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will buying a house affect my SSI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Owning the home you live in does not count against SSI's resource limit. Cash can: money above the limit at the start of a month counts, and if someone else pays your housing costs, SSA may reduce your payment. Report the purchase to SSA and ask how your situation will be treated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can disability income be grossed up for a mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when it is not taxed. Fannie Mae lets lenders add 25% to verified non-taxable income, and asks for extra documentation to gross up more than 15% of Social Security income. FHA allows 15%, or more when tax returns support it. Your lender applies the rule for your loan type."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a Housing Choice Voucher to buy a home in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possibly, through MSHDA's Key to Own program. You need an active MSHDA voucher in good standing and no home owned in the last 3 years. MSHDA lists homebuyer classes, being debt-free, credit scores over 640 and $1,500 saved for 2 months, with an exception to its earned-income rule for people with disabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What credit score do I need with disability income?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The same score as any other borrower. Disability income does not change a program's credit rules. MSHDA's MI Home Loan lists a 640 minimum, and conventional, FHA, VA and USDA loans each have their own standards. See what credit score you need for each loan type."
+          }
+        }
+      ]
+    }
+  ]
+}
+```
