@@ -16,7 +16,7 @@ cluster: "C08 Credit, DTI and qualifying (breadcrumb parent /learn/credit-and-qu
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 2479
+word_count: 2480
 target_money_page: "/purchase/homebuyer-game-plan/"
 internal_links:
   - {url: "/learn/importance-of-mortgage-preapproval/", anchor: "why preapproval matters", status: "live"}
@@ -86,7 +86,7 @@ Still deciding whether you need a letter at all? Start with [why preapproval mat
 You get preapproved in 6 steps: check your credit and budget, gather your documents, choose a lender or broker, apply and authorize the credit check, answer the underwriter's questions, and receive the letter. A real preapproval rests on documents someone has reviewed. A letter based only on what you typed into a form is a prequalification.
 
 1. **Check your credit and set your budget.** Look for errors on your credit reports first; [the CFPB explains how to get free copies and dispute mistakes](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/). Pick a monthly payment you are comfortable with, taxes and insurance included.
-2. **Gather your documents.** Pay stubs, W-2s or tax returns, bank statements, photo ID and a list of debts. The table below covers self-employment, retirement income and gifts.
+2. **Gather your documents.** Collect pay stubs, W-2s or tax returns, bank statements, photo ID and a list of debts. The table below covers self-employment, retirement income and gifts.
 3. **Choose a lender or broker.** A bank or credit union offers its own programs; an independent mortgage broker compares several wholesale lenders. Ask each what its letter verifies.
 4. **Apply and authorize the credit check.** Once a lender has your name, income, Social Security number, a property address, an estimated value and the loan amount, federal rules require a [Loan Estimate within 3 business days](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-C/section-1026.19). [VERIFY: 12 CFR 1026.19(e); CFPB ask-cfpb en-1987]
 5. **Answer underwriting questions.** Expect requests about large deposits, employment gaps or recent credit inquiries. Answer with documents where you can.
@@ -320,7 +320,7 @@ Every outside source this guide links to, in the order it appears.
           "@type": "HowToStep",
           "position": 2,
           "name": "Gather your documents",
-          "text": "Pay stubs, W-2s or tax returns, bank statements, photo ID and a list of debts. The table below covers self-employment, retirement income and gifts."
+          "text": "Collect pay stubs, W-2s or tax returns, bank statements, photo ID and a list of debts. The table below covers self-employment, retirement income and gifts."
         },
         {
           "@type": "HowToStep",

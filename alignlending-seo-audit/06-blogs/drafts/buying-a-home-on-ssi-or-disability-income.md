@@ -16,7 +16,7 @@ breadcrumb_parent: "/learn/first-time-home-buyers/"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2046  # body excluding Sources, front matter, schema and placeholders; 2204 including Sources
+word_count: 2023  # body excluding Sources, front matter, schema and placeholders; 2181 including Sources
 target_money_page: "/purchase/down-payment-assistance/"
 internal_links:
   - {anchor: "Michigan down payment assistance options", url: "/purchase/down-payment-assistance/"}
@@ -36,12 +36,15 @@ links_when_live:
 verify_flags:
   - "VERIFY: Fannie Mae B3-3.4-15 and B3-3.4-09 continuance wording; HUD 4000.1 Social Security and disability income sections; VA Lenders Handbook M26-7 chapter 4; USDA HB-1-3555 chapter 9"
   - "VERIFY: Fannie Mae rule for SSI"
-  - "VERIFY"
+  - "VERIFY: B3-3.4-15, another person's record"
+  - "VERIFY: taxability of private disability benefits"
+  - "VERIFY: Fannie Mae B3-3.1-01 continuance"
+  - "VERIFY: gross-up for workers' compensation"
   - "VERIFY: HUD 4000.1 gross-up text and current URL"
   - "VERIFY: CFPB Bulletin 2014-03 wording"
   - "VERIFY: SSA 2026 resource limits; resources are counted as of the first moment of each month"
   - "VERIFY: SSA ABLE spotlight and POMS SI 01130.740 on housing distributions used for a purchase"
-  - "VERIFY: SSA"
+  - "VERIFY: SSA, no SSDI resource limit; concurrent SSDI and SSI"
   - "VERIFY at publish: MSHDA pages for reopening and current limits"
   - "VERIFY: VA eligibility wording"
   - "VERIFY: 12 CFR 1002.2(z) and comment 2(z)-3 (Social Security and SSI as public assistance); 1002.6(b)(5)"
@@ -50,6 +53,7 @@ verify_flags:
   - "VERIFY: SSA home exclusion; in-kind support and maintenance when someone else pays housing costs; treatment of savings spent at closing"
   - "VERIFY: Fannie Mae B3-3.1-01, B3-3.4-15; HUD 4000.1 gross-up"
   - "VERIFY at publish: MSHDA Key to Own page, program status and contact"
+  - "VERIFY"
 image_brief:
   description: "Hero: an illustrated single-story home with a no-step entry and a wide front door, no people. File buying-home-disability-income-hero.webp, 1600 x 900, 150 KB or less, not lazy-loaded. Open Graph 1200 x 630, same graphic, text-free. No figures in the image."
   alt: "Illustration of a single-story home with a step-free entry, for a guide to buying a home on disability income"
@@ -74,7 +78,7 @@ Yes. If you receive Social Security disability benefits, Supplemental Security I
 
 Yes. Social Security Disability Insurance (SSDI), SSI and other disability benefits can qualify as income for conventional, FHA, VA and USDA loans when you document them with an award letter and they are expected to continue. The loan still has to fit the same debt-to-income and credit rules as any other loan.
 
-SSDI is paid on your own work record. SSI is a needs-based payment with a resource limit ([Social Security Administration](https://www.ssa.gov/ssi/text-resources-ussi.htm)). Underwriters treat both as steady monthly income. The difference shows up in how you save for the purchase.
+SSDI is paid on your own work record. SSI is a needs-based payment with a resource limit ([Social Security Administration](https://www.ssa.gov/ssi/text-resources-ussi.htm)). Lenders treat both as steady income. The difference is in how you save.
 
 <!-- CTA MODULE: al-module, placement "module", data-cta-mod="learn_first_time" -->
 > **Next step**
@@ -92,10 +96,10 @@ Lenders use the monthly benefit on your award letter or benefit statement. Progr
 |---|---|---|---|
 | SSDI, own work record | SSA award letter, proof of receipt | Not verified unless there is reason to doubt it | Non-taxable part |
 | SSI | SSA award letter, proof of receipt | [VERIFY: Fannie Mae rule for SSI] | Yes, not taxed |
-| Social Security paid for a dependent | SSA letter, proof of receipt | At least 3 years [VERIFY] | If not taxed |
+| Social Security paid for a dependent | SSA letter, proof of receipt | At least 3 years [VERIFY: B3-3.4-15, another person's record] | If not taxed |
 | VA disability compensation | VA benefit letter | Not required | Yes, not taxed |
-| Private long-term disability | Policy or benefit statement | Not verified unless there is reason to doubt it | Non-taxable part [VERIFY] |
-| Workers' compensation | Payer's benefit statement | Lender judgment [VERIFY] | If not taxed [VERIFY] |
+| Private long-term disability | Policy or benefit statement | Not verified unless there is reason to doubt it | Non-taxable part [VERIFY: taxability of private disability benefits] |
+| Workers' compensation | Payer's benefit statement | Lender judgment [VERIFY: Fannie Mae B3-3.1-01 continuance] | If not taxed [VERIFY: gross-up for workers' compensation] |
 
 Source: Fannie Mae Selling Guide sections [B3-3.4-15](https://selling-guide.fanniemae.com/sel/b3-3.4-15/social-security-income), [B3-3.4-09](https://selling-guide.fanniemae.com/sel/b3-3.4-09/long-term-disability-income) and [B3-3.4-18](https://selling-guide.fanniemae.com/sel/b3-3.4-18/va-benefits-income), March 2026 versions. FHA, VA and USDA rules can differ.
 
@@ -115,7 +119,7 @@ SSA excludes the home you own and live in, whatever its value ([20 CFR 416.1212]
 
 Since January 1, 2026, you can open one if your disability began before age 46 ([SSA](https://www.ssa.gov/ssi/spotlights/spot-able.html)). [MiABLE](https://www.michigan.gov/miable/frequently-asked-questions/for-account-holders-and-caregivers/general), run by the Michigan Department of Treasury, lists housing as a qualified disability expense and sets the 2026 contribution limit at $20,000. SSA counts a housing withdrawal as a resource if you keep it into the next month, so time the withdrawal for the month you close. [VERIFY: SSA ABLE spotlight and POMS SI 01130.740 on housing distributions used for a purchase]
 
-SSDI has no resource limit, but if you receive both SSDI and SSI, the SSI limit applies. [VERIFY: SSA]
+SSDI has no resource limit, but if you receive both SSDI and SSI, the SSI limit applies. [VERIFY: SSA, no SSDI resource limit; concurrent SSDI and SSI]
 
 ## What loan programs work for buyers with disability income?
 
@@ -159,7 +163,7 @@ Michigan's homestead property tax credit has a category for homeowners who are t
 
 Think about accessibility needs now and later: entry steps, door widths, a main-floor bedroom and bath, and room to turn in the kitchen and bathroom. Price the modifications before you make an offer, and ask whether renovation financing can include them in the loan.
 
-A step-free entry or a first-floor bathroom can cost less than adding a ramp and a new bath. The guide to [buying a home for aging in place](/learn/buying-home-for-aging-in-place/) lists features to check on a showing, and [renovation financing](/purchase/renovation-financing/) explains how some loans fund improvements at closing.
+The guide to [buying a home for aging in place](/learn/buying-home-for-aging-in-place/) lists features to check on a showing, and [renovation financing](/purchase/renovation-financing/) explains how some loans fund improvements at closing.
 
 [NEEDS SAMANTHA QUOTE: what she wants buyers with disability income to know before they rule themselves out]
 
