@@ -17,7 +17,7 @@ cluster: "C02 VA loans (breadcrumb parent /learn/va-loans/)"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2780
+word_count: 2763
 target_money_page: "/product-loans/va-loans/"
 internal_links:
   - {anchor: "VA loans in Michigan", url: "/product-loans/va-loans/"}
@@ -256,12 +256,12 @@ Every outside source this guide links to, in the order it appears.
 - [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) — U.S. Department of Veterans Affairs
 - [VA home loan funding fee refunds: Why timing matters](https://news.va.gov/150990/va-home-loan-funding-fee-refunds-timing-matters/) — VA News, U.S. Department of Veterans Affairs
 - [MCL 211.7b, disabled veterans exemption](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-7b) — Michigan Legislature
-- [Disabled Veterans Exemption Frequently Asked Questions (updated June 13, 2024)](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/STC/2023/Disabled-Veterans-Exemption-FAQ-w-samples---Revised-1424.pdf) — Michigan State Tax Commission
+- [Disabled Veterans Exemption FAQ (updated June 13, 2024)](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/STC/2023/Disabled-Veterans-Exemption-FAQ-w-samples---Revised-1424.pdf) — Michigan State Tax Commission
 - [Disabled Veteran Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption) — Michigan Department of Treasury
 - [Form 5107, State Tax Commission Affidavit for Disabled Veterans Exemption (Rev. 03-26)](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/PSD/STC/5107.pdf) — Michigan Department of Treasury
-- [VA Pamphlet 26-7, Chapter 4: Credit Underwriting](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting) — U.S. Department of Veterans Affairs
-- [2025 MI-1040CR-2 Homestead Property Tax Credit Claim for Veterans and Blind People](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) — Michigan Department of Treasury
-- [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) — Michigan Department of Military and Veterans Affairs
+- [VA Pamphlet 26-7, chapter 4](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting) — U.S. Department of Veterans Affairs
+- [2025 MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) — Michigan Department of Treasury
+- [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) — State of Michigan
 - [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) — Michigan Veterans Affairs Agency
 
 ---

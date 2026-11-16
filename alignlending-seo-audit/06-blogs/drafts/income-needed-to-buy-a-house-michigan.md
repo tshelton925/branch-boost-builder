@@ -53,10 +53,10 @@ For Michigan homebuyers, there is no single salary you need. In 2025 the median 
 
 **Key takeaways**
 
-- In 2025 the median buyer income on Michigan purchase loans was $91,000, against a median home value of $285,000 (2025 HMDA data).
+- 2025 Michigan purchase loans: median buyer income $91,000, median home value $285,000 (HMDA).
 - At a 28% housing ratio, each $100 of monthly housing cost needs about $4,300 of yearly gross income.
-- After a sale, Michigan's 2025 median homestead rate of 36.0 mills works out to about 1.8% of market value a year in property tax.
-- Every $100,000 of price adds about $1,800 a year of that tax. Run the loan part in the affordability calculator at your own quoted rate.
+- After a sale, Michigan's 2025 median homestead rate of 36.0 mills is about 1.8% of market value a year.
+- Each $100,000 of price adds about $1,800 a year of tax. Run the loan part at your own quoted rate.
 
 For the comfortable number rather than the qualifying one, read [How much house can you comfortably afford in Michigan?](/purchase/budget-review/)
 
@@ -64,7 +64,7 @@ For the comfortable number rather than the qualifying one, read [How much house 
 
 In 2025 the median buyer with a Michigan purchase loan reported $91,000 of income, and the median home value on those loans was $285,000, about 3.1 times income. Across the 10 counties with the most loans, median values ran from $215,000 in Ingham to $435,000 in Washtenaw (Align Lending, Michigan Mortgage Market Report, 2025 HMDA).
 
-The figures come from [Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/), built from federal HMDA records. The two medians describe the same loans, not the same buyer. HMDA values are what the lender relied on, rounded to $10,000 bands.
+The figures come from [Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/). The two medians describe the same loans, not the same buyer.
 
 **Michigan buyer incomes, home values and new-owner property tax, 10 counties with the most loans, 2025** [COMPLIANCE REVIEW]
 
@@ -82,9 +82,9 @@ The figures come from [Align's Michigan Mortgage Market Report](/research/michig
 | Ingham | $215,000 | $82,000 | 2.6x | 53.9 | about $5,790 |
 | Michigan | $285,000 | $91,000 | 3.1x | 36.0 | about $5,130 |
 
-Home values and incomes: Align Lending, Michigan Mortgage Market Report (2025 HMDA, first-lien owner-occupied purchase loans, from [FFIEC HMDA data](https://ffiec.cfpb.gov/data-browser/)). Millage: Align Lending, Michigan Property Tax Uncapping Study (2025 rates, median across each county's homes). The tax estimate assumes taxable value resets to about half the purchase price. The actual reset is to half of the assessor's market value. Hypothetical example, not an offer. Actual rates, costs and payments vary. [VERIFY: recompute from both CSV downloads on the publish date]
+Home values and incomes: Align Lending, Michigan Mortgage Market Report (2025 [HMDA data](https://ffiec.cfpb.gov/data-browser/), first-lien owner-occupied purchase loans). Millage: Align Lending, Michigan Property Tax Uncapping Study (2025 rates). Tax assumes taxable value resets to half the price. The actual reset is to half of the assessor's market value. Hypothetical example, not an offer. Actual rates, costs and payments vary. [VERIFY: recompute from both CSV downloads on the publish date]
 
-The table reports loan and tax data and does not rank counties. For all owners, not just recent buyers, the Census Bureau's American Community Survey puts the [median value of owner-occupied Michigan homes](https://data.census.gov/table/ACSDT5Y2024.B25077?g=040XX00US26) at $231,600 and [median household income](https://data.census.gov/table/ACSDT5Y2024.B19013?g=040XX00US26) at $72,875 (2020 to 2024).
+The table reports loan and tax data and does not rank counties. Counting all owners, the Census Bureau's American Community Survey puts the [median value of owner-occupied Michigan homes](https://data.census.gov/table/ACSDT5Y2024.B25077?g=040XX00US26) at $231,600 and [median household income](https://data.census.gov/table/ACSDT5Y2024.B19013?g=040XX00US26) at $72,875 (2020 to 2024).
 
 > **CTA module (al-module):** [Review my budget](/purchase/budget-review/) · [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module)
 > No credit pull to talk.
@@ -93,13 +93,13 @@ The table reports loan and tax data and does not rank counties. For all owners, 
 
 Lenders divide your monthly debts, including the new housing payment, by your gross monthly income. That is your debt-to-income ratio (DTI). The old 28/36 rule of thumb is a starting point, and automated underwriting often allows more. In 2025, 30% of Michigan purchase loans were made with a DTI above 43% (Align's HMDA report).
 
-The housing ratio counts the new housing cost alone: principal, interest, property tax, insurance, any mortgage insurance and dues. The total ratio adds car, student, card and other monthly debts. The CFPB's [debt-to-income explainer](https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/) notes that limits differ by loan product and lender. Agency limits often run above 28/36.
+The housing ratio counts principal, interest, property tax, insurance, any mortgage insurance and dues. The total ratio adds car, student, card and other debts. As the CFPB's [debt-to-income explainer](https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/) notes, limits differ by loan and lender.
 
-- **Fannie Mae.** The [Selling Guide, B3-6-02](https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios), caps total DTI at 36% on manually underwritten loans, or 45% with qualifying credit and reserves. The cap is 50% when Desktop Underwriter approves the file. [VERIFY: current B3-6-02 text; host blocked from this session]
+- **Fannie Mae.** The [Selling Guide, B3-6-02](https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios), caps total DTI at 36% on manually underwritten loans, or 45% with qualifying credit and reserves, and at 50% through Desktop Underwriter. [VERIFY: current B3-6-02 text; host blocked from this session]
 - **Freddie Mac.** [Guide section 5401.2](https://guide.freddiemac.com/app/guide/section/5401.2) caps manually underwritten loans at 45%, and Loan Product Advisor weighs the ratio file by file. [VERIFY: current 5401.2 text; host blocked from this session]
-- **FHA.** [HUD Handbook 4000.1](https://www.hud.gov/hud-partners/single-family-handbook-4000-1) sets manual-underwriting benchmarks of 31% for housing and 43% in total for credit scores of 580 or higher. Compensating factors or a TOTAL Scorecard approval allow more. [VERIFY: current 4000.1 ratio matrix; host blocked from this session]
+- **FHA.** [HUD Handbook 4000.1](https://www.hud.gov/hud-partners/single-family-handbook-4000-1) sets manual-underwriting benchmarks of 31% housing and 43% total for credit scores of 580 or higher, with more room for compensating factors. [VERIFY: current 4000.1 ratio matrix; host blocked from this session]
 
-Lenders may add stricter limits of their own, called overlays. In Align's report, 40.8% of denied purchase applications had a ratio of 50% or more, against 5.8% of the loans made. For each program, see [debt-to-income limits by loan type](/learn/debt-to-income-ratio-dti/).
+Lenders may add stricter overlays. In Align's report, 40.8% of denied purchase applications were at 50% or more, against 5.8% of loans made. See [debt-to-income limits by loan type](/learn/debt-to-income-ratio-dti/).
 
 **Maximum monthly housing cost at each ratio, before other debts** [COMPLIANCE REVIEW]
 
@@ -111,17 +111,17 @@ Lenders may add stricter limits of their own, called overlays. In Align's report
 | $91,000 (2025 Michigan median buyer income) | $2,123 | $2,730 |
 | $100,000 | $2,333 | $3,000 |
 
-Ratio arithmetic on gross income, not a payment or an approval. The 36% column assumes no other debts. Hypothetical example, not an offer. Actual rates, costs and payments vary.
+Ratio arithmetic, not a payment or an approval. The 36% column assumes no other debts. Hypothetical example, not an offer. Actual rates, costs and payments vary.
 
 ## How much of your budget does Michigan property tax take?
 
 The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. At Michigan's 2025 median homestead rate of 36.0 mills, that is about 1.8% of market value a year: about $5,400 on a $300,000 home, or $450 a month.
 
-[MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) caps taxable value while one owner holds a home and lifts the cap after a transfer. In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([Align Lending's 2026 uncapping study](/research/michigan-property-tax-uncapping-study/)), so the listing's tax history understates the buyer's bill.
+The rule is [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a). In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([Align Lending's 2026 uncapping study](/research/michigan-property-tax-uncapping-study/)), so the listing's tax history understates the buyer's bill.
 
-Hypothetical example, not an offer. Actual rates, costs and payments vary. On a $300,000 home, $450 a month of tax alone uses about $19,300 of yearly gross income at a 28% housing ratio.
+Hypothetical example, not an offer. Actual rates, costs and payments vary. That $450 a month alone uses about $19,300 of yearly gross income at a 28% housing ratio.
 
-Millage depends on the city or township, the school district and the county. County medians in the table run from 25.7 to 53.9 mills. To [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/), use the address's published millage. The glossary entry on [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/) shows the full calculation.
+Millage depends on the city or township, school district and county, and the county medians above run from 25.7 to 53.9 mills. To [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/), use the address's millage. See also [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
 The 36.0-mill figure assumes you file the [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal-residence-exemption). The seller's exemption does not carry over, so file by June 1 for the summer levy or November 1 for the winter levy.
 
@@ -133,12 +133,12 @@ Hypothetical example, not an offer. Actual rates, costs and payments vary.
 
 1. Multiply gross yearly income by 28% and divide by 12: about $1,633 a month for $70,000.
 2. Subtract the address's property tax: about $450 on a $300,000 home at 36.0 mills, leaving about $1,183.
-3. Subtract a homeowners insurance quote for the address, since premiums vary by home and coverage.
+3. Subtract a homeowners insurance quote for the address.
 4. Enter the rest, your savings and your debts in the [home affordability calculator](/home-affordability-calculator/) at your quoted rate.
 
 > **Tool button:** [Estimate my property tax](/michigan-property-tax-calculator/)
 
-Debts shrink the room. Once monthly debts pass about $467, the 36% total ratio limits you before the 28% housing ratio does ($2,100 minus $1,633).
+Once other monthly debts pass about $467 ($2,100 minus $1,633), the 36% total ratio limits you first.
 
 ## What salary do you need for a $200,000, $400,000 or $500,000 home in Michigan?
 
@@ -153,25 +153,23 @@ Work from the price down. Michigan property tax scales with price: at 36.0 mills
 | $400,000 | about $7,200 | about $600 | about $25,700 |
 | $500,000 | about $9,000 | about $750 | about $32,100 |
 
-Tax at the 2025 statewide median homestead rate, with taxable value reset to half the price. No loan figures. Hypothetical example, not an offer. Actual rates, costs and payments vary.
-
-Each $100,000 of price adds about $1,800 a year of tax, which uses about $6,400 of yearly income at 28%. Your address's millage moves that figure up or down.
+Tax at the 2025 statewide median homestead rate, with taxable value reset to half the price. Your address's millage moves it. Hypothetical example, not an offer. Actual rates, costs and payments vary.
 
 ## Does a lower income mean you can't buy in Michigan?
 
 No. A lower income means a smaller housing budget, not a closed door. FHA loans, USDA loans in eligible rural areas and the MI Home Loan from the Michigan State Housing Development Authority (MSHDA) help buyers who have less cash. A lower-millage address also changes the math. The answer depends on your debts and the address.
 
-FHA loans are insured by HUD and made by FHA-approved wholesale lenders. They allow more room on credit history, in exchange for mortgage insurance that usually lasts longer. USDA loans apply only to eligible rural addresses and carry household income limits by area. [VERIFY: USDA Rural Development income eligibility; link "USDA loan requirements" to /learn/usda-loan-requirements/ once live]
+FHA loans, insured by HUD and made by FHA-approved wholesale lenders, allow more room on credit history in exchange for longer-lasting mortgage insurance. USDA loans cover eligible rural addresses, with household income limits. [VERIFY: USDA Rural Development income eligibility; link "USDA loan requirements" to /learn/usda-loan-requirements/ once live]
 
-MSHDA's MI Home Loan pairs with MI 10K down payment assistance, and both carry income and price limits. [VERIFY: current MSHDA program names and limits on michigan.gov/mshda at publish; link "MSHDA MI Home Loan" to /learn/mshda-mi-home-loan/ once live] MSHDA loans come only through its participating lenders. Samantha Shelton, Align's broker owner, explains the MSHDA programs and, if one fits, refers you to a participating lender.
+MSHDA's MI Home Loan pairs with MI 10K down payment assistance, with income and price limits. [VERIFY: current MSHDA program names and limits on michigan.gov/mshda at publish; link "MSHDA MI Home Loan" to /learn/mshda-mi-home-loan/ once live] MSHDA loans come only through its participating lenders. Samantha Shelton, Align's broker owner, explains the MSHDA programs and, if one fits, refers you to a participating lender.
 
-More options are in the guides on [buying a home with low income](/learn/buying-home-with-low-income-tips-and-programs/) and [how to save for a down payment](/learn/how-to-save-for-down-payment/).
+See also [buying a home with low income](/learn/buying-home-with-low-income-tips-and-programs/) and [how to save for a down payment](/learn/how-to-save-for-down-payment/).
 
 ## What is the difference between what you qualify for and what you can afford?
 
 Qualifying is a ratio a lender applies to your gross income. Affordability is whether the payment still works after childcare, savings, repairs and everything else your budget really holds. The second number is often lower, and it is the one to shop with. A lender sees the ratio. Only you see the rest of the month.
 
-Your budget runs on take-home pay, after taxes, retirement savings and health insurance. It also carries costs no ratio counts, such as utilities, upkeep and a repair cushion. The guide to [budgeting for your first home](/learn/budgeting-for-your-first-home/) lists them.
+Your budget runs on take-home pay and carries costs no ratio counts, such as utilities, upkeep and repairs. The guide to [budgeting for your first home](/learn/budgeting-for-your-first-home/) lists them.
 
 [NEEDS SAMANTHA QUOTE: the gap between the qualifying number and a comfortable payment]
 
@@ -184,19 +182,19 @@ Your budget runs on take-home pay, after taxes, retirement savings and health in
 
 ### How much do you need to make to afford a $300,000 house in Michigan?
 
-No single salary answers it, because the loan part depends on your rate, savings and debts. The property tax alone, about $5,400 a year at Michigan's 36.0-mill median, uses about $19,300 of yearly gross income at a 28% housing ratio. Add insurance and the loan at your quote, then divide the yearly total by 0.28.
+No single salary answers it, because the loan part depends on your rate, savings and debts. The property tax alone, about $5,400 a year at Michigan's 36.0-mill median, uses about $19,300 of yearly gross income at a 28% ratio. Add insurance and the loan at your quote.
 
 ### Can I afford to buy a house if I make $40,000 a year?
 
-Possibly. At a 28% housing ratio, $40,000 of gross income allows about $933 a month for all housing costs, or $1,200 for housing plus debts at 36%. FHA loans and MSHDA's MI Home Loan can help with cash to close. Start from the address's property tax, then test the rest at your quote.
+Possibly. At a 28% housing ratio, $40,000 of gross income allows about $933 a month for all housing costs, or $1,200 for housing plus debts at 36%. FHA loans and MSHDA's MI Home Loan can help with cash to close. Start from the address's property tax.
 
 ### What salary do you need for a $400,000 mortgage?
 
-It depends on the rate, so a salary without one is a guess. The tax follows the price, not the loan: every $100,000 of price adds about $1,800 a year at 36.0 mills, which uses about $6,400 of yearly income at 28%. Then run the loan amount at your quoted rate in an affordability calculator.
+It depends on the rate, so a salary without one is a guess. The tax follows the price, not the loan: each $100,000 of price adds about $1,800 a year at 36.0 mills, using about $6,400 of yearly income at 28%. Then run the loan at your quoted rate.
 
 ### How much house can I afford at $1,400 a month?
 
-The $1,400 has to cover property tax, insurance and the loan together. Subtract the address's tax first: at 36.0 mills, a $250,000 home carries about $375 a month. Subtract an insurance quote, and the loan gets the rest at your rate. At a 28% ratio, $1,400 a month matches about $60,000 of gross income.
+The $1,400 has to cover property tax, insurance and the loan together. Subtract the tax first: at 36.0 mills, a $250,000 home carries about $375 a month. Subtract an insurance quote, and the loan gets the rest. At a 28% ratio, $1,400 a month matches about $60,000 of gross income.
 
 ### Do lenders use gross or take-home pay?
 
@@ -204,11 +202,11 @@ Gross pay. A debt-to-income ratio divides monthly debts by gross monthly income,
 
 ### Does the seller's property tax bill tell me what I will pay in Michigan?
 
-No. The seller's bill reflects a taxable value capped during their ownership. The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. In 2026 that reset raised a typical home's taxable value about 50.5%, per Align's uncapping study.
+No. The seller's bill reflects a capped taxable value. The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. In 2026 that reset raised a typical home's taxable value about 50.5%, per Align's uncapping study.
 
 ### What is the median income of Michigan homebuyers?
 
-$91,000 in 2025, for buyers with first-lien purchase loans on owner-occupied Michigan homes, per Align's Michigan Mortgage Market Report (HMDA data). The median home value on those loans was $285,000. Among the 10 counties with the most loans, median buyer income ran from $80,000 in Genesee to $136,000 in Washtenaw.
+$91,000 in 2025, for buyers with first-lien purchase loans on owner-occupied Michigan homes, per Align's Michigan Mortgage Market Report. The median home value on those loans was $285,000. Among the 10 counties with the most loans, median buyer income ran from $80,000 in Genesee to $136,000 in Washtenaw.
 
 ## Sources
 
