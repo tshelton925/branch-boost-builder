@@ -17,7 +17,7 @@ cluster: "C02 VA loans (breadcrumb parent /learn/va-loans/)"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2763
+word_count: 2568
 target_money_page: "/product-loans/va-loans/"
 internal_links:
   - {anchor: "VA loans in Michigan", url: "/product-loans/va-loans/"}
@@ -73,9 +73,9 @@ If you are a Michigan veteran with a service-connected disability, two benefits 
 
 **Key takeaways**
 
-- VA charges no funding fee to veterans receiving, or entitled to, service-connected disability compensation, on purchases and VA refinances alike.
-- Michigan's exemption under MCL 211.7b needs one of three VA determinations: 100% permanent and total, individually unemployable, or a specially adapted housing grant.
-- File Form 5107 with your city or township assessor after January 1 and before December 31. Since 2025, there is no yearly refiling.
+- No VA funding fee for veterans receiving, or entitled to, service-connected disability compensation, on purchases and VA refinances.
+- Michigan's MCL 211.7b exemption needs one of three VA determinations: 100% permanent and total, individually unemployable, or an adapted housing grant.
+- File Form 5107 with your city or township assessor during the year you claim; since 2025, no yearly refiling.
 - Without the exemption, the post-sale reset raised a typical Michigan home's taxable value about 50.5% in 2026, per [Align's 2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/).
 
 </div>
@@ -84,19 +84,19 @@ If you are a Michigan veteran with a service-connected disability, two benefits 
 
 Veterans with a service-connected disability get the same VA loan benefits as every eligible veteran, including no monthly mortgage insurance and no VA loan limit with full entitlement. Those receiving or entitled to disability compensation also pay no VA funding fee. Veterans with certain severe service-connected disabilities may also qualify for VA adapted housing grants.
 
-VA sets these rules. A private lender makes the loan and decides whether to approve it. For how a VA purchase works here, see [VA loans in Michigan](/product-loans/va-loans/). For the benefits every borrower shares, see [VA loan benefits for every veteran](/learn/va-loan-benefits-for-veterans/).
+VA sets these rules; a private lender makes the loan and decides on approval. See [VA loans in Michigan](/product-loans/va-loans/) and [VA loan benefits for every veteran](/learn/va-loan-benefits-for-veterans/).
 
 | Benefit | Who gets it | VA source |
 |---|---|---|
-| No VA funding fee | Veterans receiving or entitled to service-connected disability compensation, and the groups in the next section | [VA funding fee and loan closing costs](https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/) |
+| No VA funding fee | Veterans receiving or entitled to disability compensation, and the groups below | [VA funding fee and loan closing costs](https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/) |
 | Funding fee refund | Veterans whose award is effective before the loan closed | Same page |
 | Exemption on refinances | The same groups, on a VA streamline (IRRRL) or cash-out refinance | Same page |
 | No monthly mortgage insurance; no VA loan limit with full entitlement | Every eligible veteran | [VA home loan entitlement and limits](https://www.va.gov/housing-assistance/home-loans/loan-limits/) |
-| Adapted housing grants (SAH and SHA), with maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
+| Adapted housing grants (SAH and SHA); maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
 
 [VERIFY: confirm each row and its page date on va.gov, which was blocked from the drafting session.]
 
-A specially adapted housing (SAH) or special housing adaptation (SHA) grant also counts as proof for Michigan's property tax exemption, covered below.
+A specially adapted housing (SAH) or special housing adaptation (SHA) grant also qualifies you for Michigan's property tax exemption.
 
 <div class="al-module">
 
@@ -113,7 +113,7 @@ No credit pull to talk.
 
 VA lists who is exempt: veterans receiving compensation for a service-connected disability, or entitled to it but receiving retirement or active-duty pay instead; surviving spouses receiving Dependency and Indemnity Compensation; service members with a proposed or memorandum rating before closing; and active-duty Purple Heart recipients. Your Certificate of Eligibility shows the exemption.
 
-The exemption covers the fee on any VA-guaranteed loan, including later [refinancing a VA loan](/learn/benefits-of-refinancing-va-loan/). It has to be on record by closing. A pre-discharge claim without a proposed or memorandum rating at closing does not count, and a claim still pending generally means the fee is charged. Not exempt, or checking the number? [Estimate my VA funding fee](/va-funding-fee-calculator/).
+The exemption covers the fee on any VA-guaranteed loan, including later [refinancing a VA loan](/learn/benefits-of-refinancing-va-loan/). It must be on record by closing; a claim still pending at closing generally means the fee is charged. Not exempt, or checking? [Estimate my VA funding fee](/va-funding-fee-calculator/).
 
 ### Can you get the funding fee refunded if your rating comes later?
 
@@ -123,33 +123,30 @@ Possibly. VA's test is the effective date of your disability award, not the date
 
 Yes. Under MCL 211.7b, the homestead of a qualifying disabled veteran is exempt from property taxes collected under Michigan's General Property Tax Act. Qualifying means a VA determination of 100% permanent and total disability, individual unemployability, or specially adapted housing assistance. An unremarried surviving spouse keeps it, even on a home bought later.
 
-[MCL 211.7b](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-7b) also requires a Michigan resident discharged under honorable conditions, and each determination must be service-connected. There is no income test and no partial exemption. Two points catch people, per the State Tax Commission's [Disabled Veterans Exemption FAQ](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/STC/2023/Disabled-Veterans-Exemption-FAQ-w-samples---Revised-1424.pdf) (updated June 13, 2024). A combined rating below 100% does not qualify unless VA also rates you individually unemployable. And Dependency and Indemnity Compensation alone does not qualify a surviving spouse, although it does waive the VA funding fee.
+[MCL 211.7b](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-7b) also requires a Michigan resident discharged under honorable conditions. There is no income test and no partial exemption. Two points catch people, per the State Tax Commission's [Disabled Veterans Exemption FAQ](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/STC/2023/Disabled-Veterans-Exemption-FAQ-w-samples---Revised-1424.pdf) (updated June 13, 2024). A combined rating below 100% does not qualify unless VA also rates you individually unemployable. And Dependency and Indemnity Compensation alone does not qualify a surviving spouse, although it does waive the VA funding fee.
 
 | Rule | What Michigan law and the State Tax Commission say |
 |---|---|
-| Who qualifies | A Michigan resident veteran, discharged under honorable conditions, rated 100% permanent and total, rated individually unemployable, or an SAH or SHA grant recipient |
-| Surviving spouse | Keeps it while unremarried, on any Michigan homestead the spouse owns |
 | Proof | A letter or certificate from the U.S. Department of Veterans Affairs; a county veterans office letter is not enough |
 | Where and when to file | Form 5107 with the city or township assessor, after January 1 and before December 31 of the year claimed |
 | Refiling | Not required for an exemption granted for taxes levied on or after January 1, 2025 |
 | Who must hold title | The veteran alone or with a spouse; the surviving spouse alone |
-| What it covers | Property taxes under the General Property Tax Act; special assessments generally still apply |
 
 Source: MCL 211.7b; State Tax Commission FAQ; Form 5107 (Rev. 03-26); Michigan Treasury's [Disabled Veteran Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/disabled-veteran-exemption) page.
 
 ### What does the exemption cover?
 
-It covers property taxes under the General Property Tax Act on the one home you own and live in. Special assessments are generally not property taxes and usually still apply. Contiguous vacant parcels are not covered, and business use of the home other than farming disqualifies it.
+Property taxes under the General Property Tax Act on the one home you own and live in. Special assessments generally still apply. Vacant parcels next door are not covered, and business use other than farming disqualifies the home.
 
 ### Does a land contract or a home held in a trust qualify?
 
-A trust qualifies only if no one besides the veteran, the spouse or the unremarried surviving spouse is a current beneficiary. The deed matters too. Legal title must sit with the veteran alone or with a spouse, so adding a parent or adult child as a co-buyer can cost the whole exemption. The FAQ does not address land contracts, where the seller usually keeps legal title until payoff. [VERIFY: land contract buyers under MCL 211.7b(4)(b); ask the State Tax Commission.] Settle how you will take title before closing.
+A trust qualifies only if no one besides the veteran, the spouse or the unremarried surviving spouse is a current beneficiary. Legal title must sit with the veteran alone or with a spouse, so adding a parent or adult child to the deed can cost the whole exemption. The FAQ does not address land contracts, where the seller usually keeps legal title until payoff. [VERIFY: land contract buyers under MCL 211.7b(4)(b); ask the State Tax Commission.] Settle how you will take title before closing.
 
 ## How do you file Michigan's disabled veterans exemption?
 
 File Form 5107, the State Tax Commission Affidavit for Disabled Veterans Exemption, with the assessor of the city or township where the home sits, along with the VA letter showing your qualifying determination. File after January 1 and before December 31 of the year you claim. Since 2025, a granted exemption stays in effect without refiling.
 
-The assessor decides. Boards of review no longer hear new claims, though the July and December boards can fix certain errors, including a delayed VA determination. A December 30 postmark counts. For a new purchase, [Form 5107](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/PSD/STC/5107.pdf) (Rev. 03-26) asks for your closing documents, because the first year is prorated from them.
+The assessor decides; boards of review no longer hear new claims. A December 30 postmark counts. For a new purchase, [Form 5107](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/PSD/STC/5107.pdf) (Rev. 03-26) asks for your closing documents, because the first year is prorated from them.
 
 1. Get your VA benefit summary letter, or your SAH or SHA grant certificate.
 2. Complete Form 5107 with the parcel number and the date you acquired the home.
@@ -167,7 +164,7 @@ The funding fee exemption lowers your loan amount or cash to close, because ther
 
 The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. Align's study puts the statewide median homestead millage at 36.0 mills (2025 rates), about 1.8% of market value a year after the reset. See [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
-**Hypothetical example, not an offer. Actual rates, costs and payments vary.** A $280,000 purchase where the assessor's market value equals the price. The figures show property tax only, at the statewide median millage. They leave out the loan, insurance, special assessments and the first-year proration.
+**Hypothetical example, not an offer. Actual rates, costs and payments vary.** A $280,000 purchase where the assessor's market value equals the price. Property tax only, at the statewide median millage; no loan, insurance, special assessments or first-year proration.
 
 | Line | Without the exemption | With the exemption granted |
 |---|---|---|
@@ -176,7 +173,7 @@ The year after a home sells, its taxable value resets to the state equalized val
 | Millage (statewide median, 2025) | 36.0 mills | Exempt |
 | Property tax for a full year | about $5,040 | $0 |
 
-Your figure depends on the local millage, so [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/) for the address. In the closing year the exemption is prorated, and prior-year taxes you paid the seller at closing are not refunded. If escrow already paid a bill, the State Tax Commission says to contact your mortgage company about the refund.
+Local millage varies, so [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/) for the address. In the closing year the exemption is prorated, and prior-year taxes you paid the seller are not refunded. If escrow already paid a bill, ask your mortgage company about the refund.
 
 ## Do disabled veterans still need to meet VA credit and income rules?
 
@@ -190,7 +187,7 @@ The rules sit in VA's Lenders Handbook, [VA Pamphlet 26-7, chapter 4](https://ww
 
 Veterans below the MCL 211.7b standard still get Michigan's Principal Residence Exemption like any owner who lives in the home, which exempts it from up to 18 mills of school operating tax. Veterans with a service-connected disability may also claim the homestead property tax credit on Form MI-1040CR-2, with a larger allowance at higher ratings.
 
-File the exemption affidavit by June 1 for the summer levy or November 1 for the winter levy; see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). For the 2025 tax year, Treasury's [MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) sets a taxable value allowance of $3,500 for ratings of 10% to 50%, $4,000 for 60% to 80% and $4,500 for 90% to 100%. No credit is allowed above $71,500 of total household resources or $165,400 of taxable value. Treasury says to complete both the MI-1040CR and MI-1040CR-2 and file the one with the larger credit.
+File its affidavit by June 1 (summer levy) or November 1 (winter levy); see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). For the 2025 tax year, Treasury's [MI-1040CR-2 booklet](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-2-Book.pdf) sets a taxable value allowance of $3,500 for ratings of 10% to 50%, $4,000 for 60% to 80% and $4,500 for 90% to 100%. No credit is allowed above $71,500 of total household resources or $165,400 of taxable value. Treasury says to complete both the MI-1040CR and MI-1040CR-2 and file the one with the larger credit.
 
 <!-- LINK WHEN LIVE: "Michigan homestead property tax credit" -> /learn/michigan-homestead-property-tax-credit/ -->
 
@@ -198,7 +195,7 @@ File the exemption affidavit by June 1 for the summer levy or November 1 for the
 
 The Michigan Veterans Affairs Agency connects veterans with accredited Veteran Service Officers, who help with VA letters and benefit claims, through 1-800-MICH-VET or its county search. Your city or township assessor handles Form 5107. For a rating decision or an appeal, work with a VA-accredited representative.
 
-The [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) (MVAA) runs its resource center at 1-800-642-4838, weekdays from 8 a.m. to 4:50 p.m. Its [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) search lets you choose any officer listed for your county. [VERIFY: whether MVAA or VA states this help is at no cost.]
+The [Michigan Veterans Affairs Agency](https://www.michigan.gov/mvaa) (MVAA) answers at 1-800-642-4838 on weekdays, and its [Find a Veteran Service Officer](https://www.michigan.gov/mvaa/county-filter-search-locations) search lists officers by county. [VERIFY: whether MVAA or VA states this help is at no cost.]
 
 [NEEDS SAMANTHA QUOTE: what veterans most often miss about the funding fee exemption or the Michigan exemption when they buy]
 
@@ -221,7 +218,7 @@ Veterans receiving VA compensation for a service-connected disability are exempt
 
 ### Do disabled veterans pay property tax in Michigan?
 
-Not if they qualify under MCL 211.7b. A Michigan veteran rated by the VA as 100% permanently and totally disabled or individually unemployable, or who received a VA specially adapted housing grant, owes no General Property Tax Act taxes on the homestead once the assessor grants the exemption. Special assessments may still apply.
+Not if they qualify under MCL 211.7b. A Michigan veteran the VA rates 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply.
 
 ### What disability rating do you need for the Michigan property tax exemption?
 
@@ -229,11 +226,11 @@ You need one of three service-connected VA determinations: permanent and total d
 
 ### Do you have to file Form 5107 every year?
 
-No, not since 2025. An exemption granted for taxes levied on or after January 1, 2025 stays in effect until you rescind it or the assessor denies it. File Form 6054 within 45 days if you sell, move out or stop qualifying. Your city or township may audit the exemption.
+No, not since 2025. An exemption granted for taxes levied on or after January 1, 2025 stays in effect until you rescind it or the assessor denies it. File Form 6054 within 45 days if you sell, move out or stop qualifying.
 
 ### Can a surviving spouse keep the Michigan disabled veterans exemption?
 
-Yes, while the spouse stays unremarried, if the veteran qualified immediately before death. It follows the spouse to any Michigan homestead the spouse owns, including a later purchase. Dependency and Indemnity Compensation alone does not qualify a spouse for the Michigan exemption, though it does waive the VA funding fee.
+Yes, while the spouse stays unremarried, if the veteran qualified immediately before death. It follows the spouse to any Michigan homestead the spouse owns, including a later purchase. Dependency and Indemnity Compensation alone does not qualify a spouse for it.
 
 ### Can you get a VA funding fee refund after a disability rating?
 
@@ -383,7 +380,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Do disabled veterans pay property tax in Michigan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not if they qualify under MCL 211.7b. A Michigan veteran rated by the VA as 100% permanently and totally disabled or individually unemployable, or who received a VA specially adapted housing grant, owes no General Property Tax Act taxes on the homestead once the assessor grants the exemption. Special assessments may still apply."
+            "text": "Not if they qualify under MCL 211.7b. A Michigan veteran the VA rates 100% permanently and totally disabled or individually unemployable, or who received a VA adapted housing grant, owes no property tax on the homestead once the assessor grants the exemption. Special assessments may still apply."
           }
         },
         {
@@ -399,7 +396,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Do you have to file Form 5107 every year?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No, not since 2025. An exemption granted for taxes levied on or after January 1, 2025 stays in effect until you rescind it or the assessor denies it. File Form 6054 within 45 days if you sell, move out or stop qualifying. Your city or township may audit the exemption."
+            "text": "No, not since 2025. An exemption granted for taxes levied on or after January 1, 2025 stays in effect until you rescind it or the assessor denies it. File Form 6054 within 45 days if you sell, move out or stop qualifying."
           }
         },
         {
@@ -407,7 +404,7 @@ Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of V
           "name": "Can a surviving spouse keep the Michigan disabled veterans exemption?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, while the spouse stays unremarried, if the veteran qualified immediately before death. It follows the spouse to any Michigan homestead the spouse owns, including a later purchase. Dependency and Indemnity Compensation alone does not qualify a spouse for the Michigan exemption, though it does waive the VA funding fee."
+            "text": "Yes, while the spouse stays unremarried, if the veteran qualified immediately before death. It follows the spouse to any Michigan homestead the spouse owns, including a later purchase. Dependency and Indemnity Compensation alone does not qualify a spouse for it."
           }
         },
         {

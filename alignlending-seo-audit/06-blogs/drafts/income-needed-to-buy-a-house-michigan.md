@@ -18,7 +18,7 @@ cluster: "C08 Credit, DTI and qualifying (breadcrumb parent /learn/preparing-to-
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 0
+word_count: 2173
 target_money_page: "/purchase/budget-review/"
 internal_links:
   - {url: "/purchase/budget-review/", anchor: "How much house can you comfortably afford in Michigan?"}
@@ -36,7 +36,23 @@ internal_links:
   - {url: "/editorial-policy/", anchor: "How we choose and check sources"}
   - {url: "/learn/mshda-mi-home-loan/", anchor: "MSHDA MI Home Loan (new, link once live)"}
   - {url: "/learn/usda-loan-requirements/", anchor: "USDA loan requirements (new, link once live)"}
-verify_flags: []
+verify_flags:
+  - "COMPLIANCE REVIEW"
+  - "VERIFY: recompute from both CSV downloads on the publish date"
+  - "VERIFY: current B3-6-02 text; host blocked from this session"
+  - "VERIFY: current 5401.2 text; host blocked from this session"
+  - "VERIFY: current 4000.1 ratio matrix; host blocked from this session"
+  - "VERIFY: arithmetic on publish"
+  - "VERIFY: USDA Rural Development income eligibility; link \"USDA loan requirements\" to /learn/usda-loan-requirements/ once live"
+  - "VERIFY: current MSHDA program names and limits on michigan.gov/mshda at publish; link \"MSHDA MI Home Loan\" to /learn/mshda-mi-home-loan/ once live"
+  - "NEEDS SAMANTHA QUOTE: the gap between the qualifying number and a comfortable payment"
+  - "External links not reachable from this session (proxy-blocked): consumerfinance.gov, fanniemae.com, freddiemac.com, hud.gov, legislature.mi.gov, michigan.gov, ffiec.cfpb.gov. Confirm each URL resolves and still says what the body states on the publish date (F17). data.census.gov returned 200."
+  - "D2 (pending owner decision): the post uses the HMDA label \"median home value on purchase loans\" (2025) and labels the ACS figure \"median value of owner-occupied homes\" (2020 to 2024). Consistency team to confirm both labels against D2."
+  - "F4 conflict to route to the calculators team: /home-affordability-calculator/ helper text still says the statewide median homestead rate is \"about 1.5% of the price\"; this post uses 36.0 mills = about 1.8% (F4)."
+  - "Cross-team: purchase team to shorten the /purchase/budget-review/ H2 on income for a $300,000 house to two sentences linking here (brief section 2)."
+  - "MI 10K program name contains a dollar figure; counsel to confirm it is not treated as a down payment trigger term [COMPLIANCE REVIEW]."
+  - "No Michigan homeowners insurance average used; the reader is told to get a quote (brief fact 8 not needed)."
+  - "Updated date and datePublished/dateModified set to the draft date (2026-11-16); change all three to the publish date (W5, Dec 21-27, 2026)."
 image_brief:
   description: "Lead graphic: one horizontal bar per county showing 2025 median home value on purchase loans divided by median buyer income (2.6x to 3.6x), ten counties plus Michigan. Build as an accessible SVG or HTML/CSS bar list so the numbers stay editable; if an image is required, WebP under 80 KB. No people, no rates, no regulated figures in the image. Hero: template image only."
   alt: "Bar chart of 2025 median home value to median buyer income ratios in ten Michigan counties, from 2.6 in Ingham to 3.6 in Ottawa"
@@ -68,7 +84,7 @@ The figures come from [Align's Michigan Mortgage Market Report](/research/michig
 
 **Michigan buyer incomes, home values and new-owner property tax, 10 counties with the most loans, 2025** [COMPLIANCE REVIEW]
 
-| County | Median home value on purchase loans (2025 HMDA) | Median buyer income (2025 HMDA) | Value ÷ income | County median homestead mills (2025) | New-owner property tax at that value, per year (estimate) |
+| County | Median home value on purchase loans, 2025 | Median buyer income, 2025 | Value ÷ income | County median homestead mills (2025) | New-owner property tax at that value, per year (estimate) |
 |---|---|---|---|---|---|
 | Oakland | $385,000 | $126,000 | 3.1x | 36.6 | about $7,050 |
 | Wayne | $235,000 | $81,000 | 2.9x | 52.7 | about $6,190 |
@@ -161,7 +177,7 @@ No. A lower income means a smaller housing budget, not a closed door. FHA loans,
 
 FHA loans, insured by HUD and made by FHA-approved wholesale lenders, allow more room on credit history in exchange for longer-lasting mortgage insurance. USDA loans cover eligible rural addresses, with household income limits. [VERIFY: USDA Rural Development income eligibility; link "USDA loan requirements" to /learn/usda-loan-requirements/ once live]
 
-MSHDA's MI Home Loan pairs with MI 10K down payment assistance, with income and price limits. [VERIFY: current MSHDA program names and limits on michigan.gov/mshda at publish; link "MSHDA MI Home Loan" to /learn/mshda-mi-home-loan/ once live] MSHDA loans come only through its participating lenders. Samantha Shelton, Align's broker owner, explains the MSHDA programs and, if one fits, refers you to a participating lender.
+MSHDA's MI Home Loan pairs with MI 10K down payment assistance, with income and price limits. [VERIFY: current MSHDA program names and limits on michigan.gov/mshda at publish; link "MSHDA MI Home Loan" to /learn/mshda-mi-home-loan/ once live] Samantha Shelton, Align's broker owner, explains the MSHDA programs and, if one fits, refers you to a participating lender.
 
 See also [buying a home with low income](/learn/buying-home-with-low-income-tips-and-programs/) and [how to save for a down payment](/learn/how-to-save-for-down-payment/).
 
@@ -173,7 +189,7 @@ Your budget runs on take-home pay and carries costs no ratio counts, such as uti
 
 [NEEDS SAMANTHA QUOTE: the gap between the qualifying number and a comfortable payment]
 
-**How Align can help.** Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha builds the budget from the address's new-owner tax, not the listing's, then checks how your income and debts fit each program.
+**How Align can help.** Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha builds the budget from the address's new-owner tax, not the listing's.
 
 > **End CTA block:** [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end)
 > No credit pull to talk.
@@ -229,5 +245,150 @@ Align's guides are general education, not legal, tax or financial advice, not a 
 Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA, or the Michigan State Housing Development Authority (MSHDA).
 
 ```json-ld
-{}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/income-needed-to-buy-a-house-michigan/#article",
+      "headline": "What income do you need to buy a house in Michigan?",
+      "description": "What Michigan buyers earned in 2025 by county, how lenders turn income into a housing budget and how much a new owner's property tax takes. No rates, just math.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://alignlending.com/#organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/income-needed-to-buy-a-house-michigan/",
+      "isBasedOn": [
+        "https://alignlending.com/research/michigan-mortgage-market-report/",
+        "https://alignlending.com/research/michigan-property-tax-uncapping-study/"
+      ],
+      "citation": [
+        "https://ffiec.cfpb.gov/data-browser/",
+        "https://data.census.gov/table/ACSDT5Y2024.B25077?g=040XX00US26",
+        "https://data.census.gov/table/ACSDT5Y2024.B19013?g=040XX00US26",
+        "https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/",
+        "https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios",
+        "https://guide.freddiemac.com/app/guide/section/5401.2",
+        "https://www.hud.gov/hud-partners/single-family-handbook-4000-1",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a",
+        "https://www.michigan.gov/taxes/property/principal-residence-exemption"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Preparing to buy",
+          "item": "https://alignlending.com/learn/preparing-to-buy/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Income needed to buy a house in Michigan",
+          "item": "https://alignlending.com/learn/income-needed-to-buy-a-house-michigan/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alignlending.com/learn/income-needed-to-buy-a-house-michigan/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do you need to make to afford a $300,000 house in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No single salary answers it, because the loan part depends on your rate, savings and debts. The property tax alone, about $5,400 a year at Michigan's 36.0-mill median, uses about $19,300 of yearly gross income at a 28% ratio. Add insurance and the loan at your quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I afford to buy a house if I make $40,000 a year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possibly. At a 28% housing ratio, $40,000 of gross income allows about $933 a month for all housing costs, or $1,200 for housing plus debts at 36%. FHA loans and MSHDA's MI Home Loan can help with cash to close. Start from the address's property tax."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What salary do you need for a $400,000 mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the rate, so a salary without one is a guess. The tax follows the price, not the loan: each $100,000 of price adds about $1,800 a year at 36.0 mills, using about $6,400 of yearly income at 28%. Then run the loan at your quoted rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much house can I afford at $1,400 a month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The $1,400 has to cover property tax, insurance and the loan together. Subtract the tax first: at 36.0 mills, a $250,000 home carries about $375 a month. Subtract an insurance quote, and the loan gets the rest. At a 28% ratio, $1,400 a month matches about $60,000 of gross income."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do lenders use gross or take-home pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gross pay. A debt-to-income ratio divides monthly debts by gross monthly income, before taxes and other deductions. Your own budget runs on take-home pay, which is one reason the amount you qualify for can feel larger than the amount you are comfortable paying."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the seller's property tax bill tell me what I will pay in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The seller's bill reflects a capped taxable value. The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. In 2026 that reset raised a typical home's taxable value about 50.5%, per Align's uncapping study."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the median income of Michigan homebuyers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$91,000 in 2025, for buyers with first-lien purchase loans on owner-occupied Michigan homes, per Align's Michigan Mortgage Market Report. The median home value on those loans was $285,000. Among the 10 counties with the most loans, median buyer income ran from $80,000 in Genesee to $136,000 in Washtenaw."
+          }
+        }
+      ]
+    }
+  ]
+}
 ```
