@@ -145,7 +145,7 @@ For context, [Align Lending's Michigan Mortgage Market Report](/research/michiga
 
 MI 10K is MSHDA's down payment assistance: up to $10,000 toward the down payment and closing costs. It is a deferred second loan with no monthly payment, repaid when you sell, refinance, pay off the first mortgage or stop living in the home. It must be paired with an MI Home Loan, and homebuyer education is required.
 
-Those terms are on MSHDA's [MI 10K DPA Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan). [COMPLIANCE REVIEW: MSHDA describes MI 10K as interest-free; this draft leaves that out because stating it may count as a rate under F13] MI 10K has been open statewide since May 8, 2023. Before then it was limited to 236 ZIP codes, and MSHDA's statewide option was a $7,500 loan that it phased out at the same time, according to MSHDA's [May 12, 2023 release](https://www.michigan.gov/mshda/about/press-releases/2023/05/12/mshda-expands-access-to-ten-thousand-dollar-down-payment-assistance-program). MSHDA publishes a [participating lender list](https://www.michigan.gov/mshda/pathway-to-housing/lender-list-for-mi-10k-loan) for the program. [VERIFY: whether MSHDA's MI Home Loan lender locator is a separate list]
+Those terms are on MSHDA's [MI 10K DPA Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan). [COMPLIANCE REVIEW: MSHDA's page states MI 10K's interest terms; this draft leaves them out under F13] MI 10K has been open statewide since May 8, 2023. Before then it was limited to 236 ZIP codes, and MSHDA's statewide option was a $7,500 loan that it phased out at the same time, according to MSHDA's [May 12, 2023 release](https://www.michigan.gov/mshda/about/press-releases/2023/05/12/mshda-expands-access-to-ten-thousand-dollar-down-payment-assistance-program). MSHDA publishes a [participating lender list](https://www.michigan.gov/mshda/pathway-to-housing/lender-list-for-mi-10k-loan) for the program. [VERIFY: whether MSHDA's MI Home Loan lender locator is a separate list]
 
 ### Is the $25,000 First-Generation down payment assistance still available?
 
@@ -225,8 +225,6 @@ It depends on the program and the county. HUD publishes income limits for every 
 
 It was MSHDA's First-Generation Down Payment Assistance, a $25,000 deferred loan for first-generation buyers that launched in February 2025. It is closed: its funds are exhausted and there is no waitlist. MSHDA's statewide help today is MI 10K, up to $10,000 as a deferred loan paired with an MI Home Loan.
 
-<!-- [VERIFY: re-check the First-Generation DPA status on the publish date] -->
-
 ### What is the $7,500 first-time home buyer grant in Michigan?
 
 It is usually an older MSHDA amount repeated online. MSHDA's statewide down payment loan was $7,500 until May 2023, when MSHDA phased it out and opened MI 10K statewide. Neither was a grant. Today's MI 10K is up to $10,000 and is a deferred loan you repay when you sell, refinance, pay off the first mortgage or move out.
@@ -237,13 +235,13 @@ A grant is money you do not repay if you meet its conditions. Down payment assis
 
 ### Can you use an MSHDA loan with FHA, VA or USDA?
 
-Yes. The MI Home Loan is underwritten as an FHA, VA, USDA Rural Development or conventional loan, so you meet that loan type's rules as well as MSHDA's. A USDA version, for example, still needs an eligible address and a household under USDA's income limit, on top of MSHDA's own income and price limits.
-
-<!-- [VERIFY: loan types on MSHDA's MI Home Loan page] -->
+Yes. The MI Home Loan is underwritten as an FHA, VA, USDA Rural Development or conventional loan, so you meet that loan type's rules as well as MSHDA's. A USDA version, for example, still needs an eligible address and a household under USDA's income limit, in addition to MSHDA's own income and price limits.
 
 ### Does the state of Michigan offer help with mortgage payments?
 
-Not through a statewide fund right now. The Michigan Homeowner Assistance Fund, MSHDA's pandemic-era program, is closed because its funds are exhausted. If you are behind on payments or expect to be, call your servicer first, then contact a HUD-approved housing counseling agency, which can review your options and local programs with you.
+Not through a statewide fund right now. The [Michigan Homeowner Assistance Fund](https://www.michigan.gov/mihaf), MSHDA's pandemic-era program, is closed because its funds are exhausted. If you are behind on payments or expect to be, call your servicer first, then contact a [HUD-approved housing counseling agency](https://www.consumerfinance.gov/find-a-housing-counselor/), which can review your options and local programs with you.
+
+Editor note, remove before publishing: [VERIFY: FAQ 4, re-check First-Generation DPA status on the publish date] [VERIFY: FAQ 7, loan types on MSHDA's MI Home Loan page] [VERIFY: FAQ 8, MIHAF closure notice on michigan.gov/mihaf]
 
 ## Sources
 
@@ -265,6 +263,8 @@ Every outside source this guide links to, in the order it appears.
 - [New MSHDA program offers $25,000 in down payment assistance to aspiring first-generation homebuyers (February 18, 2025)](https://www.michigan.gov/mshda/about/press-releases/2025/02/18/new-mshda-program-offers-$25000-in-down-payment-assistance-to-aspiring-first-generation-homebuyers) — Michigan State Housing Development Authority
 - [MCL 211.27a, taxable value and uncapping](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) — Michigan Legislature
 - [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal-residence-exemption) — Michigan Department of Treasury
+- [Michigan Homeowner Assistance Fund](https://www.michigan.gov/mihaf) — Michigan State Housing Development Authority
+- [Find a housing counselor](https://www.consumerfinance.gov/find-a-housing-counselor/) — Consumer Financial Protection Bureau
 
 [VERIFY: michigan.gov refused automated requests from this session, so the MSHDA pages were confirmed through search results that quote them and through the November 15, 2026 site crawl (each MSHDA URL above returned 200). Click-check each MSHDA link and figure on publish day.]
 
