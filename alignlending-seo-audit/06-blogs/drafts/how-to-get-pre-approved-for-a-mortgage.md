@@ -16,7 +16,7 @@ cluster: "C08 Credit, DTI and qualifying (breadcrumb parent /learn/credit-and-qu
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 0
+word_count: 2479
 target_money_page: "/purchase/homebuyer-game-plan/"
 internal_links:
   - {url: "/learn/importance-of-mortgage-preapproval/", anchor: "why preapproval matters", status: "live"}
@@ -122,7 +122,7 @@ Usually only a little. A preapproval normally includes a hard credit inquiry, wh
 
 The window comes from credit-scoring models, not federal law, and its length depends on the scoring version a lender uses ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/)). [VERIFY: 45 days per CFPB; some older FICO versions apply 14 days] Applying within about 2 weeks covers both.
 
-The score matters more than the inquiry. See [what credit score you need](/learn/whats-good-credit-score-to-buy-house/).
+For program minimums, see [what credit score you need](/learn/whats-good-credit-score-to-buy-house/).
 
 ## What credit score and income do you need to get preapproved?
 
@@ -130,7 +130,7 @@ There is no single number. FHA, VA, USDA and conventional programs each set cred
 
 An overlay is a lender's own rule added to the agency's, so two lenders can answer the same file differently ([Fannie Mae SEL-2025-09](https://singlefamily.fanniemae.com/news-events/announcement-sel-2025-09-selling-guide-updates)). For FHA, [HUD Handbook 4000.1](https://www.hud.gov/sites/dfiles/OCHCO/documents/4000.1hsgh.pdf) sets the minimum credit score at 500, with 580 or higher for maximum financing. [VERIFY: HUD 4000.1, minimum decision credit score]
 
-Your DTI is your total monthly debt payments divided by your gross monthly income. Property tax is part of the housing payment, so a payment built on the seller's capped bill understates it. See [debt-to-income limits by loan type](/learn/debt-to-income-ratio-dti/) and [income needed to buy a house in Michigan](/learn/income-needed-to-buy-a-house-michigan/) <!-- new, link once live -->.
+Your DTI is your total monthly debt payments divided by your gross monthly income, and property tax counts in the housing payment. See [debt-to-income limits by loan type](/learn/debt-to-income-ratio-dti/) and [income needed to buy a house in Michigan](/learn/income-needed-to-buy-a-house-michigan/) <!-- new, link once live -->.
 
 ## How long does preapproval take, and how long does a letter last?
 
@@ -245,5 +245,200 @@ Every outside source this guide links to, in the order it appears.
 - [MI Home Loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-home-loan) — Michigan State Housing Development Authority
 
 ```json-ld
-{}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/how-to-get-pre-approved-for-a-mortgage/#article",
+      "headline": "How to get preapproved for a mortgage in Michigan: steps, documents and timeline",
+      "description": "Get preapproved in 6 steps: the documents lenders want, what the credit check does, how long a letter lasts and what can void it, for Michigan homebuyers.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "@id": "https://alignlending.com/samantha-shelton/#person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://alignlending.com/#organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/how-to-get-pre-approved-for-a-mortgage/",
+      "image": "https://alignlending.com/wp-content/uploads/how-to-get-preapproved-hero.webp",
+      "about": [
+        "Mortgage preapproval",
+        "Michigan homebuyers"
+      ],
+      "citation": [
+        "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+        "https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-C/section-1026.19",
+        "https://selling-guide.fanniemae.com/sel/b3-3.1-02/standards-employment-documentation",
+        "https://selling-guide.fanniemae.com/sel/b3-4.2-01/verification-deposits-and-assets",
+        "https://selling-guide.fanniemae.com/sel/b3-3/income-assessment",
+        "https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts",
+        "https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/",
+        "https://singlefamily.fanniemae.com/news-events/announcement-sel-2025-09-selling-guide-updates",
+        "https://www.hud.gov/sites/dfiles/OCHCO/documents/4000.1hsgh.pdf",
+        "https://selling-guide.fanniemae.com/sel/b1-1-03/allowable-age-credit-documents-and-federal-income-tax-returns",
+        "https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-prequalification-letter-and-a-preapproval-letter-en-127/",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a",
+        "https://www.michigan.gov/mshda/pathway-to-housing/mi-home-loan"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://alignlending.com/learn/how-to-get-pre-approved-for-a-mortgage/#howto",
+      "name": "How to get preapproved for a mortgage, step by step",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Check your credit and set your budget",
+          "text": "Look for errors on your credit reports first; the CFPB explains how to get free copies and dispute mistakes. Pick a monthly payment you are comfortable with, taxes and insurance included."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Gather your documents",
+          "text": "Pay stubs, W-2s or tax returns, bank statements, photo ID and a list of debts. The table below covers self-employment, retirement income and gifts."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Choose a lender or broker",
+          "text": "A bank or credit union offers its own programs; an independent mortgage broker compares several wholesale lenders. Ask each what its letter verifies."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Apply and authorize the credit check",
+          "text": "Once a lender has your name, income, Social Security number, a property address, an estimated value and the loan amount, federal rules require a Loan Estimate within 3 business days."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Answer underwriting questions",
+          "text": "Expect requests about large deposits, employment gaps or recent credit inquiries. Answer with documents where you can."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Receive the letter",
+          "text": "It names a loan amount and type and lists conditions, such as an appraisal. Loan approval is subject to underwriting, credit, income, asset, appraisal and property eligibility review."
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Credit and qualifying",
+          "item": "https://alignlending.com/learn/credit-and-qualifying/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "How to get preapproved",
+          "item": "https://alignlending.com/learn/how-to-get-pre-approved-for-a-mortgage/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://alignlending.com/learn/how-to-get-pre-approved-for-a-mortgage/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does it take to get preapproved for a mortgage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the file. With complete documents, a preapproval can come back the same day or within a few business days. Self-employment income, gift funds, missing pages or credit questions add time, because each needs a document and a review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does preapproval hurt your credit score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Slightly. The hard inquiry in a preapproval can lower a score a little, and the CFPB says multiple mortgage credit checks within a 45-day window count as one inquiry. A conversation with a lender or broker before you apply needs no credit pull."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What disqualifies you from getting preapproved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Credit history and debt are the reasons lenders give most often. On denied Michigan purchase applications in 2025, lenders cited credit history and debt-to-income ratio each 42% of the time, and not enough cash to close 22%, according to Align Lending's Michigan Mortgage Market Report (2025 HMDA data)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you get preapproved with more than one lender?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mortgage credit checks inside a short shopping window count as one inquiry for scoring. Each lender with a full application, including a property address, must send a Loan Estimate within 3 business days, so you can compare costs on the same federal form."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much house can I get preapproved for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A lender preapproves you up to a maximum based on your income, debts, credit and cash, with taxes and insurance in the payment. That maximum is not a spending target. Align's budget review and the home affordability calculator help you set a comfortable monthly number first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a preapproval to make an offer in Michigan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not by law, but most sellers and listing agents expect one. A preapproval backed by reviewed documents shows that a lender has already looked at your income, assets and credit. That matters because Michigan purchase agreements usually set a date by which your financing must be approved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between prequalification and preapproval?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A prequalification is an estimate based on what you tell a lender, usually without documents. A preapproval rests on reviewed documents and a credit check. Lenders use the terms differently, so ask what each letter verified. Align's prequalified vs. preapproved guide covers the rest."
+          }
+        }
+      ]
+    }
+  ]
+}
 ```

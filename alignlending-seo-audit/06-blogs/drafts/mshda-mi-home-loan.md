@@ -20,7 +20,6 @@ internal_links:
   - /purchase/down-payment-assistance/
   - /purchase/first-time-homebuyer/
   - /research/michigan-mortgage-market-report/
-  - /loan-limits/
   - /learn/first-time-home-buyer-grants-and-programs/
   - /learn/fha-loans/
   - /learn/homeready-mortgages/
@@ -51,23 +50,23 @@ The MSHDA MI Home Loan is a fixed-rate first mortgage from the Michigan State Ho
 **Key takeaways**
 
 - MSHDA's sales price limit is $566,355 statewide for loans after June 1, 2026. Older figures online, such as $544,233, are out of date.
-- Income limits vary by county, household size and targeted-area status. In Oakland County outside its targeted cities, the June 1, 2026 chart allows $104,800 for 1 to 2 persons and $120,520 for 3 or more.
-- MI 10K adds up to $10,000 for the down payment and closing costs. It is a deferred loan, not a grant, and it works only with an MI Home Loan.
-- MSHDA's $25,000 First-Generation down payment assistance is closed: its funds are exhausted and there is no waitlist (November 2026).
+- Income limits vary by county, household size and targeted-area status: $104,800 for 1 to 2 persons in most of Oakland County (June 1, 2026 chart).
+- MI 10K adds up to $10,000 for the down payment and closing costs as a deferred loan, not a grant, and only with an MI Home Loan.
+- MSHDA's $25,000 First-Generation down payment assistance is closed: funds exhausted, no waitlist (November 2026).
 
 ## What is the MSHDA MI Home Loan?
 
 The MI Home Loan is a fixed-rate first mortgage run by the Michigan State Housing Development Authority, a state agency. It is a loan you repay, not a grant. MSHDA participating lenders originate it, and each one is underwritten as an FHA, VA, USDA Rural Development or conventional loan, so that loan type's rules apply too.
 
-MSHDA sets the buyer, income, price and credit rules on its [MI Home Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-home-loan). The loan type underneath sets the rest, such as mortgage insurance and property standards. [VERIFY: the four loan types on MSHDA's MI Home Loan page]
+MSHDA sets the buyer, income, price and credit rules on its [MI Home Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-home-loan); the loan type sets mortgage insurance and property standards. [VERIFY: the four loan types on MSHDA's MI Home Loan page]
 
-MI 10K, MSHDA's down payment help, is a separate second loan. Align's page on [Michigan down payment assistance options](/purchase/down-payment-assistance/) sets it beside city, county and nonprofit help. MSHDA's [Mortgage Credit Certificate](https://www.michigan.gov/mshda/pathway-to-housing/mortgage-credit-certificate-program) is a separate federal tax credit of 20% of the mortgage interest you pay each year, claimed on [IRS Form 8396](https://www.irs.gov/forms-pubs/about-form-8396). [VERIFY: MCC availability in 2026 and any annual cap]
+MI 10K, MSHDA's down payment help, is a separate second loan; Align's page on [Michigan down payment assistance options](/purchase/down-payment-assistance/) covers it with city, county and nonprofit help. MSHDA's [Mortgage Credit Certificate](https://www.michigan.gov/mshda/pathway-to-housing/mortgage-credit-certificate-program) is a separate federal tax credit of 20% of the mortgage interest you pay each year, claimed on [IRS Form 8396](https://www.irs.gov/forms-pubs/about-form-8396). [VERIFY: MCC availability in 2026 and any annual cap]
 
 ### Is MSHDA a lender?
 
 Not one you apply to. MSHDA funds the program and sets its rules. A participating lender takes the application, underwrites it and closes the loan. A lender that is not on MSHDA's list cannot originate an MI Home Loan.
 
-> **Not sure the MI Home Loan fits your income and county?** Samantha walks through MSHDA's limits with you before you are under contract on anything.
+> **Not sure the MI Home Loan fits?** Samantha walks through MSHDA's limits with your income and county.
 >
 > [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module)
 > No credit pull to talk.
@@ -78,15 +77,13 @@ Not one you apply to. MSHDA funds the program and sets its rules. A participatin
 
 First-time buyers qualify anywhere in Michigan, and repeat buyers qualify only in MSHDA's targeted areas. Household income must be at or under the county limit, the price at or under $566,355 (2026), and the credit score at least 640. You must live in the home as your principal residence and complete a homebuyer education class.
 
-Lender guides report a higher 660 minimum for multi-section manufactured homes. [VERIFY: 660 minimum, MSHDA MI Home Loan product guide]
-
 ### What counts as a first-time buyer for MSHDA?
 
-MSHDA counts you as a first-time buyer if you have not owned a home in the previous three years. Someone who sold a home five years ago can count as a first-time buyer again. [VERIFY: how MSHDA treats a co-borrower's past ownership]
+MSHDA counts you as a first-time buyer if you have not owned a home in the previous three years, so someone who sold a home five years ago can count again. [VERIFY: how MSHDA treats a co-borrower's past ownership]
 
 ### What is a targeted area?
 
-A targeted area is a city, township or county where MSHDA accepts repeat buyers and sets higher income limits. MSHDA's limits chart lists them county by county. On the June 1, 2026 chart, all of Washtenaw County is targeted, as are Pontiac, Royal Oak Township and Southfield in Oakland County.
+A targeted area is a city, township or county where MSHDA accepts repeat buyers and sets higher income limits. On the June 1, 2026 chart, all of Washtenaw County is targeted, as are Pontiac, Royal Oak Township and Southfield in Oakland County.
 
 **MI Home Loan eligibility at a glance (2026)**
 
@@ -95,19 +92,19 @@ A targeted area is a city, township or county where MSHDA accepts repeat buyers 
 | Buyer status | First-time buyer (no home owned in the previous 3 years) statewide; repeat buyers in targeted areas | MI Home Loan page |
 | Income | At or under the county limit for 1 to 2 persons, or for 3 or more | Limits chart, June 1, 2026 |
 | Price | At or under $566,355 statewide after June 1, 2026 | MI Home Loan page |
-| Credit | 640 minimum; 660 reported for multi-section manufactured homes | MI Home Loan page |
+| Credit | 640 minimum; 660 reported for multi-section manufactured homes [VERIFY: MSHDA product guide] | MI Home Loan page |
 | Education | Homebuyer education class required | MSHDA Housing Education Locator |
 | Occupancy | Your principal residence | MI Home Loan page |
 | Assets | [VERIFY: any MSHDA liquid-asset limit; lender pages cite $20,000 without naming the program] | MI 10K page |
 | Lender | MSHDA participating lender only | MSHDA lender list |
 
-Source: Michigan State Housing Development Authority, MI Home Loan and MI 10K DPA Loan pages; Income and Sales Price Limits, June 1, 2026.
+Source: MSHDA program pages; Income and Sales Price Limits, June 1, 2026.
 
 ## What are the MSHDA income limits in 2026?
 
 MSHDA sets MI Home Loan income limits by county and household size, in two columns: 1 to 2 persons, and 3 or more. Targeted areas get higher limits. The current chart is dated June 1, 2026, and MSHDA replaces it when new figures come out, so check the chart before relying on any number, including those below.
 
-The figures come from MSHDA's [Income and Sales Price Limits chart, June 1, 2026 (PDF)](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Homebuyers/Income-and-Sales-Price-6126_accessible.pdf), which covers all 83 counties. Lender guides say the standard MI Home Loan counts the income of every adult who will live in the home. [VERIFY: MSHDA's household income definition]
+The figures below are from MSHDA's [Income and Sales Price Limits chart, June 1, 2026 (PDF)](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Homebuyers/Income-and-Sales-Price-6126_accessible.pdf). Lender guides say MSHDA counts the income of every adult who will live in the home. [VERIFY: MSHDA's household income definition]
 
 **MSHDA MI Home Loan income limits, selected counties (June 1, 2026)**
 
@@ -124,11 +121,7 @@ The figures come from MSHDA's [Income and Sales Price Limits chart, June 1, 2026
 | Genesee: City of Flint, Genesee Twp., Mount Morris Twp. | Targeted | $118,080 | $137,760 |
 | Genesee: rest of county | Non-targeted | $98,400 | $113,160 |
 
-Source: Michigan State Housing Development Authority, Income and Sales Price Limits, MI Home Loan and MCC Program, June 1, 2026. [VERIFY: re-check each figure against the PDF on publish day; the Wayne and Macomb rows rest on secondary reports of the chart] For Kent, Ingham and the other 77 counties, use the full chart.
-
-### How much is considered low income in Michigan?
-
-There is no single statewide number. HUD's [income limits](https://www.huduser.gov/portal/datasets/il.html) set "low income" at 80% of area median income for each county, and Fannie Mae's [HomeReady rule](https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility) uses the same 80% line. MSHDA's MI Home Loan chart sits higher than both.
+Source: MSHDA, Income and Sales Price Limits, June 1, 2026. [VERIFY: re-check each figure against the PDF on publish day; the Wayne and Macomb rows rest on secondary reports of the chart] Kent, Ingham and the other 77 counties are on the full chart.
 
 ## What is the MI Home Loan sales price limit?
 
@@ -136,21 +129,21 @@ MSHDA's sales price limit for the MI Home Loan is $566,355 statewide for loans a
 
 MSHDA raised the cap after a 2024 state law; its [release on House Bill 5032](https://www.michigan.gov/mshda/about/press-releases/2024/12/20/passage-of-house-bill-5032-paving-the-way-for-expanded-homeownership-opportunities-in-michigan) explains the change. [VERIFY: the indexing method, reported as 90% of the IRS maximum sales price, and the dates of the $544,233 and $224,500 limits]
 
-[Align Lending's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/) puts the median home value on 2025 purchase loans at $285,000 statewide, $385,000 in Oakland County and $435,000 in Washtenaw County. The limit sits above all three, so it mainly rules out higher-priced homes, more often in Washtenaw and Oakland. The loan type also caps the loan amount; see [2026 loan limits by county](/loan-limits/).
+[Align Lending's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/) puts the median home value on 2025 purchase loans at $285,000 statewide, $385,000 in Oakland County and $435,000 in Washtenaw County. The limit sits above all three, so it mainly rules out higher-priced homes, more often in Washtenaw and Oakland.
 
 ## How does MI 10K down payment assistance work with the MI Home Loan?
 
 MI 10K is MSHDA's down payment assistance: up to $10,000 toward the down payment and closing costs. It is a deferred second loan with no monthly payment, repaid when you sell, refinance, pay off the first mortgage or stop living in the home. It must be paired with an MI Home Loan, and homebuyer education is required.
 
-Those terms are on MSHDA's [MI 10K DPA Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan). [COMPLIANCE REVIEW: MSHDA's page states MI 10K's interest terms; this draft leaves them out under F13] MI 10K has been open statewide since May 8, 2023, when MSHDA also retired its $7,500 statewide loan, per its [May 12, 2023 release](https://www.michigan.gov/mshda/about/press-releases/2023/05/12/mshda-expands-access-to-ten-thousand-dollar-down-payment-assistance-program). MSHDA publishes a [participating lender list](https://www.michigan.gov/mshda/pathway-to-housing/lender-list-for-mi-10k-loan) for it. [VERIFY: whether MSHDA's MI Home Loan lender locator is a separate list]
+Those terms are on MSHDA's [MI 10K DPA Loan page](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan). [COMPLIANCE REVIEW: MSHDA's page states MI 10K's interest terms; this draft leaves them out under F13] MI 10K has been statewide since May 8, 2023, when MSHDA retired its $7,500 statewide loan ([May 12, 2023 release](https://www.michigan.gov/mshda/about/press-releases/2023/05/12/mshda-expands-access-to-ten-thousand-dollar-down-payment-assistance-program)). MSHDA publishes a [participating lender list](https://www.michigan.gov/mshda/pathway-to-housing/lender-list-for-mi-10k-loan) for it. [VERIFY: whether MSHDA's MI Home Loan lender locator is a separate list]
 
 ### Is the $25,000 First-Generation down payment assistance still available?
 
-No. MSHDA's [First-Generation Down Payment Assistance](https://www.michigan.gov/mshda/pathway-to-housing/firstgendpa) pilot is closed: its funds are exhausted and there is no waitlist. It offered a $25,000 deferred loan and launched in February 2025 with $8 million in state funding, per MSHDA's [February 18, 2025 release](https://www.michigan.gov/mshda/about/press-releases/2025/02/18/new-mshda-program-offers-$25000-in-down-payment-assistance-to-aspiring-first-generation-homebuyers). [VERIFY: re-check MSHDA's First-Generation DPA page on the publish date; if it has reopened, say so with the date]
+No. MSHDA's [First-Generation Down Payment Assistance](https://www.michigan.gov/mshda/pathway-to-housing/firstgendpa) pilot is closed: its funds are exhausted and there is no waitlist. The $25,000 deferred loan launched in February 2025 with $8 million in state funding ([MSHDA release](https://www.michigan.gov/mshda/about/press-releases/2025/02/18/new-mshda-program-offers-$25000-in-down-payment-assistance-to-aspiring-first-generation-homebuyers)). [VERIFY: re-check MSHDA's First-Generation DPA page on the publish date; if it has reopened, say so with the date]
 
 ### Can MI 10K be combined with other help?
 
-Sometimes. Some city, county and nonprofit programs allow MSHDA help in the same purchase and set which lien comes first; others do not. [VERIFY: MSHDA stacking rules with city programs, e.g. Detroit DPA lien order per the detroitmi.gov bulletin of 2026-08-12] Align's guide to [Michigan first-time home buyer grants and programs](/learn/first-time-home-buyer-grants-and-programs/) lists local options.
+Sometimes. Some city, county and nonprofit programs allow MSHDA help in the same purchase and set the lien order; others do not. [VERIFY: MSHDA stacking rules with city programs, e.g. Detroit DPA lien order per the detroitmi.gov bulletin of 2026-08-12] Align's guide to [Michigan first-time home buyer grants and programs](/learn/first-time-home-buyer-grants-and-programs/) lists local options.
 
 ## How do you apply for an MSHDA loan?
 
@@ -172,14 +165,14 @@ An MSHDA loan helps most when cash for the down payment is the barrier. For a bu
 
 | | MI Home Loan + MI 10K | FHA on its own | Conventional with HomeReady |
 |---|---|---|---|
-| Who it fits | First-time buyers statewide and repeat buyers in targeted areas, under MSHDA's limits | Any buyer who meets HUD's rules, first-time or not | Buyers under the area income limit, first-time or not |
-| Cash needed | MI 10K covers up to $10,000 of the down payment and closing costs | HUD's minimum down payment, set by credit score, plus closing costs | Fannie Mae's minimum down payment plus closing costs; gifts allowed |
-| Mortgage insurance | Follows the loan type underneath | Upfront and annual FHA premiums; with the minimum down payment, the annual premium lasts the life of the loan | Private mortgage insurance that can be removed as equity builds |
+| Who it fits | First-time buyers, or repeat buyers in targeted areas, under MSHDA's limits | Buyers who meet HUD's rules, first-time or not | Buyers under the area income limit |
+| Cash needed | MI 10K covers up to $10,000 toward down payment and closing costs | HUD's minimum down payment, set by credit score, plus closing costs | Fannie Mae's minimum down payment plus closing costs |
+| Mortgage insurance | Follows the loan type underneath | Upfront and annual premiums; with the minimum down payment, the annual premium lasts the life of the loan | Private mortgage insurance, removable as equity builds |
 | On a refinance | MI 10K must be repaid | No second loan to repay | No second loan to repay |
 | Income limit | MSHDA county chart | None | 80% of area median income |
-| Price or loan limit | $566,355 sales price limit (2026) | FHA county loan limit | Conforming loan limit |
+| Price or loan limit | $566,355 sales price (2026) | FHA county loan limit | Conforming loan limit |
 
-Source: MSHDA program pages; HUD and Fannie Mae rules as explained in Align's guides to [how FHA loans work](/learn/fha-loans/) and [HomeReady mortgages](/learn/homeready-mortgages/).
+Source: MSHDA program pages; HUD and Fannie Mae rules, explained in [how FHA loans work](/learn/fha-loans/) and [HomeReady mortgages](/learn/homeready-mortgages/).
 
 Test a price with the [home affordability calculator](/home-affordability-calculator/) before you compare offers.
 
@@ -189,14 +182,14 @@ Test a price with the [home affordability calculator](/home-affordability-calcul
 
 Plan for the property tax reset. The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. In 2026 that reset raised a typical Michigan home's taxable value about 50.5%. File your Principal Residence Exemption (Form 2368) by June 1 or November 1.
 
-The 50.5% figure is from [Align Lending's 2026 uncapping study](/research/michigan-property-tax-uncapping-study/), which covers all 83 counties using Michigan Treasury data; [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) sets the reset. Lenders qualify you on the full payment, taxes included, so budget for the new owner's tax, not the seller's. See [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
+The 50.5% is from [Align Lending's 2026 uncapping study](/research/michigan-property-tax-uncapping-study/) (Michigan Treasury data, all 83 counties); [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) sets the reset. Lenders qualify you on the full payment, so budget for the new owner's tax, not the seller's. Here is [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
 > **Hypothetical example, not an offer. Actual rates, costs and payments vary.**
 > A home bought for $250,000, with an assessor's market value near the price, has a new taxable value of about $125,000 the year after the sale. At the 2025 statewide median homestead millage, 36.0 mills, the new owner's tax is about $125,000 × 36.0 ÷ 1,000 = $4,500 a year, about 1.8% of the price. That is property tax only, not a loan payment, and millage depends on the address.
 
 The homestead millage assumes you file [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/); the seller's exemption does not carry over. File with the [Michigan Department of Treasury](https://www.michigan.gov/taxes/property/principal-residence-exemption), then [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/).
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. When an open-market FHA, conventional or HomeReady loan fits better, Samantha compares it across multiple wholesale lenders and shows you the tradeoffs. If you are still deciding whether to buy, start with [your first-time homebuyer plan](/purchase/first-time-homebuyer/).
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. When an open-market loan fits better, Samantha compares it across multiple wholesale lenders. Still deciding whether to buy? Start with [your first-time homebuyer plan](/purchase/first-time-homebuyer/).
 
 > **Samantha explains the MSHDA programs and, if one fits, refers you to a participating lender.**
 >
@@ -207,15 +200,15 @@ Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #20
 
 ### Who qualifies for a MSHDA loan?
 
-First-time buyers anywhere in Michigan and repeat buyers in MSHDA's targeted areas. For the MI Home Loan, household income must be at or under the county limit, the price at or under $566,355 (2026) and the credit score at least 640. You also need homebuyer education and a participating lender.
+First-time buyers anywhere in Michigan and repeat buyers in MSHDA's targeted areas. Household income must be at or under the county limit, the price at or under $566,355 (2026) and the credit score at least 640. You also need homebuyer education and a participating lender.
 
 ### Is MSHDA only for first-time home buyers?
 
-No. First-time buyers, meaning anyone who has not owned a home in the previous three years, qualify statewide. Repeat buyers qualify only for a home in a targeted area, which MSHDA's income and sales price limits chart lists by county. All of Washtenaw County is targeted on the June 1, 2026 chart.
+No. First-time buyers, meaning anyone who has not owned a home in the previous three years, qualify statewide. Repeat buyers qualify only in targeted areas, which MSHDA's income and sales price limits chart lists by county. All of Washtenaw County is targeted on the June 1, 2026 chart.
 
 ### How much is considered low income in Michigan?
 
-It depends on the program and the county. HUD publishes income limits for every Michigan county, and its "low income" line is 80% of area median income. MSHDA's MI Home Loan chart is higher: $104,800 for one or two persons in Oakland County outside its targeted cities (June 1, 2026).
+It depends on the program and the county. HUD's [income limits](https://www.huduser.gov/portal/datasets/il.html) set "low income" at 80% of area median income for each Michigan county, and Fannie Mae's [HomeReady rule](https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility) uses the same line. MSHDA's MI Home Loan chart is higher: $104,800 for one or two persons in most of Oakland County (June 1, 2026).
 
 ### What is the $25,000 down payment assistance program in Michigan?
 
@@ -249,8 +242,6 @@ Every outside source this guide links to, in the order it appears.
 - [Mortgage Credit Certificate Program](https://www.michigan.gov/mshda/pathway-to-housing/mortgage-credit-certificate-program) — Michigan State Housing Development Authority
 - [About Form 8396, Mortgage Interest Credit](https://www.irs.gov/forms-pubs/about-form-8396) — Internal Revenue Service
 - [Income and Sales Price Limits, June 1, 2026 (PDF)](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Homebuyers/Income-and-Sales-Price-6126_accessible.pdf) — Michigan State Housing Development Authority
-- [Income Limits](https://www.huduser.gov/portal/datasets/il.html) — U.S. Department of Housing and Urban Development
-- [B5-6-01, HomeReady Mortgage Loan and Borrower Eligibility](https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility) — Fannie Mae Selling Guide
 - [Passage of House Bill 5032 paving the way for expanded homeownership opportunities in Michigan (December 20, 2024)](https://www.michigan.gov/mshda/about/press-releases/2024/12/20/passage-of-house-bill-5032-paving-the-way-for-expanded-homeownership-opportunities-in-michigan) — Michigan State Housing Development Authority
 - [MI 10K DPA Loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) — Michigan State Housing Development Authority
 - [MSHDA expands access to $10,000 down payment assistance program (May 12, 2023)](https://www.michigan.gov/mshda/about/press-releases/2023/05/12/mshda-expands-access-to-ten-thousand-dollar-down-payment-assistance-program) — Michigan State Housing Development Authority
@@ -259,6 +250,8 @@ Every outside source this guide links to, in the order it appears.
 - [New MSHDA program offers $25,000 in down payment assistance to aspiring first-generation homebuyers (February 18, 2025)](https://www.michigan.gov/mshda/about/press-releases/2025/02/18/new-mshda-program-offers-$25000-in-down-payment-assistance-to-aspiring-first-generation-homebuyers) — Michigan State Housing Development Authority
 - [MCL 211.27a, taxable value and uncapping](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) — Michigan Legislature
 - [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal-residence-exemption) — Michigan Department of Treasury
+- [Income Limits](https://www.huduser.gov/portal/datasets/il.html) — U.S. Department of Housing and Urban Development
+- [B5-6-01, HomeReady Mortgage Loan and Borrower Eligibility](https://selling-guide.fanniemae.com/sel/b5-6-01/homeready-mortgage-loan-and-borrower-eligibility) — Fannie Mae Selling Guide
 - [Michigan Homeowner Assistance Fund](https://www.michigan.gov/mihaf) — Michigan State Housing Development Authority
 - [Find a HUD-approved housing counseling agency](https://www.consumerfinance.gov/find-a-housing-counselor/) — Consumer Financial Protection Bureau
 

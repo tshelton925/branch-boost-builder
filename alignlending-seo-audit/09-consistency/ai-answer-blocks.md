@@ -2,7 +2,7 @@
 
 SEO & AI-search impact editor, Consistency Team · 2026-11-16 · Companion to `seo-ai-review.md` and `seo-ai-fixes.csv`.
 
-**How to use this file.** The core-page teams already wrote most question-H2 answers for these pages, and most meet the 40–60-word rule (automated check: 287 of 336 proposed question headings on money pages pass; see `seo-ai-review.md` §4). This file does **not** rewrite those. For each page it gives:
+**How to use this file.** The core-page teams already wrote most question-H2 answers for these pages, and most meet the 40–60-word rule (automated check of the five core-page change files: 292 of 334 proposed question headings on 50 money pages and tools have a 40–60-word answer; 25 have no answer text, 13 are under 40 words and 4 are over 60; see `seo-ai-review.md` §4). This file does **not** rewrite those. For each page it gives:
 
 1. **Use as written**: the team rows that already pass (with any auditor correction applied).
 2. **Entity line**: the exact string to place on the page. The canonical sentence (guide §1) goes once per page, in the "Why Align" section or the reviewer/author box. Above the fold uses the short form.
