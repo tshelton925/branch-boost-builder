@@ -208,3 +208,150 @@ Every outside source this guide links to, in the order it appears.
 Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA.
 
 Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
+
+```json-ld
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://alignlending.com/learn/buying-a-house-after-bankruptcy-or-foreclosure/#article",
+      "headline": "Buying a house after bankruptcy or foreclosure: waiting periods by loan type",
+      "description": "How long to wait after Chapter 7, Chapter 13, foreclosure or a short sale for FHA, VA, USDA and conventional loans, and when Michigan's foreclosure clock runs.",
+      "datePublished": "2026-11-16",
+      "dateModified": "2026-11-16",
+      "inLanguage": "en-US",
+      "author": {
+        "@type": "Person",
+        "name": "Samantha Shelton",
+        "jobTitle": "Broker Owner and Senior Loan Originator",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NMLS",
+          "value": "1647301"
+        },
+        "url": "https://alignlending.com/samantha-shelton/",
+        "sameAs": [
+          "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/INDIVIDUAL/1647301"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://alignlending.com/#organization",
+        "name": "Align Lending"
+      },
+      "mainEntityOfPage": "https://alignlending.com/learn/buying-a-house-after-bankruptcy-or-foreclosure/",
+      "image": "https://alignlending.com/wp-content/uploads/waiting-periods-timeline.webp",
+      "citation": [
+        "https://selling-guide.fanniemae.com/sel/b3-5.3-07/significant-derogatory-credit-events-waiting-periods-and-re-establishing-credit",
+        "https://answers.hud.gov/FHA/s/article/How-does-a-bankruptcy-affect-a-borrowers-eligibility-for-an-FHA-mortgage",
+        "https://answers.hud.gov/FHA/s/article/What-are-the-guidelines-for-borrowers-with-a-previous-foreclosure-or-deedinlieu-of-foreclosure",
+        "https://www.benefits.va.gov/WARMS/pam26_7.asp",
+        "https://www.rd.usda.gov/sites/default/files/RD-SFH-3555CHAPTER10.pdf",
+        "https://guide.freddiemac.com/app/guide/section/5202.5",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240",
+        "https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Counseling/Foreclosure-Timeline-212022.pdf",
+        "https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines",
+        "https://selling-guide.fanniemae.com/sel/b3-5.3-08/extenuating-circumstances-derogatory-credit"
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".al-answer",
+          ".al-takeaways"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://alignlending.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://alignlending.com/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Credit and qualifying",
+          "item": "https://alignlending.com/learn/credit-and-qualifying/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Buying after bankruptcy or foreclosure",
+          "item": "https://alignlending.com/learn/buying-a-house-after-bankruptcy-or-foreclosure/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I buy a house 2 years after Chapter 7?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, with FHA or VA, which generally look for about two years from the discharge date. A Fannie Mae conventional loan generally needs four years, or two with documented extenuating circumstances, and USDA three. Reaching two years makes you eligible to apply, not approved."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the FHA waiting period after foreclosure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three years. HUD generally bars a new FHA-insured mortgage when a foreclosure or deed in lieu happened in the three years before the case number is assigned, counted from the date title left your name. Documented extenuating circumstances can allow an exception."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you buy a house while in Chapter 13?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with FHA, VA or USDA, after 12 months of on-time plan payments and written permission from the bankruptcy court or trustee. Fannie Mae's conventional rules wait until two years after discharge. Ask your bankruptcy attorney how your trustee handles a request for new debt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a short sale have a waiting period?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for most programs. Fannie Mae sets four years, or two with documented extenuating circumstances. FHA generally sets three years if you were behind on the mortgage at the sale, and USDA generally looks back three years. Check your program's rule before counting on a date."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the waiting period counted from filing or discharge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bankruptcy waits run from the discharge or dismissal date, not the day you filed. Foreclosure waits run from completion: Fannie Mae uses the completion date on your credit report or papers, and FHA the date title left your name. In Michigan, that can be months after the sheriff's sale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you get a mortgage after bankruptcy with a low credit score?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be possible, but a low score narrows the choices. Each program and lender sets its own credit rules, often with overlays above agency minimums, and Fannie Mae's Desktop Underwriter has no fixed 620 floor for case files created on or after November 16, 2025."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you refinance after a loan modification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually, once the program's seasoning rules and your payment history line up. Refinancing has its own waiting rules after a modification, forbearance or bankruptcy, separate from buying. Align's refinance guides cover them by program, so start there to replace the loan on a home you own."
+          }
+        }
+      ]
+    }
+  ]
+}
+```
