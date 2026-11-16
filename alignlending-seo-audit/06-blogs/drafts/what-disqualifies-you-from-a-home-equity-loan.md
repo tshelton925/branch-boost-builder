@@ -59,21 +59,21 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
 
 **Key takeaways**
 
-- In 2025, Michigan lenders denied 30.1% of decided home equity line of credit (HELOC) applications and 27.3% of home equity loans, against 15.5% for purchase loans ([Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/)).
-- Combined loan-to-value (CLTV), not the equity on paper, sets the size of a line. Each lender sets its own cap.
-- Debt-to-income ratio and credit history were the reasons cited most on denied Michigan home equity applications. Collateral came third.
-- A land contract, unpaid property taxes or a home listed for sale can stop a file regardless of credit.
+- Michigan lenders denied 30.1% of decided home equity line of credit (HELOC) applications and 27.3% of home equity loans in 2025, against 15.5% for purchase loans ([Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/)).
+- Combined loan-to-value (CLTV), not the equity on paper, sets the size of a line.
+- Debt-to-income ratio and credit history were the reasons cited most on Michigan home equity denials. Collateral was third.
+- A land contract, unpaid property taxes or a listed home can stop a file regardless of credit.
 
 ## What disqualifies you from a home equity loan or HELOC?
 
 Seven things stop most home equity applications: too little equity after the lender's combined loan-to-value cap, a high debt-to-income ratio, a low credit score or recent late payments, income that is unstable or hard to document, the property type or condition, title or lien problems, and a recent bankruptcy or foreclosure. Lenders weigh them together.
 
-1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** Lenders lend against part of the value, never all of it.
-2. **[A high debt-to-income ratio.](#what-debt-to-income-ratio-do-you-need-for-a-home-equity-loan)** The new payment adds to the debts you carry.
-3. **[Credit score or recent late payments.](#what-credit-score-do-you-need-for-a-heloc-or-home-equity-loan)** A recent late mortgage payment can outweigh the score.
-4. **[Unstable or undocumented income.](#what-can-you-fix-before-you-apply-and-how-fast)** The lender must see, on paper, that you can repay.
-5. **[The property type or condition.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** Some lenders exclude listed homes or certain manufactured homes.
-6. **[Title or lien problems.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** A land contract, unpaid taxes or a recorded lien can block a new one.
+1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** No lender lends against all of it.
+2. **[A high debt-to-income ratio.](#what-debt-to-income-ratio-do-you-need-for-a-home-equity-loan)** The new payment adds to your debts.
+3. **[Credit score or recent late payments.](#what-credit-score-do-you-need-for-a-heloc-or-home-equity-loan)** A late mortgage payment can outweigh the score.
+4. **[Unstable or undocumented income.](#what-can-you-fix-before-you-apply-and-how-fast)** The lender must verify you can repay.
+5. **[The property type or condition.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** Some lenders exclude listed or manufactured homes.
+6. **[Title or lien problems.](#which-properties-and-ownership-situations-disqualify-a-home-equity-loan)** A land contract or unpaid taxes can block a new lien.
 7. **[A recent bankruptcy or foreclosure.](#does-a-recent-bankruptcy-or-foreclosure-disqualify-you)** Lenders set waiting periods.
 
 For how the products work, see Align's pages on a [home equity line of credit in Michigan](/product-loans/heloc/) and [home equity loans in Michigan](/product-loans/home-equity-loan/).
@@ -99,10 +99,10 @@ Source: Align Lending, Michigan Mortgage Market Report, 2025, from FFIEC public 
 
 <figure>
   <img src="https://alignlending.com/wp-content/uploads/research/hmda-2025/charts/hmda-2025-denials.png" alt="Bar chart of 2025 Michigan mortgage denial rates by loan purpose: home purchase 15.5%, refinance 16.4%, home equity loan 27.3%, HELOC 30.1%, cash-out refinance 31.2%" width="1200">
-  <figcaption>Source: Align Lending, Michigan Mortgage Market Report, 2025. Free to use with credit under CC BY 4.0.</figcaption>
+  <figcaption>Align Lending, Michigan Mortgage Market Report, 2025. CC BY 4.0.</figcaption>
 </figure>
 
-Why the gap? A purchase application usually follows a preapproval, so much of the sorting has already happened. Home equity applicants often apply just to see what happens. Demand held up anyway: Michigan owners took out 66,247 home equity loans and lines in 2025, with medians of $85,000 for a line and $55,000 for a loan.
+Why the gap? A purchase application usually follows a preapproval, so much of the sorting has already happened. Home equity applicants often apply just to see. Michigan owners still took out 66,247 home equity loans and lines in 2025, with medians of $85,000 for a line and $55,000 for a loan.
 
 ## How much equity do you need for a HELOC?
 
@@ -110,7 +110,7 @@ Enough to stay under the lender's combined loan-to-value cap. Combined loan-to-v
 
 > **CLTV = (all mortgage balances + the new line) ÷ appraised value**
 
-The CFPB's [home equity line of credit booklet](https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure.pdf) shows this method with a 75% cap and notes that the lender also weighs your ability to repay. Many lenders cap combined borrowing around 80% to 90% of value [VERIFY: typical HELOC and home equity CLTV caps; no GSE or regulator source found. If none, drop the range and keep "many lenders set their own caps"]. Fannie Mae's Selling Guide applies the same [combined loan-to-value ratio](https://selling-guide.fanniemae.com/sel/b2-1.2-02/combined-loan-value-cltv-ratios) when a first mortgage has a second lien behind it.
+The CFPB's [home equity line of credit booklet](https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure.pdf) illustrates this with a 75% cap and notes that the lender also weighs your ability to repay. Many lenders cap combined borrowing around 80% to 90% [VERIFY: typical HELOC and home equity CLTV caps; no GSE or regulator source found. If none, cut the range and say "many lenders set their own caps"].
 
 **Hypothetical example, not an offer. Actual rates, costs and payments vary.** [COMPLIANCE REVIEW]
 
@@ -121,35 +121,31 @@ The CFPB's [home equity line of credit booklet](https://files.consumerfinance.go
 | − first mortgage balance | $180,000 |
 | = largest line under the cap | $75,000 |
 
-At an 80% cap, the same home allows $60,000. The figures include only the appraised value and the first mortgage balance, before closing costs and the lender's other tests. The owner has $120,000 of equity on paper and can borrow, at most, $75,000 of it.
+The figures include only the appraised value and the first mortgage balance, before closing costs and the lender's other tests. This owner has $120,000 of equity on paper and can borrow, at most, $75,000 of it.
 
 <figure>
   <img src="cltv-diagram.webp" alt="Diagram showing how a lender's combined loan-to-value cap limits a home equity line to less than total equity" width="800" height="300" loading="lazy">
 </figure>
 
-To try your own figures, [Estimate my available equity](/refinance/home-equity-review/#available-equity). For how a line is drawn and paid back, see [how a HELOC works](/learn/home-equity-line-of-credit-heloc/).
+To try your own figures, [Estimate my available equity](/refinance/home-equity-review/#available-equity). For how a line is drawn and repaid, see [how a HELOC works](/learn/home-equity-line-of-credit-heloc/).
 
 ### Can you borrow 100% of your home equity?
 
-Rarely, because the cap always leaves a cushion. Texas, where Align is also licensed, writes its own 80% limit on homestead debt into the [Texas Constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm). This guide covers Michigan.
+Rarely, because the cap always leaves the lender a cushion. Texas, where Align is also licensed, writes an 80% limit on homestead debt into the [Texas Constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm). This guide covers Michigan.
 
 ### What if the appraisal comes in low?
 
-A lower value shrinks the line, or ends the application if you already owe close to the cap. Some lenders order a [drive-by appraisal](/learn/drive-by-appraisal/), which looks at the outside only. Value matters later too: [12 CFR 1026.40](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.40) lets a lender freeze or reduce a line while the value is significantly below the original appraisal.
+A lower value shrinks the line, or ends the application if you already owe close to the cap. Some lenders order a [drive-by appraisal](/learn/drive-by-appraisal/), which looks at the outside only. Later, [12 CFR 1026.40](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.40) lets a lender freeze or reduce a line while the value is significantly below the original appraisal.
 
 ## What debt-to-income ratio do you need for a home equity loan?
 
 Your debt-to-income ratio (DTI) is your monthly debt payments, including the first mortgage and the new home equity payment, divided by your gross monthly income. Limits vary by lender. DTI was one of the two reasons cited most on denied Michigan home equity applications in 2025, so it is the number to check first.
 
-Align's guide shows [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a HELOC, some lenders count a payment on the full line, not only what you plan to draw [VERIFY: lender practice for HELOC qualifying payments; the CFPB booklet does not set a rule]. Asking for a smaller line can be the whole fix.
-
-The 43% often quoted as a limit is not one. In 2025, 30% of the purchase loans Michigan lenders made had a DTI above 43% (Align's report). Those are purchase loans. A home equity lender may be stricter.
+See [how debt-to-income ratio is calculated](/learn/debt-to-income-ratio-dti/). On a HELOC, some lenders count a payment on the full line, not only what you draw [VERIFY: lender practice for HELOC qualifying payments; the CFPB booklet sets no rule], so a smaller line can be the fix. The 43% often quoted is not a hard limit: 30% of Michigan purchase loans made in 2025 were above it (Align's report). Home equity lenders may be stricter.
 
 ## What credit score do you need for a HELOC or home equity loan?
 
 No federal rule sets a minimum credit score for a HELOC or home equity loan. Each lender sets its own, and it can change with the loan size and the CLTV. Recent late mortgage payments, collections or a fresh bankruptcy can weigh more than the score. Credit history was the other reason cited most in 2025.
-
-The CFPB booklet lists credit history next to income and debts as what a lender weighs.
 
 ### Can you get a home equity loan with a 520 credit score?
 
@@ -157,12 +153,12 @@ Unlikely with most home equity lenders. The realistic paths are to rebuild first
 
 ## Which properties and ownership situations disqualify a home equity loan?
 
-Lenders usually decline or restrict homes that are listed for sale, some investment properties, certain manufactured homes, homes held in some trusts or still in an estate, and homes bought on a land contract, where the buyer holds equitable title and the seller keeps the deed. In Michigan, also check property taxes and assistance liens.
+Lenders usually decline or restrict homes listed for sale, some investment properties, certain manufactured homes, homes in some trusts or still in an estate, and homes bought on a land contract, where the buyer holds equitable title and the seller keeps the deed. In Michigan, also check property taxes and assistance liens.
 
-- **Land contracts.** The seller keeps the deed until payoff, and home equity lenders generally lend only to the owner of record. The usual path is to refinance out of the contract first. See [how a Michigan land contract works](/learn/michigan-land-contract/).
-- **Unpaid property taxes.** Michigan taxes still unpaid on March 1 after the levy year are returned as delinquent ([MCL 211.78a](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78a)). A year later the home forfeits to the county treasurer ([MCL 211.78g](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g)). If a foreclosure judgment is not paid by the following March 31, title passes to the government and liens, mortgages included, are wiped out ([MCL 211.78k](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78k)). Lenders want delinquent taxes paid first. The [Michigan Department of Treasury](https://www.michigan.gov/taxes/property/forfeiture-foreclosure) explains the process.
+- **Land contracts.** The seller keeps the deed until payoff, and home equity lenders generally lend only to the owner of record, so refinance out of the contract first. See [how a Michigan land contract works](/learn/michigan-land-contract/).
+- **Unpaid property taxes.** Taxes unpaid on March 1 after the levy year are returned delinquent ([MCL 211.78a](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78a)). A year later the home forfeits to the county treasurer ([MCL 211.78g](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g)). If a foreclosure judgment goes unpaid by the next March 31, title passes to the government and mortgage liens are wiped out ([MCL 211.78k](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78k); [Michigan Department of Treasury](https://www.michigan.gov/taxes/property/forfeiture-foreclosure)). Lenders want delinquent taxes paid first.
 - **Assistance liens.** The Michigan State Housing Development Authority's [MI 10K DPA loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) is a second mortgage, repaid when the first mortgage is paid off, the home is sold or refinanced, or it is no longer owner-occupied. A new line would sit behind it, which some lenders refuse [VERIFY: MSHDA and city DPA policy on new subordinate liens].
-- **Contractor liens and listed homes.** An unpaid contractor's construction lien usually has to be released first. A listed home is often declined: even Fannie Mae requires a listing to come off the market before a [cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) funds.
+- **Contractor liens and listed homes.** An unpaid contractor's construction lien usually has to be released first. Fannie Mae requires a listed home to come off the market before a [cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) funds, and many home equity lenders decline listed homes outright.
 - **Trusts, estates and property type.** Lenders differ on which trusts they accept, and a home in probate usually passes to the heirs first [VERIFY: lender trust and estate eligibility]. Some exclude manufactured homes titled as personal property, or lend only on a primary residence.
 
 ## Does a recent bankruptcy or foreclosure disqualify you?
@@ -181,10 +177,9 @@ Pay down revolving balances to lower your DTI, correct errors on your credit rep
 |---|---|---|
 | DTI too high | Pay down card balances; ask about a smaller line | When the lower balance reports, usually the next statement cycle |
 | Credit report error | Dispute it with the bureau and the creditor | After the correction posts |
-| Recent late payment | Get current and stay current | It stays on the report; its weight fades with time |
 | Income hard to document | Gather tax returns, W-2s, pay stubs or award letters | When the file is complete |
 | Delinquent property taxes | Pay the county treasurer | When the payment posts |
-| Title or lien issue | Refinance out of the land contract, settle the estate, or get the lien released | When the deed or release is recorded |
+| Title or lien issue | Refinance out of the land contract, settle the estate or get the lien released | When the deed or release is recorded |
 
 [NEEDS SAMANTHA QUOTE: the first thing she checks when a homeowner wants a HELOC, and what she tells someone who was just denied. Do not reuse "Why. That's my first question."]
 
@@ -192,7 +187,7 @@ Pay down revolving balances to lower your DTI, correct errors on your credit rep
 
 Read the adverse action notice first. Under Regulation B, a lender that turns down a completed application must tell you within 30 days and either state the specific reasons or explain how to ask for them within 60 days. Then compare a smaller line, a cash-out refinance, waiting to rebuild, or a personal loan.
 
-The rule is [12 CFR 1002.9](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9) [VERIFY: confirm 1002.9 is unchanged by the Regulation B amendments effective June 30, 2026]. The reasons point to the fix: DTI to a smaller line or paying down debt, collateral to the value or the cap. A cash-out refinance replaces your first mortgage, with different rules and costs; compare [HELOC vs. home equity loan vs. cash-out refinance](/refinance/cash-out-vs-home-equity/). For a small amount, an unsecured loan keeps the home out of it: see [personal loan or home equity](/learn/personal-loan-vs-home-equity/).
+The rule is [12 CFR 1002.9](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9) [VERIFY: confirm 1002.9 is unchanged by the Regulation B amendments effective June 30, 2026]. The reasons point to the fix. A cash-out refinance replaces your first mortgage, so compare [HELOC vs. home equity loan vs. cash-out refinance](/refinance/cash-out-vs-home-equity/). For a small amount, see [personal loan or home equity](/learn/personal-loan-vs-home-equity/).
 
 **How Align can help.** Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, starts with your numbers and the property before anything is submitted. Loan approval is subject to underwriting, credit, income, asset, appraisal and property eligibility review.
 
@@ -200,7 +195,7 @@ The rule is [12 CFR 1002.9](https://www.ecfr.gov/current/title-12/chapter-X/part
 >
 > **[Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end)** · No credit pull to talk.
 
-Ready to apply instead? **[Start my application](/start/?goal=equity)**
+Ready to apply? **[Start my application](/start/?goal=equity)**
 
 ## Questions about home equity loan approval
 
@@ -239,19 +234,18 @@ Every outside source this guide links to, in the order it appears.
 [How we choose and check sources](/editorial-policy/)
 
 - [What you should know about home equity lines of credit](https://files.consumerfinance.gov/f/documents/cfpb_heloc-brochure.pdf) — Consumer Financial Protection Bureau
-- [B2-1.2-02, Combined loan-to-value ratios](https://selling-guide.fanniemae.com/sel/b2-1.2-02/combined-loan-value-cltv-ratios) — Fannie Mae Selling Guide
-- [Constitution, Article XVI, Section 50](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm) — Texas Legislature
-- [12 CFR 1026.40, home equity plans (Regulation Z)](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.40) — eCFR
+- [Texas Constitution, Article XVI](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm) — Texas Legislature
+- [12 CFR 1026.40 (Regulation Z)](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.40) — eCFR
 - [MCL 211.78a](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78a) — Michigan Legislature
 - [MCL 211.78g](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g) — Michigan Legislature
 - [MCL 211.78k](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78k) — Michigan Legislature
 - [Property tax forfeiture and foreclosure](https://www.michigan.gov/taxes/property/forfeiture-foreclosure) — Michigan Department of Treasury
 - [MI 10K DPA Loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) — MSHDA
-- [B2-1.3-03, Cash-out refinance transactions](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) — Fannie Mae Selling Guide
-- [B3-5.3-07, Waiting periods after derogatory credit events](https://selling-guide.fanniemae.com/sel/b3-5.3-07/significant-derogatory-credit-events-waiting-periods-and-re-establishing-credit) — Fannie Mae Selling Guide
-- [12 CFR 1002.9, notifications (Regulation B)](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9) — eCFR
+- [Cash-out refinance transactions](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) — Fannie Mae Selling Guide
+- [Derogatory credit events: waiting periods](https://selling-guide.fanniemae.com/sel/b3-5.3-07/significant-derogatory-credit-events-waiting-periods-and-re-establishing-credit) — Fannie Mae Selling Guide
+- [12 CFR 1002.9 (Regulation B)](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9) — eCFR
 
-Denial figures come from Align's own research, the Michigan Mortgage Market Report (2025 HMDA data), linked above.
+Denial figures come from Align's own Michigan Mortgage Market Report (2025 HMDA data), linked above.
 
 Align Lending is not affiliated with or endorsed by the Michigan State Housing Development Authority (MSHDA).
 

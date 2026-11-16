@@ -16,7 +16,7 @@ cluster: "C08 Credit, DTI and qualifying"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 1966
+word_count: 1980
 target_money_page: /purchase/homebuyer-game-plan/#readiness
 internal_links:
   - {anchor: "Take the readiness review", url: /purchase/homebuyer-game-plan/#readiness, placement: "CTA module after first H2 (first 30%)"}
@@ -71,13 +71,13 @@ Applying for a Michigan mortgage? There is nothing material to hide. Lenders ver
 - Nothing material to hide: a knowingly false statement to a mortgage lending business is a federal crime under 18 U.S.C. §1014.
 - The Equal Credit Opportunity Act bars lenders from using race, color, religion, national origin, sex, marital status, age or public assistance income against you.
 - One table lists eight moves to avoid before closing, from new credit to undocumented cash.
-- Fannie Mae treats one deposit over 50% of monthly qualifying income as a large deposit. Explain it early, with the paper trail.
+- Fannie Mae treats a single deposit over 50% of monthly qualifying income as a large deposit. Explain it early, with the paper trail.
 
 ## Is there anything you should not tell a mortgage lender?
 
 Nothing material should be hidden. The application asks about your income, debts, assets, the property and legal matters such as judgments or bankruptcy, and the lender checks each one. You need not discuss what the law bars lenders from considering, and you should not offer guesses about your future as facts.
 
-You need not bring up a pregnancy, your religion or plans to have children. Keep hopes apart from facts, too: a raise not yet in writing is a possibility, not income.
+That covers a pregnancy, your religion and plans to have children. Keep hopes apart from facts, too: a raise not yet in writing is a possibility, not income.
 
 > **Not sure what applies to you?** Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can go over it first. Or take the eight-question readiness review.
 >
@@ -104,7 +104,7 @@ The application asks most of these as yes-or-no declarations. Michigan adds a fe
 | What to share | Why lenders ask | How it is usually verified |
 |---|---|---|
 | Income you want counted | It sets what you can qualify for | Pay stubs, tax records and an employer call |
-| Every debt | They set your debt-to-income ratio (DTI), monthly debts over gross income | Credit report and statements |
+| Every debt | Debts set your debt-to-income ratio (DTI), monthly debts over gross income | Credit report and statements |
 | Support you pay, including a Michigan Friend of the Court order | Fannie Mae counts court-ordered payments with more than 10 months left ([B3-6-05](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations)) | The order, plus payment history from [MiChildSupport](https://www.michigan.gov/michildsupport) |
 | Gifts toward the purchase | It must be a gift, not a loan ([B3-4.3-04](https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts)) | A signed gift letter and proof of the transfer |
 | Other homes, including a Michigan home with a Principal Residence Exemption (PRE) | Their payments count, and Michigan allows [one PRE at a time](https://www.michigan.gov/taxes/property/principal-residence-exemption) | Mortgage statements and tax bills |
@@ -145,7 +145,7 @@ If debt is the tight spot, read [how to improve your debt-to-income ratio](/lear
 
 Tell your loan officer right away about a new job, a raise, a lost job, a new debt, a large deposit or a change in who will live in the home. Many changes are workable when the lender learns early. Some need new documents or a revised disclosure of loan terms and costs.
 
-[VERIFY: revised Loan Estimate after a changed circumstance, 12 CFR 1026.19(e)(3)(iv)] A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall.
+A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall. [VERIFY: revised Loan Estimate after a changed circumstance, 12 CFR 1026.19(e)(3)(iv)]
 
 ## How do you explain a late payment, gap in work or large deposit?
 
@@ -160,7 +160,7 @@ Share your goal, whether buying, refinancing or using equity, plus rough income 
 Rough numbers are fine. If credit needs work, start with [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/), and read [why preapproval matters](/learn/importance-of-mortgage-preapproval/) before you shop.
 <!-- LINK ONCE LIVE: anchor "how to get preapproved for a mortgage" → /learn/how-to-get-pre-approved-for-a-mortgage/ (add to this paragraph when that post publishes) -->
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha handles each of her loans herself, from the first conversation to closing.
 
 > **Tell Samantha the complicated part first; that is what the first call is for.**
 >
@@ -180,7 +180,7 @@ Anything you cannot back up later, such as a raise not yet in writing or savings
 
 ### Do you have to tell a lender you are pregnant or plan to have children?
 
-No. Regulation B bars lenders from asking about plans to have or raise children, or assuming your income will fall because you might. A planned leave that changes your pay is different, because income is on the application. Mention the leave, not the pregnancy.
+No. Regulation B bars lenders from asking about plans to have or raise children, or assuming your income will fall because you might. A planned leave that changes your pay is different, because income is on the application. You can raise the leave without discussing the pregnancy.
 <!-- VERIFY: 12 CFR 1002.5(d) and 1002.6(b)(3); Fannie Mae B3-3.3-09 -->
 
 ### Do lenders check bank statements for cash deposits?
@@ -334,7 +334,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Do you have to tell a lender you are pregnant or plan to have children?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Regulation B bars lenders from asking about plans to have or raise children, or assuming your income will fall because you might. A planned leave that changes your pay is different, because income is on the application. Mention the leave, not the pregnancy."
+            "text": "No. Regulation B bars lenders from asking about plans to have or raise children, or assuming your income will fall because you might. A planned leave that changes your pay is different, because income is on the application. You can raise the leave without discussing the pregnancy."
           }
         },
         {

@@ -13,7 +13,7 @@ cluster: "C16 Real estate investing (breadcrumb parent /learn/financing-investme
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: 2026-11-16
-word_count: 2061
+word_count: 2060
 target_money_page: /product-loans/dscr-loans-michigan/
 internal_links:
   - {anchor: "DSCR loan requirements in Michigan", url: /product-loans/dscr-loans-michigan/}
@@ -130,7 +130,7 @@ Nightly income also depends on whether the city or township lets you operate. Re
 
 ## How do Michigan property taxes affect a DSCR loan?
 
-A Michigan rental does not get the Principal Residence Exemption, so it pays the local school operating millage, up to 18 mills, that an owner-occupied home is exempt from. Its taxable value also resets the year after you buy to the state equalized value, half of the assessor's market value. Both raise the tax line in the ratio.
+A Michigan rental gets no Principal Residence Exemption, so it pays up to 18 mills of school operating tax that an owner-occupied home does not. The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. Both raise the ratio's tax line.
 
 Michigan Treasury's [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal-residence-exemption) page says the exemption "exempts an owner’s principal residence from the local school operating millage, up to 18 mills." Treasury's [2025 millage rate list](https://www.michigan.gov/taxes/property/estimator/related/millage-rates) shows both rates; in most places the gap is the full 18 mills.
 
@@ -178,7 +178,7 @@ See [what a portfolio loan is](/learn/what-is-portfolio-loan/) and [buying a hom
 
 ## What are the downsides of a DSCR loan?
 
-A DSCR loan usually costs more than a conventional loan, many carry a prepayment penalty, and down payment and reserve requirements run larger. The biggest risk is a thin ratio: a vacancy, a rent cut or a tax reassessment can push it below 1.0. Run the numbers with conservative rent and the new owner's tax bill.
+DSCR loans usually cost more than conventional loans, many carry a prepayment penalty, and down payment and reserve requirements run larger. The biggest risk is a thin ratio: a vacancy, a rent cut or a tax reassessment can push it below 1.0. Run the numbers with conservative rent and the new owner's tax bill.
 
 A prepayment penalty matters if you may sell or refinance within a few years. Read that clause in the note, and see [how to refinance an investment property](/learn/how-to-refinance-investment-property/). `[VERIFY: typical DSCR prepayment structures]`
 

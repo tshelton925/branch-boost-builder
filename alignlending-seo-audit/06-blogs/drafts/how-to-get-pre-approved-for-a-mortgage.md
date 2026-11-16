@@ -120,7 +120,7 @@ Self-employed? The [self-employed homebuyer plan](/purchase/self-employed-homebu
 
 Usually only a little. A preapproval normally includes a hard credit inquiry, which can lower a score slightly. The CFPB says multiple mortgage credit checks within a 45-day window count as one inquiry, so comparing lenders in that window costs about the same as applying once. Talking with a lender or broker first needs no credit pull.
 
-The window comes from credit-scoring models, not federal law, and its length depends on the scoring version a lender uses ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/)). [VERIFY: 45 days per CFPB; some older FICO versions apply 14 days] Applying within about 2 weeks covers both. Each inquiry still shows on your report; the model counts the group once.
+The window comes from credit-scoring models, not federal law, and its length depends on the scoring version a lender uses ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/)). [VERIFY: 45 days per CFPB; some older FICO versions apply 14 days] Applying within about 2 weeks covers both.
 
 The score matters more than the inquiry. See [what credit score you need](/learn/whats-good-credit-score-to-buy-house/).
 
@@ -136,7 +136,7 @@ Your DTI is your total monthly debt payments divided by your gross monthly incom
 
 Once your documents are in, preapproval can take anywhere from the same day to a few business days, depending on how complete the file is and how many questions come up. The lender sets the letter's expiration date. Your pay stubs, bank statements and credit report must still be current when you close, so expect to send updates.
 
-For conventional loans, Fannie Mae limits credit documents, including the credit report, pay stubs and bank statements, to 4 months old on the note date, the day you sign at closing ([allowable age of credit documents](https://selling-guide.fanniemae.com/sel/b1-1-03/allowable-age-credit-documents-and-federal-income-tax-returns)). [VERIFY: Fannie Mae B1-1-03 coverage] Many lenders set expirations on a similar schedule, so a long search usually means new pay stubs, statements and sometimes a new credit report. No one can promise a timeline before seeing the file; a complete document set helps most.
+For conventional loans, Fannie Mae limits credit documents, including the credit report, pay stubs and bank statements, to 4 months old on the note date, the day you sign at closing ([allowable age of credit documents](https://selling-guide.fanniemae.com/sel/b1-1-03/allowable-age-credit-documents-and-federal-income-tax-returns)). [VERIFY: Fannie Mae B1-1-03 coverage] Many lenders set expirations on a similar schedule, so a long search usually means new pay stubs, statements and sometimes a new credit report. No one can promise a timeline before seeing the file.
 
 ## Is there such a thing as instant mortgage preapproval?
 
@@ -179,7 +179,7 @@ A preapproval can change or be canceled if your file changes after the letter: n
 
 More in [what not to tell (or do) before closing](/learn/what-not-to-tell-a-mortgage-lender/) <!-- new, link once live -->.
 
-[NEEDS SAMANTHA QUOTE: what a real preapproval should include and the work behind it (do not reuse the stock "pretty letter" quote)]
+[NEEDS SAMANTHA QUOTE: what a real preapproval should include and the work behind it] <!-- do not reuse the stock "pretty letter" quote -->
 
 Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Samantha prices your file with multiple wholesale lenders and quotes your payment with the new-owner Michigan property tax from the first conversation; the wholesale lender makes the credit decision. Talking first does not touch your credit, and if you would rather plan first, start with [the homebuyer game plan](/purchase/homebuyer-game-plan/).
 
@@ -200,7 +200,7 @@ Slightly. The hard inquiry in a preapproval can lower a score a little, and the 
 
 ### What disqualifies you from getting preapproved?
 
-Credit history and debt are the reasons lenders give most often. On denied Michigan purchase applications in 2025, lenders cited credit history and debt-to-income ratio each 42% of the time, and not enough cash to close 22%, according to Align Lending's Michigan Mortgage Market Report (2025 HMDA data). Undocumented income or cash can also stop one.
+Credit history and debt are the reasons lenders give most often. On denied Michigan purchase applications in 2025, lenders cited credit history and debt-to-income ratio each 42% of the time, and not enough cash to close 22%, according to Align Lending's Michigan Mortgage Market Report (2025 HMDA data).
 
 ### Can you get preapproved with more than one lender?
 
@@ -232,15 +232,15 @@ Every outside source this guide links to, in the order it appears.
 
 - [Credit reports and scores](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/) — Consumer Financial Protection Bureau
 - [12 CFR 1026.19 (Loan Estimate timing)](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-C/section-1026.19) — Electronic Code of Federal Regulations
-- [B3-3.1-02, Standards for Employment Documentation](https://selling-guide.fanniemae.com/sel/b3-3.1-02/standards-employment-documentation) — Fannie Mae Selling Guide
-- [B3-4.2-01, Verification of Deposits and Assets](https://selling-guide.fanniemae.com/sel/b3-4.2-01/verification-deposits-and-assets) — Fannie Mae Selling Guide
-- [Chapter B3-3, Income Assessment](https://selling-guide.fanniemae.com/sel/b3-3/income-assessment) — Fannie Mae Selling Guide
-- [B3-4.3-04, Personal Gifts](https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts) — Fannie Mae Selling Guide
-- [What exactly happens when a mortgage lender checks my credit?](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/) — Consumer Financial Protection Bureau
+- [B3-3.1-02, Standards for Employment Documentation](https://selling-guide.fanniemae.com/sel/b3-3.1-02/standards-employment-documentation) — Fannie Mae
+- [B3-4.2-01, Verification of Deposits and Assets](https://selling-guide.fanniemae.com/sel/b3-4.2-01/verification-deposits-and-assets) — Fannie Mae
+- [Chapter B3-3, Income Assessment](https://selling-guide.fanniemae.com/sel/b3-3/income-assessment) — Fannie Mae
+- [B3-4.3-04, Personal Gifts](https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts) — Fannie Mae
+- [When a mortgage lender checks your credit](https://www.consumerfinance.gov/ask-cfpb/what-exactly-happens-when-a-mortgage-lender-checks-my-credit-en-2005/) — Consumer Financial Protection Bureau
 - [Selling Guide Announcement SEL-2025-09](https://singlefamily.fanniemae.com/news-events/announcement-sel-2025-09-selling-guide-updates) — Fannie Mae
 - [Single Family Housing Policy Handbook 4000.1](https://www.hud.gov/sites/dfiles/OCHCO/documents/4000.1hsgh.pdf) — U.S. Department of Housing and Urban Development
-- [B1-1-03, Allowable Age of Credit Documents and Federal Income Tax Returns](https://selling-guide.fanniemae.com/sel/b1-1-03/allowable-age-credit-documents-and-federal-income-tax-returns) — Fannie Mae Selling Guide
-- [What's the difference between a prequalification letter and a preapproval letter?](https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-prequalification-letter-and-a-preapproval-letter-en-127/) — Consumer Financial Protection Bureau
+- [B1-1-03, Allowable Age of Credit Documents](https://selling-guide.fanniemae.com/sel/b1-1-03/allowable-age-credit-documents-and-federal-income-tax-returns) — Fannie Mae
+- [Prequalification vs. preapproval letters](https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-prequalification-letter-and-a-preapproval-letter-en-127/) — Consumer Financial Protection Bureau
 - [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) — Michigan Legislature
 - [MI Home Loan](https://www.michigan.gov/mshda/pathway-to-housing/mi-home-loan) — Michigan State Housing Development Authority
 
