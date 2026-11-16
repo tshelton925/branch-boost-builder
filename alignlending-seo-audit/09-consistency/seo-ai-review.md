@@ -1,6 +1,6 @@
 # SEO and AI-search impact review: alignlending.com overhaul
 
-**Role:** SEO & AI-search impact editor, Consistency Team · **Date:** 2026-11-16 · **Inputs:** every team report and CSV in 01–05 and 07 with their "Auditor corrections", 08-audit (6 audits + 6 correction files), `00-project/` (brief, rubric, brand guide §1/§8, KNOWN-CORRECTIONS), the crawl (`page_summary.csv`, `pages.jsonl`, `text/`), and DataWise GSC (property `7faa6221…`, synced 2026-11-13; the `overview` call returns page-attributed rows for 60 queries and 42 pages).
+**Role:** SEO & AI-search impact editor, Consistency Team · **Date:** 2026-11-16 · **Inputs:** every team report and CSV in 01–05 and 07 with their "Auditor corrections", 08-audit (6 audits + 6 correction files), `00-project/` (brief, rubric, brand guide §1/§8, KNOWN-CORRECTIONS), the crawl (`page_summary.csv`, `pages.jsonl`, `text/`), and DataWise GSC (property `7faa6221…`, synced 2026-11-13; the `overview` call returns 60 page-attributed query rows and 42 page rows across its 90- and 30-day views).
 **Scope:** whether the recommendations will move rankings, CTR, conversions and AI citations, and whether they fit the owner's request. Blog drafts (06-blogs) are out of scope. No other team's file was edited.
 
 **Files in this folder from this review**
@@ -27,18 +27,18 @@
    - the GBP and local-pack levers behind "home loans" (716 @2.8) and "near me";
    - the home page's broker answer.
 3. **AI readiness is strong on paper and weak in practice.** The teams wrote 334 question-heading answers for money pages and tools, and 292 meet the 40–60-word rule. But:
-   - Only **1 of the 15 top money pages** carries the canonical entity sentence today.
+   - **None of the 15 top money pages** carries the canonical entity sentence today; only the VA page has a partial broker line.
    - **0 of 15** carry the government non-affiliation line.
    - The one unique dataset (the 2026 Uncapping Study) is not stated in quotable form on the calculator or the taxable-value guide. That is why Align is absent on all four AI engines for both uncapping prompts.
 
    `ai-answer-blocks.md` closes these gaps. One P0 and one P1 compliance-sensitive answer were also fixed: the home FAQ "How is Align Lending paid?" (D5), and two different "who pays transfer tax" answers on two pages.
-4. **The schema plan needs one reconciliation.** Use the guide's canonical entity sentence verbatim as `description`. List the six states only in `areaServed`. Use no `aggregateRating` and no `openingHours` until Align gives real phone hours. Verified awards only, no NAMB. The spec is in §5.
+4. **The schema plan needs one reconciliation.** Use the guide's canonical entity sentence verbatim as `description`. List the six states only in `areaServed`. Use no `aggregateRating` and no `openingHours` until Align gives real phone hours. Verified awards only, no NAMB. The spec is in §4.
 5. **Order of work:**
    - First the measurement and compliance gates: Calendly UTM, GA4 `link_text`, and the P0 copy errors.
    - Then the four template fixes that multiply: city template, Learn CTA module and answer box, product template, hero image delivery.
    - Then page-level work, in value order: USDA trio, home, GBP and Bing Places, CTR rewrites, refinance, calculators.
 
-   The top 25 changes are in §7.
+   The top 25 changes are in §6.
 6. **Under-served asks.** The analysis has no Bing data (none is connected). No team rewrote Learn above-the-fold copy, although Learn pages hold most impressions. City pages have no independent audit. Scores exist everywhere but use different methods, so the owner has no single scorecard. Two owner decisions block content: MSHDA access (D3) and reverse mortgages (D1).
 
 ---
@@ -177,7 +177,7 @@ Related purchase calls:
 | Keep `mortgage-amortization` as canonical (02 cannibalization, P0) | Demotes the URL GSC credits | P0 |
 | 301 `fixed-rate-mortgage-options` to benefits-and-drawbacks (02, 05 before correction) | Sends a GSC-attributed URL to the wrong intent | P1 |
 | 301 `tips-for-refinancing-vacation-home` (05 inventory) | "refinance home" 135 @1.1 is inferred to it; unverified | P2 (hold) |
-| PRUNE `benefits-of-investing-in-mixed-use-developments` (05) | 2 of the site's ~80 non-brand clicks. A relevant 301 keeps most of it. | Acceptable; no fix row |
+| PRUNE `benefits-of-investing-in-mixed-use-developments` (05) | 2 clicks in 90 days (GSC page-attributed), one of the few Learn pages with any. A relevant 301 keeps most of it. | Acceptable; no fix row |
 | New "USDA Loan Requirements" post (blog-plan 7) | Splits the basics page's requirement queries | P1 |
 | New `/loan-to-value-calculator/` (calculators 193) | Splits calculator intent from the ranking article | P1 |
 | Learn title "Jumbo Loans in Michigan: Requirements…" (corrections-content 18) | Collides with the product page | P1 |
@@ -200,7 +200,7 @@ The legacy `/mortgage-location/` URLs (Flint, Wixom, Farmington Hills, Pontiac) 
 2. The canonical entity sentence once per page, the short form above the fold, and Samantha's line where she is named.
 3. Quotable Michigan facts: one per sentence, with number, place, period and source. Prefer Align's own data (the Uncapping Study, the 2025 HMDA report).
 4. A visible FAQ of 4–8 questions taken from GSC and PAA, matching `FAQPage` word for word.
-5. Schema by page type (§5), and the visible government non-affiliation line on FHA, VA and USDA pages.
+5. Schema by page type (§4.4), and the visible government non-affiliation line on FHA, VA and USDA pages.
 
 ### 3.1 Where the top 15 money pages stand
 
@@ -434,7 +434,7 @@ G15 linking system → G22 refreshes → G21 new posts (with the ownership guard
 | 9 | `/refinance/`: title "Refinance Your Michigan Home Loan", 8 inbound links, 2 missing answers, Service schema | 1 | 5 contextual inlinks; "refinance home loan" 856 | refinance rows 50, 72–95; fixes |
 | 10 | City template: meta generator + refinance block + loan-programs H2 + "Michigan mortgage expert" H2 | 276 | 4,227 city impressions mostly at positions 15–35; AI program × place prompts | consistency-sweep T2/T5; fixes T13 |
 | 11 | Learn above-the-fold answer box + topic-keyed module on the top 50 impression articles | 50 → 423 | Learn holds most impressions; 470/471 have no next step above the first H2 | fixes P1; cta-report §8 |
-| 12 | Product template: requirement-led subhead and requirements H2 (F20-safe) | 21 | AI "who can help with X in Michigan" prompts; product ATF scored 52–80 words of reassurance | products-a §5; answer §8–§11 |
+| 12 | Product template: requirement-led subhead and requirements H2 (F20-safe) | 21 | AI "who can help with X in Michigan" prompts; 5 of 6 priority product pages state no requirement in their 52–74-word opening (products-a finding 1) | products-a §5; answer §8–§11 |
 | 13 | Lease-to-own: retitle, "What is lease to own?" first H2, fold 2 siblings, Game Plan next step | 1 | 16,051 impressions; comparison queries at 11–14 | inventory; fixes |
 | 14 | VA funding fee calculator as the single chart home; title without "2026"; exemption FAQ; honest check date | 1 (+4) | 569 fee impressions on one URL instead of five | K2; fixes |
 | 15 | Transfer tax: one "who pays" sentence on 3 pages + 50-word answer above the calculator | 3 | GSC 121 @19.1 (30 days); Riverbank wins the AI answer | fixes P1; ai-visibility A4 |

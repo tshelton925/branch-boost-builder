@@ -2,14 +2,14 @@
 
 SEO & AI-search impact editor, Consistency Team · 2026-11-16 · Companion to `seo-ai-review.md` and `seo-ai-fixes.csv`.
 
-**How to use this file.** The core-page teams already wrote most question-H2 answers for these pages, and most meet the 40–60-word rule (automated check of the five core-page change files: 292 of 334 proposed question headings on 50 money pages and tools have a 40–60-word answer; 25 have no answer text, 13 are under 40 words and 4 are over 60; see `seo-ai-review.md` §4). This file does **not** rewrite those. For each page it gives:
+**How to use this file.** The core-page teams already wrote most question-H2 answers for these pages, and most meet the 40–60-word rule (automated check of the five core-page change files: 292 of 334 proposed question headings on 50 money pages and tools have a 40–60-word answer; 25 have no answer text, 13 are under 40 words and 4 are over 60; see `seo-ai-review.md` §3.1). This file does **not** rewrite those. For each page it gives:
 
 1. **Use as written**: the team rows that already pass (with any auditor correction applied).
 2. **Entity line**: the exact string to place on the page. The canonical sentence (guide §1) goes once per page, in the "Why Align" section or the reviewer/author box. Above the fold uses the short form.
 3. **New or replacement blocks**: exact final text for every question heading that is missing an answer, runs outside 40–60 words, or breaks a KNOWN-CORRECTIONS rule. Word counts are in brackets.
 4. **Quotable facts**: one fact per sentence, with number, place, period and source, for a "Key facts" box or the body. Use only these or the team's sourced figures.
 5. **FAQ set**: real questions from GSC and the PAA bank (`05-content-keywords/paa-question-bank.csv`). The visible FAQ must match `FAQPage` JSON-LD word for word.
-6. **Schema**: what the page needs, per the spec in `seo-ai-review.md` §5.
+6. **Schema**: what the page needs, per the spec in `seo-ai-review.md` §4.
 
 **Rules applied to every block.** The first sentence restates the subject and answers it; the second gives the deciding number or rule with its source; the third, where useful, gives the Michigan or Align specific. No CTA inside a block, no rate, APR or payment, and no down-payment percentage on a money page (F20). Fee schedules are flagged `[COMPLIANCE REVIEW]`. Government-program pages carry the non-affiliation line (F7). MSHDA wording follows F1/F2. Anything not verified in this project is tagged `[VERIFY]`. Copy that describes how Align works is subject to Align approval.
 
@@ -50,7 +50,7 @@ Why: row 28 uses the "paid by the lender, not by a fee you pay Align" sentence, 
 
 **FAQ set (visible = schema):** How is Align Lending paid? · Is it better to use a mortgage broker or a bank? · What is the downside of using a mortgage broker? · Does it cost anything to talk to a mortgage broker? · Can a mortgage broker get me a lower rate? · When should I talk to a mortgage broker? · Can I use a Michigan mortgage broker who is not in my town? · Where is Align Lending licensed?
 
-**Schema:** Organization + FinancialService (one node, `@id` #organization), Person (#samantha-shelton), WebSite + SearchAction, FAQPage. No AggregateRating, no openingHours (review §5).
+**Schema:** Organization + FinancialService (one node, `@id` #organization), Person (#samantha-shelton), WebSite + SearchAction, FAQPage. No AggregateRating, no openingHours (review §4.2).
 
 ---
 

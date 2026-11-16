@@ -17,7 +17,7 @@ cluster: "C12 Michigan property tax, uncapping, homestead and transfer tax (brea
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 1992  # visible body text incl. FAQ, Sources and disclosure; excludes front matter, placeholders and JSON-LD
+word_count: 1997  # visible body text incl. FAQ, Sources and disclosure; excludes front matter, placeholders and JSON-LD
 target_money_page: "/michigan-property-tax-calculator/"
 internal_links:
   - {anchor: "estimate your Michigan property tax after you buy", url: "/michigan-property-tax-calculator/", placement: "eligibility H2, first 30% of body"}
@@ -74,7 +74,7 @@ The homestead property tax credit is a refundable [Michigan income tax credit](h
 ## Who qualifies for the homestead property tax credit?
 
 <!-- .al-answer -->
-You qualify if your homestead is in Michigan, you lived in Michigan at least six months of the year, and your total household resources are within Treasury's limit. Owners also need a taxable value within Treasury's cap. Seniors, people with disabilities and some veterans have special calculations.
+You qualify if your homestead is in Michigan, you were a Michigan resident at least six months of the year, and your total household resources are within Treasury's limit. Owners also need a taxable value within Treasury's cap. Seniors, people with disabilities and some veterans have special calculations.
 
 **Tax year 2025 limits,** from Treasury's [2025 credit information](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/tax-year-credit-information/2025) and [2025 MI-1040CR instructions](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-Instr.pdf).
 
@@ -133,7 +133,7 @@ The Principal Residence Exemption lowers your bill by exempting the home you own
 | Income test | None | $71,500 limit (tax year 2025) |
 | If you missed it | Assessor can grant this year and three prior | Up to four years after the due date |
 
-Treasury's [PRE page](https://www.michigan.gov/taxes/property/principal) calls the exemption "distinct from" the credit, and its [claim rules](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) set both deadlines. Owners can have both; see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). Paid through Treasury, the credit does not change what your [mortgage escrow accounts](/learn/mortgage-escrow-accounts/) pay.
+Treasury's [PRE page](https://www.michigan.gov/taxes/property/principal) calls the exemption "distinct from" the credit, and its [claim rules](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) set both deadlines. Owners can have both; see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). Paid through Treasury, the credit does not change what [mortgage escrow accounts](/learn/mortgage-escrow-accounts/) pay toward the bill.
 
 ## How do you file the homestead property tax credit?
 
@@ -145,14 +145,14 @@ File Form MI-1040CR with your MI-1040 return, or by itself if you are not requir
 3. **Pick the form:** MI-1040CR, plus MI-1040CR-2 if you qualify.
 4. **File** online or by mail, with your MI-1040 (due April 15, 2026, for tax year 2025) or alone. [VERIFY: tax year 2026 claim due date in Treasury's 2026 instructions.]
 
-Treasury's [2025 MI-1040 book](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf) lists the credit as refundable and notes it can be federally taxable for itemizers; see [new tax laws and homeownership](/learn/impact-of-new-tax-laws-on-homeownership/).
+Treasury's [2025 MI-1040 book](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf) lists the credit as refundable and notes it may be federally taxable if you itemized property taxes; see [new tax laws and homeownership](/learn/impact-of-new-tax-laws-on-homeownership/).
 
 ## Can renters claim the Michigan property tax credit?
 
 <!-- .al-answer -->
 Yes. Renters with a lease or rental agreement treat 23% of the rent paid on their Michigan home as property tax in most cases and claim on the same MI-1040CR. The tax year 2025 household resources limit of $71,500 applies, but the taxable value cap does not.
 
-Treasury's [renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) lists exceptions, such as 10% of rent in service-fee housing, no credit in tax-exempt housing with no service fee, and an alternate credit for renters 65 or older.
+Treasury's [renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) lists exceptions, such as 10% of rent in service-fee housing, only the rent you pay in subsidized housing, and an alternate credit for renters 65 or older.
 
 ## Do seniors get a property tax break in Michigan?
 
@@ -182,6 +182,7 @@ The year after a home sells, its taxable value resets to the state equalized val
 
 [NEEDS SAMANTHA QUOTE: what she tells buyers about their first full Michigan tax bill]
 
+<!-- "How Align can help" paragraph (not a heading) -->
 Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. When you buy, Samantha Shelton, Broker Owner and Senior Loan Originator (NMLS 1647301), builds your budget from the new owner's tax, not the seller's bill. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. For credit filing questions, use Michigan Treasury or a tax professional.
 
 <!-- End CTA block -->
