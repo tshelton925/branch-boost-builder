@@ -110,13 +110,13 @@ The address and income tests come first, and you can run both yourself: [Check a
 
 <p class="al-answer">USDA does not set a minimum credit score in its handbook. Its Guaranteed Underwriting System (GUS) generally needs a score of 640 or higher for an automated approval. Below that, or with thin credit, a lender can underwrite the file manually with stricter documentation, and many lenders add their own minimum score.</p> [VERIFY: HB-1-3555 Ch. 10, sections 10.3 to 10.5 and Attachment 10-A, for the 640 standard and the GUS Refer below it]
 
-The regulation's standard is an acceptable credit history, one that shows a reasonable ability and willingness to repay debts ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)). The score is how GUS sorts files quickly. A score of 640 or higher generally meets the standard when nothing else on the report raises a concern, but USDA's own training notes that a validated score does not, by itself, prove acceptable credit.
+The regulation's standard is an acceptable credit history, one that shows a reasonable ability and willingness to repay debts ([7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151)). The score is how GUS sorts files quickly. A score of 640 or higher generally meets the standard when nothing else on the report raises a concern, but the score alone does not prove acceptable credit.
 
 Two cases surprise people. A file with no score at all can still qualify on a nontraditional credit history, such as a record of rent and utility payments [VERIFY: HB-1-3555 Ch. 10, nontraditional credit]. And a strong score does not cancel items that make credit unacceptable, such as a delinquent federal debt [VERIFY: HB-1-3555 Ch. 10 list of unacceptable credit indicators]. Lenders also add their own minimums, called overlays, so two lenders can answer the same file differently. Compare the programs in [what credit score you need, by loan type](/learn/whats-good-credit-score-to-buy-house/).
 
 ### Can I get a USDA loan with a 550 credit score?
 
-It is very unlikely with most lenders. Nothing in the handbook rules out a 550 score by name, but a score that low sends the file to manual underwriting, where the lender has to document why the credit is acceptable, and many lenders will not take USDA files below 600 or 640. The practical step is to find out what is holding the score down and work on those items before you apply.
+It is very unlikely with most lenders. Nothing in the handbook rules out a 550 score by name, but a score that low sends the file to manual underwriting, where the lender has to document why the credit is acceptable, and lenders often set their own floor well above 550. The practical step is to find out what is holding the score down and work on those items before you apply.
 
 ## What is the maximum debt-to-income ratio for a USDA loan?
 
@@ -228,7 +228,7 @@ The most common reasons are an ineligible address or household income over the c
 
 ### Can I put a down payment on a USDA loan?
 
-Yes. USDA's Guaranteed program does not require a down payment, but it allows one. A down payment lowers the amount you borrow, and you still pay closing costs and prepaid items whether or not you put money down.
+Yes. [USDA's Guaranteed program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-guaranteed-loan-program) does not require a down payment, but it allows one. A down payment lowers the amount you borrow, and you still pay closing costs and prepaid items whether or not you put money down.
 <!-- [COMPLIANCE REVIEW]: down payment answer stated as USDA's rule; keep away from CTAs. USDA source: Single Family Housing Guaranteed Loan Program page, listed in Sources. -->
 
 Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA.
