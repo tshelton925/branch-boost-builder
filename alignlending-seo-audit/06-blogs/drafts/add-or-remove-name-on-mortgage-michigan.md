@@ -14,7 +14,7 @@ cluster: "C09 Refinancing"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2288
+word_count: 2296
 target_money_page: "/refinance/"
 internal_links:
   - {anchor: "refinancing your Michigan mortgage", url: "/refinance/"}
@@ -65,7 +65,7 @@ Adding a spouse or relative, or keeping the home after a divorce, usually takes 
 - **The loan and the deed are separate.** The deed shows who owns the home; the note shows who owes the money.
 - **A quitclaim deed does not remove anyone from the loan.** Only a refinance, sale or lender release does.
 - **Federal law shields some family transfers,** such as adding a spouse or child to title, from the due-on-sale clause `[VERIFY: 12 U.S.C. 1701j-3(d)]`.
-- **Check Michigan's uncapping exemptions before you record.** Spouses and certain relatives are exempt (MCL 211.27a(7)); a 2026 sale raised a typical home's taxable value about 50.5%.
+- **Check Michigan's uncapping exemptions before you record.** Spouses and certain relatives are exempt (MCL 211.27a(7)); after a sale, a typical home's taxable value jumped about 50.5% in 2026.
 
 *Not legal or tax advice. Have a Michigan attorney review any deed or divorce judgment.*
 
@@ -154,7 +154,7 @@ Fannie Mae treats a buyout of a co-owner under a written agreement as a limited 
 | Former spouse's half | $70,000 |
 | New loan before closing costs | $230,000 |
 
-Loan amounts only, before closing costs and prepaid items. No rate or payment is implied.
+Loan amounts only, before closing costs and prepaid items; no rate or payment implied.
 
 See [how a cash-out refinance works](/learn/what-is-cash-out-refinance-loan/) and [cash-out refinance in Michigan](/product-loans/cashout-loans/).
 
@@ -188,7 +188,7 @@ A refinance also replaces your current loan's interest rate and terms, so compar
 <!-- .al-answer -->
 Talk to a Michigan attorney before you record any deed during a divorce, an estate plan or a family transfer. The deed type, the form of ownership and the timing affect who is liable, what is taxed and who inherits. A mortgage broker can explain the loan side, not the legal one.
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. If the honest answer is to leave the loan you have alone, Samantha says that too.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha can price a refinance for the borrower who stays, and if leaving your loan alone is the honest answer, she says so.
 
 > [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) · No credit pull to talk.
 >
