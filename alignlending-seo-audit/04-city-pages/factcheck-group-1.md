@@ -382,3 +382,24 @@ The floor is 40. Grades: A 90+, B 80-89, C 70-79, D 60-69, F under 60. "Sample" 
 - **School-district shares by homes, and ZIP shares by homes** (2020 block counts), were not re-tabulated. Area-based shares were checked against the ZCTA files.
 - **Commute times** are OSRM no-traffic routes. They are labeled as such on the pages and were not re-run.
 - **Portal price figures were not "corrected" to other portal data.** Section 5 rates their source quality instead.
+
+## Auditor corrections
+
+*Independent audit, 2026-11-15. Full detail: `08-audit/audit-city.md`; exact row changes: `08-audit/corrections-city.csv`.*
+**Verdict: PASS WITH CORRECTIONS.** All 18 P0s are confirmed:
+- The 15 tax-share values reproduce exactly from the ACS 2020-2024 B25103 and B25077 files (e.g., Montrose $2,641 / $113,300 = 2.33%).
+- The 3 "May 1" PRE deadlines are confirmed against MCL 211.7cc(2).
+
+These are also confirmed against primary files: Berkley 15,145 (V2025) and 15,194 (2020); the P.O. Box ZIPs (no ZCTA); Oxford 48370 at 96.8% Addison Township; McLaren HQ in Grand Blanc; Flint's $53,500. This group's tax-share standard (gap ≥0.5 point = P0, 0.25-0.5 = P1, one decimal) is adopted as the unified standard for all groups.
+
+1. **Score:** the group's 90 (A) → **80 (B)** under the rubric's §3.11 anchors. One material error (a wrong figure, an outdated program rule) is the 60 anchor, but such pages were scored 71-96. Sample re-scores: Montrose 84 → 65, Auburn Hills 73 → 60, Fenton 82 → 65, Holly 82 → 60, Flint 84 → 76, Oxford 80 → 65, Waterford 96 → 88, Troy 96 → 88, Addison Twp 95 → 88, Berkley 82 → 80.
+2. **`[VERIFY]` hero rows** (Sylvan Lake, Auburn Hills and other stale or list-price heroes) get exact Census values, pending D2. Sylvan Lake becomes $391,000; the old `[VERIFY: standard sale-price measure]` contradicted this report's own §5. Otter Lake is $101,000 with a wide-margin caveat.
+3. **Sources:** the McLaren correction cites Wikipedia; use McLaren's 2017 annual report.
+4. **Fenton +25% (Oakland hub):** this is not a transcription error. The Uncapping Study lists a separate Fenton (Oakland part) row at +25.1%, and that part has about 25 residents. Drop the row from the Oakland hub, or label it "mostly Genesee County, +55%".
+5. **Lake Orion ZIPs:** the village lies 100% in ZCTA 48362, so 48360 should not be listed as a village ZIP `[VERIFY page scope]`.
+6. **Missed findings:**
+   - §6 fair-housing words on 8 pages (Bingham Farms, Birmingham, Brighton, Dryden, Holly, Lake Angelus, Otter Lake, South Lyon).
+   - "Talk with a local mortgage expert" on every page (F15).
+   - The paraphrased or unsourced Samantha quotes.
+   - No government non-affiliation line.
+7. **Not reproducible here:** the 776 Treasury millage matches. Treasury's PDF returns 403 to scripted requests from this session. A spot-check of Northville's Wayne side against the Wayne County report matches (42.1693 / 60.1693).

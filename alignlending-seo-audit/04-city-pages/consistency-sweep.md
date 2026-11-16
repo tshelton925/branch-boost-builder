@@ -333,3 +333,25 @@ Per-page exact text for every item is in `city-fixes.csv`.
 **To Align (approval needed):** provenance of the 4 "In Samantha's words" quotes; whether to move the Farmington Hills URL or only redirect the patterned slug.
 
 **Data notes:** Bing data is not connected, so this has no Bing query-pattern view and a Bing export is needed to check whether "{city} mortgage broker" word order differs there. GSC in DataWise is query-level only; a page-level GSC export would replace the name-matching attribution in §2c.
+
+## Auditor corrections
+
+*Independent audit, 2026-11-15. Full detail: `08-audit/audit-city.md`; exact row changes: `08-audit/corrections-city.csv`.*
+**Verdict: PASS WITH CORRECTIONS.** Every headline number reproduces from `$DATA`: NAP 276/276; about 1,000 stat H3s (984 strict to 1,008 loose); 132 Wikipedia pages and 171 links; 111 metas under 140; median unique 68.1% (Kentwood minimum); top pair 0.129 / 0.048. The Farmington Hills 404 is confirmed live. Northville's three county answers, Blair Township's missing hub link, the 40 additional-cities-only pages and Berkley's impossible label are all confirmed.
+
+1. **Meta P0s (17) move to P1 and wait for owner decision D2.** The mismatch is real, but 16 of the meta figures exist on the page as ZIP or sale figures. Copying the glance figure would carry the mixed-measure problem into the metas: Sylvan Lake's glance is a Zillow list price while its meta holds the Census median $391,000, so do not apply that fix; Southfield's glance is a spring list price; St. Clair Shores' is a ZIP 48081 card. Only Oak Park's $230,000 is unsupported; drop that price now.
+2. **Northville:** Census Vintage 2025 puts 3,285 of 6,013 residents in Oakland. Use `containedInPlace` [Oakland, Wayne], set the breadcrumb to Oakland County, and link back to both hubs.
+3. **Multi-county list:** withdraw **Otisville**. It is wholly in Genesee County; the "county line through the village" sentence on that page describes Otter Lake. Add **Memphis** (Macomb 782 / St. Clair 309) and, optionally, Midland (Bay part, 176). The `<County 1>` placeholders are resolved in the CSV.
+4. **Berkley:** P1, not P0. Exact text: "The city of about 15,100 residents (U.S. Census Bureau estimate, July 1, 2025)".
+5. **Population-label rows (92):** do not apply them as written. They would put a Census label on aggregator figures (Algonac's 4,070 is a World Population Review projection). The CSV replaces 90 with Vintage 2025 values and withdraws 7 that describe a tract, ZIP, township or county side (e.g., Clawson "Tract 1800 Population 2,445").
+6. **Missed compliance items:**
+   - "Talk with a local mortgage expert" is on 276/276 pages, and T7 re-specifies it. Use "Talk with a Michigan mortgage expert" (F15).
+   - 0/276 pages carry the government non-affiliation line (F7; PM or counsel to confirm scope).
+   - 14 pages use §6 fair-housing words ("quiet", "desirable", "sought-after", "upscale", "thriving"); exact rewrites are in the CSV.
+   - Lake Orion and Rochester Hills carry a "30-year fixed ... $10,662 less" savings sentence [COUNSEL].
+7. **Samantha quotes:** 74 pages use a bank quote verbatim and 57 use a long form published elsewhere. Replace the **66-page paraphrase** ("County alone does not tell you much...") with the verbatim quote "I wouldn't tell somebody, 'You're in Oakland County, so here's what your taxes are.' It doesn't work like that. We need the actual property." Hold the **79-page quote** ("In Michigan, don't just look at the current tax bill...") behind `[NEEDS SAMANTHA QUOTE]` until Align confirms its source.
+8. **Scores:**
+   - Intent & H1: 92 → 88 (B). The rubric cites this template as the 80-90 pattern.
+   - Title & meta: 83 → 76 (C). The rubric's 60 anchor names this title pattern.
+   - Linking 89 → 85 and Uniqueness 96 → 92 are within tolerance.
+   - Retire the separate "consistency" accuracy score. Unified city-set Accuracy & compliance = 82 (B).

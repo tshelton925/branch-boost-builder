@@ -319,3 +319,22 @@ The Uncapping Study percentages are Align's own research. They are consistent wi
    - NMLS present wherever Samantha is named
 4. **Human review for narrative facts.** Every employer count, enrollment figure and "first/oldest/newest" claim needs a primary URL in the Sources list and a review date. Re-verify these yearly; they are where every hard error in this group came from.
 5. **Change log.** Record each refresh (field, old value, new value, source, date) so the auditor can trace any figure on any page.
+
+## Auditor corrections
+
+*Independent audit, 2026-11-15. Full detail: `08-audit/audit-city.md`; exact row changes: `08-audit/corrections-city.csv`.*
+**Verdict: PASS WITH CORRECTIONS.** Both P0 claims are confirmed wrong on the page:
+- U-M "about 30,000 jobs": SPARK lists ≥36,700; U-M's own count is ≥51,947.
+- EMU "about 23,000 students": fall 2025 preliminary was 12,176.
+
+Also confirmed: Grand Rapids V2025 201,183; East Lansing 47,741 (2020); Ypsilanti 20,648 and $232,700; Ann Arbor $453,400; 79 of 87 pages on the Census basis; Scio +30.5%; the Additional Cities hub's missing NMLS; Marquette about 333 miles from Waterford.
+
+1. **Lansing population: REFUTED value.** Census Vintage 2025 = **113,884** (Ingham 108,771 + Eaton 5,113), not 114,783. Use "about 113,900 residents in the Census Bureau's July 1, 2025 estimate". Its source (bridgemi.com) is not primary.
+2. **EMU replacement is a year stale and weakly sourced.** It relies on a student newspaper, and preliminary fall 2026 figures show about 11,468. Use "Eastern Michigan University, with about 11,500 students in fall 2026, ..." [VERIFY with EMU IRIM or the House Fiscal Agency data].
+3. **U-M figure "56,276" did not reproduce.** OBP's November 2025 summary shows 51,947 (campus + hospital, excluding student employees) and a grand total of 58,505 [VERIFY against the PDF]. The SPARK-based text may stand. With U-M's own figure, write "more than 50,000 faculty and staff".
+4. **Sources** in this report's own evidence break guide §7.10: Wikipedia (East Lansing, Potter Park), The Eastern Echo and Bridge. They are replaced in the CSV.
+5. **33 population placeholders** are resolved with Vintage 2025 values now that the Census bulk files are reachable (e.g., Pittsfield 40,300, Caledonia 17,200, Kalamazoo 72,700).
+6. **Missed tax-share errors** on 4 legacy Washtenaw pages: Manchester 1.03 vs 1.47, Saline 1.36 vs 1.78, Milan 1.20 vs 1.59, Ypsilanti 1.49 vs 1.86 (all P1).
+7. **"Talk with a Michigan mortgage expert":** correct, and it applies to all 276 city pages, not just these 87.
+8. **Counties:** East Lansing (Clinton part) and Traverse City (Leelanau part) need two-county eyebrows; add Midland (Bay part, 176) as P2.
+9. **Score:** the group's 95.5 (A) → **86 (B)**. 43 "coherence only" pages were scored 95-97 with no outside check, and the material-error pages sit at the 60 anchor. Sample re-scores: Ann Arbor 82 → 65, Ypsilanti 80 → 60, Manchester 89 → 65, Saline 93 → 78, East Lansing 92 → 80, Lansing 94 → 86, Grand Rapids 94 → 86, Kentwood 95 → 88, Marquette 97 → 88, Traverse City 95 → 86.

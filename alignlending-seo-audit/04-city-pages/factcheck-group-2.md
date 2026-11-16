@@ -282,3 +282,23 @@ Sorted from lowest score. "Deep sample" = verified claim by claim against primar
 - **Detroit Land Bank** "progress photos every 45 days" (buildingdetroit.org not reachable); **Hudson Ordinance 190 (1971)** (city code not reachable); **Toledo 2.5%** income tax (Ohio source not fetched). The rates and rules are consistent with known law, but the specifics were not independently confirmed.
 - Block-group and home-count shares ("about 62% of 48065 homes") need block-level ZCTA assignment and were not recomputed.
 - Out-of-county neighbor rates (Oakland: Troy, Novi, Ferndale, Southfield; Lapeer; Sanilac; Washtenaw) were not checked.
+
+## Auditor corrections
+
+*Independent audit, 2026-11-15. Full detail: `08-audit/audit-city.md`; exact row changes: `08-audit/corrections-city.csv`.*
+**Verdict: PASS WITH CORRECTIONS.** The Highland Park 2026 rates (47.0420 / 62.8362; the debt levy fell from 21.22 to 5.40) and every sampled 2026 Wayne rate reproduce from the county's 2026 apportionment report: Detroit 64.1017, Grosse Pointe Woods, Harper Woods, Sumpter, Westland and Romulus. Also confirmed against primary files:
+- Allen Park 28,638 / 27,445; Grosse Pointe Woods $342,100
+- Hamtramck 48211 (18.9% of land); P.O. Box ZIPs 48112, 48061 and 48090; New Haven 48050
+- Memphis's two counties; the Detroit price conflicts; Adrian's missing page
+
+1. **Emmett population: REFUTED.** The 2020 Census count (PL 94-171 POP100) is **258**, exactly what the page says. 239 is the Census estimates base. Withdraw the correction (optional V2025 relabel: about 240 residents, July 1, 2025).
+2. **Tax-share standard was looser than group 1's.** 31 group-2 pages deviate from the ACS ratio by more than 0.25 point and 14 by ≥0.5 point. Only 8 were marked incorrect; the rest were "unverifiable P2". Re-grade under the unified standard: River Rouge 1.52 vs 2.43, Trenton 1.41 vs 2.00, Riverview, Blissfield, Romulus, New Haven and Allen Park become P0, and the 8 flagged pages move P1 → P0. Use one decimal (ACS medians do not support two). Suppress Emmett (margin 57% of the estimate).
+3. **Highland Park: P0 → P1-high.** Every instance is labeled "2025" and is true for 2025. Page score 56 (F) → 66 (D), which lifts the G2 cap.
+4. **Millage currency (43 pages):** do not rewrite tables into mixed years. Add one dated 2026 sentence only where the certified rate moved ≥1.0 mill (12 Wayne pages, including Highland Park). Refresh everything else when Treasury publishes its 2026 Total Rates. `current_value` must quote the on-page sentence; "Page cites 2025 totals for X" is a description, not text that can be replaced.
+5. **Instruction-only rows** (World Population Review, Data USA, Wikipedia) are made exact in the CSV. For example, Wyandotte becomes "about 24,100 residents (U.S. Census Bureau estimate, July 1, 2025)".
+6. **Score:** the group's 93 (A) → **81 (B)**. Sample re-scores: River Rouge 98 → 65, Trenton 97 → 65, Belleville 76 → 60, Hamtramck 89 → 65 ("sought-after ... enclave" is a §6 word), Emmett 78 → 65, Sterling Heights 100 → 88, Port Huron 90 → 80, Detroit 69 → 65, Grosse Pointe Woods 82 → 78.
+7. **Missed findings:**
+   - §6 fair-housing words on Britton, Hamtramck, Maybee, South Rockwood, Wyandotte and Yale.
+   - "Talk with a local mortgage expert" on every page (F15).
+   - No government non-affiliation line.
+   - Northville's breadcrumb should be Oakland, the majority county. Group 1 owns that page's score.
