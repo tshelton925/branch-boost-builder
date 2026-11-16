@@ -162,7 +162,7 @@ Share your goal, whether buying, refinancing or using equity, plus rough income 
 
 Rough numbers are fine. If credit needs work, start with [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/). Read [why preapproval matters](/learn/importance-of-mortgage-preapproval/) before you shop, then follow [how to get preapproved for a mortgage](/learn/how-to-get-pre-approved-for-a-mortgage/) step by step.
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Talking first does not touch your credit.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. We compare your scenario across multiple wholesale lenders.
 
 > **Tell Samantha the complicated part first; that is what the first call is for.**
 >
