@@ -13,10 +13,12 @@ supporting_keywords:
   - do lenders check bank statements for cash deposits
   - is it illegal to lie on a mortgage application
 cluster: "C08 Credit, DTI and qualifying"
-status: "Draft — subject to Align approval"
+status: "Edited draft — subject to Align approval"
+editor_review: "06-blogs/editor-review-E3.md (E3 editor, 2026-11-16)"
+publish_week: "W6 (Dec 28, 2026–Jan 3, 2027). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 1980
+word_count: 1880  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E3 editor count)
 target_money_page: /purchase/homebuyer-game-plan/#readiness
 internal_links:
   - {anchor: "Take the readiness review", url: /purchase/homebuyer-game-plan/#readiness, placement: "CTA module after first H2 (first 30%)"}
@@ -31,20 +33,20 @@ internal_links:
   - {anchor: "why preapproval matters", url: /learn/importance-of-mortgage-preapproval/, placement: "First call"}
   - {anchor: "Talk with Samantha", url: "https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end", placement: "End block"}
   - {anchor: "How we choose and check sources", url: /editorial-policy/, placement: "Sources"}
-  - {anchor: "buying after bankruptcy or foreclosure", url: /learn/buying-a-house-after-bankruptcy-or-foreclosure/, placement: "What happens if you leave something out", status: "NEW, link once live (HTML comment in body)"}
-  - {anchor: "how to get preapproved for a mortgage", url: /learn/how-to-get-pre-approved-for-a-mortgage/, placement: "First call", status: "NEW, link once live (HTML comment in body)"}
+  - {anchor: "buying after bankruptcy or foreclosure", url: /learn/buying-a-house-after-bankruptcy-or-foreclosure/, placement: "What happens if you leave something out", status: "NOT LIVE until W8: held in an HTML comment in the body"}
+  - {anchor: "how to get preapproved for a mortgage", url: /learn/how-to-get-pre-approved-for-a-mortgage/, placement: "First call", status: "new post, publishes W2 (before this post): linked; confirm live on publish day"}
 verify_flags:
-  - "18 U.S.C. §1014: scope ('mortgage lending business') and penalty (fine up to $1,000,000, prison up to 30 years) confirmed only through search results and secondary summaries; govinfo.gov could not be fetched from this session. Confirm the statute text."
-  - "Regulation B: prohibited bases, §1002.5 inquiry limits (marital status wording for secured credit, dependents, childbearing), and §1002.6(b)(3) (no assumptions about childbearing). The CFPB amended Regulation B effective July 21, 2026 (disparate impact, discouragement, special purpose credit); confirm §1002.5 and §1002.6 wording and paragraph numbers are unchanged. consumerfinance.gov could not be fetched."
-  - "URLA (Form 1003): income-section note that alimony, child support or separate maintenance income need be revealed only if you want it considered; Section 5 declarations wording (co-signer on undisclosed debt, new credit before closing, judgments, lawsuits, 7-year bankruptcy/foreclosure/short sale questions, occupancy); Section 8 demographic information is optional. Confirmed only from third-party copies of the form."
-  - "Fannie Mae B3-6-05: court-ordered alimony, child support and separate maintenance with more than 10 months remaining counted as a monthly debt (confirmed from Selling Guide search snippet; confirm current version)."
-  - "Fannie Mae B3-4.3-04: gift letter contents. Search confirmed a signed donor letter is required; the field list (amount, no repayment expected, donor contact and relationship) is not stated in the draft, keep it that way unless confirmed."
-  - "Fannie Mae B3-4.2-02: 'large deposit' = single deposit over 50% of total monthly qualifying income (confirmed from Selling Guide snippet). Purchase-transaction documentation wording conflicts across summaries; draft says the lender 'may ask for its source' and unsourced money 'may not count'. Confirm."
-  - "Fannie Mae B3-3.3-09 temporary leave income (section renumbered from B3-3.1-09 in 2026 per search); confirm the leave types named (parental, medical)."
-  - "Employment re-verification shortly before closing (Fannie Mae verbal verification of employment; the site cites both B3-3.1-04 and B3-3.1-07, and the underwriting guide says 'within 10 business days of the note date'). Draft avoids the section number and the day count."
-  - "Revised Loan Estimate after a changed circumstance: 12 CFR 1026.19(e)(3)(iv)."
-  - "Michigan rows in the share table, each as an underwriting item: Friend of the Court orders and MiChildSupport payment history; land contract payments as a debt; Michigan Treasury tax liens; delinquent property taxes returned to the county treasurer each March 1 (confirmed from michigan.gov snippet); one PRE at a time (confirmed from local assessor pages and Treasury form copies, not michigan.gov directly)."
-  - "Job change FAQ: 'a move in the same line of work at similar or higher pay is often easier to document' is general guidance; confirm against Fannie Mae employment history rules or soften."
+  - "[NEEDS SAMANTHA QUOTE: why she wants to hear about the complicated part of a file on the first call]"
+  - "[COMPLIANCE REVIEW] Counsel to confirm that '30 years' (the prison term under 18 U.S.C. §1014, FAQ 6) is not read as a repayment-period trigger term."
+editor_resolved_flags:
+  - "18 U.S.C. §1014: 'mortgage lending business' (added 2009) and the penalty (fine up to $1,000,000, up to 30 years, or both) confirmed from the statute text (Cornell LII, GovInfo, House OLRC results)."
+  - "Regulation B: §1002.5(d)(3) (no questions on birth control or bearing or rearing children; dependents' number, ages and costs allowed) and §1002.6(b)(3) (no assumptions about childbearing) confirmed on eCFR. The 2026 final rule (published April 22, 2026, effective July 21, 2026) amended §§1002.4(b), 1002.6(a), 1002.8 and 1002.15, not the provisions cited here."
+  - "Marital status wording and the alimony and child support income note: consistent with §1002.5(d)(1)-(2) and the URLA income-section note; URLA Section 5 seven-year declarations confirmed from a reproduction of the form; Section 8 demographic information is optional."
+  - "Fannie Mae B3-6-05 (08/05/2026): court-ordered support with more than 10 months remaining counts as a debt. B3-4.3-04 (02/04/2026) gift letter. B3-4.2-02 (12/14/2022): large deposit = single deposit over 50% of total monthly qualifying income; on purchases, large-deposit funds needed for closing must be sourced. B3-3.3-09 temporary leave income (03/04/2026). Verbal verification of employment now B3-3.1-04 (10/07/2026). All confirmed from Selling Guide text in search results."
+  - "12 CFR 1026.19(e)(3)(iv) revised Loan Estimate for changed circumstances: confirmed."
+  - "Michigan rows: MiChildSupport is the State's payment system; unpaid property taxes are returned delinquent on March 1 (MCL 211.78a; consistent with Align's existing guides); 'only one principal residence at a time' is Treasury's affidavit wording (table now says that rather than 'one PRE at a time')."
+  - "Eight-question readiness review: confirmed on /purchase/homebuyer-game-plan/ ('Question 1 of 8')."
+  - "Removed 'Samantha handles each of her loans herself' (D6 pending: the brand review limits that line to pages that already carry it)."
 image_brief:
   description: "Lead graphic: a two-column checklist card. Left column 'Share' with icons for income, debts, gifts and other homes. Right column 'Hold off until closing' with icons for new credit, job change and cash deposits. Icons only, no people, no figures or regulated numbers. File what-to-tell-a-lender.webp, 1200 x 630 for Open Graph, at most 80 KB, width and height set, not lazy-loaded if used as the hero."
   alt: "Checklist of what to share with a mortgage lender and what to hold off on until closing"
@@ -52,12 +54,13 @@ image_brief:
 
 **Subject to Align approval.**
 
-<!-- EDITOR NOTES
+<!-- EDITOR NOTES (updated by the E3 editor, 2026-11-16)
 - Speakable: the first paragraph under each question H2 maps to .al-answer; the Key takeaways list maps to .al-takeaways.
 - Updated date: change "November 16, 2026" to the publish date and keep dateModified in the JSON-LD equal to it.
 - No FHA, VA, USDA or MSHDA content, so the F7 government line is not needed. Add it if an editor adds any of those programs.
 - Protected-class terms (race, color, religion, national origin, sex, marital status, age) appear only to state what the law bars. They describe no place or person.
 - "30 years" in the FAQ is the prison term under 18 U.S.C. §1014, not a loan term. Confirm with counsel that it does not read as a repayment-period trigger term.
+- The how-to-get-preapproved post publishes in W2, before this post, so it is linked in the first-call section. Confirm it is live on publish day.
 -->
 
 # What not to tell a mortgage lender, and what you must share
@@ -69,29 +72,29 @@ Applying for a Michigan mortgage? There is nothing material to hide. Lenders ver
 **Key takeaways**
 
 - Nothing material to hide: a knowingly false statement to a mortgage lending business is a federal crime under 18 U.S.C. §1014.
-- The Equal Credit Opportunity Act bars lenders from using race, color, religion, national origin, sex, marital status, age or public assistance income against you.
-- One table lists eight moves to avoid before closing, from new credit to undocumented cash.
+- The Equal Credit Opportunity Act bars lenders from using race, color, religion, national origin, sex, marital status, age (with narrow exceptions) or public assistance income against you.
+- Until closing, avoid new credit, a financed car or furniture, an unannounced job change, undocumented cash deposits and co-signing.
 - Fannie Mae treats a single deposit over 50% of monthly qualifying income as a large deposit. Explain it early, with the paper trail.
 
 ## Is there anything you should not tell a mortgage lender?
 
 Nothing material should be hidden. The application asks about your income, debts, assets, the property and legal matters such as judgments or bankruptcy, and the lender checks each one. You need not discuss what the law bars lenders from considering, and you should not offer guesses about your future as facts.
 
-That covers a pregnancy, your religion and plans to have children. Keep hopes apart from facts, too: a raise not yet in writing is a possibility, not income.
+That includes your religion and any plans to have children. Keep hopes apart from facts, too: a raise not yet in writing is a possibility, not income.
 
 > **Not sure what applies to you?** Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can go over it first. Or take the eight-question readiness review.
 >
-> [Take the readiness review](/purchase/homebuyer-game-plan/#readiness) · [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module)
+> [Take the readiness review](/purchase/homebuyer-game-plan/#readiness) · No application required.
 >
-> No credit pull to talk.
+> [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module) · No credit pull to talk.
 
 ## What can't a mortgage lender ask you or use against you?
 
 Under the Equal Credit Opportunity Act, a lender cannot treat you less favorably because of race, color, religion, national origin, sex, marital status, age (if you are old enough to sign a contract), public assistance income, or exercising your consumer credit rights. It also cannot ask about plans to have children. The demographic questions on the application are optional.
 
-The [Equal Credit Opportunity Act](https://www.consumerfinance.gov/rules-policy/regulations/1002/) is carried out through the CFPB's Regulation B. Its [rules on requests for information](https://www.consumerfinance.gov/rules-policy/regulations/1002/5/) let a lender ask about the number, ages and costs of your dependents, but not about birth control or plans to have or raise children, as the [CFPB explains](https://www.consumerfinance.gov/ask-cfpb/i-want-to-apply-for-a-mortgage-or-home-equity-loan-can-a-lender-or-broker-ask-me-about-my-children-or-dependents-en-355/). [VERIFY: 12 CFR 1002.5(d) paragraph numbers after the CFPB's 2026 Regulation B amendments]
+The [Equal Credit Opportunity Act](https://www.consumerfinance.gov/rules-policy/regulations/1002/) is carried out through the CFPB's Regulation B. Its [rules on requests for information](https://www.consumerfinance.gov/rules-policy/regulations/1002/5/) let a lender ask about the number, ages and costs of your dependents, but not about birth control or plans to have or raise children, as the [CFPB explains](https://www.consumerfinance.gov/ask-cfpb/i-want-to-apply-for-a-mortgage-or-home-equity-loan-can-a-lender-or-broker-ask-me-about-my-children-or-dependents-en-355/).
 
-Some personal questions are allowed. The application asks whether you are married, unmarried or separated, but the answer cannot count against you. Alimony or child support you receive need not be revealed unless you want it counted, as the [Uniform Residential Loan Application](https://singlefamily.fanniemae.com/delivering/uniform-mortgage-data-program/uniform-residential-loan-application) notes in its income section. [VERIFY: 12 CFR 1002.5(d)(1); URLA income note; URLA Section 8 and 12 CFR 1002.13 for the optional demographic section]
+Some personal questions are allowed. The application asks whether you are married, unmarried or separated, but the answer cannot count against you. Alimony or child support you receive need not be revealed unless you want it counted, as the [Uniform Residential Loan Application](https://singlefamily.fanniemae.com/delivering/uniform-mortgage-data-program/uniform-residential-loan-application) notes in its income section.
 
 This summary is not legal advice. Align Lending is an Equal Housing Opportunity company.
 
@@ -99,7 +102,7 @@ This summary is not legal advice. Align Lending is an Equal Housing Opportunity 
 
 Tell the lender every source of income you want counted, all debts and monthly obligations including support you pay, your assets and where your down payment comes from, including gifts, any other real estate you own, and legal matters the application asks about, such as bankruptcy, foreclosure, judgments or lawsuits.
 
-The application asks most of these as yes-or-no declarations. Michigan adds a few more. [VERIFY: URLA Section 5a and 5b wording; each Michigan row as an underwriting item]
+The application asks most of these as yes-or-no declarations. The table adds the Michigan items a national checklist misses.
 
 | What to share | Why lenders ask | How it is usually verified |
 |---|---|---|
@@ -107,7 +110,7 @@ The application asks most of these as yes-or-no declarations. Michigan adds a fe
 | Every debt | Debts set your debt-to-income ratio (DTI), monthly debts over gross income | Credit report and statements |
 | Support you pay, including a Michigan Friend of the Court order | Fannie Mae counts court-ordered payments with more than 10 months left ([B3-6-05](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations)) | The order, plus payment history from [MiChildSupport](https://www.michigan.gov/michildsupport) |
 | Gifts toward the purchase | It must be a gift, not a loan ([B3-4.3-04](https://selling-guide.fanniemae.com/sel/b3-4.3-04/personal-gifts)) | A signed gift letter and proof of the transfer |
-| Other homes, including a Michigan home with a Principal Residence Exemption (PRE) | Their payments count, and Michigan allows [one PRE at a time](https://www.michigan.gov/taxes/property/principal-residence-exemption) | Mortgage statements and tax bills |
+| Other homes, including a Michigan home with a Principal Residence Exemption (PRE) | Their payments count, and Michigan allows [only one principal residence at a time](https://www.michigan.gov/taxes/property/principal-residence-exemption) | Mortgage statements and tax bills |
 | Land contract payments you make | A payment to a seller is a debt | The contract and proof of payments |
 | Tax liens, including from Michigan Treasury, and delinquent property taxes | Liens can come ahead of a new mortgage | Title search and county treasurer records |
 | A bankruptcy, foreclosure or short sale | The application asks about the last 7 years | Credit report and public records |
@@ -120,7 +123,7 @@ Unpaid Michigan property taxes are returned to the county treasurer as delinquen
 Most omissions surface in underwriting through the credit report, tax transcripts, bank statements or a call to your employer, and a late discovery can delay or end the approval. A knowingly false statement on a loan application can be a federal crime. Telling your loan officer early leaves time to find a program that fits.
 
 The statute is [18 U.S.C. §1014](https://www.govinfo.gov/link/uscode/18/1014), which covers knowingly false statements made to influence a mortgage lending business.
-<!-- LINK ONCE LIVE: anchor "buying after bankruptcy or foreclosure" → /learn/buying-a-house-after-bankruptcy-or-foreclosure/ (add a sentence here when that post publishes) -->
+<!-- LINK ONCE LIVE (W8, Jan 11–17): add "Waiting periods after a past bankruptcy or foreclosure are covered in [buying after bankruptcy or foreclosure](/learn/buying-a-house-after-bankruptcy-or-foreclosure/)." -->
 
 Samantha Shelton, Align's broker owner, puts it this way: [NEEDS SAMANTHA QUOTE: why she wants to hear about the complicated part of a file on the first call]
 
@@ -145,7 +148,7 @@ If debt is the tight spot, read [how to improve your debt-to-income ratio](/lear
 
 Tell your loan officer right away about a new job, a raise, a lost job, a new debt, a large deposit or a change in who will live in the home. Many changes are workable when the lender learns early. Some need new documents or a revised disclosure of loan terms and costs.
 
-A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall. [VERIFY: revised Loan Estimate after a changed circumstance, 12 CFR 1026.19(e)(3)(iv)]
+A planned parental or medical leave is worth raising early, because Fannie Mae's [temporary leave income rules](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) help only if the lender knows. The [home closing process](/learn/home-closing-process/) guide shows where these checks fall.
 
 ## How do you explain a late payment, gap in work or large deposit?
 
@@ -157,10 +160,9 @@ Fannie Mae's [Selling Guide B3-4.2-02](https://selling-guide.fanniemae.com/sel/b
 
 Share your goal, whether buying, refinancing or using equity, plus rough income and debts, anything unusual in your credit or work history, how much cash you have and where it sits, and your timeline. A first conversation needs no credit pull, and it lets the broker point you to programs that fit.
 
-Rough numbers are fine. If credit needs work, start with [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/), and read [why preapproval matters](/learn/importance-of-mortgage-preapproval/) before you shop.
-<!-- LINK ONCE LIVE: anchor "how to get preapproved for a mortgage" → /learn/how-to-get-pre-approved-for-a-mortgage/ (add to this paragraph when that post publishes) -->
+Rough numbers are fine. If credit needs work, start with [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/). Read [why preapproval matters](/learn/importance-of-mortgage-preapproval/) before you shop, then follow [how to get preapproved for a mortgage](/learn/how-to-get-pre-approved-for-a-mortgage/) step by step.
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha handles each of her loans herself, from the first conversation to closing.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Talking first does not touch your credit.
 
 > **Tell Samantha the complicated part first; that is what the first call is for.**
 >
@@ -181,27 +183,24 @@ Anything you cannot back up later, such as a raise not yet in writing or savings
 ### Do you have to tell a lender you are pregnant or plan to have children?
 
 No. Regulation B bars lenders from asking about plans to have or raise children, or assuming your income will fall because you might. A planned leave that changes your pay is different, because income is on the application. You can raise the leave without discussing the pregnancy.
-<!-- VERIFY: 12 CFR 1002.5(d) and 1002.6(b)(3); Fannie Mae B3-3.3-09 -->
 
 ### Do lenders check bank statements for cash deposits?
 
 Yes. Lenders review recent bank statements, and Fannie Mae treats a single deposit over 50% of your monthly qualifying income as a large deposit that may need a documented source. Cash with no paper trail may not count, so ask before you deposit it.
-<!-- VERIFY: Fannie Mae B3-4.2-02 current text on purchase transactions and unsourced funds -->
 
 ### Can you change jobs while getting a mortgage?
 
 Sometimes, but tell your loan officer before you accept the offer. Lenders verify employment again shortly before closing. A move in the same line of work is usually simpler to document than a switch to commission or self-employed income. Ask what the new job would require.
-<!-- VERIFY: Fannie Mae employment history and verbal verification of employment sections; soften "usually simpler" if not supported -->
 
 ### Is it illegal to lie on a mortgage application?
 
 Yes. Under 18 U.S.C. §1014, knowingly making a false statement to influence a mortgage lending business is a federal crime, punishable by a fine of up to $1,000,000, up to 30 years in prison, or both. If you notice an honest error, tell your loan officer.
-<!-- VERIFY: 18 U.S.C. §1014 penalty text at govinfo.gov -->
 
 ### Do I have to tell my lender about a side business?
 
 You do not have to use side-business income to qualify. The business still appears on your tax returns, though, and any debt, tax balance or lien tied to it belongs on the application. Tell your loan officer, so the lender can decide how to treat it.
-<!-- VERIFY: Fannie Mae B3-3.5-01 treatment of secondary self-employment not used to qualify -->
+
+Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 
 ## Sources
 
@@ -221,8 +220,6 @@ Every outside source this guide links to, in the order it appears.
 - [18 U.S.C. §1014](https://www.govinfo.gov/link/uscode/18/1014) — GovInfo (GPO)
 - [B3-3.3-09, Temporary Leave Income](https://selling-guide.fanniemae.com/sel/b3-3.3-09/temporary-leave-income) — Fannie Mae
 - [B3-4.2-02, Depository Accounts](https://selling-guide.fanniemae.com/sel/b3-4.2-02/depository-accounts) — Fannie Mae
-
-Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 
 ```json-ld
 {
