@@ -85,7 +85,7 @@ Status key: **C** = confirmed as written · **C*** = confirmed, but the fix, pri
 | G1-m | G1 | 776 Treasury millage values match to four decimals | Treasury PDF returns 403 to scripted requests from this session | **U** (spot-check only) |
 | G2-a | G2 | Detroit 2026 rate 64.10 | Wayne 2026: 64.1017 | **C** |
 | G2-b | G2 | 2026 rates: Grosse Pointe Woods 54.0993; Harper Woods 84.6248 / 86.4649; Sumpter 29.6870 / 37.2691 / 33.8242 / 31.5381; Westland (5 districts); Romulus (3) | Wayne 2026 report | **C** |
-| G2-c | G2 | Tax share wrong on Belleville 1.94, Emmett 1.81, Livonia 1.37, St. Clair 1.52, Harper Woods 2.18, Flat Rock 2.38, Rockwood 1.92, Melvindale 1.58 | ACS B25103 ÷ B25077 | **C** (the values are right; priority P1 → P0 under U7) |
+| G2-c | G2 | Tax share wrong on Belleville 1.94, Emmett 1.81, Livonia 1.37, St. Clair 1.52, Harper Woods 2.18, Flat Rock 2.38, Rockwood 1.92, Melvindale 1.58 | ACS B25103 ÷ B25077 | **C*** (the values are right; priority P1 → P0 under U7) |
 | G2-d | G2 | Emmett "roughly 258 people" is wrong; 2020 Census was 239 | **PL 94-171 POP100 for Emmett village = 258.** 239 is the Census estimates base | **R**: the page is right |
 | G2-e | G2 | Allen Park 2020 = 28,638 (not 28,533); V2025 27,445 | PL; sub-est2025 | **C** |
 | G2-f | G2 | Grosse Pointe Woods "$373,339 (Census QuickFacts)" is wrong; ACS $342,100 | B25077 = 342,100 | **C** |
@@ -113,7 +113,7 @@ Status key: **C** = confirmed as written · **C*** = confirmed, but the fix, pri
 | G3-l | G3 | 33 pages cite the superseded "2024 estimate" | sub-est2025: all 33 resolved | **C** (placeholders replaced in the CSV) |
 | G3-m | G3 | Tax share coherent across group 3 | All-page ACS comparison | **C*** Missed on 4 legacy Washtenaw pages: Manchester 1.03 vs 1.47, Saline 1.36 vs 1.78, Milan 1.20 vs 1.59, Ypsilanti 1.49 vs 1.86 |
 
-**Overall tally: 97 items checked (44 P0 + 53 other): 64 confirmed as written, 30 confirmed with a corrected fix, priority, source or scope, 2 refuted outright (Emmett, Lansing) plus 1 refuted item inside a corrected list (Otisville), and 1 unverifiable from this session (Treasury bulk match).**
+**Overall tally: 97 items checked (44 P0 + 53 other): 58 confirmed as written, 36 confirmed with a corrected fix, priority, source or scope, 2 refuted outright (Emmett, Lansing) plus 1 refuted item inside a corrected list (Otisville), and 1 unverifiable from this session (Treasury bulk match).**
 
 ---
 
@@ -152,7 +152,7 @@ Status key: **C** = confirmed as written · **C*** = confirmed, but the fix, pri
 - Method: ACS 5-year **B25103_E001 ÷ B25077_E001** for the page's own Census geography (place for cities and villages, county subdivision for townships, the whole place for multi-county cities). Never derived from a portal, and never hand-typed.
 - Display: one decimal. Hero: `Property tax current owners pay: about X.X% of value (Census, 2020 to 2024)`. Stats block: `X.X% Property tax current owners pay, as a share of value (Census ACS 2020 to 2024: median real estate tax / median owner value). A buyer's bill can reset higher the year after a sale`.
 - Suppress the stat when B25103 is top-coded ($10,001+: Bloomfield Hills, Birmingham) or when either median's coefficient of variation exceeds 30% (margin of error above about half the estimate; today only Emmett). In its place, give the buyer estimate in the Editorial Policy's taxable-value wording.
-- Priority (all groups): a gap of ≥0.5 point = **P0**, 0.25-0.5 = P1. Today that is **59 pages wrong** (group 1: 24, group 2: 31, group 3: 4), 37 of them P0. It is one template recompute.
+- Priority (all groups): a gap of ≥0.5 point = **P0**, 0.25-0.5 = P1. Today that is **59 pages wrong** (group 1: 24, group 2: 31, group 3: 4), 30 of them by ≥0.5 point (P0). It is one template recompute.
 - Regenerate when ACS 2021-2025 is released (expected December 2026).
 
 **U2. "Typical home value" (owner decision D2: auditor recommendation, still pending).**
@@ -201,8 +201,8 @@ Status key: **C** = confirmed as written · **C*** = confirmed, but the fix, pri
 | Sweep: Intent & H1 | 92 A | 88 B | −4 | **Grade boundary** | Rubric §3.1 names this exact template as the 80-90 pattern. Title = H1 + brand (the 100 anchor wants them not identical). Refinance intent unaddressed |
 | Sweep: Title & meta | 83 B | 76 C | −7 | **Yes** | The §3.5 60-anchor cites this title pattern by name. 111 metas are 121-139 characters. 17 meta figures disagree with the page. The sweep's "only NMLS proof" deduction is wrong (the rubric counts NMLS as proof) |
 | Sweep: Internal linking | 89 B | 85 B | −4 | No | Contextual inlinks median 9 (Q1 8, Q3 10) = middle quartiles (80 anchor); 2 links to 301s |
-| Sweep: Uniqueness | 96 A | 92 A | −4 | No | Unique shingles 68% (the 100 anchor wants ≥70%); nearest-sibling containment ≤22.5% passes; wrong local facts on about 52 pages |
-| Group 1 accuracy | 90 A | **80 B** | −10 | **Yes** | 25 pages with a material error belong at 60-69 (§3.11: "a wrong millage ... an outdated program rule"); the team scored them 71-89 |
+| Sweep: Uniqueness | 96 A | 92 A | −4 | No | Unique shingles 68% (the 100 anchor wants ≥70%); nearest-sibling containment ≤22.5% passes; material accuracy errors on about 52 pages |
+| Group 1 accuracy | 90 A | **80 B** | −10 | **Yes** | 25 pages with a material error belong at 60-69 (§3.11: "a wrong millage ... an outdated program rule"); the team scored them 71-96 |
 | Group 2 accuracy | 93 A | **81 B** | −12 | **Yes** | The looser tax-share standard hid 23 errors. River Rouge (98) and Trenton (97) carry 0.6-0.9-point errors. The Emmett deduction is wrong |
 | Group 3 accuracy | 95.5 A | **86 B** | −9.5 | **Yes** | 5 material-error pages scored 80-89. 43 "coherence only" pages scored 95-97 with no outside check. 4 tax-share errors were missed |
 
@@ -243,7 +243,7 @@ How I scored: a page with no material error and only template-level minor issues
 | Traverse City | 95 | 86 | −9 | Leelanau part not shown; stale label |
 | Saline | 93 | 78 | −15 | Zillow headline; tax share 1.36 vs 1.78 |
 
-24 of 30 pages differ by more than 5 points. The pattern is one-directional: **material errors are under-penalized, and "clean" pages are scored as if every figure were sourced and dated.** The only upward correction is Highland Park.
+27 of 30 pages differ by more than 5 points. The pattern is one-directional: **material errors are under-penalized, and "clean" pages are scored as if every figure were sourced and dated.** The only upward correction is Highland Park.
 
 ### 5.3 Unified city-set accuracy
 
