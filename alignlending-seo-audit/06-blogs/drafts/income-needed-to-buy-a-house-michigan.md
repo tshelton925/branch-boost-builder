@@ -37,7 +37,7 @@ internal_links:
   - {url: "/learn/mshda-mi-home-loan/", anchor: "MSHDA MI Home Loan (new, link once live)"}
   - {url: "/learn/usda-loan-requirements/", anchor: "USDA loan requirements (new, link once live)"}
 verify_flags:
-  - "COMPLIANCE REVIEW"
+  - "COMPLIANCE REVIEW: the county table, the housing-budget-by-income table and the tax-by-price table (ratio and tax arithmetic, no payments or rates; F12 label on each)"
   - "VERIFY: recompute from both CSV downloads on the publish date"
   - "VERIFY: current B3-6-02 text; host blocked from this session"
   - "VERIFY: current 5401.2 text; host blocked from this session"
@@ -78,7 +78,7 @@ For the comfortable number rather than the qualifying one, read [How much house 
 
 ## How much do Michigan homebuyers earn?
 
-In 2025 the median buyer with a Michigan purchase loan reported $91,000 of income, and the median home value on those loans was $285,000, about 3.1 times income. Across the 10 counties with the most loans, median values ran from $215,000 in Ingham to $435,000 in Washtenaw (Align Lending, Michigan Mortgage Market Report, 2025 HMDA).
+In 2025 the median buyer with a Michigan purchase loan reported $91,000 of income. The median home value on those loans was $285,000, about 3.1 times income. Across the 10 counties with the most loans, median values ran from $215,000 in Ingham to $435,000 in Washtenaw. Source: Align Lending, Michigan Mortgage Market Report (2025 HMDA).
 
 The figures come from [Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/). The two medians describe the same loans, not the same buyer.
 

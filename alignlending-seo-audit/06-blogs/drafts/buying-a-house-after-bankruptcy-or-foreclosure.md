@@ -16,7 +16,7 @@ cluster: "C08 Credit, DTI and qualifying (breadcrumb parent /learn/credit-and-qu
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 0
+word_count: 2198  # visible body incl. table, FAQ, Sources and footer; 2,064 excluding Sources and footer; placeholders excluded
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
   - {anchor: "Take the readiness review", url: "/purchase/homebuyer-game-plan/#readiness", placement: "module CTA after the waiting-period table (first 30%)"}
@@ -28,7 +28,22 @@ internal_links:
   - {anchor: "refinancing after a loan modification", url: "/learn/refinancing-after-loan-modification/", placement: "modification section"}
   - {anchor: "refinancing after forbearance", url: "/learn/how-to-refinance-mortgage-in-forbearance/", placement: "modification section"}
   - {anchor: "what not to tell (or do) before closing", url: "/learn/what-not-to-tell-a-mortgage-lender/", placement: "NOT PLACED: sprint post not yet live (absent from the crawl). Editor adds it to the waiting-period list once it publishes"}
-verify_flags: []
+verify_flags:
+  - "ALL TABLE CELLS: agency hosts (Fannie Mae, Freddie Mac, HUD, VA, USDA, legislature.mi.gov) were blocked from this session. Cells were checked against search excerpts quoting the official pages, not by reading the pages directly. Re-check each cell on the live guide on publish day and re-date the table (brief: W8, January 2027)"
+  - "Freddie Mac Guide 5202.5: periods not confirmed row by row; the draft only says Freddie sets its own periods"
+  - "FHA Chapter 13 discharged: confirm no added wait after discharge, and how HUD 4000.1 treats a discharge under 2 years old"
+  - "Chapter 13 dismissed: FHA, VA and USDA treatment not found in the sections checked (cells say 'Lender review')"
+  - "VA: completed Chapter 13 treated as re-established credit, a foreclosure wait of about 2 years and the short-sale and deed-in-lieu treatment come from VA conference and training material, not the current Lenders Handbook ch. 4 text"
+  - "FHA short sale: the 3-year rule for a borrower in default at the sale was found in Mortgagee Letter 2009-52; confirm it in the current HUD 4000.1"
+  - "USDA: credit-exception path for a Chapter 7 within 3 years; 12 months after Chapter 13 completion; short sale or preforeclosure sale 3 years (HB-1-3555 ch. 10 versions differ)"
+  - "Modification and forbearance: HUD 4000.1 and VA ch. 4 treatment; Fannie Mae's current post-forbearance eligibility rules"
+  - "Michigan: read MCL 600.3240 subsections (6 months when more than 2/3 of the original debt is owed; 1-year default; 30 days if abandoned) and MCL 600.3236 (deed operative at the end of redemption) directly on legislature.mi.gov; confirm that 'most' Michigan mortgage foreclosures are by advertisement"
+  - "Michigan completion date: which date (sheriff's sale or end of redemption) Fannie Mae, FHA, VA and USDA lenders treat as completion or title transfer"
+  - "Michigan tax foreclosure: how each agency counts a county treasurer tax foreclosure"
+  - "Non-QM: Align to confirm typical seasoning periods from its wholesale lenders before any range is published"
+  - "Link check: every external URL (VA WARMS index, USDA ch. 10 PDF, MSHDA timeline PDF, Freddie Mac 5202.5, HUD answers pages) could not be fetched from this session"
+  - "Schema: NMLS Consumer Access sameAs URL pattern, the image URL path, and datePublished/dateModified (set to publish day)"
+  - "NEEDS SAMANTHA QUOTE: what she tells someone who calls a year after a bankruptcy"
 image_brief:
   description: "Lead graphic: a horizontal timeline bar from 'Event' to 'Eligible', with markers labeled FHA, VA, USDA and Conventional at relative positions (FHA and VA nearest the event, Conventional farthest). No years or other figures in the image, so it stays accurate if the rules change. File waiting-periods-timeline.webp, WebP, 80 KB or less, width and height set. Open Graph version 1200 x 630, title-only. No people."
   alt: "Timeline showing that FHA and VA waiting periods after bankruptcy or foreclosure are generally shorter than conventional loan waiting periods"
@@ -62,7 +77,7 @@ Each period is a minimum. Reaching it makes you eligible to apply, not approved,
 | Event | Conventional (Fannie Mae) | FHA | VA | USDA | Non-QM |
 |---|---|---|---|---|---|
 | Chapter 7 | 4 years from discharge or dismissal (2 with extenuating circumstances) | 2 years from discharge (12 months with extenuating circumstances) | Generally 2 years; 1–2 years with re-established credit and a cause beyond your control | 3 years from discharge | Each lender |
-| Chapter 13, in the plan | Not until after discharge or dismissal | After 12 months of on-time plan payments, with written court permission | After 12 months of satisfactory plan payments, with trustee or court approval | After 12 months of on-time plan payments, with written court or trustee permission | Each lender |
+| Chapter 13, in the plan | Not until after discharge or dismissal | After 12 months of on-time plan payments, with written court permission | After 12 months of satisfactory plan payments, with trustee or court approval | Same as FHA, with court or trustee permission | Each lender |
 | Chapter 13, discharged | 2 years from discharge | No added wait once the in-plan test is met `[VERIFY]` | Credit generally re-established once the plan is complete `[VERIFY]` | 12 months after completion `[VERIFY]` | Each lender |
 | Chapter 13, dismissed | 4 years (2 with extenuating circumstances) | Lender review `[VERIFY]` | Lender review `[VERIFY]` | Lender review `[VERIFY]` | Each lender |
 | Foreclosure | 7 years from completion (3 with extenuating circumstances, with limits) | 3 years from title transfer; exception for extenuating circumstances | Generally 2 years `[VERIFY]` | 3 years before application; credit exception possible | Each lender |
@@ -89,21 +104,21 @@ If the same mortgage was also foreclosed, Fannie Mae applies the longer wait unl
 
 Yes, with FHA, VA or USDA, once 12 months of the plan have passed, every plan payment has been on time and the bankruptcy court or trustee approves the new mortgage in writing. Fannie Mae's conventional rules wait until two years after the discharge, or four years after a dismissal.
 
-A mortgage is new debt, and a plan usually needs approval before you take any on, so ask your bankruptcy attorney how your trustee handles the request. This guide is not legal advice.
+A mortgage is new debt, and a plan usually needs approval before you take any on, so ask your bankruptcy attorney how your trustee handles the request.
 
-For Fannie Mae, extenuating circumstances can shorten the four-year wait after a dismissal to two years. Two or more filings in seven years mean five years from the latest one, or three with extenuating circumstances.
+For Fannie Mae, two or more filings in seven years mean five years from the latest one, or three with extenuating circumstances.
 
 ## How long after a foreclosure can you buy again?
 
 Generally three years for FHA and USDA, about two for VA and seven for a Fannie Mae conventional loan, counted from when the foreclosure was completed or title left your name. A deed in lieu or short sale carries a shorter conventional wait: four years, or two with extenuating circumstances.
 
-Fannie Mae counts from the completion date on your credit report or foreclosure documents. Until seven years pass, even with extenuating circumstances, it allows only a principal residence purchase or a limited cash-out refinance, at a lower maximum loan-to-value ratio.
+After a foreclosure with extenuating circumstances, Fannie Mae allows only a principal residence purchase or limited cash-out refinance until seven years pass, at a lower maximum loan-to-value ratio.
 
 HUD counts FHA's three years from the date title transferred from you. USDA needs a credit exception for a foreclosure within 36 months of the application. `[VERIFY: VA's foreclosure period (2 years per VA training material) in Lenders Handbook ch. 4; FHA short-sale rule in current HUD 4000.1 (the 3-year rule found is from Mortgagee Letter 2009-52)]`
 
 ## When does the waiting period start after a Michigan foreclosure?
 
-Most Michigan mortgages are foreclosed by advertisement, out of court: a sheriff's sale, then a redemption period, six months in the most common case. Lenders count from when the foreclosure was completed or title left your name, so get both dates from the county Register of Deeds.
+Most Michigan mortgages are foreclosed by advertisement, out of court: a sheriff's sale, then a redemption period, six months in the most common case. Lenders count from when the foreclosure was completed or title left your name, so get the sale and deed dates from your county Register of Deeds.
 
 Under [MCL 600.3240](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240), redemption lasts six months for a home of one to four units when more than two-thirds of the original loan was owed at the foreclosure notice. Otherwise it is generally one year, and as short as 30 days for an abandoned home. The Michigan State Housing Development Authority's (MSHDA) [foreclosure timeline guide](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Counseling/Foreclosure-Timeline-212022.pdf) calls six months the most common.
 
@@ -111,7 +126,7 @@ If you do not redeem, the sheriff's deed becomes final when the period ends, so 
 
 ### Does a Michigan property tax foreclosure count the same way?
 
-It is a different process, run by the county treasurer. [Michigan Treasury's timeline](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) shows title vesting in the foreclosing government on March 31, about three years after the taxes went unpaid. The agency guides checked here do not say how lenders count it, so ask. `[VERIFY: Fannie Mae, HUD, VA and USDA treatment of a property tax foreclosure]`
+It is a different process, run by the county treasurer. [Michigan Treasury's timeline](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) shows title vesting in the foreclosing government on March 31, about two years after unpaid taxes become delinquent. The agency guides checked here do not say how lenders count it, so ask. `[VERIFY: Fannie Mae, HUD, VA and USDA treatment of a property tax foreclosure]`
 
 ## What counts as extenuating circumstances?
 
@@ -136,15 +151,15 @@ Keep every payment on time, keep or add a few accounts in good standing, keep ca
 
 Sometimes. Non-QM loans follow each lender's own rules rather than Fannie Mae, FHA, VA or USDA guidelines, and some lenders accept a shorter time since a bankruptcy or foreclosure. The tradeoff is usually a larger down payment and higher costs, so compare it against waiting for an agency program.
 
-Non-QM loans fall outside the federal qualified mortgage definition, but the lender must still decide in good faith that you can repay (Regulation Z, 12 CFR 1026.43). Align's page on [non-QM loans in Michigan](/product-loans/non-qm-loans/) explains how they work. `[VERIFY: Align to confirm typical non-QM seasoning from its wholesale lenders before any range is published]`
+Non-QM loans fall outside the federal qualified mortgage definition, but the lender must still decide in good faith that you can repay (Regulation Z, 12 CFR 1026.43). See [non-QM loans in Michigan](/product-loans/non-qm-loans/). `[VERIFY: Align to confirm typical non-QM seasoning from its wholesale lenders before any range is published]`
 
 ## Does a loan modification or forbearance affect buying a home?
 
 A completed loan modification or forbearance does not carry a bankruptcy-style waiting period in Fannie Mae's guide, but lenders still review your mortgage payment history. Late payments before or during the change can matter, and some programs look for a run of on-time payments first.
 
-USDA flags a housing payment 30 or more days late in the past 12 months. To change the loan on a home you own, see [refinancing after a loan modification](/learn/refinancing-after-loan-modification/) and [refinancing after forbearance](/learn/how-to-refinance-mortgage-in-forbearance/). `[VERIFY: HUD 4000.1 and VA ch. 4 treatment of a completed modification or forbearance; Fannie Mae's current post-forbearance rules]`
+To change the loan on a home you own, see [refinancing after a loan modification](/learn/refinancing-after-loan-modification/) and [refinancing after forbearance](/learn/how-to-refinance-mortgage-in-forbearance/). `[VERIFY: HUD 4000.1 and VA ch. 4 treatment of a completed modification or forbearance; Fannie Mae's current post-forbearance rules]`
 
-Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can map the date your file becomes eligible for each program from your court and foreclosure papers. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Approval is subject to underwriting.
+Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can map when your file becomes eligible for each program. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Approval is subject to underwriting.
 
 > **Bring your dates and see which program opens first.**
 >
@@ -193,12 +208,12 @@ Every outside source this guide links to, in the order it appears.
 - [Selling Guide B3-5.3-07, derogatory credit waiting periods](https://selling-guide.fanniemae.com/sel/b3-5.3-07/significant-derogatory-credit-events-waiting-periods-and-re-establishing-credit) — Fannie Mae
 - [Bankruptcy and FHA eligibility](https://answers.hud.gov/FHA/s/article/How-does-a-bankruptcy-affect-a-borrowers-eligibility-for-an-FHA-mortgage) — HUD
 - [Previous foreclosure or deed in lieu](https://answers.hud.gov/FHA/s/article/What-are-the-guidelines-for-borrowers-with-a-previous-foreclosure-or-deedinlieu-of-foreclosure) — HUD
-- [Lenders Handbook, VA Pamphlet 26-7](https://www.benefits.va.gov/WARMS/pam26_7.asp) — Department of Veterans Affairs
-- [HB-1-3555, chapter 10: credit analysis](https://www.rd.usda.gov/sites/default/files/RD-SFH-3555CHAPTER10.pdf) — USDA Rural Development
+- [VA Lenders Handbook](https://www.benefits.va.gov/WARMS/pam26_7.asp) — VA
+- [HB-1-3555, chapter 10](https://www.rd.usda.gov/sites/default/files/RD-SFH-3555CHAPTER10.pdf) — USDA
 - [Single-Family Guide, Section 5202.5](https://guide.freddiemac.com/app/guide/section/5202.5) — Freddie Mac
 - [MCL 600.3240](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240) — Michigan Legislature
-- [Understanding Michigan's foreclosure timeline](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Counseling/Foreclosure-Timeline-212022.pdf) — MSHDA
-- [Foreclosure process timelines](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) — Michigan Department of Treasury
+- [Michigan foreclosure timeline](https://www.michigan.gov/mshda/-/media/Project/Websites/mshda/homeownership/Counseling/Foreclosure-Timeline-212022.pdf) — MSHDA
+- [Foreclosure process timelines](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) — Michigan Treasury
 - [Selling Guide B3-5.3-08, extenuating circumstances](https://selling-guide.fanniemae.com/sel/b3-5.3-08/extenuating-circumstances-derogatory-credit) — Fannie Mae
 
 ---
