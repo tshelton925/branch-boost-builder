@@ -16,7 +16,7 @@ cluster: "C10 Home equity, cash-out and HELOC"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 16, 2026"
-word_count: 2196
+word_count: 2189
 target_money_page: "/product-loans/heloc/"
 internal_links:
   - "/product-loans/heloc/"
@@ -41,6 +41,11 @@ cta_destinations:
 verify_flags: 5
 needs_samantha_quote: 1
 compliance_review_flags: 1
+source_check:
+  - "Align HMDA figures (30.1%, 27.3%, 15.5%, 16.4%, 31.2%, application counts, 66,247, $85,000 / $55,000 medians, reason ranking, 43% context): matched to the crawl text of /research/michigan-mortgage-market-report/ (crawl of 2026-11-15). No fresh FFIEC check claimed (F17)."
+  - "MCL 211.78a, 211.78g, 211.78k: statute text read on legislature.mi.gov, 2026-11-16."
+  - "CFPB HELOC booklet 75% example and ability-to-repay note, MSHDA MI 10K repayment triggers, Fannie Mae B2-1.3-03 listing rule, Fannie Mae B3-5.3-07 Chapter 7 waiting period (4 years, 2 with extenuating circumstances), Reg Z 1026.40(f)(3)(vi) freeze grounds, Reg B 1002.9 30/60-day rules: confirmed from search results quoting the official text. consumerfinance.gov, ecfr.gov, selling-guide.fanniemae.com and michigan.gov were blocked from this session, so re-open each URL before publishing."
+  - "Texas Constitution art. XVI sec. 50(a)(6)(B) 80% limit: confirmed from secondary sources and Align's own HELOC guide; tcss.legis.texas.gov not reached."
 image_brief:
   description: "Lead graphic: reuse Align's published chart https://alignlending.com/wp-content/uploads/research/hmda-2025/charts/hmda-2025-denials.png ('Purchase loans were denied least'), served as WebP at display size with width and height set, not lazy-loaded (LCP), caption and CC BY 4.0 credit kept. Inline: a simple CLTV bar diagram, file cltv-diagram.webp (80 KB or less, lazy-loaded): one bar for the home's value, split into a first-mortgage segment, a 'line available under the cap' segment and an 'equity you can't borrow' segment. No dollar figures, rates or people in either image."
   alt: "Bar chart of 2025 Michigan mortgage denial rates by loan purpose: home purchase 15.5%, refinance 16.4%, home equity loan 27.3%, HELOC 30.1%, cash-out refinance 31.2%"
@@ -61,7 +66,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
 
 - Michigan lenders denied 30.1% of decided home equity line of credit (HELOC) applications and 27.3% of home equity loans in 2025, against 15.5% for purchase loans ([Align's Michigan Mortgage Market Report](/research/michigan-mortgage-market-report/)).
 - Combined loan-to-value (CLTV), not the equity on paper, sets the size of a line.
-- Debt-to-income ratio and credit history were the reasons cited most on Michigan home equity denials. Collateral was third.
+- Debt-to-income ratio and credit history were the reasons cited most on Michigan home equity denials in 2025.
 - A land contract, unpaid property taxes or a listed home can stop a file regardless of credit.
 
 ## What disqualifies you from a home equity loan or HELOC?
@@ -183,9 +188,9 @@ Pay down revolving balances to lower your DTI, correct credit report errors, gat
 
 ## If you are turned down, what are your options?
 
-Read the adverse action notice first. Under Regulation B, a lender that turns down a completed application must tell you within 30 days and either state the specific reasons or explain how to ask for them within 60 days. Then compare a smaller line, a cash-out refinance, waiting to rebuild, or a personal loan.
+Read the adverse action notice first. Under [Regulation B](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9), a lender that turns down a completed application must tell you within 30 days and either state the specific reasons or explain how to ask for them within 60 days. Then compare a smaller line, a cash-out refinance, waiting to rebuild, or a personal loan.
 
-The rule is [12 CFR 1002.9](https://www.ecfr.gov/current/title-12/chapter-X/part-1002/section-1002.9) [VERIFY: confirm 1002.9 is unchanged by the Regulation B amendments effective June 30, 2026]. A cash-out refinance replaces your first mortgage, so compare [HELOC vs. home equity loan vs. cash-out refinance](/refinance/cash-out-vs-home-equity/). For a small amount, see [personal loan or home equity](/learn/personal-loan-vs-home-equity/).
+[VERIFY: confirm 12 CFR 1002.9 is unchanged by the Regulation B amendments effective June 30, 2026.] A cash-out refinance replaces your first mortgage, so compare [HELOC vs. home equity loan vs. cash-out refinance](/refinance/cash-out-vs-home-equity/). For a small amount, see [personal loan or home equity](/learn/personal-loan-vs-home-equity/).
 
 **How Align can help.** Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Loan approval is subject to underwriting, credit, income, asset, appraisal and property eligibility review.
 

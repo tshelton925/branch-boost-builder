@@ -17,7 +17,7 @@ cluster: "C12 Michigan property tax, uncapping, homestead and transfer tax (brea
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 2044  # visible body text incl. FAQ, Sources and disclosure; excludes front matter, placeholders and JSON-LD
+word_count: 1992  # visible body text incl. FAQ, Sources and disclosure; excludes front matter, placeholders and JSON-LD
 target_money_page: "/michigan-property-tax-calculator/"
 internal_links:
   - {anchor: "estimate your Michigan property tax after you buy", url: "/michigan-property-tax-calculator/", placement: "eligibility H2, first 30% of body"}
@@ -56,7 +56,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
 <!-- .al-answer -->
 For Michigan homeowners and renters, the homestead property tax credit is a state income tax credit, claimed on Form MI-1040CR, that returns part of your property tax, or a share of your rent, when it is high compared with your household income. Eligibility depends on household resources and, for owners, taxable value. Seniors and people with disabilities get special rules.
 
-*Figures are Treasury's tax year 2025 limits and change yearly. Not tax advice: confirm figures with Michigan Treasury's current MI-1040CR instructions or a tax professional.* [VERIFY: replace every tax year 2025 figure with Treasury's tax year 2026 figures before publishing; Treasury's tax year 2026 credit page returned "not found" when checked on November 16, 2026.]
+*Figures are Treasury's tax year 2025 limits and change yearly. This is not tax advice. Confirm figures with Michigan Treasury's current MI-1040CR instructions or a tax professional.* [VERIFY: replace every tax year 2025 figure with Treasury's tax year 2026 figures before publishing; Treasury's tax year 2026 credit page returned "not found" when checked on November 16, 2026.]
 
 <!-- .al-takeaways -->
 **Key takeaways**
@@ -69,7 +69,7 @@ For Michigan homeowners and renters, the homestead property tax credit is a stat
 ## What is the Michigan homestead property tax credit?
 
 <!-- .al-answer -->
-The homestead property tax credit is a refundable [Michigan income tax credit](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit), filed on Form MI-1040CR, for residents whose property taxes, or the part of rent treated as property tax, are high compared with their total household resources. Because it is refundable, you can receive it even when you owe no Michigan income tax.
+The homestead property tax credit is a refundable [Michigan income tax credit](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit), filed on Form MI-1040CR, for residents whose property tax, or rent treated as property tax, is high compared with their total household resources. Because it is refundable, you can get it even if you owe no Michigan income tax.
 
 ## Who qualifies for the homestead property tax credit?
 
@@ -86,14 +86,14 @@ You qualify if your homestead is in Michigan, you lived in Michigan at least six
 | Maximum credit | $1,900 |
 | Rent treated as property tax (most renters) | 23% |
 
-**Total household resources** are all taxable and nontaxable income of you and your spouse, including Social Security. Use your **taxable value**, not the state equalized value (SEV), per Treasury's [homeowner guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners). If you are buying, [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/), because your taxable value will not be the seller's.
+**Total household resources** are all taxable and nontaxable income of you and your spouse, including Social Security. Use your **taxable value**, not the state equalized value (SEV), per Treasury's [homeowner guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners). If you are buying, [estimate your Michigan property tax after you buy](/michigan-property-tax-calculator/); your taxable value will not be the seller's.
 
 - **Age 65 or older** (or the unremarried spouse of someone who was): 60% to 100% of the excess tax, by income.
 - **People who are deaf, blind or totally and permanently disabled,** among others: 100%. See buying a home on SSI or disability income [LINK ONCE LIVE: /learn/buying-a-home-on-ssi-or-disability-income/].
 - **Some veterans and blind owners** can also file [MI-1040CR-2](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/forms) and keep the larger credit. See Michigan benefits for disabled veterans [LINK ONCE LIVE: /learn/va-benefits-disabled-veterans-michigan/].
 
 <!-- CTA module (al-module) -->
-> **Run your own numbers** from an address's published millage.
+> **Run your own numbers.**
 >
 > [Estimate my property tax](/michigan-property-tax-calculator/#mi-tax) · [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module)
 >
@@ -104,7 +104,7 @@ You qualify if your homestead is in Michigan, you lived in Michigan at least six
 <!-- .al-answer -->
 The credit is a share of the property tax above 3.2% of your total household resources, up to $1,900 for tax year 2025. Most claimants get 60% of that excess, claimants 65 or older get 60% to 100% by income, and people with disabilities get 100%. The figures change each tax year.
 
-1. Add property taxes levied on your homestead for the year and 23% of rent paid.
+1. Add the year's property taxes levied on your homestead and 23% of rent paid.
 2. Subtract 3.2% of total household resources (less for some claimants at $6,000 or under).
 3. Multiply by 60%, by Table A's 60% to 100% if 65 or older, or by 100% with a disability.
 4. Cap it at $1,900.
@@ -127,13 +127,13 @@ The Principal Residence Exemption lowers your bill by exempting the home you own
 | | Principal Residence Exemption (PRE) | Homestead property tax credit |
 |---|---|---|
 | Effect | Lowers the bill | Refunds part of the tax or rent |
-| Who | Owners living in their principal residence | Owners and renters within the limits |
+| Who | Owners in their principal residence | Owners and renters within the limits |
 | File with | Your assessor, Form 2368 | Michigan Treasury, Form MI-1040CR |
 | When | June 1 or November 1; stays on while you qualify | Every year, with your MI-1040 or alone |
 | Income test | None | $71,500 limit (tax year 2025) |
 | If you missed it | Assessor can grant this year and three prior | Up to four years after the due date |
 
-Treasury's [PRE page](https://www.michigan.gov/taxes/property/principal) calls the exemption "distinct from the Michigan Homestead Property Tax Credit, which applies to income tax returns," and its [claim rules](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) set both deadlines. Owners can have both; see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). The credit comes back through Treasury, so it does not change what your [mortgage escrow accounts](/learn/mortgage-escrow-accounts/) pay.
+Treasury's [PRE page](https://www.michigan.gov/taxes/property/principal) calls the exemption "distinct from" the credit, and its [claim rules](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) set both deadlines. Owners can have both; see [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/). Paid through Treasury, the credit does not change what your [mortgage escrow accounts](/learn/mortgage-escrow-accounts/) pay.
 
 ## How do you file the homestead property tax credit?
 
@@ -152,17 +152,17 @@ Treasury's [2025 MI-1040 book](https://www.michigan.gov/taxes/-/media/Project/We
 <!-- .al-answer -->
 Yes. Renters with a lease or rental agreement treat 23% of the rent paid on their Michigan home as property tax in most cases and claim on the same MI-1040CR. The tax year 2025 household resources limit of $71,500 applies, but the taxable value cap does not.
 
-Treasury's [renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) lists exceptions: 10% of rent in service-fee housing, only what you pay in subsidized housing, no credit in tax-exempt housing with no service fee (such as college-owned housing), and an alternate credit for renters 65 or older.
+Treasury's [renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) lists exceptions, such as 10% of rent in service-fee housing, no credit in tax-exempt housing with no service fee, and an alternate credit for renters 65 or older.
 
 ## Do seniors get a property tax break in Michigan?
 
 <!-- .al-answer -->
-There is no automatic reduction at 65. Claimants age 65 or older may get a larger homestead property tax credit, may be able to delay paying property taxes through the local or county treasurer, and lower-income owners can apply each year to the local assessor or board of review for a poverty exemption.
+There is no automatic reduction at 65. Claimants 65 or older may get a larger homestead property tax credit or delay paying through the local or county treasurer, and lower-income owners can apply each year to the assessor or board of review for a poverty exemption.
 
 Treasury's [homeowner exemption programs](https://www.michigan.gov/taxes/property/exemptions/homeowner) include none based on age.
 
 - **A larger credit:** 100% of the excess tax at $21,000 or less in resources, down to 60% above $30,000 (tax year 2025).
-- **Delayed payment:** the credit instructions send seniors and some others to the local or county treasurer. [VERIFY: summer tax deferment income limit and deadline under MCL 211.51; legislature.mi.gov was not reachable on November 16, 2026.]
+- **Delayed payment:** the credit instructions send seniors and others to the local or county treasurer. [VERIFY: summer tax deferment income limit and deadline under MCL 211.51; legislature.mi.gov was not reachable on November 16, 2026.]
 - **Poverty exemption:** under MCL 211.7u, owners [apply each year](https://www.michigan.gov/taxes/property/exemptions/homeowner/poverty-exemption) under local income guidelines.
 
 Related: getting a mortgage at 60, 70 or 80 [LINK ONCE LIVE: /learn/mortgage-for-seniors/].
@@ -176,13 +176,13 @@ The year after a home sells, its taxable value resets to the state equalized val
 
 **Watch the cap.** After the reset, a home the assessor values above about $330,800 passes the tax year 2025 cap of $165,400.
 
-**Prorate the purchase year.** Treasury uses taxes levied on each homestead, times the share of the year you lived there, "no matter when you pay them," not closing-statement prorations.
+**Prorate the purchase year.** Treasury uses taxes levied, times the share of the year you lived there, "no matter when you pay them," not closing-statement prorations.
 
 **File your own PRE;** the seller's does not carry over. To challenge the value, see [how property tax assessments work and how to appeal](/learn/property-tax-assessments-how-they-work/).
 
 [NEEDS SAMANTHA QUOTE: what she tells buyers about their first full Michigan tax bill]
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. When you are buying, Samantha Shelton, Broker Owner and Senior Loan Originator (NMLS 1647301), builds your budget from the new owner's tax, not the seller's bill. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. For credit filing questions, use Michigan Treasury or a tax professional.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. When you buy, Samantha Shelton, Broker Owner and Senior Loan Originator (NMLS 1647301), builds your budget from the new owner's tax, not the seller's bill. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. For credit filing questions, use Michigan Treasury or a tax professional.
 
 <!-- End CTA block -->
 > **Budgeting for a Michigan purchase?** [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end)
@@ -205,7 +205,7 @@ Treasury subtracts 3.2% of total household resources from your property tax, or 
 
 ### Do property taxes go down when you turn 65 in Michigan?
 
-No. Turning 65 does not by itself lower a Michigan property tax bill. What changes is the help you can claim: a larger credit for lower-income claimants, a possible delay in paying through your local or county treasurer, and a yearly poverty exemption application.
+No. Turning 65 does not by itself lower a Michigan property tax bill. It changes the help you can claim: a larger credit for lower-income claimants, a possible delay in paying through your local or county treasurer, and a yearly poverty exemption application.
 
 ### Can I claim the credit if I do not file a Michigan income tax return?
 
@@ -228,12 +228,12 @@ Every outside source this guide links to, in the order it appears.
 - [Homestead Property Tax Credit](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/homestead-property-tax-credit) — Michigan Department of Treasury
 - [2025 credit information](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/tax-year-credit-information/2025) — Michigan Department of Treasury
 - [2025 MI-1040CR instructions](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040CR-Instr.pdf) — Michigan Department of Treasury
-- [Credit guidance for homeowners](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners) — Michigan Department of Treasury
-- [Credit forms (MI-1040CR and MI-1040CR-2)](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/forms) — Michigan Department of Treasury
+- [Homeowner guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/homeowners) — Michigan Department of Treasury
+- [Credit forms](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/forms) — Michigan Department of Treasury
 - [Principal Residence Exemption](https://www.michigan.gov/taxes/property/principal) — Michigan Department of Treasury
 - [PRE claim requirements](https://www.michigan.gov/taxes/property/principal/principal-residence-exemption-pre-guidelines-and-faqs/claim-requirement) — Michigan Department of Treasury
-- [2025 MI-1040 instruction book](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf) — Michigan Department of Treasury
-- [Credit guidance for renters](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) — Michigan Department of Treasury
+- [2025 MI-1040 book](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/IIT/TY2025/MI-1040-Book.pdf) — Michigan Department of Treasury
+- [Renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/credits-exemptions/hptc/renters) — Michigan Department of Treasury
 - [Homeowner exemption programs](https://www.michigan.gov/taxes/property/exemptions/homeowner) — Michigan Department of Treasury
 - [Poverty Exemption](https://www.michigan.gov/taxes/property/exemptions/homeowner/poverty-exemption) — Michigan Department of Treasury
 
@@ -357,7 +357,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Do property taxes go down when you turn 65 in Michigan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Turning 65 does not by itself lower a Michigan property tax bill. What changes is the help you can claim: a larger credit for lower-income claimants, a possible delay in paying through your local or county treasurer, and a yearly poverty exemption application."
+            "text": "No. Turning 65 does not by itself lower a Michigan property tax bill. It changes the help you can claim: a larger credit for lower-income claimants, a possible delay in paying through your local or county treasurer, and a yearly poverty exemption application."
           }
         },
         {

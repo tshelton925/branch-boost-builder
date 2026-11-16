@@ -16,7 +16,7 @@ cluster: "C21 Specialty financing (lease-to-own, land contracts)"
 status: "Draft — subject to Align approval"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-16"
-word_count: 2299
+word_count: 2289
 word_count_method: "Article copy from the opening answer through Sources; excludes front matter, the draft header, breadcrumb and byline lines, editor comments, [VERIFY]/[NEEDS] tags and the JSON-LD block"
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
@@ -67,7 +67,7 @@ Rent-to-own makes you a tenant with an option to buy. A Michigan land contract m
 - **Title:** the owner keeps the deed under rent-to-own. A land contract gives you equitable title until payoff. A mortgage gives you the deed at closing.
 - **Default:** eviction can start 7 days after a written rent demand. A land contract buyer gets 90 days or 6 months after a forfeiture judgment; a mortgage borrower, usually 6 months or 1 year after the sale.
 - **Property tax:** taxable value uncaps the year after a land contract is signed or a home is sold. Rent-to-own usually waits for the deed.
-- **The way out:** Fannie Mae limits rent credit to the gap between your rent and the appraiser's market rent.
+- **The way out:** Fannie Mae caps rent credit at the gap between your rent and the appraiser's market rent.
 
 </div>
 
@@ -94,8 +94,6 @@ Your contract can change some of these Michigan rules.
 [Compare renting and buying](/rent-vs-buy-calculator/) with your own numbers.
 
 <div class="al-module">
-
-**Is a mortgage closer than you think?**
 
 [Take the readiness review](/purchase/homebuyer-game-plan/#readiness) <!-- primary button -->
 
@@ -146,7 +144,7 @@ Start a lender review well before the option deadline or balloon date. Lenders l
 1. **Find the deadline:** the option or balloon date in the contract.
 2. **Check your readiness early,** leaving time to work on credit, income documents or savings. If credit is the obstacle, see [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/).
 3. **Keep the paper trail:** the contract, proof of every payment, and the seller's written rent-credit or payoff statement. <!-- EDITOR: once /learn/how-to-get-pre-approved-for-a-mortgage/ is live, link "how to get preapproved for a mortgage" here. -->
-4. **Apply, then order the appraisal and title work** in time to close before the deadline.
+4. **Apply** and order the appraisal and title work in time to close.
 
 Samantha Shelton, Broker Owner and Senior Loan Originator (NMLS 1647301), on what to know before signing:
 
