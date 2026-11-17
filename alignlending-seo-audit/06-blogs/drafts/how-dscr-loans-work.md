@@ -67,7 +67,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 17, 2026
 
 <div class="al-answer">
 
-For investors buying a rental of one to four units, a debt-service coverage ratio (DSCR) loan qualifies the property on its rent, not your income. The lender divides the rent by the full monthly housing cost: principal, interest, taxes, insurance and association dues. Many lenders look for 1.0 or more. In Michigan, a rental pays more property tax than an owner-occupied home.
+For investors buying a one- to four-unit rental, a debt-service coverage ratio (DSCR) loan qualifies the property on its rent, not your income. The lender divides the rent by the full monthly housing cost: principal, interest, taxes, insurance and association dues. Many lenders look for 1.0 or more. In Michigan, a rental pays more property tax than an owner-occupied home.
 
 </div>
 
@@ -118,7 +118,7 @@ That leaves about $297 a month before repairs, vacancy and management. To test y
 
 <aside class="al-module">
 
-**Does the property work as an investment?** Run its rent, tax and costs before you commit.
+**Does the property work as an investment?**
 
 [Review an investment property](/purchase/investment-property-financing/#rental-flow) · No application required.
 
@@ -128,7 +128,7 @@ That leaves about $297 a month before repairs, vacancy and management. To test y
 
 ## What DSCR do lenders require?
 
-No regulation sets a minimum DSCR, so each lender sets its own. Many lenders look for a ratio of about 1.0 or higher, and some offer better terms at higher ratios. Some allow a ratio below 1.0 if you bring a larger down payment or more reserves. Guidelines change, so ask each lender for its current minimum.
+No regulation sets a minimum DSCR, so each lender sets its own. Many lenders look for a ratio of about 1.0 or higher, and some offer better terms at higher ratios. Some allow a ratio below 1.0 if you bring a larger down payment or more reserves.
 
 <!-- [NEEDS ALIGN INPUT: confirm the lender-practice statements in this post match Align's current wholesale DSCR guidelines: minimum near 1.0; below 1.0 with more down or reserves; better terms at higher ratios; lower of lease or market rent; short-term rental history or market study; reserves; landlord experience; LLC title; occupancy statement; prepayment penalties; first-time investor conditions.] -->
 
