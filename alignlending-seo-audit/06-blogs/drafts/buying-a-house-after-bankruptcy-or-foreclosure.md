@@ -20,7 +20,7 @@ editor_review: "06-blogs/editor-review-E4.md (E4 editor, 2026-11-17)"
 publish_week: "W8 (Jan 11–17, 2027). Change the visible Updated date, datePublished and dateModified to the publish date, and re-check the waiting-period table against the live guides that week."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-17"
-word_count: 2195  # visible body incl. table, FAQ, F7 and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
+word_count: 2197  # visible body incl. table, FAQ, F7 and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
   - {anchor: "Take the readiness review", url: "/purchase/homebuyer-game-plan/#readiness", placement: "CTA module after the waiting-period table (first 30%)", status: "live"}
@@ -76,8 +76,8 @@ If a bankruptcy, foreclosure, short sale or deed in lieu is behind you, you can 
 **Key takeaways**
 
 - **Chapter 13 is not a full stop:** FHA, VA and USDA can allow a purchase after 12 months of on-time plan payments, with court or trustee approval.
-- **Chapter 7 waits differ by program:** about 2 years from discharge for FHA and VA, 3 for USDA and 4 for Fannie Mae.
-- **Conventional waits run longest after a foreclosure:** Fannie Mae requires 7 years, or 3 with documented extenuating circumstances.
+- **Chapter 7 waits differ:** about 2 years from discharge for FHA and VA, 3 for USDA, 4 for Fannie Mae.
+- **Conventional waits run longest after a foreclosure:** 7 years for Fannie Mae, or 3 with extenuating circumstances.
 - **Michigan's redemption period can move the date:** the sheriff's deed takes effect only when it ends, most often after 6 months.
 
 </div>
@@ -96,11 +96,11 @@ Each period is a minimum. Reaching it makes you eligible to apply, not approved,
 |---|---|---|---|---|---|
 | Chapter 7 | 4 years from discharge or dismissal; 2 with extenuating circumstances | 2 years from discharge; 12 months with extenuating circumstances | 2 years from discharge; 12 months with re-established credit and a cause beyond your control | 3 years from discharge; exception for extenuating circumstances | Varies by lender |
 | Chapter 13, in the plan | Not until discharge or dismissal | 12 months of on-time plan payments and court permission | 12 months of on-time plan payments and trustee or court approval | 12 months of on-time plan payments and trustee or court approval | Varies by lender |
-| Chapter 13, discharged | 2 years from discharge; no shorter exception | No added wait; manual underwriting within 2 years | Lender review `[VERIFY]` | Lender review within 3 years; plan payments help | Varies by lender |
+| Chapter 13, discharged | 2 years from discharge; no shorter exception | No added wait; manual underwriting within 2 years | Lender review `[VERIFY]` | Lender review within 3 years; on-time plan payments count in your favor | Varies by lender |
 | Chapter 13, dismissed | 4 years from dismissal; 2 with extenuating circumstances | No separate rule; lender review | Lender review `[VERIFY]` | No separate rule; lender review | Varies by lender |
 | Foreclosure | 7 years from completion; 3 with extenuating circumstances, with limits until year 7 | 3 years from title transfer; exception for extenuating circumstances | 2 years from completion; 12 months with re-established credit and a cause beyond your control | 3 years before application; exception for extenuating circumstances | Varies by lender |
-| Short sale or deed in lieu | 4 years from completion; 2 with extenuating circumstances | 3 years from title transfer; no wait after a short sale if all payments were on time for the prior 12 months | Lender review `[VERIFY]` | Lender review `[VERIFY]` | Varies by lender |
-| Loan modification or forbearance | No wait; no mortgage payment 60 or more days late in the past 12 months | No wait; manual underwriting if under 3 payments since forbearance ended | Lender review `[VERIFY]` | No wait; a 30-day late in the past 12 months needs review | Varies by lender |
+| Short sale or deed in lieu | 4 years from completion; 2 with extenuating circumstances | 3 years; none after a short sale if every payment was on time for the prior 12 months | Lender review `[VERIFY]` | Lender review `[VERIFY]` | Varies by lender |
+| Loan modification or forbearance | No wait; no 60-day mortgage late in the past 12 months | No wait; manual underwriting if under 3 payments since forbearance ended | Lender review `[VERIFY]` | No wait; a 30-day late in the past 12 months needs review | Varies by lender |
 
 Sources: Fannie Mae [Selling Guide B3-5.3-07](https://selling-guide.fanniemae.com/sel/b3-5.3-07/significant-derogatory-credit-events-waiting-periods-and-re-establishing-credit) (published November 4, 2026); [HUD Handbook 4000.1](https://www.hud.gov/hud-partners/single-family-handbook-4000-1), II.A.4.b.iii and II.A.5.a.iii (August 12, 2026); [VA Lenders Handbook, chapter 4](https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000330850/VA-Pamphlet-VAP26-7-Chapter-04-Credit-Underwriting); USDA's [7 CFR 3555.151](https://www.ecfr.gov/current/title-7/section-3555.151). Freddie Mac, the other conventional buyer, sets its own periods in [Guide Section 5202.5](https://guide.freddiemac.com/app/guide/section/5202.5).
 
@@ -118,15 +118,15 @@ Waiting for your date? The 8-question readiness assessment shows where you stand
 
 The Chapter 7 clock runs from the discharge date, not the filing date. FHA and VA generally look for about 2 years, USDA 3 and Fannie Mae 4. Documented extenuating circumstances can shorten them, to as little as 12 months for FHA and 2 years for Fannie Mae.
 
-Each program counts to a different day: HUD to the FHA case number, USDA to the application and Fannie Mae to the day the new loan funds.
+Each program counts to a different day: HUD to the FHA case-number date, USDA to the application and Fannie Mae to the day the new loan funds.
 
-If the same mortgage was also foreclosed, Fannie Mae applies the longer wait unless the lender documents that the bankruptcy discharged that debt. To replace the loan on a home you own, see [refinancing after bankruptcy](/learn/refinancing-after-bankruptcy/).
+If the same mortgage was also foreclosed, Fannie Mae applies the longer wait unless the bankruptcy is shown to have discharged that debt. To refinance a home you own, see [refinancing after bankruptcy](/learn/refinancing-after-bankruptcy/).
 
 ## Can you buy a house while in Chapter 13?
 
 Yes, with FHA, VA or USDA, once 12 months of the plan have passed, every plan payment has been on time and the bankruptcy court or trustee approves the new mortgage in writing. Fannie Mae's conventional rules wait until 2 years after the discharge, or 4 years after a dismissal.
 
-HUD asks for the bankruptcy court's written permission, while VA and USDA accept the trustee's or the judge's. A mortgage is new debt, so ask your bankruptcy attorney how your trustee handles the request.
+HUD asks for the bankruptcy court's written permission, while VA and USDA accept the trustee's or the judge's. Ask your bankruptcy attorney how your trustee handles the request.
 
 For Fannie Mae, two or more filings in 7 years mean 5 years from the latest one, or 3 with extenuating circumstances.
 
@@ -136,19 +136,17 @@ Generally 3 years for FHA and USDA, about 2 for VA and 7 for a Fannie Mae conven
 
 After a foreclosure with extenuating circumstances, Fannie Mae allows only a principal residence purchase or a limited cash-out refinance until 7 years pass, at a lower maximum loan-to-value ratio.
 
-USDA treats a foreclosure completed within 36 months of the application as significant derogatory credit, which needs a documented lender review.
-
 ## When does the waiting period start after a Michigan foreclosure?
 
-Michigan lenders can foreclose by advertisement, out of court, when the mortgage has a power of sale: a published sheriff's sale, then a redemption period, 6 months in the most common case. Programs count from the completion date or the day title left your name, so get the sale and deed dates from your county Register of Deeds.
+Michigan lenders can foreclose by advertisement, out of court, when the mortgage has a power of sale: a published sheriff's sale, then a redemption period, most often 6 months. Programs count from the completion date or the day title left your name, so get both dates from your county Register of Deeds.
 
-Under [MCL 600.3240](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240), redemption lasts 6 months for a home of 1 to 4 units when over two-thirds of the original loan was owed at the foreclosure notice, generally 1 year otherwise, and as little as 30 days if the home is abandoned. The Michigan State Housing Development Authority's (MSHDA) [stages of foreclosure](https://www.michigan.gov/mshda/homeownership/stages-of-foreclosure) guide calls 6 months the most common.
+Under [MCL 600.3240](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3240), redemption lasts 6 months for a home of 1 to 4 units when over two-thirds of the original loan was owed at the foreclosure notice, generally 1 year otherwise, and as little as 30 days if abandoned. The Michigan State Housing Development Authority (MSHDA) [foreclosure guide](https://www.michigan.gov/mshda/homeownership/stages-of-foreclosure) calls 6 months the most common.
 
-If you do not redeem, the sheriff's deed takes effect when the period ends ([MCL 600.3236](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3236)), so the sale and title dates can be 6 months or more apart. Fannie Mae counts from the completion date on your credit report, which its automated underwriting [assumes is the sale](https://selling-guide.fanniemae.com/sel/b3-5.3-09/du-credit-report-analysis). HUD counts from the day ownership passed to the lender. Ask which date your lender will use.
+If you do not redeem, the sheriff's deed takes effect when the period ends ([MCL 600.3236](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3236)), so the sale and title dates can be 6 months or more apart. Fannie Mae counts from the completion date on your credit report, which its automated underwriting [assumes is the sale](https://selling-guide.fanniemae.com/sel/b3-5.3-09/du-credit-report-analysis). HUD counts from the day ownership passed to the lender. Ask which date applies.
 
 ### Does a Michigan property tax foreclosure count the same way?
 
-It is a different process, run by the county treasurer. [Michigan Treasury's timeline](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) shows title vesting in the foreclosing government on March 31, about 2 years after unpaid taxes are returned delinquent. Fannie Mae's guide and HUD's handbook do not address it, so ask the lender.
+It is a different process, run by the county treasurer. [Michigan Treasury's timeline](https://www.michigan.gov/taxes/property/forfeiture-foreclosure/county/foreclosure-process-timelines) shows title passing to the foreclosing government on March 31, about 2 years after unpaid taxes turn delinquent. Fannie Mae's guide and HUD's handbook do not address it, so ask.
 
 ## What counts as extenuating circumstances?
 
@@ -156,17 +154,17 @@ Fannie Mae defines extenuating circumstances as nonrecurring events beyond your 
 
 [Fannie Mae's Selling Guide B3-5.3-08](https://selling-guide.fanniemae.com/sel/b3-5.3-08/extenuating-circumstances-derogatory-credit) asks for papers that confirm the event, such as a divorce decree, medical bills or a layoff notice, papers showing why you could not resolve it, and your written explanation.
 
-HUD allows an FHA exception for documented events beyond your control, such as a serious illness or a wage earner's death, once good credit is re-established. HUD does not count divorce, unless the mortgage was current when the ex-spouse took the home and it was foreclosed later, or a job transfer that left a home unsold. Lenders want the cause resolved.
+HUD allows an FHA exception for documented events beyond your control, such as a serious illness or a wage earner's death, once good credit is re-established. Divorce alone does not count for HUD, nor does a job transfer that left a home unsold.
 
 ## What can you do during the waiting period to be ready?
 
 Keep every payment on time, keep or add a few accounts in good standing, keep card balances low, and save for the down payment and reserves. Keep records of what caused the event, and check your credit reports for errors well before you apply, so the file is ready on day one.
 
 1. **Collect your dates:** the discharge or dismissal order, the sheriff's deed, and any short sale or deed in lieu papers.
-2. **Check your reports:** confirm the dates and that discharged debts show a zero balance. Free reports are at AnnualCreditReport.com.
+2. **Check your reports** at AnnualCreditReport.com: confirm the dates and that discharged debts show a zero balance.
 3. **Rebuild a record:** USDA flags even one rent or mortgage payment 30 or more days late in the past 12 months. See [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/).
-4. **Know the score rules:** Fannie Mae's Desktop Underwriter no longer applies a fixed 620 minimum for case files created on or after November 16, 2025, and lenders may add overlays. See [what credit score you need](/learn/whats-good-credit-score-to-buy-house/) and [buying a home with a low credit score](/learn/buying-home-with-bad-credit/).
-5. **Protect the file once you apply:** see [what not to tell (or do) before closing](/learn/what-not-to-tell-a-mortgage-lender/). <!-- New post, publishes W6: confirm live on publish day. -->
+4. **Know the score rules:** see [what credit score you need](/learn/whats-good-credit-score-to-buy-house/) and [buying a home with a low credit score](/learn/buying-home-with-bad-credit/).
+5. **Protect the file once you apply:** read [what not to tell (or do) before closing](/learn/what-not-to-tell-a-mortgage-lender/). <!-- New post, publishes W6: confirm live on publish day. -->
 
 `[NEEDS SAMANTHA QUOTE: what she tells someone who calls a year after a bankruptcy]`
 
@@ -174,15 +172,15 @@ Keep every payment on time, keep or add a few accounts in good standing, keep ca
 
 Sometimes. Non-QM loans follow each lender's own rules rather than Fannie Mae, FHA, VA or USDA guidelines, and some lenders accept a shorter time since a bankruptcy or foreclosure. The tradeoff is usually a larger down payment and higher costs, so compare it against waiting for an agency program.
 
-Non-QM loans fall outside the federal qualified mortgage definition, but the lender must still make a reasonable, good faith determination that you can repay ([Regulation Z, 12 CFR 1026.43](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.43)). Waiting periods vary by lender, and none is promised. See [non-QM loans in Michigan](/product-loans/non-qm-loans/). <!-- NEEDS ALIGN INPUT (optional): typical non-QM seasoning periods from Align's wholesale lenders. Add a range only with a dated source; otherwise leave this section as is. -->
+Non-QM loans fall outside the federal qualified mortgage definition, but the lender must still decide in good faith that you can repay ([Regulation Z, 12 CFR 1026.43](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.43)). Waits vary by lender, and none is promised. See [non-QM loans in Michigan](/product-loans/non-qm-loans/). <!-- NEEDS ALIGN INPUT (optional): typical non-QM seasoning periods from Align's wholesale lenders. Add a range only with a dated source; otherwise leave this section as is. -->
 
 ## Does a loan modification or forbearance affect buying a home?
 
-Fannie Mae, FHA and USDA set no bankruptcy-style wait after a completed loan modification or forbearance. They review your mortgage payment history instead: Fannie Mae turns away a file with a mortgage payment 60 or more days late in the past 12 months, and FHA underwrites by hand after fewer than 3 payments since a forbearance plan ended.
+Fannie Mae, FHA and USDA set no bankruptcy-style wait after a completed loan modification or forbearance. They review your payment history instead: Fannie Mae turns away a file with a mortgage payment 60 or more days late in the past 12 months, and FHA underwrites by hand after fewer than 3 payments since forbearance ended.
 
-FHA reads late payments by the terms of any modification agreement, and a forbearance plan on a mortgage that stays open must end by closing. To change the loan on a home you own, see [refinancing after a loan modification](/learn/refinancing-after-loan-modification/) and [refinancing after forbearance](/learn/how-to-refinance-mortgage-in-forbearance/).
+To change the loan on a home you own, see [refinancing after a loan modification](/learn/refinancing-after-loan-modification/) and [refinancing after forbearance](/learn/how-to-refinance-mortgage-in-forbearance/).
 
-Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can walk through your dates against each program's rules. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Approval is subject to underwriting.
+Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, can check your dates against each program's rules. Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Approval is subject to underwriting.
 
 <div class="al-cta-end">
 
@@ -196,7 +194,7 @@ Bring your dates and see which program opens first.
 
 ### Can I buy a house 2 years after Chapter 7?
 
-Often, with FHA or VA, which generally look for about 2 years from the discharge date. A Fannie Mae conventional loan generally needs 4 years, or 2 with documented extenuating circumstances, and USDA 3. Reaching 2 years makes you eligible to apply, not approved.
+Often, with FHA or VA, which generally look for about 2 years from discharge. A Fannie Mae conventional loan generally needs 4 years, or 2 with documented extenuating circumstances, and USDA 3. Reaching 2 years makes you eligible to apply, not approved.
 
 ### What is the FHA waiting period after foreclosure?
 
@@ -208,11 +206,11 @@ Yes, with FHA, VA or USDA, after 12 months of on-time plan payments and written 
 
 ### Does a short sale have a waiting period?
 
-Yes, for most programs. Fannie Mae sets 4 years, or 2 with documented extenuating circumstances. FHA sets 3 years, but none if every mortgage and installment payment was made on time for the 12 months before the sale. Check VA and USDA rules with the lender.
+Yes, for most programs. Fannie Mae sets 4 years, or 2 with documented extenuating circumstances. FHA sets 3, or none if every mortgage and installment payment was on time for the 12 months before the sale. Check VA and USDA rules with the lender.
 
 ### Is the waiting period counted from filing or discharge?
 
-Bankruptcy waits run from the discharge or dismissal date, not the filing date. Foreclosure waits run from completion: Fannie Mae uses the completion date on your credit report or papers, and FHA the date title left your name. In Michigan, that can be months after the sheriff's sale.
+Bankruptcy waits run from the discharge or dismissal date, not the filing date. Foreclosure waits run from completion: the date on your credit report for Fannie Mae, the date title left your name for FHA. In Michigan, that can be months after the sheriff's sale.
 
 ### Can you get a mortgage after bankruptcy with a low credit score?
 
@@ -220,7 +218,7 @@ It can be possible, but a low score narrows the choices. Each program and lender
 
 ### Can you refinance after a loan modification?
 
-Usually, once the program's seasoning rules and your payment history line up. Refinancing has its own waiting rules after a modification, forbearance or bankruptcy. Align's refinance guides cover them by program, so start there to replace the loan on a home you own.
+Usually, once the program's seasoning rules and your payment history line up. Refinancing has its own waiting rules after a modification, forbearance or bankruptcy, and Align's refinance guides cover them by program. Start there to replace the loan on a home you own.
 
 Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA, or the Michigan State Housing Development Authority (MSHDA).
 
@@ -339,7 +337,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can I buy a house 2 years after Chapter 7?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Often, with FHA or VA, which generally look for about 2 years from the discharge date. A Fannie Mae conventional loan generally needs 4 years, or 2 with documented extenuating circumstances, and USDA 3. Reaching 2 years makes you eligible to apply, not approved."
+            "text": "Often, with FHA or VA, which generally look for about 2 years from discharge. A Fannie Mae conventional loan generally needs 4 years, or 2 with documented extenuating circumstances, and USDA 3. Reaching 2 years makes you eligible to apply, not approved."
           }
         },
         {
@@ -363,7 +361,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Does a short sale have a waiting period?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, for most programs. Fannie Mae sets 4 years, or 2 with documented extenuating circumstances. FHA sets 3 years, but none if every mortgage and installment payment was made on time for the 12 months before the sale. Check VA and USDA rules with the lender."
+            "text": "Yes, for most programs. Fannie Mae sets 4 years, or 2 with documented extenuating circumstances. FHA sets 3, or none if every mortgage and installment payment was on time for the 12 months before the sale. Check VA and USDA rules with the lender."
           }
         },
         {
@@ -371,7 +369,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Is the waiting period counted from filing or discharge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bankruptcy waits run from the discharge or dismissal date, not the filing date. Foreclosure waits run from completion: Fannie Mae uses the completion date on your credit report or papers, and FHA the date title left your name. In Michigan, that can be months after the sheriff's sale."
+            "text": "Bankruptcy waits run from the discharge or dismissal date, not the filing date. Foreclosure waits run from completion: the date on your credit report for Fannie Mae, the date title left your name for FHA. In Michigan, that can be months after the sheriff's sale."
           }
         },
         {
@@ -387,7 +385,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you refinance after a loan modification?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usually, once the program's seasoning rules and your payment history line up. Refinancing has its own waiting rules after a modification, forbearance or bankruptcy. Align's refinance guides cover them by program, so start there to replace the loan on a home you own."
+            "text": "Usually, once the program's seasoning rules and your payment history line up. Refinancing has its own waiting rules after a modification, forbearance or bankruptcy, and Align's refinance guides cover them by program. Start there to replace the loan on a home you own."
           }
         }
       ]

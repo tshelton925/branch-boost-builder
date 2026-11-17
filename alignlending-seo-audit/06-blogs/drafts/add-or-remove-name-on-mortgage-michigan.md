@@ -10,94 +10,117 @@ supporting_keywords:
   - "remove ex-spouse from mortgage michigan"
   - "quitclaim deed michigan mortgage"
   - "does adding a spouse to deed uncap property taxes michigan"
-cluster: "C09 Refinancing"
-status: "Draft — subject to Align approval"
+cluster: "C09 Refinancing (breadcrumb parent /learn/refinance-situations/)"
+status: "Edited draft — subject to Align approval"
+editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
+publish_week: "W6 (Dec 28, 2026–Jan 3, 2027). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
-updated: "November 16, 2026"
-word_count: 2296
+updated: "November 17, 2026"
+word_count: 0  # set by the E2 editor count below
 target_money_page: "/refinance/"
 internal_links:
-  - {anchor: "refinancing your Michigan mortgage", url: "/refinance/"}
-  - {anchor: "see how refinancing works in Michigan", url: "/refinance/"}
-  - {anchor: "conveyance and deeds in real estate", url: "/learn/conveyance-in-real-estate/"}
-  - {anchor: "co-buying a home with family or friends", url: "/learn/co-buying-home-with-family-or-friends/"}
-  - {anchor: "selling a home during a divorce", url: "/learn/selling-home-during-divorce/"}
-  - {anchor: "refinancing to remove a co-signer", url: "/learn/refinancing-to-remove-co-signer/"}
-  - {anchor: "how a cash-out refinance works", url: "/learn/what-is-cash-out-refinance-loan/"}
-  - {anchor: "cash-out refinance in Michigan", url: "/product-loans/cashout-loans/"}
-  - {anchor: "how Michigan taxable value resets after a sale", url: "/learn/michigan-taxable-value/"}
-  - {anchor: "2026 Michigan Property Tax Uncapping Study", url: "/research/michigan-property-tax-uncapping-study/"}
-  - {anchor: "Michigan's Principal Residence Exemption", url: "/learn/homestead-exemption-benefits-and-filing-guide/"}
-  - {anchor: "Michigan transfer tax", url: "/learn/michigan-transfer-tax/"}
-  - {anchor: "Review my break-even", url: "/refinance/break-even-review/"}
-  - {anchor: "refinancing closing costs", url: "/learn/refinancing-closing-costs/"}
-  - {anchor: "How we choose and check sources", url: "/editorial-policy/"}
-  - {anchor: "Start my application (CTA)", url: "/start/?goal=refi"}
+  - {anchor: "refinancing your Michigan mortgage", url: "/refinance/", placement: "first H2, first 30% of body"}
+  - {anchor: "see how refinancing works in Michigan", url: "/refinance/", placement: "module CTA text link"}
+  - {anchor: "conveyance and deeds in real estate", url: "/learn/conveyance-in-real-estate/", placement: "mortgage vs. deed H2"}
+  - {anchor: "co-buying a home with family or friends", url: "/learn/co-buying-home-with-family-or-friends/", placement: "add a spouse H2"}
+  - {anchor: "selling a home during a divorce", url: "/learn/selling-home-during-divorce/", placement: "remove an ex H2"}
+  - {anchor: "refinancing to remove a co-signer", url: "/learn/refinancing-to-remove-co-signer/", placement: "remove an ex H2"}
+  - {anchor: "how a cash-out refinance works", url: "/learn/what-is-cash-out-refinance-loan/", placement: "buyout H2"}
+  - {anchor: "cash-out refinance in Michigan", url: "/product-loans/cashout-loans/", placement: "buyout H2"}
+  - {anchor: "2026 Michigan Property Tax Uncapping Study", url: "/research/michigan-property-tax-uncapping-study/", placement: "taxes and forms H2"}
+  - {anchor: "how Michigan taxable value resets after a sale", url: "/learn/michigan-taxable-value/", placement: "taxes and forms H2"}
+  - {anchor: "Michigan's Principal Residence Exemption", url: "/learn/homestead-exemption-benefits-and-filing-guide/", placement: "taxes and forms H2"}
+  - {anchor: "Michigan transfer tax", url: "/learn/michigan-transfer-tax/", placement: "taxes and forms H2"}
+  - {anchor: "Calculate my break-even (tool button)", url: "/refinance/break-even-review/#break-even", placement: "cost H2"}
+  - {anchor: "refinancing closing costs", url: "/learn/refinancing-closing-costs/", placement: "cost H2"}
+  - {anchor: "How we choose and check sources", url: "/editorial-policy/", placement: "Sources"}
+cta_destinations:
+  - "Talk with Samantha -> Calendly, utm_content=module and end (reducer: No credit pull to talk)"
+  - "Calculate my break-even -> /refinance/break-even-review/#break-even (reducer: Every tool is free and needs no signup). Final CTA vocabulary label; the brief's 'Review my break-even' is retired."
+  - "No apply button (brief §9: talk-only end block; the post tells readers to settle the deed and judgment with an attorney first)"
 verify_flags:
-  - "12 U.S.C. 1701j-3(d)(6)-(8) due-on-sale exemptions and the 12 CFR 191.5 owner-occupancy condition (federal sites were unreachable from this session, so not checked against the primary text)"
-  - "Due-on-sale wording in the Michigan uniform security instrument (Fannie Mae/Freddie Mac Form 3023)"
-  - "MCL 565.152 statutory quitclaim deed form (legislature.mi.gov returned 502 for this section)"
-  - "FHA, VA and USDA assumability with approval and release of liability; most conventional loans not assumable (HUD 4000.1; 7 CFR 3555.256; Fannie Mae and Freddie Mac servicing guides)"
-  - "A divorce judgment does not bind the lender or change who owes the note (confirm wording with a Michigan family law attorney)"
-  - "Fannie Mae Selling Guide B2-1.3-02: co-owner buyout as a limited cash-out refinance after 12 months of joint ownership; HUD 4000.1 treatment for FHA"
-  - "Current Michigan deed recording fee (MCL 600.2567)"
-  - "HUD and VA limits on assumption processing fees"
-  - "FAQ 3: Fannie Mae B3-6-05 on a mortgage assigned to a former spouse by decree; FAQ 5: VA entitlement after an assumption (38 U.S.C. 3714); FAQ 6: VA rules on adding a non-veteran spouse"
-  - "[COMPLIANCE REVIEW] divorce buyout example (loan-amount arithmetic only, F12 label, no CTA nearby)"
-  - "[NEEDS SAMANTHA QUOTE] what she asks first when a client wants to keep the house after a divorce"
+  - "[COMPLIANCE REVIEW] Divorce buyout example (value $300,000, payoff $160,000, half of equity $70,000, new loan $230,000). Exact F12 label present; loan-amount arithmetic only; no rate or payment; no apply CTA on the page."
+  - "[NEEDS SAMANTHA QUOTE: what she asks first when a client wants to keep the house after a divorce]"
+  - "LINK-CHECK ON PUBLISH DAY: the six www.ecfr.gov/current/... URLs (eCFR redirected this session to its bot 'unblock' page; the text of each section was read through the eCFR API on 2026-11-17)."
+editor_resolved_flags:
+  - "Garn-St Germain exemptions: the statute host (uscode.house.gov) and Cornell LII were refused by this session's proxy twice. The implementing rule, 12 CFR 191.5(b)(1), was read on eCFR: owner-occupied home; transfers where a spouse or children become owners, by divorce decree, or into an inter vivos trust the borrower benefits from and occupies; the transferee must occupy. 'Home' = one to four units (12 CFR 191.2(e) -> 141.14). The body link now points to 12 CFR 191.5 on eCFR instead of the unread OLRC page."
+  - "Form 3023 due-on-sale wording: singlefamily.fanniemae.com returned a Cloudflare 403. Replaced with the federal rule that governs due-on-sale enforcement (12 CFR 191.5(a))."
+  - "MCL 565.47 (acknowledgment before recording) and MCL 565.152 (statutory quitclaim form) read on legislature.mi.gov, 2026-11-17."
+  - "Assumptions (eCFR, 2026-11-17): FHA, 24 CFR 203.510 (release of the selling mortgagor after a creditworthiness determination); VA, 38 CFR 36.4309(c) (due on transfer unless the assumption is approved under 38 U.S.C. 3714; spouse or children as joint owners and divorce transfers excepted; after a divorce the veteran may apply to VA for a release of liability); USDA, 7 CFR 3555.256(b)(2)(i) (agency approval; 'the transferor must remain personally liable'). CORRECTION: the draft said the departing borrower should get a release on USDA loans too; USDA's rule keeps the original borrower liable."
+  - "Conventional loans: Fannie Mae Selling Guide B2-1.4-02 (12/10/2025): 'Fannie Mae ARMs are usually assumable'; a converted ARM 'is no longer assumable'. The post says most conventional loans are fixed-rate and cannot be assumed."
+  - "Divorce judgment does not bind the lender: supported by Fannie Mae B3-6-05 (08/05/2026), which treats a debt assigned to another party by court order as the borrower's contingent liability unless the creditor releases the borrower, and lets lenders leave it out of the DTI ratio (FAQ 3 updated to match)."
+  - "Fannie Mae B2-1.3-02 (10/08/2025): a buyout of an owner's interest under a written agreement is a limited cash-out refinance if the property was jointly owned at least 12 months before disbursement. The HUD 4000.1 reference is dropped; the post makes no FHA buyout claim."
+  - "MCL 211.27a(3), (7)(a), (b), (i), (j), (u), (6)(i) and (10) read on legislature.mi.gov. The relative exemption is (7)(u), not (7)(s) as the brief said. PTA penalty is in MCL 211.27b(1)(d): $5 a day after 45 days, $200 maximum for a principal residence."
+  - "State Tax Commission Transfer of Ownership Guidelines (revised February 25, 2025): divorce deed solely to end a tenancy by the entireties is exempt; divorced co-owners become tenants in common and a later transfer partly uncaps; a court-ordered price in a divorce is generally still exempt."
+  - "Form 2766 (Rev. 03-25): must be filed within 45 days whenever real estate is transferred, with exemption boxes for spouses, joint tenancy and relatives. Form 2368 and PRE claim rules (June 1 / November 1; Form 2602 within 90 days) confirmed on Treasury's PRE pages."
+  - "MCL 207.505(d), (i), (j), (o) and MCL 207.526(d), (i), (j), (k), (l), (r) confirmed: child and grandchild exemptions exist only in the state act."
+  - "Recording fee: $30 per document regardless of pages, MCL 600.2567(1)(a) (as amended effective October 1, 2016)."
+  - "VA assumption fees: 38 CFR 36.4313(d)(8) caps the holder's assumption processing fee; a funding fee is also due to VA. HUD fee limits not found in the CFR, so the post names only VA's cap."
+  - "VA entitlement after an assumption: va.gov eligibility page (2026-11-17): restored when 'a qualified Veteran-transferee agrees to assume your loan and substitute their entitlement', or the loan is repaid."
+  - "50.5% typical 2026 reset: Align's Uncapping Study (crawl 2026-11-15)."
 image_brief:
-  description: "Lead graphic, two-column diagram: left column 'Deed (who owns)' with a house icon, right column 'Mortgage (who owes)' with a document icon, with separate arrows showing that each one changes on its own. No people, no figures. File mortgage-vs-deed-diagram.webp, 80 KB or less, width and height set. Open Graph version 1200 x 630, title-only."
+  description: "Lead graphic, two-column diagram: left column 'Deed (who owns)' with a house icon, right column 'Mortgage (who owes)' with a document icon, with separate arrows showing that each one changes on its own. No people, no figures. File mortgage-vs-deed-diagram.webp, 80 KB or less, width and height set, not lazy-loaded if used as the hero. Open Graph version 1200 x 630, title-only."
   alt: "Diagram showing that the deed records who owns a home and the mortgage records who owes the loan, and each changes separately"
 ---
 
-**Subject to Align approval**
+**Subject to Align approval.**
+
+<!-- Build note: the first paragraph under every question H2 is a direct-answer block (class al-answer). -->
 
 # Adding or removing a name on a mortgage or deed in Michigan
 
-Written by Samantha Shelton NMLS 1647301 · Updated November 16, 2026
+Written by Samantha Shelton NMLS 1647301 · Updated November 17, 2026
 
-<!-- .al-answer -->
+<div class="al-answer">
+
 Adding a spouse or relative, or keeping the home after a divorce, usually takes two steps. One is for the loan: a refinance or an approved assumption. The other is for the deed: a new deed recorded with the county. In Michigan, a deed change can also uncap taxable value unless an exemption applies, such as a transfer between spouses.
 
-<!-- .al-takeaways -->
+</div>
+
+<div class="al-takeaways">
+
 **Key takeaways**
 
 - **The loan and the deed are separate.** The deed shows who owns the home; the note shows who owes the money.
-- **A quitclaim deed does not remove anyone from the loan.** Only a refinance, sale or lender release does.
-- **Federal law shields some family transfers,** such as adding a spouse or child to title, from the due-on-sale clause `[VERIFY: 12 U.S.C. 1701j-3(d)]`.
-- **Check Michigan's uncapping exemptions before you record.** Spouses and certain relatives are exempt (MCL 211.27a(7)); after a sale, a typical home's taxable value jumped about 50.5% in 2026.
+- **A quitclaim deed does not remove anyone from the loan.** Only a refinance, a sale or the lender's written release does.
+- **Federal rules shield some family transfers** from the due-on-sale clause, such as a spouse or child joining the title of a home you live in.
+- **Check Michigan's uncapping exemptions before you record.** Spouses and certain relatives are exempt. Otherwise, a typical home's taxable value jumped about 50.5% the year after a sale in 2026.
+
+</div>
 
 *Not legal or tax advice. Have a Michigan attorney review any deed or divorce judgment.*
 
 ## Can you add someone to a mortgage without refinancing?
 
-<!-- .al-answer -->
 Usually not to the loan. The borrowers signed the note and the lender approved them on their credit and income, so a new borrower means a new loan. You can often add someone to the deed alone, but that makes them an owner, not a borrower, and lender consent and Michigan tax rules still matter.
 
-Most mortgages let the lender demand full payment if ownership changes without its consent `[VERIFY: Michigan uniform security instrument, Form 3023]`, so for anyone but a spouse or child, ask your servicer first. To add a borrower, the usual route is [refinancing your Michigan mortgage](/refinance/).
+Most mortgages carry a due-on-sale clause: the lender can demand full payment if ownership changes without its consent, except for the family transfers federal rules protect ([12 CFR 191.5](https://www.ecfr.gov/current/title-12/chapter-I/part-191/section-191.5)). For anyone else, ask your servicer first. To add a borrower, the usual route is [refinancing your Michigan mortgage](/refinance/).
 
 | Change | How | Who owes the loan | Lender approval? | Michigan tax effect |
 |---|---|---|---|---|
 | Add to deed | New recorded deed | Original borrowers | Not for a spouse or child | None for a spouse, listed relative or joint tenancy with an owner |
-| Add to loan | Refinance in both names | Everyone on the new note | Yes | None |
-| Assumption | Servicer approves the new borrower | New borrower; old one unless released | Yes; FHA, VA, USDA `[VERIFY]` | Depends on the deed |
-| Remove from deed | Quitclaim deed | Unchanged | Not for a spouse or divorce decree | None between spouses or in a divorce |
+| Add to loan | Refinance in both names | Everyone on the new note | Yes | None from the loan itself |
+| Assumption | Servicer (and USDA) approves the new borrower | New borrower; the old one too, unless released | Yes; mainly FHA, VA and USDA loans | Depends on the deed |
+| Remove from deed | Quitclaim deed | Unchanged | Not for a divorce decree | None if it only ends a tenancy by the entireties |
 | Remove from loan | Refinance, release or sale | Remaining borrower | Yes | None from a refinance |
 
-*Based on 12 U.S.C. 1701j-3 `[VERIFY]`, MCL 211.27a and State Tax Commission guidelines.*
+*Sources: the federal and Michigan rules cited in this guide.*
 
-> **Not sure which step comes first?** Samantha Shelton, Align's broker owner, can walk through the loan side.
->
-> [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module) · No credit pull to talk.
->
-> Or [see how refinancing works in Michigan](/refinance/).
+<aside class="al-module">
+
+**Not sure which step comes first?** Samantha Shelton, Align's broker owner, can walk through the loan side.
+
+[Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=module) · No credit pull to talk.
+
+Or [see how refinancing works in Michigan](/refinance/).
+
+</aside>
 
 ## What is the difference between the mortgage and the deed?
 
-<!-- .al-answer -->
 The deed shows who owns the home and is recorded with the county Register of Deeds. The promissory note shows who owes the money, and the mortgage pledges the home as security for it. A person can be on one and not the other, so each change needs its own paperwork.
 
-A Michigan Register of Deeds records a deed only once it is acknowledged, usually before a notary ([MCL 565.47](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47)). A quitclaim deed passes whatever interest the signer has, with no promise about title `[VERIFY: MCL 565.152]`. See [conveyance and deeds in real estate](/learn/conveyance-in-real-estate/).
+A Michigan Register of Deeds records a deed only once it is acknowledged, usually before a notary ([MCL 565.47](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47)). Michigan's short-form [quitclaim deed](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-152) passes whatever interest the signer has, with no promise about the title. See [conveyance and deeds in real estate](/learn/conveyance-in-real-estate/).
 
 The deed's wording also sets how you hold title (State Tax Commission [Transfer of Ownership Guidelines](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf)):
 
@@ -107,44 +130,44 @@ The deed's wording also sets how you hold title (State Tax Commission [Transfer 
 
 ## How do you add a spouse or family member to your mortgage?
 
-<!-- .al-answer -->
-To put them on the loan, refinance with both of you as borrowers; both apply and qualify on credit and income. To put them on title only, record a new deed. Federal law generally bars the lender from calling the loan when a spouse or child joins the title of a home you live in.
+To put them on the loan, refinance with both of you as borrowers; both apply and qualify on credit and income. To put them on title only, record a new deed. Federal rules generally bar the lender from calling the loan when a spouse or child joins the title of a home you live in.
 
-The [Garn-St Germain Act](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title12-section1701j-3&num=0&edition=prelim) bars due-on-sale enforcement on a home with fewer than five units when a spouse or child becomes an owner, a divorce decree makes the spouse an owner, or the home goes into a living trust the borrower benefits from `[VERIFY: 12 U.S.C. 1701j-3(d)(6)-(8); 12 CFR 191.5]`. It does not add or release a borrower. If the new owner will share costs, see [co-buying a home with family or friends](/learn/co-buying-home-with-family-or-friends/).
+That protection, from the Garn-St Germain Act, covers a one- to four-unit home the borrower lives in, when the new owner lives there too. It also covers a divorce decree that makes a spouse an owner and a living trust the borrower lives in. It does not add or release a borrower. Sharing costs? See [co-buying a home with family or friends](/learn/co-buying-home-with-family-or-friends/).
 
 ### Does adding someone to the deed raise Michigan property taxes?
 
 Not when an exemption applies. Adding a spouse is not a transfer of ownership, and since December 31, 2014 neither is deeding a home to a parent, sibling, child or grandchild. A joint tenancy that keeps an original owner on title is also exempt. Adding anyone else as a tenant in common can partly uncap taxable value.
 
-The rules are in [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a)(7)(a), (b), (i) and (u). The relative exemption covers your or your spouse's parent, sibling, child or grandchild if the home is not used commercially. Assessors read exemptions strictly, so confirm with yours first.
+The rules are in [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a)(7)(a), (b), (i) and (u). The relative exemption also covers your spouse's relatives, as long as the home is not used commercially. Confirm with your assessor before you record.
 
 ## How do you remove an ex-spouse from a mortgage in Michigan?
 
-<!-- .al-answer -->
-A quitclaim deed takes an ex-spouse off the title but not off the loan. To end their liability, the spouse keeping the home refinances in their own name, gets a lender-approved assumption with a release of liability, or sells. The judgment of divorce should say who keeps the home and when the loan must be refinanced.
+A quitclaim deed takes an ex-spouse off the title but not off the loan. To end their liability, the spouse keeping the home refinances alone, sells, or, where the loan allows, assumes it with a release of liability. The judgment of divorce should say who keeps the home and when the loan must be refinanced.
 
-The lender is not a party to the divorce, so the judgment does not change who signed the note `[VERIFY: Michigan family law attorney]`, and a late payment can affect both borrowers.
+The lender is not a party to the divorce, so the judgment does not change who owes the note. Fannie Mae calls a debt assigned by court order a contingent liability until the creditor releases the borrower ([Selling Guide B3-6-05](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations)). Late payments can hurt both borrowers.
 
-For taxes, a divorce deed made solely to end a tenancy by the entireties does not uncap taxable value, but former spouses who keep owning together become tenants in common, and a later transfer between them can partly uncap it (State Tax Commission).
+For taxes, a divorce deed made solely to end a tenancy by the entireties does not uncap taxable value. Former spouses who keep owning together become tenants in common, and a later transfer between them can partly uncap it (State Tax Commission).
 
 Selling instead? See [selling a home during a divorce](/learn/selling-home-during-divorce/). For a co-signer, see [refinancing to remove a co-signer](/learn/refinancing-to-remove-co-signer/).
 
-Samantha puts it this way: `[NEEDS SAMANTHA QUOTE: what she asks first when a client wants to keep the house after a divorce]`
+Samantha puts it this way: [NEEDS SAMANTHA QUOTE: what she asks first when a client wants to keep the house after a divorce]
 
 ### Can you take over the mortgage without refinancing after a divorce?
 
-Sometimes, through an assumption. FHA, VA and USDA loans can generally be assumed with the servicer's approval when the person keeping the home qualifies, and the departing borrower should get a written release of liability. Most conventional loans cannot be assumed `[VERIFY: HUD 4000.1; 7 CFR 3555.256; Fannie Mae and Freddie Mac servicing guides]`.
+Sometimes, through an assumption, if the loan allows it and the person keeping the home qualifies:
 
-Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA.
+- **FHA:** assumable after a creditworthiness review; the departing borrower can then be released ([24 CFR 203.510](https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-203/subpart-C/subject-group-ECFR64d77be428e0d2f/section-203.510)).
+- **VA:** assumable with approval ([38 CFR 36.4309](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4309)); after a divorce, the veteran can ask VA for a release. The veteran's [entitlement](https://www.va.gov/housing-assistance/home-loans/eligibility/) stays in use unless a qualified veteran substitutes theirs.
+- **USDA:** needs USDA's approval, and the original borrower stays liable ([7 CFR 3555.256](https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XXXV/part-3555/subpart-F/section-3555.256)).
+- **Conventional:** most are fixed-rate and not assumable; Fannie Mae's adjustable-rate loans usually are ([Selling Guide B2-1.4-02](https://selling-guide.fanniemae.com/sel/b2-1.4-02/adjustable-rate-mortgages-arms)).
 
 ## How does a divorce buyout refinance work?
 
-<!-- .al-answer -->
 You refinance in your own name and use part of the new loan to pay your former spouse their share of the equity. Some loan programs treat a buyout under a divorce decree differently from a standard cash-out refinance. You need the decree or settlement agreement, an appraisal and enough income to qualify on your own.
 
-Fannie Mae treats a buyout of a co-owner under a written agreement as a limited cash-out refinance after 12 months of joint ownership ([Selling Guide B2-1.3-02](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions)) `[VERIFY: current edition; HUD 4000.1 for FHA]`. For property tax, a divorce judgment that sets a price for the home is generally still exempt, because it ends a tenancy by the entireties (State Tax Commission).
+Fannie Mae treats a buyout of a co-owner under a written agreement, such as a divorce settlement, as a limited cash-out refinance if the home was jointly owned for at least 12 months before the new loan funds ([Selling Guide B2-1.3-02](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions)). Other programs set their own rules. For property tax, a divorce judgment that sets a price for the home is generally still exempt, because it ends a tenancy by the entireties (State Tax Commission).
 
-**Hypothetical example, not an offer. Actual rates, costs and payments vary.** `[COMPLIANCE REVIEW]`
+**Hypothetical example, not an offer. Actual rates, costs and payments vary.** [COMPLIANCE REVIEW]
 
 | Item | Amount |
 |---|---|
@@ -156,49 +179,48 @@ Fannie Mae treats a buyout of a co-owner under a written agreement as a limited 
 
 Loan amounts only, before closing costs and prepaid items; no rate or payment implied.
 
-See [how a cash-out refinance works](/learn/what-is-cash-out-refinance-loan/) and [cash-out refinance in Michigan](/product-loans/cashout-loans/).
+For a standard cash-out, see [how a cash-out refinance works](/learn/what-is-cash-out-refinance-loan/) and [cash-out refinance in Michigan](/product-loans/cashout-loans/).
 
 ## What Michigan taxes and forms apply when a name changes on a deed?
 
-<!-- .al-answer -->
-A deed change can be a transfer of ownership that uncaps taxable value the next year. Taxable value then resets to the state equalized value, half of the assessor's market value. An exemption, such as a transfer between spouses, prevents that. File a Property Transfer Affidavit and keep the Principal Residence Exemption in place.
+A deed change can be a transfer of ownership. Unless an exemption applies, such as a transfer between spouses, taxable value resets the next year to the state equalized value, half of the assessor's market value, not automatically half the price you paid. File a Property Transfer Affidavit and keep the Principal Residence Exemption in place.
 
-The year after a home sells, its taxable value resets to the state equalized value, half of the assessor's market value, not automatically half the price you paid. A deed change that is not exempt triggers the same reset (MCL 211.27a(3)), about a 50.5% jump for a typical Michigan home in 2026, per Align Lending's [2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/). More on [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
+It is the same reset that follows a sale (MCL 211.27a(3)). Align Lending's [2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/) puts the typical jump the year after a sale at about 50.5% in 2026. More on [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
-1. **Property Transfer Affidavit ([Form 2766](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf)):** the new owner files it with the assessor within 45 days (MCL 211.27a(10)); a late filing on a principal residence can cost $5 a day, up to $200. File it, exemption box checked, even when the transfer is exempt.
-2. **Principal Residence Exemption ([Form 2368](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf)):** exempts the home from up to 18 mills of school operating tax. A new owner who lives there files by June 1, or November 1 for the winter levy; one who moves out files Form 2602 within 90 days. See [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/).
+1. **Property Transfer Affidavit ([Form 2766](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf)):** the new owner files it with the assessor within 45 days of the transfer (MCL 211.27a(10)). Late filing on a principal residence can cost $5 a day, up to $200 ([MCL 211.27b](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27b)). File it, with the exemption claimed, even when the transfer is exempt.
+2. **Principal Residence Exemption ([Form 2368](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf)):** keeps the home exempt from up to 18 mills of school operating tax. A new owner who lives there files by June 1 or November 1; an owner who moves out files Form 2602 within 90 days. See [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/).
 3. **Transfer tax:** none is owed on a deed between spouses creating or ending a tenancy by the entireties, a court-ordered transfer with no stated price or a joint tenancy with an existing owner ([MCL 207.505](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-505), [MCL 207.526](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526)). Only the state tax exempts a deed to a child or grandchild. See [Michigan transfer tax](/learn/michigan-transfer-tax/).
-4. **Recording fee:** charged by the county Register of Deeds `[VERIFY: current fee, MCL 600.2567]`.
+4. **Recording fee:** $30 per deed at the county Register of Deeds, whatever the page count ([MCL 600.2567](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-2567)).
 
 A refinance alone uncaps nothing and owes no transfer tax (MCL 211.27a(7)(j); MCL 207.505(d) and 207.526(d)).
 
 ## What does it cost to add or remove a name?
 
-<!-- .al-answer -->
-A deed-only change costs the deed preparation, often by an attorney or title company, plus the county recording fee. A refinance has closing costs, shown on your Loan Estimate. An assumption has servicer fees, some limited by HUD or the VA. Compare the total cost with the benefit before you decide.
+A deed-only change costs the deed preparation, often by an attorney or title company, plus the $30 county recording fee. A refinance has closing costs, shown on your Loan Estimate. An assumption has servicer fees, and VA caps the processing fee on its loans. Compare the total cost with the benefit before you decide.
 
-`[VERIFY: HUD and VA limits on assumption fees]`
+VA's cap is in [38 CFR 36.4313](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4313); VA also charges a funding fee on an assumption. A refinance replaces your current loan's terms, so compare the whole new loan, including [refinancing closing costs](/learn/refinancing-closing-costs/).
 
-A refinance also replaces your current loan's interest rate and terms, so compare the whole new loan. See [refinancing closing costs](/learn/refinancing-closing-costs/).
+Refinancing only to add a spouse? Check how long the costs take to pay back.
 
-[Review my break-even](/refinance/break-even-review/)
+[Calculate my break-even](/refinance/break-even-review/#break-even) · Every tool is free and needs no signup.
 
 ## When should you talk to an attorney first?
 
-<!-- .al-answer -->
 Talk to a Michigan attorney before you record any deed during a divorce, an estate plan or a family transfer. The deed type, the form of ownership and the timing affect who is liable, what is taxed and who inherits. A mortgage broker can explain the loan side, not the legal one.
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha can price a refinance for the borrower who stays, and if leaving your loan alone is the honest answer, she says so.
+**How Align can help.** Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha can price a refinance for the borrower who stays, and if leaving your loan alone is the honest answer, she says so.
 
-> [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) · No credit pull to talk.
->
-> [Start my application](/start/?goal=refi)
+<aside class="al-next">
+
+[Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) · No credit pull to talk.
+
+</aside>
 
 ## Questions about changing names on a Michigan mortgage
 
 ### Can you add someone to a mortgage loan?
 
-Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. Some FHA, VA and USDA loans can be assumed instead. A deed alone adds an owner, not a borrower.
+Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. FHA, VA and USDA loans can also be assumed by a qualified new borrower with approval. A deed alone adds an owner, not a borrower.
 
 ### Does a quitclaim deed remove you from the mortgage?
 
@@ -206,7 +228,7 @@ No. A quitclaim deed changes who owns the home, not who owes the loan. Everyone 
 
 ### Can my ex keep the house and the mortgage in my name?
 
-Yes, if the judgment allows it, but you stay liable to the lender. A late payment can hurt your credit, and the debt can count against your next loan application. A judgment can set a refinance deadline; ask your attorney what happens if it passes.
+Yes, if the judgment allows it, but you stay liable to the lender. Late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio, but other programs set their own rules. Ask your attorney what happens if a refinance deadline in the judgment passes.
 
 ### Does adding a spouse to the deed uncap property taxes in Michigan?
 
@@ -214,17 +236,19 @@ No. Under Michigan law, a transfer between spouses, or a deed that only creates 
 
 ### Can you assume a mortgage after a divorce?
 
-Sometimes. FHA, VA and USDA loans can generally be assumed with the servicer's approval if the person keeping the home qualifies; most conventional loans cannot. Get a written release of liability for the spouse who leaves, and on a VA loan, check the veteran's entitlement.
+Sometimes. FHA and VA loans can be assumed with approval if the person keeping the home qualifies, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it.
 
 ### Do you need a refinance to add a spouse to a VA loan?
 
-Not to add them to the deed. Federal law lets a spouse become an owner of a home the borrower lives in without the loan being called. To add a spouse to the loan itself, expect a refinance, and ask which VA options allow it.
+Not to add them to the deed. VA's rule lets a spouse or child become a joint owner of the home without the loan being called. To add a spouse to the loan itself, expect a refinance; the program and the lender decide who can be added.
 
 ### How long after a divorce do you have to refinance?
 
 There is no general legal deadline. The judgment of divorce or settlement agreement sets one, if at all. The lender is not bound by it, so both borrowers stay on the loan until a refinance closes. If you need time to qualify alone, say so early.
 
-`[VERIFY: FAQ 3 (Fannie Mae B3-6-05, debts assigned by decree); FAQ 5 (VA entitlement); FAQ 6 (VA rules on adding a non-veteran spouse)]`
+Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
+
+Align Lending is not affiliated with or endorsed by HUD/FHA, the Department of Veterans Affairs or USDA.
 
 ## Sources
 
@@ -232,17 +256,25 @@ Every outside source this guide links to, in the order it appears.
 
 [How we choose and check sources](/editorial-policy/)
 
-- [MCL 565.47: acknowledgment](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47) — Michigan Legislature
-- [Transfer of Ownership Guidelines (February 25, 2025)](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf) — Michigan State Tax Commission
-- [12 U.S.C. 1701j-3: due-on-sale exemptions](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title12-section1701j-3&num=0&edition=prelim) — Office of the Law Revision Counsel
-- [MCL 211.27a: transfer of ownership](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) — Michigan Legislature
-- [Selling Guide B2-1.3-02: limited cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions) — Fannie Mae
-- [Form 2766: Property Transfer Affidavit](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf) — Michigan Department of Treasury
-- [Form 2368: PRE Affidavit](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf) — Michigan Department of Treasury
-- [MCL 207.505: county transfer tax exemptions](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-505) — Michigan Legislature
-- [MCL 207.526: state transfer tax exemptions](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526) — Michigan Legislature
-
-Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
+- [12 CFR 191.5, due-on-sale clauses](https://www.ecfr.gov/current/title-12/chapter-I/part-191/section-191.5) — eCFR
+- [MCL 565.47, acknowledgment](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47) — Michigan Legislature
+- [MCL 565.152, quitclaim deed form](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-152) — Michigan Legislature
+- [Transfer of Ownership Guidelines (revised February 25, 2025)](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf) — Michigan State Tax Commission
+- [MCL 211.27a, transfer of ownership](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a) — Michigan Legislature
+- [Selling Guide B3-6-05, monthly debt obligations](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations) — Fannie Mae
+- [24 CFR 203.510, release of personal liability](https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-203/subpart-C/subject-group-ECFR64d77be428e0d2f/section-203.510) — eCFR
+- [38 CFR 36.4309, transfer of title by borrower](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4309) — eCFR
+- [Eligibility for VA home loan programs](https://www.va.gov/housing-assistance/home-loans/eligibility/) — U.S. Department of Veterans Affairs
+- [7 CFR 3555.256, transfer and assumptions](https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XXXV/part-3555/subpart-F/section-3555.256) — eCFR
+- [Selling Guide B2-1.4-02, adjustable-rate mortgages](https://selling-guide.fanniemae.com/sel/b2-1.4-02/adjustable-rate-mortgages-arms) — Fannie Mae
+- [Selling Guide B2-1.3-02, limited cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions) — Fannie Mae
+- [Form 2766, Property Transfer Affidavit](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf) — Michigan Department of Treasury
+- [MCL 211.27b, failure to file a transfer affidavit](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27b) — Michigan Legislature
+- [Form 2368, Principal Residence Exemption Affidavit](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf) — Michigan Department of Treasury
+- [MCL 207.505, county transfer tax exemptions](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-505) — Michigan Legislature
+- [MCL 207.526, state transfer tax exemptions](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526) — Michigan Legislature
+- [MCL 600.2567, register of deeds fees](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-2567) — Michigan Legislature
+- [38 CFR 36.4313, charges and fees](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4313) — eCFR
 
 ```json-ld
 {
@@ -253,8 +285,9 @@ Align's guides are general education, not legal, tax or financial advice, not a 
       "@id": "https://alignlending.com/learn/add-or-remove-name-on-mortgage-michigan/#article",
       "headline": "Adding or removing a name on a mortgage or deed in Michigan",
       "description": "How to add a spouse or family member to a Michigan mortgage or deed, or remove an ex after divorce: refinance, assumption, quitclaim and the property tax reset.",
-      "datePublished": "2026-11-16",
-      "dateModified": "2026-11-16",
+      "datePublished": "2026-11-17",
+      "dateModified": "2026-11-17",
+      "inLanguage": "en-US",
       "author": {
         "@type": "Person",
         "name": "Samantha Shelton",
@@ -270,27 +303,46 @@ Align's guides are general education, not legal, tax or financial advice, not a 
         ]
       },
       "publisher": {
-        "@id": "https://alignlending.com/#organization",
-        "name": "Align Lending"
+        "@id": "https://alignlending.com/#organization"
       },
       "mainEntityOfPage": "https://alignlending.com/learn/add-or-remove-name-on-mortgage-michigan/",
       "about": [
-        "Mortgage",
-        "Deed",
-        "Quitclaim deed",
-        "Refinance",
-        "Michigan property tax uncapping"
+        {
+          "@type": "Thing",
+          "name": "Mortgage assumption"
+        },
+        {
+          "@type": "Thing",
+          "name": "Quitclaim deed"
+        }
+      ],
+      "spatialCoverage": {
+        "@type": "State",
+        "name": "Michigan"
+      },
+      "isBasedOn": [
+        "https://alignlending.com/research/michigan-property-tax-uncapping-study/"
       ],
       "citation": [
+        "https://www.ecfr.gov/current/title-12/chapter-I/part-191/section-191.5",
         "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-152",
         "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf",
-        "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title12-section1701j-3&num=0&edition=prelim",
         "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a",
+        "https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations",
+        "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-203/subpart-C/subject-group-ECFR64d77be428e0d2f/section-203.510",
+        "https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4309",
+        "https://www.va.gov/housing-assistance/home-loans/eligibility/",
+        "https://www.ecfr.gov/current/title-7/subtitle-B/chapter-XXXV/part-3555/subpart-F/section-3555.256",
+        "https://selling-guide.fanniemae.com/sel/b2-1.4-02/adjustable-rate-mortgages-arms",
         "https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions",
         "https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27b",
         "https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf",
         "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-505",
-        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526"
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526",
+        "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-2567",
+        "https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4313"
       ],
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -338,7 +390,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Can you add someone to a mortgage loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. Some FHA, VA and USDA loans can be assumed instead. A deed alone adds an owner, not a borrower."
+            "text": "Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. FHA, VA and USDA loans can also be assumed by a qualified new borrower with approval. A deed alone adds an owner, not a borrower."
           }
         },
         {
@@ -354,7 +406,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Can my ex keep the house and the mortgage in my name?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, if the judgment allows it, but you stay liable to the lender. A late payment can hurt your credit, and the debt can count against your next loan application. A judgment can set a refinance deadline; ask your attorney what happens if it passes."
+            "text": "Yes, if the judgment allows it, but you stay liable to the lender. Late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio, but other programs set their own rules. Ask your attorney what happens if a refinance deadline in the judgment passes."
           }
         },
         {
@@ -370,7 +422,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Can you assume a mortgage after a divorce?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes. FHA, VA and USDA loans can generally be assumed with the servicer's approval if the person keeping the home qualifies; most conventional loans cannot. Get a written release of liability for the spouse who leaves, and on a VA loan, check the veteran's entitlement."
+            "text": "Sometimes. FHA and VA loans can be assumed with approval if the person keeping the home qualifies, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it."
           }
         },
         {
@@ -378,7 +430,7 @@ Align's guides are general education, not legal, tax or financial advice, not a 
           "name": "Do you need a refinance to add a spouse to a VA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not to add them to the deed. Federal law lets a spouse become an owner of a home the borrower lives in without the loan being called. To add a spouse to the loan itself, expect a refinance, and ask which VA options allow it."
+            "text": "Not to add them to the deed. VA's rule lets a spouse or child become a joint owner of the home without the loan being called. To add a spouse to the loan itself, expect a refinance; the program and the lender decide who can be added."
           }
         },
         {
