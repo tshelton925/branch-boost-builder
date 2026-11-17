@@ -20,7 +20,7 @@ editor_review: "06-blogs/editor-review-E4.md (E4 editor, 2026-11-17)"
 publish_week: "W8 (Jan 11–17, 2027). Change the visible Updated date, datePublished and dateModified to the publish date, and re-check the waiting-period table against the live guides that week."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-17"
-word_count: 2197  # visible body incl. table, FAQ, F7 and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
+word_count: 2194  # visible body incl. table, FAQ, F7 and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
   - {anchor: "Take the readiness review", url: "/purchase/homebuyer-game-plan/#readiness", placement: "CTA module after the waiting-period table (first 30%)", status: "live"}
@@ -124,7 +124,7 @@ If the same mortgage was also foreclosed, Fannie Mae applies the longer wait unl
 
 ## Can you buy a house while in Chapter 13?
 
-Yes, with FHA, VA or USDA, once 12 months of the plan have passed, every plan payment has been on time and the bankruptcy court or trustee approves the new mortgage in writing. Fannie Mae's conventional rules wait until 2 years after the discharge, or 4 years after a dismissal.
+Yes, with FHA, VA or USDA. You need 12 months of on-time plan payments and written approval of the new mortgage from the bankruptcy court or trustee. Fannie Mae's conventional rules wait until 2 years after the discharge, or 4 years after a dismissal.
 
 HUD asks for the bankruptcy court's written permission, while VA and USDA accept the trustee's or the judge's. Ask your bankruptcy attorney how your trustee handles the request.
 
@@ -150,7 +150,7 @@ It is a different process, run by the county treasurer. [Michigan Treasury's tim
 
 ## What counts as extenuating circumstances?
 
-Fannie Mae defines extenuating circumstances as nonrecurring events beyond your control that caused a sudden, significant and prolonged drop in income or a catastrophic rise in obligations, such as a layoff or a serious illness. The lender must document the event and show that default was your only reasonable option.
+Fannie Mae treats extenuating circumstances as one-time events outside your control that caused a sudden, lasting drop in income or a severe jump in bills, such as a layoff or a serious illness. The lender must document the event and show that default was your only reasonable option.
 
 [Fannie Mae's Selling Guide B3-5.3-08](https://selling-guide.fanniemae.com/sel/b3-5.3-08/extenuating-circumstances-derogatory-credit) asks for papers that confirm the event, such as a divorce decree, medical bills or a layoff notice, papers showing why you could not resolve it, and your written explanation.
 
@@ -158,7 +158,7 @@ HUD allows an FHA exception for documented events beyond your control, such as a
 
 ## What can you do during the waiting period to be ready?
 
-Keep every payment on time, keep or add a few accounts in good standing, keep card balances low, and save for the down payment and reserves. Keep records of what caused the event, and check your credit reports for errors well before you apply, so the file is ready on day one.
+Pay every bill on time. Keep or add a few accounts in good standing, keep card balances low, and save for the down payment and reserves. Keep records of what caused the event, and check your credit reports for errors well before you apply, so the file is ready on day one.
 
 1. **Collect your dates:** the discharge or dismissal order, the sheriff's deed, and any short sale or deed in lieu papers.
 2. **Check your reports** at AnnualCreditReport.com: confirm the dates and that discharged debts show a zero balance.
@@ -170,13 +170,13 @@ Keep every payment on time, keep or add a few accounts in good standing, keep ca
 
 ## Can you get a mortgage sooner with a non-QM loan?
 
-Sometimes. Non-QM loans follow each lender's own rules rather than Fannie Mae, FHA, VA or USDA guidelines, and some lenders accept a shorter time since a bankruptcy or foreclosure. The tradeoff is usually a larger down payment and higher costs, so compare it against waiting for an agency program.
+Sometimes. Non-QM loans follow each lender's own rules, not Fannie Mae, FHA, VA or USDA guidelines. Some lenders accept a shorter time since a bankruptcy or foreclosure. The tradeoff is usually a larger down payment and higher costs, so compare it with waiting for an agency program.
 
 Non-QM loans fall outside the federal qualified mortgage definition, but the lender must still decide in good faith that you can repay ([Regulation Z, 12 CFR 1026.43](https://www.ecfr.gov/current/title-12/chapter-X/part-1026/subpart-E/section-1026.43)). Waits vary by lender, and none is promised. See [non-QM loans in Michigan](/product-loans/non-qm-loans/). <!-- NEEDS ALIGN INPUT (optional): typical non-QM seasoning periods from Align's wholesale lenders. Add a range only with a dated source; otherwise leave this section as is. -->
 
 ## Does a loan modification or forbearance affect buying a home?
 
-Fannie Mae, FHA and USDA set no bankruptcy-style wait after a completed loan modification or forbearance. They review your payment history instead: Fannie Mae turns away a file with a mortgage payment 60 or more days late in the past 12 months, and FHA underwrites by hand after fewer than 3 payments since forbearance ended.
+Fannie Mae, FHA and USDA set no bankruptcy-style wait after a completed loan modification or forbearance. They look at your payment history instead. Fannie Mae turns away a file with a mortgage payment 60 or more days late in the past 12 months. FHA underwrites by hand if you have made fewer than 3 payments since forbearance ended.
 
 To change the loan on a home you own, see [refinancing after a loan modification](/learn/refinancing-after-loan-modification/) and [refinancing after forbearance](/learn/how-to-refinance-mortgage-in-forbearance/).
 

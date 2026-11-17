@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E4.md (E4 editor, 2026-11-17)"
 publish_week: "W4 (Dec 14–20, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-17"
-word_count: 2300  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
+word_count: 2299  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
   - {anchor: "Compare renting and buying", url: "/rent-vs-buy-calculator/", placement: "after the comparison table (first 30%)", status: "live"}
@@ -88,11 +88,11 @@ With rent-to-own, the owner keeps title, you pay a landlord, and a missed paymen
 | Who pays property tax | Owner, unless the lease shifts it | Usually you, per the contract | You, often through escrow |
 | Principal Residence Exemption | No, not until you buy | Yes, with a written, seller-signed contract | Yes |
 | Taxable value uncaps | At the deed, unless the lease has a bargain purchase option or runs over 35 years | The year after signing, not again at payoff | The year after the sale |
-| Lost on default | The home; fee and credits if the contract says so | The home and, usually, the payments made | The home, after foreclosure and redemption |
+| Lost on default | The home; fee and credits if the contract says so | The home and, usually, your payments | The home, after foreclosure and redemption |
 | Path to a mortgage | A purchase loan at the agreed price | Pay off the contract, often by refinancing | Already there |
 | Recorded? | Optional: a memorandum of the option; ask an attorney | Not required; Treasury recommends it | Yes, at closing |
 
-*Sources: MCL 211.27a, 211.7dd, 600.5714, 600.5728, 600.5744 and 600.3240; Michigan Department of Treasury PRE guidance. Michigan rules as of November 2026; your contract can change some of them.*
+*Sources: MCL 211.27a, 211.7dd, 600.5714, 600.5728, 600.5744 and 600.3240; Michigan Department of Treasury PRE guidance. Michigan rules as of November 2026; a contract can change some.*
 
 [Compare renting and buying](/rent-vs-buy-calculator/) with your own numbers.
 
@@ -110,7 +110,7 @@ Is a mortgage closer than the seller's offer assumes? The 8-question readiness a
 
 You are a tenant. Rent-to-own is a lease with a right, or sometimes a duty, to buy at a set price by a set date. You usually pay an option fee, and part of the rent may be credited. Michigan Treasury treats a lease with an option to buy as a rental agreement until you exercise it.
 
-Sellers use the labels loosely: a lease-option lets you walk away, usually losing the fee, while a lease-purchase can commit you to buy. The guide to [lease to own vs. rent to own](/learn/lease-to-own-vs-rent-to-own-whats/) compares the two. Until you buy, Michigan's [Truth in Renting Act](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-554-633) bars your lease from waiving the landlord's habitability duties or your right to notice in court.
+Sellers use the labels loosely: a lease-option lets you walk away, usually losing the fee, while a lease-purchase can commit you to buy. The guide to [lease to own vs. rent to own](/learn/lease-to-own-vs-rent-to-own-whats/) compares the two. Until you buy, Michigan's [Truth in Renting Act](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-554-633) bars your lease from waiving your remedies for an unfit home or your right to notice in court.
 
 ## Who owns the home during a Michigan land contract?
 

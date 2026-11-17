@@ -83,7 +83,7 @@ Adding a spouse or relative, or keeping the home after a divorce, usually takes 
 
 - **The loan and the deed are separate.** The deed shows who owns the home; the note shows who owes the money.
 - **A quitclaim deed does not remove anyone from the loan.** Only a refinance, a sale or the lender's written release does.
-- **Federal rules shield some family transfers** from the due-on-sale clause, such as a spouse or child joining the title of a home you live in.
+- **Federal rules stop a lender from calling the loan** when a spouse or child joins the title of a home you live in.
 - **Check Michigan's uncapping exemptions before you record.** Spouses and certain relatives are exempt. Otherwise, a typical home's taxable value jumped about 50.5% the year after a sale in 2026.
 
 </div>
@@ -122,7 +122,7 @@ The deed shows who owns the home and is recorded with the county Register of Dee
 
 A Michigan Register of Deeds records a deed only once it is acknowledged, usually before a notary ([MCL 565.47](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-47)). Michigan's short-form [quitclaim deed](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-565-152) passes whatever interest the signer has, with no promise about the title. See [conveyance and deeds in real estate](/learn/conveyance-in-real-estate/).
 
-The deed's wording also sets how you hold title (State Tax Commission [Transfer of Ownership Guidelines](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf)):
+The deed also sets how you hold title (State Tax Commission [Transfer of Ownership Guidelines](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/STC/TransferOwnershipGuidelines.pdf)):
 
 - **Tenancy by the entireties:** spouses only, with survivorship.
 - **Joint tenancy:** equal shares, with survivorship.
@@ -138,15 +138,15 @@ That protection, from the Garn-St Germain Act, covers a one- to four-unit home t
 
 Not when an exemption applies. Adding a spouse is not a transfer of ownership, and since December 31, 2014 neither is deeding a home to a parent, sibling, child or grandchild. A joint tenancy that keeps an original owner on title is also exempt. Adding anyone else as a tenant in common can partly uncap taxable value.
 
-The rules are in [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a)(7)(a), (b), (i) and (u). The relative exemption also covers your spouse's relatives, as long as the home is not used commercially. Confirm with your assessor before you record.
+The rules are in [MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a)(7)(a), (b), (i) and (u); the relative exemption also covers your spouse's relatives. Confirm with your assessor before you record.
 
 ## How do you remove an ex-spouse from a mortgage in Michigan?
 
 A quitclaim deed takes an ex-spouse off the title but not off the loan. To end their liability, the spouse keeping the home refinances alone, sells, or, where the loan allows, assumes it with a release of liability. The judgment of divorce should say who keeps the home and when the loan must be refinanced.
 
-The lender is not a party to the divorce, so the judgment does not change who owes the note. Fannie Mae calls a debt assigned by court order a contingent liability until the creditor releases the borrower ([Selling Guide B3-6-05](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations)). Late payments can hurt both borrowers.
+The lender is not a party to the divorce, so the judgment does not change who owes the note. Fannie Mae calls a debt assigned by court order a contingent liability until the creditor releases the borrower ([Selling Guide B3-6-05](https://selling-guide.fanniemae.com/sel/b3-6-05/monthly-debt-obligations)).
 
-For taxes, a divorce deed made solely to end a tenancy by the entireties does not uncap taxable value. Former spouses who keep owning together become tenants in common, and a later transfer between them can partly uncap it (State Tax Commission).
+For taxes, a divorce deed made solely to end a tenancy by the entireties does not uncap taxable value, even if the judgment sets a price (State Tax Commission). Former spouses who keep owning together become tenants in common, and a later transfer between them can partly uncap it.
 
 Selling instead? See [selling a home during a divorce](/learn/selling-home-during-divorce/). For a co-signer, see [refinancing to remove a co-signer](/learn/refinancing-to-remove-co-signer/).
 
@@ -154,7 +154,7 @@ Samantha puts it this way: [NEEDS SAMANTHA QUOTE: what she asks first when a cli
 
 ### Can you take over the mortgage without refinancing after a divorce?
 
-Sometimes, through an assumption, if the loan allows it and the person keeping the home qualifies:
+Sometimes, if the loan allows an assumption and the person keeping the home qualifies:
 
 - **FHA:** assumable after a creditworthiness review; the departing borrower can then be released ([24 CFR 203.510](https://www.ecfr.gov/current/title-24/subtitle-B/chapter-II/subchapter-B/part-203/subpart-C/subject-group-ECFR64d77be428e0d2f/section-203.510)).
 - **VA:** assumable with approval ([38 CFR 36.4309](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4309)); after a divorce, the veteran can ask VA for a release. The veteran's [entitlement](https://www.va.gov/housing-assistance/home-loans/eligibility/) stays in use unless a qualified veteran substitutes theirs.
@@ -165,7 +165,7 @@ Sometimes, through an assumption, if the loan allows it and the person keeping t
 
 You refinance in your own name and use part of the new loan to pay your former spouse their share of the equity. Some loan programs treat a buyout under a divorce decree differently from a standard cash-out refinance. You need the decree or settlement agreement, an appraisal and enough income to qualify on your own.
 
-Fannie Mae treats a buyout of a co-owner under a written agreement, such as a divorce settlement, as a limited cash-out refinance if the home was jointly owned for at least 12 months before the new loan funds ([Selling Guide B2-1.3-02](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions)). Other programs set their own rules. For property tax, a divorce judgment that sets a price for the home is generally still exempt, because it ends a tenancy by the entireties (State Tax Commission).
+Fannie Mae treats a buyout of a co-owner under a written agreement, such as a divorce settlement, as a limited cash-out refinance if the home was jointly owned for at least 12 months before the new loan funds ([Selling Guide B2-1.3-02](https://selling-guide.fanniemae.com/sel/b2-1.3-02/limited-cash-out-refinance-transactions)).
 
 **Hypothetical example, not an offer. Actual rates, costs and payments vary.** [COMPLIANCE REVIEW]
 
@@ -185,10 +185,10 @@ For a standard cash-out, see [how a cash-out refinance works](/learn/what-is-cas
 
 A deed change can be a transfer of ownership. Unless an exemption applies, such as a transfer between spouses, taxable value resets the next year to the state equalized value, half of the assessor's market value, not automatically half the price you paid. File a Property Transfer Affidavit and keep the Principal Residence Exemption in place.
 
-It is the same reset that follows a sale (MCL 211.27a(3)). Align Lending's [2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/) puts the typical jump the year after a sale at about 50.5% in 2026. More on [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
+It is the same reset that follows a sale (MCL 211.27a(3)), and Align Lending's [2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/) puts the typical jump at about 50.5%. See [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
-1. **Property Transfer Affidavit ([Form 2766](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf)):** the new owner files it with the assessor within 45 days of the transfer (MCL 211.27a(10)). Late filing on a principal residence can cost $5 a day, up to $200 ([MCL 211.27b](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27b)). File it, with the exemption claimed, even when the transfer is exempt.
-2. **Principal Residence Exemption ([Form 2368](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf)):** keeps the home exempt from up to 18 mills of school operating tax. A new owner who lives there files by June 1 or November 1; an owner who moves out files Form 2602 within 90 days. See [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/).
+1. **Property Transfer Affidavit ([Form 2766](https://www.michigan.gov/taxes/-/media/Project/Websites/treasury/Forms/Local-Government/2766.pdf)):** the new owner files it with the assessor within 45 days of the transfer (MCL 211.27a(10)). Late filing on a principal residence can cost $5 a day, up to $200 ([MCL 211.27b](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27b)). File it, claiming the exemption, even when the transfer is exempt.
+2. **Principal Residence Exemption ([Form 2368](https://www.michigan.gov/taxes/-/media/Project/Websites/taxes/Forms/Local-Government/2368.pdf)):** a new owner who lives there files by June 1 or November 1; an owner who moves out files Form 2602 within 90 days. See [Michigan's Principal Residence Exemption](/learn/homestead-exemption-benefits-and-filing-guide/).
 3. **Transfer tax:** none is owed on a deed between spouses creating or ending a tenancy by the entireties, a court-ordered transfer with no stated price or a joint tenancy with an existing owner ([MCL 207.505](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-505), [MCL 207.526](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-207-526)). Only the state tax exempts a deed to a child or grandchild. See [Michigan transfer tax](/learn/michigan-transfer-tax/).
 4. **Recording fee:** $30 per deed at the county Register of Deeds, whatever the page count ([MCL 600.2567](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-2567)).
 
@@ -200,7 +200,7 @@ A deed-only change costs the deed preparation, often by an attorney or title com
 
 VA's cap is in [38 CFR 36.4313](https://www.ecfr.gov/current/title-38/chapter-I/part-36/subpart-B/section-36.4313); VA also charges a funding fee on an assumption. A refinance replaces your current loan's terms, so compare the whole new loan, including [refinancing closing costs](/learn/refinancing-closing-costs/).
 
-Refinancing only to add a spouse? Check how long the costs take to pay back.
+Refinancing only to add a spouse? Check the payback first.
 
 [Calculate my break-even](/refinance/break-even-review/#break-even) · Every tool is free and needs no signup.
 
@@ -220,7 +220,7 @@ Talk to a Michigan attorney before you record any deed during a divorce, an esta
 
 ### Can you add someone to a mortgage loan?
 
-Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. FHA, VA and USDA loans can also be assumed by a qualified new borrower with approval. A deed alone adds an owner, not a borrower.
+Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. A deed alone adds an owner, not a borrower, and does not change who owes the loan.
 
 ### Does a quitclaim deed remove you from the mortgage?
 
@@ -228,7 +228,7 @@ No. A quitclaim deed changes who owns the home, not who owes the loan. Everyone 
 
 ### Can my ex keep the house and the mortgage in my name?
 
-Yes, if the judgment allows it, but you stay liable to the lender. Late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio, but other programs set their own rules. Ask your attorney what happens if a refinance deadline in the judgment passes.
+Yes, if the judgment allows it, but you stay liable to the lender, and late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio; other programs set their own rules. Ask your attorney about the judgment's refinance deadline.
 
 ### Does adding a spouse to the deed uncap property taxes in Michigan?
 
@@ -236,7 +236,7 @@ No. Under Michigan law, a transfer between spouses, or a deed that only creates 
 
 ### Can you assume a mortgage after a divorce?
 
-Sometimes. FHA and VA loans can be assumed with approval if the person keeping the home qualifies, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it.
+Sometimes. FHA and VA loans can be assumed with approval, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it.
 
 ### Do you need a refinance to add a spouse to a VA loan?
 
@@ -390,7 +390,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you add someone to a mortgage loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. FHA, VA and USDA loans can also be assumed by a qualified new borrower with approval. A deed alone adds an owner, not a borrower."
+            "text": "Yes, usually by refinancing. The person you add applies with you and qualifies on credit and income, and the new loan pays off the old one. A deed alone adds an owner, not a borrower, and does not change who owes the loan."
           }
         },
         {
@@ -406,7 +406,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can my ex keep the house and the mortgage in my name?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, if the judgment allows it, but you stay liable to the lender. Late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio, but other programs set their own rules. Ask your attorney what happens if a refinance deadline in the judgment passes."
+            "text": "Yes, if the judgment allows it, but you stay liable to the lender, and late payments still reach your credit report. Fannie Mae lets lenders leave a debt assigned by a divorce decree out of your debt-to-income ratio; other programs set their own rules. Ask your attorney about the judgment's refinance deadline."
           }
         },
         {
@@ -422,7 +422,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you assume a mortgage after a divorce?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes. FHA and VA loans can be assumed with approval if the person keeping the home qualifies, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it."
+            "text": "Sometimes. FHA and VA loans can be assumed with approval, and the departing borrower can ask for a release of liability. A USDA assumption leaves the original borrower liable, and most conventional loans cannot be assumed. On a VA loan, the veteran's entitlement stays in use unless a qualified veteran assumes it."
           }
         },
         {
