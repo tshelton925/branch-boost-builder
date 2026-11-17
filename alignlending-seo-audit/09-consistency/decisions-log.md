@@ -9,10 +9,10 @@
 ## 1. Summary
 
 - **7,195 rows** in one schema. Every team row is there, with the auditor, brand and SEO rows they added, 143 redirect-map rows and 12 resolver spec rows.
-- **6,041 rows ship** (4,859 as written, 1,182 with an edit). Of the shippable rows, 367 are P0, 2,819 P1 and 2,855 P2.
+- **6,041 rows ship** (4,858 as written, 1,183 with an edit). Of the shippable rows, 367 are P0, 2,819 P1 and 2,855 P2.
 - **797 rows are superseded** by another row that carries the same change, and **200 are rejected** with a reason. **92 wait for an owner decision** and **65 wait for counsel**.
-- **990 conflicts found and resolved**, in seven classes (§3). Every one has a rule and a recorded outcome.
-- **Change layers applied:** auditor corrections changed 869 rows, brand fixes 448, SEO/AI fixes 116, and the resolver 561. Each row's `decided_by_rule` names the layer and the reference (for example `corrections-ctas#82` or `brand-fixes#116`), and `source_refs` gives the team file and row.
+- **992 conflicts found and resolved**, in seven classes (§3). Every one has a rule and a recorded outcome.
+- **Change layers applied:** auditor corrections changed 869 rows, brand fixes 448, SEO/AI fixes 116, and the resolver 563. Each row's `decided_by_rule` names the layer and the reference (for example `corrections-ctas#82` or `brand-fixes#116`), and `source_refs` gives the team file and row.
 - **Hard rules re-screened on every shippable value** (§4): no rates, F19 fair-housing words, title 60 or fewer characters, meta 140-160, "Talk with Samantha" on every booking button, no NAMB, no "local" expert. All titles and metas in shippable rows now pass (390 title rows, 197 meta rows).
 
 ### Rows by phase and status
@@ -20,12 +20,12 @@
 | Phase | APPROVED | APPROVED-WITH-EDIT | SUPERSEDED | REJECTED | PENDING-OWNER | PENDING-COUNSEL | Total |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | 1 template-level | 94 | 24 | 20 | 0 | 7 | 0 | 145 |
-| 2 money pages | 1,485 | 300 | 72 | 16 | 3 | 57 | 1,933 |
+| 2 money pages | 1,484 | 301 | 72 | 16 | 3 | 57 | 1,933 |
 | 3 city pages | 1,619 | 404 | 192 | 11 | 71 | 0 | 2,297 |
 | 4 learn/links | 427 | 292 | 181 | 155 | 8 | 4 | 1,067 |
 | 5 images | 793 | 103 | 1 | 0 | 0 | 0 | 897 |
 | 6 content refresh | 441 | 59 | 331 | 18 | 3 | 4 | 856 |
-| **All** | **4,859** | **1,182** | **797** | **200** | **92** | **65** | **7,195** |
+| **All** | **4,858** | **1,183** | **797** | **200** | **92** | **65** | **7,195** |
 
 Phase 1 is template work that multiplies (nav, Learn module template, entity and schema, city template, sitewide CTA rules). Phase 2 is the money pages. Phase 3 is city pages, county hubs and city-page link insertions, in one pass per page (links auditor K6). Phase 4 is Learn links, Learn CTA modules and the redirect map. Phase 5 is images. Phase 6 is content refresh and new posts.
 
@@ -49,7 +49,7 @@ Phase 1 is template work that multiplies (nav, Learn module template, entity and
 |---|---|---:|---|
 | (a) | Same page element, different (or duplicate) values from different teams | 418 | R-a1 to R-a4 |
 | (b) | Links, CTAs and page edits whose source or target is 301'd, merged or pruned, or that anchor an owned query on the wrong URL | 246 | R-b1 to R-b6 |
-| (c) | CTA rows that break the final vocabulary (labels, destinations, /start/ parameters, friction line) | 95 | R-c1 to R-c7 |
+| (c) | CTA rows that break the final vocabulary (labels, destinations, /start/ parameters, friction line) | 97 | R-c1 to R-c7 |
 | (d) | Query-ownership contradictions (titles, H1s, anchors, GSC routing) | 185 | R-d1, R-b4 |
 | (e) | 301 decisions that differ between teams, chain, or redirect a ranking URL | 24 | RD-1 to RD-6 |
 | (f) | Nav, menu, footer and breadcrumb proposals from several teams | 21 | R-f1 |
@@ -99,7 +99,7 @@ Notable outcomes:
 
 Every CTA-bearing row (CTA file, core-page CTA rows, templates, link-fix rows with buttons) was run through the final vocabulary in brand review §5. **R-c1** every Calendly button reads "Talk with Samantha"; "Talk through your options" survives only on `/purchase/` (secondary), `/refinance/` (ATF primary) and the `/product-loans/` end-of-grid block. **R-c2** retired labels map to their vocabulary label and destination. **R-c3** a plan label never opens Calendly. **R-c4** `/start/` takes `goal=buy|refi|equity` only (`stage`, `why` and `aim` dropped; cash-out uses `goal=equity`; `from` only with values in `alignStartCfg.sources`, N6). **R-c5** readiness review labels follow the merge. **R-c6** "No credit pull to talk" sits only beside talk CTAs. **R-c7** destinations the brand table does not cover keep the team's label as a documented extension.
 
-Most of the label sprawl had already been fixed by the CTA auditor's 15 global swaps and the brand editor's 29 booking-label fixes, so this pass found 95 rows still off-vocabulary:
+Most of the label sprawl had already been fixed by the CTA auditor's 15 global swaps and the brand editor's 29 booking-label fixes, so this pass found 97 rows still off-vocabulary:
 
 | Label changed (before) | Rows |
 |---|---:|
@@ -246,7 +246,7 @@ Run on the final value of every shippable row, after all layers.
 | `05-content-keywords/gsc-opportunities.csv` | 785 | 221 | 55 | 481 | 20 | 7 | 1 |
 | `03-core-pages/products-b-changes.csv` | 471 | 407 | 55 | 6 | 2 | 0 | 1 |
 | `03-core-pages/purchase-changes.csv` | 451 | 374 | 61 | 2 | 14 | 0 | 0 |
-| `03-core-pages/products-a-changes.csv` | 450 | 336 | 58 | 3 | 6 | 0 | 47 |
+| `03-core-pages/products-a-changes.csv` | 450 | 335 | 59 | 3 | 6 | 0 | 47 |
 | `01-ctas/cta-recommendations.csv` | 444 | 24 | 298 | 2 | 114 | 6 | 0 |
 | `02-links/city-guide-link-insertions.csv` | 384 | 253 | 131 | 0 | 0 | 0 | 0 |
 | `04-city-pages/factcheck-group-2.csv` | 356 | 300 | 56 | 0 | 0 | 0 | 0 |
