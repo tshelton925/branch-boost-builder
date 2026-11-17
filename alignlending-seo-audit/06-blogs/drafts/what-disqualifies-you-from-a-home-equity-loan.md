@@ -72,7 +72,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 17, 2026
 
 <div class="al-answer">
 
-If you own a Michigan home and want to borrow against it, three things stop most applications: too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and credit history. In 2025, Michigan lenders denied about 30% of home equity line of credit (HELOC) applications, against 15.5% for purchase loans. Most can be checked before you apply.
+For Michigan homeowners borrowing against their home, three things stop most applications: too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and credit history. In 2025, Michigan lenders denied about 30% of home equity line of credit (HELOC) applications, against 15.5% for purchase loans. Most can be checked before you apply.
 
 </div>
 
@@ -89,7 +89,7 @@ If you own a Michigan home and want to borrow against it, three things stop most
 
 ## What disqualifies you from a home equity loan or HELOC?
 
-Seven things stop most applications: too little equity after the lender's combined loan-to-value cap, a high debt-to-income ratio, a low credit score or recent late payments, income that is unstable or hard to document, the property type or condition, title or lien problems, and a recent bankruptcy or foreclosure. Lenders weigh them together.
+Seven things stop most applications. The most common are too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and a weak credit history. The others are unstable or undocumented income, the property type or condition, title or lien problems and a recent bankruptcy or foreclosure. Lenders weigh them together.
 
 1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** Lenders never lend all of it.
 2. **[A high debt-to-income ratio.](#what-debt-to-income-ratio-do-you-need-for-a-home-equity-loan)** The new payment counts too.

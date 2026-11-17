@@ -67,11 +67,11 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 17, 2026
 
 <div class="al-answer">
 
-For Michigan homeowners and renters, the homestead property tax credit is a state income tax credit, claimed on Form MI-1040CR, that returns part of your property tax, or a share of your rent, when it is high compared with your household income. Eligibility depends on household resources and, for owners, taxable value. Seniors and people with disabilities get special rules.
+Michigan homeowners and renters can get part of their property tax back through the homestead property tax credit, a state income tax credit claimed on Form MI-1040CR. It applies when the tax, or the part of rent treated as tax, is high for your household income. Taxable value limits apply to owners. Seniors and people with disabilities get special rules.
 
 </div>
 
-*Figures below are Treasury's tax year 2025 limits, the latest it had published when this guide was updated. Treasury adjusts them each year. This is not tax advice: confirm figures with Michigan Treasury's current MI-1040CR instructions or a tax professional.* [VERIFY: Treasury had not posted tax year 2026 figures on November 17, 2026. Before publishing, swap in the tax year 2026 figures if posted; see the front matter for every place they appear.]
+*Figures below are Treasury's tax year 2025 limits, the latest published when this guide was updated. Treasury adjusts them each year. This is not tax advice: confirm figures with Michigan Treasury's current MI-1040CR instructions or a tax professional.* [VERIFY: Treasury had not posted tax year 2026 figures on November 17, 2026. Before publishing, swap in the tax year 2026 figures if posted; see the front matter for every place they appear.]
 
 <div class="al-takeaways">
 
@@ -122,7 +122,7 @@ You qualify if your homestead is in Michigan, you were a Michigan resident at le
 
 ## How much is the Michigan homestead property tax credit?
 
-The credit is a share of the property tax above 3.2% of your total household resources, up to $1,900 for tax year 2025. Most claimants get 60% of that excess, claimants 65 or older get 60% to 100% by income, and people with disabilities get 100%. The figures change each tax year.
+The credit is a share of the property tax above 3.2% of your total household resources, up to $1,900 for tax year 2025. Most claimants get 60% of that excess, claimants 65 or older get 60% to 100% by income, and people with disabilities get 100%.
 
 1. Add the year's property taxes levied on your homestead, or 23% of rent paid.
 2. Subtract 3.2% of total household resources (less for some claimants with $6,000 or under).
@@ -173,12 +173,12 @@ Treasury's [renter guidance](https://www.michigan.gov/taxes/iit/tax-guidance/cre
 
 ## Do seniors get a property tax break in Michigan?
 
-There is no automatic reduction at 65. Claimants 65 or older may get a larger homestead property tax credit, homeowners 62 or older with household income of $40,000 or less can delay the summer tax, and lower-income owners of any age can apply each year to the assessor or board of review for a poverty exemption.
+There is no automatic reduction at 65. Claimants 65 or older may get a larger homestead property tax credit, homeowners 62 or older with household income of $40,000 or less can delay the summer tax, and lower-income owners of any age can apply each year for a poverty exemption.
 
 Treasury's [homeowner exemption programs](https://www.michigan.gov/taxes/property/exemptions/homeowner) include none based on age.
 
 - **A larger credit:** 100% of the excess tax at $21,000 or less in resources, down to 60% above $30,000 (tax year 2025).
-- **Summer tax deferment:** homeowners 62 or older, or with certain disabilities or veteran status, with prior-year household income of $40,000 or less can file an intent to defer with the local treasurer, generally by September 15, and pay the summer tax by the next February 15 without penalty or interest ([MCL 211.51](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-51)).
+- **Summer tax deferment:** homeowners 62 or older, or with certain disabilities or veteran status, with prior-year household income of $40,000 or less can ask the local treasurer, generally by September 15, to defer the summer tax to the next February 15 without penalty or interest ([MCL 211.51](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-51)).
 - **Poverty exemption:** under MCL 211.7u, owners [apply each year](https://www.michigan.gov/taxes/property/exemptions/homeowner/poverty-exemption) under local income guidelines.
 
 Buying or borrowing later in life? See [getting a mortgage at 60, 70 or 80](/learn/mortgage-for-seniors/).
