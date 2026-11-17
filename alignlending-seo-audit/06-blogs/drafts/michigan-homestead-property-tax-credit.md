@@ -19,7 +19,7 @@ editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
 publish_week: "W7 (Jan 4–10, 2027; ahead of MI-1040CR season). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
-word_count: 0  # set by the E2 editor count below
+word_count: 1974  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
 target_money_page: "/michigan-property-tax-calculator/"
 internal_links:
   - {anchor: "estimate your Michigan property tax after you buy", url: "/michigan-property-tax-calculator/", placement: "eligibility H2, first 30% of body"}

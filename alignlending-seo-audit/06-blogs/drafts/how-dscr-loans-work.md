@@ -15,7 +15,7 @@ editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
 publish_week: "W7 (Jan 4–10, 2027). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
-word_count: 0  # set by the E2 editor count below
+word_count: 2056  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
 target_money_page: "/product-loans/dscr-loans-michigan/ (owns 'dscr loans michigan'; this post owns the informational 'how DSCR loans work' query)"
 internal_links:
   - {anchor: "DSCR loan requirements in Michigan", url: "/product-loans/dscr-loans-michigan/", placement: "first H2, first 30% of body"}

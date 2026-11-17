@@ -16,7 +16,7 @@ editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
 publish_week: "W6 (Dec 28, 2026–Jan 3, 2027). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
-word_count: 0  # set by the E2 editor count below
+word_count: 2295  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
 target_money_page: "/refinance/"
 internal_links:
   - {anchor: "refinancing your Michigan mortgage", url: "/refinance/", placement: "first H2, first 30% of body"}

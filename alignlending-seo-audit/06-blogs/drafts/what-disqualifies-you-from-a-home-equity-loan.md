@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
 publish_week: "W3 (Dec 7–13, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
-word_count: 2093  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
+word_count: 2185  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
 target_money_page: "/product-loans/heloc/ (secondary: /product-loans/home-equity-loan/)"
 internal_links:
   - {anchor: "Align's Michigan Mortgage Market Report", url: "/research/michigan-mortgage-market-report/", placement: "key takeaways"}
@@ -72,7 +72,7 @@ Written by Samantha Shelton NMLS 1647301 · Updated November 17, 2026
 
 <div class="al-answer">
 
-For Michigan homeowners borrowing against their home, three things stop most applications: too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and credit history. In 2025, Michigan lenders denied about 30% of home equity line of credit (HELOC) applications, against 15.5% for purchase loans. Most can be checked before you apply.
+If you own a Michigan home and want to borrow against it, three things usually stop you: too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and credit history. In 2025, Michigan lenders denied about 30% of home equity line of credit (HELOC) applications, against 15.5% for purchase loans. Most can be checked before you apply.
 
 </div>
 
@@ -91,7 +91,7 @@ For Michigan homeowners borrowing against their home, three things stop most app
 
 Seven things stop most applications. The most common are too little equity under the lender's combined loan-to-value cap, a high debt-to-income ratio and a weak credit history. The others are unstable or undocumented income, the property type or condition, title or lien problems and a recent bankruptcy or foreclosure. Lenders weigh them together.
 
-1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** Lenders never lend all of it.
+1. **[Not enough equity under the cap.](#how-much-equity-do-you-need-for-a-heloc)** Lenders rarely lend all of it.
 2. **[A high debt-to-income ratio.](#what-debt-to-income-ratio-do-you-need-for-a-home-equity-loan)** The new payment counts too.
 3. **[Credit score or recent late payments.](#what-credit-score-do-you-need-for-a-heloc-or-home-equity-loan)** History can outweigh the number.
 4. **[Unstable or undocumented income.](#what-can-you-fix-before-you-apply-and-how-fast)** The lender must verify it.
@@ -159,7 +159,7 @@ Plug your own value and balance into the [available-equity estimate](/refinance/
 
 ### Can you borrow 100% of your home equity?
 
-Rarely. The cap always leaves part of your equity unborrowed. Texas, where Align is also licensed, sets its own home equity limits in its [state constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm); this guide covers Michigan.
+Rarely. The lender's cap leaves part of your equity unborrowed. Texas, where Align is also licensed, sets its own home equity limits in its [state constitution](https://tcss.legis.texas.gov/resources/CN/htm/CN.16.htm); this guide covers Michigan.
 
 ### What if the appraisal comes in low?
 
@@ -185,7 +185,7 @@ Lenders usually decline or restrict homes listed for sale, some investment prope
 
 - **Land contracts.** The seller keeps the deed until payoff, and lenders generally lend only to the owner of record, so refinance out of the contract first. See [how a Michigan land contract works](/learn/michigan-land-contract/).
 - **Unpaid property taxes.** Taxes unpaid on March 1 of the next year turn delinquent ([MCL 211.78a](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78a)). A year later the home is forfeited to the county treasurer ([MCL 211.78g](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78g)). If they stay unpaid past the March 31 after a foreclosure judgment, the government takes title and mortgage liens are wiped out ([MCL 211.78k](https://legislature.mi.gov/Laws/MCL?objectName=mcl-211-78k)). Lenders want them paid first.
-- **Down payment assistance.** The Michigan State Housing Development Authority's [MI 10K down payment assistance](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) is an interest-free loan you repay when the first mortgage is paid off, the home is sold or refinanced, or you move out. MSHDA does not say how it treats a new equity line, so ask its servicer first. City programs set their own terms.
+- **Down payment assistance.** The Michigan State Housing Development Authority's [MI 10K down payment assistance](https://www.michigan.gov/mshda/pathway-to-housing/mi-10k-dpa-loan) is an interest-free loan you repay when the first mortgage is paid off, the home is sold or refinanced, or you move out. MSHDA's page does not say how it treats a new equity line, so ask its servicer first. City programs set their own terms.
 - **Contractor liens and listed homes.** An unpaid contractor's construction lien usually has to be released first. Fannie Mae requires a listed home to come off the market by the day a [cash-out refinance](https://selling-guide.fanniemae.com/sel/b2-1.3-03/cash-out-refinance-transactions) funds, and many equity lenders decline listed homes outright.
 - **Trusts, estates and property type.** Lenders set their own rules for homes held in a trust or an estate. Some exclude manufactured homes titled as personal property, and some lend only on a primary residence.
 

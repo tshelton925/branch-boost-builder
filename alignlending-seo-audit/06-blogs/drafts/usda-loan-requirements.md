@@ -19,7 +19,7 @@ editor_review: "06-blogs/editor-review-E1.md (E1 editor, 2026-11-17)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
 publish_week: "W4 (Dec 14–20, 2026). Set the visible Updated date, datePublished and dateModified to the publish date. Owner/strategist: the slug still reads usda-loan-requirements; keep it (other posts link it) or change it before first publish, never after."
-word_count: 2422  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
+word_count: 2297  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
 target_money_page: "/product-loans/usda-loans/"
 internal_links:
   - {url: "/learn/usda-loan-basics/", anchor: "how USDA loans work"}
@@ -80,33 +80,33 @@ For Michigan buyers using a USDA Guaranteed loan, the address and household inco
 
 **Key takeaways**
 
-- **Address and income first:** the home must be in a USDA-designated rural area, and the whole household's income counts toward the county limit.
+- **Address and income first:** a USDA-designated rural area, and the whole household's income under the county limit.
 - **Credit:** USDA's regulation sets no minimum score, but GUS generally looks for 640 for an automated approval.
 - **Debt:** 29% of gross monthly income for housing and 41% for all debts; in Michigan, housing includes the new owner's property tax.
-- **Occupancy:** a primary residence only, and everyone on the loan must live there.
+- **Occupancy and property:** a primary residence everyone on the loan lives in, meeting USDA's property standards.
 - **Loan size:** no dollar maximum on Guaranteed loans; the appraisal, your income and the ratios set it.
 
 </div>
 
-For what a USDA loan is and how the program works, see [how USDA loans work](/learn/usda-loan-basics/).
+New to USDA loans? Start with [how USDA loans work](/learn/usda-loan-basics/).
 
 ## What does a USDA lender check before approving the loan?
 
 A USDA Guaranteed loan has six tests: an eligible address, household income at or under the county limit, acceptable credit, debt ratios of 29% and 41%, the home as your primary residence, and a property that meets USDA's standards. You can check the first two yourself; the lender checks the rest.
 
-The rules sit in 7 CFR part 3555, the regulation for USDA's Section 502 Guaranteed loan, and in [HB-1-3555](https://www.rd.usda.gov/resources/directives/handbooks), the handbook lenders follow. See also [USDA Rural Development loans in Michigan](/product-loans/usda-loans/).
+The rules sit in 7 CFR part 3555 and in [HB-1-3555](https://www.rd.usda.gov/resources/directives/handbooks), the handbook lenders follow. See also [USDA Rural Development loans in Michigan](/product-loans/usda-loans/).
 
 | Requirement | USDA rule | Where it is set | How to check |
 |---|---|---|---|
 | Address | In an area USDA designates as rural | [7 CFR 3555.201](https://www.ecfr.gov/current/title-7/section-3555.201); HB-1-3555 ch. 12 | Align's address check |
 | Household income | Adjusted household income at or under the county's moderate income limit | [7 CFR 3555.152](https://www.ecfr.gov/current/title-7/section-3555.152); ch. 9 | The same page |
 | Credit | No minimum score in the regulation; GUS generally looks for 640 or higher | [7 CFR 3555.151(i)](https://www.ecfr.gov/current/title-7/section-3555.151); ch. 10 | Credit report; GUS result |
-| Debt ratios | 29% housing, 41% total; higher only with GUS acceptance or a documented waiver | 3555.151(h); ch. 11 | Your DTI |
+| Debt ratios | 29% housing, 41% total; higher only with GUS acceptance or a documented waiver | 3555.151(h); ch. 11 | Your debt-to-income ratio |
 | Occupancy | Primary residence; no investment or short-term housing | 3555.151(c); ch. 8 | Your plans |
-| A home you already own | Allowed only if it no longer meets your needs and you have no other USDA loan at closing | 3555.151(e); ch. 8 | The homes you own |
+| A home you already own | Only if it no longer meets your needs; no other USDA loan at closing | 3555.151(e); ch. 8 | The homes you own |
 | Citizenship | U.S. citizen, U.S. non-citizen national or qualified alien | 3555.151(b); ch. 8 | Your documents |
-| Property | Modest, decent, safe and sanitary, with no income-producing use | [7 CFR 3555.202](https://www.ecfr.gov/current/title-7/section-3555.202); ch. 12 | The appraisal |
-| Loan amount | No dollar maximum; capped at the appraised value plus the upfront guarantee fee | [7 CFR 3555.103](https://www.ecfr.gov/current/title-7/section-3555.103) | The lender's approval |
+| Property | USDA's "modest, decent, safe, and sanitary" standard; no income-producing use | [7 CFR 3555.202](https://www.ecfr.gov/current/title-7/section-3555.202); ch. 12 | The appraisal |
+| Loan amount | No dollar maximum; capped at appraised value plus the upfront fee | [7 CFR 3555.103](https://www.ecfr.gov/current/title-7/section-3555.103) | The lender's approval |
 
 Source: 7 CFR part 3555 (current text, read November 17, 2026) and USDA's HB-1-3555.
 
@@ -129,7 +129,7 @@ If you have no credit score, the regulation allows nontraditional credit, such a
 
 ### Can I get a USDA loan with a 550 credit score?
 
-It is very unlikely. A 550 score sits far below the 640 that GUS looks for, so the file would need manual underwriting with documented reasons for the low score, and most lenders' own minimums sit well above it. The practical step is to fix what is holding the score down before you apply.
+It is very unlikely. A 550 score sits far below the 640 GUS looks for, so the file would need manual underwriting with documented reasons for the low score, and most lenders' minimums sit well above it. Fix what is holding the score down first.
 
 ## What is the maximum debt-to-income ratio for a USDA loan?
 
@@ -163,7 +163,7 @@ Yes. A partner, adult child or roommate can live there without being on the loan
 
 USDA Guaranteed loans have no set maximum loan amount. Your repayment income, the 29% and 41% ratios and the appraised value decide how much you can borrow, and the loan generally cannot exceed the appraised value plus the financed guarantee fee. Direct loans, made by USDA itself, have area loan limits.
 
-Direct loans follow their own rules, including those area limits ([7 CFR 3550.63](https://www.ecfr.gov/current/title-7/section-3550.63)); for the comparison, see [USDA Direct vs. Guaranteed loans](/learn/usda-loan-basics/).
+Direct-loan area limits are in [7 CFR 3550.63](https://www.ecfr.gov/current/title-7/section-3550.63); for the comparison, see [USDA Direct vs. Guaranteed loans](/learn/usda-loan-basics/).
 
 ## Who can be on a USDA loan, and can you use a co-signer?
 
@@ -175,7 +175,7 @@ An occupying co-borrower can help the ratios, but their debts come too. See [co-
 
 Generally one at a time. You cannot still be responsible for another USDA loan when the new one closes, and the new home must be your primary residence. You can keep a home you already own only if it no longer meets your household's needs and you qualify to carry both. After you sell, you can use the program again.
 
-The full list in 7 CFR 3555.151(e) also limits you to one other home and asks that you lack the resources to buy without the guarantee. Replacing the loan on your current home is a different path: [refinancing a USDA loan](/learn/what-is-usda-streamline-refinance/).
+The regulation's full list also caps you at one other home. Replacing the loan on your current home is a different path: [refinancing a USDA loan](/learn/what-is-usda-streamline-refinance/).
 
 ### Can I use a USDA loan for a rental property?
 
@@ -183,9 +183,9 @@ No. USDA will not guarantee loans for investment properties or for temporary, sh
 
 ## What property and house rules does a USDA loan have?
 
-The home must be modest, decent, safe and sanitary, on a site typical in size for the area, with no land or buildings used mainly to produce income. Condos must meet HUD, VA, Fannie Mae or Freddie Mac condo standards, and private wells and septic systems must be adequate, safe and up to code.
+USDA's rule is that the home be "modest, decent, safe, and sanitary," on a site typical in size for the area, with no land or buildings used mainly to produce income. Condos must meet HUD, VA, Fannie Mae or Freddie Mac condo standards, and private wells and septic systems must be adequate, safe and up to code.
 
-Manufactured homes can qualify: a new unit on a permanent foundation, or an existing one built to HUD's code, set on a permanent foundation, never moved from another site and built after a date USDA sets ([7 CFR 3555.208](https://www.ecfr.gov/current/title-7/section-3555.208)).
+Manufactured homes on a permanent foundation can qualify, new or existing; an existing unit must meet HUD's code, never have been moved from another site and be built after a date USDA sets ([7 CFR 3555.208](https://www.ecfr.gov/current/title-7/section-3555.208)).
 
 ### What will fail a USDA inspection?
 
@@ -199,7 +199,7 @@ Not land by itself. Vacant land without a home, and property used mainly for far
 
 Most often, the address or the household income. After those come credit the lender will not accept, debt ratios that GUS will not approve and no waiver supports, already owning a home that still meets your needs, a co-signer who will not live there, or a property with an income-producing use or major repairs.
 
-An outstanding federal judgment or delinquent federal debt also stops a file until it is resolved, and so does delinquent child support that is subject to federal collection.
+An outstanding federal judgment or delinquent federal debt also stops a file until it is resolved, and so does child support delinquent enough for federal collection.
 
 [NEEDS SAMANTHA QUOTE: the USDA requirement Michigan buyers most often miss]
 
@@ -222,25 +222,21 @@ The standard limits are 29% of gross monthly income for the housing payment and 
 
 ### Can you have a co-signer on a USDA loan?
 
-Not one who lives elsewhere. USDA Guaranteed loans do not allow non-occupant co-signers or co-borrowers. A co-borrower who will live in the home can be added if they meet the credit and income rules, and their income and debts then count in the ratios.
+Not one who lives elsewhere. USDA Guaranteed loans do not allow non-occupant co-signers or co-borrowers. A co-borrower who will live in the home can be added if they meet the credit and income rules; their income and debts then count.
 
 ### Can you have two USDA loans?
 
-Usually not at the same time. You cannot be responsible for another USDA loan when the new one closes, and the new loan must be for your primary residence. You can keep a current home only in limited cases, such as when it no longer meets your household's needs, and you can use the program again after selling.
+Usually not at the same time. You cannot be responsible for another USDA loan when the new one closes. You can keep a current home only in limited cases, such as when it no longer meets your household's needs, and you can use the program again after selling.
 
 ### Is there a limit on how much you can borrow with a USDA loan?
 
 Not a set dollar limit on Guaranteed loans. How much you can borrow depends on your repayment income, the 29% and 41% debt ratios and the appraised value. USDA's Direct loans, which Rural Development makes itself, do have area loan limits.
 
-### Why would a USDA loan get denied?
-
-Usually an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another home that still meets your needs, a co-signer who will not live there, or a property that fails USDA's standards.
-
 <!-- [COMPLIANCE REVIEW]: FAQ below states USDA's down payment rule as the agency's rule, with the regulation linked; no CTA in this block. -->
 
 ### Can I put a down payment on a USDA loan?
 
-Yes. USDA does not require a down payment: its rule lets the loan cover the full price, up to the appraised value plus the upfront guarantee fee ([7 CFR 3555.103](https://www.ecfr.gov/current/title-7/section-3555.103)). You can still put money down, which lowers the amount you borrow. Closing costs still have to be covered, in cash, through credits or in the loan when the appraisal leaves room.
+Yes. USDA does not require a down payment: its rule lets the loan cover the full price, up to the appraised value plus the upfront guarantee fee ([7 CFR 3555.103](https://www.ecfr.gov/current/title-7/section-3555.103)). Money you put down lowers the amount you borrow. Closing costs still have to be covered in cash, through credits or in the loan when the appraisal leaves room.
 
 Align's guides are general education, not legal, tax or financial advice, not a rate quote and not an offer of credit. Align Lending LLC, NMLS #2041154. Samantha Shelton, NMLS 1647301. Equal Housing Opportunity. Licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas.
 
@@ -381,7 +377,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you have a co-signer on a USDA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not one who lives elsewhere. USDA Guaranteed loans do not allow non-occupant co-signers or co-borrowers. A co-borrower who will live in the home can be added if they meet the credit and income rules, and their income and debts then count in the ratios."
+            "text": "Not one who lives elsewhere. USDA Guaranteed loans do not allow non-occupant co-signers or co-borrowers. A co-borrower who will live in the home can be added if they meet the credit and income rules; their income and debts then count."
           }
         },
         {
@@ -389,7 +385,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "Can you have two USDA loans?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usually not at the same time. You cannot be responsible for another USDA loan when the new one closes, and the new loan must be for your primary residence. You can keep a current home only in limited cases, such as when it no longer meets your household's needs, and you can use the program again after selling."
+            "text": "Usually not at the same time. You cannot be responsible for another USDA loan when the new one closes. You can keep a current home only in limited cases, such as when it no longer meets your household's needs, and you can use the program again after selling."
           }
         },
         {
@@ -402,18 +398,10 @@ Every outside source this guide links to, in the order it appears.
         },
         {
           "@type": "Question",
-          "name": "Why would a USDA loan get denied?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Usually an ineligible address or household income over the county limit. After those come credit the lender will not accept, debt ratios too high to approve, owning another home that still meets your needs, a co-signer who will not live there, or a property that fails USDA's standards."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Can I put a down payment on a USDA loan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. USDA does not require a down payment: its rule lets the loan cover the full price, up to the appraised value plus the upfront guarantee fee (7 CFR 3555.103). You can still put money down, which lowers the amount you borrow. Closing costs still have to be covered, in cash, through credits or in the loan when the appraisal leaves room."
+            "text": "Yes. USDA does not require a down payment: its rule lets the loan cover the full price, up to the appraised value plus the upfront guarantee fee (7 CFR 3555.103). Money you put down lowers the amount you borrow. Closing costs still have to be covered in cash, through credits or in the loan when the appraisal leaves room."
           }
         }
       ]

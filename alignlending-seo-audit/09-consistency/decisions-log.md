@@ -143,7 +143,7 @@ Notable outcomes:
 - **MSHDA anchors:** 137 city-guide and learn insertions anchored "MSHDA" or "MI 10K DPA" pointed at the DPA money page. Q102 gives MSHDA program names to the new MSHDA guide while D3 is open, and F2 keeps MSHDA wording off money pages, so they point at `/learn/mshda-mi-home-loan/` once blog-plan rank 1 is published (until then they keep the DPA target).
 - **City titles:** 31 GSC "city page already ranks, rewrite the title" rows yield to the kept pattern "Mortgage Broker in {City}, MI | Align Lending" (SEO §2.9) and the new city program H2 (SEO-015). Ann Arbor keeps its one title test.
 - **Samantha's H1** used the home page's query "Michigan mortgage broker"; it becomes the guide §1 line "Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending". **Refinance calculator H1** dropped "Find Your Break-Even Month" (owned by the break-even review). The points-vs-lender-credit title keeps "Break-Even" (a different concept; reviewed, kept).
-- **Macomb:** 6 GSC rows wanted "macomb mortgage" pointed at the township page; Q014 gives Macomb queries to the county hub, so the hub keeps them. Three misrouted "point this query at the city page" rows (targets that are not city pages) and one calculator query routed to Detroit are rejected.
+- **Macomb:** 7 GSC rows wanted "macomb mortgage" pointed at the township page; Q014 gives Macomb queries to the county hub, so the hub keeps them. Three misrouted "point this query at the city page" rows (targets that are not city pages) and one calculator query routed to Detroit are rejected.
 - **USDA eligibility:** the learn article keeps the national query (GSC 576 @11.1); the GSC re-point row is rewritten, blog-plan ranks 65 and 80 change owner, and one anchor "usda eligibility" is retargeted to the article.
 
 ### (e) Redirects
@@ -183,7 +183,7 @@ Other 301 decisions: the Farmington Hills patterned slug gets only the minimum f
 
 ### (f) Navigation
 
-Seven teams' proposals (21 rows: 02-links §5.1-5.2 and rows 10-17, 01-ctas rows 2 and 8, products A rows 408 and 410, products B's five menu/footer rows and its breadcrumb row, calculators row 4, city row 310) collapse into five rows: NAV-001 header, NAV-002 mobile popup, NAV-003 footer, NAV-004 off-domain actions, NAV-005 breadcrumbs. **R-f1:** the core-pages-B K4 unified Loans menu (owner 02-links) wins over products A and B; Physician sits under Buy, Non-Warrantable Condo under non-QM, "Asset Depletion Loans" is the label; the popup stays (K2: drop the duplicate dropdown, not the popup); "Save my plan" is removed (K3); the footer carries service areas, not products; breadcrumbs ship at P1 (K7) with the city team's majority-county rule. Cash-out's breadcrumb is Home › Loans › Cash-Out Refinance (one product hierarchy). Full spec in `unified-specs.md` §1.
+Six teams' proposals (21 rows: 02-links §5.1-5.2 and rows 10-17, 01-ctas rows 2 and 8, products A rows 408 and 410, products B's five menu/footer rows and its breadcrumb row, calculators row 4, city row 310) collapse into five rows: NAV-001 header, NAV-002 mobile popup, NAV-003 footer, NAV-004 off-domain actions, NAV-005 breadcrumbs. **R-f1:** the core-pages-B K4 unified Loans menu (owner 02-links) wins over products A and B; Physician sits under Buy, Non-Warrantable Condo under non-QM, "Asset Depletion Loans" is the label; the popup stays (K2: drop the duplicate dropdown, not the popup); "Save my plan" is removed (K3); the footer carries service areas, not products; breadcrumbs ship at P1 (K7) with the city team's majority-county rule. Cash-out's breadcrumb is Home › Loans › Cash-Out Refinance (one product hierarchy). Full spec in `unified-specs.md` §1.
 
 ### (g) Pending decisions
 
@@ -211,7 +211,7 @@ Run on the final value of every shippable row, after all layers.
 
 ## 5. Notable individual decisions
 
-1. **Readiness Review merges into the Game Plan** (RD-1, SEO §2.7, P1). The 23 CTA rows, the lease-to-own link and every content link are retargeted to `/purchase/homebuyer-game-plan/#readiness` in this list; SPEC-005 moves the readiness questions and the `#check-back` form first. The brand table's "Take the readiness review" is retired with the page. Owner may veto (N9 in `owner-decisions.md`); the fallback is the SEO editor's retitle.
+1. **Readiness Review merges into the Game Plan** (RD-1, SEO §2.7, P1). 21 CTA and link rows (plus link-insertion row 3 on the lease-to-own guide) are retargeted to `/purchase/homebuyer-game-plan/#readiness` in this list, 13 page-level rows on the old URL are not built and 12 of its question sections are re-homed onto the game plan; SPEC-005 moves the readiness questions and the `#check-back` form first. The brand table's "Take the readiness review" is retired with the page. Owner may veto (N9 in `owner-decisions.md`); the fallback is the SEO editor's retitle.
 2. **Home hero:** primary "Talk with Samantha" + secondary "Start my application" (brand §5 #1 over corrections-ctas #35).
 3. **DPA page:** primary "Talk with Samantha" with the F2 line; "Start my application" secondary until D3 (brand §5 #2 over corrections-ctas #53/#86).
 4. **DSCR tool label:** "Check whether the rent covers the payment" (brand §5 #3 over corrections-core-pages-B #41).
