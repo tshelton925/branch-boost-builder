@@ -1,0 +1,3094 @@
+{
+  "generated": "2026-11-17T04:21:45Z",
+  "site": "https://alignlending.com/",
+  "method": {
+    "scale": "0-100; A 90-100, B 80-89, C 70-79, D 60-69, F <60 (00-project/scoring-rubric.md)",
+    "current": "audited scores: auditor value where re-scored, team value where the auditor held it within tolerance",
+    "projected": "published team/auditor projection where one exists; otherwise PM model: an aspect with >=1 APPROVED/APPROVED-WITH-EDIT row in 09-consistency/MASTER-CHANGES.csv rises to 88, capped at 80 while an owner/counsel row is pending; untouched aspects keep their score; page overalls use rubric page-type weights; areas are simple means across page types (rubric section 6)",
+    "overall": "simple mean of the 16 area scores"
+  },
+  "overall": {
+    "current": 76,
+    "projected": 87,
+    "grade_current": "C",
+    "grade_projected": "B",
+    "money_pages_current": 72,
+    "money_pages_projected": 88
+  },
+  "areas": [
+    {
+      "key": "ctas",
+      "name": "CTAs",
+      "current": 76,
+      "projected": 88,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "One Calendly URL sits behind 2,683 links and 62 labels with no UTM; product, refinance and purchase hubs follow a sound primary/secondary pattern; Learn articles score 63 (D). Money-page score 77 (C).",
+      "top_issue": "470 of 471 Learn pages have no action above the first H2, and 4 primary buttons promise a plan or checkup but open a calendar.",
+      "source_files": [
+        "01-ctas/cta-report.md",
+        "08-audit/audit-ctas.md",
+        "09-consistency/brand-compliance-review.md",
+        "09-consistency/unified-specs.md"
+      ]
+    },
+    {
+      "key": "internal_linking",
+      "name": "Internal linking",
+      "current": 70,
+      "projected": 83,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "No orphans and no broken internal links; click depth 2 via nav. Hubs are starved: /refinance/ has 5 contextual inlinks and /purchase/ 16; the menu prints 3 times; 349 pages lack visible breadcrumbs. Money pages 71 (C).",
+      "top_issue": "/refinance/ (5 contextual inlinks) and /purchase/ (16) are near-orphans while the menu duplicates about 45 links per page.",
+      "source_files": [
+        "02-links/link-health-report.md",
+        "08-audit/audit-links.md",
+        "02-links/internal-link-fixes.csv"
+      ]
+    },
+    {
+      "key": "external_linking",
+      "name": "External linking",
+      "current": 78,
+      "projected": 88,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "92% of citations go to government or primary sources. 69 policy violations on 60 pages, 171 Wikipedia links on 132 city pages, 136 http:// links, 15 rel-less sitewide links to alignwithalign.com. Money pages 79 (C).",
+      "top_issue": "Wikipedia and World Population Review used as sources on city pages; live status of about 11,290 external URLs could not be verified from the sandbox.",
+      "source_files": [
+        "02-links/link-health-report.md",
+        "02-links/external-link-policy.csv",
+        "08-audit/audit-links.md"
+      ]
+    },
+    {
+      "key": "article_linking",
+      "name": "Article linking",
+      "current": 71,
+      "projected": 82,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "Learn articles link a hub on 87% and a money page on 92% of pages, median 17.5 to 19 inlinks, but money pages link down to only 2 to 6 guides, related modules show the same 3 posts on 50 pages and 29% have prev/next links.",
+      "top_issue": "Money pages do not link down into their clusters, and refinance/buying articles rarely link /refinance/ or /purchase/ (0 of 36).",
+      "source_files": [
+        "02-links/article-linking-strategy.md",
+        "02-links/cluster-map.csv",
+        "02-links/link-insertions.csv",
+        "08-audit/audit-links.md"
+      ]
+    },
+    {
+      "key": "core_pages",
+      "name": "Core pages (67 scored)",
+      "current": 74,
+      "projected": 88,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "Simple mean across 7 core page types (home 71, purchase 69, refinance 74, product 75, calculator 74, research 80, trust 78). Money-page score 72 (C) projected 88 (B).",
+      "top_issue": "The purchase section averages 69 (D): 8 of 12 H1s are slogans, 8 of 10 sub-page titles omit Michigan, and the home page is the weakest money page at 71.",
+      "source_files": [
+        "03-core-pages/scores-*.csv",
+        "08-audit/audit-core-pages-A.md",
+        "08-audit/audit-core-pages-B.md",
+        "08-audit/corrections-core-pages-A.csv",
+        "08-audit/corrections-core-pages-B.csv",
+        "09-consistency/MASTER-CHANGES.csv"
+      ]
+    },
+    {
+      "key": "headings",
+      "name": "Headings (H1/H2/H3)",
+      "current": 71,
+      "projected": 85,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "Home page 56 (0 question headings, link-group labels and 13 county names as H2/H3); city template marks about 1,000 stat values as H3s; Learn outlines are bloated (median 17 H2s) with a 5-heading template tail on about 420 pages.",
+      "top_issue": "Brand-line H1s on purchase sub-pages and stat values marked up as headings on all 276 city pages.",
+      "source_files": [
+        "03-core-pages/*-report.md",
+        "04-city-pages/consistency-sweep.md",
+        "05-content-keywords/blog-inventory-report.md"
+      ]
+    },
+    {
+      "key": "above_the_fold",
+      "name": "Above-the-fold answers",
+      "current": 72,
+      "projected": 84,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "Money pages mostly have a next step but rarely the who/answer/why-Align trio within 60 words; purchase sub-pages 62; Learn pages run 224 to 429 words above the first H2 with no action.",
+      "top_issue": "Learn pages hold most impressions yet 470 of 471 have no answer box or action above the first H2; only the top 50 get the new answer box in this release.",
+      "source_files": [
+        "03-core-pages/*-report.md",
+        "09-consistency/seo-ai-review.md",
+        "09-consistency/ai-answer-blocks.md"
+      ]
+    },
+    {
+      "key": "titles_meta",
+      "name": "Titles and meta descriptions",
+      "current": 72,
+      "projected": 85,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "Titles are within length and unique almost everywhere; purchase (61) and refinance (66) titles omit the query words; 111 city metas are under 140 characters and 17 quote a different price than the page; Learn titles carry Title-Case errors on 82%.",
+      "top_issue": "Non-brand top-10 queries earn 0.08% CTR (8 clicks on 10,665 impressions): titles do not match the query or give a reason to click.",
+      "source_files": [
+        "05-content-keywords/gsc-gap-report.md",
+        "04-city-pages/consistency-sweep.md",
+        "03-core-pages/*-report.md",
+        "08-audit/audit-content.md"
+      ]
+    },
+    {
+      "key": "city_accuracy",
+      "name": "City page accuracy",
+      "current": 82,
+      "projected": 92,
+      "grade_current": "B",
+      "grade_projected": "A",
+      "summary": "About 8,300 claims checked against Census, ACS, Michigan Treasury and county sources. 59 tax-share errors, PRE \"May 1\" on 3 pages, a stale Highland Park millage, EMU and U-M figures, Oxford ZIP placement, 14 pages with fair-housing words.",
+      "top_issue": "Material errors were under-penalized by the teams (they scored 90 to 95.5); the independent auditor re-scored the 276-page set at 82 (B).",
+      "source_files": [
+        "04-city-pages/factcheck-group-1.md",
+        "04-city-pages/factcheck-group-2.md",
+        "04-city-pages/factcheck-group-3.md",
+        "08-audit/audit-city.md",
+        "08-audit/corrections-city.csv"
+      ]
+    },
+    {
+      "key": "city_consistency",
+      "name": "City page consistency",
+      "current": 85,
+      "projected": 87,
+      "grade_current": "B",
+      "grade_projected": "B",
+      "summary": "Trust/NAP 100% consistent on 276 of 276; median unique text 68% (no doorway risk); titles and H1s on one pattern. Drift: 17 meta price mismatches, Northville gives three county answers, Blair Township on no hub, 40 pages only under /additional-cities/.",
+      "top_issue": "Meta descriptions and hero values mix Census, Redfin and Zillow measures; the fix waits on owner decision D2.",
+      "source_files": [
+        "04-city-pages/consistency-sweep.md",
+        "04-city-pages/city-matrix.csv",
+        "08-audit/audit-city.md",
+        "09-consistency/unified-specs.md"
+      ]
+    },
+    {
+      "key": "blog_library",
+      "name": "Blog library (Learn)",
+      "current": 77,
+      "projected": 80,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "424 articles (median 5,604 words) and 49 hubs earned 50,180 impressions and 4 clicks; 61 cannibalization groups, 38 drift articles; the plan shrinks the library to 316 indexable articles and adds 14 Michigan-specific posts.",
+      "top_issue": "Volume is not the gap: the library reads as scaled content (all re-dated in five weeks) while the real gaps are narrow Michigan program topics.",
+      "source_files": [
+        "05-content-keywords/blog-inventory-report.md",
+        "05-content-keywords/content-plan.md",
+        "08-audit/audit-content.md",
+        "09-consistency/redirect-map.csv"
+      ]
+    },
+    {
+      "key": "keyword_gaps",
+      "name": "Keyword gap coverage (GSC; Bing not connected)",
+      "current": 73,
+      "projected": 88,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "5,231 GSC queries analysed: 511 in striking distance, 79.5% of on-topic impressions at position 21 or worse. Every evidenced gap now has one owner URL (147 query themes). Bing Webmaster data was never connected, so Bing gaps are unmeasured.",
+      "top_issue": "No Bing data; GSC has no page dimension in the connector, so most query-to-page mappings are inferred (26 of 147 confirmed).",
+      "source_files": [
+        "05-content-keywords/gsc-gap-report.md",
+        "05-content-keywords/keyword-gaps.csv",
+        "09-consistency/query-ownership-map.csv",
+        "08-audit/audit-content.md"
+      ]
+    },
+    {
+      "key": "images_media",
+      "name": "Images and media",
+      "current": 77,
+      "projected": 99,
+      "grade_current": "C",
+      "grade_projected": "A",
+      "summary": "1,244 images audited; 1,977 optimized files built (WebP, 1600/1200/768 widths); the 746 replaced files drop from 101.1 MB to 64.2 MB. Home LCP is a 218 KB CSS background behind Motion Effects; 314 pages lazy-load the 52-px headshot above the fold.",
+      "top_issue": "Home page Media 61 to 63 (D): the LCP image waits on JavaScript and has no preload or srcset.",
+      "source_files": [
+        "07-images/image-optimization-report.md",
+        "07-images/optimized-manifest.csv",
+        "07-images/alt-text-corrected.csv",
+        "08-audit/audit-images.md"
+      ]
+    },
+    {
+      "key": "eeat",
+      "name": "E-E-A-T and trust",
+      "current": 80,
+      "projected": 88,
+      "grade_current": "B",
+      "grade_projected": "B",
+      "summary": "Bylines, NMLS, six-state licensing and Sources lists are strong; product pages (70) lack a visible reviewer line and updated date; 142 of 424 articles carry a verbatim Samantha quote.",
+      "top_issue": "NAMB Broker of the Year appears on 18 pages with no year or primary source; the guide byline claim must match the Editorial Policy (F8).",
+      "source_files": [
+        "03-core-pages/scores-*.csv",
+        "05-content-keywords/blog-inventory-report.md",
+        "08-audit/audit-content.md",
+        "09-consistency/owner-decisions.md"
+      ]
+    },
+    {
+      "key": "ai_readiness",
+      "name": "AI-search readiness",
+      "current": 72,
+      "projected": 86,
+      "grade_current": "C",
+      "grade_projected": "B",
+      "summary": "FAQPage and question H2s on 469 of 471 Learn pages; but the canonical entity sentence is on 0 of the 15 top money pages, research pages have no question answers, and Align is cited on 4 of 12 tracked prompts (5 of 48 engine checks).",
+      "top_issue": "Align is absent on all four AI engines for both property-tax uncapping prompts, although its 2026 Uncapping Study is the best Michigan dataset on the topic.",
+      "source_files": [
+        "05-content-keywords/ai-visibility.md",
+        "09-consistency/seo-ai-review.md",
+        "09-consistency/ai-answer-blocks.md"
+      ]
+    },
+    {
+      "key": "brand_compliance",
+      "name": "Brand voice and compliance",
+      "current": 80,
+      "projected": 93,
+      "grade_current": "B",
+      "grade_projected": "A",
+      "summary": "Live site: Accuracy & compliance averages 80 across page types (home 60). Team draft copy scored 69 (D) before the brand pass; after 290 brand fixes and the resolver re-screen it projects 93 (A). Voice of team copy 83 (B).",
+      "top_issue": "P0 compliance items on the live site: a \"rates as low as 1%\" USDA meta, no government non-affiliation line on 8 FHA/VA/USDA pages, a stale 1.5% tax default, \"620 minimum\", a \"great rates\" review and an unverified award.",
+      "source_files": [
+        "09-consistency/brand-compliance-review.md",
+        "09-consistency/brand-fixes.csv",
+        "09-consistency/counsel-review.md",
+        "00-project/KNOWN-CORRECTIONS.md"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://alignlending.com/",
+      "type": "home",
+      "overall_current": 71,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 80,
+        "Heading structure": 56,
+        "Above-the-fold answer": 70,
+        "CTA effectiveness": 68,
+        "Title & meta": 80,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 86,
+        "AI-search readiness": 60,
+        "Accuracy & compliance": 60,
+        "Media": 63
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 90
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/",
+      "type": "purchase",
+      "overall_current": 74,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 72,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 78,
+        "Title & meta": 70,
+        "Internal linking": 68,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 52,
+        "Accuracy & compliance": 88,
+        "Media": 67
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/budget-review/",
+      "type": "purchase",
+      "overall_current": 70,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 55,
+        "Heading structure": 76,
+        "Above-the-fold answer": 62,
+        "CTA effectiveness": 74,
+        "Title & meta": 55,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 80,
+        "AI-search readiness": 68,
+        "Accuracy & compliance": 86,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/buy-before-you-sell/",
+      "type": "purchase",
+      "overall_current": 71,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 55,
+        "Heading structure": 74,
+        "Above-the-fold answer": 64,
+        "CTA effectiveness": 80,
+        "Title & meta": 60,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 70,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 86,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/down-payment-assistance/",
+      "type": "purchase",
+      "overall_current": 66,
+      "grade": "D",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 85,
+        "Heading structure": 62,
+        "Above-the-fold answer": 58,
+        "CTA effectiveness": 68,
+        "Title & meta": 72,
+        "Internal linking": 68,
+        "E-E-A-T & trust": 55,
+        "AI-search readiness": 45,
+        "Accuracy & compliance": 70,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/first-time-homebuyer/",
+      "type": "purchase",
+      "overall_current": 66,
+      "grade": "D",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 55,
+        "Heading structure": 70,
+        "Above-the-fold answer": 55,
+        "CTA effectiveness": 60,
+        "Title & meta": 68,
+        "Internal linking": 72,
+        "E-E-A-T & trust": 80,
+        "AI-search readiness": 66,
+        "Accuracy & compliance": 82,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/homebuyer-game-plan/",
+      "type": "purchase",
+      "overall_current": 68,
+      "grade": "D",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 50,
+        "Heading structure": 62,
+        "Above-the-fold answer": 68,
+        "CTA effectiveness": 62,
+        "Title & meta": 60,
+        "Internal linking": 85,
+        "E-E-A-T & trust": 80,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 85,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/investment-property-financing/",
+      "type": "purchase",
+      "overall_current": 70,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 50,
+        "Heading structure": 68,
+        "Above-the-fold answer": 60,
+        "CTA effectiveness": 80,
+        "Title & meta": 62,
+        "Internal linking": 72,
+        "E-E-A-T & trust": 80,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 88,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/mortgage-readiness-review/",
+      "type": "purchase",
+      "overall_current": 67,
+      "grade": "D",
+      "overall_projected": 73,
+      "grade_projected": "C",
+      "aspects": {
+        "Intent & H1": 55,
+        "Heading structure": 60,
+        "Above-the-fold answer": 58,
+        "CTA effectiveness": 78,
+        "Title & meta": 58,
+        "Internal linking": 74,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 66,
+        "Accuracy & compliance": 80,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 55,
+        "Heading structure": 60,
+        "Above-the-fold answer": 58,
+        "CTA effectiveness": 88,
+        "Title & meta": 58,
+        "Internal linking": 74,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": "merging into /purchase/homebuyer-game-plan/ (RD-106, N9)"
+    },
+    {
+      "url": "https://alignlending.com/purchase/renovation-financing/",
+      "type": "purchase",
+      "overall_current": 69,
+      "grade": "D",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 50,
+        "Heading structure": 76,
+        "Above-the-fold answer": 62,
+        "CTA effectiveness": 72,
+        "Title & meta": 58,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 82,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 86,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/self-employed-homebuyer/",
+      "type": "purchase",
+      "overall_current": 72,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 62,
+        "Heading structure": 74,
+        "Above-the-fold answer": 68,
+        "CTA effectiveness": 72,
+        "Title & meta": 60,
+        "Internal linking": 62,
+        "E-E-A-T & trust": 82,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 88,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/purchase/va-homebuyer-plan/",
+      "type": "purchase",
+      "overall_current": 64,
+      "grade": "D",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 55,
+        "Heading structure": 66,
+        "Above-the-fold answer": 52,
+        "CTA effectiveness": 78,
+        "Title & meta": 50,
+        "Internal linking": 60,
+        "E-E-A-T & trust": 76,
+        "AI-search readiness": 68,
+        "Accuracy & compliance": 60,
+        "Media": 82
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/refinance/",
+      "type": "refinance",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 76,
+        "Heading structure": 72,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 76,
+        "Title & meta": 70,
+        "Internal linking": 48,
+        "E-E-A-T & trust": 78,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 84,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/refinance/break-even-review/",
+      "type": "refinance",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 64,
+        "Heading structure": 76,
+        "Above-the-fold answer": 74,
+        "CTA effectiveness": 62,
+        "Title & meta": 64,
+        "Internal linking": 82,
+        "E-E-A-T & trust": 84,
+        "AI-search readiness": 76,
+        "Accuracy & compliance": 86,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 86,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/refinance/cash-out-vs-home-equity/",
+      "type": "refinance",
+      "overall_current": 74,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 78,
+        "Heading structure": 74,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 64,
+        "Title & meta": 66,
+        "Internal linking": 72,
+        "E-E-A-T & trust": 84,
+        "AI-search readiness": 78,
+        "Accuracy & compliance": 84,
+        "Media": 71
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 84,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/refinance/home-equity-review/",
+      "type": "refinance",
+      "overall_current": 74,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 62,
+        "Heading structure": 74,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 78,
+        "Title & meta": 62,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 84,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 86,
+        "Media": 75
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 86,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/",
+      "type": "product",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 86,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 85,
+        "Heading structure": 78,
+        "Above-the-fold answer": 66,
+        "CTA effectiveness": 80,
+        "Title & meta": 84,
+        "Internal linking": 82,
+        "E-E-A-T & trust": 68,
+        "AI-search readiness": 60,
+        "Accuracy & compliance": 84,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 85,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 80,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/1099-income-loans/",
+      "type": "product",
+      "overall_current": 78,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 76,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 70,
+        "Title & meta": 84,
+        "Internal linking": 45,
+        "E-E-A-T & trust": 82,
+        "AI-search readiness": 86,
+        "Accuracy & compliance": 88,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/15-year-fixed/",
+      "type": "product",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 83,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 80,
+        "Heading structure": 72,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 78,
+        "Title & meta": 80,
+        "Internal linking": 58,
+        "E-E-A-T & trust": 70,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 74,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 80,
+        "Heading structure": 80,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 88,
+        "Title & meta": 80,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/30-year-fixed/",
+      "type": "product",
+      "overall_current": 72,
+      "grade": "C",
+      "overall_projected": 81,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 78,
+        "Heading structure": 74,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 80,
+        "Title & meta": 64,
+        "Internal linking": 62,
+        "E-E-A-T & trust": 70,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 76,
+        "Media": 74
+      },
+      "aspects_projected": {
+        "Intent & H1": 78,
+        "Heading structure": 80,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 88,
+        "Title & meta": 64,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/adjustable-rate-mortgage/",
+      "type": "product",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 76,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 76,
+        "Title & meta": 74,
+        "Internal linking": 62,
+        "E-E-A-T & trust": 70,
+        "AI-search readiness": 76,
+        "Accuracy & compliance": 88,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/asset-based-income-loans/",
+      "type": "product",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 74,
+        "Heading structure": 76,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 70,
+        "Title & meta": 76,
+        "Internal linking": 45,
+        "E-E-A-T & trust": 82,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 64,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/bank-statement-loan/",
+      "type": "product",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 70,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 80,
+        "Title & meta": 86,
+        "Internal linking": 62,
+        "E-E-A-T & trust": 58,
+        "AI-search readiness": 76,
+        "Accuracy & compliance": 64,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/buydown-loans/",
+      "type": "product",
+      "overall_current": 77,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 82,
+        "Heading structure": 72,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 80,
+        "Title & meta": 82,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 66,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 84,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 82,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": "auditor: accuracy re-score required (missing disclaimer or stale tax default)"
+    },
+    {
+      "url": "https://alignlending.com/product-loans/cashout-loans/",
+      "type": "product",
+      "overall_current": 77,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 72,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 78,
+        "Title & meta": 80,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 62,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 74,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/conventional-loans/",
+      "type": "product",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 74,
+        "Above-the-fold answer": 60,
+        "CTA effectiveness": 76,
+        "Title & meta": 82,
+        "Internal linking": 74,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 64,
+        "Accuracy & compliance": 70,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 86,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/dscr-loans-michigan/",
+      "type": "product",
+      "overall_current": 78,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 70,
+        "Above-the-fold answer": 82,
+        "CTA effectiveness": 82,
+        "Title & meta": 86,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 55,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 68,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/fha-loans/",
+      "type": "product",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 86,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 72,
+        "Above-the-fold answer": 68,
+        "CTA effectiveness": 78,
+        "Title & meta": 72,
+        "Internal linking": 74,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 64,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 80,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/heloc/",
+      "type": "product",
+      "overall_current": 77,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 78,
+        "Heading structure": 72,
+        "Above-the-fold answer": 70,
+        "CTA effectiveness": 78,
+        "Title & meta": 85,
+        "Internal linking": 55,
+        "E-E-A-T & trust": 76,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 85,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/home-equity-loan/",
+      "type": "product",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 82,
+        "Heading structure": 70,
+        "Above-the-fold answer": 74,
+        "CTA effectiveness": 76,
+        "Title & meta": 78,
+        "Internal linking": 74,
+        "E-E-A-T & trust": 62,
+        "AI-search readiness": 78,
+        "Accuracy & compliance": 76,
+        "Media": 74
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/home-ready/",
+      "type": "product",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 72,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 76,
+        "Title & meta": 80,
+        "Internal linking": 66,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 64,
+        "Accuracy & compliance": 90,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": "auditor: accuracy re-score required (missing disclaimer or stale tax default)"
+    },
+    {
+      "url": "https://alignlending.com/product-loans/jumbo-loans/",
+      "type": "product",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 72,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 76,
+        "Title & meta": 72,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 66,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 86,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/manufactured-home-loans/",
+      "type": "product",
+      "overall_current": 79,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 56,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 76,
+        "Title & meta": 82,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 78,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 90,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": "auditor: accuracy re-score required (missing disclaimer or stale tax default)"
+    },
+    {
+      "url": "https://alignlending.com/product-loans/non-qm-loans/",
+      "type": "product",
+      "overall_current": 72,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 68,
+        "Above-the-fold answer": 74,
+        "CTA effectiveness": 70,
+        "Title & meta": 76,
+        "Internal linking": 52,
+        "E-E-A-T & trust": 58,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 78,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/non-warrantable-condo-loans/",
+      "type": "product",
+      "overall_current": 80,
+      "grade": "B",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 76,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 72,
+        "Title & meta": 84,
+        "Internal linking": 58,
+        "E-E-A-T & trust": 84,
+        "AI-search readiness": 86,
+        "Accuracy & compliance": 88,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/physician-loans/",
+      "type": "product",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 86,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 80,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 76,
+        "Title & meta": 82,
+        "Internal linking": 40,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 82,
+        "Accuracy & compliance": 82,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 86,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/usda-loans/",
+      "type": "product",
+      "overall_current": 68,
+      "grade": "D",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 72,
+        "Above-the-fold answer": 64,
+        "CTA effectiveness": 68,
+        "Title & meta": 66,
+        "Internal linking": 62,
+        "E-E-A-T & trust": 68,
+        "AI-search readiness": 60,
+        "Accuracy & compliance": 64,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/product-loans/va-loans/",
+      "type": "product",
+      "overall_current": 73,
+      "grade": "C",
+      "overall_projected": 85,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 72,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 80,
+        "Title & meta": 68,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 66,
+        "Accuracy & compliance": 60,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 80,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 88,
+        "Title & meta": 80,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/calculators/",
+      "type": "calculator",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 90,
+      "grade_projected": "A",
+      "aspects": {
+        "Intent & H1": 80,
+        "Heading structure": 86,
+        "Above-the-fold answer": 70,
+        "CTA effectiveness": 66,
+        "Title & meta": 68,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 70,
+        "AI-search readiness": 60,
+        "Accuracy & compliance": 92,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/compare-loan-estimates/",
+      "type": "calculator",
+      "overall_current": 77,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 70,
+        "Heading structure": 78,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 86,
+        "Title & meta": 60,
+        "Internal linking": 86,
+        "E-E-A-T & trust": 76,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 90,
+        "Media": 96
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/home-affordability-calculator/",
+      "type": "calculator",
+      "overall_current": 69,
+      "grade": "D",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 78,
+        "Heading structure": 70,
+        "Above-the-fold answer": 62,
+        "CTA effectiveness": 62,
+        "Title & meta": 74,
+        "Internal linking": 58,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 70,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/loan-limits/",
+      "type": "calculator",
+      "overall_current": 82,
+      "grade": "B",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 74,
+        "Above-the-fold answer": 84,
+        "CTA effectiveness": 72,
+        "Title & meta": 82,
+        "Internal linking": 92,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 86,
+        "Accuracy & compliance": 93,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 92,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 93,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": "auditor: accuracy re-score required (missing disclaimer or stale tax default)"
+    },
+    {
+      "url": "https://alignlending.com/michigan-property-tax-calculator/",
+      "type": "calculator",
+      "overall_current": 77,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 68,
+        "Above-the-fold answer": 62,
+        "CTA effectiveness": 76,
+        "Title & meta": 80,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 80,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 90,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/michigan-transfer-tax-calculator/",
+      "type": "calculator",
+      "overall_current": 81,
+      "grade": "B",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 90,
+        "Heading structure": 82,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 84,
+        "Title & meta": 68,
+        "Internal linking": 84,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 95,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 90,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 84,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 95,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/mortgage-calculator/",
+      "type": "calculator",
+      "overall_current": 65,
+      "grade": "D",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 70,
+        "Heading structure": 66,
+        "Above-the-fold answer": 60,
+        "CTA effectiveness": 62,
+        "Title & meta": 64,
+        "Internal linking": 55,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 68,
+        "Accuracy & compliance": 68,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/mortgage-payoff-calculator/",
+      "type": "calculator",
+      "overall_current": 71,
+      "grade": "C",
+      "overall_projected": 84,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 72,
+        "Above-the-fold answer": 74,
+        "CTA effectiveness": 70,
+        "Title & meta": 60,
+        "Internal linking": 46,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 68,
+        "Accuracy & compliance": 92,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 46,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/mortgage-refinance-calculator/",
+      "type": "calculator",
+      "overall_current": 70,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 74,
+        "Heading structure": 68,
+        "Above-the-fold answer": 66,
+        "CTA effectiveness": 62,
+        "Title & meta": 66,
+        "Internal linking": 52,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 70,
+        "Accuracy & compliance": 88,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/pmi-removal-calculator/",
+      "type": "calculator",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 72,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 82,
+        "Title & meta": 60,
+        "Internal linking": 60,
+        "E-E-A-T & trust": 76,
+        "AI-search readiness": 78,
+        "Accuracy & compliance": 94,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 94,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/points-vs-lender-credit-calculator/",
+      "type": "calculator",
+      "overall_current": 79,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 84,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 78,
+        "Title & meta": 72,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 76,
+        "Accuracy & compliance": 94,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 86,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 94,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/rent-vs-buy-calculator/",
+      "type": "calculator",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 82,
+        "Heading structure": 74,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 76,
+        "Title & meta": 62,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 92,
+        "Media": 78
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/seller-net-sheet-calculator/",
+      "type": "calculator",
+      "overall_current": 79,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 76,
+        "Above-the-fold answer": 76,
+        "CTA effectiveness": 84,
+        "Title & meta": 76,
+        "Internal linking": 76,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 74,
+        "Accuracy & compliance": 92,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/usda-eligibility-check/",
+      "type": "calculator",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 64,
+        "Above-the-fold answer": 78,
+        "CTA effectiveness": 74,
+        "Title & meta": 74,
+        "Internal linking": 82,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 76,
+        "Accuracy & compliance": 66,
+        "Media": 74
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 82,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/va-funding-fee-calculator/",
+      "type": "calculator",
+      "overall_current": 72,
+      "grade": "C",
+      "overall_projected": 86,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 72,
+        "Above-the-fold answer": 72,
+        "CTA effectiveness": 70,
+        "Title & meta": 64,
+        "Internal linking": 70,
+        "E-E-A-T & trust": 72,
+        "AI-search readiness": 52,
+        "Accuracy & compliance": 90,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": "auditor: accuracy re-score required (missing disclaimer or stale tax default)"
+    },
+    {
+      "url": "https://alignlending.com/va-loan-calculator/",
+      "type": "calculator",
+      "overall_current": 63,
+      "grade": "D",
+      "overall_projected": 87,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 68,
+        "Heading structure": 68,
+        "Above-the-fold answer": 58,
+        "CTA effectiveness": 68,
+        "Title & meta": 60,
+        "Internal linking": 55,
+        "E-E-A-T & trust": 74,
+        "AI-search readiness": 60,
+        "Accuracy & compliance": 58,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/research/",
+      "type": "research",
+      "overall_current": 79,
+      "grade": "C",
+      "overall_projected": 84,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 80,
+        "Above-the-fold answer": 86,
+        "CTA effectiveness": 78,
+        "Title & meta": 70,
+        "Internal linking": 42,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 78,
+        "Accuracy & compliance": 92,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 80,
+        "Above-the-fold answer": 86,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 42,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/research/methodology/",
+      "type": "research",
+      "overall_current": 78,
+      "grade": "C",
+      "overall_projected": 84,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 80,
+        "Heading structure": 82,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 74,
+        "Title & meta": 60,
+        "Internal linking": 44,
+        "E-E-A-T & trust": 95,
+        "AI-search readiness": 78,
+        "Accuracy & compliance": 95,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 80,
+        "Heading structure": 82,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 44,
+        "E-E-A-T & trust": 95,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 95,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/research/michigan-mortgage-market-report/",
+      "type": "research",
+      "overall_current": 79,
+      "grade": "C",
+      "overall_projected": 83,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 82,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 78,
+        "Title & meta": 68,
+        "Internal linking": 42,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 84,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 82,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 42,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 84,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/research/michigan-property-tax-uncapping-study/",
+      "type": "research",
+      "overall_current": 86,
+      "grade": "B",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 78,
+        "Above-the-fold answer": 90,
+        "CTA effectiveness": 80,
+        "Title & meta": 82,
+        "Internal linking": 90,
+        "E-E-A-T & trust": 84,
+        "AI-search readiness": 86,
+        "Accuracy & compliance": 92,
+        "Media": 67
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 78,
+        "Above-the-fold answer": 90,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 90,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 92,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/about-us/",
+      "type": "trust",
+      "overall_current": 75,
+      "grade": "C",
+      "overall_projected": 86,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 66,
+        "Heading structure": 72,
+        "Above-the-fold answer": 78,
+        "CTA effectiveness": 80,
+        "Title & meta": 78,
+        "Internal linking": 40,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 66,
+        "Accuracy & compliance": 78,
+        "Media": 75
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 78,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/contact-us/",
+      "type": "trust",
+      "overall_current": 78,
+      "grade": "C",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 70,
+        "Heading structure": 70,
+        "Above-the-fold answer": 82,
+        "CTA effectiveness": 84,
+        "Title & meta": 80,
+        "Internal linking": 58,
+        "E-E-A-T & trust": 86,
+        "AI-search readiness": 62,
+        "Accuracy & compliance": 88,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/mortgage-process/",
+      "type": "trust",
+      "overall_current": 69,
+      "grade": "D",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 72,
+        "Heading structure": 72,
+        "Above-the-fold answer": 78,
+        "CTA effectiveness": 76,
+        "Title & meta": 74,
+        "Internal linking": 58,
+        "E-E-A-T & trust": 66,
+        "AI-search readiness": 66,
+        "Accuracy & compliance": 60,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/real-estate-agents/",
+      "type": "trust",
+      "overall_current": 81,
+      "grade": "B",
+      "overall_projected": 90,
+      "grade_projected": "A",
+      "aspects": {
+        "Intent & H1": 72,
+        "Heading structure": 76,
+        "Above-the-fold answer": 80,
+        "CTA effectiveness": 84,
+        "Title & meta": 76,
+        "Internal linking": 52,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 80,
+        "Accuracy & compliance": 88,
+        "Media": 75
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/reviews/",
+      "type": "trust",
+      "overall_current": 76,
+      "grade": "C",
+      "overall_projected": 89,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 76,
+        "Heading structure": 66,
+        "Above-the-fold answer": 82,
+        "CTA effectiveness": 80,
+        "Title & meta": 74,
+        "Internal linking": 52,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 72,
+        "Accuracy & compliance": 64,
+        "Media": 77
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 88,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/samantha-shelton/",
+      "type": "trust",
+      "overall_current": 80,
+      "grade": "B",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 78,
+        "Heading structure": 76,
+        "Above-the-fold answer": 62,
+        "CTA effectiveness": 78,
+        "Title & meta": 76,
+        "Internal linking": 90,
+        "E-E-A-T & trust": 94,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 76,
+        "Media": 79
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 80,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 90,
+        "E-E-A-T & trust": 94,
+        "AI-search readiness": 88,
+        "Accuracy & compliance": 80,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/why-we-dont-publish-rates/",
+      "type": "trust",
+      "overall_current": 84,
+      "grade": "B",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 88,
+        "Heading structure": 78,
+        "Above-the-fold answer": 86,
+        "CTA effectiveness": 84,
+        "Title & meta": 86,
+        "Internal linking": 56,
+        "E-E-A-T & trust": 86,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 90,
+        "Media": 84
+      },
+      "aspects_projected": {
+        "Intent & H1": 88,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 86,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 88,
+        "AI-search readiness": 84,
+        "Accuracy & compliance": 90,
+        "Media": 100
+      },
+      "score_source": "auditor",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/learn/fha-loan-limits/",
+      "type": "learn",
+      "overall_current": 84,
+      "grade": "B",
+      "overall_projected": 88,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 72,
+        "Title & meta": 70,
+        "Internal linking": 80,
+        "E-E-A-T & trust": 92,
+        "AI-search readiness": 90,
+        "Accuracy & compliance": 93,
+        "Media": 83
+      },
+      "aspects_projected": {
+        "Intent & H1": 84,
+        "Heading structure": 88,
+        "Above-the-fold answer": 88,
+        "CTA effectiveness": 88,
+        "Title & meta": 88,
+        "Internal linking": 88,
+        "E-E-A-T & trust": 92,
+        "AI-search readiness": 90,
+        "Accuracy & compliance": 93,
+        "Media": 90
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    },
+    {
+      "url": "https://alignlending.com/learn/how-to-compare-loan-estimates/",
+      "type": "learn",
+      "overall_current": 80,
+      "grade": "B",
+      "overall_projected": 82,
+      "grade_projected": "B",
+      "aspects": {
+        "Intent & H1": 86,
+        "Heading structure": 86,
+        "Above-the-fold answer": 86,
+        "CTA effectiveness": 60,
+        "Title & meta": 76,
+        "Internal linking": 64,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 90,
+        "Accuracy & compliance": 84,
+        "Media": 88
+      },
+      "aspects_projected": {
+        "Intent & H1": 86,
+        "Heading structure": 86,
+        "Above-the-fold answer": 86,
+        "CTA effectiveness": 88,
+        "Title & meta": 76,
+        "Internal linking": 64,
+        "E-E-A-T & trust": 90,
+        "AI-search readiness": 90,
+        "Accuracy & compliance": 84,
+        "Media": 100
+      },
+      "score_source": "team (within audit tolerance)",
+      "notes": ""
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "mshda-mi-home-loan",
+      "title": "MSHDA MI Home Loan: Income Limits, Price Limit and Rules",
+      "primary_query": "mshda mi home loan",
+      "editor_score": 91,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W2 (Nov 30\u2013Dec 6, 2026)",
+      "editor": "E1"
+    },
+    {
+      "slug": "what-disqualifies-you-from-a-home-equity-loan",
+      "title": "What Disqualifies You From a Home Equity Loan or HELOC?",
+      "primary_query": "what disqualifies you from getting a home equity loan",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W3 (Dec 7\u201313, 2026)",
+      "editor": "E2"
+    },
+    {
+      "slug": "va-benefits-disabled-veterans-michigan",
+      "title": "VA Benefits for Disabled Veterans Buying a Home in Michigan",
+      "primary_query": "va loan benefits for disabled veterans",
+      "editor_score": 91,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W3 (Dec 7\u201313, 2026)",
+      "editor": "E1"
+    },
+    {
+      "slug": "rent-to-own-vs-land-contract-michigan",
+      "title": "Rent-to-Own vs. Land Contract vs. Mortgage in Michigan",
+      "primary_query": "rent to own vs land contract",
+      "editor_score": 91,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W4 (Dec 14\u201320, 2026)",
+      "editor": "E4"
+    },
+    {
+      "slug": "how-to-get-pre-approved-for-a-mortgage",
+      "title": "How to Get Pre-Approved for a Mortgage in Michigan",
+      "primary_query": "how to get pre approved for a home loan",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W2 (Nov 30\u2013Dec 6, 2026)",
+      "editor": "E3"
+    },
+    {
+      "slug": "mortgage-for-seniors",
+      "title": "Can You Get a Mortgage at 60, 70 or 80? Senior Home Loans",
+      "primary_query": "home loans for seniors on social security",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W5 (Dec 21\u201327, 2026)",
+      "editor": "E3"
+    },
+    {
+      "slug": "usda-loan-requirements",
+      "title": "USDA Credit Score and DTI Rules: What Lenders Check",
+      "primary_query": "usda credit score and dti requirements",
+      "editor_score": 89,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W4 (Dec 14\u201320, 2026)",
+      "editor": "E1"
+    },
+    {
+      "slug": "income-needed-to-buy-a-house-michigan",
+      "title": "What Income Do You Need to Buy a House in Michigan?",
+      "primary_query": "how much do you need to make to afford a house in michigan",
+      "editor_score": 91,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W5 (Dec 21\u201327, 2026)",
+      "editor": "E3"
+    },
+    {
+      "slug": "add-or-remove-name-on-mortgage-michigan",
+      "title": "Adding or Removing a Name on a Mortgage in Michigan",
+      "primary_query": "can you add someone to a mortgage loan",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W6 (Dec 28, 2026\u2013Jan 3, 2027)",
+      "editor": "E2"
+    },
+    {
+      "slug": "what-not-to-tell-a-mortgage-lender",
+      "title": "What Not to Tell a Mortgage Lender (and What You Must Share)",
+      "primary_query": "what not to tell a mortgage lender",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W6 (Dec 28, 2026\u2013Jan 3, 2027)",
+      "editor": "E3"
+    },
+    {
+      "slug": "how-dscr-loans-work",
+      "title": "How DSCR Loans Work: The Ratio, the Rent and Michigan Taxes",
+      "primary_query": "how do dscr loans work",
+      "editor_score": 89,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W7 (Jan 4\u201310, 2027)",
+      "editor": "E2"
+    },
+    {
+      "slug": "michigan-homestead-property-tax-credit",
+      "title": "Michigan Homestead Property Tax Credit: Who Qualifies",
+      "primary_query": "michigan homestead property tax credit",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W7 (Jan 4\u201310, 2027; ahead of MI-1040CR season)",
+      "editor": "E2"
+    },
+    {
+      "slug": "buying-a-house-after-bankruptcy-or-foreclosure",
+      "title": "Buying a House After Bankruptcy or Foreclosure: Wait Times",
+      "primary_query": "buying a house after bankruptcy",
+      "editor_score": 89,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W8 (Jan 11\u201317, 2027)",
+      "editor": "E4"
+    },
+    {
+      "slug": "buying-a-home-on-ssi-or-disability-income",
+      "title": "Buying a Home on SSI or Disability Income in Michigan",
+      "primary_query": "ssi disability home loans requirements",
+      "editor_score": 90,
+      "status": "Edited draft \u2014 subject to Align approval",
+      "publish_week": "W8 (Jan 11\u201317, 2027)",
+      "editor": "E1"
+    }
+  ],
+  "top_changes": [
+    {
+      "rank": 1,
+      "change": "Keep /learn/usda-loan-basics/ as the \"usda eligibility\" owner. Add a 56-word eligibility answer and a \"Check an address for USDA\" link above the first H2. Title: \"USDA Loans: Eligibility and How Rural Development Loans Work\". Remove \"rates as low as 1%\" from the meta.",
+      "area": "Keyword gaps, compliance",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Wave 0 (meta) + Days 1\u201330"
+    },
+    {
+      "rank": 2,
+      "change": "Home title \"Michigan Mortgage Broker and Home Loans | Align Lending\", H1 \"Michigan Mortgage Broker: One Application, Multiple Wholesale Lenders\", plus the \"What does a mortgage broker do?\" answer",
+      "area": "Core pages, titles",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 3,
+      "change": "Google Business Profile: services list, Q&A from the 40\u201360-word answers, monthly posts. Claim Bing Places. Same name, address and phone everywhere.",
+      "area": "AI readiness, local",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330 (off-site)"
+    },
+    {
+      "rank": 4,
+      "change": "25 CTR title/meta rewrites on Learn pages already at positions 1\u201315 (conveyance, types of refinancing, amortization, homestead, rate lock, VA benefits, HomeReady, escrow, HELOC compare\u2026)",
+      "area": "Titles and meta",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 5,
+      "change": "Calendly UTM on every booking link, link_text in the alignTrack click listener, derived GA4 events",
+      "area": "CTAs, measurement",
+      "impact": "enabler",
+      "effort": "low",
+      "phase": "Wave 0"
+    },
+    {
+      "rank": 6,
+      "change": "Entity widget with the canonical sentence on every template, plus Organization/Person JSON-LD (SPEC-002/003)",
+      "area": "AI readiness, E-E-A-T",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 7,
+      "change": "Property tax calculator: topic title and H1, the uncapping answer with the 2026 study numbers under the tool, 36.0-mill default",
+      "area": "Core pages, AI readiness",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 8,
+      "change": "Government non-affiliation line on 8 FHA, VA and USDA pages and tools, plus the shared loan-card component",
+      "area": "Compliance",
+      "impact": "critical",
+      "effort": "low",
+      "phase": "Wave 0"
+    },
+    {
+      "rank": 9,
+      "change": "/refinance/: title \"Refinance Your Michigan Home Loan\", 8 inbound links from the refinance cluster, 2 missing answers, Service schema",
+      "area": "Core pages, internal linking",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 10,
+      "change": "City template: meta generator, refinance block, \"Which loan programs can you use in {City}?\" H2, \"Talk with a Michigan mortgage expert\" H2, stat H3 demotion",
+      "area": "City consistency",
+      "impact": "high",
+      "effort": "medium",
+      "phase": "Days 1\u201330 (template), Days 31\u201360 (pages)"
+    },
+    {
+      "rank": 11,
+      "change": "Learn above-the-fold answer box plus a topic-keyed CTA module on the top 50 impression articles, then the module on all 423",
+      "area": "Above the fold, CTAs",
+      "impact": "high",
+      "effort": "medium",
+      "phase": "Days 31\u201360"
+    },
+    {
+      "rank": 12,
+      "change": "Product template: a requirement-led subhead and a requirements H2 and table (no down-payment percentages), disclaimer, \"Guides for this loan\" block",
+      "area": "Core pages",
+      "impact": "high",
+      "effort": "medium",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 13,
+      "change": "Lease-to-own: retitle, \"What is lease to own?\" as the first H2, fold in 2 siblings, Game Plan next step",
+      "area": "Blog library",
+      "impact": "high",
+      "effort": "medium",
+      "phase": "Days 31\u201360"
+    },
+    {
+      "rank": 14,
+      "change": "VA funding fee calculator as the single chart home: title without \"2026\", exemption FAQ, honest check date",
+      "area": "Core pages",
+      "impact": "medium",
+      "effort": "low",
+      "phase": "Days 31\u201360"
+    },
+    {
+      "rank": 15,
+      "change": "Transfer tax: one sourced \"who pays\" sentence on 3 pages plus a 50-word answer above the calculator",
+      "area": "Accuracy, AI readiness",
+      "impact": "medium",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 16,
+      "change": "Purchase H1s and titles with the ownership guards (First-Time \"Loans\", DPA \"Who Qualifies\", Budget \"Comfortably\", VA plan)",
+      "area": "Headings, titles",
+      "impact": "high",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 17,
+      "change": "Amortization canonical = /learn/amortization-schedules/; repoint 3 link insertions; 301 the twin",
+      "area": "Keyword gaps",
+      "impact": "medium",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 18,
+      "change": "Money pages link down to 4\u20136 cluster guides; refinance and buying articles link /refinance/ and /purchase/ early",
+      "area": "Article linking",
+      "impact": "medium",
+      "effort": "medium",
+      "phase": "Days 61\u201390"
+    },
+    {
+      "rank": 19,
+      "change": "Merge the Readiness Review into the Game Plan after the 99 content links are repointed (N9)",
+      "area": "Core pages",
+      "impact": "medium",
+      "effort": "medium",
+      "phase": "Days 31\u201360"
+    },
+    {
+      "rank": 20,
+      "change": "Research pages: 40\u201360-word Q&A answers, a \"Cite this study\" block, Michigan newsroom outreach",
+      "area": "AI readiness",
+      "impact": "high",
+      "effort": "medium",
+      "phase": "Days 31\u201360"
+    },
+    {
+      "rank": 21,
+      "change": "Home hero LCP: preload, srcset, no Motion Effects on the hero (confirm with PageSpeed Insights)",
+      "area": "Images and media",
+      "impact": "medium",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 22,
+      "change": "Header actions on-domain now (NAV-004). Restore alignwithalign.com only after D4, with rel=\"nofollow noopener\"",
+      "area": "CTAs",
+      "impact": "medium",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 23,
+      "change": "LTV widget inside /learn/what-is-loan-to-value-ratio/ (no new URL)",
+      "area": "Keyword gaps",
+      "impact": "medium",
+      "effort": "medium",
+      "phase": "Days 61\u201390"
+    },
+    {
+      "rank": 24,
+      "change": "Low-down-payment guide retitled without percentages: \"Low Down Payment Mortgage Options: 4 Loans Compared\"",
+      "area": "Titles, compliance",
+      "impact": "low",
+      "effort": "low",
+      "phase": "Days 1\u201330"
+    },
+    {
+      "rank": 25,
+      "change": "MSHDA MI Home Loan post plus the Michigan-led first-time programs refresh as the program owners (F1/F2 wording)",
+      "area": "Blog library, keyword gaps",
+      "impact": "high",
+      "effort": "high",
+      "phase": "W2 (Nov 30\u2013Dec 6) + Days 31\u201360"
+    }
+  ],
+  "owner_decisions": [
+    {
+      "id": "D1",
+      "question": "Does Align broker reverse mortgages?",
+      "recommendation": "Answer from licensing and lender relationships; if no HECM channel, keep the article informational only",
+      "blocked_rows": "11",
+      "soft_rows": "0"
+    },
+    {
+      "id": "D2",
+      "question": "One measure for \"typical home value\" on city pages",
+      "recommendation": "Census ACS owner median (B25077) as the headline, optional dated Redfin line",
+      "blocked_rows": "71",
+      "soft_rows": "140"
+    },
+    {
+      "id": "D3",
+      "question": "MSHDA participating-lender access",
+      "recommendation": "Keep the F2 default wording until access is confirmed in writing",
+      "blocked_rows": "0",
+      "soft_rows": "1"
+    },
+    {
+      "id": "D4",
+      "question": "Who owns alignwithalign.com",
+      "recommendation": "Ship the on-domain menu now; re-add a tool only if Align owns it, with nofollow noopener",
+      "blocked_rows": "0",
+      "soft_rows": "1"
+    },
+    {
+      "id": "D5",
+      "question": "Is Align always lender-paid?",
+      "recommendation": "Keep the Loan Estimate wording everywhere; it is true either way",
+      "blocked_rows": "0",
+      "soft_rows": "1"
+    },
+    {
+      "id": "D6",
+      "question": "Loan-officer headcount",
+      "recommendation": "Supply the 2026 count; new copy avoids headcount until then",
+      "blocked_rows": "3",
+      "soft_rows": "3"
+    },
+    {
+      "id": "D7",
+      "question": "Counsel: term names and trigger-term policy",
+      "recommendation": "Counsel item C1/C2",
+      "blocked_rows": "see `counsel-review.md`",
+      "soft_rows": ""
+    },
+    {
+      "id": "D8",
+      "question": "NAMB Broker of the Year year and source",
+      "recommendation": "Supply the primary source or remove all 18 existing mentions",
+      "blocked_rows": "1",
+      "soft_rows": "0"
+    },
+    {
+      "id": "N1",
+      "question": "Where /start/ and my1003app pull credit",
+      "recommendation": "Confirm in one line; the apply friction line ships after",
+      "blocked_rows": "3",
+      "soft_rows": "0"
+    },
+    {
+      "id": "N2",
+      "question": "Byline verb",
+      "recommendation": "Keep the verb-free line; if a verb is wanted, use \"By\"",
+      "blocked_rows": "0",
+      "soft_rows": "2"
+    },
+    {
+      "id": "N3",
+      "question": "GSC exports before two held redirects",
+      "recommendation": "PM pulls GSC Pages and Query x Page for the two URLs",
+      "blocked_rows": "2",
+      "soft_rows": "0"
+    },
+    {
+      "id": "N4",
+      "question": "Does Align finance mixed-use 1-4 unit properties?",
+      "recommendation": "Keep the page as is until answered",
+      "blocked_rows": "0",
+      "soft_rows": "1"
+    },
+    {
+      "id": "N5",
+      "question": "Samantha quotes: sources and new quotes",
+      "recommendation": "Confirm or supply verbatim quotes; nothing unsourced ships",
+      "blocked_rows": "0",
+      "soft_rows": "6"
+    },
+    {
+      "id": "N6",
+      "question": "/start/ source whitelist and the 1099 key",
+      "recommendation": "Add digit-free values to alignStartCfg.sources before the from= links ship",
+      "blocked_rows": "0",
+      "soft_rows": "9"
+    },
+    {
+      "id": "N7",
+      "question": "Approve the AI-imagery disclosure",
+      "recommendation": "Approve the proposed sentence",
+      "blocked_rows": "1",
+      "soft_rows": "0"
+    },
+    {
+      "id": "N8",
+      "question": "Schema facts: phone hours, logo, Facebook URL, coordinates",
+      "recommendation": "Supply them; until then the fields stay out",
+      "blocked_rows": "0",
+      "soft_rows": "1"
+    },
+    {
+      "id": "N9",
+      "question": "Confirm the readiness-review merge",
+      "recommendation": "Confirm (decided here per the SEO editor)",
+      "blocked_rows": "0",
+      "soft_rows": "23 (1 redirect, 1 spec, 21 retargets)"
+    }
+  ],
+  "counsel": [
+    {
+      "group": "C1 (D7)",
+      "topic": "Repayment-period terms (\"30-year\", \"15-year\") as product names on money pages",
+      "rows_waiting": "31",
+      "question": "Does \"30-Year Fixed\"/\"15-Year Fixed\" as a product name, page title, H2 or link anchor trigger 1026.24(d)? If yes, what neutral names do we use (\"Fixed-rate mortgage, longer term\")?"
+    },
+    {
+      "group": "C2 (D7)",
+      "topic": "Down-payment percentages and \"no down payment\" on money pages and in learn titles",
+      "rows_waiting": "15",
+      "question": "May FHA, conventional, HomeReady, VA and USDA pages state the agency minimums (\"3.5% down with 580\", \"3% down\", \"no down payment with full entitlement\") as each agency's rule, in body sections away from apply CTAs?"
+    },
+    {
+      "group": "C3",
+      "topic": "Government fee percentages (FHA MIP, USDA guarantee fees, VA funding fee chart)",
+      "rows_waiting": "13",
+      "question": "May money pages and calculators show FHA MIP (1.75% upfront), USDA (1% upfront, 0.35% annual) and the VA funding fee schedule as attributed agency figures?"
+    },
+    {
+      "group": "C4",
+      "topic": "Closing-cost figures in refinance break-even illustrations",
+      "rows_waiting": "2",
+      "question": "Are the break-even worked examples acceptable with the exact label \"Hypothetical example, not an offer. Actual rates, costs and payments vary.\"?"
+    },
+    {
+      "group": "C5",
+      "topic": "Worked examples with monthly amounts on calculators",
+      "rows_waiting": "3",
+      "question": "Are labeled hypothetical examples with monthly amounts acceptable on calculator pages?"
+    },
+    {
+      "group": "C6",
+      "topic": "Attributed down-payment figure in the Freddie Mac PMMS description",
+      "rows_waiting": "1",
+      "question": "Is the attributed PMMS description acceptable on the rate-policy page?"
+    },
+    {
+      "group": "C7",
+      "topic": "Reviews and testimonials",
+      "rows_waiting": "0",
+      "question": "Do state rules require NMLS IDs beside reviews that name an originator? Confirm the removals of rate-language reviews."
+    },
+    {
+      "group": "C8",
+      "topic": "Recordkeeping for approved copy (Regulation N, 24 months)",
+      "rows_waiting": "0",
+      "question": "Confirm the retention approach."
+    },
+    {
+      "group": "C9",
+      "topic": "\"No credit pull to talk\" and the point where /start/ pulls credit",
+      "rows_waiting": "0",
+      "question": "Confirm both lines once Align states the pull point."
+    },
+    {
+      "group": "C10",
+      "topic": "Third-party savings claims (Polygon Research) on city pages",
+      "rows_waiting": "0",
+      "question": "May the claim be used on Learn content, and with what qualification?"
+    },
+    {
+      "group": "F7 scope",
+      "topic": "Government non-affiliation line on city pages",
+      "rows_waiting": "0",
+      "question": "Confirm city pages are in F7 scope (we ship the line now as the conservative default; counsel may narrow)."
+    }
+  ],
+  "counts": {
+    "pages_crawled": 835,
+    "legacy_posts_crawled": 96,
+    "recommendations_total": 7195,
+    "approved": 6041,
+    "approved_as_written": 4858,
+    "approved_with_edit": 1183,
+    "pending_owner": 92,
+    "pending_counsel": 65,
+    "superseded": 797,
+    "rejected": 200,
+    "p0_approved": 367,
+    "redirect_map_rows": 159,
+    "blog_drafts": 14,
+    "blog_drafts_reviewed": 14,
+    "images_optimized": 1977,
+    "bytes_saved": 36914538,
+    "bytes_saved_note": "746 replaced files (primary + consolidate roles in 07-images/optimized-manifest.csv): 101.14 MB -> 64.23 MB",
+    "alt_text_rows": 873
+  },
+  "pending_inputs": []
+}
