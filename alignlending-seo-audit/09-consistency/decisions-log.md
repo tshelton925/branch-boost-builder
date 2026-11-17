@@ -1,7 +1,7 @@
 # Decisions log: cross-team conflict resolution
 
 **Team:** Consistency, cross-team conflict resolver · **Date:** 2026-11-17 · **Deliverables:** `MASTER-CHANGES.csv` (7,195 rows), `redirect-map.csv` (159 rows), `unified-specs.md`, `owner-decisions.md`, `counsel-review.md`, this log.
-**Inputs:** the 20 team change files listed in the brief, the 7 auditor correction files, `brand-fixes.csv` (290 rows) and `seo-ai-fixes.csv` (51 rows), with `brand-compliance-review.md` §5 (CTA vocabulary, binding), `query-ownership-map.csv` (147 themes, binding), `KNOWN-CORRECTIONS.md` (F1-F21 win, D1-D8 stay open) and the 7 audit reports' cross-team conflict sections.
+**Inputs:** the 20 team change files listed in the brief plus `content-plan.md` §6-7 (refresh list, merges, prunes, legacy repoints), the 7 auditor correction files, `brand-fixes.csv` (290 rows) and `seo-ai-fixes.csv` (51 rows), with `brand-compliance-review.md` §5 (CTA vocabulary, binding), `query-ownership-map.csv` (147 themes, binding), `KNOWN-CORRECTIONS.md` (F1-F21 win, D1-D8 stay open) and the 7 audit reports' cross-team conflict sections.
 **Method:** python (stdlib csv/json). Working scripts in the scratchpad (`resolver/normalize.py`, `layers.py`, `resolve*.py`, `outputs.py`, `docs.py`) rebuild every file here from the inputs.
 
 ---
@@ -37,7 +37,7 @@ Phase 1 is template work that multiplies (nav, Learn module template, entity and
 
 **Mapping.** Team rows are keyed `file + spreadsheet row` (the id prefix names the file: `PUR-0444` is `purchase-changes.csv` line 444). Auditor corrections were mapped by row number where given (core pages A, links, CTA rows), by hand where the audit named the row in prose (core pages B, using the brand editor's validated map), by `URL | element` (city, 254 corrections) and by URL (content). Brand fixes map by `row N | URL`; GSC fixes propagate to every duplicate row with the same target and copy. The 51 SEO/AI fixes were mapped by hand; 14 of them had no team row (keyword-gap ownership, schema, templates) and became `SEO-` rows. Two SEO fixes (#39 checked-date, #40 half-the-price) were already satisfied by brand fixes. One city correction (Clarkston and Grosse Pointe Shores population labels) had no team row and became its own row.
 
-**IDs added here:** `RD-` redirect map, `NAV-` unified navigation, `SPEC-` unified template specs, `SEO-`/`BRD-` rows the editors added, `-N0x` rows an auditor added.
+**IDs added here:** `CPL-` content-plan §6 refresh rows (30 URLs with exact titles, metas and H1s), `RD-` redirect map, `NAV-` unified navigation, `SPEC-` unified template specs, `SEO-`/`BRD-` rows the editors added, `-N0x` rows an auditor added.
 
 **Status rules.** APPROVED: the team row stands with no change. APPROVED-WITH-EDIT: the final value differs from the team's (auditor, brand, SEO or resolver edit), or the row was re-homed. SUPERSEDED: another row carries the same change (`status` names it). REJECTED: not built, with the reason. PENDING-OWNER: blocked by D1-D8 or a new decision N1-N9 (`owner-decisions.md`). PENDING-COUNSEL: carries a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag (`counsel-review.md`). `[VERIFY]` and `[DATE CHECKED]` tags are pre-publish source checks for the implementer, so those rows keep their status and say so in `depends_on`.
 
@@ -57,7 +57,7 @@ Phase 1 is template work that multiplies (nav, Learn module template, entity and
 
 ### (a) Same element, different values
 
-**R-a1 single-valued slots** (title, meta, H1, eyebrow, subhead per page): the winner is the value that (1) passes the hard rules, (2) carries the SEO editor's decision (titles and H1s, binding), (3) comes from the page-owning team (audit-content §6 #22: the owning team's text is the base; content-team rewrites are inputs), (4) carries a brand fix, (5) carries an auditor correction, then priority, then GSC impressions. Losing single-slot rows are SUPERSEDED; combined GSC rows keep their H2 and drop the losing title or meta.
+**R-a1 single-valued slots** (title, meta, H1, eyebrow, subhead per page): the winner is the value that (1) passes the hard rules, (2) carries the SEO editor's decision (titles and H1s, binding), (3) on Learn pages, comes from the content plan's §6 refresh list (the content team's reconciled titles, rows `CPL-001` to `CPL-030`), (4) comes from the page-owning team (audit-content §6 #22: the owning team's text is the base; content-team rewrites are inputs), (5) carries a brand fix, (6) carries an auditor correction, then priority, then GSC impressions. A content-plan refresh row that loses a slot keeps its other instructions and gets a note. Losing single-slot rows are SUPERSEDED; combined GSC rows keep their H2 and drop the losing title or meta.
 **R-a2 duplicates:** identical rows from several queries or files keep the first id. **R-a3 CTA slots:** the CTA team owns label and destination (charter §4.3 rule 1, brand §5); the page team's row sets placement and points at the CTA row. **R-a4 new-post candidates:** `blog-plan.csv` is the content team's reconciled decision for all 84 candidates; GSC candidate titles are inputs to the briefs.
 
 | Kind | Rows |
