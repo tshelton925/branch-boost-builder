@@ -26,7 +26,7 @@ Nothing here has been applied to the live site; every change is written out exac
 | `03-core-pages/` | Home, purchase, refinance, product, calculator, research and trust pages: reports, exact changes, scores |
 | `04-city-pages/` | Consistency sweep of the 276 city pages, three county-group fact-checks, city fixes, validator scripts |
 | `05-content-keywords/` | Blog inventory, GSC gap analysis, competitor and AI-visibility gaps, PAA question bank, content plan, blog plan |
-| `06-blogs/` | Briefs, the 14 new post drafts (`drafts/`), blog editor reviews E1–E4 |
+| `06-blogs/` | Briefs, the 14 new post drafts (`drafts/`, Markdown), WordPress paste-ready HTML with JSON-LD for each post (`wordpress-html/`, see each file's header for the Rank Math title and meta), blog editor reviews E1–E4 |
 | `07-images/` | 1,977 optimized image files (`optimized/`), upload manifest, delivery snippets, corrected alt text, reports |
 | `08-audit/` | Seven independent audits and their correction files |
 | `09-consistency/` | Brand and compliance review, SEO and AI-search review, query ownership map, answer blocks, conflict resolution (MASTER-CHANGES, decisions log, unified specs, redirect map, owner decisions, counsel review) |
