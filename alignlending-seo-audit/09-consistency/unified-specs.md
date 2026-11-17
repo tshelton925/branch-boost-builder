@@ -81,7 +81,7 @@ al-next   : always rendered (281 articles lack it); keep an existing end block t
 secondary : breakeven/equity keys add the text link "See how we compare refinance options in Michigan" -> /refinance/ ;
             process/budget/fthb keys add "How buying a home with Align works" -> /purchase/   (internal-link-fixes rows 20-21, K4)
 "start online" -> /start/?goal=<key goal> ; Calendly -> utm_campaign=learn&utm_content=module|end
-answer box : top 50 Learn URLs by GSC impressions get a 40-60-word answer before the first H2 + one text link (SEO-014 template + SEO-015, SEO-016, SEO-017 for the top 3)
+answer box : top 50 Learn URLs by GSC impressions get a 40-60-word answer before the first H2 + one text link (SEO-016 template + SEO-017, SEO-018, SEO-019 for the top 3)
 ```
 
 ### 2.3 Cluster defaults
@@ -186,7 +186,7 @@ Built from the 281 live per-article rows after every correction; the most common
 ### 3.1 Entity strings (word for word; guide §1, SEO §4.1)
 
 - **Canonical paragraph** (author boxes, reviewer/trust component, About, press kit): "Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, founded the company."
-- **Once per money page** (the "Why Align" section or reviewer box): the first sentence of the paragraph (SEO-011). **Short form** above the fold and in trust lines: "Align Lending, an independent Michigan mortgage broker in Waterford".
+- **Once per money page** (the "Why Align" section or reviewer box): the first sentence of the paragraph (SEO-013). **Short form** above the fold and in trust lines: "Align Lending, an independent Michigan mortgage broker in Waterford".
 - **Samantha, first reference:** "Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301".
 - **City pages:** "Align Lending is an independent mortgage broker based in Waterford, Michigan, serving buyers and homeowners in {City}, {County} County, by phone, text or video, with office visits by appointment on Pontiac Lake Road."
 - **Reviewer line** on every page: "Samantha Shelton, NMLS 1647301 · Updated {Month YYYY}" (brand decision 5). The verb ("By", "Written by", "Reviewed by") waits for N2 and is one template change.
@@ -289,7 +289,7 @@ One pass per page: text, citations, links (K6) and template fixes together. Data
 | Glance box | Four rows on every page: "Typical home value near $X ({measure}, {period})" · "Taxable value rises about Y% the year after a sale" · "Property tax current owners pay: about Z% of value" · ZIP code(s); income-tax cities add "City income tax: X% for residents" | CTY-0308, CTY-0023 |
 | Stat markup | `<p class="adp-stat__value">` / `<p class="adp-stat__label">`, never H3 | CTY-0024 |
 | Headings | Flexible slots A (ZIP and taxing units), B (2025 millage vs neighbors), C (what to settle before an offer); "In Samantha's words" and step titles are `<p>`, not headings; eight FAQ questions per page | CTY-0305, 0307, 0312 |
-| Program H2 | "Which loan programs can you use in {City}?" with a 40-60-word answer from page data: the county FHA limit, whether any part of {City} is in a USDA-eligible area (link the address check; eligibility is by address, not city), the MSHDA price limit with the F2 line, links to the FHA, VA, conventional and USDA pages | SEO-013, audit-content §5.4 |
+| Program H2 | "Which loan programs can you use in {City}?" with a 40-60-word answer from page data: the county FHA limit, whether any part of {City} is in a USDA-eligible area (link the address check; eligibility is by address, not city), the MSHDA price limit with the F2 line, links to the FHA, VA, conventional and USDA pages | SEO-015, audit-content §5.4 |
 | Closing H2 | "Talk with a Michigan mortgage expert" on all 276 pages and 12 hubs (F15, U5) | CTY-N003 |
 | CTAs | Mid-page "Talk with Samantha" (utm_campaign=city&utm_content=mid) with lead-in "Have a {City} address in mind? Samantha can check its taxes and loan options."; tax section "Estimate my property tax" → `/michigan-property-tax-calculator/#mi-tax` + text link "How Michigan taxable value works"; loan list adds "Buying a home in {City}: where to start" → `/purchase/` and "Already own in {City}? Compare refinance options" → `/refinance/` | CTA-0043/0044, ILF-0018, CTY-0027 |
 | Government line | Non-affiliation line appended to the shared city disclaimer (ships now, R-g3) | CTY-N004 |

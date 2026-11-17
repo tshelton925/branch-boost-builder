@@ -413,3 +413,4 @@ No gates apply.
   - Posts 1, 3 and 4 each answer an owned topic in two sentences with a link: preapproval importance and the mortgage process (post 1); the letter of explanation in `/learn/mortgage-underwriting/` (post 3); asset depletion and reverse mortgages (post 4).
 
 **Working files (scratchpad, not deliverables):** `qa.py` (screens and structure checks), `links.py`, `baseline.txt`, `final.txt` and `orig/` (pre-edit copies of the four drafts), under `/tmp/claude-0/-home-user-branch-boost-builder/36a6d023-1820-5438-b7a7-9149dcf56310/scratchpad/e3/`.
+- 2026-11-17 orchestrator: corrected summer deferment date to February 15 per MCL 211.51 (flagged by editor E2).

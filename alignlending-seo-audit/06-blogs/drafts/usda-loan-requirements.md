@@ -258,7 +258,7 @@ Every outside source this guide links to, in the order it appears.
 - [7 CFR 3550.63, maximum loan amount (Direct loans)](https://www.ecfr.gov/current/title-7/section-3550.63) — Electronic Code of Federal Regulations
 - [7 CFR 3555.208, special requirements for manufactured homes](https://www.ecfr.gov/current/title-7/section-3555.208) — Electronic Code of Federal Regulations
 
-<!-- Source log (Regulation N recordkeeping): 7 CFR 3555.101, .103, .107, .151, .152, .201, .202, .205, .208 and 3550.63 were read through the eCFR API by the E1 editor on 2026-11-17, along with legislature.mi.gov. rd.usda.gov returned 403 (Akamai) on two tries, so the handbook index link and the two handbook facts carry inline [VERIFY] flags; click-check the handbook index on publish day. -->
+<!-- Source log (Regulation N recordkeeping): 7 CFR 3555.101, .103, .107, .151, .152, .201, .202, .205, .208 and 3550.63 were read through the eCFR API by the E1 editor on 2026-11-17, along with legislature.mi.gov. rd.usda.gov returned 403 (Akamai) on two tries, so the handbook index link and the two handbook facts carry inline flags; click-check the handbook index on publish day. -->
 
 ```json-ld
 {

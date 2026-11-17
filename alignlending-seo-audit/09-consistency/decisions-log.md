@@ -1,6 +1,6 @@
 # Decisions log: cross-team conflict resolution
 
-**Team:** Consistency, cross-team conflict resolver · **Date:** 2026-11-17 · **Deliverables:** `MASTER-CHANGES.csv` (7,163 rows), `redirect-map.csv` (159 rows), `unified-specs.md`, `owner-decisions.md`, `counsel-review.md`, this log.
+**Team:** Consistency, cross-team conflict resolver · **Date:** 2026-11-17 · **Deliverables:** `MASTER-CHANGES.csv` (7,195 rows), `redirect-map.csv` (159 rows), `unified-specs.md`, `owner-decisions.md`, `counsel-review.md`, this log.
 **Inputs:** the 20 team change files listed in the brief, the 7 auditor correction files, `brand-fixes.csv` (290 rows) and `seo-ai-fixes.csv` (51 rows), with `brand-compliance-review.md` §5 (CTA vocabulary, binding), `query-ownership-map.csv` (147 themes, binding), `KNOWN-CORRECTIONS.md` (F1-F21 win, D1-D8 stay open) and the 7 audit reports' cross-team conflict sections.
 **Method:** python (stdlib csv/json). Working scripts in the scratchpad (`resolver/normalize.py`, `layers.py`, `resolve*.py`, `outputs.py`, `docs.py`) rebuild every file here from the inputs.
 
@@ -8,12 +8,12 @@
 
 ## 1. Summary
 
-- **7,163 rows** in one schema. Every team row is there, with the auditor, brand and SEO rows they added, 143 redirect-map rows and 12 resolver spec rows.
-- **6,019 rows ship** (4,848 as written, 1,171 with an edit). Of the shippable rows, 357 are P0, 2,801 P1 and 2,861 P2.
-- **788 rows are superseded** by another row that carries the same change, and **200 are rejected** with a reason. **92 wait for an owner decision** and **64 wait for counsel**.
-- **929 conflicts found and resolved**, in seven classes (§3). Every one has a rule and a recorded outcome.
-- **Change layers applied:** auditor corrections changed 869 rows, brand fixes 448, SEO/AI fixes 114, and the resolver 540. Each row's `decided_by_rule` names the layer and the reference (for example `corrections-ctas#82` or `brand-fixes#116`), and `source_refs` gives the team file and row.
-- **Hard rules re-screened on every shippable value** (§4): no rates, F19 fair-housing words, title 60 or fewer characters, meta 140-160, "Talk with Samantha" on every booking button, no NAMB, no "local" expert. All titles and metas in shippable rows now pass (398 title rows, 197 meta rows).
+- **7,195 rows** in one schema. Every team row is there, with the auditor, brand and SEO rows they added, 143 redirect-map rows and 12 resolver spec rows.
+- **6,041 rows ship** (4,859 as written, 1,182 with an edit). Of the shippable rows, 367 are P0, 2,819 P1 and 2,855 P2.
+- **797 rows are superseded** by another row that carries the same change, and **200 are rejected** with a reason. **92 wait for an owner decision** and **65 wait for counsel**.
+- **990 conflicts found and resolved**, in seven classes (§3). Every one has a rule and a recorded outcome.
+- **Change layers applied:** auditor corrections changed 869 rows, brand fixes 448, SEO/AI fixes 116, and the resolver 561. Each row's `decided_by_rule` names the layer and the reference (for example `corrections-ctas#82` or `brand-fixes#116`), and `source_refs` gives the team file and row.
+- **Hard rules re-screened on every shippable value** (§4): no rates, F19 fair-housing words, title 60 or fewer characters, meta 140-160, "Talk with Samantha" on every booking button, no NAMB, no "local" expert. All titles and metas in shippable rows now pass (390 title rows, 197 meta rows).
 
 ### Rows by phase and status
 
@@ -24,8 +24,8 @@
 | 3 city pages | 1,619 | 404 | 192 | 11 | 71 | 0 | 2,297 |
 | 4 learn/links | 427 | 292 | 181 | 155 | 8 | 4 | 1,067 |
 | 5 images | 793 | 103 | 1 | 0 | 0 | 0 | 897 |
-| 6 content refresh | 430 | 48 | 322 | 18 | 3 | 3 | 824 |
-| **All** | **4,848** | **1,171** | **788** | **200** | **92** | **64** | **7,163** |
+| 6 content refresh | 441 | 59 | 331 | 18 | 3 | 4 | 856 |
+| **All** | **4,859** | **1,182** | **797** | **200** | **92** | **65** | **7,195** |
 
 Phase 1 is template work that multiplies (nav, Learn module template, entity and schema, city template, sitewide CTA rules). Phase 2 is the money pages. Phase 3 is city pages, county hubs and city-page link insertions, in one pass per page (links auditor K6). Phase 4 is Learn links, Learn CTA modules and the redirect map. Phase 5 is images. Phase 6 is content refresh and new posts.
 
@@ -47,13 +47,13 @@ Phase 1 is template work that multiplies (nav, Learn module template, entity and
 
 | Class | What | Found | Rule(s) |
 |---|---|---:|---|
-| (a) | Same page element, different (or duplicate) values from different teams | 368 | R-a1 to R-a4 |
-| (b) | Links, CTAs and page edits whose source or target is 301'd, merged or pruned, or that anchor an owned query on the wrong URL | 238 | R-b1 to R-b6 |
-| (c) | CTA rows that break the final vocabulary (labels, destinations, /start/ parameters, friction line) | 94 | R-c1 to R-c7 |
-| (d) | Query-ownership contradictions (titles, H1s, anchors, GSC routing) | 183 | R-d1, R-b4 |
+| (a) | Same page element, different (or duplicate) values from different teams | 418 | R-a1 to R-a4 |
+| (b) | Links, CTAs and page edits whose source or target is 301'd, merged or pruned, or that anchor an owned query on the wrong URL | 246 | R-b1 to R-b6 |
+| (c) | CTA rows that break the final vocabulary (labels, destinations, /start/ parameters, friction line) | 95 | R-c1 to R-c7 |
+| (d) | Query-ownership contradictions (titles, H1s, anchors, GSC routing) | 185 | R-d1, R-b4 |
 | (e) | 301 decisions that differ between teams, chain, or redirect a ranking URL | 24 | RD-1 to RD-6 |
 | (f) | Nav, menu, footer and breadcrumb proposals from several teams | 21 | R-f1 |
-| (g) | Rows that depend on D1-D8, new owner decisions or counsel | 156 blocked + 165 with a soft dependency | R-g1 to R-g3 |
+| (g) | Rows that depend on D1-D8, new owner decisions or counsel | 157 blocked + 169 with a soft dependency | R-g1 to R-g3 |
 
 ### (a) Same element, different values
 
@@ -64,12 +64,13 @@ Phase 1 is template work that multiplies (nav, Learn module template, entity and
 |---|---:|
 | GSC new-post candidate vs reconciled blog plan | 152 |
 | city external link fixed twice (02 vs 04, K6) | 93 |
-| title conflict (duplicate) | 58 |
+| title conflict (duplicate) | 85 |
+| title conflict (different value) | 21 |
 | CTA slot labelled differently by the page team and the CTA team | 18 |
 | same link proposed by 02 and the page-owning team | 17 |
-| meta conflict (different value) | 9 |
-| title conflict (different value) | 7 |
-| title conflict (inventory refresh vs title row) | 7 |
+| meta conflict (different value) | 11 |
+| title conflict (inventory refresh vs title row) | 8 |
+| meta conflict (duplicate) | 6 |
 | same question heading from two teams | 4 |
 | duplicate link fix (02 broken-links vs 02 internal-link-fixes) | 2 |
 | city hero alt rule proposed by the city team and the images team | 1 |
@@ -89,7 +90,7 @@ Notable outcomes:
 | Kind | Rows |
 |---|---:|
 | edit on a 301 source page | 179 |
-| link/CTA destination redirected | 35 |
+| link/CTA destination redirected | 43 |
 | source merged | 14 |
 | compliance drop (F20 anchor) | 6 |
 | source pruned | 4 |
@@ -98,7 +99,7 @@ Notable outcomes:
 
 Every CTA-bearing row (CTA file, core-page CTA rows, templates, link-fix rows with buttons) was run through the final vocabulary in brand review §5. **R-c1** every Calendly button reads "Talk with Samantha"; "Talk through your options" survives only on `/purchase/` (secondary), `/refinance/` (ATF primary) and the `/product-loans/` end-of-grid block. **R-c2** retired labels map to their vocabulary label and destination. **R-c3** a plan label never opens Calendly. **R-c4** `/start/` takes `goal=buy|refi|equity` only (`stage`, `why` and `aim` dropped; cash-out uses `goal=equity`; `from` only with values in `alignStartCfg.sources`, N6). **R-c5** readiness review labels follow the merge. **R-c6** "No credit pull to talk" sits only beside talk CTAs. **R-c7** destinations the brand table does not cover keep the team's label as a documented extension.
 
-Most of the label sprawl had already been fixed by the CTA auditor's 15 global swaps and the brand editor's 29 booking-label fixes, so this pass found 94 rows still off-vocabulary:
+Most of the label sprawl had already been fixed by the CTA auditor's 15 global swaps and the brand editor's 29 booking-label fixes, so this pass found 95 rows still off-vocabulary:
 
 | Label changed (before) | Rows |
 |---|---:|
@@ -137,11 +138,13 @@ Vocabulary extensions kept (R-c7, owner to confirm in one pass with the brand ta
 | h1 targets a query owned by / | 1 |
 | h1 targets a query owned by /refinance/break-even-review/ | 1 |
 | title targets a query owned by /refinance/break-even-review/ | 1 |
+| title targets a query owned by /product-loans/jumbo-loans/ | 1 |
 | calculator query pointed at a city page | 1 |
+| content plan would move "usda eligibility" to the tool | 1 |
 
 Notable outcomes:
 - **MSHDA anchors:** 137 city-guide and learn insertions anchored "MSHDA" or "MI 10K DPA" pointed at the DPA money page. Q102 gives MSHDA program names to the new MSHDA guide while D3 is open, and F2 keeps MSHDA wording off money pages, so they point at `/learn/mshda-mi-home-loan/` once blog-plan rank 1 is published (until then they keep the DPA target).
-- **City titles:** 31 GSC "city page already ranks, rewrite the title" rows yield to the kept pattern "Mortgage Broker in {City}, MI | Align Lending" (SEO §2.9) and the new city program H2 (SEO-013). Ann Arbor keeps its one title test.
+- **City titles:** 31 GSC "city page already ranks, rewrite the title" rows yield to the kept pattern "Mortgage Broker in {City}, MI | Align Lending" (SEO §2.9) and the new city program H2 (SEO-015). Ann Arbor keeps its one title test.
 - **Samantha's H1** used the home page's query "Michigan mortgage broker"; it becomes the guide §1 line "Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending". **Refinance calculator H1** dropped "Find Your Break-Even Month" (owned by the break-even review). The points-vs-lender-credit title keeps "Break-Even" (a different concept; reviewed, kept).
 - **Macomb:** 7 GSC rows wanted "macomb mortgage" pointed at the township page; Q014 gives Macomb queries to the county hub, so the hub keeps them. Three misrouted "point this query at the city page" rows (targets that are not city pages) and one calculator query routed to Detroit are rejected.
 - **USDA eligibility:** the learn article keeps the national query (GSC 576 @11.1); the GSC re-point row is rewritten, blog-plan ranks 65 and 80 change owner, and one anchor "usda eligibility" is retargeted to the article.
@@ -187,7 +190,7 @@ Six teams' proposals (21 rows: 02-links §5.1-5.2 and rows 10-17, 01-ctas rows 2
 
 ### (g) Pending decisions
 
-92 rows are blocked by an owner decision and 64 by counsel; 165 more ship now with a soft dependency in `depends_on` (for example a city meta whose dollar figure is regenerated if D2 changes the measure). **R-g1** a row waits only when its core change depends on the decision. **R-g2** a bracketed `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag blocks publishing. **R-g3** where the conservative option is always compliant, it ships now and counsel can narrow it later (example: the non-affiliation line in the shared city disclaimer). Blocked rows by decision: C1 (D7) 31, C2 (D7) 14, C3 13, C4 2, C5 3, C6 1, D1 11, D2 71, D6 3, D8 1, N1 3, N3 2, N7 1.
+92 rows are blocked by an owner decision and 65 by counsel; 169 more ship now with a soft dependency in `depends_on` (for example a city meta whose dollar figure is regenerated if D2 changes the measure). **R-g1** a row waits only when its core change depends on the decision. **R-g2** a bracketed `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag blocks publishing. **R-g3** where the conservative option is always compliant, it ships now and counsel can narrow it later (example: the non-affiliation line in the shared city disclaimer). Blocked rows by decision: C1 (D7) 31, C2 (D7) 15, C3 13, C4 2, C5 3, C6 1, D1 11, D2 71, D6 3, D8 1, N1 3, N3 2, N7 1.
 
 ---
 
@@ -197,9 +200,9 @@ Run on the final value of every shippable row, after all layers.
 
 | Rule | Check | Result |
 |---|---|---|
-| No rates (F13, guide §6) | rate claims, "as low as", "today's rates", % APR | 1 hit, a quoted review that a removal row already deletes (F18); 0 in new copy |
+| No rates (F13, guide §6) | rate claims, "as low as", "today's rates", % APR | 2 hit, a quoted review that a removal row already deletes (F18); 0 in new copy |
 | F19 fair housing | quiet, modest, tidy, safe, family-friendly, good schools, upscale, desirable, sought-after, thriving, retirees… | 4 city metas still tied loan types to price level ("put most buyers in conventional or FHA range"): rewritten to the brand's neutral pattern (140-160 checked). 2 fixed by hand: "award letters for retirees" (PUR-0417) and "modest village bungalows" in a city sentence used for a link (CGL-0039). Remaining hits are false positives ("quiet stretches" of a process, "SAFE" exam, "Safe SVG" plugin) |
-| Title 60 or fewer | every title in a shippable row | all pass (398 title rows); the one over-length string is a flag text on a counsel-pending row |
+| Title 60 or fewer | every title in a shippable row | all pass (390 title rows); the one over-length string is a flag text on a counsel-pending row |
 | Meta 140-160 | every meta in a shippable row | all pass; D2-sequenced city metas are pending, not shipped |
 | "Talk with Samantha" for booking | every Calendly button | 0 off-vocabulary Calendly labels left (§3c) |
 | No NAMB | new copy and schema | 0 shippable rows add NAMB; the Samantha H3 is PENDING-OWNER (D8) |
@@ -240,7 +243,7 @@ Run on the final value of every shippable row, after all layers.
 |---|---:|---:|---:|---:|---:|---:|---:|
 | `04-city-pages/city-fixes.csv` | 933 | 749 | 162 | 4 | 8 | 10 | 0 |
 | `07-images/alt-text-corrected.csv` | 873 | 775 | 98 | 0 | 0 | 0 | 0 |
-| `05-content-keywords/gsc-opportunities.csv` | 785 | 232 | 53 | 472 | 20 | 7 | 1 |
+| `05-content-keywords/gsc-opportunities.csv` | 785 | 221 | 55 | 481 | 20 | 7 | 1 |
 | `03-core-pages/products-b-changes.csv` | 471 | 407 | 55 | 6 | 2 | 0 | 1 |
 | `03-core-pages/purchase-changes.csv` | 451 | 374 | 61 | 2 | 14 | 0 | 0 |
 | `03-core-pages/products-a-changes.csv` | 450 | 336 | 58 | 3 | 6 | 0 | 47 |
@@ -258,13 +261,14 @@ Run on the final value of every shippable row, after all layers.
 | `05-content-keywords/blog-plan.csv` | 92 | 85 | 5 | 0 | 0 | 1 | 1 |
 | `02-links/cannibalization.csv` | 68 | 28 | 1 | 38 | 1 | 0 | 0 |
 | `02-links/internal-link-fixes.csv` | 56 | 35 | 12 | 9 | 0 | 0 | 0 |
+| `05-content-keywords/content-plan.md` | 30 | 21 | 9 | 0 | 0 | 0 | 0 |
 | `07-images/delivery-fix-list.csv` | 22 | 17 | 5 | 0 | 0 | 0 | 0 |
-| `09-consistency/seo-ai-fixes.csv` | 17 | 17 | 0 | 0 | 0 | 0 | 0 |
+| `09-consistency/seo-ai-fixes.csv` | 19 | 18 | 0 | 0 | 0 | 0 | 1 |
 | `09-consistency/unified-specs.md` | 11 | 10 | 0 | 0 | 0 | 1 | 0 |
 | `09-consistency (resolver)` | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 Rejected rows by reason: page is pruned or merged (R-b5) 165; withdrawn by the auditor 10; percentage anchor dropped (F20) 6; brand/licensing delete (NY, Iowa, duplicate H2s) 6; redirect proposal overruled (RD rules) 5; self-link or source pruned (R-b2/R-b3) 4; misrouted or conflicting ownership row (R-d1) 4.
-Superseded rows by reason: duplicate or losing value for the same page element (R-a1/R-a2) 312; consolidated into the redirect map 178; GSC new-post candidate reconciled in the blog plan (R-a4) 152; K6 city external links: one pass per page (R-b6) 93; city title pattern / template H2 kept (R-d1) 32; unified nav spec (R-f1) 20; other 1.
+Superseded rows by reason: duplicate or losing value for the same page element (R-a1/R-a2) 321; consolidated into the redirect map 178; GSC new-post candidate reconciled in the blog plan (R-a4) 152; K6 city external links: one pass per page (R-b6) 93; city title pattern / template H2 kept (R-d1) 32; unified nav spec (R-f1) 20; other 1.
 
 ---
 

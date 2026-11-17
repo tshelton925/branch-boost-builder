@@ -1,12 +1,12 @@
 # Counsel review
 
 **Team:** Consistency, cross-team conflict resolver · **Date:** 2026-11-17 · Marketing-compliance questions for counsel; this is not legal advice.
-Every row with a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag is PENDING-COUNSEL in `MASTER-CHANGES.csv` (64 rows). Groups follow the brand editor's C1-C9 (`brand-compliance-review.md` §6) plus one new group (C10) and the F7 scope question. Where a conservative interim is always compliant (removing a claim, a neutral label, adding a disclaimer), it ships now and is not counted as waiting.
+Every row with a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag is PENDING-COUNSEL in `MASTER-CHANGES.csv` (65 rows). Groups follow the brand editor's C1-C9 (`brand-compliance-review.md` §6) plus one new group (C10) and the F7 scope question. Where a conservative interim is always compliant (removing a claim, a neutral label, adding a disclaimer), it ships now and is not counted as waiting.
 
 | Group | Topic | Rows waiting |
 |---|---|---:|
 | C1 (D7) | Repayment-period terms ("30-year", "15-year") as product names on money pages | 31 |
-| C2 (D7) | Down-payment percentages and "no down payment" on money pages and in learn titles | 14 |
+| C2 (D7) | Down-payment percentages and "no down payment" on money pages and in learn titles | 15 |
 | C3 | Government fee percentages (FHA MIP, USDA guarantee fees, VA funding fee chart) | 13 |
 | C4 | Closing-cost figures in refinance break-even illustrations | 2 |
 | C5 | Worked examples with monthly amounts on calculators | 3 |
@@ -17,7 +17,7 @@ Every row with a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag is PENDING-COUNSEL in
 | C10 | Third-party savings claims (Polygon Research) on city pages | 0 |
 | F7 scope | Government non-affiliation line on city pages | 0 |
 
-**Fastest unblock:** one counsel ruling on C1 and C2 (D7) releases 45 of the 64 rows, including the 30-year and 15-year product pages and the FHA, VA, USDA, conventional and HomeReady down-payment cards.
+**Fastest unblock:** one counsel ruling on C1 and C2 (D7) releases 46 of the 65 rows, including the 30-year and 15-year product pages and the FHA, VA, USDA, conventional and HomeReady down-payment cards.
 
 ---
 
@@ -69,7 +69,7 @@ Every row with a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag is PENDING-COUNSEL in
 - **Basis:** 1026.24(d)(1)(i) and CFPB comment 24(d)(1) (statements like "no downpayment" do not trigger, but the guide requires counsel sign-off before money-page use). F20 already keeps percentages out of anchors and away from apply CTAs.
 - **Question for counsel:** May FHA, conventional, HomeReady, VA and USDA pages state the agency minimums ("3.5% down with 580", "3% down", "no down payment with full entitlement") as each agency's rule, in body sections away from apply CTAs?
 - **What we did pending the ruling:** Flagged rows wait; 6 percentage anchors dropped (F20); learn H2s name the program, not the percentage; the zero-down post was folded into an H2 on the low-down-payment guide.
-- **Rows waiting (14):**
+- **Rows waiting (15):**
 
 | Row | Page | Element | Copy as it would ship (flag removed) |
 |---|---|---|---|
@@ -87,6 +87,7 @@ Every row with a `[COMPLIANCE REVIEW]` or `[COUNSEL]` flag is PENDING-COUNSEL in
 | `PRA-0259` | /product-loans/home-ready/ | h2/h3 outline | Is HomeReady better than FHA? \| For a borrower under the income limit with a credit score around 680 or higher, usually yes: the mortgage insurance is reduced and can be cancelled, while FHA's lasts for the life of the l |
 | `PRB-0314` | /product-loans/bank-statement-loan/ | answer block | H3: Do bank statement loans require 20% down? \|\| Answer (exact): Not always. Each lender sets the down payment, and it moves with your credit score, the loan amount, the property type and whether you will live in the hom |
 | `INV-0021` | /learn/low-down-payment-mortgages/ | content refresh | REFRESH: 480 impr (low down payment mortgage options pos 21.5). Absorb buying-home-with-low-down-payment (301); add Michigan DPA stacking (MI 10K) section linking /purchase/down-payment-assistance/. \|\| SEO/AI EDIT: Low D |
+| `SEO-008` | /learn/low-down-payment-mortgages/ | title | Low Down Payment Mortgage Options: 4 Loans Compared \|\| SEO note: Low Down Payment Mortgage Options: 4 Loans Compared (51). Keep the percentages inside the guide body as each agency's rule. |
 
 ---
 

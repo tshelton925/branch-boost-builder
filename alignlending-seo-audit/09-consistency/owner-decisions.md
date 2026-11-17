@@ -17,7 +17,7 @@ Each decision lists the options, our recommendation and the rows it blocks. "Blo
 | N2 | Byline verb | 0 | 2 | Keep the verb-free line; if a verb is wanted, use "By" |
 | N3 | GSC exports before two held redirects | 2 | 0 | PM pulls GSC Pages and Query x Page for the two URLs |
 | N4 | Does Align finance mixed-use 1-4 unit properties? | 0 | 1 | Keep the page as is until answered |
-| N5 | Samantha quotes: sources and new quotes | 0 | 5 | Confirm or supply verbatim quotes; nothing unsourced ships |
+| N5 | Samantha quotes: sources and new quotes | 0 | 6 | Confirm or supply verbatim quotes; nothing unsourced ships |
 | N6 | /start/ source whitelist and the 1099 key | 0 | 9 | Add digit-free values to alignStartCfg.sources before the from= links ship |
 | N7 | Approve the AI-imagery disclosure | 1 | 0 | Approve the proposed sentence |
 | N8 | Schema facts: phone hours, logo, Facebook URL, coordinates | 0 | 1 | Supply them; until then the fields stay out |
@@ -153,7 +153,7 @@ See `counsel-review.md` C1 and C2. Interim: the refinance loan cards ship as "Fi
 
 ## N5. Samantha quotes
 
-Never invent a quote (guide §7.9). Shipped now: the verbatim quote-bank quotes on city pages; the unsourced 79-page city quote and the truncated "too small to mention" card are **removed** now, and three product H2s ship without their optional quote. Align either confirms a recorded source or supplies verbatim quotes to restore them. **Soft:** `RHT-0287`, `PRB-0028`, `PRB-0199`, `PRB-0311`, `CTY-0026B`.
+Never invent a quote (guide §7.9). Shipped now: the verbatim quote-bank quotes on city pages; the unsourced 79-page city quote and the truncated "too small to mention" card are **removed** now, and three product H2s ship without their optional quote. Align either confirms a recorded source or supplies verbatim quotes to restore them. **Soft:** `RHT-0287`, `PRB-0028`, `PRB-0199`, `PRB-0311`, `CPL-001`, `CTY-0026B`.
 
 ## N6. /start/ source whitelist
 
