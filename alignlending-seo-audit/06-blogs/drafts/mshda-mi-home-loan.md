@@ -16,7 +16,7 @@ editor_review: "06-blogs/editor-review-E1.md (E1 editor, 2026-11-17)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
 publish_week: "W2 (Nov 30–Dec 6, 2026). Set the visible Updated date, datePublished and dateModified to the publish date. Re-open MSHDA's First-Generation page that day (F1)."
-word_count: 2311  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
+word_count: 2298  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
 target_money_page: "/purchase/down-payment-assistance/"
 internal_links:
   - {url: "/purchase/down-payment-assistance/", anchor: "Michigan down payment assistance options"}
@@ -129,7 +129,7 @@ A county, city or township where MSHDA accepts repeat buyers and sets higher inc
 | Occupancy | Your principal residence | MI Home Loan page |
 | Lender | MSHDA participating lender only | MSHDA lender list |
 
-Source: MSHDA program pages; Income and Sales Price Limits, June 1, 2026.
+Source: MSHDA program pages and limits chart (June 1, 2026).
 
 ## What are the MSHDA income limits in 2026?
 
@@ -186,7 +186,7 @@ You apply through an MSHDA participating lender, not through MSHDA. The usual or
 1. **Check the limits** for your county, household size and price range.
 2. **Take the homebuyer education class** listed in MSHDA's Housing Education Locator.
 3. **Get preapproved with a participating lender** from MSHDA's lender list.
-4. **Shop and write an offer under the limits,** with the lender's MSHDA steps built into your purchase agreement's dates.
+4. **Shop and write an offer under the limits.**
 5. **The lender reserves the loan and submits it to MSHDA.** MSHDA's commitment lasts 90 days on an existing home, 180 on new construction.
 
 <!-- LINK ONCE LIVE (W2, Nov 30–Dec 6, same week): add "See [how to get preapproved for a mortgage](/learn/how-to-get-pre-approved-for-a-mortgage/)." after the list once that post is live. -->
