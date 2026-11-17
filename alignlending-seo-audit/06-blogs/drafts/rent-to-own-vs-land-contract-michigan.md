@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E4.md (E4 editor, 2026-11-17)"
 publish_week: "W4 (Dec 14–20, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "2026-11-17"
-word_count: 2229  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
+word_count: 2300  # visible body incl. FAQ and disclosure line; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E4 editor count, same method as E3)
 target_money_page: "/purchase/homebuyer-game-plan/#readiness"
 internal_links:
   - {anchor: "Compare renting and buying", url: "/rent-vs-buy-calculator/", placement: "after the comparison table (first 30%)", status: "live"}
@@ -88,8 +88,8 @@ With rent-to-own, the owner keeps title, you pay a landlord, and a missed paymen
 | Who pays property tax | Owner, unless the lease shifts it | Usually you, per the contract | You, often through escrow |
 | Principal Residence Exemption | No, not until you buy | Yes, with a written, seller-signed contract | Yes |
 | Taxable value uncaps | At the deed, unless the lease has a bargain purchase option or runs over 35 years | The year after signing, not again at payoff | The year after the sale |
-| Lost on default | The home after eviction; fee and credits if the contract says so | The home and, usually, the payments made | The home, after foreclosure and redemption |
-| Path to a mortgage | Buy at the agreed price with a purchase loan | Pay off the contract, often by refinancing | Already there |
+| Lost on default | The home; fee and credits if the contract says so | The home and, usually, the payments made | The home, after foreclosure and redemption |
+| Path to a mortgage | A purchase loan at the agreed price | Pay off the contract, often by refinancing | Already there |
 | Recorded? | Optional: a memorandum of the option; ask an attorney | Not required; Treasury recommends it | Yes, at closing |
 
 *Sources: MCL 211.27a, 211.7dd, 600.5714, 600.5728, 600.5744 and 600.3240; Michigan Department of Treasury PRE guidance. Michigan rules as of November 2026; your contract can change some of them.*
@@ -122,7 +122,7 @@ Michigan tax law counts someone "purchasing property under a land contract" as a
 
 A rent-to-own tenant can be evicted and lose the option fee and credits. A land contract buyer faces forfeiture or foreclosure, with 90 days or 6 months to catch up after a forfeiture judgment. A mortgage borrower faces foreclosure, then usually 6 months or 1 year to redeem.
 
-**Rent-to-own.** Eviction can start 7 days after a written demand for unpaid rent ([MCL 600.5714](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5714)). After a judgment, the court waits 10 days before ordering you out, and paying the judgment and costs in that time stops it ([MCL 600.5744](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5744)).
+**Rent-to-own.** Eviction can start 7 days after a written demand for unpaid rent ([MCL 600.5714](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5714)). After a judgment, you have 10 days before an order to leave, and paying the judgment and costs stops it ([MCL 600.5744](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5744)).
 
 **Land contract.** Forfeiture works only if the contract provides for it ([MCL 600.5726](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5726)). After a written notice, you have 15 days to pay or cure ([MCL 600.5728](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5728)). After a judgment, the order to leave waits 90 days if you have paid under half the price, or 6 months if half or more. Paying and curing in that window keeps the contract. Otherwise your payments are usually lost. The seller can instead foreclose in circuit court ([MCL 600.3101](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-3101)).
 
@@ -134,13 +134,13 @@ Under a land contract, the buyer usually pays the taxes, and taxable value uncap
 
 A land contract is a transfer of ownership at signing, and taxable value does not reset again when the deed is recorded ([MCL 211.27a](https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-211-27a)). A lease counts too if it runs over 35 years with renewals or has a "bargain purchase option", a price of no more than 80% of projected true cash value at lease end, so have your attorney check it.
 
-In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([Align Lending's 2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/)). The buyer files a Property Transfer Affidavit (Form 2766) within 45 days, then the Principal Residence Exemption by June 1 or November 1. See [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
+In 2026 the reset raised a typical Michigan home's taxable value about 50.5% ([Align Lending's 2026 Michigan Property Tax Uncapping Study](/research/michigan-property-tax-uncapping-study/)). File a Property Transfer Affidavit (Form 2766) within 45 days, then the exemption by June 1 or November 1. See [how Michigan taxable value resets after a sale](/learn/michigan-taxable-value/).
 
 ## Do rent credits or land contract payments count toward a mortgage?
 
 Rent credits count only under the lender's rules: Fannie Mae limits a credit to the difference between the rent you paid and the appraiser's market rent. Land contract payments build equity you can use when you refinance, and lenders ask for the contract and proof of every payment.
 
-[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also requires a written lease-option with an original term of at least 12 months stating the rent and monthly credit, proof of each payment, and an appraisal showing market rent. A land contract signed more than 12 months before the application is paid off as a limited cash-out refinance on a new appraisal, and a cash-out refinance is not allowed ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). A seller's promise that "your rent goes toward the house" binds no lender.
+[Fannie Mae's Selling Guide B3-4.3-12](https://selling-guide.fanniemae.com/sel/b3-4.3-12/rent-related-credits) also requires a written lease-option with an original term of at least 12 months stating the rent and monthly credit, proof of each payment, and an appraisal showing market rent. A land contract signed more than 12 months before the application is paid off as a limited cash-out refinance on a new appraisal, and cash-out is not allowed ([B2-1.3-05](https://selling-guide.fanniemae.com/sel/b2-1.3-05/payoff-installment-land-contract-requirements)). A seller's promise that your rent "goes toward the house" binds no lender.
 
 ## How do you move from rent-to-own or a land contract to a mortgage?
 
@@ -148,8 +148,8 @@ Start a lender review well before the option deadline or balloon date. Lenders l
 
 1. **Find the deadline:** the option or balloon date in the contract.
 2. **Check your readiness early,** so there is time to work on credit or savings. See [credit repair steps before you apply](/learn/credit-repair-strategies-for-home-buyers/).
-3. **Keep the paper trail:** the contract, proof of every payment, and the seller's written rent-credit or payoff statement. The guide on [how to get preapproved for a mortgage](/learn/how-to-get-pre-approved-for-a-mortgage/) lists the other documents lenders ask for. <!-- New post, publishes W2: confirm live on publish day. -->
-4. **Apply** and order the appraisal and title work in time to close.
+3. **Keep the paper trail:** the contract, proof of every payment, and the seller's written rent-credit or payoff statement. The guide on [how to get preapproved for a mortgage](/learn/how-to-get-pre-approved-for-a-mortgage/) lists the other documents lenders want. <!-- New post, publishes W2: confirm live on publish day. -->
+4. **Apply** with time left for the appraisal and title work.
 
 Samantha Shelton, Broker Owner and Senior Loan Originator (NMLS 1647301), on what to know before signing:
 
