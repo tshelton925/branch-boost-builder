@@ -16,7 +16,7 @@ editor_review: "06-blogs/editor-review-E1.md (E1 editor, 2026-11-17)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
 publish_week: "W2 (Nov 30–Dec 6, 2026). Set the visible Updated date, datePublished and dateModified to the publish date. Re-open MSHDA's First-Generation page that day (F1)."
-word_count: 2298  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
+word_count: 2297  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
 target_money_page: "/purchase/down-payment-assistance/"
 internal_links:
   - {url: "/purchase/down-payment-assistance/", anchor: "Michigan down payment assistance options"}
@@ -107,7 +107,7 @@ Not one you apply to. MSHDA funds the program and sets its rules; a participatin
 
 ## Who qualifies for a MSHDA loan?
 
-First-time buyers qualify anywhere in Michigan, and repeat buyers qualify only in MSHDA's targeted areas. Household income must be at or under the county limit, the price at or under $566,355 (2026), and the credit score at least 640. You must live in the home and complete a homebuyer education class.
+First-time buyers qualify anywhere in Michigan, and repeat buyers qualify only in MSHDA's targeted areas. Household income must be at or under the county limit, the price at or under $566,355 (2026) and the credit score at least 640. You must live in the home and complete a homebuyer education class.
 
 ### What counts as a first-time buyer for MSHDA?
 
@@ -181,7 +181,7 @@ No. MSHDA's [First-Generation Down Payment Assistance](https://www.michigan.gov/
 
 ## How do you apply for an MSHDA loan?
 
-You apply through an MSHDA participating lender, not through MSHDA. The usual order: check the income and price limits, take a homebuyer education class, get preapproved with a participating lender, shop at or under the price limit, and then the lender reserves the loan and submits it to MSHDA.
+You apply through an MSHDA participating lender, not through MSHDA. The usual order: check the income and price limits, take a homebuyer education class, get preapproved with a participating lender, shop at or under the price limit. Then the lender reserves the loan and submits it to MSHDA.
 
 1. **Check the limits** for your county, household size and price range.
 2. **Take the homebuyer education class** listed in MSHDA's Housing Education Locator.

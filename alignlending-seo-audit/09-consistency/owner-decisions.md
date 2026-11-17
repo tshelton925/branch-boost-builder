@@ -31,11 +31,12 @@ Each decision lists the options, our recommendation and the rows it blocks. "Blo
 **Options.** (a) Yes, through a wholesale HECM or proprietary reverse channel: keep the cluster, restore "Talk with Samantha" modules, ship the GSC rows. (b) No: keep `/learn/reverse-mortgages-how-they-work/` as an informational page with the HUD counselor link, no apply or talk module, and drop the GSC rows to P2. (c) Refer out: (b) plus one sentence naming the referral path.
 **Recommendation.** Decide from the license and lender list, not from traffic. If Align has no reverse channel, choose (b): the page keeps its impressions without implying a product Align does not offer.
 **Blocked rows.**
+
 | Row | Page | Element | What waits |
 |---|---|---|---|
-| `CTA-0249` | /learn/how-to-refinance-reverse-mortgage/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" / module head "Questions about a reverse mortgage" / text " |
-| `CTA-0372` | /learn/reverse-mortgages-how-they-work/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" / module head "Questions about a reverse mortgage" / text " |
-| `CTA-0387` | /learn/selling-home-with-reverse-mortgage/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" / module head "Questions about a reverse mortgage" / text " |
+| `CTA-0249` | /learn/how-to-refinance-reverse-mortgage/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" \| module head "Questions about a reverse mortgage" \| text " |
+| `CTA-0372` | /learn/reverse-mortgages-how-they-work/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" \| module head "Questions about a reverse mortgage" \| text " |
+| `CTA-0387` | /learn/selling-home-with-reverse-mortgage/ | cta label/destination | [HOLD until D1: Align confirms it brokers reverse mortgages] topic key "reverse" \| module head "Questions about a reverse mortgage" \| text " |
 | `GSC-0303` | ignore / prune review | content refresh | Ask Align: if Align does not broker HECMs, treat as drift and add a clear 'we do not offer reverse mortgages' note plus HUD counselor link;  |
 | `GSC-0315` | ignore / prune review | content refresh | Ask Align: if Align does not broker HECMs, treat as drift and add a clear 'we do not offer reverse mortgages' note plus HUD counselor link;  |
 | `GSC-0425` | ignore / prune review | content refresh | Ask Align: if Align does not broker HECMs, treat as drift and add a clear 'we do not offer reverse mortgages' note plus HUD counselor link;  |
@@ -51,6 +52,7 @@ Each decision lists the options, our recommendation and the rows it blocks. "Blo
 **Options.** (a) Census ACS owner median (B25077), labeled "(Census owner median, 2020 to 2024)", with an optional second line "Recent sales: about $Y (Redfin median sale price, {City}, three months ending {Month YYYY})" where the portal publishes the municipality. (b) Portal sale medians as the headline. (c) Keep the current mix.
 **Recommendation.** (a). It is the only measure available for all 276 places, it is Tier 1 and verifiable, it already headlines 129 pages, and it lets the hubs rank on one basis. Tell readers it lags current sales by 10-25%, which is what the optional second line is for. Rebuild hero, stats, hub tables and metas in one pass on the ACS 2021-2025 release (expected December 2026) so nothing is done twice.
 **Blocked rows (71):** typical-value label or figure (fact-check) 61, city meta (sequenced after D2) 10. 140 more rows (city metas and the city template spec) ship now and regenerate their dollar figure from the D2 field if the measure changes.
+
 | Row | Page | Element | What waits |
 |---|---|---|---|
 | `CTY-0004` | /mortgage-lender-clarkston-mi/ | meta | P1, sequenced after D2 (generate from the D2 headline field) |
@@ -97,9 +99,10 @@ Each decision lists the options, our recommendation and the rows it blocks. "Blo
 **Options.** (a) Samantha still handles every file: keep the existing wording. (b) There is a team: publish the new About "Who handles your loan" answer with the real structure.
 **Recommendation.** Align supplies the 2026 count and roles. Until then new copy avoids headcount; existing wording stays only where it already appears.
 **Blocked rows.**
+
 | Row | Page | Element | What waits |
 |---|---|---|---|
-| `RHT-0200` | /about-us/ | answer block | H3: Who handles your loan // Answer: Samantha handles each of her loans herself, from the first conversation to closing, with a processor su |
+| `RHT-0200` | /about-us/ | answer block | H3: Who handles your loan \|\| Answer: Samantha handles each of her loans herself, from the first conversation to closing, with a processor su |
 | `RHT-0214` | /about-us/ | template | Sitewide copy says Align 'started as a one-woman operation' and 'Samantha handles each of her loans herself', while /samantha-shelton/ cites |
 | `RHT-0289` | /samantha-shelton/ | template | 'A CanvasRebel profile published in October 2024 reported that the company had grown to 20 loan originators' vs 'one-woman operation' and 'h |
 **Soft:** `RHT-0320`, `RHT-0321`, `LIN-0152`.
@@ -113,6 +116,7 @@ See `counsel-review.md` C1 and C2. Interim: the refinance loan cards ship as "Fi
 **Context.** Not on the press page's sourced awards; no year anywhere; 18 existing pages use it. New copy and schema exclude it.
 **Options.** (a) Align supplies the year and NAMB's primary source: restore the Samantha H3 and add it to `Person.award`. (b) No source: delete the H3 and card, and remove the 18 existing mentions.
 **Recommendation.** If no primary source exists by publish, choose (b), including the existing mentions; an unverifiable award is a UDAAP risk.
+
 | Row | Page | Element | What waits |
 |---|---|---|---|
 | `RHT-0275` | /samantha-shelton/ | h2/h3 outline | Hold this H3 until Align supplies the year and the NAMB source (D8). If not confirmed before publish, delete the H3 and its card. |
@@ -122,11 +126,12 @@ See `counsel-review.md` C1 and C2. Interim: the refinance loan cards ship as "Fi
 **Context.** The apply friction line "A credit check comes later, only with your permission." needs Align to confirm the point in the /start/ to my1003app flow where credit is pulled.
 **Options.** (a) No pull until the borrower consents inside my1003app: ship the line. (b) A pull happens earlier: drop the line and say when it happens.
 **Recommendation.** Confirm in one line; the three preapproval Learn modules then ship.
+
 | Row | Page | Element | What waits |
 |---|---|---|---|
-| `CTA-0204` | /learn/how-fast-can-a-mortgage-close/ | cta label/destination | topic key "preapproval" / module head "Ready to make it official?" / text "The first step takes about a minute. A credit check comes later,  |
-| `CTA-0267` | /learn/importance-of-mortgage-preapproval/ | cta label/destination | topic key "preapproval" / module head "Ready to make it official?" / text "The first step takes about a minute. A credit check comes later,  |
-| `CTA-0317` | /learn/prequalified-vs-preapproved-whats-difference/ | cta label/destination | topic key "preapproval" / module head "Ready to make it official?" / text "The first step takes about a minute. A credit check comes later,  |
+| `CTA-0204` | /learn/how-fast-can-a-mortgage-close/ | cta label/destination | topic key "preapproval" \| module head "Ready to make it official?" \| text "The first step takes about a minute. A credit check comes later,  |
+| `CTA-0267` | /learn/importance-of-mortgage-preapproval/ | cta label/destination | topic key "preapproval" \| module head "Ready to make it official?" \| text "The first step takes about a minute. A credit check comes later,  |
+| `CTA-0317` | /learn/prequalified-vs-preapproved-whats-difference/ | cta label/destination | topic key "preapproval" \| module head "Ready to make it official?" \| text "The first step takes about a minute. A credit check comes later,  |
 
 ## N2. Byline verb
 
@@ -136,7 +141,8 @@ See `counsel-review.md` C1 and C2. Interim: the refinance loan cards ship as "Fi
 
 ## N3. GSC exports before two held redirects
 
-`/learn/tips-for-refinancing-vacation-home/` (the "refinance home" 135 @1.1 query is inferred to it) and `/mortgage-location/newport-mi-48166/` (Newport address split). **Action:** PM exports GSC Performance → Pages and Query x Page for both URLs, then ships or drops the 301. | Row | Page | Element | What waits |
+`/learn/tips-for-refinancing-vacation-home/` (the "refinance home" 135 @1.1 query is inferred to it) and `/mortgage-location/newport-mi-48166/` (Newport address split). **Action:** PM exports GSC Performance → Pages and Query x Page for both URLs, then ships or drops the 301. 
+| Row | Page | Element | What waits |
 |---|---|---|---|
 | `RD-142` | /learn/tips-for-refinancing-vacation-home/ | redirect/merge/prune | HOLD: do not 301 /learn/tips-for-refinancing-vacation-home/ yet ; move unique sections, examples and FAQ answers into the target first; upda |
 | `RD-143` | /mortgage-location/newport-mi-48166/ | redirect/merge/prune | HOLD: do not 301 /mortgage-location/newport-mi-48166/ yet |
@@ -155,7 +161,8 @@ Never invent a quote (guide §7.9). Shipped now: the verbatim quote-bank quotes 
 
 ## N7. AI-imagery disclosure (F21)
 
-Proposed sentence for the Editorial Policy (SPEC-006): "Some illustrations on this site, including the hero images on our city and guide pages, are created with AI image tools. They show the kinds of homes found in Michigan communities, not specific properties, and we do not use them to depict real people or real addresses." Copy that describes how Align works needs Align's approval. | Row | Page | Element | What waits |
+Proposed sentence for the Editorial Policy (SPEC-006): "Some illustrations on this site, including the hero images on our city and guide pages, are created with AI image tools. They show the kinds of homes found in Michigan communities, not specific properties, and we do not use them to depict real people or real addresses." Copy that describes how Align works needs Align's approval. 
+| Row | Page | Element | What waits |
 |---|---|---|---|
 | `SPEC-006` | /editorial-policy/ | body copy | Add to the Editorial Policy (F21): "Some illustrations on this site, including the hero images on our city and guide pages, are created with |
 

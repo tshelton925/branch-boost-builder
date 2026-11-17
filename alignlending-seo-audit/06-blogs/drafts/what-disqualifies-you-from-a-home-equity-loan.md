@@ -18,7 +18,7 @@ editor_review: "06-blogs/editor-review-E2.md (E2 editor, 2026-11-17)"
 publish_week: "W3 (Dec 7–13, 2026). Change the visible Updated date, datePublished and dateModified to the publish date."
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
-word_count: 2185  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
+word_count: 2186  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E2 editor count, same method as E3)
 target_money_page: "/product-loans/heloc/ (secondary: /product-loans/home-equity-loan/)"
 internal_links:
   - {anchor: "Align's Michigan Mortgage Market Report", url: "/research/michigan-mortgage-market-report/", placement: "key takeaways"}

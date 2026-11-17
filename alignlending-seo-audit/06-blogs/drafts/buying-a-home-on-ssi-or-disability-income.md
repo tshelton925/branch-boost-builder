@@ -16,7 +16,7 @@ editor_review: "06-blogs/editor-review-E1.md (E1 editor, 2026-11-17)"
 byline: "Written by Samantha Shelton NMLS 1647301"
 updated: "November 17, 2026"
 publish_week: "W8 (Jan 11–17, 2027). Set the visible Updated date, datePublished and dateModified to the publish date. Confirm the five sprint posts this guide links are live (all publish W2–W7)."
-word_count: 2200  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
+word_count: 2198  # visible body incl. FAQ and disclosure lines; excludes front matter, Sources list, HTML comments, editor tags and JSON-LD (E1 editor count, same method as E3)
 target_money_page: "/purchase/down-payment-assistance/"
 internal_links:
   - {url: "/purchase/down-payment-assistance/", anchor: "Michigan down payment assistance options"}
@@ -83,7 +83,7 @@ Yes. If you receive Social Security disability benefits, Supplemental Security I
 
 Yes. Social Security Disability Insurance (SSDI), SSI and other disability benefits can qualify as income for conventional, FHA, VA and USDA loans when you document them with an award letter and they are expected to continue. The loan still has to fit the same debt-to-income and credit rules as any other loan.
 
-SSDI is paid on your work record. SSI is needs-based, with a resource limit, so how you save matters.
+The Social Security Administration (SSA) pays SSDI on your work record. SSI is needs-based, with a resource limit, so how you save matters.
 
 <!-- CTA module (al-module position, after the first answer section) -->
 > **See what your benefits could support, and what to line up first.**
@@ -107,7 +107,7 @@ Lenders use the monthly benefit on your award letter or benefit statement. Progr
 
 Source: Fannie Mae Selling Guide [B3-3.4-15](https://selling-guide.fanniemae.com/sel/b3-3.4-15/social-security-income) (10/07/2026), [B3-3.4-09](https://selling-guide.fanniemae.com/sel/b3-3.4-09/long-term-disability-income) (03/04/2026), [B3-3.4-18](https://selling-guide.fanniemae.com/sel/b3-3.4-18/va-benefits-income) (10/07/2026) and [B3-3.1-01](https://selling-guide.fanniemae.com/sel/b3-3.1-01/general-income-information) (10/07/2026). FHA, VA and USDA rules can differ.
 
-Fannie Mae's general income rule lets the lender add 25% to verified non-taxable income. For Social Security, 15% of the benefit can count as non-taxable without extra documents; more needs proof. FHA allows the greater of 15% or the borrower's tax rate from the prior year ([HUD Handbook 4000.1](https://www.hud.gov/hud-partners/single-family-handbook-4000-1)). For retirement income, see [getting a mortgage at 60, 70 or 80](/learn/mortgage-for-seniors/).
+Fannie Mae's general income rule lets the lender add 25% to verified non-taxable income. For Social Security, 15% of the benefit can count as non-taxable without extra documents; more needs proof. FHA allows the greater of 15% or the borrower's tax rate from the prior year ([HUD Handbook 4000.1](https://www.hud.gov/hud-partners/single-family-handbook-4000-1)). Retirement income: see [getting a mortgage at 60, 70 or 80](/learn/mortgage-for-seniors/).
 
 <!-- PUBLISH DAY (W8): confirm /learn/mortgage-for-seniors/ (W5) is live. -->
 
@@ -117,7 +117,7 @@ A [2014 CFPB bulletin](https://files.consumerfinance.gov/f/201411_cfpb_bulletin_
 
 ## Will saving for a down payment affect your SSI?
 
-It can. SSI has a resource limit of $2,000 for one person and $3,000 for a couple, so cash savings above it can affect eligibility. The home you live in does not count. An ABLE account, such as Michigan's MiABLE, lets eligible people save, and the first $100,000 does not count. Check with the Social Security Administration before moving money.
+It can. SSI has a resource limit of $2,000 for one person and $3,000 for a couple, so cash savings above it can affect eligibility. The home you live in does not count. An ABLE account, such as Michigan's MiABLE, lets eligible people save, and the first $100,000 does not count. Check with SSA before moving money.
 
 Those limits have not changed since 1989 ([20 CFR 416.1205](https://www.ecfr.gov/current/title-20/section-416.1205)), and SSA counts resources as of the first moment of each month ([20 CFR 416.1207](https://www.ecfr.gov/current/title-20/section-416.1207)). SSA excludes the home you own and live in, whatever its value ([20 CFR 416.1212](https://www.ecfr.gov/current/title-20/section-416.1212)). The savings for it are not excluded, which is where an ABLE account helps.
 
@@ -141,13 +141,13 @@ Veterans can read [VA benefits for disabled veterans in Michigan](/learn/va-bene
 
 ## Are there housing grants for people with disabilities in Michigan?
 
-There is no single federal grant to buy a home. Help comes as down payment assistance from MSHDA and some cities, Housing Choice Voucher homeownership programs where offered, adapted-housing grants for eligible veterans, and nonprofit programs. Each has its own income and eligibility rules, and many are loans rather than grants.
+There is no single federal grant to buy a home. Help comes as down payment assistance from MSHDA and some cities, Housing Choice Voucher homeownership programs where offered, adapted-housing grants for eligible veterans and nonprofit programs. Each has its own income and eligibility rules, and many are loans rather than grants.
 
 - **Key to Own.** MSHDA's program lets current MSHDA Housing Choice Voucher holders convert a rental voucher into a homeownership voucher, with exceptions to its work-income rule for people with disabilities ([MSHDA](https://www.michigan.gov/mshda/rental/housing-choice-voucher/key-to-own-homeownership-program)).
 - **VA adapted-housing grants** help eligible veterans and service members with certain service-connected disabilities buy, build or adapt a home ([VA](https://www.va.gov/housing-assistance/disability-housing-grants/)).
 - **Habitat for Humanity affiliates** in Michigan run their own homeownership programs.
 
-Align's guide to [Michigan first-time homebuyer programs and grants](/learn/first-time-home-buyer-grants-and-programs/) lists city and county programs.
+City and county programs are listed in [Michigan first-time homebuyer programs and grants](/learn/first-time-home-buyer-grants-and-programs/).
 
 ## Can a lender turn you down because your income comes from disability benefits?
 
@@ -173,7 +173,7 @@ The guide to [buying a home for aging in place](/learn/buying-home-for-aging-in-
 
 [NEEDS SAMANTHA QUOTE: what she wants buyers with disability income to know before they rule themselves out]
 
-Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. We compare your scenario across multiple wholesale lenders. Bring your award letters, and Samantha can explain what a lender will ask for.
+Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. Align Lending is an independent mortgage broker. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. We compare your scenario across multiple wholesale lenders. Bring your award letters; Samantha can explain what a lender will ask for.
 
 <!-- CTA end block (before the FAQ). No apply button on this page. -->
 > [Talk with Samantha](https://calendly.com/samanthashelton?utm_source=alignlending&utm_medium=website&utm_campaign=learn&utm_content=end) · No credit pull to talk.

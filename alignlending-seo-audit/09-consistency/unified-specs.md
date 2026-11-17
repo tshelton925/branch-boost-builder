@@ -81,7 +81,7 @@ al-next   : always rendered (281 articles lack it); keep an existing end block t
 secondary : breakeven/equity keys add the text link "See how we compare refinance options in Michigan" -> /refinance/ ;
             process/budget/fthb keys add "How buying a home with Align works" -> /purchase/   (internal-link-fixes rows 20-21, K4)
 "start online" -> /start/?goal=<key goal> ; Calendly -> utm_campaign=learn&utm_content=module|end
-answer box : top 50 Learn URLs by GSC impressions get a 40-60-word answer before the first H2 + one text link (SEO-0xx rows)
+answer box : top 50 Learn URLs by GSC impressions get a 40-60-word answer before the first H2 + one text link (SEO-014 template + SEO-015, SEO-016, SEO-017 for the top 3)
 ```
 
 ### 2.3 Cluster defaults
@@ -186,7 +186,7 @@ Built from the 281 live per-article rows after every correction; the most common
 ### 3.1 Entity strings (word for word; guide §1, SEO §4.1)
 
 - **Canonical paragraph** (author boxes, reviewer/trust component, About, press kit): "Align Lending is an independent mortgage broker in Waterford, Michigan, NMLS #2041154, founded in August 2020 and licensed in Michigan, Ohio, North Carolina, Florida, Louisiana and Texas. We do not lend our own money. We arrange mortgages with wholesale lenders, which make the credit decision and fund the loan. Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301, founded the company."
-- **Once per money page** (the "Why Align" section or reviewer box): the first sentence of the paragraph (SEO-019). **Short form** above the fold and in trust lines: "Align Lending, an independent Michigan mortgage broker in Waterford".
+- **Once per money page** (the "Why Align" section or reviewer box): the first sentence of the paragraph (SEO-011). **Short form** above the fold and in trust lines: "Align Lending, an independent Michigan mortgage broker in Waterford".
 - **Samantha, first reference:** "Samantha Shelton, Broker Owner and Senior Loan Originator at Align Lending, NMLS 1647301".
 - **City pages:** "Align Lending is an independent mortgage broker based in Waterford, Michigan, serving buyers and homeowners in {City}, {County} County, by phone, text or video, with office visits by appointment on Pontiac Lake Road."
 - **Reviewer line** on every page: "Samantha Shelton, NMLS 1647301 · Updated {Month YYYY}" (brand decision 5). The verb ("By", "Written by", "Reviewed by") waits for N2 and is one template change.
@@ -283,13 +283,13 @@ One pass per page: text, citations, links (K6) and template fixes together. Data
 |---|---|---|
 | Eyebrow | "{County} County, Michigan"; multi-county "{County1} and {County2} counties, Michigan", majority first (Census V2025 place parts). The same order in JSON-LD `containedInPlace`; breadcrumb = first county. Resolved: Northville (Oakland first), Holland, Milan, Memphis, Grosse Pointe Shores, Lansing, East Lansing, Traverse City, Otter Lake, Cement City; not Otisville | U6, CTY eyebrow rows, CTY-0012 |
 | Title | "Mortgage Broker in {City}, MI \| Align Lending"; over 60 characters: "{City}, MI Mortgage Broker \| Align Lending". Only Ann Arbor tests "Ann Arbor, MI Mortgage Broker & Loan Officer \| Align Lending" | CTY-0311, SEO §2.9 |
-| H1 | Keep the current city H1 (no team proposed a change); it must name {City} and Michigan | city team |
+| H1 | "Mortgage Broker in {City}, MI" (the live pattern on all 276 pages; no team proposed a change, and it matches the title's owned query). Fix the live titles' capitalization "Mortgage Broker In" to "in" with the title pattern | crawl (`page_summary.csv`), CTY-0311 |
 | Meta | "Mortgage broker in {City}, MI. {one housing or tax fact with the same figure as the glance box}. Conventional, FHA and VA loans compared across multiple wholesale lenders. NMLS #2041154." 140-160 characters. Every meta lists the same loan set or none; never a judgment of which loans "do the work" at a price level; no MSHDA; the value figure comes from the D2 field | CTY-0025, brand §4.1, H-F19 |
 | Hero subhead | City-specific fact (ZIP, school district, taxing unit, millage) + "We check the parcel, then compare your loan across multiple wholesale lenders." | city hero rows |
 | Glance box | Four rows on every page: "Typical home value near $X ({measure}, {period})" · "Taxable value rises about Y% the year after a sale" · "Property tax current owners pay: about Z% of value" · ZIP code(s); income-tax cities add "City income tax: X% for residents" | CTY-0308, CTY-0023 |
 | Stat markup | `<p class="adp-stat__value">` / `<p class="adp-stat__label">`, never H3 | CTY-0024 |
 | Headings | Flexible slots A (ZIP and taxing units), B (2025 millage vs neighbors), C (what to settle before an offer); "In Samantha's words" and step titles are `<p>`, not headings; eight FAQ questions per page | CTY-0305, 0307, 0312 |
-| Program H2 | "Which loan programs can you use in {City}?" with a 40-60-word answer from page data: the county FHA limit, whether any part of {City} is in a USDA-eligible area (link the address check; eligibility is by address, not city), the MSHDA price limit with the F2 line, links to the FHA, VA, conventional and USDA pages | SEO-015, audit-content §5.4 |
+| Program H2 | "Which loan programs can you use in {City}?" with a 40-60-word answer from page data: the county FHA limit, whether any part of {City} is in a USDA-eligible area (link the address check; eligibility is by address, not city), the MSHDA price limit with the F2 line, links to the FHA, VA, conventional and USDA pages | SEO-013, audit-content §5.4 |
 | Closing H2 | "Talk with a Michigan mortgage expert" on all 276 pages and 12 hubs (F15, U5) | CTY-N003 |
 | CTAs | Mid-page "Talk with Samantha" (utm_campaign=city&utm_content=mid) with lead-in "Have a {City} address in mind? Samantha can check its taxes and loan options."; tax section "Estimate my property tax" → `/michigan-property-tax-calculator/#mi-tax` + text link "How Michigan taxable value works"; loan list adds "Buying a home in {City}: where to start" → `/purchase/` and "Already own in {City}? Compare refinance options" → `/refinance/` | CTA-0043/0044, ILF-0018, CTY-0027 |
 | Government line | Non-affiliation line appended to the shared city disclaimer (ships now, R-g3) | CTY-N004 |

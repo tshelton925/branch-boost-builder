@@ -98,7 +98,7 @@ See [VA loans in Michigan](/product-loans/va-loans/) and [VA loan benefits for e
 | Funding fee refund | Veterans whose award is effective before the loan closed | Same page |
 | Exemption on refinances | The same groups, on a VA streamline (IRRRL) or cash-out refinance | Same page |
 | No monthly mortgage insurance; no VA loan limit with full entitlement | Every eligible veteran | [VA home loan entitlement and limits](https://www.va.gov/housing-assistance/home-loans/loan-limits/) |
-| Specially adapted housing (SAH) and special housing adaptation (SHA) grants; maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
+| Specially adapted housing (SAH) and special home adaptation (SHA) grants; maximums reset each fiscal year | Veterans with certain permanent and total service-connected disabilities | [Disability housing grants for Veterans](https://www.va.gov/housing-assistance/disability-housing-grants/) |
 
 Source: VA.gov pages; the funding fee page was last updated October 5, 2026.
 
@@ -218,7 +218,7 @@ Not if they qualify under MCL 211.7b. A Michigan veteran rated 100% permanently 
 
 ### What disability rating do you need for the Michigan property tax exemption?
 
-You need one of three service-connected VA determinations: permanent and total disability at the 100% level, individual unemployability, or a specially adapted housing or special housing adaptation grant. A combined rating below 100% does not qualify by itself, and no income or asset test applies.
+You need one of three service-connected VA determinations: permanent and total disability at the 100% level, individual unemployability, or a specially adapted housing or special home adaptation grant. A combined rating below 100% does not qualify by itself, and no income or asset test applies.
 
 ### Do you have to file Form 5107 every year?
 
@@ -388,7 +388,7 @@ Every outside source this guide links to, in the order it appears.
           "name": "What disability rating do you need for the Michigan property tax exemption?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You need one of three service-connected VA determinations: permanent and total disability at the 100% level, individual unemployability, or a specially adapted housing or special housing adaptation grant. A combined rating below 100% does not qualify by itself, and no income or asset test applies."
+            "text": "You need one of three service-connected VA determinations: permanent and total disability at the 100% level, individual unemployability, or a specially adapted housing or special home adaptation grant. A combined rating below 100% does not qualify by itself, and no income or asset test applies."
           }
         },
         {
