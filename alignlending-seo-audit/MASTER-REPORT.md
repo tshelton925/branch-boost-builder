@@ -267,12 +267,12 @@ Learn and city values come from the content and city audits. Learn above-the-fol
 
 ## 5. Top 25 changes by impact
 
-Ranked by the SEO/AI editor's value score (traffic, CTR, conversion and AI-citation impact × confidence ÷ effort; `seo-ai-review.md` §5–6). Each row is in `MASTER-CHANGES.csv`. Phase follows the roadmap in §6.
+Ranked by the SEO/AI editor's value score (traffic, CTR, conversion and AI-citation impact × confidence ÷ effort; `seo-ai-review.md` §5–6). Every on-site change is in `MASTER-CHANGES.csv`; #3 is off-site (Google Business Profile, Bing Places). Timing follows the roadmap in §6.
 
 | # | Change | Area | Impact | Effort | When |
 |---|---|---|---|---|---|
 | 1 | Keep `/learn/usda-loan-basics/` as the "usda eligibility" owner. Add a 56-word eligibility answer and a "Check an address for USDA" link above the first H2. Title: "USDA Loans: Eligibility and How Rural Development Loans Work". Remove "rates as low as 1%" from the meta. | Keyword gaps, compliance | high | low | Wave 0 (meta) + Days 1–30 |
-| 2 | Home title "Michigan Mortgage Broker and Home Loans | Align Lending", H1 "Michigan Mortgage Broker: One Application, Multiple Wholesale Lenders", plus the "What does a mortgage broker do?" answer | Core pages, titles | high | low | Days 1–30 |
+| 2 | Home title "Michigan Mortgage Broker and Home Loans \| Align Lending", H1 "Michigan Mortgage Broker: One Application, Multiple Wholesale Lenders", plus the "What does a mortgage broker do?" answer | Core pages, titles | high | low | Days 1–30 |
 | 3 | Google Business Profile: services list, Q&A from the 40–60-word answers, monthly posts. Claim Bing Places. Same name, address and phone everywhere. | AI readiness, local | high | low | Days 1–30 (off-site) |
 | 4 | 25 CTR title/meta rewrites on Learn pages already at positions 1–15 (conveyance, types of refinancing, amortization, homestead, rate lock, VA benefits, HomeReady, escrow, HELOC compare…) | Titles and meta | high | low | Days 1–30 |
 | 5 | Calendly UTM on every booking link, `link_text` in the `alignTrack` click listener, derived GA4 events | CTAs, measurement | enabler | low | Wave 0 |
@@ -353,7 +353,7 @@ The 15th planned post (VA entitlement, `06-blogs/briefs/backlog/`) waits for the
 | Refresh in place | 32 planned (88 flagged in the inventory) | Includes the Michigan first-time programs page, the homestead/PRE guide, lender comparison, rate lock, closing costs and well water. The URL keeps its equity. |
 | Merge (301 into a canonical) | 85 articles in 63 merge groups | 94 merge rows in `09-consistency/redirect-map.csv`. Amortization canonical = `/learn/amortization-schedules/`. Lease-to-own siblings fold into the canonical. |
 | Prune (301 to the closest topic) | 38 drift articles | Mansions, crowdfunding, insurance deductibles, energy audits, NMLS exam questions and similar |
-| Redirect map total | 159 rows | 141 approved · 10 rejected · 6 keep · 2 hold (pending-owner: n3) |
+| Redirect map total | 159 rows | 141 approved · 10 rejected · 6 kept (existing 301s) · 2 on hold for owner decision N3 |
 | Library after the plan | about 316 indexable articles | 424 − 85 − 38 + 15 new (−25%) |
 
 The 96 legacy root posts and 293 `/mortgage-location/` URLs already 301 in one hop to their new pages. **Keep those redirects permanently.**
